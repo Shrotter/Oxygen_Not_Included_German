@@ -2389,10 +2389,12 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT"
 msgid "Marginally <style=\"heat\">Warms</style> large bodies of <style=\"liquid\">Liquid</style>.\n\nMust be fully submerged."
 msgstr "Geringfügige <style=\"heat\">Erwärmung</style> großer Mengen <style=\"liquid\">Flüssigkeit</style>.\n\nMuss vollständig untergetaucht sein."
 
+# Terpedizer = Latein von tepidus = Lauwarm/warm
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME"
 msgid "Liquid Tepidizer"
-msgstr "Füssigkeitstemperierer"
+msgstr "Flüssigkeitswärmer"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.DESC"
@@ -3858,12 +3860,12 @@ msgstr "Diese Kreatur stößt Gas aus ihren Lungensäcken aus"
 #. STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME"
 msgid "External Temperature"
-msgstr "Externe Temperatur"
+msgstr "Umgebungstemperatur"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.TOOLTIP"
 msgid "External Temperature\n----------\nThis creature's environment is {0}"
-msgstr "Externe Temperatur\n----------\nDie Umgebung dieser Kreatur hat {0}"
+msgstr "Umgebungstemperatur\n----------\nDie Umgebung dieser Kreatur hat {0}"
 
 #. STRINGS.CREATURES.STATUSITEMS.FALLING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.FALLING.NAME"
@@ -4863,7 +4865,7 @@ msgstr "Aufräumen"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC"
 msgid "Manually enable, disable or adjust building switches and filters."
-msgstr "Manuelles Aktivieren, Deaktivieren oder Anpassen von Objekt-schaltern und Filtern."
+msgstr "Manuelles Aktivieren, Deaktivieren oder Anpassen von Objekten, Schaltern und Filtern."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME"
@@ -4903,7 +4905,7 @@ msgstr "Stirbt"
 #. STRINGS.DUPLICANTS.CHORES.BINGE_EAT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BINGE_EAT.NAME"
 msgid "Binge Eat"
-msgstr ""
+msgstr "Fressattacke"
 
 #. STRINGS.DUPLICANTS.CHORES.BINGE_EAT.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.BINGE_EAT.STATUS"
@@ -4993,12 +4995,12 @@ msgstr "Kühlt gerade ab"
 #. STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME"
 msgid "DebugGoTo"
-msgstr "DebugGehe Zu"
+msgstr "DebugGoTo"
 
 #. STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.STATUS"
 msgid "DebugGoTo"
-msgstr "DebugGehe Zu"
+msgstr "DebugGoTo"
 
 #. STRINGS.DUPLICANTS.CHORES.DECONSTRUCT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DECONSTRUCT.NAME"
@@ -5048,7 +5050,7 @@ msgstr "Arzt"
 #. STRINGS.DUPLICANTS.CHORES.DOCTOR.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.STATUS"
 msgid "Nursing"
-msgstr "Pflegen"
+msgstr "Pflegt"
 
 #. STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.NAME"
@@ -5143,42 +5145,42 @@ msgstr "Holt"
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.NAME"
 msgid "Deliver"
-msgstr ""
+msgstr "Liefern"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS"
 msgid "Delivering"
-msgstr ""
+msgstr "Liefert"
 
 #. STRINGS.DUPLICANTS.CHORES.FLEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLEE.NAME"
 msgid "Flee"
-msgstr ""
+msgstr "Fliehen"
 
 #. STRINGS.DUPLICANTS.CHORES.FLEE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLEE.STATUS"
 msgid "Fleeing"
-msgstr ""
+msgstr "Flieht"
 
 #. STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.NAME"
 msgid "Flip"
-msgstr ""
+msgstr "Wenden"
 
 #. STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.STATUS"
 msgid "Going to flip compost"
-msgstr ""
+msgstr "Wendet Kompost"
 
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME"
 msgid "Generate Power"
-msgstr ""
+msgstr "Strom erzeugen"
 
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.STATUS"
 msgid "Going to generate power"
-msgstr ""
+msgstr "erzeugt Strom"
 
 #. STRINGS.DUPLICANTS.CHORES.HARVEST.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.HARVEST.NAME"
@@ -5193,22 +5195,22 @@ msgstr "Geht ernten"
 #. STRINGS.DUPLICANTS.CHORES.HEAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.HEAL.NAME"
 msgid "Heal"
-msgstr ""
+msgstr "Heilen"
 
 #. STRINGS.DUPLICANTS.CHORES.HEAL.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.HEAL.STATUS"
 msgid "Healing"
-msgstr ""
+msgstr "Heilt"
 
 #. STRINGS.DUPLICANTS.CHORES.HEALCRITICAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.HEALCRITICAL.NAME"
 msgid "Heal"
-msgstr ""
+msgstr "Heilen"
 
 #. STRINGS.DUPLICANTS.CHORES.HEALCRITICAL.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.HEALCRITICAL.STATUS"
 msgid "Healing"
-msgstr ""
+msgstr "Heilt"
 
 #. STRINGS.DUPLICANTS.CHORES.IDLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.IDLE.NAME"
@@ -5243,7 +5245,7 @@ msgstr "Wische auf"
 #. STRINGS.DUPLICANTS.CHORES.MOVETO.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.NAME"
 msgid "Move to"
-msgstr ""
+msgstr "Gehe zu"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETO.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.STATUS"
@@ -5303,7 +5305,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.CHORES.PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.NAME"
 msgid "Pee"
-msgstr ""
+msgstr "Pinkeln"
 
 #. STRINGS.DUPLICANTS.CHORES.PEE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.STATUS"
@@ -5758,7 +5760,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.NAME"
 msgid "Hypothermia"
-msgstr ""
+msgstr "Unterkühlung"
 
 #. STRINGS.DUPLICANTS.DISEASES.CURED_POPUP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.CURED_POPUP"
@@ -5828,7 +5830,7 @@ msgstr "extreme Körpertemperatur"
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA"
 msgid "standing in a toxic area"
-msgstr ""
+msgstr "Steht in einem giftigen Bereich"
 
 #. STRINGS.DUPLICANTS.DISEASES.LAZIBONITIS.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.LAZIBONITIS.DESCRIPTION"
@@ -11028,22 +11030,22 @@ msgstr "Schmutzwurzel"
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.DESC"
 msgid "<style=\"food\">Meal Lice</style> compacted into a dense, immobile loaf."
-msgstr ""
+msgstr "<Style=\"food\">Mehl Läuse</style> verdichtet zu einem dichten, unbeweglichen Brot."
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.NAME"
 msgid "Liceloaf"
-msgstr ""
+msgstr "Läusebrot"
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.RECIPEDESC"
 msgid "<style=\"food\">Meal Lice</style> compacted into a dense, immobile loaf."
-msgstr ""
+msgstr "<Style=\"food\">Mehl Läuse</style> verdichtet zu einem dichten, unbeweglichen Brot."
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTFOOD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.DESC"
 msgid "A flavorless grain that almost never wiggles on its own."
-msgstr ""
+msgstr "Ein geschmackloses Korn, das sich fast niemals von allein bewegt."
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTFOOD.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.NAME"
@@ -11078,17 +11080,17 @@ msgstr "Graupelweizenkorn"
 #. STRINGS.ITEMS.FOOD.COOKEDMEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.DESC"
 msgid "The cooked meat of a defeated creature.\n\nIt has a delightful smokey aftertaste."
-msgstr ""
+msgstr "Das gekochte Fleisch einer besiegten Kreatur.\n\nEs hat einen herrlichen rauchigen Nachgeschmack."
 
 #. STRINGS.ITEMS.FOOD.COOKEDMEAT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.NAME"
 msgid "BBQ"
-msgstr ""
+msgstr "BBQ"
 
 #. STRINGS.ITEMS.FOOD.COOKEDMEAT.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.RECIPEDESC"
 msgid "The cooked meat of a defeated creature."
-msgstr ""
+msgstr "Das gekochte Fleisch einer besiegten Kreatur."
 
 #. STRINGS.ITEMS.FOOD.FIELDRATION.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FIELDRATION.DESC"
@@ -11103,32 +11105,32 @@ msgstr "Feldration"
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.DESC"
 msgid "Deep fried, solidified mudslop.\n\nThe inside is almost completely uncooked, despite the crunch on the outside."
-msgstr ""
+msgstr "Frittierter, erstarrter Schlamm.\n\nDas Innere ist fast völlig ungekocht, trotz der knusprigen Außenseite."
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.NAME"
 msgid "Mush Fry"
-msgstr ""
+msgstr "Frittierter Matsch"
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.RECIPEDESC"
 msgid "Deep fried, solidified mudslop."
-msgstr ""
+msgstr "Frittierter, erstarrter Schlamm."
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
 msgid "The grilled bud of a <style=\"plant\">Bristle Blossom</style>.\n\nHeat unlocked an exquisite taste in the fruit, though the burnt spines leave something to be desired."
-msgstr ""
+msgstr "Die gegrillte Knospe einer <style=\"plant\">Dornenblüte</style>.\n\nHitze gibt der Frucht einen exquisiten Geschmack, obwohl die verbrannten Stacheln etwas zu wünschen übrig lassen."
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.NAME"
 msgid "Gristle Berry"
-msgstr ""
+msgstr "Knorpelbeere"
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.RECIPEDESC"
 msgid "The grilled bud of a <style=\"plant\">Bristle Blossom</style>."
-msgstr ""
+msgstr "Die gegrillte Knospe einer <style=\"plant\">Dornenblüte</style>."
 
 #. STRINGS.ITEMS.FOOD.MEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MEAT.DESC"
@@ -11143,37 +11145,37 @@ msgstr "Fleisch"
 #. STRINGS.ITEMS.FOOD.MUSHBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.DESC"
 msgid "An edible, putrefied mudslop that may cause <style=\"disease\">Diarrhea</style>.\n\nMush Bars are preferable to starvation, but only just barely."
-msgstr ""
+msgstr "Ein essbarer, faulender Schlamm, der <style=\"disease\">Durchfall</style> verursachen kann.\n\nMatsch Riegel sind besser als Hunger, aber nur ein bisschen."
 
 #. STRINGS.ITEMS.FOOD.MUSHBAR.NAME
 msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.NAME"
 msgid "Mush Bar"
-msgstr ""
+msgstr "Matsch Riegel"
 
 #. STRINGS.ITEMS.FOOD.MUSHBAR.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.RECIPEDESC"
 msgid "An edible, putrefied mudslop.\n\nMush Bars are preferable to starvation, but only just barely."
-msgstr ""
+msgstr "Ein essbarer, faulender Schlamm.\n\nMatsch Riegel sind besser als Hunger, aber nur ein bisschen."
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC"
 msgid "Meal Lice preserved in vinegar.\n\nIt's a rarely acquired taste."
-msgstr ""
+msgstr "Mehlläuse in Essig eingelegt.\n\ndas ist etwas für Kenner."
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.NAME
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.NAME"
 msgid "Pickled Meal"
-msgstr ""
+msgstr "Eingelegte Mahlzeit"
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC"
 msgid "Meal Lice regrettably preserved in vinegar."
-msgstr ""
+msgstr "Mehlläuse in Essig eingelegt."
 
 #. STRINGS.ITEMS.FOOD.PRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PRICKLEFRUIT.DESC"
 msgid "A sweet, mostly pleasant-tasting fruit covered in prickly barbs."
-msgstr ""
+msgstr "Eine süße, meist angenehm schmeckende Frucht, die mit Stacheln bedeckt ist."
 
 #. STRINGS.ITEMS.FOOD.PRICKLEFRUIT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.PRICKLEFRUIT.NAME"
@@ -11183,27 +11185,27 @@ msgstr "Dornenbeere"
 #. STRINGS.ITEMS.FOOD.ROTPILE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.DESC"
 msgid "An inedible glop of former foodstuff.\n\nRot piles break down into <style=\"solid\">Polluted Dirt</style> over time."
-msgstr ""
+msgstr "Ein ungenießbarer Haufen ehemaliger Lebensmittel.\n\nVerrotteter Haufen wird im laufe der zeit zu <style=\"solid\">Verschmutzter Erde</style>."
 
 #. STRINGS.ITEMS.FOOD.ROTPILE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.NAME"
 msgid "Rot Pile"
-msgstr ""
+msgstr "Verrotteter Haufen"
 
 #. STRINGS.ITEMS.FOOD.SALSA.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.DESC"
 msgid "A baked <style=\"food\">Bristle Berry</style> stuffed with delectable spices and vibrantly flavored."
-msgstr ""
+msgstr "Eine gebackene, gut gewürzt und köstlich gefüllte <style=\"food\">Dornenbeere</style>."
 
 #. STRINGS.ITEMS.FOOD.SALSA.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.NAME"
 msgid "Stuffed Berry"
-msgstr ""
+msgstr "Gefüllte Beere"
 
 #. STRINGS.ITEMS.FOOD.SALSA.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.RECIPEDESC"
 msgid "A baked <style=\"food\">Bristle Berry</style> stuffed with delectable spices and vibrantly flavored."
-msgstr ""
+msgstr "Eine gebackene, gut gewürzt und köstlich gefüllte <style=\"food\">Dornenbeere</style>."
 
 #. STRINGS.ITEMS.FOOD.SPICEBREAD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICEBREAD.DESC"
@@ -14808,7 +14810,7 @@ msgstr "Nutz was du willst, filtere, was du nicht willst."
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
 msgid "Utilities"
-msgstr "Hilfsmittel"
+msgstr "Klima"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP"
@@ -19573,7 +19575,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTEFFECTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTEFFECTS"
 msgid "Conditions for Harvest Rating Point generation and additional effects"
-msgstr "Bedingungen für Erntebewertungspunktegenertation und Zusatzeffekte"
+msgstr "Bedingungen für Erntebewertungspunktegeneration und Zusatzeffekte"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTREQUIREMENTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTREQUIREMENTS"
