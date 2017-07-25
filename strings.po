@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.3\n"
 "Last-Translator: Xandras\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: de_DE\n"
@@ -12045,6 +12045,7 @@ msgstr "Lerne, wie du die Aufgaben deiner Duplikanten verwalten kannst"
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY"
 msgid "Environments that are extremely <style=\"heat\">Hot</style> or <style=\"heat\">Cold</style> will affect your Duplicants' internal body temperature and cause <style=\"stress\">Stress</style>.\n\nThe <color=#833A5FFF>THERMAL COMFORT OVERLAY</color> <color=#F44A47>[F4]</color> will allow you to view all areas where Duplicants cannot regulate their temperature and will become uncomfortable."
+msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
@@ -15604,12 +15605,12 @@ msgstr "Demo-Zeit verbleibend"
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS"
 msgid "{0}: {1}"
-msgstr ""
+msgstr "{0}: {1}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_ROTTABLE
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_ROTTABLE"
 msgid "\n\t• {0}"
-msgstr ""
+msgstr "\n\t• {0}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
@@ -15789,7 +15790,7 @@ msgstr "Neues Level: {0}"
 #. STRINGS.UI.DETAILTABS.NEEDS.OVERVIEW
 msgctxt "STRINGS.UI.DETAILTABS.NEEDS.OVERVIEW"
 msgid "Overview"
-msgstr ""
+msgstr "Übersicht"
 
 #. STRINGS.UI.DETAILTABS.NEEDS.STRESS_CREATORS
 msgctxt "STRINGS.UI.DETAILTABS.NEEDS.STRESS_CREATORS"
@@ -15814,7 +15815,7 @@ msgstr "Dieser Duplikant wurde {0} zugewiesen.\nEffekte:{1}"
 #. STRINGS.UI.DETAILTABS.POSSESSIONS.EQUIPMENT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.EQUIPMENT_TOOLTIP"
 msgid "This Duplicant has been equipped with a {0}"
-msgstr ""
+msgstr "Dieser Duplikant wurde mit einem {0} ausgerüstet"
 
 #. STRINGS.UI.DETAILTABS.POSSESSIONS.GROUPNAME_EQUIPMENT
 msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.GROUPNAME_EQUIPMENT"
@@ -16129,7 +16130,7 @@ msgstr "Deine Kolonie hat {0} <style=\"food\">Nahrung</style> im Laufe des Tages
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
 msgid "<style=\"gas\">Flatulence</style> Generation:"
-msgstr ""
+msgstr "<Style=\"gas\">Flatulenz</style> Generation:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
@@ -16564,7 +16565,7 @@ msgstr "SPIEL LADEN"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION"
 msgid "<b><color=#ff0000>This save file is from a previous version of the game and is no longer supported.</color></b>\n\nYou may revert to the previous build to play your old save. Please follow the link below for details."
-msgstr ""
+msgstr "<B> <color=# ff0000> Diese Sicherungsdatei stammt aus einer früheren Version des Spiels und wird nicht mehr unterstützt. </color></b>\n\nDu kannst zum vorherigen Build zurückkehren, um deinen alten Speicherstand zu spielen. Bitte folge dem Link unten für Details."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -17689,6 +17690,7 @@ msgstr "Verbunden mit <style=\"GasPiping\">Gasleitung</style>"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER"
 msgid "Sends gas into pipes from a building\n* Must connect to at least one <style=\"GasDestination\">Intake</style>"
+msgstr "Sendet Gas in Rohrleitungen aus einem Objekt\n* Muss mit mindestens mit einem <style=\"GasDestination\">Eingang</style> verbunden sein"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED"
@@ -17868,6 +17870,7 @@ msgstr "Flüssignetzwerk {0}"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.PRODUCER"
 msgid "Sends liquid into a building from pipes\n* Must connect to at least one <style=\"LiquidSource\">Output</style>"
+msgstr "Sendet Flüssigkeit in ein Objekt aus Rohrleitungen\n* Muss sich an mindestens an einem <style =\"LiquidSource\">Ausgang</style> angeschlossen sein"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.BUTTON"
@@ -18287,22 +18290,22 @@ msgstr "ZEITPLAN"
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.EAT.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.EAT.DESCRIPTION"
 msgid "EAT:\nDuring Mealtime Duplicants will head to their assigned mess halls and eat."
-msgstr ""
+msgstr "ESSEN:\nWährend der Essenszeit werden Duplikanten zu ihren zugeteilten Messehallen gehen und essen."
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.EAT.NAME
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.EAT.NAME"
 msgid "Mealtime"
-msgstr ""
+msgstr "Essenszeit"
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.HYGIENE.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.HYGIENE.DESCRIPTION"
 msgid "HYGIENE:\nDuring <style=\"hygiene\">Hygiene</style> hours Duplicants will head to their assigned washrooms to get cleaned up."
-msgstr ""
+msgstr "HYGIENE:\nWährend <style =\"hygiene\">Hygiene</style> Stunden, werden Duplikanten zu den zugeteilten Waschräumen gehen, um sich zu säubern."
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.HYGIENE.NAME
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.HYGIENE.NAME"
 msgid "Hygiene"
-msgstr ""
+msgstr "Hygiene"
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.RECREATION.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.RECREATION.DESCRIPTION"
@@ -18312,72 +18315,72 @@ msgstr "HAMMER TIME:\nWährend der Hammer Time werden Duplikanten ihren <style=\
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.RECREATION.NAME
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.RECREATION.NAME"
 msgid "Recreation"
-msgstr ""
+msgstr "Erholung"
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.SLEEP.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.SLEEP.DESCRIPTION"
 msgid "SLEEP:\nWhen it's time to sleep, Duplicants will head to their assigned rooms and rest."
-msgstr ""
+msgstr "SCHLAF:\nWenn es Zeit ist zu schlafen, werden Duplikanten zu ihren zugewiesenen Räumen gehen und sich ausruhen."
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.SLEEP.NAME
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.SLEEP.NAME"
 msgid "Sleep"
-msgstr ""
+msgstr "Schlafen"
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.WORK.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.WORK.DESCRIPTION"
 msgid "WORK:\nDuring Work hours Duplicants will perform any pending job tasks in the colony."
-msgstr ""
+msgstr "ARBEIT:\nWährend der Arbeitszeit werden Duplikanten in der Kolonie ausstehende Berufsspezifische aufgaben ausführen."
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.WORK.NAME
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.WORK.NAME"
 msgid "Work"
-msgstr ""
+msgstr "Arbeiten"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALLOWED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALLOWED"
 msgid "Allowed"
-msgstr ""
+msgstr "Erlaubt"
 
 #. STRINGS.UI.SCHEDULESCREEN.BLOCKS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.BLOCKS"
 msgid "BLOCKS:"
-msgstr ""
+msgstr "BLÖCKE:"
 
 #. STRINGS.UI.SCHEDULESCREEN.CLICKTOCHANGE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOCHANGE"
 msgid "Click to change block type."
-msgstr ""
+msgstr "Klicke hier, um den Blocktyp zu ändern."
 
 #. STRINGS.UI.SCHEDULESCREEN.CLICKTOSELECT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOSELECT"
 msgid "Click to select."
-msgstr ""
+msgstr "Klicke um auszuwählen."
 
 #. STRINGS.UI.SCHEDULESCREEN.DENIED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DENIED"
 msgid "Denied"
-msgstr ""
+msgstr "Verweigert"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE"
 msgid "SCHEDULE:"
-msgstr ""
+msgstr "ZEITPLAN:"
 
 #. STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP"
 msgid "Select a block type to adjust the colony's schedule"
-msgstr ""
+msgstr "Wähle einen Blocktyp aus, um den Zeitplan der Kolonie anzupassen"
 
 #. STRINGS.UI.SCHEDULESCREEN.SELECTHELP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTHELP"
 msgid "Select an option and then click or drag on the timetable to adjust the Duplicant's schedule."
-msgstr ""
+msgstr "Wählen Sie eine Option aus und klicke dann auf den Zeitplan, um den Zeitplan des Duplikanten anzupassen."
 
 #. STRINGS.UI.SCHEDULESCREEN.TIMESLOT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.TIMESLOT"
 msgid "Time Slot"
-msgstr ""
+msgstr "Zeitfenster"
 
 #. STRINGS.UI.SPEED_FAST
 msgctxt "STRINGS.UI.SPEED_FAST"
@@ -18532,7 +18535,7 @@ msgstr "Regionslöschungs-Werkzeug"
 #. STRINGS.UI.TOOLS.EXOSUITREGION.NAME
 msgctxt "STRINGS.UI.TOOLS.EXOSUITREGION.NAME"
 msgid "Drag to designate an exosuit region"
-msgstr ""
+msgstr "Ziehe, um eine Exosuit-Region Festzulegen"
 
 #. STRINGS.UI.TOOLS.EXOSUITREGION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.EXOSUITREGION.TOOLNAME"
@@ -19642,7 +19645,7 @@ msgstr "{0} <style=\"food\">{1}</style> pro Ernte"
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
 msgid "Currently Researching"
-msgstr ""
+msgstr "Wird gerade erforscht"
 
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.NOSELECTEDRESEARCH
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.NOSELECTEDRESEARCH"
@@ -19722,22 +19725,22 @@ msgstr "Aktuelle Temperatur:\n{0}"
 #. STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.TITLE"
 msgid "Temperature Threshold"
-msgstr ""
+msgstr "Temperaturschwelle"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.WARMER_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.WARMER_BUTTON"
 msgid "Above"
-msgstr ""
+msgstr "Über"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.ABOVE_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.ABOVE_BUTTON"
 msgid "Above"
-msgstr ""
+msgstr "Über"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.ACTIVATE_IF"
 msgid "Activate if:"
-msgstr ""
+msgstr "Aktiviert wenn:"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.BELOW_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.BELOW_BUTTON"
@@ -19747,22 +19750,22 @@ msgstr "Unter"
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CURRENT_VALUE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CURRENT_VALUE"
 msgid "Current {0}:\n{1}"
-msgstr ""
+msgstr "Aktuell {0}:\n{1}"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE"
 msgid "Pressure"
-msgstr ""
+msgstr "Druck"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE_TOOLTIP_ABOVE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE_TOOLTIP_ABOVE"
 msgid "Switch will be on if the pressure is above {0}"
-msgstr ""
+msgstr "Schalter wird eingeschaltet, wenn der Druck über {0}"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE_TOOLTIP_BELOW
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE_TOOLTIP_BELOW"
 msgid "Switch will be off if the pressure is below {0}"
-msgstr ""
+msgstr "Der Schalter wird ausgeschaltet, wenn der Druck unter {0} liegt"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.STATUS_ACTIVE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.STATUS_ACTIVE"
@@ -19782,12 +19785,12 @@ msgstr "Temperatur"
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TEMPERATURE_TOOLTIP_ABOVE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TEMPERATURE_TOOLTIP_ABOVE"
 msgid "Switch will be on if the ambient temperature is above {0}"
-msgstr ""
+msgstr "Schalter wird eingeschaltet, wenn die Umgebungstemperatur über {0} liegt"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TEMPERATURE_TOOLTIP_BELOW
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TEMPERATURE_TOOLTIP_BELOW"
 msgid "Switch will be off if the ambient temperature is below {0}"
-msgstr ""
+msgstr "Der Schalter wird ausgeschaltet, wenn die Umgebungstemperatur unter {0} liegt"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TITLE"
