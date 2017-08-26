@@ -9,7 +9,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
 "X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -41,7 +40,7 @@ msgstr "Zugriffskontrolle offline"
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP"
 msgid "This door has granted Emergency Access Permissions\n------------------\nAll Duplicants are permitted to pass through it until power is restored"
-msgstr "Diese Tür hat Notfallzugriffsberechtigungen aktiviert\n------------------\nAlle Duplikanten können die Türe benutzen, bis die Stromversorgung wiederhergestellt ist"
+msgstr "Diese Tür hat Notfall zugriffsberechtigungen aktiviert\n------------------\nAlle Duplikanten können die Türe benutzen, bis die Stromversorgung wiederhergestellt ist"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME"
@@ -81,12 +80,12 @@ msgstr "Unvollständiges Kunstwerk"
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.TOOLTIP"
 msgid "This building requires a Duplicant's artistic touch"
-msgstr "Dieses Gebäude erfordert die künstlerische Note eines Duplikanten"
+msgstr "Dieses Objekt erfordert die künstlerische Note eines Duplikanten"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.NAME"
 msgid "Requires Flipping"
-msgstr "Muss umgesetzt werden"
+msgstr "Muss umgegraben werden"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP"
@@ -121,7 +120,7 @@ msgstr "Batterien ausreichend voll"
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.TOOLTIP"
 msgid "All batteries are above the refill threshold"
-msgstr "Alle Batterien liegen oberhalb der Nachladeschwelle"
+msgstr "Alle Batterien liegen oberhalb der Ladeschwelle"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME"
@@ -321,7 +320,7 @@ msgstr "Benutze Richtung: {Direction}"
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
 msgid "Duplicants will only use this building when walking by it. Currently allowed direction: {Direction}"
-msgstr "Duplikanten werden dieses Gebäude nur beim durchlaufen verwenden. Derzeit erlaubte richtung: {Direction}"
+msgstr "Duplikanten werden dieses Gebäude nur beim durchlaufen verwenden. Derzeit erlaubte Richtung: {Direction}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME"
@@ -561,7 +560,7 @@ msgstr "Unerreichbares Essen"
 #. STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FOOD_CONTAINERS_OUTSIDE_RANGE.TOOLTIP"
 msgid "Recuperating Duplicants must have food available within {0} cells"
-msgstr ""
+msgstr "Genesende Duplikanten müssen Nahrung innerhalb von {0} Feldern zur Verfügung haben"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
@@ -621,7 +620,7 @@ msgstr "Neuronale Oszillation beendet"
 #. STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.TOOLTIP"
 msgid "The Duplicant has completed the neural vacillation process and is ready to be released"
-msgstr "Der Duplikant hat den neuronalen Oszillationsprozess abgeschlossen und ist bereit, freigegelassen zu werden"
+msgstr "Der Duplikant hat den neuronalen Oszillationsprozess abgeschlossen und ist bereit, freigelassen zu werden"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME"
@@ -681,7 +680,7 @@ msgstr "Unzureichende Ressourcen"
 #. STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.TOOLTIP"
 msgid "The mass of material that was delivered to this building was too low\n\nDeliver more material to run this building"
-msgstr "Die Materialmasse, die an dieses Gebäude geliefert wurde, war zu niedrig.\n\nliefere mehr Material, um dieses Gebäude zu betreiben"
+msgstr "Die Materialmasse, die an dieses Objekt geliefert wurde, war zu niedrig.\n\nLiefere mehr Material, um dieses Objekt zu betreiben"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
@@ -916,7 +915,7 @@ msgstr "Kein Flüssigkeitseingang"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.TOOLTIP"
 msgid "This building has nowhere to receive liquid from"
-msgstr "Die Maschine hat keinen Ort um Flüssigkeit aufzunehmen"
+msgstr "Dieses Objekt hat keinen Anschluss, um Flüssigkeit aufzunehmen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME"
@@ -926,7 +925,7 @@ msgstr "Kein Flüssigkeitseingang"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP"
 msgid "This building has nowhere to send liquid"
-msgstr "Die Maschine hat keinen Ort um Flüssigkeit auszustoßen"
+msgstr "Dieses Objekt hat keinen Anschluss, um Flüssigkeit auszustoßen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME"
@@ -1286,7 +1285,7 @@ msgstr "{0} {1} bei {2}"
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS_WITH_DISEASE
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS_WITH_DISEASE"
 msgid "\n  {0}"
-msgstr ""
+msgstr "\n  {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.EMPTY
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.EMPTY"
@@ -1411,7 +1410,7 @@ msgstr "Unerreichbare Toilette"
 #. STRINGS.BUILDING.STATUSITEMS.TOILETS_OUTSIDE_RANGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOILETS_OUTSIDE_RANGE.TOOLTIP"
 msgid "Recuperating Duplicants must have toilets available within {0} cells"
-msgstr "Denesende Duplikanten müssen Toiletten innerhalb von {0} Feldern zur Verfügung haben"
+msgstr "Genesende Duplikanten müssen Toiletten innerhalb von {0} Feldern zur Verfügung haben"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME"
@@ -1679,10 +1678,6 @@ msgid "This building is already clean"
 msgstr "Dieses Gebäude ist schon sauber"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.DESC"
-msgid "Super computers unlock higher technology tiers than research stations alone."
-Msgstr "Supercomputer schaltet höhere Technologiestufen als Forschungsstationen alleine frei."
-
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid "Conducts <style=\"research\">Intermediate Research</style> to unlock new technologies."
@@ -1786,12 +1781,12 @@ msgstr "Batterie"
 #. STRINGS.BUILDINGS.PREFABS.BED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.DESC"
 msgid "Duplicants without a private bed will develop sore backs from sleeping on the floor."
-msgstr "Duplikanten ohne ein zugewiesenes Bett bekommen Rückenschmerzen vom schlafen auf dem Boden."
+msgstr "Duplikanten ohne ein zugewiesenes Bett bekommen Rückenschmerzen vom auf dem Boden schlafen."
 
 #. STRINGS.BUILDINGS.PREFABS.BED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.EFFECT"
 msgid "Provides a sleeping area for one Duplicant and relieves <style=\"stress\">Stress</style>.\n\nDuplicants will automatically sleep in their assigned cots at night."
-msgstr "Bietet einen Schlafplatz für einen Duplikanten und veringert <style=\"stress\">Stress</ style>.\n\nDuplikanten schlafen nachts automatisch in ihren zugewiesenen Betten."
+msgstr "Bietet einen Schlafplatz für einen Duplikanten und verringert den <style=\"stress\">Stress</ style>.\n\nDuplikanten schlafen nachts automatisch in ihren zugewiesenen Betten."
 
 #. STRINGS.BUILDINGS.PREFABS.BED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.NAME"
@@ -1821,7 +1816,7 @@ msgstr "Mittelmäßige Malerei"
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.DESC"
 msgid "Once built, a Duplicant can paint a blank canvas to produce a decorative painting."
-msgstr "Einmal gebaut, kann ein Duplicant eine leere Leinwand bemalen, um eine dekorative Malerei zu kreieren."
+msgstr "Einmal gebaut, kann ein Duplikant eine leere Leinwand bemalen, um eine dekorative Malerei zu kreieren."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
@@ -1876,7 +1871,7 @@ msgstr "Webstuhl"
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC"
 msgid "Carbon Skimmers remove large amounts of carbon dioxide, but produce no breathable air."
-msgstr "Luftreiniger entfernen große Mengen an Kohlendioxid, produzieren aber keine athembare Luft."
+msgstr "Luftreiniger entfernen große Mengen an Kohlendioxid, produzieren aber keine atembare Luft."
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
@@ -1991,12 +1986,12 @@ msgstr "Diese Tür bleibt offen"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.DESC"
 msgid "Door controls can be used to prevent Duplicants from entering restricted areas."
-msgstr ""
+msgstr "Türkontrollen können verwendet werden um zu verhindern, dass Duplikanten in gewisse Bereiche gelangen."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT"
 msgid "Encloses areas without blocking <style=\"liquid\">Liquid</style> or <style=\"gas\">Gas</style> flow.\n\nSets Duplicant Access Permissions for area restriction.\n\nWild creatures cannot pass through doors."
-msgstr "Grenzt ein Gebiet ab ohne <style=\"gas\">Gas</style> oder <style=\"liquid\">Flüssigkeiten</style> abzuhalten.\n\nSets Duplicant Access Permissions for area restriction.\n\nWilde Kreaturen können nicht durch Türen gehen."
+msgstr "Grenzt ein Gebiet ab ohne <style=\"gas\">Gas</style> oder <style=\"liquid\">Flüssigkeiten</style> abzuhalten.\n\nkann zur Bereichsbeschränkung für Duplikanten verwendet werden.\n\nWilde Kreaturen können nicht durch Türen gehen."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
@@ -2026,7 +2021,7 @@ msgstr "rechts"
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC"
 msgid "Electrolyzers output a high volume of oxygen and are a reliable source of breathable air."
-msgstr ""
+msgstr "Elektrolyseure liefern ein hohes Volumen an Sauerstoff und sind eine zuverlässige Quelle für atembare Luft."
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT"
@@ -2041,7 +2036,7 @@ msgstr "Elektrolyseur"
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
 msgid "Duplicants can deliver fertilizer and liquids to farm tiles, accelerating plant growth."
-msgstr ""
+msgstr "Duplikanten können Dünger und Flüssigkeiten an Farmen liefern und das Pflanzenwachstum beschleunigen."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.EFFECT"
@@ -2056,7 +2051,7 @@ msgstr "Acker"
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC"
 msgid "Fertilizer Synthesizers convert polluted water into fertilizer for domestic plants."
-msgstr ""
+msgstr "Düngerfabrikatoren wandeln verschmutztes Wasser in Dünger für Pflanzen um."
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT"
@@ -2101,12 +2096,12 @@ msgstr "Blumentopf"
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC"
 msgid "Lavatories transmit fewer germs to Duplicants' skin and require no manual emptying."
-msgstr ""
+msgstr "Toiletten übertragen weniger Keime auf die Haut der Duplikanten und erfordern keine manuelle Entleerung."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT"
 msgid "Gives Duplicants a place to <style=\"hygiene\">Hygienically</style> relieve themselves."
-msgstr ""
+msgstr "Gibt Duplikanten einen Platz sich <style=\"hygiene\">hygienisch</style> zu erleichtern."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME"
@@ -2146,12 +2141,12 @@ msgstr "Gasbrücke"
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC"
 msgid "Gas filters send the selected filter gas into a special pipe, expelling everything else through a second output."
-msgstr "Ein Gasfilter sendet das ausgewählte Gas in ein spezielles Rohr und leitet alles andere durch einen zweiten Ausgang."
+msgstr "Ein Gasfilter sendet das ausgewählte Gas in ein spezielles Rohr und alles andere zu einen zweiten Ausgang."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
 msgid "Sieves one <style=\"gas\">Gas</style> from the air, sending it into a dedicated <style=\"GasPiping\">Pipe</style>."
-msgstr "Filtert ein <style=\"gas\">Gas</style> aus der Luft heraus und sendet es in eine separate <style=\"GasPiping\">Leitung</style>."
+msgstr "Filtert ein <style=\"gas\">Gas</style> aus der Luft heraus und sendet es in eine separates <style=\"GasPiping\">Rohr</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME"
@@ -2176,7 +2171,7 @@ msgstr "Luftdurchlässige Ziegel"
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
 msgid "Piping a pump's intake to another building's output will send gas to that building."
-msgstr "Das verrohren einer Pumpe mit anderen Objekten wird Gas zu diesem Gebäude senden."
+msgstr "Der Ausgang einer Pumpe sendet Gase zu anderen Maschinen wenn sie über Rohre verbunden sind."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT"
@@ -2191,7 +2186,7 @@ msgstr "Gaspumpe"
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC"
 msgid "Valves control the amount of gas that moves through pipes, preventing waste."
-msgstr "Ventile steuern die Gasmenge, die durch Rohre bewegt werden, um verschwendung zu vermeiden."
+msgstr "Ventile steuern die Gasmenge, die durch Rohre bewegt werden, um Verschwendung zu vermeiden."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT"
@@ -2221,7 +2216,7 @@ msgstr "Gas-Abzug"
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC"
 msgid "Coal generators produce twice the energy of manual generators, but emit heat and exhaust."
-msgstr "Kohlegeneratoren produzieren doppelt so viel Energie wie manuelle Generatoren, aber produzieren Wärme und Abgase."
+msgstr "Kohlegeneratoren produzieren doppelt so viel Energie wie Hamsterräder, aber erzeugen zusätzlich Wärme und Abgase."
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT"
@@ -2251,7 +2246,7 @@ msgstr "Generischer Fabrikator"
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.DESC"
 msgid "Burying dead Duplicants reduces health hazards and stress on the colony."
-msgstr "Begraben toten Duplikanten reduziert Gesundheitsgefahren und Stress der Kolonie."
+msgstr "Begraben toter Duplikanten reduziert Gesundheitsgefahren und Stress der Kolonie."
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT"
@@ -2326,7 +2321,7 @@ msgstr "Wasserstoff-Generator"
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.DESC"
 msgid "Hydroponic farms reduce Duplicant traffic by automating liquid delivery with irrigation pipes."
-msgstr "Hydroponische Farmen reduzieren den Duplikantenverkehr durch die Automatisiete mit Bewässerung durch Rohre."
+msgstr "Hydroponische Farmen reduzieren den Duplikantenverkehr durch die Automatisierte mit Bewässerung durch Rohre."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.EFFECT"
@@ -2341,7 +2336,7 @@ msgstr "Hydroponische Farm"
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC"
 msgid "Pipe insulation prevents gas contents from significantly changing temperature in transit."
-msgstr "Die Rohrisolierung verhindert, dass sich die Temperatur des Inhalts wärend des Transits deutlich verändert."
+msgstr "Die Rohrisolierung verhindert starke Temperaturänderungen des Inhalts während des Transits."
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.EFFECT"
@@ -2356,7 +2351,7 @@ msgstr "Isolierte Gasleitung"
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.DESC"
 msgid "Pipe insulation prevents liquid contents from significantly changing temperature in transit."
-msgstr "Die Rohrisolierung verhindert, dass sich die Temperatur des flüssigen Inhalts wärend des Transits deutlich verändert."
+msgstr "Die Rohrisolierung verhindert starke Temperaturänderungen des flüssigen Inhalts während des Transits."
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT"
@@ -2386,7 +2381,7 @@ msgstr "Isoliertes Kabel"
 #. STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.DESC"
 msgid "The lowered thermal conductivity of insulated tiles slows heat from passing through them."
-msgstr "Die niedrige Wärmeleitfähigkeit von isolierten Fliesen verlangsamt den Wärmeaustauch."
+msgstr "Die niedrige Wärmeleitfähigkeit von isolierten Fliesen verlangsamt den Wärmeaustausch."
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.EFFECT"
@@ -2431,17 +2426,17 @@ msgstr "Leiter"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC"
 msgid "A thermo aquatuner cools liquid and outputs the heat elsewhere."
-msgstr ""
+msgstr "Ein Wasserkühler kühlt Flüssigkeit und gibt die Wärme an anderer Stelle aus."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.EFFECT"
 msgid "Cools the <style=\"liquid\">Liquid</style> piped through it, but outputs <style=\"heat\">Heat</style> in its immediate vicinity."
-msgstr ""
+msgstr "Kühlt die durchgepumpte <style=\"liquid\">Flüssigkeit</style> ab, erzeugt aber <style=\"heat\">Wärme</style> in seiner Umgebung."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME"
 msgid "Thermo Aquatuner"
-msgstr ""
+msgstr "Wasserkühler"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.DESC"
@@ -2491,7 +2486,7 @@ msgstr "Hydrolüfter"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.DESC"
 msgid "Liquid filters send the selected filter gas into a special pipe, expelling everything else through a second output."
-msgstr "Flüssige Filter senden das ausgewählte Flüssigkeit in ein spezielles Rohr und leiten alles andere durch einen zweiten Ausgang."
+msgstr "Flüssigkeitsfilter senden die ausgewählte Flüssigkeit in ein spezielles Rohr und leiten alles andere zu einen zweiten Ausgang."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.EFFECT"
@@ -2506,7 +2501,7 @@ msgstr "Flüssigkeitsfilter"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC"
 msgid "Liquid tepidizers kill waterborne germs and heat liquid to a perfect showering temperature."
-msgstr "Flüssigkeitswärmer töten Wassrkeime und erhitzen Flüssigkeiten auf eine perfekte Duschetemperatur."
+msgstr "Flüssigkeitswärmer töten Wasserkeime und erhitzen Flüssigkeiten auf die perfekte Temperatur zum Duschen."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT"
@@ -2515,7 +2510,6 @@ msgstr "Erwärmt große Mengen an <style=\"liquid\">Flüssigkeit</style>.\n\nMus
 
 # Terpedizer = Latein von tepidus = Lauwarm/warm
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME"
 msgid "Liquid Tepidizer"
 msgstr "Flüssigkeitswärmer"
@@ -2538,7 +2532,7 @@ msgstr "Flüssig-Pumpe"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.DESC"
 msgid "This building will pump whatever liquid is present beneath it into bottles for delivery."
-msgstr "Dieses Objekt saugt jegliche flüssigkeit unter sich auf und füllt sie in Flaschen ab."
+msgstr "Dieses Objekt saugt jegliche Flüssigkeit unter sich auf und füllt sie in Flaschen ab."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.EFFECT"
@@ -2553,7 +2547,7 @@ msgstr "Abfüllanlage"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.DESC"
 msgid "Valves control the amount of liquid that moves through pipes, preventing waste."
-msgstr "Ventile steuern die Flüssigkeitsmenge, die durch Rohre bewegt werden, um verschwendung zu vermeiden."
+msgstr "Ventile steuern die Flüssigkeitsmenge, die durch Rohre bewegt werden, um Verschwendung zu vermeiden."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.EFFECT"
@@ -2603,7 +2597,7 @@ msgstr "Luftschleusen können gefährliche Gebiete abschotten oder verhindern, d
 #. STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.EFFECT"
 msgid "Blocks <style=\"liquid\">Liquid</style> and <style=\"gas\">Gas</style> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nWild creatures cannot pass through doors."
-msgstr "Blokiert <style=\"liquid\">Flüssigkeits-</style> und <style=\"gas\">Gas</style>fluss, hält den Druck zwischen den Bereichen.\n\nSetzte Duplikanten Zugangsberechtigungen für Bereichsbeschränkungen.\n\nWilde Kreaturen können nicht durch Türen gehen."
+msgstr "Blokiert <style=\"liquid\">Flüssigkeits-</style> und <style=\"gas\">Gas</style>fluss, hält den Druck zwischen den Bereichen.\n\nkann zur Bereichsbeschränkung für Duplikanten verwendet werden.\n\nWilde Kreaturen können nicht durch Türen gehen."
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME"
@@ -2643,7 +2637,7 @@ msgstr "Der Verjünger erlaubt, die Lebenspunkte der Duplikaten wiederherzustell
 #. STRINGS.BUILDINGS.PREFABS.MEDICALBED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALBED.EFFECT"
 msgid "Greatly accelerates <style=\"Health\">Health</style> recovery and the healing of physical injuries."
-msgstr "Starke beschleunigung der <style=\"Health\">Gesundheitsregeneration</ style> und die Heilung von körperlichen Verletzungen."
+msgstr "Starke Beschleunigung der <style=\"Health\">Gesundheitsregeneration</ style> und die Heilung von körperlichen Verletzungen."
 
 #. STRINGS.BUILDINGS.PREFABS.MEDICALBED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALBED.NAME"
@@ -2823,7 +2817,7 @@ msgstr "Automatische Luftschleusen haben die gleiche Funktion wie andere Türen 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.EFFECT"
 msgid "Blocks <style=\"liquid\">Liquid</style> and <style=\"gas\">Gas</style> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nFunctions as a Manual Airlock when no <style=\"power\">Power</style> is available."
-msgstr "Blokiert <style=\"liquid\">Flüssigkeits-</style> und <style=\"gas\">Gas</style>fluss, hält den Druck zwischen den Bereichen.\n\nSetzte Duplikanten Zugangsberechtigungen für Bereichsbeschränkungen.\n\nWilde Kreaturen können nicht durch Türen gehen."
+msgstr "Blokiert <style=\"liquid\">Flüssigkeits-</style> und <style=\"gas\">Gas</style>fluss, hält den Druck zwischen den Bereichen.\n\nkann zur Bereichsbeschränkung für Duplikanten verwendet werden.\n\nWilde Kreaturen können nicht durch Türen gehen."
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.NAME"
@@ -2838,7 +2832,7 @@ msgstr "Ein Gasdruckschalter schaltet die Stromversorgung ab, wenn der Luftdruck
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT"
 msgid "Automatically turns <style=\"power\">Power</style> on or off using ambient <style=\"gas\">Gas Pressure</style>.\n\nDoes not affect circuitry preceding the switch."
-msgstr "Automatisiert das Aus- und Einschalten von <style=\"power\">Stromnetzen</style> basierend auf dem <style=\"gas\">Gasdruck</style>.\n\nHat keinen einfluss auf den Schaltkreis vor dem Schalter."
+msgstr "Automatisiert das Aus- und Einschalten von <style=\"power\">Stromnetzen</style> basierend auf dem <style=\"gas\">Gasdruck</style>.\n\nHat keinen Einfluss auf den Schaltkreis vor dem Schalter."
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.NAME"
@@ -2853,7 +2847,7 @@ msgstr "Ein Wasserdruckschalter schaltet die Stromversorgung ab, wenn der Flüss
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.EFFECT"
 msgid "Automatically turns <style=\"power\">Power</style> on or off using ambient <style=\"liquid\">Liquid Pressure</style>.\n\nDoes not affect circuitry preceding the switch.\n\nMust be submerged in <style=\"liquid\">Liquid</style>."
-msgstr "Automatisiert das Umschalten von <style=\"power\">Stromnetzen</style> basierend auf dem <style=\"liquid\">Flüssigkeitsdruck</style>.\n\nHat keinen einfluss auf den Schaltkreis vor dem Schalter.\n\nMuss in <style=\"liquid\">Flüssigkeit</style> getaucht werden."
+msgstr "Automatisiert das Umschalten von <style=\"power\">Stromnetzen</style> basierend auf dem <style=\"liquid\">Flüssigkeitsdruck</style>.\n\nHat keinen Einfluss auf den Schaltkreis vor dem Schalter.\n\nMuss in <style=\"liquid\">Flüssigkeit</style> getaucht werden."
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.NAME"
@@ -3053,7 +3047,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.TILEPOI.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILEPOI.EFFECT"
 msgid "Used as floor and wall tile to build rooms."
-msgstr "Kann als Boden-und Wandziegel werwendet werden um Räume zu bauen."
+msgstr "Kann als Boden-und Wandziegel verwendet werden um Räume zu bauen."
 
 #. STRINGS.BUILDINGS.PREFABS.TILEPOI.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILEPOI.NAME"
@@ -3098,7 +3092,7 @@ msgstr "Kabel werdend verwendet, um Generatoren, Batterien und Gebäude zu verbi
 #. STRINGS.BUILDINGS.PREFABS.WIRE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIRE.EFFECT"
 msgid "Connects buildings to <style=\"power\">Power</style> sources.\n\nCan be run through tiles."
-msgstr "Verbindet Objekte mit <style=\"power\">Eergiequellen</style>.\n\nKann in Ziegel verlegt werden."
+msgstr "Verbindet Objekte mit <style=\"power\">Energiequellen</style>.\n\nKann in Ziegel verlegt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.WIRE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIRE.NAME"
@@ -3138,7 +3132,7 @@ msgstr "Aktiviere Autoreparatur"
 #. STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.TOOLTIP"
 msgid "Automatically repair this building when damaged"
-msgstr "Dieses Gebäude bei der Beschädigung automatisch reparieren"
+msgstr "Dieses Gebäude wird bei Beschädigung automatisch repariert"
 
 #. STRINGS.CREATURES.CROP_EFFECTS.ADD_SEEDS.DESC
 msgctxt "STRINGS.CREATURES.CROP_EFFECTS.ADD_SEEDS.DESC"
@@ -3198,7 +3192,7 @@ msgstr "Vergrabene Schmutzwurzel"
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC"
 msgid "Mealwoods produce <style=\"food\">Meal Lice</style>, an oddly wriggly grain that can be harvested for <style=\"food\">Food</style>."
-msgstr "Mehlholz produziert <style=\"food\">Mehlläuse</style>, ein überaschend zappeliges Korn, das als <style=\"food\">Nahrung</style> geerntet werden kann."
+msgstr "Mehlholz produziert <style=\"food\">Mehlläuse</style>, ein überraschend zappeliges Korn, das als <style=\"food\">Nahrung</style> geerntet werden kann."
 
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC"
@@ -3223,7 +3217,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.COLDBREATHER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.COLDBREATHER.DESC"
 msgid "Wheezeworts can be grown in flower vases and absorb <style=\"heat\">Heat</style> by respiring through their porous outer membranes."
-msgstr "Keuchwurz Kan in Pflanzentöpfen angepflanzt werden und absorbieren <style=\"heat\">Wärme</style> durch ihre poröse Außenmembran."
+msgstr "Keuchwurz kann in Pflanzentöpfen angepflanzt werden und absorbiert <style=\"heat\">Wärme</style> durch ihre poröse Außenmembran."
 
 #. STRINGS.CREATURES.SPECIES.COLDBREATHER.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.COLDBREATHER.DOMESTICATEDDESC"
@@ -3359,12 +3353,12 @@ msgstr "Palmera-Baum"
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC"
 msgid "Shine Bugs emit a soft <style=\"light\">Light</style> in hopes of attracting more of their kind for company."
-msgstr ""
+msgstr "Leuchtkäfer geben ein weiches <style=\"light\">Licht</style> ab, in der Hoffnung mehr von ihrer Art für Unternehmen zu gewinnen."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 msgid "Shine Bug"
-msgstr ""
+msgstr "Leuchtkäfer"
 
 #. STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
@@ -3869,7 +3863,7 @@ msgstr "Die Atmung dieser Kreatur kühlt die Umgebung"
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.NAME"
 msgid "    • Illumination"
-msgstr ""
+msgstr "    • Beleuchtung"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.TOOLTIP"
@@ -3879,7 +3873,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.NAME"
 msgid "    • Illumination"
-msgstr ""
+msgstr "    • Beleuchtung"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.TOOLTIP"
@@ -4064,7 +4058,7 @@ msgstr "Diese Kreatur kann sich in dieser Umgebung nicht abkühlen.\n\nSie bevor
 #. STRINGS.CREATURES.STATUSITEMS.HOT_CROP.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HOT_CROP.NAME"
 msgid "    • Body Temperature"
-msgstr ""
+msgstr "    • Körpertemperatur"
 
 #. STRINGS.CREATURES.STATUSITEMS.HOT_CROP.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HOT_CROP.TOOLTIP"
@@ -4144,7 +4138,7 @@ msgstr "Diese Pflanze hat einen durchschnittlichen Ertrag geliefert"
 #. STRINGS.CREATURES.STATUSITEMS.NAME_NON_GROWING_PLANT
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NAME_NON_GROWING_PLANT"
 msgid "Wilted"
-msgstr ""
+msgstr "Welk"
 
 #. STRINGS.CREATURES.STATUSITEMS.NEEDSFERTILIZER.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSFERTILIZER.LINE_ITEM"
@@ -4214,22 +4208,22 @@ msgstr "Diese Kreatur findet die aktuelle Umgebungstemperatur angenehm\n\nIdeale
 #. STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NAME"
 msgid "Dead"
-msgstr ""
+msgstr "Tod"
 
 #. STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NOTIFICATION
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NOTIFICATION"
 msgid "Plants have died"
-msgstr ""
+msgstr "Pflanzen sind gestorben"
 
 #. STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NOTIFICATION_TOOLTIP"
 msgid "These plants have died and will produce no more harvests:\n"
-msgstr ""
+msgstr "Diese Pflanzen sind gestorben und werden keine Ernten mehr produzieren:\n"
 
 #. STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.TOOLTIP"
 msgid "This plant will produce no more harvests"
-msgstr ""
+msgstr "Diese Pflanze produziert keine Ernte mehr"
 
 #. STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.NAME"
@@ -4379,7 +4373,7 @@ msgstr "Wachstum gestoppt{Reasons}"
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.NAME_NON_GROWING_PLANT
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.NAME_NON_GROWING_PLANT"
 msgid "Wilting"
-msgstr ""
+msgstr "Verwelkt"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.TOOLTIP"
@@ -4389,7 +4383,7 @@ msgstr "Das Wachstum wird wieder aufnehmen, wenn sich die Bedingungen verbessern
 #. STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.NAME"
 msgid "    • Atmosphere"
-msgstr ""
+msgstr "    • Atmosphäre"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP"
@@ -4674,7 +4668,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
 msgid "Health"
-msgstr ""
+msgstr "Gesundheit"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC"
@@ -4824,7 +4818,7 @@ msgstr "{0} Medizinische Heilungsgeschwindigkeit"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MODIFIER_ENTRY
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MODIFIER_ENTRY"
 msgid "\n    • {0}: {1}"
-msgstr ""
+msgstr "\n    • {0}: {1}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.NOISEPOLLUTION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.NOISEPOLLUTION.DESC"
@@ -4834,7 +4828,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.NOISEPOLLUTION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.NOISEPOLLUTION.NAME"
 msgid "Noise"
-msgstr ""
+msgstr "Lärm"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.OVERHEATTEMPERATURE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.OVERHEATTEMPERATURE.DESC"
@@ -4964,7 +4958,7 @@ msgstr "Trampel"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.VALUE
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
 msgid "{0}: {1}"
-msgstr ""
+msgstr "{0}: {1}"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ART.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ART.DESC"
@@ -5039,12 +5033,12 @@ msgstr "Graben"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.DISINFECT.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DISINFECT.DESC"
 msgid "Remove germs from building."
-msgstr ""
+msgstr "Entferne Keime von Objekten."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.DISINFECT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DISINFECT.NAME"
 msgid "Disinfect"
-msgstr ""
+msgstr "Desinfizieren"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.GENERATEPOWER.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.GENERATEPOWER.DESC"
@@ -5329,12 +5323,12 @@ msgstr "Geht graben"
 #. STRINGS.DUPLICANTS.CHORES.DISINFECT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DISINFECT.NAME"
 msgid "Disinfect"
-msgstr ""
+msgstr "Desinfizieren"
 
 #. STRINGS.DUPLICANTS.CHORES.DISINFECT.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.DISINFECT.STATUS"
 msgid "Going to disinfect"
-msgstr ""
+msgstr "Geht Desinfizieren"
 
 #. STRINGS.DUPLICANTS.CHORES.DOCTOR.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.NAME"
@@ -5479,12 +5473,12 @@ msgstr "Geht Strom erzeugen"
 #. STRINGS.DUPLICANTS.CHORES.GENESHUFFLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENESHUFFLE.NAME"
 msgid "Neural Vacillator"
-msgstr ""
+msgstr "Neural-Oszillator"
 
 #. STRINGS.DUPLICANTS.CHORES.GENESHUFFLE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENESHUFFLE.STATUS"
 msgid "Using Neural Vacillator"
-msgstr ""
+msgstr "Benutzt Neural-Oszillator"
 
 #. STRINGS.DUPLICANTS.CHORES.HARVEST.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.HARVEST.NAME"
@@ -5609,12 +5603,12 @@ msgstr "Liefert"
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.NAME"
 msgid "Narcoleptic Sleep"
-msgstr ""
+msgstr "Narkoleptischer Schlaf"
 
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.STATUS"
 msgid "Sleeping"
-msgstr ""
+msgstr "Schläft"
 
 #. STRINGS.DUPLICANTS.CHORES.PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.NAME"
@@ -5729,12 +5723,12 @@ msgstr "Ruht aus"
 #. STRINGS.DUPLICANTS.CHORES.SCRUBORE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.NAME"
 msgid "Scrub Ore"
-msgstr ""
+msgstr "Erz reinigen"
 
 #. STRINGS.DUPLICANTS.CHORES.SCRUBORE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.STATUS"
 msgid "Scrubbing Ore"
-msgstr ""
+msgstr "Reinigt Erz"
 
 #. STRINGS.DUPLICANTS.CHORES.SHOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.NAME"
@@ -5929,12 +5923,12 @@ msgstr "Atlas"
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.ELLIE.DESC
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.ELLIE.DESC"
 msgid "This Duplicant needs things done in a very particular way"
-msgstr ""
+msgstr "Dieser Duplikant erledigt die Dinge auf eine ganz besondere Art und Weise"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.ELLIE.NAME
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.ELLIE.NAME"
 msgid "Fastidious"
-msgstr ""
+msgstr "Eifrig"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.JOSHUA.DESC
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.JOSHUA.DESC"
@@ -6009,7 +6003,7 @@ msgstr "Explosion"
 #. STRINGS.DUPLICANTS.DEATHS.FATALDISEASE.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.FATALDISEASE.DESCRIPTION"
 msgid "{Target} has died of a fatal illness."
-msgstr ""
+msgstr "{Target} ist an einer tödlichen Krankheit gestorben."
 
 #. STRINGS.DUPLICANTS.DEATHS.FATALDISEASE.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.FATALDISEASE.NAME"
@@ -6069,7 +6063,7 @@ msgstr "Erstickung"
 #. STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX"
 msgid "{0}: {1} Germs"
-msgstr ""
+msgstr "{0}: {1} Keime"
 
 #. STRINGS.DUPLICANTS.DISEASES.ALLDISEASES.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ALLDISEASES.NAME"
@@ -6079,12 +6073,12 @@ msgstr "Alle Krankheiten"
 #. STRINGS.DUPLICANTS.DISEASES.ATTRIBUTE_MODIFIER_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ATTRIBUTE_MODIFIER_SYMPTOMS"
 msgid "{0}: {1}"
-msgstr ""
+msgstr "{0}: {1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.ATTRIBUTE_MODIFIER_SYMPTOMS_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ATTRIBUTE_MODIFIER_SYMPTOMS_TOOLTIP"
 msgid "Modifies {0} by {1}"
-msgstr ""
+msgstr "Modifiziert {0} von {1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.BOOSTSCURESPEED
 msgctxt "STRINGS.DUPLICANTS.DISEASES.BOOSTSCURESPEED"
@@ -6094,7 +6088,7 @@ msgstr "Heilungsgeschwindigkeit (<style=\"disease\">{0}</style>): <style=\"produ
 #. STRINGS.DUPLICANTS.DISEASES.BOOSTSIMMUNITY
 msgctxt "STRINGS.DUPLICANTS.DISEASES.BOOSTSIMMUNITY"
 msgid "<style=\"misc\">Immune System</style> Boost: <style=\"produced\">+10</style>"
-msgstr ""
+msgstr "<style=\"misc\">Immunsystem</style> Boost: <style=\"produced\">+10</style>"
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTION"
@@ -6104,7 +6098,7 @@ msgstr "\nDieser Duplikant kann aufgrund der extremen Kälte nur noch langsam ei
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.LEGEND_HOVERTEXT"
 msgid "<style=\"header\">Area Causes Hypothermia</style>\n"
-msgstr ""
+msgstr "<style=\"header\">Bereich verursacht Unterkühlung</style>\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.NAME"
@@ -6144,172 +6138,172 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES"
 msgid "Dies"
-msgstr ""
+msgstr "Stirbt"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_ON
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_ON"
 msgid "Killed by:"
-msgstr ""
+msgstr "Getötet von:"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_ON_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_ON_TOOLTIP"
 msgid "Contact with these substances kills germs over time"
-msgstr ""
+msgstr "Kontakt mit diesen Substanzen tötet Keime im Laufe der Zeit"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY"
 msgid "Disinfected"
-msgstr ""
+msgstr "Desinfiziert"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_ON
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_ON"
 msgid "Disinfected by:"
-msgstr ""
+msgstr "Desinfiziert von:"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_ON_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_ON_TOOLTIP"
 msgid "Contact with these substances will quickly kill these germs"
-msgstr ""
+msgstr "Der Kontakt mit diesen Substanzen wird diese Keime schnell abtöten"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_TOOLTIP"
 msgid "Halves germ count every {0}"
-msgstr ""
+msgstr "Halbiert Keimzahl alle {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY"
 msgid "Inhibited"
-msgstr ""
+msgstr "Gehemmt"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON"
 msgid "Inhibited by:"
-msgstr ""
+msgstr "Gehemmt durch:"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON_TOOLTIP"
 msgid "Contact with these substances will slowly reduce germ numbers"
-msgstr ""
+msgstr "Der Kontakt mit diesen Substanzen reduziert die Keimzahlen langsam"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_TOOLTIP"
 msgid "Halves germ count every {0}"
-msgstr ""
+msgstr "Halbiert Keimzahl alle {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_TOOLTIP"
 msgid "Halves germ count every {0}"
-msgstr ""
+msgstr "Halbiert Keimzahl alle {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE"
 msgid "Contracted via food ingestion\n------------------"
-msgstr ""
+msgstr "Kontrahiert durch Nahrungsaufnahme\n------------------"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE_TOOLTIP"
 msgid "Duplicants contract this disease by ingesting contaminated food"
-msgstr ""
+msgstr "Duplikanten erhalten diese Krankheit durch Einnahme kontaminierter Lebensmittel"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS"
 msgid "Multiplies"
-msgstr ""
+msgstr "Multipliziert"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_ON
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_ON"
 msgid "Multiplies in:"
-msgstr ""
+msgstr "Multipliziert in:"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_ON_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_ON_TOOLTIP"
 msgid "These substances allow germs to spread and reproduce"
-msgstr ""
+msgstr "Diese Substanzen erlauben es, Keimem sich zu verbreiten und reproduzieren"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_TOOLTIP"
 msgid "Doubles germ count every {0}"
-msgstr ""
+msgstr "Verdoppelt Keimzahl alle {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWTH_FORMAT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWTH_FORMAT"
 msgid "    • {0}"
-msgstr ""
+msgstr "    • {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL"
 msgid "Survives"
-msgstr ""
+msgstr "Überlebt"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL_ON
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL_ON"
 msgid "Survives in:"
-msgstr ""
+msgstr "Überlebt in:"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL_ON_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL_ON_TOOLTIP"
 msgid "Germs will survive contact with these substances, but will not reproduce"
-msgstr ""
+msgstr "Keime werden den Kontakt mit diesen Substanzen überleben, werden sich aber nicht reproduzieren"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.NEUTRAL_TOOLTIP"
 msgid "Germ count remains static"
-msgstr ""
+msgstr "Keimzahl bleibt gleich"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.PRESSURE_RANGE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.PRESSURE_RANGE"
 msgid "Pressure range: {0} to {1}\n"
-msgstr ""
+msgstr "Druckbereich: {0} bis {1}\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.PRESSURE_RANGE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.PRESSURE_RANGE_TOOLTIP"
 msgid "These germs can survive between {0} and {1} of pressure\n------------------\nThey thrive in pressures between {2} and {3}"
-msgstr ""
+msgstr "Diese Keime können bei einem Druck zwischen {0} und {1} überleben\n------------------\nSie vermehren sich bei einem Druck zwischen {2} und {3}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SKINBORNE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SKINBORNE"
 msgid "Contracted via touch\n------------------"
-msgstr ""
+msgstr "Infiziert durch Berührung\n------------------"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SKINBORNE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SKINBORNE_TOOLTIP"
 msgid "Duplicants contract this disease by coming into physical contact with germs"
-msgstr ""
+msgstr "DupliKanten bekamen diese Krankheit, indem sie in physischen Kontakt mit Keimen kommen"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE"
 msgid "Temperature range: {0} to {1}"
-msgstr ""
+msgstr "Temperaturbereich: {0} bis {1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE_TOOLTIP"
 msgid "These germs can survive temperatures between {0} and {1}\n------------------\nThey thrive in temperatures between {2} and {3}"
-msgstr ""
+msgstr "Diese Keime können bei einer Temperatur zwischen {0} und {1} überleben\n------------------\nSie vermehren sich bei einer Temperatur zwischen {2} und {3}"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DESCRIPTION"
 msgid "\nThis Duplicant's last meal wasn't exactly sanitary"
-msgstr ""
+msgstr "\nDie letzte Mahlzeit des Duplikats war nicht ganz hygienisch"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DESCRIPTIVE_SYMPTOMS"
 msgid "Nonlethal. A Duplicant's body \"purges\" from both ends, causing extreme fatigue."
-msgstr ""
+msgstr "Ungefährich. Der Körper des Duplikanten \"reinigt\" sich durch beide Enden was eine extreme Müdigkeit verursacht."
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DISEASE_SOURCE_DESCRIPTOR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DISEASE_SOURCE_DESCRIPTOR"
 msgid "Currently infected with {2}.\n\nThis Duplicant will produce {1} when vomiting."
-msgstr ""
+msgstr "Derzeit infiziert mit {2}.\n\nDieser Duplikant wird beim Erbrechen {1} produzieren."
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP"
 msgid "This Duplicant will vomit approximately every {0}\n------------------\nEach time they vomit, they will release {1} and lose calories"
-msgstr ""
+msgstr "Dieser Duplikant wird etwa alle {0} Erbtechen\n------------------\nJedes Mal, wenn er sich erbricht, werden {1} freigeben und Kalorien verloren"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.LEGEND_HOVERTEXT"
 msgid "<style=\"header\">Food Poisoning Germs Present</style>\n"
-msgstr ""
+msgstr "<Style=\"header\">Lebensmittelvergiftungs Keime vorhanden</style>\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.NAME"
@@ -6319,32 +6313,32 @@ msgstr "Lebensmittelvergiftung"
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM"
 msgid "Vomiting"
-msgstr ""
+msgstr "Erbrechen"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM_TOOLTIP"
 msgid "Duplicants periodically vomit throughout the day, producing additional germs and losing calories"
-msgstr ""
+msgstr "Duplikanten werden sich den ganzen tag regelmäßig Übergeben wodurch sie zusätzliche Keime produzieren und Kalorien verlieren"
 
 #. STRINGS.DUPLICANTS.DISEASES.GERMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.GERMS"
 msgid "Germs"
-msgstr ""
+msgstr "Keime"
 
 #. STRINGS.DUPLICANTS.DISEASES.GERMS_CONSUMED_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.GERMS_CONSUMED_DESCRIPTION"
 msgid "A count of the number of germs this Duplicant is host to"
-msgstr ""
+msgstr "Die Anzahl der Keime, die dieser Duplikant beherbergt"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTION"
 msgid "\nThis Duplicant's thought processes have short circuited from extreme heat exposure"
-msgstr ""
+msgstr "\nDie Gedankenprozesse des Duplikats sind durch extremer Hitzebelastung lahmgelegt"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT"
 msgid "<style=\"header\">Area Causes Heat Stroke</style>\n"
-msgstr ""
+msgstr "<style=\"header\">Bereich verursacht Hitzeschlag</style>\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.NAME"
@@ -6354,7 +6348,7 @@ msgstr "Hitzeschlag"
 #. STRINGS.DUPLICANTS.DISEASES.INFECTED_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTED_MODIFIER"
 msgid "Suppressed immune system"
-msgstr ""
+msgstr "Gescvhwächtes Immunsystem"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTED_POPUP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTED_POPUP"
@@ -6364,57 +6358,57 @@ msgstr "Infektion mit {0}"
 #. STRINGS.DUPLICANTS.DISEASES.INFECTION_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTION_MODIFIER"
 msgid "Recently consumed {0} ({1})"
-msgstr ""
+msgstr "Kürzlich Konsumiert {0} ({1})"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTION_MODIFIER_SOURCE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTION_MODIFIER_SOURCE"
 msgid "Fighting off {0} from {1}"
-msgstr ""
+msgstr "Bekämft {0} von {1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.AIR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.AIR"
 msgid "by breathing {0}"
-msgstr ""
+msgstr "Durch atmen von {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.FOOD
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.FOOD"
 msgid "by eating {0}"
-msgstr ""
+msgstr "Durch essen von {0}"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.INTERNAL_TEMPERATURE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.INTERNAL_TEMPERATURE"
 msgid "from extreme internal temperatures"
-msgstr ""
+msgstr "Von extremen inneren Temperaturen"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN"
 msgid "through skin contamination"
-msgstr ""
+msgstr "Durch Hautkontamination"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA"
 msgid "through exposure to toxic areas"
-msgstr ""
+msgstr "Durch Aussetzung toxischer Gebieten"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.UNKNOWN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.UNKNOWN"
 msgid "from unknown source"
-msgstr ""
+msgstr "Aus unbekannter Quelle"
 
 #. STRINGS.DUPLICANTS.DISEASES.LEGEND_POSTAMBLE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.LEGEND_POSTAMBLE"
 msgid "* Select an infected object for more details"
-msgstr ""
+msgstr "* Wähle ein infiziertes Objekt für weitere Details aus"
 
 #. STRINGS.DUPLICANTS.DISEASES.NODISEASES.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.NODISEASES.NAME"
 msgid "NO"
-msgstr ""
+msgstr "NEIN"
 
 #. STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP"
 msgid "{0} contracted <style=\"disease\">{1}</style> {2}"
-msgstr ""
+msgstr "{0} erkrankte an <style=\"disease\">{1}</style> {2}"
 
 #. STRINGS.DUPLICANTS.DISEASES.PUTRIDODOUR.CRINGE_EFFECT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.PUTRIDODOUR.CRINGE_EFFECT"
@@ -6424,7 +6418,7 @@ msgstr "Widerlichen Gestank gerochen"
 #. STRINGS.DUPLICANTS.DISEASES.PUTRIDODOUR.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.PUTRIDODOUR.DESCRIPTION"
 msgid "\nThe pungent odor wafting off this Duplicant is nauseating to their peers"
-msgstr ""
+msgstr "\nDer scharfe Geruch, der von diesem Duplikant ausgeht, ist ekelhaft für seine Kollegen"
 
 #. STRINGS.DUPLICANTS.DISEASES.PUTRIDODOUR.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.PUTRIDODOUR.LEGEND_HOVERTEXT"
@@ -6439,7 +6433,7 @@ msgstr "Schrittfisch"
 #. STRINGS.DUPLICANTS.DISEASES.RECUPERATING
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RECUPERATING"
 msgid "Recuperating"
-msgstr ""
+msgstr "Genest"
 
 #. STRINGS.DUPLICANTS.DISEASES.REDUCECURESPEED
 msgctxt "STRINGS.DUPLICANTS.DISEASES.REDUCECURESPEED"
@@ -6449,52 +6443,52 @@ msgstr "Heilgeschwindigkeit (<style=\"disease\">{0}</style>): <style=\"consumed\
 #. STRINGS.DUPLICANTS.DISEASES.SEVERITY.BENIGN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SEVERITY.BENIGN"
 msgid "Benign"
-msgstr ""
+msgstr "Startet"
 
 #. STRINGS.DUPLICANTS.DISEASES.SEVERITY.CRITICAL
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SEVERITY.CRITICAL"
 msgid "Critical"
-msgstr ""
+msgstr "Kritisch"
 
 #. STRINGS.DUPLICANTS.DISEASES.SEVERITY.MAJOR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SEVERITY.MAJOR"
 msgid "Major"
-msgstr ""
+msgstr "Stark"
 
 #. STRINGS.DUPLICANTS.DISEASES.SEVERITY.MINOR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SEVERITY.MINOR"
 msgid "Minor"
-msgstr ""
+msgstr "Gering"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.COUGH_SYMPTOM
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.COUGH_SYMPTOM"
 msgid "Productive Coughing"
-msgstr ""
+msgstr "Reizhusten"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.COUGH_SYMPTOM_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.COUGH_SYMPTOM_TOOLTIP"
 msgid "Duplicants periodically cough up a lump of infectious slime from their lungs, producing additional germs"
-msgstr ""
+msgstr "Duplikate husten in regelmäßigen Abständen einen Klumpen von infektiösen Schlamm aus ihren Lungen, wodurch zusätzliche Keime entstehen"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTION"
 msgid "\nThis Duplicant's chest congestion is making it difficult to breathe"
-msgstr ""
+msgstr "\nDer Bruststau des Duplikanten macht es ihm schwer zu atmen"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS"
 msgid "Lethal if untreated. Duplicants experience shortness of breath and productive coughing."
-msgstr ""
+msgstr "Tödlich, wenn unbehandelt Duplikanten erleben Kurzatmigkeit und Reizhusten."
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DISEASE_SOURCE_DESCRIPTOR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DISEASE_SOURCE_DESCRIPTOR"
 msgid "Currently infected with {2}.\n\nThis Duplicant will produce {1} when coughing."
-msgstr ""
+msgstr "Derzeit infiziert mit {2}.\n\nDieser Duplikant wird beim Husten {1} produzieren."
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP"
 msgid "This Duplicant will cough approximately every {0}\n------------------\nEach time they cough, they will release {1}"
-msgstr ""
+msgstr "Dieser Duplikant hustet etwa alle {0}\n------------------\nJedes Mal, wenn er hustet, wird er {1} aussondern"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT"
