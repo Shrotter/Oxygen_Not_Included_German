@@ -124,22 +124,22 @@ msgstr "Alle Batterien liegen oberhalb der Ladeschwelle"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME"
-msgid "Liquid Bottler Delivery: On"
+msgid "Autobottling: On"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP"
-msgid "Duplicants may fetch bottled liquid from bottling stations to bring to this location"
+msgid "Duplicants may specifically fetch liquid from Liquid Bottlers to bring to this location"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME"
-msgid "Liquid Bottler Delivery: Off"
+msgid "Autobottling: Off"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP"
-msgid "Duplicants may not fetch bottled liquid from bottling stations to bring to this location"
+msgid "Duplicants may not specifically fetch liquid from Liquid Bottlers to bring to this location"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME
@@ -1614,28 +1614,28 @@ msgstr "Die Einrichtung arbeitet wie vorgesehen"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.NAME"
-msgid "Disable Auto-Disinfect"
+msgid "Disable Autodisinfect"
 msgstr "Deaktiviere Desinfizieren"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.TOOLTIP"
-msgid "Dupes will no longer automatically disinfect this building"
-msgstr "Duplikanten werden dieses Objekt nicht länger automatisch desinfizieren"
+msgid "Do not automatically disinfect this building"
+msgstr "Dieses Objekt nicht  automatisch desinfiziert"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.NAME"
-msgid "Enable Auto-Disinfect"
-msgstr "Aktiviere Desinfizieren"
+msgid "Enable Autodisinfect"
+msgstr "Aktiviere Automatisches Desinfizieren"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.ENABLE_AUTODISINFECT.TOOLTIP"
-msgid "Dupes will automatically disinfect this building"
-msgstr "Duplikanten werden dieses Objekt automatisch desinfizieren"
+msgid "Automatically disinfect this building when it becomes contaminated"
+msgstr "Desinfiziert das Objekt automatisch wenn es kontaminiert wird"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP"
-msgid "This building is already clean"
-msgstr "Dieses Objekt ist bereits gereinigt"
+msgid "This building is clean"
+msgstr "Dieses Objekt ist sauber"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT"
@@ -4726,8 +4726,8 @@ msgstr "Stärke des Immunsystems"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.BOOST_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.BOOST_MODIFIER"
-msgid "{0} Immune System Regen"
-msgstr "{0} Immunsystem-Regeneration"
+msgid "{0} Immunity Regen"
+msgstr "{0} Immunitäts-Regeneration"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.BOOST_STAT
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.BOOST_STAT"
@@ -13086,12 +13086,12 @@ msgstr "Diese Verletzungen des Duplikanten wurden nicht richtig behandelt. Er en
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
-msgid "Colony requires hygene"
+msgid "Colony requires wash basins"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP"
-msgid "Your duplicants are spreading germs around the colony because they have nowhere to wash off their germs"
+msgid "<style=\"disease\">Germs</style> are spreading in your colony because your Duplicants have no where to clean up"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME
@@ -14108,6 +14108,11 @@ msgstr "Kohle"
 msgctxt "STRINGS.MISC.TAGS.COMPOSTABLE"
 msgid "Compostable"
 msgstr "Kompostierbar"
+
+#. STRINGS.MISC.TAGS.COMPOSTMEAT
+msgctxt "STRINGS.MISC.TAGS.COMPOSTMEAT"
+msgid "Compost Meat"
+msgstr ""
 
 #. STRINGS.MISC.TAGS.CONSUMABLEORE
 msgctxt "STRINGS.MISC.TAGS.CONSUMABLEORE"
@@ -19531,8 +19536,8 @@ msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.EQUIPMENT_MODS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.EQUIPMENT_MODS"
-msgid "{Attribute} <style=\"{style}\">{Value}</style>"
-msgstr "{Attribute} <style=\"{style}\">{Value}</style>"
+msgid "{Attribute} <style=\"{Style}\">{Value}</style>"
+msgstr "{Attribute} <style=\"{Style}\">{Value}</style>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS"
@@ -20767,7 +20772,7 @@ msgstr "<b>Sehr Atembar</b>\Hohe Sauerstoffkonzentrationen"
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2"
 msgid "<b>Breathable</b>\nSufficient oxygen concentrations"
-msgstr ""<b>Atembar</b>\nAusreichende Sauerstoffkonzentrationen"
+msgstr "<b>Atembar</b>\nAusreichende Sauerstoffkonzentrationen"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3"
@@ -23373,7 +23378,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME"
-msgid "Allow Auto-Bottling"
+msgid "Enable Autobottling"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.TOOLTIP
@@ -23383,7 +23388,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
-msgid "Stop Auto-Bottling"
+msgid "Disable Autobottling"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.TOOLTIP
