@@ -15,12 +15,12 @@ msgstr ""
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
 msgctxt "STRINGS.BUILDING.DETAILS.USE_COUNT"
 msgid "Uses: {0}"
-msgstr ""
+msgstr "Verwendungen: {0}"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT_TOOLTIP
 msgctxt "STRINGS.BUILDING.DETAILS.USE_COUNT_TOOLTIP"
 msgid "This building has been used {0} times"
-msgstr ""
+msgstr "Dieses Objekt wurde bisher {0} mal verwendet"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.NAME"
@@ -125,22 +125,22 @@ msgstr "Alle Batterien liegen oberhalb der Ladeschwelle"
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME"
 msgid "Autobottling: On"
-msgstr ""
+msgstr "Autoabfüllung: An"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP"
 msgid "Duplicants may specifically fetch liquid from Liquid Bottlers to bring to this location"
-msgstr ""
+msgstr "Duplikanten holen Flüssigkeiten direkt von Abfüllanlagen hierher"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME"
 msgid "Autobottling: Off"
-msgstr ""
+msgstr "Autoabfüllung: Aus"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP"
 msgid "Duplicants may not specifically fetch liquid from Liquid Bottlers to bring to this location"
-msgstr ""
+msgstr "Duplikanten holen keine Flüssigkeiten direkt von Abfüllanlagen hierher"
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME"
@@ -2290,7 +2290,7 @@ msgstr "Geschmackvolle Gedenkstätte"
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC"
 msgid "Hand sanitizers kill germs more effectively than wash basins."
-msgstr "Hand-Desinfektionsmittel töten Keime effektiver als Waschbecken."
+msgstr "Hand-Desinfizierer töten Keime effektiver als Waschbecken."
 
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.EFFECT"
@@ -6547,7 +6547,7 @@ msgstr "Die Sporen"
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST"
 msgid "\nMed-Bed assignment will increases recovery chance"
-msgstr ""
+msgstr "\nKrankenbettzuweisung erhöht die Erholungschancen"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.CURES
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.CURES"
@@ -6867,7 +6867,7 @@ msgstr "Flüchtender Patient"
 #. STRINGS.DUPLICANTS.MODIFIERS.DOCTOREDOFFCOTEFFECT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DOCTOREDOFFCOTEFFECT.TOOLTIP"
 msgid "Tsk tsk! This Duplicant cannot receive medical aid while out of their Med-Bed"
-msgstr ""
+msgstr "Tze tze! Dieser Duplikant bekommt keine medizinische Hilfe, wenn er nicht im Bett bleibt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EATINGCALORIES.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINGCALORIES.NAME"
@@ -7017,22 +7017,22 @@ msgstr "Die Luft in diesem Bereich ist recht dünn"
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOT.NAME"
 msgid "Med-Bed Rest"
-msgstr ""
+msgstr "Krankenbettruhe"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOT.TOOLTIP"
 msgid "This Duplicant's injury and disease recovery times are being improved"
-msgstr ""
+msgstr "Die Verletzungs- und Krankheitserholung dieses Duplikanten ist verbessert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME"
 msgid "Receiving treatment"
-msgstr ""
+msgstr "Wird behandelt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP"
 msgid "This Duplicant is receiving medical aid to lessen the severity and recovery time of their illness"
-msgstr ""
+msgstr "Dieser Duplikant erhält medizinische Hilfe um die Ernsthaftigkeit ihrer Krankheit zu sänken und die Erholung zu beschleunigen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.NAME"
@@ -7047,7 +7047,7 @@ msgstr "Diese Verletzungen des Duplikanten beeinträchtigen seine Arbeitsfähigk
 #. STRINGS.DUPLICANTS.MODIFIERS.MODIFIER_FORMAT
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODIFIER_FORMAT"
 msgid "\n{0}: {1}"
-msgstr ""
+msgstr "\n{0}: {1}"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MOURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MOURNING.NAME"
@@ -12952,7 +12952,7 @@ msgstr "Diese Fabrikatoren haben keine Rezepte in der Warteliste:"
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
 msgid "In order to carry <style=\"liquid\">Liquids</style> from place to place, Duplicants must first bottle them for transport.\n\nBuild Liquid Bottlers over pools of liquid from the <style=\"misc\">PLUMBING TAB</style> of the <style=\"misc\">BUILD MENU</style> to pump those liquids into bottles. Duplicants will then automatically deliver the bottled liquids where they need to go."
-msgstr ""
+msgstr "Um <style=\"liquid\">Flüssigkeiten</style> zu transportieren, müssen Duplikanten diese erst in Flaschen füllen.\n\nBaue über den <style=\"misc\">SANITÄRTAB</style> des <style=\"misc\">BAUMENÜS</style> Abfüllanlagen über Flüssigkeitsvorkommen, um diese in Flaschen zu pumpen. Duplikanten können diese Flaschen dann an ihren Zielort transportieren."
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
@@ -13047,17 +13047,17 @@ msgstr "Eine giftige Gaswolke wird bald die Kolonie umgeben"
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.NAME"
 msgid "Genes Shuffled"
-msgstr ""
+msgstr "Gene verwürfelt"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX"
 msgid " has developed {0}"
-msgstr ""
+msgstr " hat {0} entwickelt"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP"
 msgid "These Duplicants had their genetic makeup modified:"
-msgstr ""
+msgstr "Die genetische Zusammensetzung dieser Duplikanten wurde verändert:"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALING.NAME"
@@ -13077,7 +13077,7 @@ msgstr "Neue Eigenschaft"
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX"
 msgid " has developed {0}"
-msgstr " hat jetzt {0}"
+msgstr " hat {0} entwickelt"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP"
@@ -13087,12 +13087,12 @@ msgstr "Diese Verletzungen des Duplikanten wurden nicht richtig behandelt. Er en
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
 msgid "Colony requires wash basins"
-msgstr ""
+msgstr "Kolonie benötigt Waschbecken"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP"
 msgid "<style=\"disease\">Germs</style> are spreading in your colony because your Duplicants have no where to clean up"
-msgstr ""
+msgstr "<style=\"disease\">Keime</style> verbreiten sich in deiner Kolonie weil Duplikanten sich nirgendwo reinigen können"
 
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME"
@@ -13137,7 +13137,7 @@ msgstr " - {0} verbessert auf Stufe {1}"
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP"
 msgid "These Duplicants' skills have improved:"
-msgstr ""
+msgstr "Diese Fähigkeiten haben sich verbessert:"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP_PST
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP_PST"
@@ -13147,7 +13147,7 @@ msgstr "\n\nIhre Erwartungen sind entsprechend gestiegen."
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
 msgid "Duplicants must be able to reach their job tasks in order to work. When placing tasks, keep in mind that Duplicants can only climb obstacles two tiles high, and are themselves two tiles tall.\n\nIf you are unsure if a task you've placed is accessible, select a Duplicant and click <style=\"misc\">SHOW NAVIGATION</style> to view all areas within their reach."
-msgstr ""
+msgstr "Duplikanten müssen ihre Aufgaben erreichen können. Wenn du Befehle gibst, achte darauf, dass Duplikanten nur zwei Felder hochklettern können und selbst auch zwei Felder groß sind.\n\nWenn du dir unsicher bist, um eine Aufgabe erreichbar ist, wähle einen Duplikanten aus und klicke auf <style=\"misc\">NAVIGATION ANZEIGEN</style> um alle Bereiche in ihrer Reichweite zu sehen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME"
@@ -13162,17 +13162,17 @@ msgstr "Erklärung der Manövrierfähigkeit deiner Duplikanten"
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
 msgid "<style=\"disease\">Germs</style> are an invisible peril that cause <style=\"disease\">Disease</style> in your Duplicants. The <style=\"misc\">GERM OVERLAY</style> <color=#F44A47><b>[F9]</b></color> will allow you to view all germ concentrations in your colony and the sources spawning them.\n\nWash Basins can be built in dirty areas from the <style=\"misc\">MEDICINE TAB</style> <color=#F44A47><b>[9]</b></color> to tell your Duplicants to where to wash up. If you keep your base clean and your Duplicants hygienic, your colony's Immunity will handle the rest."
-msgstr ""
+msgstr "<style=\"disease\">Keime</style> sind ein unsichtbares Übel, das <style=\"disease\">Krankheiten</style> bei deinen Duplikanten verursacht. Im <style=\"misc\">KEIMOVERLAY</style> <color=#F44A47><b>[F9]</b></color> kannst du die Keimverteilung und Keimquellen deiner Kolonie sehen.\n\nWachbecken können in belasteten Bereichen über das <style=\"misc\">MEDIZINTAB</style> <color=#F44A47><b>[9]</b></color> errichtet werden, damit deine Duplikanten sich waschen können. Wenn du deine Basis sauber hältst und deine Duplikanten sich regelmäßig waschen, wird die Immunität deiner Kolonie den Rest erledigen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
 msgid "TIP: Germs and Disease"
-msgstr ""
+msgstr "TIPP: Keime und Krankheiten"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.TOOLTIP"
 msgid "Learn about the risks of Duplicant disease"
-msgstr ""
+msgstr "Lerne über die Risiken von Duplikantenkrankheiten"
 
 #. STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.NAME"
@@ -13227,7 +13227,7 @@ msgstr "Kolonie benötigt eine Nahrungsquelle"
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP"
 msgid "Your colony will soon exhaust their supplies without a new <style=\"food\">Food</style> source"
-msgstr ""
+msgstr "Deine Kolonie wird ihre Vorräte ohne eine neue Quelle für <style=\"food\">Nahrung</style> bald erschöpfen"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDOXYGENSOURCE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDOXYGENSOURCE.NAME"
@@ -13272,12 +13272,12 @@ msgstr "{0} entwickelte die Eigenschaft(en):\n\t• {1}"
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
 msgid "Colony requires Med-Beds"
-msgstr ""
+msgstr "Kolonie benötigt Krankenbetten"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP"
 msgid "Your sick Duplicants have no where to rest or receive medical aid"
-msgstr ""
+msgstr "Deine Duplikanten haben keinen Ort, um sich zu erholen und medizinische Hilfe zu bekommen"
 
 #. STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME"
@@ -13452,12 +13452,12 @@ msgstr "Lerne, wie du die Aufgaben deiner Duplikanten verwalten kannst"
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY"
 msgid "Environments that are extremely <style=\"heat\">Hot</style> or <style=\"heat\">Cold</style> will affect your Duplicants' internal body temperature and cause <style=\"stress\">Stress</style>.\n\nThe <style=\"misc\">THERMAL COMFORT OVERLAY</style> <color=#F44A47><b>[F4]</b></color> will allow you to view all areas where Duplicants cannot regulate their temperature and will become uncomfortable."
-msgstr ""
+msgstr "Sehr <style\"heat\">heiße</style> oder <style=\"heat\">kalte</style> Umgebungstemperaturen beeinflussen deine Duplikanten und verursachen <style=\"stress\">Stress</style>.\n\nIm <style=\"misc\">TEMPERATURKOMFORT-OVERLAY</style> <color=#F44A47><b>[F4]</b></color> siehst du die Bereiche, in denen Duplikanten ihre Temperatur nicht regulieren können und sich unwohl fühlen."
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
 msgid "TIP: Duplicant Temperature"
-msgstr "TIPP: Duplikant-Temperatur"
+msgstr "TIPP: Duplikanten-Temperatur"
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.TOOLTIP"
@@ -13737,12 +13737,12 @@ msgstr "{targetName} hat {damageAmount} Schaden genommen von {attackerName}s Ang
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME"
 msgid "Marked For Compost"
-msgstr ""
+msgstr "Markiert für Kompostierung"
 
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.TOOLTIP"
 msgid "Awaiting a Duplicant to compost"
-msgstr ""
+msgstr "Wartet auf Duplikanten zum Kompostieren"
 
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.NAME"
@@ -13787,12 +13787,12 @@ msgstr "Dieses Objekt wird derzeit genutzt"
 #. STRINGS.MISC.STATUSITEMS.ORDERATTACK.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERATTACK.NAME"
 msgid "Pending Attack"
-msgstr ""
+msgstr "Angriff ausstehend"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERATTACK.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERATTACK.TOOLTIP"
 msgid "Waiting for a Duplicant to murderize this defenseless creature"
-msgstr ""
+msgstr "Wartet auf einen Duplikant um diese unbewaffnete Kreatur zu ermorden"
 
 #. STRINGS.MISC.STATUSITEMS.OREMASS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OREMASS.NAME"
@@ -14112,7 +14112,7 @@ msgstr "Kompostierbar"
 #. STRINGS.MISC.TAGS.COMPOSTMEAT
 msgctxt "STRINGS.MISC.TAGS.COMPOSTMEAT"
 msgid "Compost Meat"
-msgstr ""
+msgstr "Kompostiertes Fleisch"
 
 #. STRINGS.MISC.TAGS.CONSUMABLEORE
 msgctxt "STRINGS.MISC.TAGS.CONSUMABLEORE"
@@ -14157,7 +14157,7 @@ msgstr "Gas"
 #. STRINGS.MISC.TAGS.GENE_SHUFFLER
 msgctxt "STRINGS.MISC.TAGS.GENE_SHUFFLER"
 msgid "Neural Vacillator"
-msgstr ""
+msgstr "Neural-Oszillator"
 
 #. STRINGS.MISC.TAGS.ICEORE
 msgctxt "STRINGS.MISC.TAGS.ICEORE"
@@ -16267,12 +16267,12 @@ msgstr "Bürotisch"
 #. STRINGS.SETITEMS.GENESHUFFLER.DESC
 msgctxt "STRINGS.SETITEMS.GENESHUFFLER.DESC"
 msgid "A massive synthetic brain, suspended in saline solution.\n\nThere is a chair attached to the device with room for one person."
-msgstr "Ein gigantisches synthetisches Hirn, untergetaucht in Salzlösung.\n\nDamit verbunden befindet sich ein Stuhl, auf dem eine Person Platz findet."
+msgstr "Ein gigantisches synthetisches Gehirn, eingetaucht in Salzlösung.\n\nDamit verbunden ist ein Stuhl, auf dem eine Person Platz findet."
 
 #. STRINGS.SETITEMS.GENESHUFFLER.NAME
 msgctxt "STRINGS.SETITEMS.GENESHUFFLER.NAME"
 msgid "Neural Vacillator"
-msgstr ""
+msgstr "Neural-Oszillator"
 
 #. STRINGS.SETITEMS.LADDER.DESC
 msgctxt "STRINGS.SETITEMS.LADDER.DESC"
@@ -16372,7 +16372,7 @@ msgstr "Fähigkeit: Stufe {0} {1}"
 #. STRINGS.UI.ATTRIBUTELEVEL_SHORT
 msgctxt "STRINGS.UI.ATTRIBUTELEVEL_SHORT"
 msgid "Level {0} {1}"
-msgstr ""
+msgstr "Stufe {0} {1}"
 
 #. STRINGS.UI.BASECOUNT
 msgctxt "STRINGS.UI.BASECOUNT"
@@ -16777,17 +16777,17 @@ msgstr "{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_FERTILIZER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_FERTILIZER"
 msgid "Allows fertilizer to be delivered to plants"
-msgstr ""
+msgstr "Erlaubt die Lieferung von Dünger an Pflanzen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_IRRIGATION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_IRRIGATION"
 msgid "Allows liquids to be delivered to plants"
-msgstr ""
+msgstr "Erlaubt die Lieferung von Flüssigkeiten an Pflanzen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_IRRIGATION_PIPE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_IRRIGATION_PIPE"
 msgid "Allows irrigation pipe connection"
-msgstr ""
+msgstr "Erlaubt die Verbindung von Bewässerungsrohren"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ASSIGNEDDUPLICANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ASSIGNEDDUPLICANT"
@@ -16812,17 +16812,17 @@ msgstr "Verbessert Dekorationswerte um {0} in einem Radius von {1}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASECONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASECONSUMEDPERUSE"
 msgid "Removes {0} of any disease per use"
-msgstr ""
+msgstr "Entfernt {0} von jeder Krankheit pro Verwendung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE"
 msgid "Produces {1} of {0} per use"
-msgstr ""
+msgstr "Produziert {1} {0} pro Verwendung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING"
 msgid "Doctoring increases existing health benefits and can allow treatment of otherwise stubborn diseases"
-msgstr ""
+msgstr "Die Behandlung verbessert existierende Gesundheitsvorteilt und erlaubt die Therapie von ansonsten eher sturen Krankheiten"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DUPLICANTMOVEMENTBOOST
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DUPLICANTMOVEMENTBOOST"
@@ -16897,12 +16897,12 @@ msgstr ""
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ITEM_TEMPERATURE_ADJUST
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ITEM_TEMPERATURE_ADJUST"
 msgid "Stored items will reach a temperature of {0} over time"
-msgstr ""
+msgstr "Gelagerte Gegenstände erreichen über die Zeit eine Temperatur von {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING"
 msgid "Reduces the temperature of piped liquids by {0}"
-msgstr ""
+msgstr "Reduziert die Temperatur von transportierten Flüssigkeiten um {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE"
@@ -16912,12 +16912,12 @@ msgstr "Mehr als die erlaubte Energiemenge abzurufen, kann den Schaltkreis besch
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_DECREASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_DECREASE"
 msgid "Dampens noise at {0} dB in a {1} tile radius"
-msgstr ""
+msgstr "Dämpft Lärm um {0} dB in einem Radius von {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_INCREASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_INCREASE"
 msgid "Produces noise at {0} dB in a {1} tile radius"
-msgstr ""
+msgstr "Produziert Lärm mit {0} dB in einem Radius von {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONEFFECTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONEFFECTS"
@@ -16942,7 +16942,7 @@ msgstr "Pflanzen wachsen langsamer, wenn sie in Kisten gehalten werden"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS"
 msgid "Produces {0} research"
-msgstr "Erzeugt {0}-Forschung"
+msgstr "Produziert {0}-Forschung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK"
@@ -17137,12 +17137,12 @@ msgstr "ERNÄHRUNG"
 #. STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_ABOVE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_ABOVE"
 msgid "<b><color=#B87194FF>fulfills</color></b>"
-msgstr ""
+msgstr "<b><color=#B87194FF>erfüllt</color></b>"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_BELOW
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_BELOW"
 msgid "is <b><color=#B87194FF>below</color></b>"
-msgstr ""
+msgstr "ist <b><color=#B87194FF>unterhalb</color></b> von"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_AVAILABLE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_AVAILABLE"
@@ -17162,7 +17162,7 @@ msgstr "Erwartungen"
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
 msgid "Expectations\n------------------\nDesires food that is {0} quality or better"
-msgstr ""
+msgstr "Erwartungen\n------------------\nDie Hoffnung, dass die Nahrung eine Qualität von {0} oder besser hat"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_OFF
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_OFF"
@@ -17182,7 +17182,7 @@ msgstr "Qualität: {0}"
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION"
 msgid "------------------\nThis food type {0} {1}'s quality expectations\n[{2} Quality / {3} Expectation]"
-msgstr ""
+msgstr "------------------\nDie Qualität dieser Nahrung {0} {1}s Erwartungen\n[{2} Qualität / {3} Erwartung]"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE"
@@ -17887,7 +17887,7 @@ msgstr "Dauer ist die notwendige Zeit, bis ein Duplikant diese Infektion bekämp
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SOURCE_SUFFIX
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SOURCE_SUFFIX"
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SOURCE_TOOLTIP_SUFFIX
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SOURCE_TOOLTIP_SUFFIX"
@@ -18687,17 +18687,17 @@ msgstr "Der gesamte <style=\"stress\">Stress</style> deiner Kolonie wurde um {0}
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME"
 msgid "Time Breakdown:"
-msgstr ""
+msgstr "Zeitaufschlüsselung:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP"
 msgid "Your Duplicants spent a total of {0} doing all tasks over the course of the day"
-msgstr ""
+msgstr "Deine Duplikanten haben {0} für alle ihre Aufgaben über den Tag benötigt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME"
 msgid "Restroom Accidents:"
-msgstr "Toiletteunfälle:"
+msgstr "Toilettenunfälle:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.TOOLTIP"
@@ -18847,7 +18847,7 @@ msgstr "Normal"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.TOOLTIP"
 msgid "Duplicants gain and lose stress normally"
-msgstr "Dupliknanten gewinnen und verlieren Stress normal"
+msgstr "Duplikanten gewinnen und verlieren Stress normal"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.ATTRIBUTE_MODIFIER_NAME"
@@ -18892,7 +18892,7 @@ msgstr "Beeinflusst wie ein Duplikant mit Stress umgehen kann"
 #. STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.BODY"
 msgid "Thank you for playing the demo for Oxygen Not Included!\n\nThis game is still in development.\n\nGo to kleigames.com/o2 or ask one of us if you'd like more information."
-msgstr ""
+msgstr "Vielen Dank für das Spielen der Demo von Oxygen Not Included!\n\nDas Spiel befindet sich noch in der Entwicklung.\n\nGehe auf kleigames.com/o2 or frage einen von uns, wenn du mehr Informationen benötigt."
 
 #. STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.BUTTON_EXIT_TO_MENU
 msgctxt "STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.BUTTON_EXIT_TO_MENU"
@@ -18902,7 +18902,7 @@ msgstr "BEENDEN ZUM MENÜ"
 #. STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.TITLE"
 msgid "Thanks for playing!"
-msgstr ""
+msgstr "Vielen Dank für's Spielen!"
 
 #. STRINGS.UI.FRONTEND.GAME_VERSION
 msgctxt "STRINGS.UI.FRONTEND.GAME_VERSION"
@@ -19432,12 +19432,12 @@ msgstr "WELTERZEUGUNGSOPTIONEN"
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TOOLTIP"
 msgid "This will override the current world gen seed"
-msgstr "Dies wird den aktuellen Weltgen seed überschreiten"
+msgstr "Dies wird den aktuellen Weltgenerator-Seed überschreiten"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.USE_SEED
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.USE_SEED"
 msgid "Set World Gen Seed"
-msgstr ""
+msgstr "Setze Weltgenerator-Seed"
 
 #. STRINGS.UI.FRONTEND.WORLDGENSCREEN.GENERATINGWORLD
 msgctxt "STRINGS.UI.FRONTEND.WORLDGENSCREEN.GENERATINGWORLD"
@@ -19532,7 +19532,7 @@ msgstr "Schaden wegen falschem Element"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DARKNESS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DARKNESS"
 msgid "Darkness"
-msgstr ""
+msgstr "Dunkelheit"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.EQUIPMENT_MODS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.EQUIPMENT_MODS"
@@ -19542,7 +19542,7 @@ msgstr "{Attribute} <style=\"{Style}\">{Value}</style>"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS"
 msgid "Effects:"
-msgstr ""
+msgstr "Effekte:"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_QUALITY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_QUALITY"
@@ -19597,7 +19597,7 @@ msgstr "Wachstum:"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.LIGHT"
 msgid "Light"
-msgstr ""
+msgstr "Licht"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST"
@@ -19842,7 +19842,7 @@ msgstr "SCHLIESSEN"
 #. STRINGS.UI.GENESHUFFLERMESSAGE.HEADER
 msgctxt "STRINGS.UI.GENESHUFFLERMESSAGE.HEADER"
 msgid "NEURAL VACILLATION COMPLETE"
-msgstr ""
+msgstr "NEURAL-OSZILLATION ABGESCHLOSSEN"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.BACK
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.BACK"
@@ -20132,12 +20132,12 @@ msgstr "DEKORATIONS-OVERLAY"
 #. STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.HIGHDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.HIGHDECOR"
 msgid "<b>Low Decor</b>\nArea with sufficient decor values\n* Lighting and aesthetically pleasing buildings increase decor"
-msgstr ""
+msgstr "<b>Hoher Dekorationswert</b>\nBereich mit ausreichenden Dekorationswerten\n* Beleuchtung und ästhetische Gebäude verbessern die Dekoration"
 
 #. STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.LOWDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.LOWDECOR"
 msgid "<b>High Decor</b>\nArea with insufficient decor values\n* Resources on the floor are considered \"debris\" and will decrease decor"
-msgstr ""
+msgstr "<b>Niedriger Dekorationswert</b>\nBereich mit unzureichenden Dekorationswerten\n* Resssourcen auf dem Boden werden als \"Schutt\" betrachtet und senken die Dekoration"
 
 #. STRINGS.UI.OVERLAYS.DECOR.TOTAL
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOTAL"
@@ -20157,12 +20157,12 @@ msgstr "\n    {0}: {1}"
 #. STRINGS.UI.OVERLAYS.DISEASE.DISEASE_FORMAT
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISEASE_FORMAT"
 msgid "{1} [{0}]<color=#{2}></color>"
-msgstr ""
+msgstr "{1} [{0}]<color=#{2}></color>"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.DISEASE_FORMAT_NO_COLOR
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISEASE_FORMAT_NO_COLOR"
 msgid "{1} [{0}]"
-msgstr ""
+msgstr "{1} [{0}]"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.THRESHOLD_PREFIX
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.THRESHOLD_PREFIX"
@@ -20177,7 +20177,7 @@ msgstr "Desinfiziert automatisch jedes Objekt mit mehr als {NumberOfGerms} Keime
 #. STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.TOOLTIP_DISABLED
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.TOOLTIP_DISABLED"
 msgid "Automatic building disinfection disabled."
-msgstr ""
+msgstr "Automatische Objektdesinfizierung deaktiviert."
 
 #. STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.UNITS
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.UNITS"
@@ -20202,7 +20202,7 @@ msgstr "Keimquelle"
 #. STRINGS.UI.OVERLAYS.DISEASE.INFECTION_SOURCE_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.INFECTION_SOURCE_TOOLTIP"
 msgid "<b>Germ Source</b>\nAreas where germs are produced\n* Placing Wash Basins or Hand Sanitizers near these areas may prevent disease spread"
-msgstr ""
+msgstr "<b>Keimquelle</b>\nOrte an denen Keime produziert werden\n* Platziere Waschbecken oder Hand-Desinfizierer in der Nähe um die Krankheitsverbreitung zu vermeiden"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS"
@@ -20212,7 +20212,7 @@ msgstr "Keimwirt"
 #. STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS_TOOLTIP"
 msgid "<b>Germ Host</b>\nGerm hosts may be asymptomatic and show no signs of disease\n------------------\nDuplicants become hosts when germs enter their body through inhalation or ingestion\n* Unlike surface germs, internal germs cannot be washed off"
-msgstr ""
+msgstr "<b>Keimwirt</b>\nKeimwirte müssen nicht unbedingt Anzeichen von Krankheiten zeigen\n------------------\nDuplikanten werden zu Wirten, wenn Keime ihren Körper durch Inhalation oder Verdauung betreten\n* Um Gegensatz zu Oberflächenkeimen können innere Keime nicht einfach abgewaschen werden"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.NAME
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.NAME"
@@ -22497,27 +22497,27 @@ msgstr "Flüssigkeits-Ausgabe:\nAlle"
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON"
 msgid "Complete Neural Process"
-msgstr ""
+msgstr "Neuralprozess abschließen"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.COMPLETE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.COMPLETE"
 msgid "Something feels different."
-msgstr ""
+msgstr "Irgendetwas fühlt sich anders an."
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED"
 msgid "There are no charges left in this Vacillator."
-msgstr ""
+msgstr "Dieser Oszillator hat keine Aufladung mehr übrig."
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE"
 msgid "Neural Vacillator"
-msgstr ""
+msgstr "Neural-Oszillator"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY"
 msgid "Neural Vacillation in progress."
-msgstr ""
+msgstr "Neural-Oszillation läuft."
 
 #. STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD"
