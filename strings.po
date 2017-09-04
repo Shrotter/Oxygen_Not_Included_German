@@ -9871,7 +9871,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME"
 msgid "Cacophony!"
-msgstr ""
+msgstr "Missklang!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.TOOLTIP"
@@ -9896,7 +9896,7 @@ msgstr "Ruhe und Stille"
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEPEACEFUL.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEPEACEFUL.TOOLTIP"
 msgid "This Duplicant has found a quiet place to concentrate"
-msgstr "Dieser Duplicant hat einen ruhigen Ort gefunden, um sich zu konzentrieren."
+msgstr "Dieser Duplikant hat einen ruhigen Ort gefunden, um sich zu konzentrieren."
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NORATIONSAVAILABLE.NAME"
@@ -10006,7 +10006,7 @@ msgstr "Trostlose Umgebung"
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.TOOLTIP"
 msgid "This Duplicant is depressed by the lack of decor in this area"
-msgstr ""
+msgstr "Dieser Duplikant ist deprimiert über die Dekorationsmängel in diesem Bereich"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNASSIGNED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNASSIGNED.NAME"
@@ -10171,7 +10171,7 @@ msgstr "Ekelhaft!"
 #. STRINGS.DUPLICANTS.STATUSITEMS.SEVEREWOUNDS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SEVEREWOUNDS.NAME"
 msgid "Severely injured"
-msgstr "Schwerverletzt"
+msgstr "Schwerverletzte"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SEVEREWOUNDS.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SEVEREWOUNDS.NOTIFICATION_NAME"
@@ -10225,11 +10225,14 @@ msgid ""
 "\n"
 "They were sleeping peacefully until they were disturbed by {Disturber}"
 msgstr ""
+"\n"
+"\n"
+"Sie schliefen friedlich bis sie von {Disturber} gestört wurden"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGBADLY.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGBADLY.NAME"
 msgid "Sleeping badly"
-msgstr ""
+msgstr "Schlecht geschlafen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGBADLY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGBADLY.TOOLTIP"
@@ -10238,41 +10241,44 @@ msgid ""
 "\n"
 "They're going to feel a bit <style=\"effect\">Unrested</style> tomorrow morning"
 msgstr ""
+"Diese Duplikanten haben Probleme beim Einschlafen aufgrund von Lärm von {Disturber}\n"
+"\n"
+"Sie werden sich morgen früh ein wenig <style=\"effect\">unausgeschlafen</style> fühlen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.GENERIC
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.GENERIC"
 msgid "Something"
-msgstr ""
+msgstr "Irgendwas"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.NAME"
 msgid "Awake"
-msgstr ""
+msgstr "Wach"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.TOOLTIP"
 msgid "This Duplicant was rudely awoken while they slept"
-msgstr ""
+msgstr "Dieser Duplikant wurde rüde geweckt, während er schliefen."
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDLIGHT.GENERIC
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDLIGHT.GENERIC"
 msgid "Something"
-msgstr ""
+msgstr "Irgendwas"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDLIGHT.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDLIGHT.NAME"
 msgid "Disturbed"
-msgstr ""
+msgstr "Gestört"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDLIGHT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDLIGHT.TOOLTIP"
 msgid "This Duplicant's sleep is being disturbed by noise from {Disturber}"
-msgstr ""
+msgstr "Der Schlaf dieses Duplikanten wird durch Geräusche von {Disturber} gestört"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGPEACEFULLY.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGPEACEFULLY.NAME"
 msgid "Sleeping peacefully"
-msgstr ""
+msgstr "Schläft ruhig"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGPEACEFULLY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGPEACEFULLY.TOOLTIP"
@@ -10281,11 +10287,14 @@ msgid ""
 "\n"
 "At this rate they're sure to feel <style=\"effect\">Well Rested</style> tomorrow morning"
 msgstr ""
+"Dieser Duplikant erhält seinen wohlverdienten, qualitativen Schlaf\n"
+"\n"
+"Bei diesem Grad werden sie sich sicher morgen früh <style=\"effect\">Wohl geruht</style> fühlen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGTERRIBLY.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGTERRIBLY.NAME"
 msgid "Can't sleep"
-msgstr ""
+msgstr "Kann nicht schlafen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGTERRIBLY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGTERRIBLY.TOOLTIP"
@@ -10294,6 +10303,9 @@ msgid ""
 "\n"
 "They're going to feel <style=\"effect\">Dead Tired</style> tomorrow morning"
 msgstr ""
+"Dieser Duplikant wurde durch Geräusche von {Disturber} aufgeweckt und kann nicht mehr einschlafen.\n"
+"\n"
+"Sie werden sich morgen <style=\"effect\">Todmüde</style> fühlen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STARVING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.NAME"
@@ -10745,6 +10757,8 @@ msgid ""
 "\n"
 "• {0}: {1}"
 msgstr ""
+"\n"
+"• {0}: {1}"
 
 #. STRINGS.DUPLICANTS.TRAITS.BEDSIDEMANNER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BEDSIDEMANNER.DESC"
