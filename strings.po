@@ -2044,7 +2044,7 @@ msgid ""
 "\n"
 "Duplicants will not fabricate unless recipes are queued."
 msgstr ""
-"Schneidert <style=\"equipment\">Kleidung</style> für ihre Duplikanten.\n"
+"Schneidert <style=\"equipment\">Kleidung</style> für deine Duplikanten.\n"
 "\n"
 "Duplikanten werden nichts herstellen, wenn kein Rezept in der Warteliste ist."
 
@@ -7789,7 +7789,7 @@ msgstr "Wird behandelt"
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP"
 msgid "This Duplicant is receiving medical aid to lessen the severity and recovery time of their illness"
-msgstr "Dieser Duplikant erhält medizinische Hilfe um die Ernsthaftigkeit ihrer Krankheit zu sänken und die Erholung zu beschleunigen"
+msgstr "Dieser Duplikant erhält medizinische Hilfe um die Ernsthaftigkeit seiner Krankheit zu senken und die Erholung zu beschleunigen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.NAME"
@@ -8870,7 +8870,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.DESC"
 msgid "A {0}'s monotonous voice and lack of facial expression makes it impossible for others to tell when he's messing with them."
-msgstr ""
+msgstr "{0}s eintönige Stimme und der fehlende Gesichtsausdruck machen es anderen unmöglich zu sagen, wann er sie nur ärgert."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.NAME"
@@ -8880,7 +8880,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.TURNER.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TURNER.DESC"
 msgid "This {0} is paralyzed by the knowledge that others have memories and perceptions of them they can't control."
-msgstr ""
+msgstr "{0} ist durch die Erkenntnis gelähmt, dass andere Erinnerungen und Wahrnehmungen von sich haben, die sie nicht kontrollieren können."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.TURNER.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TURNER.NAME"
@@ -12448,6 +12448,9 @@ msgid ""
 "\n"
 "It emits <style=\"disease\">Polluted Oxygen</style> over time."
 msgstr ""
+"Verschmutzte Erde ist ein biologischer Abfall.\n"
+"\n"
+"Sie emittiert <style=\"disease\">verschmutzten Sauerstoff</style> über die Zeit."
 
 #. STRINGS.ELEMENTS.TOXICSAND.NAME
 msgctxt "STRINGS.ELEMENTS.TOXICSAND.NAME"
@@ -13282,7 +13285,7 @@ msgstr "Overlay10"
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY11
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY11"
 msgid "Overlay11"
-msgstr ""
+msgstr "Overlay11"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY2
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY2"
@@ -14095,7 +14098,7 @@ msgstr ""
 "VON: ADMIN@GRAVITASFACILITY.NOVA\n"
 "BETREFF: Unbeaufsichtigte Kulturen\n"
 "\n"
-"Bitte bewahren Sie für die Gesundheit und Sicherheit Ihrer Facility-Mitarbeiter keine unmarkierten Bakterienkulturen im Kühlschrank der Cafeteria auf.\n"
+"Bitte bewahren Sie für die Gesundheit und Sicherheit unserer Facility-Mitarbeiter keine unmarkierten Bakterienkulturen im Kühlschrank der Cafeteria auf.\n"
 "Ebenso ist darauf hinzuweisen, dass die Geschirrspülmaschine der Cafeteria trotz der Nomenklatur nicht in der Lage ist, Petri\"schalen\" zu reinigen.\n"
 "\n"
 "Wir danken Ihnen für Ihre Aufmerksamkeit.\n"
@@ -14383,8 +14386,7 @@ msgid ""
 "\n"
 "Dangerously contaminated food can be recycled by clicking the <style=\"misc\">COMPOST</style> button on the selected item."
 msgstr ""
-"Die <style=\"food\">Nahrung</style, die Ihre Duplikanten herstellen, ist nur so sauber wie die <style=\"solid\">Zutaten</style>, die zur Herstellung verwendet werden. Die Lagerung von Lebensmitteln in sterilen oder <style=\"heat\">gekühlten</style> Umgebungen hält die produzierten Lebensmittel sauber, während sorgfältig platzierte Hygienesysteme Ihre Köche daran "
-"hindern, die Lebensmittel zu infizieren, während sie sie handhaben.\n"
+"Die <style=\"food\">Nahrung</style>, die deine Duplikanten herstellen, ist nur so sauber wie die <style=\"solid\">Zutaten</style>, die zur Herstellung verwendet werden. Die Lagerung von Lebensmitteln in sterilen oder <style=\"heat\">gekühlten</style> Umgebungen hält die produzierten Lebensmittel sauber, während sorgfältig platzierte Hygienesysteme deine Köche daran hindern, die Lebensmittel zu infizieren, während sie sie handhaben.\n"
 "\n"
 "Gefährlich kontaminierte Lebensmittel können durch Anklicken der <style=\"misc\">Kompostieren</style>-Taste auf dem ausgewählten Artikel recycelt werden."
 
@@ -19112,37 +19114,37 @@ msgstr ""
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.CELLS
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.CELLS"
 msgid "Cells:"
-msgstr ""
+msgstr "Zellen:"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE"
 msgid "Disease"
-msgstr ""
+msgstr "Krankheit"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE_COUNT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE_COUNT"
 msgid "Disease Count"
-msgstr ""
+msgstr "Anzahl der Krankheiten"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ELEMENT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ELEMENT"
 msgid "Element"
-msgstr ""
+msgstr "Element"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.FILL
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.FILL"
 msgid "Fill"
-msgstr ""
+msgstr "Füllen"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.MASS_KG
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.MASS_KG"
 msgid "Mass (kg)"
-msgstr ""
+msgstr "Masse (kg)"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.PAINT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.PAINT"
 msgid "Paint"
-msgstr ""
+msgstr "Malen"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.REMOVE_FOW_MASK
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.REMOVE_FOW_MASK"
@@ -19152,7 +19154,7 @@ msgstr ""
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN"
 msgid "Temperature (K)"
-msgstr ""
+msgstr "Temperatur (K)"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TITLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TITLE"
@@ -21175,6 +21177,12 @@ msgid ""
 "\n"
 "Please visit your audio device manufacturer's website to download the latest drivers."
 msgstr ""
+"Es trat ein Problem bei der Initialisierung deines Audiogeräts auf.\n"
+"Entschuldigung dafür.\n"
+"\n"
+"Dies wird in der Regel durch veraltete Audiotreiber verursacht.\n"
+"\n"
+"Bitte besuche die Website des Audiogerät-Herstellers, um den neuesten Treiber herunterzuladen."
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE"
@@ -21184,6 +21192,10 @@ msgid ""
 "Please free at least 15 MB to give your saves some room to breathe.\n"
 "{0}"
 msgstr ""
+"Es ist nicht genügend Speicherplatz vorhanden, um deine Spielstände zu schreiben.\n"
+"\n"
+"Bitte gib mindestens 15 MB für deine Spielstände frei.\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY"
@@ -21194,11 +21206,16 @@ msgid ""
 "Please ensure your save directory is writable and re-launch the game.\n"
 "{0}"
 msgstr ""
+"Beim Zugriff auf dein Sicherungsverzeichnis ist ein Problem aufgetreten.\n"
+"Dies kann daran liegen, dass dieses Verzeichnis schreibgeschützt ist.\n"
+"\n"
+"Bitte stelle sicher, dass dein Sicherungsverzeichnis beschreibbar ist und starte das Spiel neu.\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.ARE_YOU_SURE
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.ARE_YOU_SURE"
 msgid "Are you sure you want to uninstall this language pack?"
-msgstr ""
+msgstr "Bist du dir sicher, dass du das Sprachpaket deinstallieren willst?"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.DOWNLOAD
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.DOWNLOAD"
