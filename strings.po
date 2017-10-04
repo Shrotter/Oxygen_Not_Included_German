@@ -1749,6 +1749,32 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.TOOLTIP"
 msgid "Configuration required"
 msgstr "Benötigte Konfiguration"
 
+#. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.NAME"
+msgid "Clearance: Always"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP"
+msgid ""
+"Duplicants wearing suits will pass by this arrow and unequip their suits "
+"even if there is no room available."
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME
+msgctxt ""
+"STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME"
+msgid "Clearance: Vacant"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP
+msgctxt ""
+"STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP"
+msgid ""
+"Duplicants wearing suits will pass by this arrow and unequip their suits "
+"only if there is room available in the attached lockers."
+msgstr ""
+
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME"
 msgid "Invalid Checkpoint"
@@ -22704,6 +22730,14 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.OPERATIONREQUIREMENTS"
 msgid "<b>Requirements:</b>"
 msgstr "<b>Anforderungen:</b>"
 
+#. STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS
+#, fuzzy
+#| msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.NAME"
+#| msgid "Over pressure"
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS"
+msgid "Over Pressure: {0}"
+msgstr "Überdruck"
+
 #. STRINGS.UI.BUILDINGEFFECTS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVERHEAT_TEMP"
 msgid "Overheat <style=\"heat\">Temperature</style>: {0}"
@@ -23038,6 +23072,11 @@ msgid "All requirements must be met in order for this building to operate"
 msgstr ""
 "Alle Voraussetzungen müssen erfüllt sein, damit dieses Objekt betrieben "
 "werden kann"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS"
+msgid "Ceases to function when the surrounding mass is above {0}"
+msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP"
@@ -31363,6 +31402,34 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP"
 msgid "Choose a technology from the Research Tree <color=#F44A47>[R]</color>"
 msgstr ""
 "Wähle eine Forschung aus dem Forschungsbaum aus <color=#F44A47>[R]</color>"
+
+#. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME"
+msgid "Set Clearance: Always"
+msgstr ""
+
+#. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP
+msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP"
+msgid ""
+"If clearance is always, Duplicants wearing suits will pass by this arrow and "
+"unequip their suits even if there is no room available."
+msgstr ""
+
+#. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.NAME
+msgctxt ""
+"STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE."
+"NAME"
+msgid "Set Clearance: Vacant"
+msgstr ""
+
+#. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.TOOLTIP
+msgctxt ""
+"STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE."
+"TOOLTIP"
+msgid ""
+"If clearance is vacant, Duplicants wearing suits will pass by this arrow and "
+"unequip their suits only if there is room available in the attached lockers."
+msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
