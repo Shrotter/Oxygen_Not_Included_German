@@ -1329,7 +1329,7 @@ msgstr "Kein Kontrollpunkt"
 #. STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
 msgid "Building needs to be adjacent to an Exosuit Checkpoint"
-msgstr "Gebäude muss an einen Exosuit-Kontrollpunkt angrenzen"
+msgstr "Gebäude muss an einen Schutzanzug-Kontrollpunkt angrenzen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -1694,7 +1694,7 @@ msgid ""
 "\n"
 "Exosuit Docks must be placed beside a Checkpoint opposite the side its checkpoint faces"
 msgstr ""
-"Dieses Gebäude wurde auf der falschen Seite eines Exosuit-Kontrollpunkts gebaut.\n"
+"Dieses Gebäude wurde auf der falschen Seite eines Schutzanzug-Kontrollpunkts gebaut.\n"
 "\n"
 "Schutzanzug-Docks müssen neben einem Kontrolpunkt, entgegen dessen Richtung, plaziert sein"
 
@@ -2592,12 +2592,12 @@ msgstr "Pneumatische Tür"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED"
 msgid "<style=\"equipment\">Exosuit</style> not required {0}"
-msgstr "<style=\"equipment\">Exosuit</style> nicht benötigt {0}"
+msgstr "<style=\"equipment\">Schutzanzug</style> nicht benötigt {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED"
 msgid "<style=\"equipment\">Exosuit</style> required {0}"
-msgstr "<style=\"equipment\">Exosuit</style> benötigt {0}"
+msgstr "<style=\"equipment\">Schutzanzug</style> benötigt {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
@@ -9838,7 +9838,7 @@ msgstr "Dieser Duplikant ist talentiert in der Zucht und Pflege von Pflanzen."
 #. STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME"
 msgid "Botanist"
-msgstr ""
+msgstr "Botaniker"
 
 #. STRINGS.DUPLICANTS.STATS.BLADDER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.BLADDER.NAME"
@@ -10740,12 +10740,12 @@ msgstr "Dieser Duplikant wischt eine widerliche Kleckerei auf"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
 msgid "Exiting <style=\"equipment\">Exosuit</style> area"
-msgstr "<style=\"equipment\">Exosuit</style>-Ausstiegsbereich"
+msgstr "<style=\"equipment\">Schutzanzug</style>-Ausstiegsbereich"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
 msgid "This Duplicant is leaving an area where an exosuit was required"
-msgstr "Dieser Duplikant verlässt einen Bereich, in dem ein Exosuit erforderlich war"
+msgstr "Dieser Duplikant verlässt einen Bereich, in dem ein Schutzanzug erforderlich war"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME"
@@ -13308,7 +13308,7 @@ msgid ""
 msgstr ""
 "Petroleum ist eine <style=\"power\">Energiequelle</style>, die aus <style=\"liquid\">Rohöl</style> gewonnen wird.\n"
 "\n"
-"Es ist auch ein unentbehrlicher Grundstoff für die Produktion von <style=\"solid\">Kunststoff</style>."
+"Es ist auch ein unentbehrlicher Grundstoff für die Produktion von <style=\"solid\">Plastik</style>."
 
 #. STRINGS.ELEMENTS.PETROLEUM.NAME
 msgctxt "STRINGS.ELEMENTS.PETROLEUM.NAME"
@@ -13382,7 +13382,7 @@ msgid ""
 "\n"
 "It is useful as a raw <style=\"misc\">Plastic</style> feedstock."
 msgstr ""
-"(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Kunststoff ist ein thermoplastisches Polymer-\n"
+"(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastik ist ein thermoplastisches Polymer-\n"
 "\n"
 "Es ist nützlich als Ausgangsmaterial für <style=\"misc\">Kunststoffe</style>."
 
@@ -16996,12 +16996,9 @@ msgid "Water Based"
 msgstr "Wasserbasiert"
 
 #. STRINGS.MISC.TAGS.BAGABLECREATURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REMOVESEFFECTSUBTITLE"
-#| msgid "Cures"
 msgctxt "STRINGS.MISC.TAGS.BAGABLECREATURE"
 msgid "Creatures"
-msgstr "Kuriert"
+msgstr "Kreaturen"
 
 #. STRINGS.MISC.TAGS.BED
 msgctxt "STRINGS.MISC.TAGS.BED"
@@ -19124,12 +19121,9 @@ msgid "Fossil Fuels"
 msgstr "Fossile Brennstoffe"
 
 #. STRINGS.RESEARCH.IMPROVEDGASPIPING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.IMPROVEDGASPIPING.DESC"
-#| msgid "<style=\"GasPlumbing\">Gas</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
 msgctxt "STRINGS.RESEARCH.IMPROVEDGASPIPING.DESC"
 msgid "<style=\"gas\">Gas</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
-msgstr "<style=\"GasPlumbing\">Gasinfrastruktur</style>, die in intensiveren Bedingungen wie <style=\"heat\">Wärme</style> und Druck betrieben werden kann."
+msgstr "<style=\"gas\">Gasinfrastruktur</style>, die unter intensiven Bedingungen wie <style=\"heat\">Hitze</style> und Druck betrieben werden kann."
 
 #. STRINGS.RESEARCH.IMPROVEDGASPIPING.NAME
 msgctxt "STRINGS.RESEARCH.IMPROVEDGASPIPING.NAME"
@@ -19137,12 +19131,9 @@ msgid "Improved Ventilation"
 msgstr "Verbesserte Belüftung"
 
 #. STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.DESC"
-#| msgid "<style=\"LiquidPlumbing\">Liquid</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
 msgctxt "STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.DESC"
 msgid "<style=\"liquid\">Liquid</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
-msgstr "<style=\"LiquidPlumbing\">Flüssigkeitsinfrastruktur</style>, die in intensiveren Bedingungen wie <style=\"heat\">Wärme</style> und Druck betrieben werden kann."
+msgstr "<style=\"liquid\">Flüssigkeitsinfrastruktur</style>, die unter intensiven Bedingungen wie <style=\"heat\">Hitze</style> und Druck betrieben werden kann."
 
 #. STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.NAME
 msgctxt "STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.NAME"
@@ -19192,7 +19183,7 @@ msgstr "Sanitär"
 #. STRINGS.RESEARCH.LIQUIDTEMPERATURE.DESC
 msgctxt "STRINGS.RESEARCH.LIQUIDTEMPERATURE.DESC"
 msgid "Easily manipulate <style=\"liquid\">Liquid</style> <style=\"heat\">Temperatures</style> with these technologies."
-msgstr "Mit diesen Technologien lassen sich <style=\"liquid\">Liquid</style> <style=\"heat\">Temperaturen</style> leicht manipulieren."
+msgstr "Mit diesen Technologien lassen sich die <style=\"heat\">Temperaturen</style> von <style=\"liquid\">Flüssigkeiten</style> leicht verändern."
 
 #. STRINGS.RESEARCH.LIQUIDTEMPERATURE.NAME
 msgctxt "STRINGS.RESEARCH.LIQUIDTEMPERATURE.NAME"
@@ -19752,7 +19743,7 @@ msgid ""
 msgstr ""
 "Ein detailliertes anatomisches Modell.\n"
 "\n"
-"Es scheint aus Kunststoff zu sein."
+"Es scheint aus Plastik zu sein."
 
 #. STRINGS.SETITEMS.SKELETON.NAME
 msgctxt "STRINGS.SETITEMS.SKELETON.NAME"
@@ -20437,7 +20428,7 @@ msgstr "Alle Voraussetzungen müssen erfüllt sein, damit dieses Objekt betriebe
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS"
 msgid "Ceases to function when the surrounding mass is above {0}"
-msgstr ""
+msgstr "Funktioniert nicht mehr, wenn die umgebende Masse über {0} liegt"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP"
@@ -23148,19 +23139,13 @@ msgid "World Generation Key"
 msgstr "Welterzeugungsschlüssel"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
-#| msgid ""
-#| "<b>Welcome to the Outbreak Upgrade!</b>\n"
-#| "\n"
-#| "{0}"
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
 "<b>Welcome to the Oil Upgrade!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Willkommen zum Outbreak Upgrade!</b>\n"
+"<b>Willkommen zum Öl Upgrade!</b>\n"
 "\n"
 "{0}"
 
@@ -23181,6 +23166,14 @@ msgid ""
 "• Revamped research tree and dozens of new buildings to unlock\n"
 "• Bug fixes, performance improvements, new plants, creatures and more."
 msgstr ""
+"<b>Aktualisierungen: </b>\n"
+"\n"
+"• Neue Ölbiome und Öl-Geysire\n"
+"• Neue Rohstoffe wie Rohöl, Petroleum, Naphtha, Plastik und Diamant\n"
+"• Neue wiederaufladbare Schutzanzüge für Duplikanten zum anziehen\n"
+"• Neues Raumsystem und entsprechendes Overlay\n"
+"• Überarbeiteter Forschungsbaum und Dutzende neue Gebäude zum Freischalten\n"
+"• Bugfixes, Leistungsverbesserungen, neue Pflanzen, Kreaturen und mehr."
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
@@ -23382,12 +23375,9 @@ msgid "English (Klei)"
 msgstr "Englisch (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.EN"
-#| msgid "English (Klei)"
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI"
 msgid "Chinese (Klei)"
-msgstr "Englisch (Klei)"
+msgstr "Chinesisch (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.TITLE"
@@ -25915,12 +25905,12 @@ msgstr "Regionslöschungs-Werkzeug"
 #. STRINGS.UI.TOOLS.EXOSUITREGION.NAME
 msgctxt "STRINGS.UI.TOOLS.EXOSUITREGION.NAME"
 msgid "Drag to designate an exosuit region"
-msgstr "Ziehen, um eine Exosuit-Region festzulegen"
+msgstr "Ziehen, um eine Schutzanzug-Region festzulegen"
 
 #. STRINGS.UI.TOOLS.EXOSUITREGION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.EXOSUITREGION.TOOLNAME"
 msgid "Exosuit Region tool"
-msgstr "Exosuit-Regionen-Werkzeug"
+msgstr "Schutzanzug-Regionen-Werkzeug"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
@@ -26180,7 +26170,7 @@ msgstr "Zeigt Risikobereiche für Krankheiten an"
 #. STRINGS.UI.TOOLTIPS.DISINFECTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
 msgid "Drag to disinfect buildings"
-msgstr "Ziehen um Objekte zu desinfizieren"
+msgstr "Ziehen, um Objekte zu desinfizieren"
 
 #. STRINGS.UI.TOOLTIPS.DISMISSMESSAGE
 msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
@@ -26205,7 +26195,7 @@ msgstr "<style=\"power\">Energie</style> benötigt"
 #. STRINGS.UI.TOOLTIPS.ERASEREGIONBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.ERASEREGIONBUTTON"
 msgid "Drag to erase existing exosuit regions"
-msgstr "Ziehen um bestehende Anzugregionen zu löschen"
+msgstr "Ziehen, um bestehende Anzugregionen zu löschen"
 
 #. STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING"
