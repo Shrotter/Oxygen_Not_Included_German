@@ -1329,7 +1329,7 @@ msgstr "Kein Kontrollpunkt"
 #. STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
 msgid "Building needs to be adjacent to an Exosuit Checkpoint"
-msgstr "Gebäude muss an einen Exosuit-Kontrollpunkt angrenzen"
+msgstr "Gebäude muss an einen Schutzanzug-Kontrollpunkt angrenzen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -1694,7 +1694,7 @@ msgid ""
 "\n"
 "Exosuit Docks must be placed beside a Checkpoint opposite the side its checkpoint faces"
 msgstr ""
-"Dieses Gebäude wurde auf der falschen Seite eines Exosuit-Kontrollpunkts gebaut.\n"
+"Dieses Gebäude wurde auf der falschen Seite eines Schutzanzug-Kontrollpunkts gebaut.\n"
 "\n"
 "Schutzanzug-Docks müssen neben einem Kontrolpunkt, entgegen dessen Richtung, plaziert sein"
 
@@ -2592,12 +2592,12 @@ msgstr "Pneumatische Tür"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED"
 msgid "<style=\"equipment\">Exosuit</style> not required {0}"
-msgstr "<style=\"equipment\">Exosuit</style> nicht benötigt {0}"
+msgstr "<style=\"equipment\">Schutzanzug</style> nicht benötigt {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED"
 msgid "<style=\"equipment\">Exosuit</style> required {0}"
-msgstr "<style=\"equipment\">Exosuit</style> benötigt {0}"
+msgstr "<style=\"equipment\">Schutzanzug</style> benötigt {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
@@ -7863,7 +7863,7 @@ msgstr "durch essen von {0}"
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.INTERNAL_TEMPERATURE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.INTERNAL_TEMPERATURE"
 msgid "from extreme internal temperatures"
-msgstr "von extremen ineren Temperaturen"
+msgstr "von extremen inneren Temperaturen"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN"
@@ -9838,7 +9838,7 @@ msgstr "Dieser Duplikant ist talentiert in der Zucht und Pflege von Pflanzen."
 #. STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME"
 msgid "Botanist"
-msgstr ""
+msgstr "Botaniker"
 
 #. STRINGS.DUPLICANTS.STATS.BLADDER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.BLADDER.NAME"
@@ -10740,12 +10740,12 @@ msgstr "Dieser Duplikant wischt eine widerliche Kleckerei auf"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
 msgid "Exiting <style=\"equipment\">Exosuit</style> area"
-msgstr "<style=\"equipment\">Exosuit</style>-Ausstiegsbereich"
+msgstr "<style=\"equipment\">Schutzanzug</style>-Ausstiegsbereich"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
 msgid "This Duplicant is leaving an area where an exosuit was required"
-msgstr "Dieser Duplikant verlässt einen Bereich, in dem ein Exosuit erforderlich war"
+msgstr "Dieser Duplikant verlässt einen Bereich, in dem ein Schutzanzug erforderlich war"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME"
@@ -12187,7 +12187,7 @@ msgstr "Sämtliches Vitamin C im Weltraum könnte diesen Duplikant nicht davon a
 #. STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME"
 msgid "Biohazardous"
-msgstr "Biohazard"
+msgstr "Biogefährdung"
 
 #. STRINGS.ELEMENTS.ALGAE.BUILD_DESC
 msgctxt "STRINGS.ELEMENTS.ALGAE.BUILD_DESC"
@@ -12211,7 +12211,6 @@ msgid "Algae"
 msgstr "Algen"
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12248,7 +12247,6 @@ msgid "<color=#{0}>({1})</color>"
 msgstr "<color=#{0}>({1})</color>"
 
 #. STRINGS.ELEMENTS.BRICK.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.BRICK.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12302,7 +12300,6 @@ msgid "Carbon Dioxide"
 msgstr "Kohlenstoffdioxid"
 
 #. STRINGS.ELEMENTS.CARBONFIBRE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.CARBONFIBRE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12348,7 +12345,6 @@ msgid "Chlorine"
 msgstr "Chlor"
 
 #. STRINGS.ELEMENTS.CLAY.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.CLAY.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12386,7 +12382,6 @@ msgid "Polluted Oxygen"
 msgstr "Verschmutzter Sauerstoff"
 
 #. STRINGS.ELEMENTS.COPPER.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.COPPER.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12460,7 +12455,6 @@ msgid "Crushed Ice"
 msgstr "Zerstoßenes Eis"
 
 #. STRINGS.ELEMENTS.CRUSHEDROCK.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.CRUSHEDROCK.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12476,7 +12470,6 @@ msgid "Crushed Rock"
 msgstr "Zerstoßener Stein"
 
 #. STRINGS.ELEMENTS.CUPRITE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.CUPRITE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12498,7 +12491,6 @@ msgid "Copper Ore"
 msgstr "Kupfererz"
 
 #. STRINGS.ELEMENTS.DIAMOND.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.DIAMOND.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12520,7 +12512,6 @@ msgid "Diamond"
 msgstr "Diamant"
 
 #. STRINGS.ELEMENTS.DIRT.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.DIRT.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12568,7 +12559,6 @@ msgid "Polluted Water"
 msgstr "Verschmutztes Wasser"
 
 #. STRINGS.ELEMENTS.ELECTRUM.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.ELECTRUM.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12631,7 +12621,6 @@ msgid "Properties: {0}"
 msgstr "Eigenschaften: {0}"
 
 #. STRINGS.ELEMENTS.FERTILIZER.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12653,7 +12642,6 @@ msgid "Fertilizer"
 msgstr "Dünger"
 
 #. STRINGS.ELEMENTS.FOOLSGOLD.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.FOOLSGOLD.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12672,7 +12660,6 @@ msgid "Pyrite"
 msgstr "Pyrit"
 
 #. STRINGS.ELEMENTS.GLASS.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.GLASS.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12688,7 +12675,6 @@ msgid "Glass"
 msgstr "Glas"
 
 #. STRINGS.ELEMENTS.GOLD.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.GOLD.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12710,7 +12696,6 @@ msgid "Gold"
 msgstr "Gold"
 
 #. STRINGS.ELEMENTS.GOLDAMALGAM.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.GOLDAMALGAM.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12742,7 +12727,6 @@ msgid "Gold"
 msgstr "Gold"
 
 #. STRINGS.ELEMENTS.GRANITE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.GRANITE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12829,7 +12813,6 @@ msgid "Ice"
 msgstr "Eis"
 
 #. STRINGS.ELEMENTS.IGNEOUSROCK.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.IGNEOUSROCK.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12851,7 +12834,6 @@ msgid "Igneous Rock"
 msgstr "Magmatit"
 
 #. STRINGS.ELEMENTS.IRON.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.IRON.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12877,7 +12859,6 @@ msgid "Iron"
 msgstr "Eisen"
 
 #. STRINGS.ELEMENTS.IRONINGOT.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12893,7 +12874,6 @@ msgid "Iron"
 msgstr "Eisen"
 
 #. STRINGS.ELEMENTS.IRONORE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.IRONORE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -12915,7 +12895,6 @@ msgid "Iron Ore"
 msgstr "Eisenerz"
 
 #. STRINGS.ELEMENTS.KATAIRITE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.KATAIRITE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13143,7 +13122,6 @@ msgid "This material will add {0} to the finished building's Overheat Temperatur
 msgstr "Dieses Material fügt {0} der Überhitzungs-Temperatur des fertigen Gebäudes hinzu"
 
 #. STRINGS.ELEMENTS.MERCURY.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.MERCURY.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13275,7 +13253,6 @@ msgid "Naphtha"
 msgstr "Naphtha"
 
 #. STRINGS.ELEMENTS.OBSIDIAN.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.OBSIDIAN.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13331,7 +13308,7 @@ msgid ""
 msgstr ""
 "Petroleum ist eine <style=\"power\">Energiequelle</style>, die aus <style=\"liquid\">Rohöl</style> gewonnen wird.\n"
 "\n"
-"Es ist auch ein unentbehrlicher Grundstoff für die Produktion von <style=\"solid\">Kunststoff</style>."
+"Es ist auch ein unentbehrlicher Grundstoff für die Produktion von <style=\"solid\">Plastik</style>."
 
 #. STRINGS.ELEMENTS.PETROLEUM.NAME
 msgctxt "STRINGS.ELEMENTS.PETROLEUM.NAME"
@@ -13339,7 +13316,6 @@ msgid "Petroleum"
 msgstr "Petroleum"
 
 #. STRINGS.ELEMENTS.PHOSPHATENODULES.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.PHOSPHATENODULES.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13355,7 +13331,6 @@ msgid "Phosphate Nodules"
 msgstr "Phosphatknollen"
 
 #. STRINGS.ELEMENTS.PHOSPHORITE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.PHOSPHORITE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13371,7 +13346,6 @@ msgid "Phosphorite"
 msgstr "Phosphorit"
 
 #. STRINGS.ELEMENTS.PHOSPHORUS.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13408,7 +13382,7 @@ msgid ""
 "\n"
 "It is useful as a raw <style=\"misc\">Plastic</style> feedstock."
 msgstr ""
-"(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Kunststoff ist ein thermoplastisches Polymer-\n"
+"(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastik ist ein thermoplastisches Polymer-\n"
 "\n"
 "Es ist nützlich als Ausgangsmaterial für <style=\"misc\">Kunststoffe</style>."
 
@@ -13476,7 +13450,6 @@ msgid "Rock Gas"
 msgstr "Steingas"
 
 #. STRINGS.ELEMENTS.SAND.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.SAND.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13498,7 +13471,6 @@ msgid "Sand"
 msgstr "Sand"
 
 #. STRINGS.ELEMENTS.SANDCEMENT.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.SANDCEMENT.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13514,7 +13486,6 @@ msgid "Sand Cement"
 msgstr "Sand-Zement"
 
 #. STRINGS.ELEMENTS.SANDSTONE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13536,7 +13507,6 @@ msgid "Sandstone"
 msgstr "Sandstein"
 
 #. STRINGS.ELEMENTS.SEDIMENTARYROCK.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13558,7 +13528,6 @@ msgid "Sedimentary Rock"
 msgstr "Sedimentgestein"
 
 #. STRINGS.ELEMENTS.SLIMEMOLD.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13626,7 +13595,6 @@ msgid "Hydrogen"
 msgstr "Wasserstoff"
 
 #. STRINGS.ELEMENTS.SOLIDMERCURY.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13702,7 +13670,6 @@ msgid "Steam"
 msgstr "Dampf"
 
 #. STRINGS.ELEMENTS.STEEL.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.STEEL.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13754,7 +13721,6 @@ msgid "Polluted Dirt"
 msgstr "Verschmutzte Erde"
 
 #. STRINGS.ELEMENTS.TUNGSTEN.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.TUNGSTEN.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -13858,7 +13824,6 @@ msgid "Water"
 msgstr "Wasser"
 
 #. STRINGS.ELEMENTS.WOLFRAMITE.BUILD_DESC
-#| msgid ""
 msgctxt "STRINGS.ELEMENTS.WOLFRAMITE.BUILD_DESC"
 msgid ""
 msgstr ""
@@ -16350,7 +16315,7 @@ msgstr "Ein Schutzanzug wurde fallengelassen, weil es keine leeres Schutzanzug-D
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
 msgid ""
-"<style=\"equipment\">Exosuits</style> protect your Duplicants from environmental hazards like extreme <style=\\heat\">Heat</style>, airborne <style=\"disease\">Germs</style>, and unbreathable <style=\"gas\">Gases</style>. In order to utilize these suits, you'll need to store them in an Exosuit Dock and hook that dock up to a Suit Checkpoint.\n"
+"<style=\"equipment\">Exosuits</style> protect your Duplicants from environmental hazards like extreme <style=\"heat\">Heat</style>, airborne <style=\"disease\">Germs</style>, and unbreathable <style=\"gas\">Gases</style>. In order to utilize these suits, you'll need to store them in an Exosuit Dock and hook that dock up to a Suit Checkpoint.\n"
 "\n"
 "Duplicants will equip an exosuit when walking past a Checkpoint in the direction it's facing and will unequip the suit when walking the oppposite way."
 msgstr ""
@@ -16396,7 +16361,7 @@ msgid ""
 "\n"
 "The <style=\"misc\">THERMAL COMFORT OVERLAY</style> <color=#F44A47><b>[F4]</b></color> will allow you to view all areas where Duplicants cannot regulate their temperature and will become uncomfortable."
 msgstr ""
-"Sehr <style\"heat\">heiße</style> oder <style=\"heat\">kalte</style> Umgebungstemperaturen beeinflussen deine Duplikanten und verursachen <style=\"stress\">Stress</style>.\n"
+"Sehr <style=\"heat\">heiße</style> oder <style=\"heat\">kalte</style> Umgebungstemperaturen beeinflussen deine Duplikanten und verursachen <style=\"stress\">Stress</style>.\n"
 "\n"
 "Im <style=\"misc\">TEMPERATURKOMFORT-OVERLAY</style> <color=#F44A47><b>[F4]</b></color> siehst du die Bereiche, in denen Duplikanten ihre Temperatur nicht regulieren können und sich unwohl fühlen."
 
@@ -17029,6 +16994,11 @@ msgstr "Antiseptisch"
 msgctxt "STRINGS.MISC.TAGS.ANYWATER"
 msgid "Water Based"
 msgstr "Wasserbasiert"
+
+#. STRINGS.MISC.TAGS.BAGABLECREATURE
+msgctxt "STRINGS.MISC.TAGS.BAGABLECREATURE"
+msgid "Creatures"
+msgstr "Kreaturen"
 
 #. STRINGS.MISC.TAGS.BED
 msgctxt "STRINGS.MISC.TAGS.BED"
@@ -19133,7 +19103,7 @@ msgstr "Lüftung"
 #. STRINGS.RESEARCH.HVAC.DESC
 msgctxt "STRINGS.RESEARCH.HVAC.DESC"
 msgid "Regulate <style=\"heat\">Temperature</style> in your colony for <style=\"plant\">Plant</style> cultivation and Duplicant comfort."
-msgstr "Reguliere die <style=\"Hitze\">Temperatur</style> in deiner Kolonie für die Kultivierung von <style=\"plant\">Pflanzen</style> Kultivierung und den Komfort deiner Duplikanten."
+msgstr "Reguliere die <style=\"heat\">Temperatur</style> in deiner Kolonie für die Kultivierung von <style=\"plant\">Pflanzen</style> Kultivierung und den Komfort deiner Duplikanten."
 
 #. STRINGS.RESEARCH.HVAC.NAME
 msgctxt "STRINGS.RESEARCH.HVAC.NAME"
@@ -19152,8 +19122,8 @@ msgstr "Fossile Brennstoffe"
 
 #. STRINGS.RESEARCH.IMPROVEDGASPIPING.DESC
 msgctxt "STRINGS.RESEARCH.IMPROVEDGASPIPING.DESC"
-msgid "<style=\"GasPlumbing\">Gas</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
-msgstr "<style=\"GasPlumbing\">Gasinfrastruktur</style>, die in intensiveren Bedingungen wie <style=\"heat\">Wärme</style> und Druck betrieben werden kann."
+msgid "<style=\"gas\">Gas</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
+msgstr "<style=\"gas\">Gasinfrastruktur</style>, die unter intensiven Bedingungen wie <style=\"heat\">Hitze</style> und Druck betrieben werden kann."
 
 #. STRINGS.RESEARCH.IMPROVEDGASPIPING.NAME
 msgctxt "STRINGS.RESEARCH.IMPROVEDGASPIPING.NAME"
@@ -19162,8 +19132,8 @@ msgstr "Verbesserte Belüftung"
 
 #. STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.DESC
 msgctxt "STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.DESC"
-msgid "<style=\"LiquidPlumbing\">Liquid</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
-msgstr "<style=\"LiquidPlumbing\">Flüssigkeitsinfrastruktur</style>, die in intensiveren Bedingungen wie <style=\"heat\">Wärme</style> und Druck betrieben werden kann."
+msgid "<style=\"liquid\">Liquid</style> infrastructure capable of within more intense conditions, such as <style=\"heat\">Heat</style> and pressure."
+msgstr "<style=\"liquid\">Flüssigkeitsinfrastruktur</style>, die unter intensiven Bedingungen wie <style=\"heat\">Hitze</style> und Druck betrieben werden kann."
 
 #. STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.NAME
 msgctxt "STRINGS.RESEARCH.IMPROVEDLIQUIDPIPING.NAME"
@@ -19213,7 +19183,7 @@ msgstr "Sanitär"
 #. STRINGS.RESEARCH.LIQUIDTEMPERATURE.DESC
 msgctxt "STRINGS.RESEARCH.LIQUIDTEMPERATURE.DESC"
 msgid "Easily manipulate <style=\"liquid\">Liquid</style> <style=\"heat\">Temperatures</style> with these technologies."
-msgstr "Mit diesen Technologien lassen sich <style=\"liquid\">Liquid</style> <style=\"heat\">Temperaturen</style> leicht manipulieren."
+msgstr "Mit diesen Technologien lassen sich die <style=\"heat\">Temperaturen</style> von <style=\"liquid\">Flüssigkeiten</style> leicht verändern."
 
 #. STRINGS.RESEARCH.LIQUIDTEMPERATURE.NAME
 msgctxt "STRINGS.RESEARCH.LIQUIDTEMPERATURE.NAME"
@@ -19773,7 +19743,7 @@ msgid ""
 msgstr ""
 "Ein detailliertes anatomisches Modell.\n"
 "\n"
-"Es scheint aus Kunststoff zu sein."
+"Es scheint aus Plastik zu sein."
 
 #. STRINGS.SETITEMS.SKELETON.NAME
 msgctxt "STRINGS.SETITEMS.SKELETON.NAME"
@@ -20458,7 +20428,7 @@ msgstr "Alle Voraussetzungen müssen erfüllt sein, damit dieses Objekt betriebe
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS"
 msgid "Ceases to function when the surrounding mass is above {0}"
-msgstr ""
+msgstr "Funktioniert nicht mehr, wenn die umgebende Masse über {0} liegt"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP"
@@ -23171,11 +23141,11 @@ msgstr "Welterzeugungsschlüssel"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Outbreak Upgrade!</b>\n"
+"<b>Welcome to the Oil Upgrade!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Willkommen zum Outbreak Upgrade!</b>\n"
+"<b>Willkommen zum Öl Upgrade!</b>\n"
 "\n"
 "{0}"
 
@@ -23187,29 +23157,23 @@ msgstr "OK"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
-"<b>Important Notes:</b>\n"
+"<b>Update Features:</b>\n"
 "\n"
-"• <u>Duplicants will now automatically disinfect buildings. You can tune the minimum germ threshold at the top right of the germ overlay.</u>\n"
-"\n"
-" <b>Update Features:</b>\n"
-"\n"
-"• New disease simulation, complete with new illnesses, attributes, overlays and more.\n"
-"• New plants, food recipes, growth requirements and Farming Overlay.\n"
-"• Explore deep enough into your surroundings and you may chance upon the remnants of, well... something.\n"
-"• New Duplicants; say hello to Ari, Jean, Camille and Ashkan.\n"
-"• Bug fixes, performance improvements, new buildings, creatures and more."
+"• New Oil Biome and Oil Geysers\n"
+"• New resources including Crude Oil, Petroleum, Naphtha, Plastic and Diamond\n"
+"• New rechargeable Exosuits for Duplicants to wear\n"
+"• New Rooms system and accompanying overlay\n"
+"• Revamped research tree and dozens of new buildings to unlock\n"
+"• Bug fixes, performance improvements, new plants, creatures and more."
 msgstr ""
-"<b>Wichtige Hinweise:</b>\n"
+"<b>Aktualisierungen: </b>\n"
 "\n"
-"• <u>Duplikanten werden nun Gebäude automatisch desinfizieren. Sie können die minimale Keimschwelle oben rechts im Keim-Overlay einstellen.</u>\n"
-"\n"
-" <b>Aktualisierte Funktionen:</b>\n"
-"\n"
-"• Neue Krankheitssimulation, komplett mit neuen Krankheiten, Attributen, Overlay und mehr.\n"
-"• Neue Pflanzen, Lebensmittelrezepte, Wachstumsanforderungen und Farm-Overlay.\n"
-"• Erforsche weit genug deine Umgebung und du wirst vielleicht die Überreste von, naja... irgendwas... etwas zufälliges finden.\n"
-"• Neue Duplikanten; begrüsse Ari, Jean, Camille und Ashkan.\n"
-"• Bugfixes, Leistungsverbesserungen, neue Gebäude, Kreaturen und mehr."
+"• Neue Ölbiome und Öl-Geysire\n"
+"• Neue Rohstoffe wie Rohöl, Petroleum, Naphtha, Plastik und Diamant\n"
+"• Neue wiederaufladbare Schutzanzüge für Duplikanten zum anziehen\n"
+"• Neues Raumsystem und entsprechendes Overlay\n"
+"• Überarbeiteter Forschungsbaum und Dutzende neue Gebäude zum Freischalten\n"
+"• Bugfixes, Leistungsverbesserungen, neue Pflanzen, Kreaturen und mehr."
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
@@ -23410,15 +23374,10 @@ msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.EN"
 msgid "English (Klei)"
 msgstr "Englisch (Klei)"
 
-#. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.TEMP
-msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.TEMP"
-msgid "wut (Klei)"
-msgstr ""
-
-#. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH
-msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH"
-msgid "中文 (Klei)"
-msgstr ""
+#. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI
+msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI"
+msgid "Chinese (Klei)"
+msgstr "Chinesisch (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.TITLE"
@@ -25946,12 +25905,12 @@ msgstr "Regionslöschungs-Werkzeug"
 #. STRINGS.UI.TOOLS.EXOSUITREGION.NAME
 msgctxt "STRINGS.UI.TOOLS.EXOSUITREGION.NAME"
 msgid "Drag to designate an exosuit region"
-msgstr "Ziehen, um eine Exosuit-Region festzulegen"
+msgstr "Ziehen, um eine Schutzanzug-Region festzulegen"
 
 #. STRINGS.UI.TOOLS.EXOSUITREGION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.EXOSUITREGION.TOOLNAME"
 msgid "Exosuit Region tool"
-msgstr "Exosuit-Regionen-Werkzeug"
+msgstr "Schutzanzug-Regionen-Werkzeug"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
@@ -26211,7 +26170,7 @@ msgstr "Zeigt Risikobereiche für Krankheiten an"
 #. STRINGS.UI.TOOLTIPS.DISINFECTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
 msgid "Drag to disinfect buildings"
-msgstr "Ziehen um Objekte zu desinfizieren"
+msgstr "Ziehen, um Objekte zu desinfizieren"
 
 #. STRINGS.UI.TOOLTIPS.DISMISSMESSAGE
 msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
@@ -26236,7 +26195,7 @@ msgstr "<style=\"power\">Energie</style> benötigt"
 #. STRINGS.UI.TOOLTIPS.ERASEREGIONBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.ERASEREGIONBUTTON"
 msgid "Drag to erase existing exosuit regions"
-msgstr "Ziehen um bestehende Anzugregionen zu löschen"
+msgstr "Ziehen, um bestehende Anzugregionen zu löschen"
 
 #. STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING"
@@ -29040,6 +28999,32 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#~ msgid ""
+#~ "<b>Important Notes:</b>\n"
+#~ "\n"
+#~ "• <u>Duplicants will now automatically disinfect buildings. You can tune the minimum germ threshold at the top right of the germ overlay.</u>\n"
+#~ "\n"
+#~ " <b>Update Features:</b>\n"
+#~ "\n"
+#~ "• New disease simulation, complete with new illnesses, attributes, overlays and more.\n"
+#~ "• New plants, food recipes, growth requirements and Farming Overlay.\n"
+#~ "• Explore deep enough into your surroundings and you may chance upon the remnants of, well... something.\n"
+#~ "• New Duplicants; say hello to Ari, Jean, Camille and Ashkan.\n"
+#~ "• Bug fixes, performance improvements, new buildings, creatures and more."
+#~ msgstr ""
+#~ "<b>Wichtige Hinweise:</b>\n"
+#~ "\n"
+#~ "• <u>Duplikanten werden nun Gebäude automatisch desinfizieren. Sie können die minimale Keimschwelle oben rechts im Keim-Overlay einstellen.</u>\n"
+#~ "\n"
+#~ " <b>Aktualisierte Funktionen:</b>\n"
+#~ "\n"
+#~ "• Neue Krankheitssimulation, komplett mit neuen Krankheiten, Attributen, Overlay und mehr.\n"
+#~ "• Neue Pflanzen, Lebensmittelrezepte, Wachstumsanforderungen und Farm-Overlay.\n"
+#~ "• Erforsche weit genug deine Umgebung und du wirst vielleicht die Überreste von, naja... irgendwas... etwas zufälliges finden.\n"
+#~ "• Neue Duplikanten; begrüsse Ari, Jean, Camille und Ashkan.\n"
+#~ "• Bugfixes, Leistungsverbesserungen, neue Gebäude, Kreaturen und mehr."
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.CHANGEROOMOUTFITREQUESTS.NAME"
 #~ msgid "Pending Outfit Delivery"
