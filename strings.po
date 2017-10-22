@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -2724,7 +2724,7 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Transportiert <style=\"gas\">Gas</style> zwischen <style=\"GasPiping\">Ausgängen</style> und <style=\"GasPiping\">Einlässen</style>.\n"
+"Transportiert <style=\"gas\">Gas</style> zwischen <style=\"GasPiping\">Ausgängen</style> und <style=\"GasPiping\">Eingängen</style>.\n"
 "\n"
 "Kann in Ziegeln verlegt werden."
 
@@ -3251,7 +3251,7 @@ msgstr "Flüssigkeitswärmer"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.DESC"
 msgid "Piping a pump's intake to another building's output will send liquid to that building."
-msgstr "Verbinden des Ausgans mit einem eingang eines anderen Objekts sendet Flüssigkeit zu diesem Objekt."
+msgstr "Verbinden des Ausgangs mit dem Eingang eines anderen Objekts sendet Flüssigkeit zu diesem Objekt."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT"
@@ -13483,7 +13483,7 @@ msgstr ""
 #. STRINGS.ELEMENTS.SANDCEMENT.NAME
 msgctxt "STRINGS.ELEMENTS.SANDCEMENT.NAME"
 msgid "Sand Cement"
-msgstr "Sand-Zement"
+msgstr "Sandzement"
 
 #. STRINGS.ELEMENTS.SANDSTONE.BUILD_DESC
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.BUILD_DESC"
@@ -13847,7 +13847,7 @@ msgstr "Wolframit"
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC"
 msgid "Because breathing underwater is better than... not."
-msgstr "Weil atmen Unterwasser besser ist als... nicht."
+msgstr "Weil unter Wasser zu atmen besser ist als... nicht."
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
@@ -19421,12 +19421,12 @@ msgstr "Massage-Tisch"
 #. STRINGS.ROOMS.CRITERIA.MAXIMUM_SIZE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MAXIMUM_SIZE.DESCRIPTION"
 msgid "Must have an area no larger than {0} tiles"
-msgstr "Die Fläche darf nicht größer als {0} Kästchen sein"
+msgstr "Die Fläche darf nicht größer als {0} Felder sein"
 
 #. STRINGS.ROOMS.CRITERIA.MAXIMUM_SIZE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MAXIMUM_SIZE.NAME"
 msgid "Maximum size: {0} tiles"
-msgstr "Maximale Größe: {0} Kästchen"
+msgstr "Maximale Größe: {0} Felder"
 
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.DESCRIPTION"
@@ -19451,12 +19451,12 @@ msgstr "Ein Tisch"
 #. STRINGS.ROOMS.CRITERIA.MINIMUM_SIZE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MINIMUM_SIZE.DESCRIPTION"
 msgid "Must have an area of at least {0} tiles"
-msgstr "Muss mindestens eine Fläche von {0} Kästchen haben"
+msgstr "Muss mindestens eine Fläche von {0} Feldern haben"
 
 #. STRINGS.ROOMS.CRITERIA.MINIMUM_SIZE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MINIMUM_SIZE.NAME"
 msgid "Minimum size: {0} tiles"
-msgstr "Minimale Größe: {0} Kästchen"
+msgstr "Minimale Größe: {0} Felder"
 
 #. STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE
 msgctxt "STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE"
@@ -19530,12 +19530,12 @@ msgstr "Nicht zugewiesen"
 #. STRINGS.ROOMS.DETAILS.AVERAGE_ATMO_MASS.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.AVERAGE_ATMO_MASS.NAME"
 msgid "Average air pressure: {0}"
-msgstr "Mittlerer Luftdruck: {0}"
+msgstr "Durchschnittlicher Luftdruck: {0}"
 
 #. STRINGS.ROOMS.DETAILS.AVERAGE_TEMPERATURE.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.AVERAGE_TEMPERATURE.NAME"
 msgid "Average temperature: {0}"
-msgstr "Mittleretemperatur: {0}"
+msgstr "Durchschnittstemperatur: {0}"
 
 #. STRINGS.ROOMS.DETAILS.BUILDING_COUNT.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.BUILDING_COUNT.NAME"
@@ -19545,27 +19545,27 @@ msgstr "Gebäude: {0}"
 #. STRINGS.ROOMS.DETAILS.HEADER
 msgctxt "STRINGS.ROOMS.DETAILS.HEADER"
 msgid "Room Details"
-msgstr "Raum Details"
+msgstr "Raumdetails"
 
 #. STRINGS.ROOMS.DETAILS.SIZE.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.SIZE.NAME"
 msgid "Room size: {0} Tiles"
-msgstr "Raumgröße: {0} Kästchen"
+msgstr "Raumgröße: {0} Felder"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.EFFECT"
 msgid "- Stamina recovery bonus"
-msgstr "- Ausdauer-Erholungs-Bonus"
+msgstr "- Ausdauer-Erholungsbonus"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.NAME
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.NAME"
 msgid "Barracks"
-msgstr "Kasernen"
+msgstr "Kaserne"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP"
 msgid "Sleeping in a bed will restore additional stamina for Duplicants if it is located within Barracks."
-msgstr "Das Schlafen in Betten, die sich in Kasernen befinden, stellt zusätzliche Ausdauer der Duplikanten wieder her."
+msgstr "Das Schlafen in Betten, die sich in einer Kaserne befinden, stellt zusätzliche Ausdauer der Duplikanten wieder her."
 
 #. STRINGS.ROOMS.TYPES.CONFLICTED
 msgctxt "STRINGS.ROOMS.TYPES.CONFLICTED"
@@ -19590,7 +19590,7 @@ msgstr "Kranke Duplikanten, die einem Krankenbett innerhalb einer Krankenstation
 #. STRINGS.ROOMS.TYPES.LATRINE.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.EFFECT"
 msgid "- Stress relief bonus"
-msgstr "- Entspannungs-Bonus"
+msgstr "- Entspannungsbonus"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.NAME
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.NAME"
@@ -19605,7 +19605,7 @@ msgstr "Das Verwenden einer Toilette, die sich in einer Latrine befindet, verrin
 #. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
 msgid "- Stress relief bonus"
-msgstr "- Entspannungs-Bonus"
+msgstr "- Entspannungsbonus"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.NAME"
@@ -19625,17 +19625,17 @@ msgstr "- Kein Effekt"
 #. STRINGS.ROOMS.TYPES.NEUTRAL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.NAME"
 msgid "Miscellaneous Room"
-msgstr "Raum für Verschiedenes"
+msgstr "Allgemeiner Raum"
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.TOOLTIP"
 msgid "This area qualifies as a room but has no dedicated use."
-msgstr "Dieser Bereich gilt als Raum, wird aber nicht zweckgebunden genutzt."
+msgstr "Dieser Bereich gilt als Raum, hat aber keine besondere Verwendung."
 
 #. STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.EFFECT"
 msgid "- Stress relief bonus"
-msgstr "- Entspannungs-Bonus"
+msgstr "- Entspannungsbonus"
 
 #. STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.NAME"
@@ -19650,7 +19650,7 @@ msgstr "Die Verwendung einer Toilette in einem privaten Badezimmer reduziert den
 #. STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.EFFECT"
 msgid "- Stamina recovery bonus"
-msgstr "- Ausdauer-Erholungs-Bonus"
+msgstr "- Ausdauer-Erholungsbonus"
 
 #. STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.NAME"
@@ -19660,7 +19660,7 @@ msgstr "Privates Schlafzimmer"
 #. STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.TOOLTIP"
 msgid "Duplicants recover even more stamina while sleeping in a Private Bedroom than in Barracks."
-msgstr "Duplikanten erhalten beim Schlafen im Privaten Schlafzimmer noch mehr Ausdauer zurück als in der Kaserne."
+msgstr "Duplikanten erhalten beim Schlafen im privaten Schlafzimmer noch mehr Ausdauer zurück als in der Kaserne."
 
 #. STRINGS.SETITEMS.BREAKROOM_TABLE.DESC
 msgctxt "STRINGS.SETITEMS.BREAKROOM_TABLE.DESC"
@@ -21412,7 +21412,7 @@ msgstr "Auf diesem Objekt befinden sich keine Keime"
 #. STRINGS.UI.DETAILTABS.DISEASE.DISEASE_INFO_POPUP_BUTTON
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DISEASE_INFO_POPUP_BUTTON"
 msgid "FULL INFO"
-msgstr "VOLLSTÄNDIGE INFOS"
+msgstr "ALLE INFOS"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DISEASE_INFO_POPUP_HEADER
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DISEASE_INFO_POPUP_HEADER"
@@ -21488,7 +21488,7 @@ msgstr "Diese Symptome werden eliminiert wenn ein Duplikant medizinische Hilfe i
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER"
 msgid "Contracting this illness will have these effects on a Duplicant:\n"
-msgstr "Diese Krankheit wird bei Infektion folgende Effekt auf einen Duplikanten haben:\n"
+msgstr "Diese Krankheit wird bei Infektion folgende Effekte auf einen Duplikanten haben:\n"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER_TOOLTIP"
@@ -24548,17 +24548,17 @@ msgstr "Verbunden"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
 msgid "Output Pipe"
-msgstr "Ausgangrohr"
+msgstr "Ausgangsleitung"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_AFTER_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_AFTER_ARROW"
 msgid "<b>Building Intake</b>"
-msgstr "<b>Gebäudeaufnahme</b>"
+msgstr "<b>Gebäudeeingang</b>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW"
 msgid "Gas flows from <b>Output Pipe</b>"
-msgstr "Gas fließt von <b>Ausgangsrohr</b>"
+msgstr "Gas fließt von <b>Ausgangsleitung</b>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DISCONNECTED"
@@ -24583,7 +24583,7 @@ msgstr "Gasnetzwerk {0}"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.PRODUCER"
 msgid "Building Intake"
-msgstr "Gebäude Eingang"
+msgstr "Gebäudeeingang"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED"
@@ -24598,7 +24598,7 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"GasDestination\">Intake</style>"
 msgstr ""
-"<b>Ausgangrohre</b>\n"
+"<b>Ausgangsleitung</b>\n"
 "Ausgänge senden Gas in Rohre\n"
 "------------------\n"
 "Muss im selben Netzwerk wie mindestens ein <style=\"GasDestination\">Eingang</style> sein"
@@ -24616,7 +24616,7 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"GasDestination\">Intake</style>"
 msgstr ""
-"<b>gefilterte Ausgänge</b>\n"
+"<b>Gefilterte Ausgangsleitung</b>\n"
 "Gefilterte Ausgänge senden gefiltertes Gas in Rohre\n"
 "* Muss im selben Netzwerk wie mindestens ein <style=\"GasDestination\">Eingang</style> sein"
 
@@ -24633,7 +24633,7 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"GasSource\">Output</style>"
 msgstr ""
-"<b>Objekteingänge</b>\n"
+"<b>Gebäudeeingang</b>\n"
 "Eingänge senden Gas in Gebäude\n"
 "------------------\n"
 "Muss im selben Netzwerk wie mindestens ein <style=\"GasSource\">Ausgang</style> sein"
@@ -24787,7 +24787,7 @@ msgstr "Ausgangsrohr"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_AFTER_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_AFTER_ARROW"
 msgid "<b>Building Intake</b>"
-msgstr "<b>Gebäudeaufnahme</b>"
+msgstr "<b>Gebäudeeingang</b>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_BEFORE_ARROW"
@@ -24817,7 +24817,7 @@ msgstr "Flüssigkeitsnetzwerk {0}"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.PRODUCER"
 msgid "Building Intake"
-msgstr "Gebäudeaufnahme"
+msgstr "Gebäudeeingang"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
@@ -24832,7 +24832,7 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"LiquidDestination\">Intake</style>"
 msgstr ""
-"<b>Ausgänge</b>\n"
+"<b>Ausgangsrohr</b>\n"
 "Ausgänge senden Flüssigkeit in Rohre\n"
 "------------------\n"
 "Muss im selben Netzwerk wie mindestens ein <style=\"LiquidDestination\">Eingang</style> sein"
@@ -24850,7 +24850,7 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"LiquidDestination\">Intake</style>"
 msgstr ""
-"<b>Gefilterte Ausgänge</b>\n"
+"<b>Gefiltertes Ausgangsrohr</b>\n"
 "Gefilterte Ausgänge senden gefilterte Flüssigkeit in Rohre\n"
 "------------------\n"
 "Muss im selben Netzwerk wie mindestens ein <style=\"LiquidDestination\">Eingang</style> sein"
@@ -24868,7 +24868,7 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"LiquidSource\">Output</style>"
 msgstr ""
-"<b>Objekteingänge</b>\n"
+"<b>Gebäudeeingang</b>\n"
 "Eingänge senden Flüssigkeit in Gebäude\n"
 "\n"
 "------------------\n"
