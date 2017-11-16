@@ -142,7 +142,7 @@ msgstr "Warte auf Treibstoff: {0}"
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP"
 msgid "This building requires {1} of {0} to operate"
-msgstr "Dieses Gebäude benötigt {1} {0} um zu funktionieren."
+msgstr "Dieses Gebäude benötigt {1} {0} um zu funktionieren"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
@@ -284,7 +284,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED"
 msgid "This Checkpoint has not been connected to an automation grid"
-msgstr "Dieses Gebäude ist nicht mit einem Automatisierungsschaltkreis verbunden"
+msgstr "Dieses Gebäude ist nicht mit einem Automatisierungsnetz verbunden"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
@@ -627,7 +627,7 @@ msgstr "Warte auf Kühlmittel"
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
 msgid "{1} of {0} must be present in storage to begin production"
-msgstr ""
+msgstr "{1} {0} müssen im Inventar sein, bevor die Produktion beginnt"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
@@ -966,12 +966,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED"
 msgid "Disabled by Automation Grid"
-msgstr "Deaktiviert durch Automatisierungsschaltkreis"
+msgstr "Deaktiviert durch Automatisierungsnetz"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_ENABLED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_ENABLED"
 msgid "Enabled by Automation Grid"
-msgstr "Aktiviert durch Automatisierungsschaltkreis"
+msgstr "Aktiviert durch Automatisierungsnetz"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.NAME"
@@ -985,6 +985,9 @@ msgid ""
 "\n"
 "Feedback loops occur when the Output of an automated building connects back to its own Input through the Automation grid"
 msgstr ""
+"Feedbackschleifen blockieren die Funktion von Automatisierungsnetzen\n"
+"\n"
+"Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird."
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
@@ -1373,7 +1376,7 @@ msgstr "Kein Automatisierungskabel verbunden"
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP"
 msgid "This building has not been connected to an automation grid"
-msgstr "Dieses Gebäude ist nicht mit einem Automatisierungsschaltkreis verbunden"
+msgstr "Dieses Gebäude ist nicht mit einem Automatisierungsnetz verbunden"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME"
@@ -20402,7 +20405,7 @@ msgstr "Destillation"
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC"
 msgid "Prevent your Duplicants from getting into dangerous situations."
-msgstr ""
+msgstr "Verhindert, dass deine Duplikanten in gefährliche Situationen geraten."
 
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME"
@@ -24357,7 +24360,7 @@ msgstr "UI-Skalierung"
 #. STRINGS.UI.FRONTEND.INPUT_BINDINGS_SCREEN.APPLY
 msgctxt "STRINGS.UI.FRONTEND.INPUT_BINDINGS_SCREEN.APPLY"
 msgid "Done"
-msgstr "Erledigt"
+msgstr "Fertig"
 
 #. STRINGS.UI.FRONTEND.INPUT_BINDINGS_SCREEN.DUPLICATE
 msgctxt "STRINGS.UI.FRONTEND.INPUT_BINDINGS_SCREEN.DUPLICATE"
@@ -24661,6 +24664,9 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
+"<b>Willkommen beim Automatisierungs-Upgrade!</b>\n"
+"\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON"
@@ -24685,6 +24691,20 @@ msgid ""
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
+"<b>Update-Features:</b>\n"
+"\n"
+"• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
+"• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
+"• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
+"• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
+"• Bugfixes und Performanceverbesserungen\n"
+"\n"
+"<b>Weitere wichtige Änderungen:</b>\n"
+"\n"
+"• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
+"• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
+"\n"
+"Schau dir bitte auch die vollständigen Notizen für alle Details an!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
@@ -26448,7 +26468,7 @@ msgstr "Dieser Anschluss ist nicht mit einem Automatisierungnetz verbunden"
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT"
 msgid "Receives a signal from an automation grid"
-msgstr ""
+msgstr "Erhält ein Signal aus einem Automatisierungsnetz"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE"
@@ -28774,12 +28794,12 @@ msgstr "Neural-Oszillation läuft."
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE"
 msgid "Active Buffer Time"
-msgstr ""
+msgstr "Aktive Pufferzeit"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP"
 msgid "This gate will continue to send an Active signal for {0} seconds after entering Standby"
-msgstr ""
+msgstr "Dieses Gatter sendet weiterhin ein Aktiv-Signal für {0} Sekunden, nachdem es das Wartesignal erhalten hat"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
