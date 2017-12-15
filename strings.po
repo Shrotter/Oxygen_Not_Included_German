@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -279,7 +279,7 @@ msgstr "Freigabe: Erlaubt"
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED"
 msgid "Automated Checkpoint is Active, allowing Duplicants to pass"
-msgstr ""
+msgstr "Automatisierter Checkpoint ist aktiv, so dass Duplikanten passieren können"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED"
@@ -289,7 +289,7 @@ msgstr "Dieses Gebäude ist nicht mit einem Automatisierungsnetz verbunden"
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
 msgid "Automated Checkpoint is on Standby, preventing Duplicants from passing"
-msgstr ""
+msgstr "Automatischer Checkpoint ist im Bereitschafts-Modus und verhindert, dass Duplikate passieren"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
@@ -987,7 +987,7 @@ msgid ""
 msgstr ""
 "Feedbackschleifen blockieren die Funktion von Automatisierungsnetzen\n"
 "\n"
-"Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird."
+"Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
@@ -1448,6 +1448,26 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
 msgid "Docks must be placed beside an Exosuit Checkpoint, opposite the side its checkpoint faces"
 msgstr "Docks müssen an eine Schutzanzug-Kontrollstelle platziert werden, auf der gegenüberliegenden Seite der Kontrollstellenausrichtung"
 
+#. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
+msgid "Not Enough Power"
+msgstr "Nicht genügend Leistung"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP"
+msgid "Building will be useable once it has more stored charge"
+msgstr "Das Gebäude wird verwendbar sein, sobald es mehr Ladung gespeichert hat"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
+msgid "No Transit Tube Connected"
+msgstr "Transitrohr ist nicht verbunden"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
+msgid "A straight Transit Tube must be connected to the top of the launch rail for this building to function."
+msgstr "Damit dieses Gebäude funktionieren kann, muss ein gerades Transitrohr an der Oberseite an der Startschiene verbunden werden."
+
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
 msgid "No Wire Connected"
@@ -1728,6 +1748,16 @@ msgstr "Gelagert: {Stored} / {Capacity} kg"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP"
 msgid "This container is storing {Stored} kg of material"
 msgstr "In diesem Behälter lagern {Stored} kg Material"
+
+#. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME"
+msgid "Stored Charge: {0}/{1}"
+msgstr "Gespeicherte Ladung: {0}/{1}"
+
+#. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP"
+msgid "This building has stored {0} out of a maximum {1}. It will consume {2} per use."
+msgstr "Dieses Gebäude hat {0} von maximal {1} gespeichert. Es wird {2} pro Benutzung verbrauchen."
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME"
@@ -3347,6 +3377,37 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME"
 msgid "Hydroponic Farm"
 msgstr "Hydroponische Farm"
 
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
+msgid "Mediocre Ice Sculpture"
+msgstr "Mittelmäßige Eisskulptur"
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC"
+msgid "Ice sculptures will melt over time if not kept sufficiently chilled."
+msgstr "Eisskulpturen schmelzen mit der Zeit, wenn sie nicht ausreichend gekühlt aufbewahrt werden."
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT"
+msgid ""
+"Increases <style=\"decor\">Decor</style> and reduces <style=\"stress\">Stress</style>.\n"
+"\n"
+"Must be sculpted by a Duplicant."
+msgstr ""
+"Steigert <style=\"decor\">Dekoration</style> und reduziert den <style=\"stress\">Stress</style>.\n"
+"\n"
+"Muss von einem Duplikanten modelliert werden."
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME"
+msgid "Ice Block"
+msgstr "Eisblock"
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME"
+msgid "\"Abstract\" Ice Sculpture"
+msgstr "\"Abstrakte\" Eisskulptur"
+
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC"
 msgid "Pipe insulation prevents gas contents from significantly changing temperature in transit."
@@ -3833,7 +3894,7 @@ msgid ""
 msgstr ""
 "Schaltet den <style=\"power\">Strom</style> an oder aus durch <style=\"misc\">Automatisierung</style>.\n"
 "\n"
-"Betrifft keine Schaltkreise vor dem Schalter"
+"Betrifft keine Schaltkreise vor dem Schalter."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_DESC"
@@ -4100,7 +4161,7 @@ msgid ""
 msgstr ""
 "Eine selbstversorgende Maschine, die anscheinend von verarbeitetem <style=\"solid\">Neutronium</style> versorgt wird.\n"
 "\n"
-"Absorbiert und neutralisiert <style=\"heat\">Wärmeenergie</style> wenn mit <style=\"gas\">Wasserstoff</style> beliefert. "
+"Absorbiert und neutralisiert <style=\"heat\">Wärmeenergie</style> wenn mit <style=\"gas\">Wasserstoff</style> beliefert."
 
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
@@ -4875,6 +4936,69 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.TILEPOI.NAME"
 msgid "Tile"
 msgstr "Ziegel"
 
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC"
+msgid "Duplicants will only exit a transit tube when a safe landing area is available beneath it."
+msgstr "Duplikate verlassen eine Transitröhre nur dann, wenn sich darunter ein sicherer Landeplatz befindet."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT"
+msgid ""
+"Quickly transports Duplicants from a Transit Tube Access to the tube's end.\n"
+"\n"
+"Only transports Duplicants."
+msgstr ""
+"Transportiert Duplikante schnell von einem Transitrohrzugang zum Rohrende.\n"
+"\n"
+"Transportiert nur Duplikante."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME"
+msgid "Transit Tube"
+msgstr "Transitrohr"
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC"
+msgid "Access points are required for Duplicants to enter tubes, but are not required to exit them."
+msgstr "Zugangspunkte sind erforderlich, damit Duplikanten in die Rohre betreten können, aber nicht, um sie zu verlassen."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
+msgid ""
+"Allows Duplicants to enter the connected Transit Tube system.\n"
+"\n"
+"Stops drawing <style=\"power\">Power</style> once fully charged."
+msgstr ""
+"Ermöglicht es Duplikanten, in das angeschlossene Transitrohrsystem zu betreten.\n"
+"\n"
+"Sobald das System vollständig aufgeladen ist, verschwindet die <style=\"power\">Power-Anzeige</style>."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME"
+msgid "Transit Tube Access"
+msgstr "Transitrohreingang"
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC"
+msgid "Tube crossings can run transit tubes through walls without leaking gas or liquid."
+msgstr "Transitrohrkreuzungen können Transitrohre ohne Gas- oder Flüssigkeitsaustritt durch Wände hindurchführen."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT"
+msgid ""
+"Allows Transit Tubes to be run through wall and floor tiles.\n"
+"\n"
+"Functions as a regular tile."
+msgstr ""
+"Erlaubt Transitrohre durch Wand- und Bodenziegel zu führen.\n"
+"\n"
+"Funktioniert als regulärer Ziegel."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME"
+msgid "Transit Tube Crossing"
+msgstr "Transitrohrkreuzung"
+
 #. STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC"
 msgid "Germ spread can be reduced by building wash basins where Duplicants are likely to get dirty."
@@ -5004,7 +5128,7 @@ msgstr "Starkstrom-Verbindungsplatte"
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC"
 msgid "Duplicants prefer the appearance of conductive wire to regular wire."
-msgstr ""
+msgstr "Duplikanten bevorzugen das Aussehen von Leiterkabeln gegenüber normalen Kabeln."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.EFFECT"
@@ -8179,6 +8303,16 @@ msgstr "Aufräumen"
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRANSPORT.STATUS"
 msgid "Going to sweep"
 msgstr "Geht aufräumen"
+
+#. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME"
+msgid "Enter Transit Tube"
+msgstr "Transitrohr betreten"
+
+#. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.STATUS"
+msgid "Entering Transit Tube"
+msgstr "Betritt Transitrohr"
 
 #. STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME"
@@ -15313,6 +15447,11 @@ msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES"
 msgid "BuildCategoryTiles"
 msgstr ""
 
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES"
+msgid "BuildCategoryTravelTubes"
+msgstr ""
+
 #. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
 msgid "BaseMenu"
@@ -15831,7 +15970,7 @@ msgstr "Overlay12"
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY13
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY13"
 msgid "Overlay13"
-msgstr ""
+msgstr "Overlay13"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY2
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY2"
@@ -16156,6 +16295,27 @@ msgstr "Frittierter Pilz"
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
 msgid "A fried dish made with a fruiting <style=\"plant\">Dusk Cap</style>."
 msgstr "Ein frittiertes Gericht aus dem Fruchtkörper <style=\"plant\">Dämmerkappe</style>."
+
+#. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
+msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.DESC"
+msgid ""
+"A mashed up <style=\"food\">Bristle Berry</style> sludge with an exceptionally long shelf life.\n"
+"\n"
+"Its aggressive, overbearing sweetness can leave the tongue feeling temporarily numb."
+msgstr ""
+"Ein zerdrückter <style=\"food\">Dornenbeereschlamm</style> mit außergewöhnlich langer Haltbarkeit.\n"
+"\n"
+"Seine aggressive, überwältigende Süße kann die Zunge vorübergehend taub machen."
+
+#. STRINGS.ITEMS.FOOD.FRUITCAKE.NAME
+msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.NAME"
+msgid "Berry Sludge"
+msgstr "Beerenschlamm"
+
+#. STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC
+msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC"
+msgid "A mashed up <style=\"food\">Bristle Berry</style> sludge with an exceptionally long shelf life."
+msgstr "Ein zerdrückter <style=\"food\">Dornenbeereschlamm</style> mit außergewöhnlich langer Haltbarkeit."
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
@@ -17362,10 +17522,10 @@ msgstr "{0} entwickelte eine Eigenschaft"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
 msgid ""
 "{0} has developed the trait(s):\n"
-"	• {1}"
+"\t• {1}"
 msgstr ""
 "{0} entwickelte die Eigenschaft(en):\n"
-"	• {1}"
+"\t• {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
@@ -17454,12 +17614,12 @@ msgid ""
 "Eureka! <style=\"research\">{0} Technology</style> has been unlocked.\n"
 "\n"
 "New buildings have become available:\n"
-"	• <style=\"misc\">{1}</style>"
+"\t• <style=\"misc\">{1}</style>"
 msgstr ""
 "Eureka! Die Technologie <style=\"research\">{0}</style> wurde durch die Macht der Wissenschaft freigeschaltet!\n"
 "\n"
 "Neue Baupläne sind nun verfügbar:\n"
-"	• <style=\"misc\">{1}</style>"
+"\t• <style=\"misc\">{1}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
@@ -20265,7 +20425,7 @@ msgstr "{0} benötigt"
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.DESC"
 msgid "Enables access to the Automation Overlay."
-msgstr "Gewährt Zugang zum Automatisierungs-Overlay"
+msgstr "Gewährt Zugang zum Automatisierungs-Overlay."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.NAME"
@@ -20285,7 +20445,7 @@ msgstr "Fortgeschrittener Forschungspunkt"
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.DESC"
 msgid "Enables access to the Exosuit Overlay."
-msgstr "Gewährt Zugang zum Schutzanzug-Overlay"
+msgstr "Gewährt Zugang zum Schutzanzug-Overlay."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME"
@@ -20665,7 +20825,7 @@ msgstr "Hygiene"
 #. STRINGS.RESEARCH.TECHS.SMELTING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.DESC"
 msgid "High temperatures allow more efficient metal fabrication."
-msgstr "Hohe Temperaturen erlauben effiziente Metallherstellung"
+msgstr "Hohe Temperaturen erlauben effiziente Metallherstellung."
 
 #. STRINGS.RESEARCH.TECHS.SMELTING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.NAME"
@@ -20691,6 +20851,16 @@ msgstr "Schaltet <style=\"heat\">temperaturregulierende</style> Technologien fre
 msgctxt "STRINGS.RESEARCH.TECHS.TEMPERATUREMODULATION.NAME"
 msgid "Temperature Modulation"
 msgstr "Temperaturregelung"
+
+#. STRINGS.RESEARCH.TECHS.TRAVELTUBES.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.DESC"
+msgid "Get around your base quickly, safely, and in style!"
+msgstr "Bewege dich schnell, sicher und stilvoll in deine Basis umher!"
+
+#. STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME"
+msgid "Transit Tubes"
+msgstr "Transitrohre"
 
 #. STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.DESC"
@@ -22644,10 +22814,10 @@ msgstr "Demo-Zeit verbleibend"
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_DISEASED"
 msgid ""
 "\n"
-"	• {0}"
+"\t• {0}"
 msgstr ""
 "\n"
-"	• {0}"
+"\t• {0}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS"
@@ -22658,10 +22828,10 @@ msgstr "{0}: {1}"
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_ROTTABLE"
 msgid ""
 "\n"
-"	• {0}"
+"\t• {0}"
 msgstr ""
 "\n"
-"	• {0}"
+"\t• {0}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
@@ -24056,6 +24226,16 @@ msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUDIO_BUS_UI"
 msgid "UI"
 msgstr "UI"
 
+#. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS
+msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS"
+msgid "Play automation sounds outside of the overlay: "
+msgstr "Spielt Automatisierungsgeräusche außerhalb des Overlays ab: "
+
+#. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS_TOOLTIP"
+msgid "If enabled, automation sound effects will play even when outside of the automation overlay"
+msgstr "Wenn aktiviert, werden Geräuscheffekte der Automatisierung auch außerhalb des Automatisierung-Overlays abgespielt"
+
 #. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.DONE_BUTTON"
 msgid "Done"
@@ -24660,11 +24840,11 @@ msgstr "Welterzeugungsschlüssel"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Automation Upgrade!</b>\n"
+"<b>Welcome to the Tubular Upgrade!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Willkommen beim Automatisierungs-Upgrade!</b>\n"
+"<b>Willkommen beim Röhren-Upgrade!</b>\n"
 "\n"
 "{0}"
 
@@ -24678,38 +24858,26 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• New buildings for base automation including sensors, switches, logic gates, and Duplicant checkpoints\n"
-"• Automation inputs for existing buildings and new automatable system shutoffs\n"
-"• Two new ore processing buildings for Metal refinement\n"
-"• Revamped tech tree with new research tiers, buildings, and overlays\n"
-"• Bug fixes and performance improvements\n"
-"\n"
-"<b>Other Notable Changes:</b>\n"
-"\n"
-"• Automatic power switches have been replaced by Automation sensors and can no longer directly control power\n"
-"• Oil and oil products will now properly freeze at low temperatures\n"
+"• New Transit Tube networks allow rapid Duplicant transport to and from the furthest reaches of your base\n"
+"• Ice Sculptures can now be built in cold areas for a special decor boost\n"
+"• Berry Sludge, a new recipe made from Bristle Berries, can now be found at the Microbe Musher\n"
+"• Extensive performance improvements, affecting late game bases, stored items, Duplicant navigation, memory usage, and more\n"
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
 "<b>Update-Features:</b>\n"
 "\n"
-"• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
-"• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
-"• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
-"• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
-"• Bugfixes und Performanceverbesserungen\n"
-"\n"
-"<b>Weitere wichtige Änderungen:</b>\n"
-"\n"
-"• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
-"• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
+"• Neue Transit-Rohrnetze ermöglichen einen schnellen Duplikanten-Transport von und zu den entferntesten Stellen Deiner Basis.\n"
+"• Eisskulpturen können jetzt auch in kalten Gebieten für einen besonderen Dekorschub gebaut werden.\n"
+"• Beerenschlamm, eine neue Rezeptur aus Dornenbeeren, ist ab sofort im Mikroben-Matscher zu finden.\n"
+"• Umfangreiche Leistungsverbesserungen, die sich auf die späten Spielbasen, die gespeicherten Gegenstände, die Duplikatnavigation, die Speichernutzung und vieles mehr auswirken.\n"
 "\n"
 "Schau dir bitte auch die vollständigen Notizen für alle Details an!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "AUTOMATION UPGRADE"
-msgstr "AUTOMATISIERUNGS-OVERLAY"
+msgid "TUBULAR UPGRADE"
+msgstr "RÖHREN-OVERLAY"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -27675,13 +27843,18 @@ msgstr "Bewegen"
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION"
-msgid "CLICK TO MOVE {0}"
-msgstr "KLICKEN UM {0} ZU BEWEGEN"
+msgid "CLICK TO MOVE"
+msgstr "KLICKEN ZUM BEWEGEN"
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME"
-msgid "Move {0} Here"
-msgstr "Bewege {0} hierher"
+msgid "Move Here"
+msgstr "Hierher bewegen"
+
+#. STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE
+msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE"
+msgid "UNREACHABLE"
+msgstr "NICHT ERREICHBAR"
 
 #. STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME
 msgctxt "STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME"
@@ -27872,6 +28045,16 @@ msgstr "Muss auf einem freien Platz gebaut werden"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
 msgid "Press <color=#F44A47>[O]</color> to Rotate"
 msgstr "Drücke <color=#F44A47>[O]</color> zum Drehen"
+
+#. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS"
+msgid "No U-Turns!"
+msgstr "Keine Wendemöglichkeit!"
+
+#. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
+msgid "Can't Turn Here!"
+msgstr "Kann hier nicht abbiegen!"
 
 #. STRINGS.UI.TOOLTIPS.INFOPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.INFOPANEL"
@@ -28649,7 +28832,7 @@ msgstr "Keine Rezepte entdeckt"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY"
 msgid "Look for new ingredients and materials in the world to unlock recipes."
-msgstr ""
+msgstr "Suche nach neuen Zutaten und Materialien in der Welt, um Rezepte freizuschalten."
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED"
@@ -29270,6 +29453,21 @@ msgctxt "STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.TOOLTIP"
 msgid "This sensor will send a 1 after the Turn On time, and a 0 after the Turn Off time."
 msgstr "Dieser Sensor sendet 1 nach der Einschaltzeit, und 0 nach der Ausschaltzeit."
 
+#. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION
+msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION"
+msgid "Activation Duration"
+msgstr "Aktivierungsdauer"
+
+#. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.ON
+msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.ON"
+msgid "Activation Time"
+msgstr "Aktivierungszeit"
+
+#. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE"
+msgid "Time-of-Day Sensor"
+msgstr "Tageszeit-Sensor"
+
 #. STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE"
 msgid "Current State:"
@@ -29463,7 +29661,7 @@ msgstr "/s"
 #. STRINGS.UI.UNITSUFFIXES.SECOND
 msgctxt "STRINGS.UI.UNITSUFFIXES.SECOND"
 msgid " s"
-msgstr "s"
+msgstr " s"
 
 #. STRINGS.UI.UNITSUFFIXES.TEMPERATURE.CELSIUS
 msgctxt "STRINGS.UI.UNITSUFFIXES.TEMPERATURE.CELSIUS"
@@ -30761,3 +30959,35 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#~ msgid ""
+#~ "<b>Update Features:</b>\n"
+#~ "\n"
+#~ "• New buildings for base automation including sensors, switches, logic gates, and Duplicant checkpoints\n"
+#~ "• Automation inputs for existing buildings and new automatable system shutoffs\n"
+#~ "• Two new ore processing buildings for Metal refinement\n"
+#~ "• Revamped tech tree with new research tiers, buildings, and overlays\n"
+#~ "• Bug fixes and performance improvements\n"
+#~ "\n"
+#~ "<b>Other Notable Changes:</b>\n"
+#~ "\n"
+#~ "• Automatic power switches have been replaced by Automation sensors and can no longer directly control power\n"
+#~ "• Oil and oil products will now properly freeze at low temperatures\n"
+#~ "\n"
+#~ "Please view the full patch notes for further details!"
+#~ msgstr ""
+#~ "<b>Update-Features:</b>\n"
+#~ "\n"
+#~ "• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
+#~ "• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
+#~ "• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
+#~ "• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
+#~ "• Bugfixes und Performanceverbesserungen\n"
+#~ "\n"
+#~ "<b>Weitere wichtige Änderungen:</b>\n"
+#~ "\n"
+#~ "• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
+#~ "• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
+#~ "\n"
+#~ "Schau dir bitte auch die vollständigen Notizen für alle Details an!"
