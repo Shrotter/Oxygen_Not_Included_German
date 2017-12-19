@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -987,6 +987,7 @@ msgid ""
 msgstr ""
 "Feedbackschleifen blockieren die Funktion von Automatisierungsnetzen\n"
 "\n"
+"Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird."
 "Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
@@ -4173,6 +4174,7 @@ msgstr ""
 "\n"
 "Absorbiert und neutralisiert <style=\"heat\">Wärmeenergie</style> wenn mit <style=\"gas\">Wasserstoff</style> beliefert."
 
+
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
 msgid "Anti Entropy Thermo-Nullifier"
@@ -4908,7 +4910,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.NAME"
 msgid "Tempshift Plate"
-msgstr "Temperatur-Verschiebeplatte"
+msgstr "Wärmetauschplatte"
 
 #. STRINGS.BUILDINGS.PREFABS.TILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILE.DESC"
@@ -4958,9 +4960,9 @@ msgid ""
 "\n"
 "Only transports Duplicants."
 msgstr ""
-"Transportiert Duplikante schnell von einem Transitrohrzugang zum Rohrende.\n"
+"Transportiert Duplikanten schnell von einem Transitrohr-Eingang zum Rohrende.\n"
 "\n"
-"Transportiert nur Duplikante."
+"Transportiert nur Duplikanten."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME"
@@ -4979,19 +4981,19 @@ msgid ""
 "\n"
 "Stops drawing <style=\"power\">Power</style> once fully charged."
 msgstr ""
-"Ermöglicht es Duplikanten, in das angeschlossene Transitrohrsystem zu betreten.\n"
+"Ermöglicht Duplikanten das angeschlossene Transitrohrsystem zu betreten.\n"
 "\n"
 "Sobald das System vollständig aufgeladen ist, verschwindet die <style=\"power\">Power-Anzeige</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME"
 msgid "Transit Tube Access"
-msgstr "Transitrohreingang"
+msgstr "Transitrohr-Eingang"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC"
 msgid "Tube crossings can run transit tubes through walls without leaking gas or liquid."
-msgstr "Transitrohrkreuzungen können Transitrohre ohne Gas- oder Flüssigkeitsaustritt durch Wände hindurchführen."
+msgstr "Transitrohr-Kreuzungen können Transitrohre ohne Gas- oder Flüssigkeitsaustritt durch Wände hindurchführen."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT"
@@ -5007,7 +5009,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME"
 msgid "Transit Tube Crossing"
-msgstr "Transitrohrkreuzung"
+msgstr "Transitrohr-Kreuzung"
 
 #. STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC"
@@ -7039,7 +7041,7 @@ msgid ""
 "\n"
 "This effect reduces Disease symptoms"
 msgstr ""
-"Duplikante, die während der Versorgung auf einem Krankenbett oder einer Pharma-Kammer behandelt werden, erzielen den \"Erhaltene Hilfe\"-Effekt.\n"
+"Duplikanten, die während der Versorgung auf einem Krankenbett oder einer Pharma-Kammer behandelt werden, erzielen den \"Erhaltene Hilfe\"-Effekt.\n"
 "\n"
 "Dieser Effekt reduziert Krankheitssymptome"
 
@@ -15457,6 +15459,36 @@ msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES"
 msgid "BuildCategoryTiles"
 msgstr ""
 
+#. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
+msgid "BaseMenu"
+msgstr "BaseMenu"
+
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYDOORS
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYDOORS"
+msgid "BuildCategoryDoors"
+msgstr ""
+
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYLADDERS
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYLADDERS"
+msgid "BuildCategoryLadders"
+msgstr ""
+
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYRESEARCH
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYRESEARCH"
+msgid "BuildCategoryResearch"
+msgstr ""
+
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYSTORAGE
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYSTORAGE"
+msgid "BuildCategoryStorage"
+msgstr ""
+
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES"
+msgid "BuildCategoryTiles"
+msgstr ""
+
 #. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES"
 msgid "BuildCategoryTravelTubes"
@@ -16313,14 +16345,14 @@ msgid ""
 "\n"
 "Its aggressive, overbearing sweetness can leave the tongue feeling temporarily numb."
 msgstr ""
-"Ein zerdrückter <style=\"food\">Dornenbeereschlamm</style> mit außergewöhnlich langer Haltbarkeit.\n"
+"Zerdrückte <style=\"food\">Dornenbeeren</style> mit außergewöhnlich langer Haltbarkeit.\n"
 "\n"
 "Seine aggressive, überwältigende Süße kann die Zunge vorübergehend taub machen."
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.NAME"
 msgid "Berry Sludge"
-msgstr "Beerenschlamm"
+msgstr "Beerenmatsch"
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC"
@@ -20460,7 +20492,7 @@ msgstr "Gewährt Zugang zum Schutzanzug-Overlay."
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME"
 msgid "Exosuit Overlay"
-msgstr "Schutzanzug-OVerlay"
+msgstr "Schutzanzug-Overlay"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC"
@@ -20521,6 +20553,16 @@ msgstr "Verbessert die <style=\"decor\">Dekoration</style> sehr stark, indem Dup
 msgctxt "STRINGS.RESEARCH.TECHS.ARTISTRY.NAME"
 msgid "Artistic Expression"
 msgstr "Kunstfertigkeit"
+
+#. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC"
+msgid "When life gives you rocks, make rock-aid! (Or sand.)"
+msgstr "Wenn das Leben dir Steine gibt, mach kleine Steinchen draus! (Oder Sand.)"
+
+#. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME"
+msgid "Brute-Force Refinement"
+msgstr "Grobe Veredelung"
 
 #. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC"
@@ -24868,6 +24910,16 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
+"• New buildings for base automation including sensors, switches, logic gates, and Duplicant checkpoints\n"
+"• Automation inputs for existing buildings and new automatable system shutoffs\n"
+"• Two new ore processing buildings for Metal refinement\n"
+"• Revamped tech tree with new research tiers, buildings, and overlays\n"
+"• Bug fixes and performance improvements\n"
+"\n"
+"<b>Other Notable Changes:</b>\n"
+"\n"
+"• Automatic power switches have been replaced by Automation sensors and can no longer directly control power\n"
+"• Oil and oil products will now properly freeze at low temperatures\n"
 "• New Transit Tube networks allow rapid Duplicant transport to and from the furthest reaches of your base\n"
 "• Ice Sculptures can now be built in cold areas for a special decor boost\n"
 "• Berry Sludge, a new recipe made from Bristle Berries, can now be found at the Microbe Musher\n"
@@ -24877,6 +24929,16 @@ msgid ""
 msgstr ""
 "<b>Update-Features:</b>\n"
 "\n"
+"• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
+"• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
+"• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
+"• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
+"• Bugfixes und Performanceverbesserungen\n"
+"\n"
+"<b>Weitere wichtige Änderungen:</b>\n"
+"\n"
+"• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
+"• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
 "• Neue Transit-Rohrnetze ermöglichen einen schnellen Duplikanten-Transport von und zu den entferntesten Stellen Deiner Basis.\n"
 "• Eisskulpturen können jetzt auch in kalten Gebieten für einen besonderen Dekorschub gebaut werden.\n"
 "• Beerenschlamm, eine neue Rezeptur aus Dornenbeeren, ist ab sofort im Mikroben-Matscher zu finden.\n"
@@ -24887,7 +24949,8 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
 msgid "TUBULAR UPGRADE"
-msgstr "RÖHREN-OVERLAY"
+msgstr "TUBULARES UPGRADE"
+
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -30969,35 +31032,3 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
-
-#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
-#~ msgid ""
-#~ "<b>Update Features:</b>\n"
-#~ "\n"
-#~ "• New buildings for base automation including sensors, switches, logic gates, and Duplicant checkpoints\n"
-#~ "• Automation inputs for existing buildings and new automatable system shutoffs\n"
-#~ "• Two new ore processing buildings for Metal refinement\n"
-#~ "• Revamped tech tree with new research tiers, buildings, and overlays\n"
-#~ "• Bug fixes and performance improvements\n"
-#~ "\n"
-#~ "<b>Other Notable Changes:</b>\n"
-#~ "\n"
-#~ "• Automatic power switches have been replaced by Automation sensors and can no longer directly control power\n"
-#~ "• Oil and oil products will now properly freeze at low temperatures\n"
-#~ "\n"
-#~ "Please view the full patch notes for further details!"
-#~ msgstr ""
-#~ "<b>Update-Features:</b>\n"
-#~ "\n"
-#~ "• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
-#~ "• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
-#~ "• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
-#~ "• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
-#~ "• Bugfixes und Performanceverbesserungen\n"
-#~ "\n"
-#~ "<b>Weitere wichtige Änderungen:</b>\n"
-#~ "\n"
-#~ "• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
-#~ "• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
-#~ "\n"
-#~ "Schau dir bitte auch die vollständigen Notizen für alle Details an!"
