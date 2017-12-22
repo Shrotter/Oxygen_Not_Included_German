@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -987,7 +987,6 @@ msgid ""
 msgstr ""
 "Feedbackschleifen blockieren die Funktion von Automatisierungsnetzen\n"
 "\n"
-"Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird."
 "Feedbackschleifen treten auf, wenn die Ausgabe eines automatisierten Gebäudes zurück zu dessen Eingabe geführt wird"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
@@ -1468,6 +1467,16 @@ msgstr "Transitrohr ist nicht verbunden"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
 msgid "A straight Transit Tube must be connected to the top of the launch rail for this building to function."
 msgstr "Damit dieses Gebäude funktionieren kann, muss ein gerades Transitrohr an der Oberseite an der Startschiene verbunden werden."
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME"
+msgid "No Valid Landing Spot"
+msgstr "Kein zulässiger Landeplatz"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
+msgid "Dupes can exit a transit tube if there is a spot to land within 2 tiles of the tube's end."
+msgstr "Duplikanten können eine Transitröhre verlassen, wenn es einen Landeplatz gib, der innerhalb von 2 Fliesen vom Rohrende ist."
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -4164,7 +4173,6 @@ msgstr ""
 "\n"
 "Absorbiert und neutralisiert <style=\"heat\">Wärmeenergie</style> wenn mit <style=\"gas\">Wasserstoff</style> beliefert."
 
-
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
 msgid "Anti Entropy Thermo-Nullifier"
@@ -4797,7 +4805,7 @@ msgid ""
 msgstr ""
 "Lagert und lädt <style=\"equipment\">Schutzanzüge</style> auf.\n"
 "\n"
-"Neben einer Schutzanzug-Kontrollstelle bauen, damit Dublikanten beim vorbeigehen in den Anzug steigen."
+"Neben einer Schutzanzug-Kontrollstelle bauen, damit Duplikanten beim vorbeigehen in den Anzug steigen."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME"
@@ -15454,40 +15462,10 @@ msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
 msgid "BaseMenu"
 msgstr "BaseMenu"
 
-#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYDOORS
-msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYDOORS"
-msgid "BuildCategoryDoors"
-msgstr ""
-
-#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYLADDERS
-msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYLADDERS"
-msgid "BuildCategoryLadders"
-msgstr ""
-
-#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYRESEARCH
-msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYRESEARCH"
-msgid "BuildCategoryResearch"
-msgstr ""
-
-#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYSTORAGE
-msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYSTORAGE"
-msgid "BuildCategoryStorage"
-msgstr ""
-
-#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES
-msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES"
-msgid "BuildCategoryTiles"
-msgstr ""
-
 #. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES"
 msgid "BuildCategoryTravelTubes"
 msgstr ""
-
-#. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
-msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
-msgid "BaseMenu"
-msgstr "BaseMenu"
 
 #. STRINGS.INPUT_BINDINGS.BUILDING.BUILDINGUTILITY1
 msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.BUILDINGUTILITY1"
@@ -20554,16 +20532,6 @@ msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME"
 msgid "Brute-Force Refinement"
 msgstr "Grobe Veredelung"
 
-#. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC
-msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC"
-msgid "When life gives you rocks, make rock-aid! (Or sand.)"
-msgstr "Wenn das Leben dir Steine gibt, mach kleine Steinchen draus! (Oder Sand.)"
-
-#. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME
-msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME"
-msgid "Brute-Force Refinement"
-msgstr "Grobe Veredelung"
-
 #. STRINGS.RESEARCH.TECHS.CLOTHING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.DESC"
 msgid "Produce decorative and practical clothing for Duplicants."
@@ -24940,7 +24908,6 @@ msgstr ""
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
 msgid "TUBULAR UPGRADE"
 msgstr "TUBULARES UPGRADE"
-
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
