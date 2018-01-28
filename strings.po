@@ -218,7 +218,7 @@ msgstr "Maschine ausgeschaltet"
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
 msgid "Press <color=#F44A47>[ENTER]</color> to resume use"
-msgstr "Drücke <color =#F44A47>[ENTER]</color>, um es zu aktivieren"
+msgstr "Drücke <color=#F44A47>[ENTER]</color>, um es zu aktivieren"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME"
@@ -3287,7 +3287,7 @@ msgstr "Geschmackvolle Gedenkstätte"
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC"
 msgid "Hand sanitizers kill germs more effectively than wash basins."
-msgstr "Hand-Desinfizierer töten Keime effektiver als Waschbecken."
+msgstr "Hand-Desinfizierer töten Keime effektiver als Waschzuber/-beckenbecken."
 
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.EFFECT"
@@ -5012,7 +5012,7 @@ msgstr "Transitrohr-Kreuzung"
 #. STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC"
 msgid "Germ spread can be reduced by building wash basins where Duplicants are likely to get dirty."
-msgstr "Die Keimverbreitung kann durch den Bau von Waschbecken in der Nähe von wahrscheinlichen Infektionsorten reduziert werden."
+msgstr "Die Keimverbreitung kann durch den Bau von Waschzubern in der Nähe von wahrscheinlichen Infektionsorten reduziert werden."
 
 #. STRINGS.BUILDINGS.PREFABS.WASHBASIN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.EFFECT"
@@ -5023,17 +5023,17 @@ msgid ""
 msgstr ""
 "Entfernt einige <style=\"disease\">Keime</style> von Duplikanten.\n"
 "\n"
-"Duplikanten verwenden ein Waschbecken beim Vorbeilaufen in die ausgewählte Richtung, wenn sie Keime auf sich tragen."
+"Duplikanten verwenden einen Waschzuber beim Vorbeilaufen in die ausgewählte Richtung, wenn sie Keime auf sich tragen."
 
 #. STRINGS.BUILDINGS.PREFABS.WASHBASIN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.NAME"
 msgid "Wash Basin"
-msgstr "Waschbecken"
+msgstr "Waschzuber"
 
 #. STRINGS.BUILDINGS.PREFABS.WASHSINK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.DESC"
 msgid "Sinks are plumbed and do not need to be manually emptied or refilled."
-msgstr "Spülbecken sind am Rohrsystem angeschlossen und müssen nicht manuell entleert oder nachgefüllt werden."
+msgstr "Waschbecken sind am Rohrsystem angeschlossen und müssen nicht manuell entleert oder nachgefüllt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.WASHSINK.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.EFFECT"
@@ -5049,7 +5049,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WASHSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.NAME"
 msgid "Sink"
-msgstr "Spülbecken"
+msgstr "Waschbecken"
 
 #. STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.DESC"
@@ -5525,7 +5525,7 @@ msgstr "Myteriöses Ei"
 #. STRINGS.CREATURES.SPECIES.OIL_FLOATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OIL_FLOATER.DESC"
 msgid "Slicksters are slimy creatures that consume <style=\"gas\">Carbon Dioxide</style> and exude <style=\"misc\">Crude Oil</style>."
-msgstr "Slickster sind schleimige Kreaturen, die <style=\"gas\">Kohlendioxid</style> und <style=\"misc\">Rohöl</style> verzehren."
+msgstr "Slickster sind schleimige Kreaturen, die <style=\"gas\">Kohlendioxid</style> konsumieren und <style=\"misc\">Rohöl</style> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.OIL_FLOATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OIL_FLOATER.NAME"
@@ -12952,7 +12952,7 @@ msgid ""
 "• Cannot perform job: {0}"
 msgstr ""
 "\n"
-"• Kann den Job nicht ausführen: {0}"
+"• Kann folgende Aufgabe nicht erfüllen: {0}"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTBUILD.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTBUILD.DESC"
@@ -17319,7 +17319,7 @@ msgstr "Diese Verletzungen des Duplikanten wurden nicht richtig behandelt. Er en
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
 msgid "Colony requires wash basins"
-msgstr "Kolonie benötigt Waschbecken"
+msgstr "Kolonie benötigt Waschzuber/-becken"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP"
@@ -17416,7 +17416,7 @@ msgid ""
 msgstr ""
 "<style=\"disease\">Keime</style> sind ein unsichtbares Übel, das <style=\"disease\">Krankheiten</style> bei deinen Duplikanten verursacht. Im <style=\"misc\">KEIMOVERLAY</style> <color=#F44A47><b>[F9]</b></color> kannst du die Keimverteilung und Keimquellen deiner Kolonie sehen.\n"
 "\n"
-"Waschbecken können in belasteten Bereichen über das <style=\"misc\">MEDIZINTAB</style> <color=#F44A47><b>[9]</b></color> errichtet werden, damit deine Duplikanten sich waschen können. Wenn du deine Basis sauber hältst und deine Duplikanten sich regelmäßig waschen, wird die Immunität deiner Kolonie den Rest erledigen."
+"Waschzuber können in belasteten Bereichen über das <style=\"misc\">MEDIZINTAB</style> <color=#F44A47><b>[9]</b></color> errichtet werden, damit deine Duplikanten sich waschen können. Wenn du deine Basis sauber hältst und deine Duplikanten sich regelmäßig waschen, wird die Immunität deiner Kolonie den Rest erledigen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
@@ -21093,7 +21093,7 @@ msgstr "Toilette"
 #. STRINGS.ROOMS.CRITERIA.WASH_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WASH_STATION.DESCRIPTION"
 msgid "Requires one or more Wash Basins, Sinks, Hand Sanitizers, or Showers"
-msgstr "Benötigt ein oder mehrere Waschbecken, Spülbecken, Hand-Desinfizierer oder Duschen"
+msgstr "Benötigt ein oder mehrere Waschzuber/-becken, Waschbecken, Hand-Desinfizierer oder Duschen"
 
 #. STRINGS.ROOMS.CRITERIA.WASH_STATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WASH_STATION.NAME"
@@ -26123,7 +26123,7 @@ msgid ""
 msgstr ""
 "<b>Keimquelle</b>\n"
 "Orte an denen Keime produziert werden\n"
-"* Platziere Waschbecken oder Hand-Desinfizierer in der Nähe um die Krankheitsverbreitung zu vermeiden"
+"* Platziere Waschzuber/-becken oder Hand-Desinfizierer in der Nähe um die Krankheitsverbreitung zu vermeiden"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS"
