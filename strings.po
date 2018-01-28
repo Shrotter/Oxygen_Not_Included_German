@@ -1585,12 +1585,9 @@ msgid "No Landing Available"
 msgstr "Kein Samen verfügbar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
-#| msgid "Dupes can exit a transit tube if there is a spot to land within 2 tiles of the tube's end."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
 msgid "Duplicants can only exit a tube when there is somewhere for them to land within two tiles"
-msgstr "Duplikanten können eine Transitröhre verlassen, wenn es einen Landeplatz gib, der innerhalb von 2 Fliesen vom Rohrende ist."
+msgstr "Duplikate können eine Transitröhre nur dann verlassen, wenn sie irgendwo innerhalb von zwei Kacheln landen können"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -1739,12 +1736,9 @@ msgstr "Warte auf einen Duplikanten zum Entwurzeln"
 
 # gekürzt um Umbruch zu vermeiden
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.NAME"
-#| msgid "Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME"
 msgid "Errand Assigned"
-msgstr "Zugew."
+msgstr "Besorgung zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
@@ -1905,15 +1899,15 @@ msgid "Charge Available: {0}/{1}"
 msgstr "Kalorien verfügbar: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP"
-#| msgid "This building has stored {0} out of a maximum {1}. It will consume {2} per use."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP"
 msgid ""
 "This building has {0} of stored energy\n"
 "\n"
 "It consumes {2} per use"
-msgstr "Dieses Gebäude hat {0} von maximal {1} gespeichert. Es wird {2} pro Benutzung verbrauchen."
+msgstr ""
+"Dieses Gebäude hat {0} Energie gespeichert\n"
+"\n"
+"Es verbraucht {2} pro Benutzung"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME"
@@ -2690,20 +2684,14 @@ msgid "Smart Battery"
 msgstr "Intelligente Batterie"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE"
 msgid "Active:"
-msgstr "Aktiv"
+msgstr "Aktiv:"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_DEACTIVATE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
-#| msgid "Standby"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_DEACTIVATE"
 msgid "Standby:"
-msgstr "Warten"
+msgstr "Standby:"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE
 #, fuzzy
@@ -4218,22 +4206,10 @@ msgid "XOR Gate"
 msgstr "XOR-Gatter"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT
 #, fuzzy
@@ -4959,12 +4935,9 @@ msgid "Polymer Press"
 msgstr "Polymer-Presse"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ASSIGNEDTOROOM.TOOLTIP"
-#| msgid "Any Duplicant assigned to this room can use this amenity"
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.DESC"
 msgid "Only one Duplicant may be assigned to a Station at a time."
-msgstr "Jeder Duplikant, der diesem Raum zugeteilt ist, kann diese Einrichtung benutzen"
+msgstr "Nur ein Duplikant kann gleichzeitig einer Station zugewiesen werden."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT"
@@ -7858,12 +7831,9 @@ msgid "Determines the amount of time needed to reach maturation."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MATURITYDELTA.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.LIFECYCLETITLE"
-#| msgid "Growth:"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MATURITYDELTA.NAME"
 msgid "Growth Speed"
-msgstr "Wachstum:"
+msgstr "Wachstumsgeschwindigkeit"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC
 #, fuzzy
@@ -9287,40 +9257,16 @@ msgid "Going to build"
 msgstr "Geht bauen"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.BANHI.DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.BANHI.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.BANHI.NAME
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.BANHI.NAME"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.ELLIE.DESC
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.ELLIE.DESC"
@@ -10026,15 +9972,15 @@ msgid "<b>{0} {1}</b>"
 msgstr "<b>{0} {1}</b>"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTOR_REQUIRED
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.NAME"
-#| msgid "Medical bed"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTOR_REQUIRED"
 msgid ""
 "\n"
 "\n"
 "Medical care needed"
-msgstr "Krankenbett"
+msgstr ""
+"\n"
+"\n"
+"Medizinische Versorgung erforderlich"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTORED
 #, fuzzy
@@ -12014,22 +11960,10 @@ msgid "This Duplicant will gain mastery in <style=\"misc\">{0}</style> jobs <sty
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.ART.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.ART.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.ART.NAME
 #, fuzzy
@@ -12048,22 +11982,10 @@ msgid "Artist"
 msgstr "Künstler"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.BASEKEEPING.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.BASEKEEPING.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.BASEKEEPING.NAME
 #, fuzzy
@@ -12082,22 +12004,10 @@ msgid "Maintenance Worker"
 msgstr "Instandhaltung"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.BUILDING.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.BUILDING.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.BUILDING.NAME
 #, fuzzy
@@ -12116,22 +12026,10 @@ msgid "Architect"
 msgstr "Architekt"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.COOKING.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.COOKING.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.COOKING.NAME
 #, fuzzy
@@ -12150,22 +12048,10 @@ msgid "Chef"
 msgstr "Koch"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.DOCTOR.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.DOCTOR.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.DOCTOR.NAME
 #, fuzzy
@@ -12184,22 +12070,10 @@ msgid "Doctor"
 msgstr "Behandlungen"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.FARMING.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.FARMING.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.FARMING.NAME
 #, fuzzy
@@ -12218,22 +12092,10 @@ msgid "Farmer"
 msgstr "Bauer"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.HAULING.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.HAULING.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.HAULING.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.HAULING.NAME"
@@ -12246,22 +12108,10 @@ msgid "Courier"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.MANAGEMENT.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.MANAGEMENT.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.MANAGEMENT.NAME
 #, fuzzy
@@ -12280,22 +12130,10 @@ msgid "Manager"
 msgstr "VerwalteBerichte"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.MINING.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.MINING.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.MINING.NAME
 #, fuzzy
@@ -12314,22 +12152,10 @@ msgid "Miner"
 msgstr "Bergarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.RESEARCH.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.RESEARCH.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.RESEARCH.NAME
 #, fuzzy
@@ -12348,22 +12174,10 @@ msgid "Researcher"
 msgstr "Forscher"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS.NAME
 #, fuzzy
@@ -12382,22 +12196,10 @@ msgid "Suit Specialist"
 msgstr "Schutzanzugspezialist"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.TECHNICALS.DESCRIPTION
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.TECHNICALS.DESCRIPTION"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.TECHNICALS.NAME
 #, fuzzy
@@ -12548,12 +12350,9 @@ msgid "General Engineer"
 msgstr "Erzeugt Energie"
 
 #. STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.TOOLTIP"
-#| msgid "This Duplicant is cleaning up a nasty spill"
 msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION"
 msgid "This Duplicant is skilled at keeping your base well supplied."
-msgstr "Dieser Duplikant wischt eine widerliche Kleckerei auf"
+msgstr "Dieser Duplikant ist geschickt deine Basis gut versorgt zu halten."
 
 #. STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME"
@@ -15251,22 +15050,10 @@ msgid "Ceramic"
 msgstr "Keramik"
 
 #. STRINGS.ELEMENTS.CARBON.BUILD_DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.ELEMENTS.CARBON.BUILD_DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.ELEMENTS.CARBON.DESC
 msgctxt "STRINGS.ELEMENTS.CARBON.DESC"
@@ -15326,22 +15113,10 @@ msgid "Carbon"
 msgstr "Kohlenstoff"
 
 #. STRINGS.ELEMENTS.CEMENT.BUILD_DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.ELEMENTS.CEMENT.BUILD_DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.ELEMENTS.CEMENT.DESC
 msgctxt "STRINGS.ELEMENTS.CEMENT.DESC"
@@ -15357,22 +15132,10 @@ msgid "Cement"
 msgstr "Element"
 
 #. STRINGS.ELEMENTS.CEMENTMIX.BUILD_DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.ELEMENTS.CEMENTMIX.BUILD_DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.ELEMENTS.CEMENTMIX.DESC
 msgctxt "STRINGS.ELEMENTS.CEMENTMIX.DESC"
@@ -16588,22 +16351,10 @@ msgid "Sedimentary Rock"
 msgstr "Sedimentgestein"
 
 #. STRINGS.ELEMENTS.SLABS.BUILD_DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.ELEMENTS.SLABS.BUILD_DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.ELEMENTS.SLABS.DESC
 msgctxt "STRINGS.ELEMENTS.SLABS.DESC"
@@ -16751,22 +16502,10 @@ msgid "Petroleum"
 msgstr "Petroleum"
 
 #. STRINGS.ELEMENTS.SOLIDPROPANE.BUILD_DESC
-#, fuzzy
 #| msgid ""
 msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.BUILD_DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.ELEMENTS.SOLIDPROPANE.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.DESC"
@@ -19459,14 +19198,13 @@ msgid "These resources have melted:"
 msgstr "Diese Ressourcen sind geschmolzen:"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.LINE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP"
-#| msgid "{0} contracted <style=\"disease\">{1}</style> {2}"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.LINE"
 msgid ""
 "\n"
 "• <b>{0}</b> mastered the <style=\"research\">{1}</style> job"
-msgstr "{0} erkrankte an <style=\"disease\">{1}</style> {2}"
+msgstr ""
+"\n"
+"• <b>{0}</b> bewältigte die <style=\"research\">{1}</style>-Aufgabe"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.MESSAGEBODY"
@@ -19978,12 +19716,9 @@ msgid "No Harvest Pending"
 msgstr "Geerntet"
 
 #. STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP"
-#| msgid "Use the harvest tool to mark this plant for harvest."
 msgctxt "STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP"
 msgid "Use the Harvest Tool to mark this plant for harvest"
-msgstr "Benutze das Ernte-Tool um diese Pflanze für die Ernte zu markieren."
+msgstr "Benutze das Ernte-Tool um diese Pflanze für die Ernte zu markieren"
 
 #. STRINGS.MISC.STATUSITEMS.OPERATING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OPERATING.NAME"
@@ -24158,12 +23893,9 @@ msgstr ""
 "Kühlen von 1 kg Sauerstoff bei Raumtemperatur liefert {0} pro Sekunde"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP"
-#| msgid "These Duplicants' skills have improved:"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS"
 msgid "These buildings will be improved by a tune-up"
-msgstr "Diese Fähigkeiten haben sich verbessert:"
+msgstr "Diese Gebäude werden durch eine Überholung verbessert"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM
 #, fuzzy
@@ -26247,12 +25979,9 @@ msgid "Time Breakdown:"
 msgstr "Zeitaufschlüsselung:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
-#| msgid "Your Duplicants spent a total of {0} idling over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP"
 msgid "Your Duplicants spent a total of {0} doing errands over the course of the day"
-msgstr "Deine Duplikanten warteten insgesamt {0} im Laufe des Tages"
+msgstr "Deine Duplikanten haben im Laufe des Tages insgesamt {0} für Besorgungen aufgewendet"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME"
@@ -26763,18 +26492,9 @@ msgid "LOAD GAME"
 msgstr "SPIEL LADEN"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION"
-#| msgid ""
-#| "<b><color=#ff0000>This save file is from a previous version of the game and is no longer supported.</color></b>\n"
-#| "\n"
-#| "You may revert to the previous build to play your old save. Please follow the link below for details."
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION"
 msgid "<b><color=#ff0000>This save file is from a previous version of the game and is no longer supported.</color></b>"
-msgstr ""
-"<B> <color=# ff0000> Diese Sicherungsdatei stammt aus einer früheren Version des Spiels und wird nicht mehr unterstützt. </color></b>\n"
-"\n"
-"Du kannst zum vorherigen Build zurückkehren, um deinen alten Speicherstand zu spielen. Bitte folge dem Link unten für Details."
+msgstr "<B> <color=# ff0000> Diese Sicherungsdatei stammt aus einer früheren Version des Spiels und wird nicht mehr unterstützt. </color></b>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DESKTOPQUITCONFIRM
 #, fuzzy
@@ -28096,20 +27816,14 @@ msgid "Health"
 msgstr "Gesundheit"
 
 #. STRINGS.UI.MINION_IDENTITY_SORT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BASEDUPLICANT.NAME"
-#| msgid "Duplicant"
 msgctxt "STRINGS.UI.MINION_IDENTITY_SORT.NAME"
 msgid "Duplicant"
 msgstr "Duplikant"
 
 #. STRINGS.UI.MINION_IDENTITY_SORT.PERMISSION
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.PREVIOUS_VERSION"
-#| msgid "Previous Version"
 msgctxt "STRINGS.UI.MINION_IDENTITY_SORT.PERMISSION"
 msgid "Permission"
-msgstr "Vorherige Version"
+msgstr "Berechtigung"
 
 #. STRINGS.UI.MINION_IDENTITY_SORT.ROLE
 msgctxt "STRINGS.UI.MINION_IDENTITY_SORT.ROLE"
@@ -28117,12 +27831,9 @@ msgid "Role"
 msgstr ""
 
 #. STRINGS.UI.MINION_IDENTITY_SORT.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_NAME"
-#| msgid "Sort by name"
 msgctxt "STRINGS.UI.MINION_IDENTITY_SORT.TITLE"
 msgid "Sort By"
-msgstr "Sortiere nach Name"
+msgstr "Sortiere nach"
 
 #. STRINGS.UI.NAME_WITH_UNITS
 msgctxt "STRINGS.UI.NAME_WITH_UNITS"
@@ -29744,15 +29455,9 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED.NAME
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.CANNOT_DO_TASK"
-#| msgid ""
-#| "\n"
-#| "• Cannot perform job: {0}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED.NAME"
 msgid "Can perform {0}"
-msgstr ""
-"\n"
-"• Kann folgende Aufgabe nicht erfüllen: {0}"
+msgstr "Kann {0} leisten"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ELIGIBILITY.ELIGIBLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ELIGIBILITY.ELIGIBLE"
@@ -29929,20 +29634,14 @@ msgid "Note: Assigning {0} to {1} will <color=#F44A47FF>unassign</color> them fr
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.DROPDOWN.ALREADY_ROLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.CURRENT_NEED_LEVEL"
-#| msgid "Current Level: {0}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.DROPDOWN.ALREADY_ROLE"
 msgid "(Currently {0})"
-msgstr "Aktuelle Stufe: {0}"
+msgstr "(Aktuell {0})"
 
 #. STRINGS.UI.ROLES_SCREEN.DROPDOWN.NAME_AND_ROLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.LOUDNESS_STRING"
-#| msgid " <color=#{0}>({1})</color>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.DROPDOWN.NAME_AND_ROLE"
 msgid "{0} <color=#F44A47FF>({1})</color>"
-msgstr " <color=#{0}>({1})</color>"
+msgstr "{0} <color=#F44A47FF>({1})</color>"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
@@ -32602,12 +32301,9 @@ msgid "Switch will be off if the number of germs is below {0}"
 msgstr "Der Schalter wird ausgeschaltet, wenn der Druck unter {0} liegt"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.DISEASE_UNITS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS"
-#| msgid " germs"
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.DISEASE_UNITS"
 msgid "germs"
-msgstr " Keime"
+msgstr "Keime"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE"
