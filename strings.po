@@ -529,9 +529,6 @@ msgid "Requires Miner"
 msgstr "Benötigt einen Bergarbeiter"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP"
-#| msgid "Duplicants may only use this building if assigned to one of the following jobs: {Roles}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
 msgid "Duplicants may only use this building if assigned to one of the following jobs: {Roles}"
 msgstr "Duplikanten dürfen dieses Gebäude nur dann nutzen, wenn sie einem der folgenden Berufe zugeordnet sind: {Roles}"
@@ -1315,19 +1312,18 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME"
 msgid "No Conveyor Receptacle"
-msgstr "Kein Föderschienenbehälter "
+msgstr "Kein Föderbehälter vorhanden"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
 msgid ""
 "Material cannot be offloaded from this Conveyor system and will backup the rails\n"
 "------------------\n"
 "Enter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to build and connect a Conveyor Receptacle"
 msgstr ""
-"Das Material kann nicht von diesem Fördersystem abgeladen werden und sichert die Schienen\n"
+"Das Material kann nicht von diesem Fördersystem abgeladen werden und verstopft die Schienen\n"
 "------------------\n"
-"Gehe auf die Registerkarte Versand <color=#F44A47>[7]</color> des Bau-Menüs, um einen Föderschienenbehälter zu bauen und anzuschließen"
+"Gehe auf die Registerkarte Versand <color=#F44A47>[7]</color> des Bau-Menüs, um einen Föderbehälter zu bauen und anzuschließen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
@@ -1524,9 +1520,6 @@ msgid "This building does not have enough stored charge to run"
 msgstr "Dieses Gebäude hat nicht genug gespeicherte Ladung für den Betrieb"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME"
-#| msgid "Outside of {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME"
 msgid "Outside of {0}"
 msgstr "Außerhalb von {0}"
@@ -1637,12 +1630,9 @@ msgid "This building is taking damage and will meltdown if not cooled"
 msgstr "Diese Maschine nimmt Schaden und wird schmelzen, wenn sie nicht gekühlt wird"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME"
-#| msgid "Deconstruction Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME"
 msgid "Deconstruction Errand Assigned"
-msgstr "Zerlegungsaufgabe zugewiesen"
+msgstr "Zerlegungsarbeitsgang zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.TOOLTIP"
@@ -1650,12 +1640,9 @@ msgid "Waiting for a Duplicant to deconstruct this building"
 msgstr "Warte auf einen Duplikanten, der dieses Objekt zerlegt"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME"
-#| msgid "Fishing Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME"
 msgid "Fishing Errand Assigned"
-msgstr "Fischen zugewiesen"
+msgstr "Angelarbeitsgang zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.TOOLTIP"
@@ -1663,12 +1650,9 @@ msgid "Waiting for a Duplicant to fish"
 msgstr "Wartet auf einen Duplikanten zum Fischen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME"
-#| msgid "Harvest Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME"
 msgid "Harvest Errand Assigned"
-msgstr "Ernte zugewiesen"
+msgstr "Erntearbeitsgang zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.TOOLTIP"
@@ -1676,12 +1660,9 @@ msgid "Waiting for a Duplicant to harvest"
 msgstr "Warte auf einen Duplikanten zum Ernten"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME"
-#| msgid "Repair Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.NAME"
 msgid "Repair Errand Assigned"
-msgstr "Reparatur zugewiesen"
+msgstr "Reparaturarbeitsgang zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.TOOLTIP"
@@ -1693,12 +1674,9 @@ msgstr ""
 "Erhaltener Schaden von {DamageInfo}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME"
-#| msgid "Toggle Switch Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME"
 msgid "Toggle Switch Errand Assigned"
-msgstr "Schalterbetätigung zugewiesen"
+msgstr "Schalterbetätigungsarbeitsgang zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP"
@@ -1706,12 +1684,9 @@ msgid "Waiting for a Duplicant to toggle switch"
 msgstr "Warte auf einen Duplikanten um Schalter zu betätigen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME"
-#| msgid "Uproot Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME"
 msgid "Uproot Errand Assigned"
-msgstr "Entwurzeln zugewiesen"
+msgstr "Entwurzelnarbeitsgang zugewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
@@ -1862,7 +1837,7 @@ msgid ""
 msgstr ""
 "Diese Förderschiene kann kein Material mehr transportieren.\n"
 "------------------\n"
-"Entfernen Sie Material aus dem Transportbandbehälter, um Platz für weitere Objekte zu schaffen."
+"Entfernen Sie Material aus dem Förderbehälter, um Platz für weitere Objekte zu schaffen"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -2149,12 +2124,9 @@ msgid "This building is currently being built"
 msgstr "Diese Einrichtung wird gebaut"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME"
-#| msgid "Construction Task Assigned"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME"
 msgid "Construction Errand Assigned"
-msgstr "Bau angewiesen"
+msgstr "Bauarbeitsgang angewiesen"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.TOOLTIP"
@@ -2405,7 +2377,7 @@ msgstr "Aktiviere manuell"
 #. STRINGS.BUILDINGS.AUTOMATABLE.DISABLE_AUTOMATIONONLY.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.DISABLE_AUTOMATIONONLY.TOOLTIP"
 msgid "This building's storage may be accessed by both Duplicants and Auto-Sweeper buildings"
-msgstr "Der Speicher dieses Gebäudes kann sowohl von Duplikanten als auch von automatischen Räumern genutzt werden."
+msgstr "Der Speicher dieses Gebäudes kann sowohl von Duplikanten als auch von automatischen Räumern genutzt werden"
 
 # TODO: Hier steht bewusst nicht "Objekt", damit es platztechnisch passt.
 #. STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.NAME
@@ -2608,12 +2580,9 @@ msgid "Apothecary"
 msgstr "Apotheke"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TITLE"
-#| msgid "Battery Recharge Threshold"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
 msgid "{Battery} charge loss"
-msgstr "Batterie-Ladeschwelle"
+msgstr "{Battery} Ladeverlust"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.DESC"
@@ -2672,9 +2641,6 @@ msgstr ""
 "Der Logikeingang wird <style=\"logic\">Active</style>, wenn die Ladung oberhalb der eingestellten Schwelle ist."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_DESC"
-#| msgid "<style=\"logic\">Active</style> if power level exceeds a threshold"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_DESC"
 msgid "<style=\"logic\">Active</style> if charge exceeds threshold"
 msgstr "<style=\"logic\">Aktiv</style> wenn Ladung über der Schwelle ist"
@@ -2695,12 +2661,9 @@ msgid "Standby:"
 msgstr "Standby:"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.ON"
-#| msgid "Activation Time"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE"
 msgid "Logic Activation Parameters"
-msgstr "Aktivierungszeit"
+msgstr "Logischer Aktivierungsparameter"
 
 #. STRINGS.BUILDINGS.PREFABS.BED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.DESC"
@@ -2836,12 +2799,6 @@ msgid "A textile loom can be used to spin Reed Fiber into wearable Duplicant clo
 msgstr "Ein Webstuhl kann verwendet werden, um Reed Fiber in tragbare Kleidung zu weben."
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT"
-#| msgid ""
-#| "Tailors Duplicant <style=\"equipment\">Clothing</style> items.\n"
-#| "\n"
-#| "Duplicants will not fabricate unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.EFFECT"
 msgid ""
 "Tailors Duplicant <style=\"equipment\">Clothing</style> items.\n"
@@ -3118,19 +3075,13 @@ msgid "Electrolyzers output a high volume of oxygen and are a reliable source of
 msgstr "Elektrolyseure liefern ein hohes Volumen an Sauerstoff und sind eine zuverlässige Quelle für atembare Luft."
 
 #. STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
-#| msgid ""
-#| "Converts <style=\"misc\">Algae</style> into <style=\"oxygen\">Oxygen</style>.\n"
-#| "\n"
-#| "Becomes idle when the area reaches maximum pressure capacity."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT"
 msgid ""
 "Converts <style=\"liquid\">Water</style> into <style=\"oxygen\">Oxygen</style> and <style=\"gas\">Hydrogen Gas</style>.\n"
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
-"Wandelt <style=\"misc\">Algen</style> in <style=\"oxygen\">Sauerstoff</style> um.\n"
+"Wandelt <style=\"misc\">Wasser</style> in <style=\"oxygen\">Sauerstoff</style> und <style=\"gas\">Wasserstoff</style>um.\n"
 "\n"
 "Wird untätig wenn der maximale Umgebungsdruck erreicht ist."
 
@@ -3645,12 +3596,9 @@ msgid "Hydroponic Farm"
 msgstr "Hydroponische Farm"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Mediocre Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
 msgid "Genius Ice Sculpture"
-msgstr "Mittelmäßige Eisskulptur"
+msgstr "Geniale Eisskulptur"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC"
@@ -4030,12 +3978,9 @@ msgid "Detects the presence and quantity of nearby germs"
 msgstr "Detektiert das Auftreten und die Menge der sich in der Nähe befindlichen Keime"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT"
-#| msgid "Becomes <style=\"logic\">Active</style> or on <style=\"logic\">Standby</style> when ambient <style=\"heat\">Temperature</style> enters the chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
 msgid "<style=\"logic\">Active</style>/<style=\"logic\">Standby</style> depending on quantity of surrounding <style=\"disease\">Germs</style>."
-msgstr "Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Wartet</style> wenn die umgebende <style=\"heat\">Temperatur</style> den ausgewählten Bereich betritt."
+msgstr "<style=\"logic\">Aktiv</style>/<style=\"logic\">Wartet</style> abhängig von der Menge der <style=\"disease\">Keime</style> in der Umgebung."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
@@ -4430,9 +4375,6 @@ msgid "Mechanics Station"
 msgstr "Mechanik-Station"
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC"
-#| msgid "Manual generators power buildings when connected by wire and require no fuel."
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC"
 msgid "Manual generators require no fuel and power buildings when connected to them by wire."
 msgstr "Hamsterräder produzieren Strom, wenn sie angeschlossen sind und sie verbrauchen keinen Kraftstoff."
@@ -4655,12 +4597,6 @@ msgid "Food from a musher will keep Duplicants alive, but may cause stress and d
 msgstr "Nahrung von einem Mikroben-Matscher hält Duplikanten am Leben, kann aber im Laufe der Zeit Stress und Krankheiten verursachen."
 
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT"
-#| msgid ""
-#| "Produces low quality <style=\"food\">Food</style> using common ingredients.\n"
-#| "\n"
-#| "Duplicants will not fabricate unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT"
 msgid ""
 "Produces low quality <style=\"food\">Food</style> using common ingredients.\n"
@@ -4677,27 +4613,18 @@ msgid "Microbe Musher"
 msgstr "Mikroben-Matscher"
 
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.DESC"
-#| msgid "Algae deoxydizers output enough oxygen to keep a colony breathing, but are inefficient."
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.DESC"
 msgid "Algae deoxydizers are inefficient, but can output enough oxygen to keep a colony breathing."
-msgstr "Algen-Deoxidierer geben genug Sauerstoff aus, um eine Kolonie zu versorgen, sind aber ineffizient."
+msgstr "Algen-Deoxidierer sind ineffizient, aber geben genug Sauerstoff ab, um eine Kolonie zu versorgen."
 
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
-#| msgid ""
-#| "Converts <style=\"misc\">Algae</style> into <style=\"oxygen\">Oxygen</style>.\n"
-#| "\n"
-#| "Becomes idle when the area reaches maximum pressure capacity."
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
 msgid ""
 "Converts large amounts of <style=\"misc\">Algae</style> into <style=\"oxygen\">Oxygen</style>.\n"
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
-"Wandelt <style=\"misc\">Algen</style> in <style=\"oxygen\">Sauerstoff</style> um.\n"
+"Wandelt große Mengen <style=\"misc\">Algen</style> in <style=\"oxygen\">Sauerstoff</style> um.\n"
 "\n"
 "Wird untätig wenn der maximale Umgebungsdruck erreicht ist."
 
@@ -4788,15 +4715,15 @@ msgid "Petroleum generators have a high energy output but produce a great deal o
 msgstr "Petroleumgeneratoren haben einen hohen Energieertrag, produzieren aber viel Abfall."
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT"
-#| msgid "Converts <style=\"liquid\">Petroleum</style> into electrical <style=\"power\">Power</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT"
 msgid ""
 "Converts <style=\"liquid\">Petroleum</style> into electrical <style=\"power\">Power</style>.\n"
 "\n"
 "Produces <style=\"gas\">Carbon Dioxide</style> and <style=\"liquid\">Polluted Water</style>."
-msgstr "Wandelt <style=\"liquid\">Petroleum</style> in elektrische <style=\"power\">Energie</style> um."
+msgstr ""
+"Wandelt <style=\"liquid\">Petroleum</style> in elektrische <style=\"power\">Energie</style> um.\n"
+"\n"
+"Produziert <style=\"gas\">Kohlendioxid</style> und <style=\"liquid\">verschmutztes Wasser</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME"
@@ -4812,12 +4739,9 @@ msgid "Domestically grown seeds mature more quickly than wild plants."
 msgstr "Samen, die in Pflanzen-Kisten wachsen, wachsen schneller als Wildpflanzen."
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.EFFECT"
-#| msgid "Grows a single <style=\"plant\">Plant</style> when sown with a <style=\"seed\">Seed</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.EFFECT"
 msgid "Grows one <style=\"plant\">Plant</style> from a <style=\"seed\">Seed</style>."
-msgstr "Beherbergt eine einzelne <style=\"plant\">Pflanze</style> wenn ein <style=\"seed\">Samen</style> gesät wurde."
+msgstr "Beherbergt eine einzelne <style=\"plant\">Pflanze</style> aus einem <style=\"seed\">Samen</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.NAME"
@@ -4907,12 +4831,9 @@ msgstr ""
 "Dieses Gebäude ist ein notwendiger Bestandteil des Kraftwerksraumes."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.POWERREGULATION.NAME"
-#| msgid "Power Regulation"
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME"
 msgid "Power Control Station"
-msgstr "Energieregulierung"
+msgstr "Leistungsregulierungsstation"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
@@ -5027,12 +4948,9 @@ msgid "Food spoilage can be slowed by certain ambient conditions as well as by r
 msgstr "Der Verderb von Lebensmitteln kann durch bestimmte Umgebungsbedingungen sowie durch Kühlschränke verlangsamt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.EFFECT"
-#| msgid "Stores <style=\"food\">Food</style> at an ideal <style=\"heat\">Temperature</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.EFFECT"
 msgid "Stores <style=\"food\">Food</style> at an ideal <style=\"heat\">Temperature</style> to prevent spoilage."
-msgstr "Lagert <style=\"food\">Nahrung</style> bei idealer <style=\"heat\">Temperatur</style>."
+msgstr "Lagert <style=\"food\">Nahrung</style> bei idealer <style=\"heat\">Temperatur</style> um Verderb zu verhindern."
 
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_DESC"
@@ -5093,37 +5011,28 @@ msgstr "Zerstößt <style=\"RawMineral\">{0}</style> zu <style=\"solid\">{1}</st
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC"
 msgid "Employment can permanently improve Duplicants' skills and teach them unique traits."
-msgstr ""
+msgstr "Die Beschäftigung kann die Fähigkeiten der Duplikanten permanent verbessern und ihnen einzigartige Eigenschaften beibringen."
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to pass when <style=\"logic\">Active</style>.\n"
-#| "\n"
-#| "Prevents Duplicants from passing when on <style=\"logic\">Standby</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT"
 msgid ""
 "Allows Duplicants to be assigned to specialized <style=\"research\">Jobs</style>.\n"
 "\n"
 "Unlocks <style=\"misc\">Hats</style>."
 msgstr ""
-"Erlaubt Duplikanten den Zugang wenn <style=\"logic\">Aktiv</style>.\n"
+"Ermöglicht die Zuordnung von Duplikaten zu spezialisierten <style=\"research\">Berufen</style>.\n"
 "\n"
-"Verhindert Zugang wenn auf <style=\"logic\">Warten</style>."
+"Schaltet <style=\"misc\">Hüte</style> frei."
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.NAME"
 msgid "Employment Desk"
-msgstr ""
+msgstr "Stellenmarkt"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Mediocre Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
 msgid "Genius Sculpture"
-msgstr "Mittelmäßige Skulptur"
+msgstr "Geniale Skulptur"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC"
@@ -5193,19 +5102,13 @@ msgid "Separating rail systems helps prevent materials from reaching the wrong d
 msgstr "Trennung von Schienensystemen verhindert, dass Material an die falschen Stellen gelangt."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT"
-#| msgid ""
-#| "Runs one Conveyor Rail section over another without joining them.\n"
-#| "\n"
-#| "Can be run through tiles."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT"
 msgid ""
 "Runs one <style=\"misc\">Conveyor Rail</style> section over another without joining them.\n"
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Führt eine Förderschiene über eine andere, ohne sie zu verbinden.\n"
+"Führt eine <style=\"misc\">Förderschiene</style> über eine andere, ohne sie zu verbinden.\n"
 "\n"
 "Kann in Ziegel verlegt werden."
 
@@ -5262,9 +5165,9 @@ msgid ""
 "\n"
 "Materials are automatically delivered to any <style=\"misc\">Conveyor Loaders</style>, <style=\"misc\">Receptacles</style>, storage, or buildings within range."
 msgstr ""
-"Automatisiert <style=\"misc\">Räum</style> und <style=\"misc\">Versorgung</style> Aufträge durch Aufsaugen aller nahen <style=\"solid\">Schutt</style>.\n"
+"Automatisiert <style=\"misc\">Räum-</style> und <style=\"misc\">Versorgung-</style>Aufträge durch Aufsaugen des nahen <style=\"solid\">Schutts</style>.\n"
 "\n"
-"Materialien werden automatisch an jeden beliebigen <style=\"misc\">Förderschienenbelader</style>, <style=\"misc\">Förderschienenbehälter</style>, Lager oder Gebäude in Reichweite geliefert."
+"Materialien werden automatisch an jeden beliebigen <style=\"misc\">Förderschienenbelader</style>, <style=\"misc\">Förderbehälter</style>, Lager oder Gebäude in Reichweite geliefert."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME"
@@ -5292,12 +5195,9 @@ msgid "Turbines are capable of industrial strength power generation with virtual
 msgstr "Turbinen sind in der Lage, industriellen Starkstrom praktisch ohne Verluste zu erzeugen."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
-#| msgid "Generates exceptional electrical <style=\"power\">Power</style> when supplied with <style=\"gas\">Steam</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
 msgid "Generates exceptional electrical <style=\"power\">Power</style> when there is at least 3000 g more <style=\"gas\">Steam</style> below it than above it."
-msgstr "Erzeugt große Mengen <style=\"power\">Energie</style>, wenn sie mit <style=\"gas\">Dampf</style> versorgt wird."
+msgstr "Erzeugt große Mengen <style=\"power\">Energie</style>, wenn sich mindestens 3000 g mehr <style=\"gas\">Dampf</style> darunter als darüber befindet."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.NAME"
@@ -5325,20 +5225,14 @@ msgid "This improved version of the Storage Compactor becomes <style=\"logic\">A
 msgstr "Diese verbesserte Version des Lagerverdichters wird zu <style=\"logic\">Aktive</style> wenn er voll ist"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT"
-#| msgid "Stores the resources of your choosing."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
 msgid "Stores the resources of your choosing."
 msgstr "Speichert Ressourcen deiner Wahl."
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME"
-#| msgid "Storage Compactor"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.NAME"
 msgid "Smart Storage Compactor"
-msgstr "Lager-Verdichter"
+msgstr "Intelligenter Lager-Verdichter"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.DESC"
@@ -5346,12 +5240,6 @@ msgid "Exosuits can be filled with oxygen to allow Duplicants to safely enter un
 msgstr "Schutzanzüge können mit Sauerstoff gefüllt werden, damit Duplikanten sicher unbewohnbare Gebiete betreten können."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT"
-#| msgid ""
-#| "Forges protective <style=\"equipment\">Exosuits</style> for Duplicants to wear.\n"
-#| "\n"
-#| "Duplicants will not fabricate unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT"
 msgid ""
 "Forges protective <style=\"equipment\">Exosuits</style> for Duplicants to wear.\n"
@@ -7473,7 +7361,7 @@ msgstr "{0} Erntegeschwindigkeit"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.NAME"
 msgid "Farming"
-msgstr "Bewirtschaften"
+msgstr "Landwirtschaft"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.TINKER_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.TINKER_MODIFIER"
@@ -7599,7 +7487,7 @@ msgstr "Dekorationsradius"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.ATTACK_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.ATTACK_MODIFIER"
 msgid "{0} Attack Damage"
-msgstr ""
+msgstr "{0} Angriffsschaden"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.DESC"
@@ -8688,7 +8576,7 @@ msgstr "Schläft"
 #. STRINGS.DUPLICANTS.CHORES.PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.NAME"
 msgid "Relieve Self"
-msgstr ""
+msgstr "Erleichtert sich"
 
 #. STRINGS.DUPLICANTS.CHORES.PEE.STATUS
 #, fuzzy
@@ -12092,12 +11980,12 @@ msgstr "Platzwart"
 #. STRINGS.DUPLICANTS.ROLES.HAULER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HAULER.DESCRIPTION"
 msgid "Gofers move quicker, allowing them to deliver more resources"
-msgstr "Träger bewegen sich schneller und können so mehr Ressourcen liefern"
+msgstr "Laufbursche bewegen sich schneller und können so mehr Ressourcen liefern"
 
 #. STRINGS.DUPLICANTS.ROLES.HAULER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.HAULER.NAME"
 msgid "Gofer"
-msgstr "Träger"
+msgstr "Laufbursche"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION
 #, fuzzy
@@ -12124,12 +12012,9 @@ msgid "Builders can build buildings faster"
 msgstr "Bauarbeiter bauen schneller"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.PROFESSION_NAME"
-#| msgid "Architect"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME"
 msgid "Apprentice Architect"
-msgstr "Architekt"
+msgstr "Lernender Architekt"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.DESCRIPTION
 #, fuzzy
@@ -12156,12 +12041,9 @@ msgid "Farmers get extra seeds when harvesting plants"
 msgstr "Bauern erhalten zusätzliche Samen bei der Ernte von Pflanzen"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.NAME"
-#| msgid "Farming"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME"
 msgid "Farmhand"
-msgstr "Bewirtschaften"
+msgstr "Landarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION
 #, fuzzy
@@ -12172,12 +12054,9 @@ msgid "Miners have improved digging ability"
 msgstr "Minenarbeiter haben eine verbesserte Grabefähigkeit"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER_ADVANCED.NAME"
-#| msgid "Advanced Miner"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
 msgid "Apprentice Miner"
-msgstr "Erfahrener Minenarbeiter"
+msgstr "Lernender Minenarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION"
@@ -12185,12 +12064,9 @@ msgid "Researcher Assistants can operate Super Computers and receive a minor boo
 msgstr "Forscherassistenten können Supercomputer bedienen und erhalten einen kleinen Bonus für ihre Forschungsfähigkeit."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.RESEARCH_STATION.NAME"
-#| msgid "Research station"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME"
 msgid "Research Assistant"
-msgstr "Forschungsstation"
+msgstr "Forschungsassistent"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION
 #, fuzzy
@@ -12201,12 +12077,9 @@ msgid "Machine Operators can operate big machines"
 msgstr "Ingenieure können größere Maschinen bedienen"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME"
-#| msgid "Generating power"
 msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME"
 msgid "General Engineer"
-msgstr "Erzeugt Energie"
+msgstr "Allgemeiner Ingenieur"
 
 #. STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION"
@@ -12237,12 +12110,9 @@ msgid "Medics have improved caring ability"
 msgstr "Minenarbeiter haben eine verbesserte Grabefähigkeit"
 
 #. STRINGS.DUPLICANTS.ROLES.MEDIC.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MEDICAL.NAME"
-#| msgid "Medicine"
 msgctxt "STRINGS.DUPLICANTS.ROLES.MEDIC.NAME"
 msgid "Medic"
-msgstr "Medizin"
+msgstr "Sanitäter"
 
 #. STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
@@ -12359,12 +12229,9 @@ msgid "Researchers research tech faster"
 msgstr "Forscher können schneller forschen"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.PROFESSION_NAME"
-#| msgid "Scientist"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME"
 msgid "Tenured Scientist"
-msgstr "Wissenschaftler"
+msgstr "Wissenschaftlicher Angestellter"
 
 #. STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION"
@@ -17829,7 +17696,7 @@ msgstr ""
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME"
 msgid "Micronutrient Fertilizer"
-msgstr ""
+msgstr "Spurenelementdünger"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.DESC"
@@ -17880,7 +17747,7 @@ msgstr "Kann nur vom Mechatronik-Ingenieuren verwendet werden, um ein Feinabstim
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
 msgid "These parts have been expertly custom fabricated to replace failing and worn parts in existing generators."
-msgstr ""
+msgstr "Diese Teile wurden fachmännisch angefertigt, um defekte und verschlissene Teile in bestehenden Generatoren zu ersetzen."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
@@ -17908,7 +17775,7 @@ msgstr "Beruf: Elektroingenieur"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_TOOLTIP
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_TOOLTIP"
 msgid "Can only be used by the Electrical Engineer to apply a tune-up."
-msgstr ""
+msgstr "Kann nur vom Elektroingenieur verwendet werden, um ein Feinabstimmung durchzuführen."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC
 #, fuzzy
@@ -19070,6 +18937,8 @@ msgid ""
 "These Duplicants have mastered their jobs and may be eligible for promotion:\n"
 "{0}"
 msgstr ""
+"Diese Duplikanten haben ihre Berufe gemeistert und können für eine Beförderung in Frage kommen:\n"
+"{0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.NAME
 #, fuzzy
@@ -19204,12 +19073,9 @@ msgstr ""
 "Öffne den <style=\"misc\">JOB-TAB</style> <color=#F44A47><b>[J]</b></color> um einzustellen, welche Jobs die Duplikanten ausführen sollen, oder spezialisiere deine Duplikanten auf bestimmte Kategorien."
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME"
-#| msgid "TIP: Priorities"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME"
 msgid "TIP: Errand Priorities"
-msgstr "TIPP: Prioritäten"
+msgstr "TIPP: Arbeitsgangprioritäten"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.TOOLTIP"
@@ -19794,12 +19660,9 @@ msgid "{Target} is currently in use"
 msgstr "{Target} ist gerade in Benutzung"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME"
-#| msgid "Dig Task Assigned"
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME"
 msgid "Dig Errand Assigned"
-msgstr "Graben zugewiesen"
+msgstr "Grabenarbeitsgang zugewiesen"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.TOOLTIP"
@@ -19807,12 +19670,9 @@ msgid "Awaiting a Duplicant to dig"
 msgstr "Warte auf einen Duplikanten, der gräbt"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.NAME"
-#| msgid "Mop Task Assigned"
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.NAME"
 msgid "Mop Errand Assigned"
-msgstr "Wischen zugewiesen"
+msgstr "Wischarbeitsgang zugewiesen"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORMOP.TOOLTIP"
@@ -19842,7 +19702,7 @@ msgstr "Wasserbasiert"
 #. STRINGS.MISC.TAGS.ART
 msgctxt "STRINGS.MISC.TAGS.ART"
 msgid "Wiring-related delivery and building"
-msgstr ""
+msgstr "Kunstbezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.BAGABLECREATURE
 msgctxt "STRINGS.MISC.TAGS.BAGABLECREATURE"
@@ -19882,7 +19742,7 @@ msgstr "Rohmineral"
 #. STRINGS.MISC.TAGS.BUILDING
 msgctxt "STRINGS.MISC.TAGS.BUILDING"
 msgid "Build-related delivery and digging"
-msgstr ""
+msgstr "Baubezogene Anlieferung und Grabung"
 
 #. STRINGS.MISC.TAGS.BURNS
 msgctxt "STRINGS.MISC.TAGS.BURNS"
@@ -19932,7 +19792,7 @@ msgstr "Versandbezogene Gebäude"
 #. STRINGS.MISC.TAGS.COOKING
 msgctxt "STRINGS.MISC.TAGS.COOKING"
 msgid "Cooking-related delivery"
-msgstr ""
+msgstr "Kochbezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.COOKINGINGREDIENT
 msgctxt "STRINGS.MISC.TAGS.COOKINGINGREDIENT"
@@ -19952,7 +19812,7 @@ msgstr "Dekoration"
 #. STRINGS.MISC.TAGS.DOCTORING
 msgctxt "STRINGS.MISC.TAGS.DOCTORING"
 msgid "Medicine-related delivery"
-msgstr ""
+msgstr "Medizinbezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.EDIBLE
 msgctxt "STRINGS.MISC.TAGS.EDIBLE"
@@ -19970,12 +19830,9 @@ msgid "Extrudable"
 msgstr "Formbar"
 
 #. STRINGS.MISC.TAGS.FABRICATING
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.NAME"
-#| msgid "Fabricator idle"
 msgctxt "STRINGS.MISC.TAGS.FABRICATING"
 msgid "Fabrication-related delivery"
-msgstr "Fabrikator inaktiv"
+msgstr "Fertigungsbezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.FARMABLE
 msgctxt "STRINGS.MISC.TAGS.FARMABLE"
@@ -19985,15 +19842,12 @@ msgstr "Nährstoffreiche Erde"
 #. STRINGS.MISC.TAGS.FARMING
 msgctxt "STRINGS.MISC.TAGS.FARMING"
 msgid "Farming-related building and delivery"
-msgstr ""
+msgstr "Landwirtschaftsbezogene Erstellung und Lieferung"
 
 #. STRINGS.MISC.TAGS.FARMSTATION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME"
-#| msgid "Research Station"
 msgctxt "STRINGS.MISC.TAGS.FARMSTATION"
 msgid "Farm Station"
-msgstr "Forschungsstation"
+msgstr "Landwitschaftsstation"
 
 #. STRINGS.MISC.TAGS.FILTER
 msgctxt "STRINGS.MISC.TAGS.FILTER"
@@ -20051,9 +19905,6 @@ msgid "Compost Edibles"
 msgstr "Kompostiere essbares"
 
 #. STRINGS.MISC.TAGS.MASSAGE_TABLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.NAME"
-#| msgid "Massage Table"
 msgctxt "STRINGS.MISC.TAGS.MASSAGE_TABLE"
 msgid "Massage Table"
 msgstr "Massage-Tisch"
@@ -20126,7 +19977,7 @@ msgstr "Pumpbar"
 #. STRINGS.MISC.TAGS.POWER
 msgctxt "STRINGS.MISC.TAGS.POWER"
 msgid "Power-related delivery"
-msgstr ""
+msgstr "Energiebezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.POWERSTATION
 msgctxt "STRINGS.MISC.TAGS.POWERSTATION"
@@ -20156,7 +20007,7 @@ msgstr "Freizeitbereich"
 #. STRINGS.MISC.TAGS.RESEARCH
 msgctxt "STRINGS.MISC.TAGS.RESEARCH"
 msgid "Research-related delivery"
-msgstr ""
+msgstr "Forschungsbezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.SEED
 msgctxt "STRINGS.MISC.TAGS.SEED"
@@ -20206,7 +20057,7 @@ msgstr "Instabil"
 #. STRINGS.MISC.TAGS.WIRING
 msgctxt "STRINGS.MISC.TAGS.WIRING"
 msgid "Wiring-related delivery and building"
-msgstr ""
+msgstr "Verdrahtungsbezogene Lieferung und Erstellung"
 
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC"
@@ -22353,7 +22204,7 @@ msgstr "Hygiene"
 #. STRINGS.RESEARCH.TECHS.SMARTSTORAGE.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SMARTSTORAGE.DESC"
 msgid "Automate the storage of your solids."
-msgstr "Automatisiert die Lagerung deiner Feststoffe"
+msgstr "Automatisiert die Lagerung deiner Feststoffe."
 
 #. STRINGS.RESEARCH.TECHS.SMARTSTORAGE.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMARTSTORAGE.NAME"
@@ -22528,20 +22379,14 @@ msgid "Decoration item"
 msgstr "Dekoriert"
 
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_SINGLE.DESCRIPTION"
-#| msgid "Requires a single Mess Table"
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION"
 msgid "Requires a single Farm Station"
-msgstr "Benötigt einen einzelen Kantinentisch"
+msgstr "Benötigt einen einzelen Landwitschaftsstation"
 
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME"
-#| msgid "Research Station"
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME"
 msgid "Farm Station"
-msgstr "Forschungsstation"
+msgstr "Landwitschaftsstation"
 
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION"
@@ -22781,12 +22626,9 @@ msgid "Conflicted Room"
 msgstr "Raumkonflikt"
 
 #. STRINGS.ROOMS.TYPES.FARM.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH"
-#| msgid "Accelerates plant growth and maturation"
 msgctxt "STRINGS.ROOMS.TYPES.FARM.EFFECT"
 msgid "- Accelerated plant growth"
-msgstr "Beschleunigt Pflanzenwachstum und -reifezeit"
+msgstr "- Beschleunigt Pflanzenwachstum und -reifezeit"
 
 #. STRINGS.ROOMS.TYPES.FARM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.FARM.NAME"
@@ -24126,7 +23968,7 @@ msgstr "<b>{0}</b> ist <color=#B87194FF>nicht erlaubt</color> <b>{1}</b> zu esse
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_ON
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_ON"
 msgid "<b>{0}</b> is <color=#B87194FF>allowed</color> to eat <b>{1}</b>"
-msgstr "<b>{0}</b> ist <color=#B87194FF>erlaubt</color> <b>{1}</b> zu essen"
+msgstr "<b>{0}</b> <color=#B87194FF>darf</color> <b>{1}</b> essen"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
@@ -25264,12 +25106,9 @@ msgid "EXPECTATIONS"
 msgstr "ERWARTUNGEN"
 
 #. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_RESUME
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBS"
-#| msgid "JOBS"
 msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_RESUME"
 msgid "JOBS"
-msgstr "JOBS"
+msgstr "BERUFE"
 
 #. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_STRESS
 msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_STRESS"
@@ -25287,40 +25126,29 @@ msgid "Stats"
 msgstr "Werte"
 
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.CURRENT_ROLE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME"
-#| msgid ""
-#| "<b>Assignments:</b>\n"
-#| "{0}"
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.CURRENT_ROLE"
 msgid ""
 "<b>Current Job:</b>\n"
 "{0}\n"
 msgstr ""
-"<b>Zuordnungen:</b>\n"
-"{0}"
+"<b>Aktueller Beruf:</b>\n"
+"{0}\n"
 
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES"
 msgid "<b>Mastered Jobs:</b>"
-msgstr "<b>Gemeisterte Arbeiten:</b>"
+msgstr "<b>Gemeisterte Berufe:</b>"
 
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES_TOOLTIP"
-#| msgid ""
-#| "The following jobs have been completely mastered.\n"
-#| "\n"
-#| "Duplicants retain both the perks and the expecations of any job they've mastered."
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES_TOOLTIP"
 msgid ""
 "The following jobs have been completely mastered.\n"
 "\n"
 "Duplicants retain both the perks and the expectations of any job they've mastered."
 msgstr ""
-"Die folgenden Aufgaben wurden vollständig gemeistert.\n"
+"Die folgenden Berufe wurden vollständig gemeistert.\n"
 "\n"
-"Duplikanten behalten sowohl die Vorteile als auch die Erwartungen einer jeden Aufgabe, die sie gemeistert haben."
+"Duplikanten behalten sowohl die Vorteile als auch die Erwartungen eines jeden Beruf, den sie gemeistert haben."
 
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.NO_MASTERED_ROLES
 #, fuzzy
@@ -27606,7 +27434,7 @@ msgid ""
 "<b><color=#B87194FF>All Duplicants</color></b> may perform this errand\n"
 "------------------"
 msgstr ""
-"Schalten <b>{0} Arbeitsgänge</b> kolonieweit um\n"
+"Schaltet <b>{0}-Arbeitsgänge</b> kolonieweit um\n"
 "<b><color=#B87194FF>Alle Duplikanten</color></b> können diesen Auftrag ausführen\n"
 "------------------"
 
@@ -27617,7 +27445,7 @@ msgid ""
 "<b><color=#B87194FF>No Duplicants</color></b> may perform this errand\n"
 "------------------"
 msgstr ""
-"Schalten <b>{0} Arbeitsgänge</b> kolonieweit um\n"
+"Schaltet <b>{0}-Arbeitsgänge</b> kolonieweit um\n"
 "<b><color=#B87194FF>Kein Duplikant</color></b> kann diesen Auftrag ausführen\n"
 "------------------"
 
@@ -27628,7 +27456,7 @@ msgid ""
 "<b><color=#B87194FF>Some Duplicants</color></b> may perform this errand\n"
 "------------------"
 msgstr ""
-"Schalten <b>{0} Arbeitsgänge</b> kolonieweit um\n"
+"Schaltet <b>{0}-Arbeitsgänge</b> kolonieweit um\n"
 "<b><color=#B87194FF>Manche Duplikate</color></b> können diesen Auftrag ausführen\n"
 "------------------"
 
@@ -27639,7 +27467,7 @@ msgid ""
 "<b><color=#B87194FF>Only Duplicants in a related job</color></b> may perform this errand\n"
 "------------------"
 msgstr ""
-"Schalten <b>{0} Arbeitsgänge</b> kolonieweit um\n"
+"Schaltet <b>{0}-Arbeitsgänge</b> kolonieweit um\n"
 "<b><color=#B87194FF>Nur Duplikanten im zugeordneten Beruf</color></b> können diesen Auftrag ausführen\n"
 "------------------"
 
@@ -28162,7 +27990,7 @@ msgid ""
 "\n"
 "Buildings may be frequently shut off when on underpowered circuits"
 msgstr ""
-"<b>Underpowered</b>\n"
+"<b>Unterversorgt</b>\n"
 "Dieser Schaltkreis verbraucht mehr Leistung als er produzieren kann\n"
 "\n"
 "Gebäude werden häufig abgeschaltet, wenn sie auf unterversorgten Stromkreisen betrieben werden"
@@ -28248,9 +28076,9 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <style=\"GasDestination\">Intake</style>"
 msgstr ""
-"<b>Gefilterte Ausgangsleitung</b>\n"
+"<b>Gefiltertes Ausgangsleitung</b>\n"
 "Gefilterte Ausgänge senden gefiltertes Gas in Rohre\n"
-"* Muss im selben Netzwerk wie mindestens ein <style=\"GasDestination\">Eingang</style> sein"
+"Muss im selben Netzwerk wie mindestens ein <style=\"GasDestination\">Eingang</style> sein"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK"
@@ -28589,7 +28417,7 @@ msgid ""
 "Resets or updates a building when activated"
 msgstr ""
 "<b>Anschluss aktualisieren</b>\n"
-"Setzt ein Gebäude zurück oder aktualisiert es, wenn es aktiviert wird."
+"Setzt ein Gebäude zurück oder aktualisiert es, wenn es aktiviert wird"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
@@ -29378,7 +29206,7 @@ msgstr "Muss mindestens {0} im Graben haben"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_DIGGING_BASIC.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_DIGGING_BASIC.NAME"
 msgid "Basic Digging"
-msgstr "primitives Graben"
+msgstr "Primitives Graben"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC.DESCRIPTION"
@@ -29401,17 +29229,14 @@ msgid "Medium Learning"
 msgstr "Mittleres Lernen"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COLONY_LEADER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
-#| msgid "A new colony member is ready to be printed"
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COLONY_LEADER.DESCRIPTION"
 msgid "A colony leader must be assigned"
-msgstr "Ein neues Kolonie-Mitglied ist bereit gedruckt zu werden"
+msgstr "Ein Kolonieanführer muss zugewiesen werden"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COLONY_LEADER.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COLONY_LEADER.NAME"
 msgid "Has colony leader"
-msgstr ""
+msgstr "Hat einen Kolonieanführer"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COMPLETED_ANY_OTHER_ROLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COMPLETED_ANY_OTHER_ROLE.DESCRIPTION"
@@ -29480,7 +29305,7 @@ msgstr "Nicht zugewiesen"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.WILL_BE_UNASSIGNED
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.WILL_BE_UNASSIGNED"
 msgid "Note: Assigning {0} to {1} will <color=#F44A47FF>unassign</color> them from {2}"
-msgstr ""
+msgstr "Hinweis: Das Zuweisen von {0} zu {1} wird sie/ihn von {2} <color=#F44A47FF>abziehen</color>"
 
 #. STRINGS.UI.ROLES_SCREEN.DROPDOWN.ALREADY_ROLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.DROPDOWN.ALREADY_ROLE"
@@ -29495,7 +29320,7 @@ msgstr "{0} <color=#F44A47FF>({1})</color>"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire a decent increase in colony decor"
-msgstr ""
+msgstr "Duplikanten, die in dieser Stufe beschäftigt sind, wünschen eine anständige Steigerung des Koloniedekors"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME
 #, fuzzy
@@ -29521,7 +29346,7 @@ msgstr "Mittlere Dekorationswerte"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire slightly improved colony decor"
-msgstr ""
+msgstr "Duplikate, die in dieser Stufe eingesetzt werden, wünschen leicht verbessertes Koloniedekor"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME
 #, fuzzy
@@ -29534,7 +29359,7 @@ msgstr "Armselige Dekoration"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire unrealistically luxurious improvements to decor"
-msgstr ""
+msgstr "Duplikanten, die in dieser Stufe eingesetzt werden, wünschen unrealistisch luxuriöse Verbesserungen der Dekoration"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.NAME"
@@ -29544,7 +29369,7 @@ msgstr "Dekadente Dekorationswerte"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire majorly improved colony decor"
-msgstr ""
+msgstr "Duplikanten, die in dieser Stufe eingesetzt werden, wünschen sich ein wesentlich verbessertes Kolonie-Dekor"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.NAME"
@@ -29604,12 +29429,9 @@ msgid "Standard Food"
 msgstr "Standard Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION"
-#| msgid "Duplicants in this job have a refined taste for food"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier have a refined taste for food"
-msgstr "Duplikate in diesem Beruf haben einen erlesenen Geschmack für Lebensmittel."
+msgstr "Duplikate in diesem Beruf haben einen erlesenen Geschmack für Lebensmittel"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME"
@@ -29691,7 +29513,7 @@ msgstr "Kann Pflanzen züchten um ihre Wachstumsrate zu erhöhen"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
 msgid "Can tune up generators to increase power output"
-msgstr "Kann Generatoren optimieren, um die Ausgangsleistung zu steigern."
+msgstr "Kann Generatoren optimieren, um die Ausgangsleistung zu steigern"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
@@ -29938,6 +29760,8 @@ msgid ""
 "<b>Duplicants that have mastered this role:</b>\n"
 "{0}"
 msgstr ""
+"<b>Duplikanten, die diese Rolle gemeistert haben:</b>\n"
+"{0}"
 
 #. STRINGS.UI.SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULE"
@@ -30611,12 +30435,9 @@ msgid "Obstructed by wire"
 msgstr "Durch Kabel blockiert"
 
 #. STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM"
-#| msgid "Must be in a room."
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM"
 msgid "Must be in a room"
-msgstr "Muss in einem Raum sein."
+msgstr "Muss in einem Raum sein"
 
 #. STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
@@ -30624,20 +30445,14 @@ msgid "Press <color=#F44A47>[O]</color> to Rotate"
 msgstr "Drücke <color=#F44A47>[O]</color> zum Drehen"
 
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
-#| msgid "Can't Turn Here!"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS"
 msgid "Can't U-Turn"
-msgstr "Kann hier nicht abbiegen!"
+msgstr "Kann hier nicht umdrehen"
 
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
-#| msgid "Can't Turn Here!"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
 msgid "Can't Turn Here"
-msgstr "Kann hier nicht abbiegen!"
+msgstr "Kann hier nicht abbiegen"
 
 #. STRINGS.UI.TOOLTIPS.INFOPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.INFOPANEL"
@@ -32187,7 +32002,7 @@ msgid ""
 msgstr ""
 "Die Aktivierungszeit bestimmt die Tageszeit, zu der der Sensor seine aktive Dauer starten soll\n"
 "------------------\n"
-"Dieser Sensor wird durch den Tag hindurch aktiv {0}."
+"Dieser Sensor wird durch den Tag hindurch aktiv {0}"
 
 #. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE
 #, fuzzy
