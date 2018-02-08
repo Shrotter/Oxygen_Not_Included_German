@@ -525,19 +525,21 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
-#| msgid "Requires Miner"
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
+#| msgid "Awaiting Delivery"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
-msgid "Ready For Miner"
-msgstr "Benötigt einen Bergarbeiter"
+msgid "Awaiting Miner"
+msgstr "Warte auf Lieferung"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
-#| msgid "Duplicants may only use this building if assigned to one of the following jobs: {Roles}"
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESMINER.TOOLTIP"
+#| msgid "Only Duplicants assigned to one of the Miner roles can dig this tile"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
-msgid "Duplicants may only mine this tile if proficient at one of the following jobs: {Roles}"
-msgstr "Duplikanten dürfen dieses Gebäude nur dann nutzen, wenn sie einem der folgenden Berufe zugeordnet sind: {Roles}"
+msgid ""
+"Only a Duplicant employed in one of the following jobs can complete this errand:\n"
+"{Roles}"
+msgstr "Nur Duplikanten, die eine der Minenarbeiter-Rollen haben, können hier graben"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME"
@@ -1814,19 +1816,21 @@ msgstr "Druckaufbau wird sicher abgebaut"
 
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME"
-#| msgid "Exosuit Specialist"
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
+#| msgid "Awaiting Bait"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME"
-msgid "Ready For Specialist"
-msgstr "Schutzanzugspezialist"
+msgid "Awaiting Specialist"
+msgstr "Warte auf Köder"
 
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP"
-#| msgid "Duplicants may only use this building if assigned to one of the following jobs: {Roles}"
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESMINER.TOOLTIP"
+#| msgid "Only Duplicants assigned to one of the Miner roles can dig this tile"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP"
-msgid "This building is ready to be used by a Duplicant with one of the following jobs: {Roles}"
-msgstr "Duplikanten dürfen dieses Gebäude nur dann nutzen, wenn sie einem der folgenden Berufe zugeordnet sind: {Roles}"
+msgid ""
+"Only a Duplicant employed in one of the following jobs can complete this errand:\n"
+"{Roles}"
+msgstr "Nur Duplikanten, die eine der Minenarbeiter-Rollen haben, können hier graben"
 
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME"
@@ -2084,8 +2088,11 @@ msgid "Active"
 msgstr "Aktiv"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP"
+#| msgid "The turbine is running at {0} RPM"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP"
-msgid "The turbine is running at {0} RPM"
+msgid "This turbine is running at {0}RPM"
 msgstr "Die Turbine läuft mit {0} U/min"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME
@@ -2094,9 +2101,12 @@ msgid "Input Blocked"
 msgstr "Eingang blockiert"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
+#| msgid "Blocked pipes have stopped these systems from functioning:"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
-msgid "This turbine's input is blocked"
-msgstr "Der Eingang der Turbine ist blockiert"
+msgid "A blocked input has stopped this turbine from functioning"
+msgstr "Ein blockiertes Rohr hält dieses System von der Funktion ab:"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME"
@@ -2104,18 +2114,27 @@ msgid "Output Blocked"
 msgstr "Ausgang blockiert"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
+#| msgid "Blocked pipes have stopped these systems from functioning:"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
-msgid "This turbine's output is blocked"
-msgstr "Der Ausgang der Turbine ist blockiert"
+msgid "A blocked output has stopped this turbine from functioning"
+msgstr "Ein blockiertes Rohr hält dieses System von der Funktion ab:"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.NAME"
+#| msgid "Under-Pressurized"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.NAME"
-msgid "Under-Pressurized"
+msgid "Underpressure"
 msgstr "Druck zu niedirg"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP"
+#| msgid "The turbine must have at least {MASS} more {ELEMENT} below it than above it for things to run."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP"
-msgid "The turbine must have at least {MASS} more {ELEMENT} below it than above it for things to run."
+msgid "This turbine must have {MASS} more {ELEMENT} below it than above it in order to run"
 msgstr "Die Turbine muss mindestens {MASS} mehr {ELEMENT} unter ihr als darüber haben, damit die Maschine arbeiten kann."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME
@@ -2124,8 +2143,11 @@ msgid "Too Cold"
 msgstr "Zu kalt"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
+#| msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
-msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}."
+msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}"
 msgstr "Das {ELEMENT}, das für den Betrieb der Turbine verwendet wird, muss mindestens {TEMPERATURE} haben."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME
@@ -4891,7 +4913,7 @@ msgstr "Nur ein Duplikant kann gleichzeitig einer Station zugewiesen werden."
 #| "This building is a necessary component of the Power Plant room."
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT"
 msgid ""
-"Produces <style=\"solid\">Oil Cans</style> to increase the <style=\"power\">Power</style> output of generators.\n"
+"Produces <style=\"solid\">Microchips</style> to increase the <style=\"power\">Power</style> output of generators.\n"
 "\n"
 "Assigned Duplicants must possess the <style=\"misc\">Tune Up</style> trait.\n"
 "\n"
@@ -5273,16 +5295,18 @@ msgstr "Raumheizung"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC"
-msgid "Turbines are capable of industrial strength power generation with virtually no waste."
-msgstr "Turbinen sind in der Lage, industriellen Starkstrom praktisch ohne Verluste zu erzeugen."
+msgid "Useful for translating the geothermal energy of magma into useable power."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
-#| msgid "Generates exceptional electrical <style=\"power\">Power</style> when there is at least 3000 g more <style=\"gas\">Steam</style> below it than above it."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
-msgid "Generates exceptional electrical <style=\"power\">Power</style> when there is at least 3000g more <style=\"gas\">Steam</style> below it than above it."
-msgstr "Erzeugt große Mengen <style=\"power\">Energie</style>, wenn sich mindestens 3000 g mehr <style=\"gas\">Dampf</style> darunter als darüber befindet."
+msgid ""
+"Generates exceptional electrical <style=\"power\">Power</style> using pressurized, <style=\"heat\">Scalding</style> <style=\"gas\">Steam</style>.\n"
+"\n"
+"Outputs significantly cooler <style=\"gas\">Steam</style> than it receives.\n"
+"\n"
+"Air pressure beneath this building must be higher than pressure above for air to flow."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.NAME"
@@ -11134,11 +11158,17 @@ msgid "Engie's Tune-Up"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP"
+#| msgid ""
+#| "A skilled Electrical Engineer has improved this generator's power output efficiency\n"
+#| "------------------\n"
+#| "Applying this effect consumed one Oil Can."
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP"
 msgid ""
 "A skilled Electrical Engineer has improved this generator's power output efficiency\n"
 "------------------\n"
-"Applying this effect consumed one Oil Can."
+"Applying this effect consumed one Microchip."
 msgstr ""
 "Ein erfahrener Elektroingenieur hat die Leistungseffiziens dieses Generators verbessert\n"
 "------------------\n"
@@ -18091,7 +18121,7 @@ msgstr "Kann nur vom Mechatronik-Ingenieuren verwendet werden, um ein Feinabstim
 #| "It aids in the growth of certain <style=\"plant\">Plants</style>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
 msgid ""
-"Specialized <style=\"misc\">Oil</style> synthesized by a professional engineer.\n"
+"A specialized <style=\"misc\">Microchip</style> created by a professional engineer.\n"
 "\n"
 "Tunes up generators to increase their <style=\"power\">Power</style> output."
 msgstr ""
@@ -18101,8 +18131,8 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
-msgid "Oil Can"
-msgstr "Ölkanne"
+msgid "Microchip"
+msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_NAME
 #, fuzzy
@@ -23789,21 +23819,12 @@ msgid "Imperfect buildings materials mean {0} battery charge will be lost as hea
 msgstr "Mangelhafte Baumaterialien führen dazu, dass {0} Batterieladung als Wärme verloren geht"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
-#| msgid ""
-#| "This building will require {1} of {0} for use as coolant each time it finishes processing an order\n"
-#| "\n"
-#| "The temperature of the coolant will be raised depending on how much energy was required to cool the product"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
 msgid ""
-"This building will require {1} of {0} for use as coolant each time it finishes processing an order\n"
+"{1} of {0} coolant is required to cool off an item produced by this building\n"
 "------------------\n"
-"The temperature of the coolant will be raised depending on how much energy was required to cool the product"
+"Coolant temperature increase is variable and dictated by the amount of energy needed to cool the produced item"
 msgstr ""
-"Dieses Gebäude benötigt {1} {0} als Kühlmittel bei jeder Fertigstellung eines Auftrages\n"
-"\n"
-"Die Temperatur des Kühlmittels steigt abhängig von der notwendigen Kühlenergie für das Produkt"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORDECREASED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORDECREASED"
@@ -24055,13 +24076,25 @@ msgid "Refills Exosuit Oxygen Tanks with oxygen for reuse"
 msgstr "Füllt die Tanks des Anzugs wieder mit Sauerstoff"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT
+#, fuzzy
+#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT"
+#| msgid "Cooling the output materials will produce {0} of heat, which will raise the temperature of the contained {1} by {2} along with warming the building."
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT"
-msgid "Cooling the output materials will produce {0} of heat, which will raise the temperature of the contained {1} by {2} along with warming the building."
+msgid ""
+"{0} of heat will be produced to cool off the fabricated item\n"
+"\n"
+"This will raise the temperature of the contained {1} by {2}, and heat the containing building"
 msgstr "Die Endprodukte zu kühlen wird {0} Hitze erzeugen, die die Temperatur von {1} im Inventar um {2} erhöht, zusätzlich zur Erwärmung des Gebäudes."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT
+#, fuzzy
+#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT"
+#| msgid "Cooling the output materials will produce {0} of heat. If {1} was used for coolant, its temperature would be raised by {2} along with warming the building."
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT"
-msgid "Cooling the output materials will produce {0} of heat. If {1} was used for coolant, its temperature would be raised by {2} along with warming the building."
+msgid ""
+"{0} of heat will be produced to cool off the fabricated item\n"
+"\n"
+"If {1} is used for coolant, its temperature will be raised by {2}, and will heat the containing building"
 msgstr "Die Endprodukte zu kühlen wird {0} Hitze erzeugen. Würde {1} zur Kühlung benutzt, würde sich seine Temperatur um {2} erhöhen, zusätzlich zur Erwärmung des Gebäudes."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVEDEFFECT
@@ -26802,9 +26835,15 @@ msgid "World Generation Key"
 msgstr "Welterzeugungsschlüssel"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
+#| msgid ""
+#| "<b>Welcome to the Tubular Upgrade!</b>\n"
+#| "\n"
+#| "{0}"
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Tubular Upgrade!</b>\n"
+"<b>Welcome to the Occupational Upgrade!</b>\n"
 "\n"
 "{0}"
 msgstr ""
@@ -26822,36 +26861,18 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• New Transit Tube networks allow rapid Duplicant transport to and from the furthest reaches of your base\n"
-"• Ice Sculptures can now be built in cold areas for a special decor boost\n"
-"• Berry Sludge, a new recipe made from Bristle Berries, can now be found at the Microbe Musher\n"
-"• Extensive performance improvements, affecting late game bases, stored items, Duplicant navigation, memory usage, and more\n"
+"• Jobs Board added! Employ your Duplicants in new job positions for skill improvements, unique traits, and cool new hats\n"
+"• New Conveyor Rail System to quickly transport solid materials around your base\n"
+"• Food and Plant rebalances for a more rewarding overall farming experience\n"
+"• Tons of bug fixes, performance enhancements, QOL additions, and more!\n"
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
-"<b>Update-Features:</b>\n"
-"\n"
-"• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
-"• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
-"• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
-"• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
-"• Bugfixes und Performanceverbesserungen\n"
-"\n"
-"<b>Weitere wichtige Änderungen:</b>\n"
-"\n"
-"• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
-"• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
-"• Neue Transit-Rohrnetze ermöglichen einen schnellen Duplikanten-Transport von und zu den entferntesten Stellen Deiner Basis.\n"
-"• Eisskulpturen können jetzt auch in kalten Gebieten für einen besonderen Dekorschub gebaut werden.\n"
-"• Beerenschlamm, eine neue Rezeptur aus Dornenbeeren, ist ab sofort im Mikroben-Matscher zu finden.\n"
-"• Umfangreiche Leistungsverbesserungen, die sich auf die späten Spielbasen, die gespeicherten Gegenstände, die Duplikatnavigation, die Speichernutzung und vieles mehr auswirken.\n"
-"\n"
-"Schau dir bitte auch die vollständigen Notizen für alle Details an!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "TUBULAR UPGRADE"
-msgstr "TUBULARES UPGRADE"
+msgid "OCCUPATIONAL UPGRADE"
+msgstr ""
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -29841,10 +29862,15 @@ msgid "Trait: <style=\"decor\">Canvas</style> Painting"
 msgstr "<style=\"decor\">Dekor</style>: {0}"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION
+#, fuzzy
+#| msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
+#| msgid ""
+#| "Trait: <style=\"misc\">Generator</style> Tuning\n"
+#| "    • Trait: <style=\"misc\">Oil Can</style> Crafting"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
 msgid ""
 "Trait: <style=\"misc\">Generator</style> Tuning\n"
-"    • Trait: <style=\"misc\">Oil Can</style> Crafting"
+"    • Trait: <style=\"misc\">Microchip</style> Crafting"
 msgstr ""
 "Merkmal: <style=\"misc\">Generatorfeinabstimmung</style>\n"
 "    • Merkmal: <style=\"misc\">Ölkannenherstellung</style>"
@@ -33844,6 +33870,107 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
 
+#, fuzzy
+#~| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
+#~| msgid "Requires Miner"
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
+#~ msgid "Ready For Miner"
+#~ msgstr "Benötigt einen Bergarbeiter"
+
+#, fuzzy
+#~| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
+#~| msgid "Duplicants may only use this building if assigned to one of the following jobs: {Roles}"
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
+#~ msgid "Duplicants may only mine this tile if proficient at one of the following jobs: {Roles}"
+#~ msgstr "Duplikanten dürfen dieses Gebäude nur dann nutzen, wenn sie einem der folgenden Berufe zugeordnet sind: {Roles}"
+
+#, fuzzy
+#~| msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME"
+#~| msgid "Exosuit Specialist"
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.NAME"
+#~ msgid "Ready For Specialist"
+#~ msgstr "Schutzanzugspezialist"
+
+#, fuzzy
+#~| msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP"
+#~| msgid "Duplicants may only use this building if assigned to one of the following jobs: {Roles}"
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESROLEPERK.TOOLTIP"
+#~ msgid "This building is ready to be used by a Duplicant with one of the following jobs: {Roles}"
+#~ msgstr "Duplikanten dürfen dieses Gebäude nur dann nutzen, wenn sie einem der folgenden Berufe zugeordnet sind: {Roles}"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
+#~ msgid "This turbine's input is blocked"
+#~ msgstr "Der Eingang der Turbine ist blockiert"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
+#~ msgid "This turbine's output is blocked"
+#~ msgstr "Der Ausgang der Turbine ist blockiert"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC"
+#~ msgid "Turbines are capable of industrial strength power generation with virtually no waste."
+#~ msgstr "Turbinen sind in der Lage, industriellen Starkstrom praktisch ohne Verluste zu erzeugen."
+
+#, fuzzy
+#~| msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
+#~| msgid "Generates exceptional electrical <style=\"power\">Power</style> when there is at least 3000 g more <style=\"gas\">Steam</style> below it than above it."
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
+#~ msgid "Generates exceptional electrical <style=\"power\">Power</style> when there is at least 3000g more <style=\"gas\">Steam</style> below it than above it."
+#~ msgstr "Erzeugt große Mengen <style=\"power\">Energie</style>, wenn sich mindestens 3000 g mehr <style=\"gas\">Dampf</style> darunter als darüber befindet."
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
+#~ msgid "Oil Can"
+#~ msgstr "Ölkanne"
+
+#, fuzzy
+#~| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
+#~| msgid ""
+#~| "This building will require {1} of {0} for use as coolant each time it finishes processing an order\n"
+#~| "\n"
+#~| "The temperature of the coolant will be raised depending on how much energy was required to cool the product"
+#~ msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
+#~ msgid ""
+#~ "This building will require {1} of {0} for use as coolant each time it finishes processing an order\n"
+#~ "------------------\n"
+#~ "The temperature of the coolant will be raised depending on how much energy was required to cool the product"
+#~ msgstr ""
+#~ "Dieses Gebäude benötigt {1} {0} als Kühlmittel bei jeder Fertigstellung eines Auftrages\n"
+#~ "\n"
+#~ "Die Temperatur des Kühlmittels steigt abhängig von der notwendigen Kühlenergie für das Produkt"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#~ msgid ""
+#~ "<b>Update Features:</b>\n"
+#~ "\n"
+#~ "• New Transit Tube networks allow rapid Duplicant transport to and from the furthest reaches of your base\n"
+#~ "• Ice Sculptures can now be built in cold areas for a special decor boost\n"
+#~ "• Berry Sludge, a new recipe made from Bristle Berries, can now be found at the Microbe Musher\n"
+#~ "• Extensive performance improvements, affecting late game bases, stored items, Duplicant navigation, memory usage, and more\n"
+#~ "\n"
+#~ "Please view the full patch notes for further details!"
+#~ msgstr ""
+#~ "<b>Update-Features:</b>\n"
+#~ "\n"
+#~ "• Neue Gebäude für die Automatisierung der Basis: Sensoren, Schalten, Logikgatter und Kontrollstellen für Duplikanten\n"
+#~ "• Automatisierungseingaben für existierende Geebäude und neue automatisierte Schaltsysteme \n"
+#~ "• Zwei Erzverarbeitungsgebäude für die Metallveredelung\n"
+#~ "• Neuer Forschungsbaum mit neuen Forschungszielen, Gebäuden und Overlays\n"
+#~ "• Bugfixes und Performanceverbesserungen\n"
+#~ "\n"
+#~ "<b>Weitere wichtige Änderungen:</b>\n"
+#~ "\n"
+#~ "• Automatisierte Stromschalter wurden durch Automatisierungssensoren ersetzt und können nicht mehr direkt einen Stromkreis kontrollieren\n"
+#~ "• Öl und Ölprodukte frieren jetzt korrekt bei niedrigen Temperaturen\n"
+#~ "• Neue Transit-Rohrnetze ermöglichen einen schnellen Duplikanten-Transport von und zu den entferntesten Stellen Deiner Basis.\n"
+#~ "• Eisskulpturen können jetzt auch in kalten Gebieten für einen besonderen Dekorschub gebaut werden.\n"
+#~ "• Beerenschlamm, eine neue Rezeptur aus Dornenbeeren, ist ab sofort im Mikroben-Matscher zu finden.\n"
+#~ "• Umfangreiche Leistungsverbesserungen, die sich auf die späten Spielbasen, die gespeicherten Gegenstände, die Duplikatnavigation, die Speichernutzung und vieles mehr auswirken.\n"
+#~ "\n"
+#~ "Schau dir bitte auch die vollständigen Notizen für alle Details an!"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
+#~ msgid "TUBULAR UPGRADE"
+#~ msgstr "TUBULARES UPGRADE"
+
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME"
 #~ msgid "Toggle Switch Errand Assigned"
 #~ msgstr "Schalterbetätigungsarbeitsgang zugewiesen"
@@ -35007,10 +35134,6 @@ msgstr "Sand verstreuen..."
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME"
 #~ msgid "Work Task Assigned"
 #~ msgstr "Arbeit zugewiesen"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESMINER.TOOLTIP"
-#~ msgid "Only Duplicants assigned to one of the Miner roles can dig this tile"
-#~ msgstr "Nur Duplikanten, die eine der Minenarbeiter-Rollen haben, können hier graben"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESRESEARCHER.NAME"
 #~ msgid "Requires Researcher"
