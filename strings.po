@@ -4226,7 +4226,7 @@ msgstr "Aktiv/Warten basierend auf umgebendem <style=\"gas\">Gasdruck</style>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME"
 msgid "Atmo Sensor"
-msgstr "Atmosensor"
+msgstr "Atmosphärensensor"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.DESC"
@@ -4397,7 +4397,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME"
 msgid "Mechanics Station"
-msgstr "Mechanik-Station"
+msgstr "Mechanikstation"
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC"
@@ -4732,7 +4732,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME"
 msgid "Outhouse"
-msgstr "Toilettenhäuschen"
+msgstr "Plumpsklo"
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC"
@@ -7706,19 +7706,13 @@ msgid "Overheat Temperature"
 msgstr "Überhitzungstemperatur"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.PROFESSION_DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.PROFESSION_DESC"
-#| msgid ""
-#| "Highest Attribute: {0}\n"
-#| "------------------\n"
-#| "Duplicants develop higher expectations as their Profession Attribute increases"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.PROFESSION_DESC"
 msgid ""
 "Expertise is determined by a Duplicant's highest Attribute\n"
 "------------------\n"
 "Duplicants develop higher expectations as their Expertise level increases"
 msgstr ""
-"Höchstes Attribut: {0}\n"
+"Die Expertise wird durch das höchste Attribut eines Duplikanten bestimmt.\n"
 "------------------\n"
 "Duplikanten entwickeln höhere Erwartungen, wenn sich ihre Fertigkeitsstufen verbessern"
 
@@ -7861,7 +7855,7 @@ msgstr "Kehrt, wischt und desinfiziertObjekte innerhalb der Kolonie."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME"
 msgid "Tidy"
-msgstr "Sauberkeit"
+msgstr "Reinigung"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.DESC"
@@ -7904,9 +7898,6 @@ msgid "Dig"
 msgstr "Graben"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.HARVEST.DESC"
-#| msgid "Gather crops from mature plants."
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.DESC"
 msgid "Gather crops from mature plants."
 msgstr "Reife Pflanzen abernten."
@@ -8032,12 +8023,9 @@ msgid "Binge eating"
 msgstr "Hat eine Fressattacke"
 
 #. STRINGS.DUPLICANTS.CHORES.BINGE_EAT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_UGLY_CRIER.TOOLTIP"
-#| msgid "This Duplicant is trying to suppress their emotions and failing"
 msgctxt "STRINGS.DUPLICANTS.CHORES.BINGE_EAT.TOOLTIP"
 msgid "This Duplicant is attempting to eat their emotions due to stress"
-msgstr "Dieser Duplikant versucht seine Emotionen zu unterdrücken und versagt"
+msgstr "Dieser Duplikant versucht seine Emotionen aufgrund von Stress zu zu unterdrücken"
 
 #. STRINGS.DUPLICANTS.CHORES.BUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.NAME"
@@ -8112,7 +8100,7 @@ msgstr "Geht putzen"
 #. STRINGS.DUPLICANTS.CHORES.CLEANTOILET.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.TOOLTIP"
 msgid "This Duplicant is cleaning out the Outhouse"
-msgstr "Dieser Duplikant reinigt das Toilettenhäuschen"
+msgstr "Dieser Duplikant reinigt das Plumpsklo"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.NAME"
@@ -8215,9 +8203,6 @@ msgid "This Duplicant is demolishing a building"
 msgstr "Dieser Duplikant demoliert ein Gebäude"
 
 #. STRINGS.DUPLICANTS.CHORES.DELIVERFOOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.DELIVERFOOD.NAME"
-#| msgid "Deliver food"
 msgctxt "STRINGS.DUPLICANTS.CHORES.DELIVERFOOD.NAME"
 msgid "Deliver Food"
 msgstr "Nahrung liefern"
@@ -8308,12 +8293,9 @@ msgid "This Duplicant is trying to make one of their peers feel better"
 msgstr "Dieser Duplikant versucht, einen Kollegen dazu zu bringen, sich besser zu fühlen"
 
 #. STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.TITLE"
-#| msgid "Dock Inventory"
 msgctxt "STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.NAME"
 msgid "Drop Inventory"
-msgstr "Schrankinhalt"
+msgstr "Inventar fallen lassen"
 
 #. STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.STATUS"
@@ -8341,9 +8323,6 @@ msgid "Duplicants eat to replenish their calorie stores"
 msgstr "Duplikanten essen, um ihre Kalorien-Vorrat wieder aufzufüllen"
 
 #. STRINGS.DUPLICANTS.CHORES.EMOTEHIGHPRIORITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.EMOTEHIGHPRIORITY.STATUS"
-#| msgid "Expressing themselves"
 msgctxt "STRINGS.DUPLICANTS.CHORES.EMOTEHIGHPRIORITY.NAME"
 msgid "Express Themselves"
 msgstr "Verschafft sich Ausdruck"
@@ -8369,12 +8348,9 @@ msgid "Going to empty storage"
 msgstr "Geht Lager leeren"
 
 #. STRINGS.DUPLICANTS.CHORES.EMPTYSTORAGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.TOOLTIP"
-#| msgid "This Duplicant is stuffing their face as a result of stress"
 msgctxt "STRINGS.DUPLICANTS.CHORES.EMPTYSTORAGE.TOOLTIP"
 msgid "This Duplicant is taking items out of storage"
-msgstr "Dieser Duplikant stopft aus Stress alles in sich rein"
+msgstr "Dieser Duplikant nimmt Gegenstände aus dem Lager"
 
 #. STRINGS.DUPLICANTS.CHORES.ENTOMBED.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ENTOMBED.NAME"
@@ -8655,25 +8631,19 @@ msgid "This Duplicant is producing food"
 msgstr "Dieser Duplikant produziert Nahrung"
 
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.NAME"
-#| msgid "Narcoleptic Nap"
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.NAME"
 msgid "Narcoleptic Nap"
 msgstr "Narkoleptisches Nickerchen"
 
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.NAME"
-#| msgid "Narcoleptic Nap"
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.STATUS"
 msgid "Narcolepsy Napping"
-msgstr "Narkoleptisches Nickerchen"
+msgstr "Schlummert narkoleptisch"
 
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.TOOLTIP"
 msgid "Zzzzzz..."
-msgstr ""
+msgstr "Zzzzzz..."
 
 #. STRINGS.DUPLICANTS.CHORES.PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.NAME"
@@ -8696,12 +8666,9 @@ msgid "Tinker"
 msgstr "Bastler"
 
 #. STRINGS.DUPLICANTS.CHORES.POWER_TINKER.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.NAME"
-#| msgid "Tinkering"
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWER_TINKER.STATUS"
 msgid "Tinkering"
-msgstr "Basteln"
+msgstr "Bastelt"
 
 #. STRINGS.DUPLICANTS.CHORES.POWER_TINKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWER_TINKER.TOOLTIP"
@@ -8754,12 +8721,9 @@ msgid "EdibleIsNotNull"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_ROLE_PERK
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
-#| msgid "Requires Miner"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_ROLE_PERK"
 msgid "Requires job perk"
-msgstr "Benötigt einen Bergarbeiter"
+msgstr "Benötigt einen Berufsvorteil"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_SUIT_MARKER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_SUIT_MARKER"
@@ -8923,12 +8887,9 @@ msgid "Invalid"
 msgstr "Ungültig"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET"
-#| msgid "DebugGotoTarget"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR"
 msgid "DebugNotChoreCreator"
-msgstr "DebugGotoTarget"
+msgstr "DebugNotChoreCreator"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_IN_TUBE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_IN_TUBE"
@@ -8951,9 +8912,6 @@ msgid "This Duplicant is recharging their equipment"
 msgstr "Dieser Duplikant läd seine Ausrüstung auf"
 
 #. STRINGS.DUPLICANTS.CHORES.RECOVERBREATH.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RECOVERBREATH.NAME"
-#| msgid "Recover breath"
 msgctxt "STRINGS.DUPLICANTS.CHORES.RECOVERBREATH.NAME"
 msgid "Recover Breath"
 msgstr "Luft holen"
@@ -9024,12 +8982,9 @@ msgid "Rescuing friend"
 msgstr "Rettet einen Freund"
 
 #. STRINGS.DUPLICANTS.CHORES.RESCUEINCAPACITATED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WASATTACKED.TOOLTIP"
-#| msgid "This Duplicant is stressed out after having been attacked"
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESCUEINCAPACITATED.TOOLTIP"
 msgid "This Duplicant is rescuing another Duplicant that has been incapacitated"
-msgstr "Dieser Duplikant wurde vor kurzem von etwas angegriffen und es stresste ihn"
+msgstr "Dieser Duplikant rettet einen anderen Duplikanten, der außer Gefecht gesetzt wurde"
 
 #. STRINGS.DUPLICANTS.CHORES.RESEARCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCH.NAME"
@@ -9042,12 +8997,9 @@ msgid "Going to research"
 msgstr "Geht forschen"
 
 #. STRINGS.DUPLICANTS.CHORES.RESEARCH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LOWOXYGEN.TOOLTIP"
-#| msgid "This Duplicant is working in a low breathability area"
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCH.TOOLTIP"
 msgid "This Duplicant is working on the currently selected research focus"
-msgstr "Dieser Duplikant arbeitet in einem Gebiet mit kaum atembarer Atmosphäre"
+msgstr "Dieser Duplikant arbeitet an dem aktuell ausgewählten Forschungsschwerpunkt"
 
 #. STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.NAME"
@@ -9060,12 +9012,9 @@ msgid "Resting"
 msgstr "Ruht aus"
 
 #. STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.TOOLTIP"
-#| msgid "This Duplicant is feeling the pressure"
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.TOOLTIP"
 msgid "This Duplicant isn't feeling well and is taking a rest"
-msgstr "Dieser Duplikant fühlt den Druck"
+msgstr "Dieser Duplikant fühlt sich nicht wohl und ruht sich aus"
 
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME"
@@ -9075,7 +9024,7 @@ msgstr "Schutzanzug ankoppeln"
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.STATUS"
 msgid "Docking exosuit"
-msgstr "Schutzanzug ankoppeln"
+msgstr "Koppelt Schutzanzug an"
 
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP"
@@ -9140,7 +9089,7 @@ msgstr "Schläft"
 #. STRINGS.DUPLICANTS.CHORES.SLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.SLEEP.TOOLTIP"
 msgid "Zzzzzz..."
-msgstr ""
+msgstr "Zzzzzz..."
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.NAME"
@@ -9168,12 +9117,9 @@ msgid "Antsy"
 msgstr "Hibbelig"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSIDLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.TOOLTIP"
-#| msgid "This Duplicant is relieving their stress all over the floor"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSIDLE.TOOLTIP"
 msgid "This Duplicant is a workaholic and gets stressed when they have nothing to do"
-msgstr "Dieser Duplikant verteilt seinen Stress über den ganzen Fußboden"
+msgstr "Dieser Duplikant ist ein Workaholic und wird gestresst, wenn er nichts zu tun hat"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.NAME"
@@ -9191,12 +9137,9 @@ msgid "Some people deal with stress better than others"
 msgstr "Manche Menschen können mit Stress besser umgehen als andere"
 
 #. STRINGS.DUPLICANTS.CHORES.SWITCHROLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.PLAYBUTTON"
-#| msgid "Start"
 msgctxt "STRINGS.DUPLICANTS.CHORES.SWITCHROLE.NAME"
 msgid "Start Job"
-msgstr "Start"
+msgstr "Starte Beruf"
 
 #. STRINGS.DUPLICANTS.CHORES.SWITCHROLE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.SWITCHROLE.STATUS"
@@ -9209,9 +9152,6 @@ msgid "This Duplicant is preparing for their new job assignment"
 msgstr "Dieser Duplikant bereitet sich auf seine neuen Beruf vor"
 
 #. STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME"
-#| msgid "Take medicine"
 msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME"
 msgid "Take Medicine"
 msgstr "Medizin einnehmen"
@@ -9222,12 +9162,9 @@ msgid "Taking medicine"
 msgstr "Nimmt Medizin ein"
 
 #. STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.TOOLTIP"
-#| msgid "This Duplicant is turning a {Target} into a seed"
 msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.TOOLTIP"
 msgid "This Duplicant is taking a dose of medicine to keep disease at bay"
-msgstr "Dieser Duplikant wandelt eine {Target} in einen Samen um"
+msgstr "Dieser Duplikant nimmt eine Dosis von Medikamenten ein, um die Krankheit in Schach zu halten"
 
 #. STRINGS.DUPLICANTS.CHORES.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TOGGLE.NAME"
@@ -9272,7 +9209,7 @@ msgstr "Betritt Transitrohr"
 #. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.TOOLTIP"
 msgid "Nyoooom!"
-msgstr ""
+msgstr "Huiiiii!"
 
 #. STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME"
@@ -9285,12 +9222,9 @@ msgid "Ugly crying"
 msgstr "Heulkrampf"
 
 #. STRINGS.DUPLICANTS.CHORES.UGLY_CRY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UGLY_CRYING.TOOLTIP"
-#| msgid "This Duplicant is having a cathartic ugly cry as a result of stress"
 msgctxt "STRINGS.DUPLICANTS.CHORES.UGLY_CRY.TOOLTIP"
 msgid "This Duplicant is having a healthy cry to alleviate their negative emotions"
-msgstr "Dieser Duplikant hat einen Heulkrampf aufgrund seines Stresspegels"
+msgstr "Dieser Duplikant hat einen Heulkrampf aufgrund seiner negativen Emotionen"
 
 #. STRINGS.DUPLICANTS.CHORES.UNEQUIP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UNEQUIP.NAME"
@@ -9303,12 +9237,9 @@ msgid "Moving to unequip"
 msgstr "Geht Ausrüstung ablegen"
 
 #. STRINGS.DUPLICANTS.CHORES.UNEQUIP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.TWINKLETOES.DESC"
-#| msgid "This Duplicant is light as a feather on their feet"
 msgctxt "STRINGS.DUPLICANTS.CHORES.UNEQUIP.TOOLTIP"
 msgid "This Duplicant is removing a piece of their equipment"
-msgstr "Dieser Duplikant bewegt sich leicht wie eine Feder"
+msgstr "Dieser Duplikant entfernt ein Teil seiner Ausrüstung"
 
 #. STRINGS.DUPLICANTS.CHORES.UPROOT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UPROOT.NAME"
@@ -9321,12 +9252,9 @@ msgid "Going to uproot"
 msgstr "Geht zum Entwurzeln"
 
 #. STRINGS.DUPLICANTS.CHORES.UPROOT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.TOOLTIP"
-#| msgid "This Duplicant is turning a {Target} into a seed"
 msgctxt "STRINGS.DUPLICANTS.CHORES.UPROOT.TOOLTIP"
 msgid "This Duplicant is uprooting a plant for a seed"
-msgstr "Dieser Duplikant wandelt eine {Target} in einen Samen um"
+msgstr "Dieser Duplikant entwurzelt eine Pflanze um Samen zu erhalten"
 
 #. STRINGS.DUPLICANTS.CHORES.USETOILET.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.NAME"
@@ -9369,12 +9297,9 @@ msgid "Going to warm up"
 msgstr "Geht sich aufwärmen"
 
 #. STRINGS.DUPLICANTS.CHORES.WARMUP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.TOOLTIP"
-#| msgid "This Duplicant got too cold and is trying to warm up"
 msgctxt "STRINGS.DUPLICANTS.CHORES.WARMUP.TOOLTIP"
 msgid "This Duplicant got too cold and is going to warm up"
-msgstr "Diesem Duplikanten wurde es zu kalt und versucht sich aufzuwärmen"
+msgstr "Diesem Duplikanten wurde es zu kalt und geht sich aufzuwärmen"
 
 #. STRINGS.DUPLICANTS.CHORES.WASHHANDS.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.WASHHANDS.NAME"
@@ -10023,12 +9948,9 @@ msgstr ""
 "Der festsitzende Schleim dieses Duplikanten macht es ihm schwer zu atmen"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS"
-#| msgid "Lethal if untreated. Duplicants experience coughing and shortness of breath."
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS"
 msgid "Lethal without medical care. Duplicants experience coughing and shortness of breath."
-msgstr "Tödlich, wenn unbehandelt Duplikanten erleben Kurzatmigkeit und Reizhusten."
+msgstr "Tödlich ohne medizinische Behandlung. Duplikanten erleiden Reizhusten und Atemnot."
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DISEASE_SOURCE_DESCRIPTOR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DISEASE_SOURCE_DESCRIPTOR"
@@ -10680,9 +10602,6 @@ msgid "This Duplicant loves their snuggly bed"
 msgstr "Dieser Duplikant liebt sein kuscheliges Bett"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.NAME"
-#| msgid "Engineer's Jerryrig"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.NAME"
 msgid "Engie's Jerryrig"
 msgstr "Ingenieurgebastel"
@@ -10723,17 +10642,11 @@ msgid "This Duplicant's injury and disease recovery times are being improved"
 msgstr "Die Verletzungs- und Krankheitserholung dieses Duplikanten ist verbessert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME"
-#| msgid "Receiving treatment"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME"
 msgid "Receiving care"
-msgstr "Wird behandelt"
+msgstr "Wird gepflegt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP"
-#| msgid "This Duplicant is receiving medical aid to lessen the severity and recovery time of their illness"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.TOOLTIP"
 msgid "This Duplicant is receiving medical care to lessen the duration and severity of their illness"
 msgstr "Dieser Duplikant erhält medizinische Hilfe um die Ernsthaftigkeit seiner Krankheit zu senken und die Erholung zu beschleunigen"
@@ -10895,9 +10808,6 @@ msgid "This Duplicant was exposed to an overpressurized area that popped their e
 msgstr "Dieser Duplikant war einem überdruckbelasteten Bereich ausgesetzt, der seine Trommelfelle platzen ließ"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS"
-#| msgid "This Duplicant has a temporary immunity to disease from beating an infection"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS"
 msgid "This Duplicant has temporary immunity to diseases from having beaten an infection"
 msgstr "Dieser Duplikant hat eine vorübergehende Immunität gegen Krankheiten, die durch eine Infektion verursacht werden"
@@ -10915,15 +10825,9 @@ msgstr "Dieser Duplikant ist wieder auf den Beinen aber hat immer noch anhaltend
 #. STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.NAME"
 msgid "Engie's Tune-Up"
-msgstr ""
+msgstr "Ingenieurabstimmung"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP"
-#| msgid ""
-#| "A skilled Electrical Engineer has improved this generator's power output efficiency\n"
-#| "------------------\n"
-#| "Applying this effect consumed one Oil Can."
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP"
 msgid ""
 "A skilled Electrical Engineer has improved this generator's power output efficiency\n"
@@ -10932,7 +10836,7 @@ msgid ""
 msgstr ""
 "Ein erfahrener Elektroingenieur hat die Leistungseffiziens dieses Generators verbessert\n"
 "------------------\n"
-"Die Anwendung dieses Effekts verbrauchte eine Ölkanne."
+"Die Anwendung dieses Effekts verbrauchte eine Mikrochip."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME"
@@ -10975,9 +10879,6 @@ msgid "Receiving care"
 msgstr "Wird behandelt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.REJUVENATORDOCTORED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.REJUVENATORDOCTORED.TOOLTIP"
-#| msgid "This Duplicant is receiving improved medical aid to lessen the severity and recovery time of their illness"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.REJUVENATORDOCTORED.TOOLTIP"
 msgid "This Duplicant is receiving improved medical care to lessen the duration and severity of their illness"
 msgstr "Dieser Duplikant erhält verbesserte medizinische Hilfe, um die Schwere und Genesungszeit seiner Krankheit zu verringern"
@@ -11198,12 +11099,9 @@ msgid "Dead Tired"
 msgstr "Todmüde"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP"
-#| msgid "This Duplicant didn't get any shuteye last night because {Disturber} made a racket"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP"
 msgid "This Duplicant didn't get any shuteye last night because of the racket"
-msgstr "Dieser Duplikant hat letzte Nacht kein Auge zugemacht, weil {Disturber} Krach gemacht hat"
+msgstr "Dieser Duplikant hat letzte Nacht kein Auge zugemacht, wegen des Krawalls"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
@@ -11399,26 +11297,17 @@ msgid "This Duplicant is working up a sweat"
 msgstr "Dieser Duplikant arbeitet bis er schwitzt"
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME"
-#| msgid "Expertise Request"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME"
 msgid "Job Tier Request"
-msgstr "Expertise-Anfrage"
+msgstr "Berufsstufenanforderung"
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP"
-#| msgid ""
-#| "Most objects have <style=\"decor\">Decor</style> values that alter Duplicants' opinions of their surroundings.\n"
-#| "This Duplicant desires {0} or higher decor values, and becomes <style=\"stress\">Stressed</style> in areas with lower decor."
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP"
 msgid ""
 "Most objects have <style=\"decor\">Decor</style> values that alter Duplicants' opinions of their surroundings.\n"
 "This Duplicant desires decor values of {0} or higher, and becomes <style=\"stress\">Stressed</style> in areas with lower decor."
 msgstr ""
-"Die meisten Objekte haben einen <style=\"decor\">Dekorationswert</style>, der die Meinung eines Duplikanten zu seiner Umgebung verbessert oder verschlechtert.\n"
-"\n"
+"Die meisten Objekte haben einen <style=\"decor\">Dekorationswert</style>, der die Meinung eines Duplikanten über seiner Umgebung verändern.\n"
 "Dieser Duplikant benötigt einen Dekorationswert von {0} oder mehr, und wird Bereichen mit niedrigeren Werten <style=\"stress\">gestresst</style>."
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.NAME
@@ -11447,65 +11336,41 @@ msgid "{0} [<style=\"produced\">{1}</style>]"
 msgstr "{0} [<style=\"produced\">{1}</style>]"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.MINUS_1
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.MINUS_3"
-#| msgid "Grisly"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.MINUS_1"
 msgid "Grisly"
-msgstr "Entsetzlich"
+msgstr "Grässlich"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_1
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.MINUS_1"
-#| msgid "Poor"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_1"
 msgid "Poor"
 msgstr "Schlecht"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_2
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.ZERO"
-#| msgid "Standard"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_2"
 msgid "Standard"
 msgstr "Standard"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_3
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_1"
-#| msgid "Good"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_3"
 msgid "Good"
 msgstr "Gut"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_4
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_2"
-#| msgid "Great"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_4"
 msgid "Great"
 msgstr "Großartig"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_5
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_3"
-#| msgid "Superb"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_5"
 msgid "Superb"
 msgstr "Hervorragend"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_6
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_4"
-#| msgid "Ambrosial"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_6"
 msgid "Ambrosial"
 msgstr "Himmlisch"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.ZERO
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.MINUS_2"
-#| msgid "Terrible"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.ZERO"
 msgid "Terrible"
 msgstr "Grauenvoll"
@@ -11516,26 +11381,18 @@ msgid "Food Quality"
 msgstr "Nahrungsqualität"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_MOD_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_MOD_NAME"
-#| msgid "Expertise Request"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_MOD_NAME"
 msgid "Job Tier Request"
-msgstr "Expertise-Anfrage"
+msgstr "Berufsstufenanforderung"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP"
-#| msgid ""
-#| "Each Duplicant has a minimum quality of <style=\"food\">Food</style> they'll tolerate eating.\n"
-#| "This Duplicant desires {0} or better food, and becomes <style=\"stress\">Stressed</style> when they eat meals of lower quality."
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP"
 msgid ""
 "Each Duplicant has a minimum quality of <style=\"food\">Food</style> they'll tolerate eating.\n"
 "This Duplicant desires Tier {0} or better food, and becomes <style=\"stress\">Stressed</style> when they eat meals of lower quality."
 msgstr ""
-"Jeder Duplikant erwartet eine Mindestqualität der <style=\"food\">Nahrung</style> sie werden das Essen tolerieren.\n"
-"Dieser Duplikant wünscht {0} oder besseres Essen und wird <style=\"stress\">gestresst</style> wenn er Mahlzeiten von geringerer Qualität isst."
+"Jeder Duplikant erwartet eine Mindestqualität der <style=\"food\">Nahrung</style> die sie tolerieren zu essen.\n"
+"Dieser Duplikant wünscht Stufe {0} oder besseres Essen und wird <style=\"stress\">gestresst</style> wenn er Mahlzeiten von geringerer Qualität isst."
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.FOODQUALITY
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.FOODQUALITY"
@@ -11827,12 +11684,9 @@ msgid "Leira"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LIAM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LIAM.DESC"
-#| msgid "No matter how much this {0} scrubs, he can never feel clean."
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LIAM.DESC"
 msgid "No matter how much this {0} scrubs, he can never truly feel clean."
-msgstr "Egal wie sehr sich {0} auch schrubbt, er kann sich nie sauber fühlen."
+msgstr "Egal wie sehr sich {0} auch schrubbt, er kann sich nie wirklich sauber fühlen."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LIAM.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LIAM.NAME"
@@ -12072,20 +11926,17 @@ msgstr "Chefkoch"
 #. STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION"
 msgid "Farmers get extra seeds when harvesting plants"
-msgstr "Bauern erhalten zusätzliche Samen bei der Ernte von Pflanzen"
+msgstr "Landwirte erhalten beim Ernten von Pflanzen zusätzliches Saatgut"
 
 #. STRINGS.DUPLICANTS.ROLES.FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
 msgid "Farmer"
-msgstr "Bauer"
+msgstr "Landwirt"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
-#| msgid "This Duplicant will gain mastery in <style=\"misc\">{0}</style> jobs <style=\"misc\">{1}%</style> faster than normal"
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
 msgid "This Duplicant enjoys performing <style=\"job\">{0}</style> jobs and will master them <style=\"misc\">{1}%</style> faster"
-msgstr "Dieser Duplikant wird die Meisterhaftigkeit im <style=\"misc\">{0}</style> Beruf <style=\"misc\">{1}%</style> schneller als normal erlangen"
+msgstr "Dieser Duplikant genießt es den <style=\"misc\">{0}</style> Beruf auszuüben und wird diesen um <style=\"misc\">{1}%</style> schneller meistern"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
@@ -12108,9 +11959,6 @@ msgid "Gofer"
 msgstr "Laufbursche"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
-#| msgid "Artists make better art"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION"
 msgid "Artists make better art"
 msgstr "Künstler machen bessere Kunst"
@@ -12118,15 +11966,12 @@ msgstr "Künstler machen bessere Kunst"
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME"
 msgid "Art Student"
-msgstr ""
+msgstr "Kunststudent"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Builders can build buildings faster"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
 msgid "Builders can build buildings faster"
-msgstr "Bauarbeiter bauen schneller"
+msgstr "Bauarbeiter können Gebäude schneller bauen"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME"
@@ -12134,28 +11979,19 @@ msgid "Apprentice Architect"
 msgstr "Lernender Architekt"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.DESCRIPTION"
-#| msgid "A cook can make better food"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.DESCRIPTION"
 msgid "A cook can make better food"
 msgstr "Ein Koch macht bessere Nahrung"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.PROFESSION_NAME"
-#| msgid "Chef"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.NAME"
 msgid "Sous Chef"
 msgstr "Koch"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION"
-#| msgid "Farmers get extra seeds when harvesting plants"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.DESCRIPTION"
 msgid "Farmers get extra seeds when harvesting plants"
-msgstr "Bauern erhalten zusätzliche Samen bei der Ernte von Pflanzen"
+msgstr "Landwirte erhalten beim Ernten von Pflanzen zusätzliches Saatgut"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME"
@@ -12163,9 +11999,6 @@ msgid "Farmhand"
 msgstr "Landarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
-#| msgid "Miners have improved digging ability"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
 msgid "Miners have improved digging ability"
 msgstr "Minenarbeiter haben eine verbesserte Grabefähigkeit"
@@ -12186,12 +12019,9 @@ msgid "Research Assistant"
 msgstr "Forschungsassistent"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION"
-#| msgid "Machine Technicians can operate big machines"
 msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION"
 msgid "Machine Operators can operate big machines"
-msgstr "Ingenieure können größere Maschinen bedienen"
+msgstr "Maschinisten können große Maschinen bedienen"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME"
@@ -12239,12 +12069,9 @@ msgid "Miner"
 msgstr "Minenarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNASSIGNED.TOOLTIP"
-#| msgid "This Duplicant has not been assigned a room"
 msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION"
 msgid "This Duplicant has not been assigned a job"
-msgstr "Diesem Duplikant wurde kein Zimmer zugewiesen"
+msgstr "Diesem Duplikant wurde kein Beruf zugewiesen"
 
 #. STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME"
@@ -12277,9 +12104,6 @@ msgid "Researchers research tech faster"
 msgstr "Forscher können schneller forschen"
 
 #. STRINGS.DUPLICANTS.ROLES.RESEARCHER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.PROFESSION_NAME"
-#| msgid "Scientist"
 msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.NAME"
 msgid "Scientist"
 msgstr "Wissenschaftler"
@@ -12290,12 +12114,9 @@ msgid "Job Mastered"
 msgstr "Gemeisterter Beruf"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Builders can build buildings faster"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION"
 msgid "Builders can build buildings faster"
-msgstr "Bauarbeiter bauen schneller"
+msgstr "Bauarbeiter können Gebäude schneller bauen"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME"
@@ -12303,12 +12124,9 @@ msgid "Senior Architect"
 msgstr "Senior Architekt"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION"
-#| msgid "Farmers get extra seeds when harvesting plants"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION"
 msgid "Farmers get extra seeds when harvesting plants"
-msgstr "Bauern erhalten zusätzliche Samen bei der Ernte von Pflanzen"
+msgstr "Landwirte erhalten beim Ernten von Pflanzen zusätzliches Saatgut"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.NAME"
@@ -12316,28 +12134,19 @@ msgid "Seasoned Farmer"
 msgstr "Erfahrener Landwirt"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
-#| msgid "Miners have improved digging ability"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
 msgid "Miners have improved digging ability"
 msgstr "Minenarbeiter haben eine verbesserte Grabefähigkeit"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER_ADVANCED.NAME"
-#| msgid "Advanced Miner"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
 msgid "Seasoned Miner"
 msgstr "Erfahrener Minenarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.DESCRIPTION"
-#| msgid "Researchers research tech faster"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION"
 msgid "Researchers research tech faster"
-msgstr "Forscher können schneller forschen"
+msgstr "Forscher erforschen Technologien schneller"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME"
@@ -12926,9 +12735,6 @@ msgid "This Duplicant is transporting materials to {Target}"
 msgstr "Dieser Duplikant transportiert Materialien zu {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME"
-#| msgid "Equipping <style=\"equipment\">{Item}</style>"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME"
 msgid "Equipping <style=\"equipment\">{Target}</style>"
 msgstr "Rüstet <style=\"equipment\">{Item}</style> aus"
@@ -12954,12 +12760,9 @@ msgid "Fabricating {Target}"
 msgstr "Fabriziert {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BUILDING.TOOLTIP"
-#| msgid "This Duplicant is constructing a {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP"
 msgid "This Duplicant is crafting a {Target}"
-msgstr "Dieser Duplikant baut {Target}"
+msgstr "Dieser Duplikant fertigt ein {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NAME"
@@ -13499,12 +13302,9 @@ msgid "Refining {Target}"
 msgstr "Veredelt {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PICKINGUP.TOOLTIP"
-#| msgid "This Duplicant is retrieving {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.TOOLTIP"
 msgid "This Duplicant is refining {Target}"
-msgstr "Dieser Duplikant gewinnt {Target} zurück"
+msgstr "Dieser Duplikant veredelt {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNREACHABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNREACHABLE.NAME"
@@ -13863,9 +13663,6 @@ msgid "Allocating {Item} to {Target}"
 msgstr "Ordne {Item} zu {Target} zu"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.TOOLTIP"
-#| msgid "This Duplicant is delivering {Item} resources to a construction task to build {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is delivering {Item} resources to a {Target} construction errand"
 msgstr "Dieser Duplikant liefert {Item} Ressourcen an eine Baustelle, um {Target} zu bauen"
@@ -13916,9 +13713,6 @@ msgid "Misty Eyed"
 msgstr "Feuchte Augen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_UGLY_CRIER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_UGLY_CRIER.TOOLTIP"
-#| msgid "This Duplicant is trying to suppress their emotions and failing"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_UGLY_CRIER.TOOLTIP"
 msgid "This Duplicant is trying to swallow their emotions and failing"
 msgstr "Dieser Duplikant versucht seine Emotionen zu unterdrücken und versagt"
@@ -14018,9 +13812,6 @@ msgid "This Duplicant cannot breathe!"
 msgstr "Dieser Duplikant kann nicht atmen!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TINKERING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.NAME"
-#| msgid "Tinkering"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TINKERING.NAME"
 msgid "Tinkering"
 msgstr "Basteln"
@@ -14056,12 +13847,9 @@ msgid "Change {Target} setting"
 msgstr "Ändere die {Ziel}-Einstellung"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CLEANING.TOOLTIP"
-#| msgid "This Duplicant is cleaning the {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.TOOLTIP"
 msgid "This Duplicant is changing the {Target}'s setting"
-msgstr "Dieser Duplikant säubert {Target}"
+msgstr "Dieser Duplikant ändert die Einstellungen von {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOILETUNREACHABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOILETUNREACHABLE.NAME"
@@ -14239,9 +14027,6 @@ msgid "Unhappy"
 msgstr "Unglücklich"
 
 #. STRINGS.DUPLICANTS.TRAITS.AGGRESSIVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.AGGRESSIVE.DESC"
-#| msgid "This Duplicant will take out their frustrations on defenseless machines when stressed"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.AGGRESSIVE.DESC"
 msgid "This Duplicant handles stress by taking their frustrations out on defenseless machines"
 msgstr "Dieser Duplikant lässt seine Frustration an wehrlosen Maschinen aus, wenn er gestresst ist"
@@ -16150,12 +15935,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SLABS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SLABS.DESC"
-#| msgid "Slabs are a refined mineral buildling block used for assembling advanced buildings."
 msgctxt "STRINGS.ELEMENTS.SLABS.DESC"
 msgid "Slabs are a refined mineral building block used for assembling advanced buildings."
-msgstr "Platten sind ein raffinierter mineralischer Baustein, der für die Errichtung fortschrittlicher Gebäude verwendet wird."
+msgstr "Platten sind ein veredelter mineralischer Baustein, der für die Errichtung fortschrittlicher Gebäude verwendet wird."
 
 #. STRINGS.ELEMENTS.SLABS.NAME
 msgctxt "STRINGS.ELEMENTS.SLABS.NAME"
@@ -17773,21 +17555,15 @@ msgid "Reed Fiber"
 msgstr "Schilffaser"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
-#| msgid ""
-#| "Fertilizer is a processed mixture of biological nutrients.\n"
-#| "\n"
-#| "It aids in the growth of certain <style=\"plant\">Plants</style>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC"
 msgid ""
 "Specialized <style=\"solid\">Fertilizer</style> mixed by a professional farmer.\n"
 "\n"
 "Increases the growth rate of one <style=\"plant\">Plant</style>."
 msgstr ""
-"Dünger ist eine verarbeitete Mischung biologischer Nährstoffe.\n"
+"Spezialisiert <style=\"solid\">Dünger</style> gemischt von einem professionellen Landwirt.\n"
 "\n"
-"Er unterstützt das Wachstum bestimmter <style=\"plant\">Pflanzen</style>."
+"Erhöht die Wachstumsrate einer <style=\"plant\">Pflanze</style>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME"
@@ -17821,7 +17597,7 @@ msgid ""
 msgstr ""
 "Spezialisierte <style=\"misc\">Teile</style> von einem professionellen Ingenieur gefertigt.\n"
 "\n"
-"Gebastelte Maschinengebäude, um ihre Effizienz zu steigern."
+"Notdürfiges Maschinengebäude, um die Effizienz zu steigern."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME"
@@ -17829,20 +17605,14 @@ msgid "Custom Parts"
 msgstr "Sonderteile"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.NAME"
-#| msgid "Engineer's Jerryrig"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME"
 msgid "Engie's Jerryrig: {0} {1}"
-msgstr "Ingenieurgebastel"
+msgstr "Ingenieurgebastel: {0} {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_TOOLTIP"
-#| msgid "Can be used to tune up a machine, increasing its {0} by {1}."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP"
 msgid "Can be used to Jerryrig upgrades to a machine building, increasing its {0} by {1}."
-msgstr "Kann verwendet werden, um eine Maschine zu optimieren, indem man ihre {0} um {1} erhöht."
+msgstr "Kann verwendet werden, um eine Maschine zu optimieren, erhöht die {0} um {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME"
@@ -17858,21 +17628,15 @@ msgid "Can only be used by the Mechatronics Engineer to apply a Jerryrig."
 msgstr "Kann nur vom Mechatronik-Ingenieuren verwendet werden, um ein Feinabstimmung durchzuführen."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
-#| msgid ""
-#| "Fertilizer is a processed mixture of biological nutrients.\n"
-#| "\n"
-#| "It aids in the growth of certain <style=\"plant\">Plants</style>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
 msgid ""
 "A specialized <style=\"misc\">Microchip</style> created by a professional engineer.\n"
 "\n"
 "Tunes up generators to increase their <style=\"power\">Power</style> output."
 msgstr ""
-"Dünger ist eine verarbeitete Mischung biologischer Nährstoffe.\n"
+"Ein spezialisierter <style=\"misc\">Mikrochip</style> erstellt von einem professionellen Ingenieur.\n"
 "\n"
-"Er unterstützt das Wachstum bestimmter <style=\"plant\">Pflanzen</style>."
+"Stellt Generatoren so ein, dass ihre <style=\"power\">Ausgangsleistung</style> erhöht wird."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
@@ -17880,20 +17644,14 @@ msgid "Microchip"
 msgstr "Mikrochip"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_NAME"
-#| msgid "Tune-Up: {0} {1}"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_NAME"
 msgid "Engie's Tune-Up: {0} {1}"
-msgstr "Überholt: {0} {1}"
+msgstr "Abstimmung durch einen Ingenieur: {0} {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP"
-#| msgid "Can be used to tune up a machine, increasing its {0} by {1}."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_TOOLTIP"
 msgid "Can be used to Tune Up a generator, increasing its {0} by {1}."
-msgstr "Kann verwendet werden, um eine Maschine zu optimieren, indem man ihre {0} um {1} erhöht."
+msgstr "Kann verwendet werden, um eine Maschine zu optimieren, erhöht die {0} um {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_NAME"
@@ -17901,20 +17659,14 @@ msgid "Job: Electrical Engineer"
 msgstr "Beruf: Elektroingenieur"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_TOOLTIP"
-#| msgid "Can only be used by the Electrical Engineer to apply a tune-up."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_TOOLTIP"
 msgid "Can only be used by the Electrical Engineer to apply a Tune Up."
 msgstr "Kann nur vom Elektroingenieur verwendet werden, um ein Feinabstimmung durchzuführen."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC"
-#| msgid "These components can be assembled into an Animal Trap and used to catch creatures."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC"
 msgid "These components can be assembled into an Animal Trap and used to catch <style=\"creature\">Creatures</style>."
-msgstr "Diese Komponenten können zu einer Tierfalle zusammengebaut und zum Fangen von Kreaturen verwendet werden."
+msgstr "Diese Komponenten können zu einer Tierfalle zusammengebaut und zum Fangen von <style=\"creature\">Kreaturen</style> verwendet werden."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.NAME"
@@ -18496,21 +18248,15 @@ msgid "These Duplicants died from a lack of <style=\"oxygen\">Oxygen</style>:"
 msgstr "Diese Duplikanten starben an einem Mangel an <style=\"oxygen\">Sauerstoff</style>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
-#| msgid ""
-#| "The <style=\"food\">food</style> your Duplicants make is only as clean as the <style=\"solid\">ingredients</style> used to make it. Storing food in sterile or <style=\"heat\">Refrigerated</style> environments will keep the produced food clean, while carefully placed hygiene systems will prevent your cooks from infecting the food while they handle it.\n"
-#| "\n"
-#| "Dangerously contaminated food can be recycled by clicking the <style=\"misc\">COMPOST</style> button on the selected item."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
 msgid ""
 "The <style=\"food\">Food</style> your Duplicants cook will only ever be as clean as the ingredients used to make it. Storing food in sterile or <style=\"heat\">Refrigerated</style> environments will keep food free of <style=\"disease\">Germs</style>, while carefully placed hygiene stations like <style=\"hygiene\">Wash Basins</style> or <style=\"hygiene\">Showers</style> will prevent your cooks from infecting the food by handling it.\n"
 "\n"
 "Dangerously contaminated food can be sent to compost by clicking the <style=\"misc\">COMPOST</style> button on the selected item."
 msgstr ""
-"Die <style=\"food\">Nahrung</style>, die deine Duplikanten herstellen, ist nur so sauber wie die <style=\"solid\">Zutaten</style>, die zur Herstellung verwendet werden. Die Lagerung von Lebensmitteln in sterilen oder <style=\"heat\">gekühlten</style> Umgebungen hält die produzierten Lebensmittel sauber, während sorgfältig platzierte Hygienesysteme deine Köche daran hindern, die Lebensmittel zu infizieren, während sie sie handhaben.\n"
+"Die <style=\"food\">Nahrung</style>, die deine Duplikanten herstellen, ist nur so sauber wie die Zutaten, die zur Herstellung verwendet werden. Die Lagerung von Lebensmitteln in sterilen oder <style=\"heat\">gekühlten</style> Umgebungen hält die produzierten Lebensmitteln frei von <style=\"disease\">Keimen</style>, während sorgfältig platzierte Hygienesysteme, wie <style=\"hygiene\">Waschbecken</style> oder <style=\"hygiene\">Duschen</style>, deine Köche daran hindern, die Lebensmittel zu infizieren, während sie sie handhaben.\n"
 "\n"
-"Gefährlich kontaminierte Lebensmittel können durch Anklicken der <style=\"misc\">Kompostieren</style>-Taste auf dem ausgewählten Artikel recycelt werden."
+"Gefährlich kontaminierte Lebensmittel können durch Anklicken der <style=\"misc\">Kompostieren</style>-Taste zum Kompost geschickt werden."
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME"
@@ -18932,18 +18678,13 @@ msgid "{0} has developed a trait"
 msgstr "{0} entwickelte eine Eigenschaft"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
-#| msgid ""
-#| "{0} has developed the trait(s):\n"
-#| "\t• {1}"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
 msgid ""
 "{0} has developed the trait(s):\n"
 "    • {1}"
 msgstr ""
 "{0} entwickelte die Eigenschaft(en):\n"
-"\t• {1}"
+"    • {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
@@ -19011,13 +18752,6 @@ msgid "The colony is prioritizing work over their individual well-being"
 msgstr "Die Kolonie priorisiert die Arbeit über das individuelles Wohlbefinden"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY"
-#| msgid ""
-#| "Eureka! <style=\"research\">{0} Technology</style> has been unlocked.\n"
-#| "\n"
-#| "New buildings have become available:\n"
-#| "\t• <style=\"misc\">{1}</style>"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY"
 msgid ""
 "Eureka! <style=\"research\">{0} Technology</style> has been unlocked.\n"
@@ -19025,10 +18759,10 @@ msgid ""
 "New buildings have become available:\n"
 "  • <style=\"misc\">{1}</style>"
 msgstr ""
-"Eureka! Die Technologie <style=\"research\">{0}</style> wurde durch die Macht der Wissenschaft freigeschaltet!\n"
+"Eureka! Die <style=\"research\">{0} Technologie </style> wurde durch freigeschaltet!\n"
 "\n"
 "Neue Baupläne sind nun verfügbar:\n"
-"\t• <style=\"misc\">{1}</style>"
+"  • <style=\"misc\">{1}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
@@ -19151,12 +18885,6 @@ msgid "An exosuit was dropped because there were no empty Exosuit Docks availabl
 msgstr "Ein Schutzanzug wurde fallengelassen, weil es keine leeres Schutzanzug-Dock gab"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
-#| msgid ""
-#| "<style=\"equipment\">Exosuits</style> protect your Duplicants from environmental hazards like extreme <style=\"heat\">Heat</style>, airborne <style=\"disease\">Germs</style>, and unbreathable <style=\"gas\">Gases</style>. In order to utilize these suits, you'll need to store them in an Exosuit Dock and hook that dock up to a Suit Checkpoint.\n"
-#| "\n"
-#| "Duplicants will equip an exosuit when walking past a Checkpoint in the direction it's facing and will unequip the suit when walking the oppposite way."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
 msgid ""
 "<style=\"equipment\">Exosuits</style> can be equipped to protect your Duplicants from environmental hazards like extreme <style=\"heat\">Heat</style>, airborne <style=\"disease\">Germs</style>, or unbreathable <style=\"gas\">Gas</style>. In order to utilize these suits, you'll need to hook up an Exosuit Dock to a Suit Checkpoint, then store one of your suits inside.\n"
@@ -22638,7 +22366,7 @@ msgstr "Forschungsstation"
 #. STRINGS.ROOMS.CRITERIA.TOILET.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILET.DESCRIPTION"
 msgid "Requires one or more Outhouses or Lavatories"
-msgstr "Benötigt ein oder mehrere Toilettenhäuschen oder Toiletten"
+msgstr "Benötigt ein oder mehrere Plumpsklos oder Toiletten"
 
 #. STRINGS.ROOMS.CRITERIA.TOILET.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILET.NAME"
@@ -22860,12 +22588,9 @@ msgid "Recreation Room"
 msgstr "Erholungsraum"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
-#| msgid "Using a toilet will relieve additional stress for Duplicants if it is located in a Latrine."
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
 msgid "Leisure time will relieve additional stress for Duplicants inside a Recreation Room."
-msgstr "Das Verwenden einer Toilette, die sich in einer Latrine befindet, verringert zusätzlichen den Stress für Duplikanten."
+msgstr "Freizeit die in einem Erholungsraum verbracht werden, entlastet deine Duplikanten zusätzlich."
 
 #. STRINGS.SETITEMS.BREAKROOM_TABLE.DESC
 msgctxt "STRINGS.SETITEMS.BREAKROOM_TABLE.DESC"
@@ -23531,12 +23256,9 @@ msgid "This amenity may only be used by the Duplicant it is assigned to"
 msgstr "Diese Einrichtung wird nur von dem zugewiesenen Duplikanten verwendet"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYEFFECT"
-#| msgid "Can hold {0} of power when connected to a generator"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY"
 msgid "Can hold {0} of power when connected to a generator"
-msgstr "Kann {0} Energie speichern wenn sie mit einem Generator verbunden wird"
+msgstr "Kann {0} Energie speichern wenn sie mit einem Generator verbunden sind"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK"
@@ -23672,29 +23394,17 @@ msgstr ""
 "    • Wärmeleitfähigkeit"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER"
-#| msgid ""
-#| "Generates heat based on the volume, temperature, and specific heat capacity of the pumped gas\n"
-#| "\n"
-#| "Cooling 1 Kg of room temperature oxygen will output {0} per second"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER"
 msgid ""
 "Generates heat based on the volume, temperature, and specific heat capacity of the pumped gas\n"
 "------------------\n"
 "Cooling 1 Kg of room temperature oxygen will output {0} per second"
 msgstr ""
-"Erzeugt Wärme basierend auf dem Volumen, der Temperatur und der spezifischen Wärmekapazität des gepumpten Gases.\n"
+"Erzeugt Wärme basierend auf dem Volumen, der Temperatur und der spezifischen Wärmekapazität des gepumpten Gases\n"
 "\n"
 "Kühlen von 1 kg Sauerstoff bei Raumtemperatur liefert {0} pro Sekunde"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER"
-#| msgid ""
-#| "Generates heat based on the volume, temperature, and specific heat capacity of the pumped liquid\n"
-#| "\n"
-#| "Cooling 1 Kg of room temperature water will output {0} per second"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER"
 msgid ""
 "Generates heat based on the volume, temperature, and specific heat capacity of the pumped liquid\n"
@@ -23703,7 +23413,7 @@ msgid ""
 msgstr ""
 "Erzeugt Wärme basierend auf dem Volumen, der Temperatur und der spezifischen Wärmekapazität der gepumpten Flüssigkeit\n"
 "\n"
-"Kühlen von 1 kg Sauerstoff bei Raumtemperatur liefert {0} pro Sekunde"
+"Kühlen von 1 kg Wasser bei Raumtemperatur liefert {0} pro Sekunde"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS"
@@ -23776,12 +23486,9 @@ msgid "Plants grow more slowly when contained within boxes"
 msgstr "Pflanzen wachsen langsamer, wenn sie in Kisten gehalten werden"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
-#| msgid "This building gains additional function or bonus effects if it is situated in a {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
 msgid "This building gains additional effects or functionality when built inside a {0}"
-msgstr "Dieses Gebäude erhält zusätzliche Funktions- oder Bonuseffekte, wenn es sich in einem {0} befindet"
+msgstr "Dieses Gebäude erhält zusätzliche Effekte oder Funktionalität, wenn es innerhalb eines {0} gebaut wird."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
@@ -24454,7 +24161,7 @@ msgid ""
 " • {0}"
 msgstr ""
 "\n"
-"\t• {0}"
+"  • {0}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS"
@@ -24468,7 +24175,7 @@ msgid ""
 " • {0}"
 msgstr ""
 "\n"
-"\t• {0}"
+"  • {0}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
@@ -24614,13 +24321,6 @@ msgid "    • <b>Overpopulated: {0}</b>"
 msgstr "    • <b>Überbevölkert: {0}</b>"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
-#| msgid ""
-#| "Too many germs are present in this area, resulting in rapid die-off until the population stabilizes\n"
-#| "\n"
-#| "A maximum of {0} germs can be on this {1} of material.\n"
-#| "({2} germs/Kg)"
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
 msgid ""
 "Too many germs are present in this area, resulting in rapid die-off until the population stabilizes\n"
@@ -24844,14 +24544,13 @@ msgid "    {0} (Medical care required)"
 msgstr "    {0} (Medizinische Hilfe benötigt)"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION_AIDREQ_TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION_AIDREQ_TOOLTIP"
 msgid ""
 "Treated Duplicants recover from this illness in {0}\n"
 "------------------\n"
 "Without medical care, they will be infected indefinitely"
 msgstr ""
-"Duplikanten erholen sich mit medizinischer Hilfe in {0}\n"
+"Behandelte Duplikate erholen sich von dieser Krankheit in {0}\n"
 "------------------\n"
 "Ohne medizinische Hilfe bleiben sie unbegrenzt lange infiziert"
 
@@ -25259,9 +24958,6 @@ msgstr ""
 "Ein Berufswechsel wird diese Eigenschaften nicht entfernen."
 
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.NO_MASTERED_ROLES
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
-#| msgid "None"
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.NO_MASTERED_ROLES"
 msgid "None"
 msgstr "Keine"
@@ -27948,7 +27644,7 @@ msgstr "Stromnetz-Overlay"
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.DIAGRAM_HEADER
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.DIAGRAM_HEADER"
 msgid "Energy from the <b>Left Outlet</b> is used by the <b>Right Outlet</b>"
-msgstr "Die Energie aus dem <b>linken Ausgang</b> wird vom <b>rechten Ausgang</b> verwendet"
+msgstr "Energie aus dem <b>linken Ausgang</b> wird vom <b>rechten Ausgang</b> verwendet"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND_SWITCH
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND_SWITCH"
@@ -29356,12 +29052,9 @@ msgid "High Decor"
 msgstr "Hohe Dekorationswerte"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.DESCRIPTION"
-#| msgid "Duplicants in this job have fairly reasonable decor standards"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire reasonably improved colony decor"
-msgstr "Duplikanten in diesem Beruf haben vernünftige Dekoranforderungen"
+msgstr "Duplikanten, die in dieser Stufe eingesetzt werden, wünschen sich ein angemessen verbesserte Kolonie-Dekoration"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.NAME"
@@ -29374,12 +29067,9 @@ msgid "Duplicants employed in this Tier desire slightly improved colony decor"
 msgstr "Duplikate, die in dieser Stufe eingesetzt werden, wünschen leicht verbessertes Koloniedekor"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.THOUGHTS.POORDECOR.TOOLTIP"
-#| msgid "Poor Decor"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME"
 msgid "Minor Decor"
-msgstr "Armselige Dekoration"
+msgstr "Unwesentliche Dekoration"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION"
@@ -29402,12 +29092,9 @@ msgid "Superb Decor"
 msgstr "Hervorragend Dekorationswerte"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION"
-#| msgid "Duplicants in this job expect only the best cuisine"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION"
 msgid "Duplicants employed in this Tier expect only the best cuisine"
-msgstr "Duplikanten in diesem Beruf erwarten nur die beste Küche"
+msgstr "Duplikanten in dieser Stufe erwarten nur die beste Küche"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME"
@@ -29415,12 +29102,9 @@ msgid "Ambrosial Food"
 msgstr "Himmlische Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.DESCRIPTION"
-#| msgid "Duplicants in this job desire better than average food"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire better than average food"
-msgstr "Duplikanten in diesem Beruf wünschen sich überdurchschnittliche Lebensmittel"
+msgstr "Duplikanten in dieser Stufe wünschen sich überdurchschnittliche Lebensmittel"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME"
@@ -29428,12 +29112,9 @@ msgid "Great Food"
 msgstr "Großartige Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.DESCRIPTION"
-#| msgid "Duplicants in this job would like to be provided with decent food for their efforts"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire decent food for their efforts"
-msgstr "Duplikanten in diesem Beruf möchten für ihre Bemühungen mit anständiger Nahrung versorgt werden"
+msgstr "Duplikanten in dieser Stufe möchten für ihre Bemühungen mit anständiger Nahrung versorgt werden"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.NAME"
@@ -29441,12 +29122,9 @@ msgid "Good Food"
 msgstr "Gute Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.DESCRIPTION"
-#| msgid "Duplicants in this job would like their food to meet basic living standards"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire food that meets basic living standards"
-msgstr "Duplikanten in diesem Beruf möchten, dass ihre Nahrung den grundlegenden Lebensstandards entspricht"
+msgstr "Duplikanten in dieser Stufe möchten, dass ihre Nahrung den grundlegenden Lebensstandards entspricht"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME"
@@ -29494,17 +29172,14 @@ msgid "JOBS"
 msgstr "BERUFE"
 
 #. STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
-#| msgid "Build a Job Station to access Job assignments"
 msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
 msgid "Build a Jobs Desk to unlock Job Assignments"
-msgstr "Erstelle eine Berufsstation, um auf die Berufszuweisungen zuzugreifen"
+msgstr "Baue einen Stellenmarkt, um Berufszuweisungen zuzugreifen"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
 msgid "Trait: <style=\"research\">Super Computer</style> Researching"
-msgstr "Merkmal: Forschung am <style=\"research\">Supercomputer</style> ist untätig"
+msgstr "Merkmal: Forschung am <style=\"research\">Supercomputer</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION"
@@ -29531,34 +29206,23 @@ msgstr ""
 "    • Merkmal: <style=\"misc\">Spurenelementdüngerherstellung</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
-#| msgid "<style=\"decor\">Decor</style>: {0}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION"
 msgid "Trait: <style=\"decor\">Canvas</style> Painting"
-msgstr "<style=\"decor\">Dekor</style>: {0}"
+msgstr "Merkmal: <style=\"decor\">Leinwandmalerei</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
-#| msgid ""
-#| "Trait: <style=\"misc\">Generator</style> Tuning\n"
-#| "    • Trait: <style=\"misc\">Oil Can</style> Crafting"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
 msgid ""
 "Trait: <style=\"misc\">Generator</style> Tuning\n"
 "    • Trait: <style=\"misc\">Microchip</style> Crafting"
 msgstr ""
 "Merkmal: <style=\"misc\">Generatorfeinabstimmung</style>\n"
-"    • Merkmal: <style=\"misc\">Ölkannenherstellung</style>"
+"    • Merkmal: <style=\"misc\">Mikrochipherstellung</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
-#| msgid "<style=\"decor\">Decor</style>: {0}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION"
 msgid "Trait: <style=\"decor\">Block</style> Sculpting"
-msgstr "<style=\"decor\">Dekor</style>: {0}"
+msgstr "Merkmal: <style=\"decor\">Block-Bildhauerei</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
@@ -30316,12 +29980,9 @@ msgid "Mop and sweep messy floors"
 msgstr "Wischt und räumt unordentlichen Boden auf"
 
 #. STRINGS.UI.TOOLTIPS.CLEARBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
-#| msgid "Drag to move debris into storage"
 msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
 msgid "Drag to move ore debris into storage"
-msgstr "Ziehen, um Ressourcen ins Lager zu bringen"
+msgstr "Ziehen, um Erzabfälle ins Lager zu bringen"
 
 #. STRINGS.UI.TOOLTIPS.CLOSETOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.CLOSETOOLTIP"
@@ -30362,12 +30023,9 @@ msgid "Displays disease risk areas"
 msgstr "Zeigt Risikobereiche für Krankheiten an"
 
 #. STRINGS.UI.TOOLTIPS.DISINFECTBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
-#| msgid "Drag to disinfect buildings"
 msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
 msgid "Drag to disinfect germy buildings"
-msgstr "Ziehen, um Objekte zu desinfizieren"
+msgstr "Ziehen, um verkeimte Gebäude zu desinfizieren"
 
 #. STRINGS.UI.TOOLTIPS.DISMISSMESSAGE
 msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
@@ -30499,14 +30157,15 @@ msgstr "{0} kann diese Arbeitsgang nicht ausführen."
 
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY
 #, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY"
-#| msgid "High priority jobs are performed before low priority jobs. A Duplicant will always continue work on their current job until it is complete, even if a higher priority job becomes available."
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY"
 msgid ""
 "High priority errands are always performed before low priority errands.\n"
 "\n"
 "However, a busy Duplicant will contine to work on their current errand until it's complete, even if a higher priority errand becomes available."
-msgstr "Aufgaben mit hoher Priorität werden vor Aufgaben mit niedriger erledigt. Duplikanten führen ihre aktuelle Aufgabe immer zu Ende, auch wenn eine Aufgabe mit höherer Priorität verfügbar wird."
+msgstr ""
+"Aufgaben mit hoher Priorität werden vor Aufgaben mit niedriger erledigt. Duplikanten führen ihre aktuelle Aufgabe immer zu Ende, auch wenn eine Aufgabe mit höherer Priorität verfügbar wird.\n"
+"\n"
+"Jedoch wird ein beschäftigter Duplikant fortfahren, an seiner aktuellen Besorgung zu arbeiten, bis sie abgeschlossen ist, selbst wenn eine Besorgung mit höherer Priorität verfügbar wird."
 
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_RELEVANT_ATTRIBUTES
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_RELEVANT_ATTRIBUTES"
@@ -30544,12 +30203,9 @@ msgid "View daily Colony Reports"
 msgstr "Tägliche Kolonieberichte anzeigen"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_JOBS
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES"
-#| msgid "Manage Duplicants' diets"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_JOBS"
 msgid "Manage Duplicants' permitted errands"
-msgstr "Nahrungspläne der Duplikanten verwalten"
+msgstr "Verwalten der erlaubten Besorgungen von Duplikanten"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH"
@@ -30579,12 +30235,9 @@ msgid "View the Research Tree"
 msgstr "Forschungsbaum anzeigen"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES"
-#| msgid "Manage Duplicants' diets"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES"
 msgid "Manage Duplicants' job assignments"
-msgstr "Nahrungspläne der Duplikanten verwalten"
+msgstr "Berufszuweisungen von Duplikanten verwalten"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
@@ -30627,9 +30280,6 @@ msgid "Population: {0}"
 msgstr "Bevölkerung: {0}"
 
 #. STRINGS.UI.TOOLTIPS.MOPBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MOPBUTTON"
-#| msgid "Drag to swab unwanted liquids"
 msgctxt "STRINGS.UI.TOOLTIPS.MOPBUTTON"
 msgid "Drag to swab up unwanted liquids"
 msgstr "Ziehen, um unerwünschte Flüssigkeiten aufwischen"
@@ -32840,12 +32490,9 @@ msgid "Decor Expectation"
 msgstr "Dekorationserwartung"
 
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.TOOLTIP"
-#| msgid "This Duplicant is feeling the pressure"
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires decor that is {0} or higher"
-msgstr "Dieser Duplikant fühlt den Druck"
+msgstr "Dieser Duplikant wünscht sich ein Dekoration, das {0} oder höher ist"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
@@ -32874,18 +32521,9 @@ msgid "Food Expectation"
 msgstr "Nahrungserwartung"
 
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
-#| msgid ""
-#| "Expectations\n"
-#| "------------------\n"
-#| "Desires food that is {0} quality or better"
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires food that is {0} quality or better"
-msgstr ""
-"Erwartungen\n"
-"------------------\n"
-"Die Hoffnung, dass die Nahrung eine Qualität von {0} oder besser hat"
+msgstr "Dieser Duplikant wünscht sich Lebensmittel, die {0} Qualität oder besser sind"
 
 #. STRINGS.UI.VITALSSCREEN.HEALTH
 msgctxt "STRINGS.UI.VITALSSCREEN.HEALTH"
