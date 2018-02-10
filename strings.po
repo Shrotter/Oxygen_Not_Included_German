@@ -8025,7 +8025,7 @@ msgstr "Hat eine Fressattacke"
 #. STRINGS.DUPLICANTS.CHORES.BINGE_EAT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.BINGE_EAT.TOOLTIP"
 msgid "This Duplicant is attempting to eat their emotions due to stress"
-msgstr "Dieser Duplikant versucht seine Emotionen aufgrund von Stress zu zu unterdrücken"
+msgstr "Dieser Duplikant versucht seine Emotionen aufgrund von Stress zu unterdrücken"
 
 #. STRINGS.DUPLICANTS.CHORES.BUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.NAME"
@@ -8533,12 +8533,9 @@ msgid "Idle"
 msgstr "Untätig"
 
 #. STRINGS.DUPLICANTS.CHORES.IDLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP"
-#| msgid "This Duplicant cannot reach any pending job tasks"
 msgctxt "STRINGS.DUPLICANTS.CHORES.IDLE.TOOLTIP"
 msgid "This Duplicant cannot reach any pending errands"
-msgstr "Dieser Duplikant kann keine ausstehende Aufgabe erreichen"
+msgstr "Dieser Duplikant kann keine ausstehenden Arbeitsgänge erreichen"
 
 #. STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME"
@@ -8743,7 +8740,7 @@ msgstr "Kein aktueller Bedarf"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
 msgid "Errands {Selected} could perform here:"
-msgstr ""
+msgstr "Die Arbeitsgänge {Selected} konnten hier ausgeführt werden:"
 
 # Führt zu nervigem Clipping im Baumenü, daher abgekürzt.
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ALLOWED_BY_AUTOMATION
@@ -12937,20 +12934,14 @@ msgid "Idle"
 msgstr "Untätigkeit"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLE.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants cannot reach any pending job tasks:"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants cannot reach any pending errands:"
-msgstr "Diese Duplikanten können keine ausstehende Aufgabe erreichen:"
+msgstr "Dieser Duplikant kann keine ausstehenden Arbeitsgänge erreichen:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP"
-#| msgid "This Duplicant cannot reach any pending job tasks"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP"
 msgid "This Duplicant cannot reach any pending errands"
-msgstr "Dieser Duplikant kann keine ausstehende Aufgabe erreichen"
+msgstr "Dieser Duplikant kann keine ausstehenden Arbeitsgänge erreichen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.NAME"
@@ -13442,12 +13433,6 @@ msgid "{Role}: {Progress} Mastery"
 msgstr "{Role}: {Progress} Meisterhaftigkeit"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is working as a(n) {Role}\n"
-#| "\n"
-#| "They have {Progress} mastery of this job"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP"
 msgid ""
 "This Duplicant is working as a {Role}\n"
@@ -18530,12 +18515,6 @@ msgstr ""
 "Ihre Erwartungen sind entsprechend gestiegen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants must be able to reach their job tasks in order to work. When placing tasks, keep in mind that Duplicants can only climb obstacles two tiles high, and are themselves two tiles tall.\n"
-#| "\n"
-#| "If you are unsure if a task you've placed is accessible, select a Duplicant and click <style=\"misc\">SHOW NAVIGATION</style> to view all areas within their reach."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
 msgid ""
 "Duplicants must be able to reach their errands in order to work. When placing errands, keep in mind that Duplicants can only climb obstacles two tiles high, and are themselves two tiles tall.\n"
@@ -18544,7 +18523,7 @@ msgid ""
 msgstr ""
 "Duplikanten müssen ihre Aufgaben erreichen können. Wenn du Befehle gibst, achte darauf, dass Duplikanten nur zwei Felder hochklettern können und selbst auch zwei Felder groß sind.\n"
 "\n"
-"Wenn du dir unsicher bist, um eine Aufgabe erreichbar ist, wähle einen Duplikanten aus und klicke auf <style=\"misc\">NAVIGATION ANZEIGEN</style> um alle Bereiche in ihrer Reichweite zu sehen."
+"Wenn du dir unsicher bist, dass eine Aufgabe erreichbar ist, wähle einen Duplikanten aus und klicke auf <style=\"misc\">NAVIGATION ANZEIGEN</style> um alle Bereiche in ihrer Reichweite zu sehen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME"
@@ -18906,19 +18885,13 @@ msgid "Learn how to use exosuits"
 msgstr "Lerne wie man Schutzanzüge nutzt"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants will perform pending job tasks in order of highest priority to lowest. For example, Duplicants will always harvest <style=\"food\">Food</style> before they build, and always build new structures before they dig.\n"
-#| "\n"
-#| "Open the <style=\"misc\">JOBS TAB</style> <color=#F44A47><b>[J]</b></color> to set which job tasks Duplicants may perform, or specialize skilled Duplicants for specific types of work."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY"
 msgid ""
 "Duplicants will perform pending errands in order of highest priority to lowest. For example, Duplicants will always harvest <style=\"food\">Food</style> before they build, and always build new structures before they dig.\n"
 "\n"
 "Open the <style=\"misc\">ERRANDS TAB</style> <color=#F44A47><b>[J]</b></color> to set which errands Duplicants may perform, or specialize skilled Duplicants for specific types of work."
 msgstr ""
-"Duplikanten führen ausstehende Aufgaben in absteigender Reihenfolge der Prioritäten aus. Beispielsweise werden Duplikanten immer erst <style=\"food\">Nahrung</style> ernten, bevor sie etwas bauen, und sie bauen immer bevor sie graben.\n"
+"Duplikanten führen ausstehende Arbeitsgänge in absteigender Reihenfolge der Prioritäten aus. Beispielsweise werden Duplikanten immer erst <style=\"food\">Nahrung</style> ernten, bevor sie etwas bauen, und sie bauen immer bevor sie graben.\n"
 "\n"
 "Öffne den <style=\"misc\">JOB-TAB</style> <color=#F44A47><b>[J]</b></color> um einzustellen, welche Jobs die Duplikanten ausführen sollen, oder spezialisiere deine Duplikanten auf bestimmte Kategorien."
 
