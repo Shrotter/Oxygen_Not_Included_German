@@ -2507,12 +2507,12 @@ msgstr "Super-Computer"
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
 msgid "Lures can relocate Pufts or Shinebugs to specific locations in your base."
-msgstr "Köder können Pufts oder Leuchtkäfer an bestimmte Orte in der Basis locken.."
+msgstr "Köder können Pufts oder Leuchtkäfer an bestimmte Orte in der Basis locken."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT"
 msgid "Attracts one type of airborne creature when baited with <style=\"solid\">Slime</style> or <style=\"solid\">Phosphorite</style>."
-msgstr "Lockt eine Art von fliegenden Kreaturen an, wenn sie mit <style=\"solid\">Slime</style> oder <style=\"solid\">Phosphorite</style> bestückt werden."
+msgstr "Lockt eine Art von fliegenden Kreaturen an, wenn sie mit <style=\"solid\">Schleim</style> oder <style=\"solid\">Phosphorit</style> bestückt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME"
@@ -2644,12 +2644,12 @@ msgstr "Batterie"
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
 msgid "Logic input will become <style=\"logic\">Active</style> when battery is less than {0}% charged"
-msgstr "Der Logikeingang wird zu <style=\"logic\">Aktive</style>, wenn die Batterie weniger als {0}% geladen ist"
+msgstr "Der Logikeingang wird <style=\"logic\">Aktiv</style>, wenn die Batterie weniger als {0}% geladen ist"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
 msgid "Logic input will go on <style=\"logic\">Standby</style> when battery is more than {0}% charged"
-msgstr "Der Logikeingang geht auf <style=\"logic\">Standby</style> wenn die Batterie mehr als {0}% geladen ist"
+msgstr "Der Logikeingang wird <style=\"logic\">Inaktiv</style> wenn die Batterie mehr als {0}% geladen ist"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
@@ -2797,7 +2797,7 @@ msgstr "Deckenlampe"
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC"
 msgid "Checkpoints can be connected to automated sensors to determine when it is safe to enter."
-msgstr "Kontrollpunkte können mit Sensoren verknüpft werden, die sicheren Zugang detektieren."
+msgstr "Checkpoints können mit Sensoren verbunden werden, um festzustellen ob es sicher ist,  ein gebiet zu betreten."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
@@ -2808,7 +2808,7 @@ msgid ""
 msgstr ""
 "Erlaubt Duplikanten den Zugang wenn <style=\"logic\">Aktiv</style>.\n"
 "\n"
-"Verhindert Zugang wenn auf <style=\"logic\">Warten</style>."
+"Verhindert Zugang wenn <style=\"logic\">Inaktiv</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC"
@@ -3120,7 +3120,7 @@ msgstr "Elektrolyseur"
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
 msgid "This station only has an effect on crops grown within the same room."
-msgstr "Diese Station wirkt sich nur auf Kulturen aus, die im selben Raum angebaut werden."
+msgstr "Diese Station wirkt nur auf Pflanzen, die im selben Raum angebaut werden."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
@@ -3131,16 +3131,16 @@ msgid ""
 "\n"
 "This building is a necessary component of the Greenhouse room."
 msgstr ""
-"Produziert <style=\"solid\">Spurenelementdünger</style> zur Steigerung von <style=\"plant\">Pflanzenwachstumsraten</style>.\n"
+"Produziert <style=\"solid\">Spurenelementdünger</style> zur Steigerung des <style=\"plant\">Pflanzenwachstums</style>.\n"
 "\n"
 "Zugewiesene Duplikanten müssen die Eigenschaft <style=\"misc\">Pflanzenpflege</style> besitzen.\n"
 "\n"
-"Dieses Gebäude ist ein notwendiger Bestandteil des Gewächshauses."
+"Diese Station ist ein notwendiger Bestandteil des Gewächshauses."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
 msgid "Farm Station"
-msgstr "Landwitschaftsstation"
+msgstr "Landwitschafts-Station"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
@@ -3351,7 +3351,7 @@ msgstr "Automatisierte Leitungen sparen Zeit und Ressourcen, da keine Duplikante
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
 msgid "Automatically turns <style=\"gas\">Gas</style> flow on or off using <style=\"logic\">Automation</style> technology."
-msgstr "Schaltet automatisch den <style=\"gas\">Gasfluss</style> an oder aus durch Nutzung von <style=\"misc\">Automatisierung</style>."
+msgstr "Schaltet den <style=\"gas\">Gasfluss</style> durch Nutzung von <style=\"misc\">Automatisierung</style> an oder aus."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
@@ -3908,7 +3908,7 @@ msgstr "Automatisierte Rohrleitungen sparen Zeit und Ressourcen, da keine Duplik
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT"
 msgid "Automatically turns <style=\"liquid\">Liquid</style> flow on or off using <style=\"logic\">Automation</style> technology."
-msgstr "Schaltet automatisch den <style=\"liquid\">Flüssigkeitsfluss</style> an oder aus durch Nutzung von <style=\"misc\">Automatisierung</style>."
+msgstr "Schaltet den <style=\"liquid\">Flüssigkeitsfluss</style> durch Nutzung von <style=\"misc\">Automatisierung</style> an oder aus."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME"
@@ -4016,7 +4016,7 @@ msgstr "Detektiert das Auftreten und die Menge der sich in der Nähe befindliche
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
 msgid "<style=\"logic\">Active</style>/<style=\"logic\">Standby</style> depending on quantity of surrounding <style=\"disease\">Germs</style>."
-msgstr "<style=\"logic\">Aktiv</style>/<style=\"logic\">Wartet</style> abhängig von der Menge der <style=\"disease\">Keime</style> in der Umgebung."
+msgstr "<style=\"logic\">Aktiv</style>/<style=\"logic\">Inaktiv</style> abhängig von der <style=\"disease\">Keimanzahl</style> der Umgebung."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
@@ -4035,9 +4035,9 @@ msgid ""
 "\n"
 "Goes into <style=\"logic\">Standby</style> when one or both Inputs are on <style=\"logic\">Standby</style>."
 msgstr ""
-"Wird <style=\"logic\">Aktiv</style> wenn beide Eingaben <style=\"logic\">Aktiv</style> sind.\n"
+"Wird <style=\"logic\">Aktiv</style> wenn beide Eingänge <style=\"logic\">Aktiv</style> sind.\n"
 "\n"
-"Geht in <style=\"logic\">Warten</style> wenn eine oder beide Eingaben <style=\"logic\">Warten</style> sind."
+"Wird <style=\"logic\">Inaktiv</style> wenn einer der beiden Eingänge <style=\"logic\">Inaktiv</style> ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.NAME"
@@ -4056,9 +4056,9 @@ msgid ""
 "\n"
 "Stays <style=\"logic\">Active</style> for a short time after its Input enters <style=\"logic\">Standby</style>."
 msgstr ""
-"Wird <style=\"logic\">Aktiv</style> wenn die Eingabe <style=\"logic\">Aktiv</style> ist.\n"
+"Wird <style=\"logic\">Aktiv</style> wenn der Eingang <style=\"logic\">Aktiv</style> ist.\n"
 "\n"
-"Bleibt für eine kurze Zeit <style=\"logic\">Aktiv</style> wenn die Eingabe zu <style=\"logic\">Warten</style> wechselt."
+"Bleibt für eine kurze Zeit <style=\"logic\">Aktiv</style> wenn der Eingang zu <style=\"logic\">Inaktiv</style> wechselt."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.NAME"
@@ -4077,9 +4077,9 @@ msgid ""
 "\n"
 "Stays in <style=\"logic\">Standby</style> for a short time after its Input becomes <style=\"logic\">Active</style>."
 msgstr ""
-"Geht in <style=\"logic\">Warten</style> wenn die Eingabe ebenfalls <style=\"logic\">Warten</style> ist.\n"
+"Wird <style=\"logic\">Inaktiv</style> wenn der Eingang <style=\"logic\">Inaktiv</style> ist.\n"
 "\n"
-"Bleibt für eine kurze Zeit auf <style=\"logic\">Warten</style> wenn die Eingabe zu <style=\"logic\">Aktiv</style> wechselt."
+"Bleibt für eine kurze Zeit <style=\"logic\">Inaktiv</style> wenn der Eingang auf <style=\"logic\">Aktiv</style> wechselt."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME"
@@ -4098,9 +4098,9 @@ msgid ""
 "\n"
 "Goes into <style=\"logic\">Standby</style> when its Input is <style=\"logic\">Active</style>."
 msgstr ""
-"Wird <style=\"logic\">Aktiv</style> wenn die Eingabe <style=\"logic\">Warten</style> ist.\n"
+"Wird <style=\"logic\">Aktiv</style> wenn der Eingang <style=\"logic\">Inaktiv</style> ist.\n"
 "\n"
-"Wird <style=\"logic\">Warten</style> wenn die Eingabe <style=\"logic\">Aktiv</style> ist."
+"Wird <style=\"logic\">Inaktiv</style> wenn der Eingang <style=\"logic\">Aktiv</style> ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.NAME"
@@ -4119,9 +4119,9 @@ msgid ""
 "\n"
 "Goes into <style=\"logic\">Standby</style> when neither Inputs are <style=\"logic\">Active</style>."
 msgstr ""
-"Wird <style=\"logic\">Aktiv</style> wenn eine oder beide Eingaben <style=\"logic\">Aktiv</style> sind.\n"
+"Wird <style=\"logic\">Aktiv</style> wenn einer oder beide Eingänge <style=\"logic\">Aktiv</style> ist.\n"
 "\n"
-"Geht in <style=\"logic\">Warten</style> wenn keine der Eingaben <style=\"logic\">Aktiv</style> ist."
+"Wird <style=\"logic\">Inaktiv</style> wenn keiner der Eingänge <style=\"logic\">Aktiv</style> ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
@@ -4140,9 +4140,9 @@ msgid ""
 "\n"
 "Goes into <style=\"logic\">Standby</style> if both or neither Inputs are <style=\"logic\">Active</style>."
 msgstr ""
-"Wird <style=\"logic\">Aktiv</style> wenn nur eine der beiden Eingaben <style=\"logic\">Aktiv</style> sind.\n"
+"Wird <style=\"logic\">Aktiv</style> wenn nur ein Eingang <style=\"logic\">Aktiv</style> ist.\n"
 "\n"
-"Geht in <style=\"logic\">Warten</style> wenn keine oder beide der Eingaben <style=\"logic\">Aktiv</style> ist."
+"Wird <style=\"logic\">Inaktiv</style> wenn kein oder beide Eingänge <style=\"logic\">Aktiv</style> ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.NAME"
@@ -4196,7 +4196,7 @@ msgid ""
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
-"Schaltet automatisch den <style=\"power\">Strom</style> an oder aus durch <style=\"misc\">Automatisierung</style>.\n"
+"Schaltet den <style=\"power\">Strom</style> durch <style=\"misc\">Automatisierung</style> an oder aus.\n"
 "\n"
 "Betrifft keine Schaltkreise vor dem Schalter."
 
@@ -4218,12 +4218,12 @@ msgstr "Atmosensoren verhindern Überdruck und überflüssige Sauerstoffprodukti
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT"
 msgid "Becomes <style=\"logic\">Active</style> or on <style=\"logic\">Standby</style> when <style=\"gas\">Gas Pressure</style> enters the chosen range."
-msgstr "Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Wartet</style> wenn der <style=\"gas\">Gasdruck</style> im ausgewählten Bereich ist."
+msgstr "Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Inaktiv</style> wenn der <style=\"gas\">Gasdruck</style> im ausgewählten Bereich ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC"
 msgid "Active/Standby based on ambient <style=\"gas\">Gas Pressure</style>"
-msgstr "Aktiv/Warten basierend auf umgebendem <style=\"gas\">Gasdruck</style>"
+msgstr "Aktiv/Inaktiv basierend auf umgebendem <style=\"gas\">Gasdruck</style>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME"
@@ -4242,14 +4242,14 @@ msgid ""
 "\n"
 "Must be submerged in <style=\"liquid\">Liquid</style>."
 msgstr ""
-"Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Wartet</style> wenn der <style=\"gas\">Wasserdruck</style> im ausgewählten Bereich ist.\n"
+"Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Inaktiv</style> wenn der <style=\"gas\">Wasserdruck</style> im ausgewählten Bereich ist.\n"
 "\n"
 "Muss sich in <style=\"liquid\">Flüssigkeit</style> befinden."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_DESC"
 msgid "Active/Standby based on Ambient <style=\"liquid\">Liquid Pressure</style>"
-msgstr "Aktiv/Warten basierend auf umgebendem <style=\"gas\">Flüssigkeitsdruck</style>"
+msgstr "Aktiv/Inaktiv basierend auf umgebendem <style=\"gas\">Flüssigkeitsdruck</style>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME"
@@ -4268,14 +4268,14 @@ msgid ""
 "\n"
 "Must be manually toggled by a Duplicant."
 msgstr ""
-"Gibt <style=\"logic\">Aktiv</style> oder <style=\"logic\">Warten</style> an einen <style=\"logic\">Automatisierungsnetz</style>.\n"
+"Sendet <style=\"logic\">Aktiv</style> oder <style=\"logic\">Inaktiv</style> an ein <style=\"logic\">Automatisierungsnetz</style>.\n"
 "\n"
 "Muss manuell von einem Duplikanten umgeschaltet werden."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_DESC"
 msgid "Active/Standby"
-msgstr "Aktiv/Warten"
+msgstr "Aktiv/Inaktiv"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME"
@@ -4290,12 +4290,12 @@ msgstr "Thermosensoren können Gebäude deaktivieren, wenn sie die Betriebstempe
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT"
 msgid "Becomes <style=\"logic\">Active</style> or on <style=\"logic\">Standby</style> when ambient <style=\"heat\">Temperature</style> enters the chosen range."
-msgstr "Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Wartet</style> wenn die umgebende <style=\"heat\">Temperatur</style> den ausgewählten Bereich betritt."
+msgstr "Wird <style=\"logic\">Aktiv</style> oder <style=\"logic\">Inaktiv</style> wenn die umgebende <style=\"heat\">Temperatur</style> im ausgewählten Bereich ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on Ambient <style=\"temperature\">Temperature</style>"
-msgstr "Aktiv/Warten basierend auf der <style=\"temperatur\">Umgebungstemperatur</style>"
+msgstr "Aktiv/Inaktiv basierend auf der <style=\"temperatur\">Umgebungstemperatur</style>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME"
@@ -4310,7 +4310,7 @@ msgstr "Zeitsensoren stellen sicher, dass ein System immer zur selben Zeit in je
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT"
 msgid "Sets an automatic <style=\"logic\">Active</style> and <style=\"logic\">Standby</style> schedule using a timer."
-msgstr "Sendet <style=\"logic\">Aktiv</style> oder <style=\"logic\">Warten</style> abhängig vom eingestellten Zeitplan."
+msgstr "Sendet <style=\"logic\">Aktiv</style> oder <style=\"logic\">Inaktiv</style> abhängig vom eingestellten Zeitplan."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME"
@@ -4854,14 +4854,14 @@ msgid ""
 msgstr ""
 "Produziert <style=\"solid\">Mikrochips</style> zur Erhöhung der <style=\"power\">Stromleistung</style> von Generatoren.\n"
 "\n"
-"Zugewiesene Duplikate müssen die Eigenschaft <style=\"misc\">Feinabstimmung</style> besitzen.\n"
+"Zugewiesene Duplikanten müssen die Eigenschaft <style=\"misc\">Feinabstimmung</style> besitzen.\n"
 "\n"
-"Dieses Gebäude ist ein notwendiger Bestandteil des Kraftwerksraumes."
+"Dieses Gebäude ist ein notwendiger Bestandteil des Generatorraums."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME"
 msgid "Power Control Station"
-msgstr "Leistungsregulierungsstation"
+msgstr "Leistungssteuer-Station"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
@@ -5039,7 +5039,7 @@ msgstr "Zerstößt <style=\"RawMineral\">{0}</style> zu <style=\"solid\">{1}</st
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC"
 msgid "Employment can permanently improve Duplicants' skills and teach them unique traits."
-msgstr "Die Beschäftigung kann die Fähigkeiten der Duplikanten permanent verbessern und ihnen einzigartige Eigenschaften beibringen."
+msgstr "Die Beschäftigung in Berufen verbessert die Fähigkeiten der Duplikanten permanent und bringt ihnen einzigartige Fähigkeiten bei."
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT"
@@ -5148,7 +5148,7 @@ msgstr "Förderschinenbrücke"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC"
 msgid "The filters on a loader can be used to determine what materials should be sent down the rail."
-msgstr "Mit den Filtern eines Beladers kann bestimmt werden, welche Materialien über die Schiene transportiert werden sollen."
+msgstr "Durch Filter kann bestimmt werden, welche Materialien auf den Schienen transportiert werden sollen."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT"
@@ -5193,7 +5193,7 @@ msgid ""
 "\n"
 "Materials are automatically delivered to any <style=\"misc\">Conveyor Loaders</style>, <style=\"misc\">Receptacles</style>, storage, or buildings within range."
 msgstr ""
-"Automatisiert <style=\"misc\">Räum-</style> und <style=\"misc\">Versorgung-</style> Aufträge durch Aufsaugen des nahen <style=\"solid\">Schutts</style>.\n"
+"Automatisiert <style=\"misc\">Räum-</style> und <style=\"misc\">Versorgungsaufträge</style> durch aufsaugen des nahen <style=\"solid\">Schutts</style>.\n"
 "\n"
 "Materialien werden automatisch an jeden beliebigen <style=\"misc\">Förderschienenbelader</style>, <style=\"misc\">Förderbehälter</style>, Lager oder Gebäude in Reichweite geliefert."
 
@@ -5233,7 +5233,7 @@ msgid ""
 msgstr ""
 "Erzeugt bemerkenswerte elektrische <style=\"power\">Leistung</style> unter Verwendung von unter Druck stehendem <style=\"heat\">kochendem</style> <style=\"gas\">Dampf</style>.\n"
 "\n"
-"Gibt deutlich kühler <style=\"gas\">Dampf</style> ab, als er erhält.\n"
+"Gibt deutlich kühleren <style=\"gas\">Dampf</style> ab, als er erhält.\n"
 "\n"
 "Der Luftdruck unter diesem Gebäude muss höher sein als darüber, damit die Luft strömen kann."
 
@@ -5260,7 +5260,7 @@ msgstr "Lager-Verdichter"
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC"
 msgid "This improved version of the Storage Compactor becomes <style=\"logic\">Active</style> when full"
-msgstr "Diese verbesserte Version des Lagerverdichters wird zu <style=\"logic\">Aktive</style> wenn er voll ist"
+msgstr "Diese verbesserte Version des Lagerverdichters gibt ein <style=\"logic\">Aktiv</style> Signal aus wenn er voll ist"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
@@ -11933,7 +11933,6 @@ msgstr "Landwirt"
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
 msgid "This Duplicant enjoys performing <style=\"job\">{0}</style> jobs and will master them <style=\"misc\">{1}%</style> faster"
-
 msgstr "Dieser Duplikant genießt es den <style=\"misc\">{0}</style> Beruf auszuüben und wird diesen um <style=\"misc\">{1}%</style> schneller meistern"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
@@ -28157,13 +28156,13 @@ msgstr ""
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
 msgid "<b>Standby</b>This port is currently on standby"
 msgstr ""
-"<b>Standby</b>\n"
+"<b>Inaktiv</b>\n"
 "Dieses Ports sind derzeit inaktiv"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
 msgid "Standby"
-msgstr "Warten"
+msgstr "Inaktiv"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.BUTTON"
@@ -31046,7 +31045,7 @@ msgstr "Aktive Pufferzeit"
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP"
 msgid "This gate will continue to send an Active signal for {0} seconds after entering Standby"
-msgstr "Dieses Gatter sendet weiterhin ein Aktiv-Signal für {0} Sekunden, nachdem es das Wartesignal erhalten hat"
+msgstr "Dieses Gatter sendet weiterhin ein Aktiv-Signal für {0} Sekunden, nachdem es das Inaktivsignal erhalten hat"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
@@ -33081,4 +33080,3 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
-
