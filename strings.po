@@ -2135,7 +2135,7 @@ msgid ""
 msgstr ""
 "Diese Turbine dreht gerade hoch.\n"
 "\n"
-"Das Hochlaufen ermöglicht es einer Turbine, für kurze Zeit weiter zu laufen, wenn der benötigte Druck nicht mehr zur Verfügung steht"
+"Durch das Hochdrehen kann eine Turbine für kurze Zeit weiterlaufen, wenn der erforderliche Druck nicht mehr verfügbar ist"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME"
@@ -5682,7 +5682,7 @@ msgstr ""
 "\n"
 "Führt ein Kabel über ein anderes, ohne sie zu verbinden.\n"
 "\n"
-"Kann nicht in Ziegel verlegt werden."
+"Kann in Ziegel verlegt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME"
@@ -8756,6 +8756,7 @@ msgid "No current need"
 msgstr "Kein aktueller Bedarf"
 
 # Wer oder was ist denn selektiert?
+# -Ich geh mal von ner Auswahl eines Duplikanten aus dem String nach ka wo der Text benutzt wird
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER
 #, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
@@ -11884,7 +11885,7 @@ msgstr "Spezies: {0}"
 #. STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
 msgid "Artists are experienced sculptors and painters and create higher quality art."
-msgstr "Künstler sind erfahrene Bildhauer und Maler und schaffen qualitativ hochwertigere Kunstwerke."
+msgstr "Künstler sind erfahrene Bildhauer und Maler und schaffen hochwertige Kunst."
 
 #. STRINGS.DUPLICANTS.ROLES.ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
@@ -19971,11 +19972,9 @@ msgstr "Instabil"
 
 #. STRINGS.MISC.TAGS.WIRING
 #, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME"
-#| msgid "Disable Delivery"
 msgctxt "STRINGS.MISC.TAGS.WIRING"
 msgid "Wire Build-Delivery"
-msgstr "Lieferung deaktivieren"
+msgstr "Drahtbau-Lieferung"
 
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC"
@@ -22949,7 +22948,7 @@ msgstr "Deine Kolonie braucht Strom? So wird's gemacht!"
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.NAME"
 msgid "Refinement"
-msgstr "Veredelung"
+msgstr "Veredeln"
 
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.TOOLTIP"
@@ -29253,7 +29252,7 @@ msgstr "BERUFE"
 #. STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING
 msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
 msgid "Build a Jobs Board to unlock Job Assignments"
-msgstr "Baue einen Stellenmarkt, um auf Berufszuweisungen zuzugreifen"
+msgstr "Baue einen Stellenmarkt, um Berufe zuweisen zu können"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
@@ -30109,7 +30108,7 @@ msgstr "Nachricht ausblenden"
 #. STRINGS.UI.TOOLTIPS.EDITCREATURENAME
 msgctxt "STRINGS.UI.TOOLTIPS.EDITCREATURENAME"
 msgid "Give this lil' creature a new name"
-msgstr "Gib dieser kleinen Kreatur einen Namen"
+msgstr "Gib dieser kleinen Kreatur einen neuen Namen"
 
 #. STRINGS.UI.TOOLTIPS.EDITNAME
 msgctxt "STRINGS.UI.TOOLTIPS.EDITNAME"
@@ -33211,111 +33210,3 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
-#~ msgid "Too Cold"
-#~ msgstr "Zu kalt"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
-#~ msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}"
-#~ msgstr "Das {ELEMENT}, das für den Betrieb der Turbine verwendet wird, muss mindestens {TEMPERATURE} haben."
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.TOOLTIP"
-#~ msgid "The turbine needs more time to spin up"
-#~ msgstr "Die Turbine benötigt mehr Zeit um Hochlaufen"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.EFFECT"
-#~ msgid ""
-#~ "Runs one wire section over another without joining them.\n"
-#~ "\n"
-#~ "Can be run through tiles."
-#~ msgstr ""
-#~ "Führt einen Kabelabschnitt über einen anderen ohne sie zu verbinden.\n"
-#~ "\n"
-#~ "Kann durch Ziegel geführt werden."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
-#~ msgid ""
-#~ "Allows Heavi-Watt Wire to be run through wall and floor tiles.\n"
-#~ "\n"
-#~ "Functions as a regular tile."
-#~ msgstr ""
-#~ "Erlaubt Starke Leiterkabel durch Wand- und Bodenziegel zu führen.\n"
-#~ "\n"
-#~ "Funktioniert wie ein normaler Ziegel."
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
-#~ msgid "Errands {Selected} could perform here:"
-#~ msgstr "Die Aufträge {Selected} konnten hier ausgeführt werden:"
-
-#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
-#~ msgid ""
-#~ "\n"
-#~ "Wears off in: {0}"
-#~ msgstr ""
-#~ "\n"
-#~ "Läuft ab in: {0}"
-
-#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_TOTAL"
-#~ msgid ""
-#~ "\n"
-#~ "Effect duration: {0}"
-#~ msgstr ""
-#~ "\n"
-#~ "Dauer des Effekts: {0}"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
-#~ msgid "Artists make better art"
-#~ msgstr "Künstler machen bessere Kunst"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#~ msgid "Builders can build buildings faster"
-#~ msgstr "Bauarbeiter bauen schneller"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION"
-#~ msgid "Artists make better art"
-#~ msgstr "Künstler machen bessere Kunst"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
-#~ msgid "Builders can build buildings faster"
-#~ msgstr "Bauarbeiter können schneller bauen"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION"
-#~ msgid "This Duplicant has not been assigned a job"
-#~ msgstr "Diesem Duplikant wurde kein Beruf zugewiesen"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION"
-#~ msgid "Builders can build buildings faster"
-#~ msgstr "Bauarbeiter können schneller bauen"
-
-#~ msgctxt "STRINGS.MISC.TAGS.ART"
-#~ msgid "Wiring-related delivery and building"
-#~ msgstr "Kunstbezogene Lieferung"
-
-#~ msgctxt "STRINGS.MISC.TAGS.BUILDING"
-#~ msgid "Build-related delivery and digging"
-#~ msgstr "Baubezogene Anlieferung und Grabung"
-
-#~ msgctxt "STRINGS.MISC.TAGS.CONVEYOR"
-#~ msgid "Shipping-related building"
-#~ msgstr "Versandbezogene Gebäude"
-
-#~ msgctxt "STRINGS.MISC.TAGS.COOKING"
-#~ msgid "Cooking-related delivery"
-#~ msgstr "Kochbezogene Lieferung"
-
-#~ msgctxt "STRINGS.MISC.TAGS.DOCTORING"
-#~ msgid "Medicine-related delivery"
-#~ msgstr "Medizinbezogene Lieferung"
-
-#~ msgctxt "STRINGS.MISC.TAGS.FARMING"
-#~ msgid "Farming-related building and delivery"
-#~ msgstr "Landwirtschaftsbezogene Erstellung und Lieferung"
-
-#~ msgctxt "STRINGS.MISC.TAGS.POWER"
-#~ msgid "Power-related delivery"
-#~ msgstr "Energiebezogene Lieferung"
-
-#~ msgctxt "STRINGS.MISC.TAGS.WIRING"
-#~ msgid "Wiring-related delivery and building"
-#~ msgstr "Verdrahtungsbezogene Lieferung und Erstellung"
