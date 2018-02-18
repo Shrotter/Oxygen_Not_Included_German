@@ -1531,11 +1531,11 @@ msgstr "Außerhalb von {0}"
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP"
 msgid ""
-"It is recommended to place this building inside a {0}\n"
+"It is recommended to build this building inside a {0}\n"
 "\n"
 "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
 msgstr ""
-"Es wird empfohlen, dieses Gebäude innerhalb eines {0} zu platzieren\n"
+"Es wird empfohlen, dieses Gebäude innerhalb eines/einer {0} zu bauen\n"
 "\n"
 "Öffnen Sie das Raum-Overlay <color=#F44A47>[F11]</color>, um den Raumstatus anzuzeigen"
 
@@ -1551,7 +1551,7 @@ msgid ""
 "\n"
 "Open the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
 msgstr ""
-"Dieses Gebäude muss innerhalb eines {0} gebaut werden, um die volle Funktionalität zu erhalten\n"
+"Dieses Gebäude muss innerhalb eines/einer {0} gebaut werden, um die volle Funktionalität zu erhalten\n"
 "\n"
 "Öffnen Sie das Raum-Overlay <color=#F44A47>[F11]</color>, um den Raumstatus anzuzeigen"
 
@@ -2108,18 +2108,18 @@ msgstr "Druck zu niedirg"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP"
-msgid "This turbine must have {MASS} more {ELEMENT} below it than above it in order to run"
-msgstr "Die Turbine muss mindestens {MASS} mehr {ELEMENT} unter ihr als darüber haben um zu laufen"
+msgid "The {ELEMENT} present below this turbine must be {MASS} more pressurized than the {ELEMENT} above it in order to turn the turbine"
+msgstr "Das {ELEMENT}, das sich unter dieser Turbine befindet, muss unter einem höheren Druck stehen als das {ELEMENT} darüber, um die Turbine anzutreiben"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
-msgid "Too Cold"
-msgstr "Zu kalt"
+msgid "Cold {ELEMENT}"
+msgstr "Kaltes {ELEMENT}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
-msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}"
-msgstr "Das {ELEMENT}, das für den Betrieb der Turbine verwendet wird, muss mindestens {TEMPERATURE} haben."
+msgid "This turbine requires {ELEMENT} that is a minimum of {TEMPERATURE}"
+msgstr "Diese Turbine benötigt {ELEMENT}, mit einer minimalen Temperatur von {TEMPERATUR}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME"
@@ -2128,8 +2128,14 @@ msgstr "Hochdrehen"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.TOOLTIP"
-msgid "The turbine needs more time to spin up"
-msgstr "Die Turbine benötigt mehr Zeit um Hochlaufen"
+msgid ""
+"This turbine is currently spinning up\n"
+"\n"
+"Spinning up allows a turbine to continue running for a short period if the pressure it needs to run becomes unanavailable"
+msgstr ""
+"Diese Turbine dreht gerade hoch.\n"
+"\n"
+"Das Hochlaufen ermöglicht es einer Turbine, für kurze Zeit weiter zu laufen, wenn der benötigte Druck nicht mehr zur Verfügung steht"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME"
@@ -5666,13 +5672,17 @@ msgstr "Generatoren auf unterschiedliche Systeme aufzuteilen reduziert die Gefah
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.EFFECT"
 msgid ""
+"Carries more <style=\"power\">Wattage</style> than a regular Wire Bridge without overloading.\n"
+"\n"
 "Runs one wire section over another without joining them.\n"
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Führt einen Kabelabschnitt über einen anderen ohne sie zu verbinden.\n"
+"Überträgt eine höhere <style=\"power\">Wattzahl</style> als eine normale Kabelbrücke ohne zu überladen.\n"
 "\n"
-"Kann durch Ziegel geführt werden."
+"Führt ein Kabel über ein anderes, ohne sie zu verbinden.\n"
+"\n"
+"Kann nicht in Ziegel verlegt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME"
@@ -5687,13 +5697,17 @@ msgstr "Verbindungsplatten können Starkstromkabel durch Wände führen ohne Gas
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
 msgid ""
+"Carries more <style=\"power\">Wattage</style> than a regular Heavi-Watt Joint Plate without overloading.\n"
+"\n"
 "Allows Heavi-Watt Wire to be run through wall and floor tiles.\n"
 "\n"
 "Functions as a regular tile."
 msgstr ""
-"Erlaubt Starke Leiterkabel durch Wand- und Bodenziegel zu führen.\n"
+"Überträgt eine höhere <style=\"power\">Wattzahl</style> als eine normale Starkstrom-Verbindungsplatte ohne zu überladen.\n"
 "\n"
-"Funktioniert wie ein normaler Ziegel."
+"Erlaubt starke Leiterkabel durch Wand- und Bodenziegel zu führen.\n"
+"\n"
+"Funktioniert als regulärer Ziegel."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.NAME"
@@ -7555,6 +7569,11 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
 msgid "Food Quality Expectation"
 msgstr "Nahrungsqualitäts-Erwartung"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME"
+msgid "Power Output"
+msgstr "Ausgangsleistung"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.DESC"
 msgid "Health regeneration is increased when another Duplicant provides medical care to the patient"
@@ -8736,10 +8755,12 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_URGE"
 msgid "No current need"
 msgstr "Kein aktueller Bedarf"
 
+# Wer oder was ist denn selektiert?
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
-msgid "Errands {Selected} could perform here:"
-msgstr "Die Aufträge {Selected} konnten hier ausgeführt werden:"
+msgid "The selected {Selected} could:"
+msgstr "Der/Die/Das ausgewählte {Selected} konnte:"
 
 # Führt zu nervigem Clipping im Baumenü, daher abgekürzt.
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ALLOWED_BY_AUTOMATION
@@ -10605,8 +10626,8 @@ msgstr "Ingenieurgebastel"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.TOOLTIP"
-msgid "A skilled Engineer has fine tuned all the gears and sprockets to make things run faster"
-msgstr "Ein erfahrener Ingenieur hat alle Zahnräder und Kettenräder fein abgestimmt, damit alles schneller läuft"
+msgid "A skilled Engineer has jerryrigged this generator to temporarily run faster"
+msgstr "Ein erfahrener Ingenieur hat am Generator herum gebastelt damit er kurzfristig schneller läuft"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME"
@@ -11104,19 +11125,19 @@ msgstr "Dieser Duplikant hat letzte Nacht wegen des Lärms kein Auge zugemacht"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
 msgid ""
 "\n"
-"Wears off in: {0}"
+"Time Remaining: {0}"
 msgstr ""
 "\n"
-"Läuft ab in: {0}"
+"Verbleibende Zeit: {0}"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TIME_TOTAL
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_TOTAL"
 msgid ""
 "\n"
-"Effect duration: {0}"
+"Duration: {0}"
 msgstr ""
 "\n"
-"Dauer des Effekts: {0}"
+"Dauer: {0}"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME"
@@ -11862,8 +11883,8 @@ msgstr "Spezies: {0}"
 
 #. STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
-msgid "Artists make better art"
-msgstr "Künstler machen bessere Kunst"
+msgid "Artists are experienced sculptors and painters and create higher quality art."
+msgstr "Künstler sind erfahrene Bildhauer und Maler und schaffen qualitativ hochwertigere Kunstwerke."
 
 #. STRINGS.DUPLICANTS.ROLES.ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
@@ -11882,8 +11903,8 @@ msgstr "Botaniker"
 
 #. STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-msgid "Builders can build buildings faster"
-msgstr "Bauarbeiter bauen schneller"
+msgid "Architects are competent builders with moderately improved construction speeds."
+msgstr "Architekten sind kompetente Baumeister mit moderat verbesserter Baugeschwindigkeit."
 
 #. STRINGS.DUPLICANTS.ROLES.BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.NAME"
@@ -11957,8 +11978,8 @@ msgstr "Laufbursche"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION"
-msgid "Artists make better art"
-msgstr "Künstler machen bessere Kunst"
+msgid "Artist Students are new artists who make improved paintings and sculptures."
+msgstr "Kunststudenten sind Nachwuchskünstler, die verbesserte Gemälde und Skulpturen schaffen."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME"
@@ -11967,8 +11988,8 @@ msgstr "Kunststudent"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
-msgid "Builders can build buildings faster"
-msgstr "Bauarbeiter können schneller bauen"
+msgid "Apprentice Architects are new builders with marginally improved construction speeds."
+msgstr "Lernende Architekten sind junge Baumeister mit geringfügig verbesserter Baugeschwindigkeit."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME"
@@ -12067,8 +12088,8 @@ msgstr "Minenarbeiter"
 
 #. STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION"
-msgid "This Duplicant has not been assigned a job"
-msgstr "Diesem Duplikant wurde kein Beruf zugewiesen"
+msgid "No job assignment."
+msgstr "Kein Beruf zugeordnet."
 
 #. STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME"
@@ -12112,8 +12133,8 @@ msgstr "Gemeisterter Beruf"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION"
-msgid "Builders can build buildings faster"
-msgstr "Bauarbeiter können schneller bauen"
+msgid "Senior Architects are experienced builders with vastly improved construction speeds."
+msgstr "Senior Architekten sind erfahrene Baumeister mit deutlich verbesserter Baugeschwindigkeit."
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME"
@@ -12133,7 +12154,7 @@ msgstr "Erfahrener Landwirt"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
 msgid "Miners have improved digging ability"
-msgstr "Minenarbeiter haben eine verbesserte Grabe Fähigkeit"
+msgstr "Minenarbeiter haben eine verbesserte Grabefähigkeit"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
@@ -13649,8 +13670,8 @@ msgstr "Ordne {Item} zu {Target} zu"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.TOOLTIP"
-msgid "This Duplicant is delivering {Item} resources to a {Target} construction errand"
-msgstr "Dieser Duplikant liefert {Item} zu einem {Target} Bauauftrag"
+msgid "This Duplicant is delivering materials to a {Target} construction errand"
+msgstr "Dieser Duplikant liefert Material zu einem {Target} Bauauftrag"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREPRIORITYDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREPRIORITYDELIVERSTATUS.NAME"
@@ -14711,6 +14732,11 @@ msgctxt "STRINGS.ELEMENTS.CEMENTMIX.NAME"
 msgid "Cement Mix"
 msgstr "Zementmischung"
 
+#. STRINGS.ELEMENTS.CHLORINE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.CHLORINE.BUILD_DESC"
+msgid ""
+msgstr ""
+
 #. STRINGS.ELEMENTS.CHLORINE.DESC
 msgctxt "STRINGS.ELEMENTS.CHLORINE.DESC"
 msgid "(Cl) Chlorine is an extremely toxic element in a <style=\"solid\">Solid</style> state."
@@ -14831,6 +14857,11 @@ msgctxt "STRINGS.ELEMENTS.CRUDEOIL.NAME"
 msgid "Crude Oil"
 msgstr "Rohöl"
 
+#. STRINGS.ELEMENTS.CRUSHEDICE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.CRUSHEDICE.BUILD_DESC"
+msgid ""
+msgstr "\n"
+
 #. STRINGS.ELEMENTS.CRUSHEDICE.DESC
 msgctxt "STRINGS.ELEMENTS.CRUSHEDICE.DESC"
 msgid "(H<sub>2</sub>0) A slush of crushed, semi-solid ice."
@@ -14918,6 +14949,11 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.DIRT.NAME"
 msgid "Dirt"
 msgstr "Erde"
+
+#. STRINGS.ELEMENTS.DIRTYICE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.DIRTYICE.BUILD_DESC"
+msgid ""
+msgstr "\n"
 
 #. STRINGS.ELEMENTS.DIRTYICE.DESC
 msgctxt "STRINGS.ELEMENTS.DIRTYICE.DESC"
@@ -15188,6 +15224,11 @@ msgstr "(H) Wasserstoff ist das im Universum häufigste und ein atomar leichtes 
 msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
 msgid "Hydrogen"
 msgstr "Wasserstoff"
+
+#. STRINGS.ELEMENTS.ICE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.ICE.BUILD_DESC"
+msgid ""
+msgstr ""
 
 #. STRINGS.ELEMENTS.ICE.DESC
 msgctxt "STRINGS.ELEMENTS.ICE.DESC"
@@ -15670,6 +15711,11 @@ msgctxt "STRINGS.ELEMENTS.OXYGEN.NAME"
 msgid "Oxygen"
 msgstr "Sauerstoff"
 
+#. STRINGS.ELEMENTS.OXYROCK.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.OXYROCK.BUILD_DESC"
+msgid ""
+msgstr ""
+
 #. STRINGS.ELEMENTS.OXYROCK.DESC
 msgctxt "STRINGS.ELEMENTS.OXYROCK.DESC"
 msgid ""
@@ -15809,6 +15855,11 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.PROPANE.NAME"
 msgid "Propane"
 msgstr "Propan"
+
+#. STRINGS.ELEMENTS.RADIUM.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.RADIUM.BUILD_DESC"
+msgid ""
+msgstr ""
 
 #. STRINGS.ELEMENTS.RADIUM.DESC
 msgctxt "STRINGS.ELEMENTS.RADIUM.DESC"
@@ -15950,6 +16001,11 @@ msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.NAME"
 msgid "Slime"
 msgstr "Schleim"
 
+#. STRINGS.ELEMENTS.SNOW.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SNOW.BUILD_DESC"
+msgid ""
+msgstr "\n"
+
 #. STRINGS.ELEMENTS.SNOW.DESC
 msgctxt "STRINGS.ELEMENTS.SNOW.DESC"
 msgid ""
@@ -15976,6 +16032,11 @@ msgctxt "STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.NAME"
 msgid "Carbon Dioxide"
 msgstr "Kohlenstoffdioxid"
 
+#. STRINGS.ELEMENTS.SOLIDCHLORINE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.BUILD_DESC"
+msgid ""
+msgstr ""
+
 #. STRINGS.ELEMENTS.SOLIDCHLORINE.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.DESC"
 msgid "(Cl) Chlorine is a toxic chemical element in a <style=\"solid\">Solid</style> state."
@@ -15986,6 +16047,11 @@ msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.NAME"
 msgid "Chlorine"
 msgstr "Chlor"
 
+#. STRINGS.ELEMENTS.SOLIDCRUDEOIL.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDCRUDEOIL.BUILD_DESC"
+msgid ""
+msgstr ""
+
 #. STRINGS.ELEMENTS.SOLIDCRUDEOIL.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDCRUDEOIL.DESC"
 msgid "Crude Oil is a raw potential <style=\"power\">Power</style> source in a <style=\"solid\">Solid</style> state."
@@ -15995,6 +16061,11 @@ msgstr "Rohöl ist eine potenzielle <style=\"power\">Energiequelle</style> im <s
 msgctxt "STRINGS.ELEMENTS.SOLIDCRUDEOIL.NAME"
 msgid "Crude Oil"
 msgstr "Rohöl"
+
+#. STRINGS.ELEMENTS.SOLIDHYDROGEN.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.BUILD_DESC"
+msgid ""
+msgstr "\n"
 
 #. STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC"
@@ -16021,6 +16092,11 @@ msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.NAME"
 msgid "Mercury"
 msgstr "Quecksilber"
 
+#. STRINGS.ELEMENTS.SOLIDMETHANE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.BUILD_DESC"
+msgid ""
+msgstr ""
+
 #. STRINGS.ELEMENTS.SOLIDMETHANE.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.DESC"
 msgid "(CH<sub>4</sub>) Methane is an alkane in a <style=\"solid\">Solid</style> state."
@@ -16030,6 +16106,11 @@ msgstr "(CH<sub>4</sub>) Methan ist ein Alkan in <style=\"solid\">festem</style>
 msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.NAME"
 msgid "Methane"
 msgstr "Methan"
+
+#. STRINGS.ELEMENTS.SOLIDNAPHTHA.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.BUILD_DESC"
+msgid ""
+msgstr "\n"
 
 #. STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC"
@@ -16041,6 +16122,11 @@ msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.NAME"
 msgid "Naphtha"
 msgstr "Naphtha"
 
+#. STRINGS.ELEMENTS.SOLIDOXYGEN.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.BUILD_DESC"
+msgid ""
+msgstr "\n"
+
 #. STRINGS.ELEMENTS.SOLIDOXYGEN.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.DESC"
 msgid "(O<sub>2</sub>) Oxygen is a breathable element in a <style=\"solid\">Solid</style> state."
@@ -16050,6 +16136,11 @@ msgstr "(O<sub>2</sub>) Sauerstoff ist ein atembares Element in <style=\"solid\"
 msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.NAME"
 msgid "Oxygen"
 msgstr "Sauerstoff"
+
+#. STRINGS.ELEMENTS.SOLIDPETROLEUM.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.BUILD_DESC"
+msgid ""
+msgstr "\n"
 
 #. STRINGS.ELEMENTS.SOLIDPETROLEUM.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.DESC"
@@ -16131,6 +16222,11 @@ msgctxt "STRINGS.ELEMENTS.STEELGAS.NAME"
 msgid "Steel"
 msgstr "Stahl"
 
+#. STRINGS.ELEMENTS.TOXICSAND.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.TOXICSAND.BUILD_DESC"
+msgid ""
+msgstr "\n"
+
 #. STRINGS.ELEMENTS.TOXICSAND.DESC
 msgctxt "STRINGS.ELEMENTS.TOXICSAND.DESC"
 msgid ""
@@ -16168,6 +16264,11 @@ msgctxt "STRINGS.ELEMENTS.TUNGSTEN.NAME"
 msgid "Tungsten"
 msgstr "Wolfram"
 
+#. STRINGS.ELEMENTS.TUNGSTENDISELENIDE.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDE.BUILD_DESC"
+msgid ""
+msgstr "\n"
+
 #. STRINGS.ELEMENTS.TUNGSTENDISELENIDE.DESC
 msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDE.DESC"
 msgid ""
@@ -16203,6 +16304,11 @@ msgstr "(W) Wolfram ist ein extrem heißes kristallines <style=\"RawMetal\">Meta
 msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.NAME"
 msgid "Tungsten"
 msgstr "Wolfram"
+
+#. STRINGS.ELEMENTS.UNOBTANIUM.BUILD_DESC
+msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.BUILD_DESC"
+msgid ""
+msgstr ""
 
 #. STRINGS.ELEMENTS.UNOBTANIUM.DESC
 msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.DESC"
@@ -19497,9 +19603,12 @@ msgid "Water Based"
 msgstr "Wasserbasiert"
 
 #. STRINGS.MISC.TAGS.ART
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
+#| msgid "Awaiting Delivery"
 msgctxt "STRINGS.MISC.TAGS.ART"
-msgid "Wiring-related delivery and building"
-msgstr "Kunstbezogene Lieferung"
+msgid "Art Build-Delivery"
+msgstr "Warte auf Lieferung"
 
 #. STRINGS.MISC.TAGS.BAGABLECREATURE
 msgctxt "STRINGS.MISC.TAGS.BAGABLECREATURE"
@@ -19537,9 +19646,12 @@ msgid "Raw Mineral"
 msgstr "Rohmineral"
 
 #. STRINGS.MISC.TAGS.BUILDING
+#, fuzzy
+#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME"
+#| msgid "Disable Delivery"
 msgctxt "STRINGS.MISC.TAGS.BUILDING"
-msgid "Build-related delivery and digging"
-msgstr "Baubezogene Anlieferung und Grabung"
+msgid "Build Dig-Delivery"
+msgstr "Lieferung deaktivieren"
 
 #. STRINGS.MISC.TAGS.BURNS
 msgctxt "STRINGS.MISC.TAGS.BURNS"
@@ -19582,14 +19694,17 @@ msgid "Consumable Ore"
 msgstr "Verbrauchbares Erz"
 
 #. STRINGS.MISC.TAGS.CONVEYOR
+#, fuzzy
+#| msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME"
+#| msgid "Shipping"
 msgctxt "STRINGS.MISC.TAGS.CONVEYOR"
-msgid "Shipping-related building"
-msgstr "Versandbezogene Gebäude"
+msgid "Shipping Build"
+msgstr "Transport"
 
 #. STRINGS.MISC.TAGS.COOKING
 msgctxt "STRINGS.MISC.TAGS.COOKING"
-msgid "Cooking-related delivery"
-msgstr "Kochbezogene Lieferung"
+msgid "Cook Delivery"
+msgstr "Kochlieferung"
 
 #. STRINGS.MISC.TAGS.COOKINGINGREDIENT
 msgctxt "STRINGS.MISC.TAGS.COOKINGINGREDIENT"
@@ -19608,8 +19723,8 @@ msgstr "Dekoration"
 
 #. STRINGS.MISC.TAGS.DOCTORING
 msgctxt "STRINGS.MISC.TAGS.DOCTORING"
-msgid "Medicine-related delivery"
-msgstr "Medizinbezogene Lieferung"
+msgid "Care Delivery"
+msgstr "Pflegelieferung"
 
 #. STRINGS.MISC.TAGS.EDIBLE
 msgctxt "STRINGS.MISC.TAGS.EDIBLE"
@@ -19627,8 +19742,11 @@ msgid "Extrudable"
 msgstr "Formbar"
 
 #. STRINGS.MISC.TAGS.FABRICATING
+#, fuzzy
+#| msgctxt "STRINGS.MISC.TAGS.FABRICATING"
+#| msgid "Fabrication-related delivery"
 msgctxt "STRINGS.MISC.TAGS.FABRICATING"
-msgid "Fabrication-related delivery"
+msgid "Fabricate Delivery"
 msgstr "Fertigungsbezogene Lieferung"
 
 #. STRINGS.MISC.TAGS.FARMABLE
@@ -19638,8 +19756,8 @@ msgstr "Nährstoffreiche Erde"
 
 #. STRINGS.MISC.TAGS.FARMING
 msgctxt "STRINGS.MISC.TAGS.FARMING"
-msgid "Farming-related building and delivery"
-msgstr "Landwirtschaftsbezogene Erstellung und Lieferung"
+msgid "Farm Build-Delivery"
+msgstr ""
 
 #. STRINGS.MISC.TAGS.FARMSTATION
 msgctxt "STRINGS.MISC.TAGS.FARMSTATION"
@@ -19773,8 +19891,8 @@ msgstr "Pumpbar"
 
 #. STRINGS.MISC.TAGS.POWER
 msgctxt "STRINGS.MISC.TAGS.POWER"
-msgid "Power-related delivery"
-msgstr "Energiebezogene Lieferung"
+msgid "Generator Delivery"
+msgstr "Generatorlieferung"
 
 #. STRINGS.MISC.TAGS.POWERSTATION
 msgctxt "STRINGS.MISC.TAGS.POWERSTATION"
@@ -19803,8 +19921,8 @@ msgstr "Freizeitbereich"
 
 #. STRINGS.MISC.TAGS.RESEARCH
 msgctxt "STRINGS.MISC.TAGS.RESEARCH"
-msgid "Research-related delivery"
-msgstr "Forschungsbezogene Lieferung"
+msgid "Research Delivery"
+msgstr "Forschungslieferung"
 
 #. STRINGS.MISC.TAGS.SEED
 msgctxt "STRINGS.MISC.TAGS.SEED"
@@ -19852,9 +19970,12 @@ msgid "Unstable"
 msgstr "Instabil"
 
 #. STRINGS.MISC.TAGS.WIRING
+#, fuzzy
+#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME"
+#| msgid "Disable Delivery"
 msgctxt "STRINGS.MISC.TAGS.WIRING"
-msgid "Wiring-related delivery and building"
-msgstr "Verdrahtungsbezogene Lieferung und Erstellung"
+msgid "Wire Build-Delivery"
+msgstr "Lieferung deaktivieren"
 
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC"
@@ -23441,7 +23562,7 @@ msgstr "Pflanzen wachsen langsamer, wenn sie in Kisten gehalten werden"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
 msgid "This building gains additional effects or functionality when built inside a {0}"
-msgstr "Dieses Gebäude erhält zusätzliche Effekte oder Funktionalität, wenn es innerhalb eines {0} gebaut wird."
+msgstr "Dieses Gebäude erhält zusätzliche Effekte oder Funktionalitäten, wenn es innerhalb eines/einer {0} gebaut wird."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
@@ -29131,8 +29252,8 @@ msgstr "BERUFE"
 
 #. STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING
 msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
-msgid "Build a Jobs Desk to unlock Job Assignments"
-msgstr "Baue einen Stellenmarkt, um Berufszuweisungen zuzugreifen"
+msgid "Build a Jobs Board to unlock Job Assignments"
+msgstr "Baue einen Stellenmarkt, um auf Berufszuweisungen zuzugreifen"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
@@ -29985,6 +30106,11 @@ msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
 msgid "Dismiss message"
 msgstr "Nachricht ausblenden"
 
+#. STRINGS.UI.TOOLTIPS.EDITCREATURENAME
+msgctxt "STRINGS.UI.TOOLTIPS.EDITCREATURENAME"
+msgid "Give this lil' creature a new name"
+msgstr "Gib dieser kleinen Kreatur einen Namen"
+
 #. STRINGS.UI.TOOLTIPS.EDITNAME
 msgctxt "STRINGS.UI.TOOLTIPS.EDITNAME"
 msgid "Give this Duplicant a new name"
@@ -30287,6 +30413,11 @@ msgstr "Ziehen, um Aufträge neu zu priorisieren"
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON"
 msgid ""
 msgstr ""
+
+#. STRINGS.UI.TOOLTIPS.RANDOMIZECREATURENAME
+msgctxt "STRINGS.UI.TOOLTIPS.RANDOMIZECREATURENAME"
+msgid "Randomize this creature's name"
+msgstr "Wähle zufälligen Namen für diese Kreatur"
 
 #. STRINGS.UI.TOOLTIPS.RANDOMIZENAME
 msgctxt "STRINGS.UI.TOOLTIPS.RANDOMIZENAME"
@@ -33080,3 +33211,111 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
+#~ msgid "Too Cold"
+#~ msgstr "Zu kalt"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
+#~ msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}"
+#~ msgstr "Das {ELEMENT}, das für den Betrieb der Turbine verwendet wird, muss mindestens {TEMPERATURE} haben."
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.TOOLTIP"
+#~ msgid "The turbine needs more time to spin up"
+#~ msgstr "Die Turbine benötigt mehr Zeit um Hochlaufen"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.EFFECT"
+#~ msgid ""
+#~ "Runs one wire section over another without joining them.\n"
+#~ "\n"
+#~ "Can be run through tiles."
+#~ msgstr ""
+#~ "Führt einen Kabelabschnitt über einen anderen ohne sie zu verbinden.\n"
+#~ "\n"
+#~ "Kann durch Ziegel geführt werden."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
+#~ msgid ""
+#~ "Allows Heavi-Watt Wire to be run through wall and floor tiles.\n"
+#~ "\n"
+#~ "Functions as a regular tile."
+#~ msgstr ""
+#~ "Erlaubt Starke Leiterkabel durch Wand- und Bodenziegel zu führen.\n"
+#~ "\n"
+#~ "Funktioniert wie ein normaler Ziegel."
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
+#~ msgid "Errands {Selected} could perform here:"
+#~ msgstr "Die Aufträge {Selected} konnten hier ausgeführt werden:"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
+#~ msgid ""
+#~ "\n"
+#~ "Wears off in: {0}"
+#~ msgstr ""
+#~ "\n"
+#~ "Läuft ab in: {0}"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_TOTAL"
+#~ msgid ""
+#~ "\n"
+#~ "Effect duration: {0}"
+#~ msgstr ""
+#~ "\n"
+#~ "Dauer des Effekts: {0}"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
+#~ msgid "Artists make better art"
+#~ msgstr "Künstler machen bessere Kunst"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
+#~ msgid "Builders can build buildings faster"
+#~ msgstr "Bauarbeiter bauen schneller"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION"
+#~ msgid "Artists make better art"
+#~ msgstr "Künstler machen bessere Kunst"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
+#~ msgid "Builders can build buildings faster"
+#~ msgstr "Bauarbeiter können schneller bauen"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION"
+#~ msgid "This Duplicant has not been assigned a job"
+#~ msgstr "Diesem Duplikant wurde kein Beruf zugewiesen"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.DESCRIPTION"
+#~ msgid "Builders can build buildings faster"
+#~ msgstr "Bauarbeiter können schneller bauen"
+
+#~ msgctxt "STRINGS.MISC.TAGS.ART"
+#~ msgid "Wiring-related delivery and building"
+#~ msgstr "Kunstbezogene Lieferung"
+
+#~ msgctxt "STRINGS.MISC.TAGS.BUILDING"
+#~ msgid "Build-related delivery and digging"
+#~ msgstr "Baubezogene Anlieferung und Grabung"
+
+#~ msgctxt "STRINGS.MISC.TAGS.CONVEYOR"
+#~ msgid "Shipping-related building"
+#~ msgstr "Versandbezogene Gebäude"
+
+#~ msgctxt "STRINGS.MISC.TAGS.COOKING"
+#~ msgid "Cooking-related delivery"
+#~ msgstr "Kochbezogene Lieferung"
+
+#~ msgctxt "STRINGS.MISC.TAGS.DOCTORING"
+#~ msgid "Medicine-related delivery"
+#~ msgstr "Medizinbezogene Lieferung"
+
+#~ msgctxt "STRINGS.MISC.TAGS.FARMING"
+#~ msgid "Farming-related building and delivery"
+#~ msgstr "Landwirtschaftsbezogene Erstellung und Lieferung"
+
+#~ msgctxt "STRINGS.MISC.TAGS.POWER"
+#~ msgid "Power-related delivery"
+#~ msgstr "Energiebezogene Lieferung"
+
+#~ msgctxt "STRINGS.MISC.TAGS.WIRING"
+#~ msgid "Wiring-related delivery and building"
+#~ msgstr "Verdrahtungsbezogene Lieferung und Erstellung"
