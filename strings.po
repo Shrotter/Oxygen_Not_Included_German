@@ -542,7 +542,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
 msgid "Miner-Only Dig"
-msgstr ""
+msgstr "Graben nur durch Bergarbeiter"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.TOOLTIP"
@@ -2577,7 +2577,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME"
 msgid "<link=\"AIRBORNECREATURELURE\">Critter Lure</link>"
-msgstr ""
+msgstr "<link=\"AIRBORNECREATURELURE\">Vieh-Köder</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC"
@@ -3049,7 +3049,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME"
 msgid "<link=\"CREATUREDELIVERYPOINT\">Critter Drop-Off</link>"
-msgstr ""
+msgstr "<link=\"CREATUREDELIVERYPOINT\">Vieh-Aussetzer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC"
@@ -3094,7 +3094,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
 msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
-msgstr ""
+msgstr "<link=\"CREATURETRAP\">Vieh-Falle</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
@@ -3337,7 +3337,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
 msgid "<link=\"FARMSTATION\">Farm Station</link>"
-msgstr ""
+msgstr "<link=\"FARMSTATION\">Landwitschaftsstation</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
@@ -4798,7 +4798,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME"
 msgid "<link=\"MACHINESHOP\">Mechanics Station</link>"
-msgstr ""
+msgstr "<link=\"MACHINESHOP\">Mechanikstation</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC"
@@ -5469,7 +5469,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME"
 msgid "<link=\"RANCHSTATION\">Grooming Station</link>"
-msgstr ""
+msgstr "<link=\"RANCHSTATION\">Striegel-Station</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.RATIONBOX.DESC
 #, fuzzy
@@ -6555,12 +6555,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.HATCH.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.PROFESSION_NAME"
-#| msgid "Critic"
 msgctxt "STRINGS.CODEX.HATCH.SUBTITLE"
 msgid "Critter"
-msgstr "Kritiker"
+msgstr "Vieh"
 
 #. STRINGS.CODEX.HATCH.TITLE
 #, fuzzy
@@ -6581,12 +6578,13 @@ msgstr "Rezepte"
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES
 msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES"
 msgid "Prerequisite Roles"
-msgstr ""
+msgstr "Voraussetzungen für Rollen"
 
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_TECH
+#, fuzzy
 msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_TECH"
 msgid "Prerequisite Tech"
-msgstr ""
+msgstr "Voraussetzungen für Technik"
 
 #. STRINGS.CODEX.HEADERS.RECEPTACLE
 #, fuzzy
@@ -6599,7 +6597,7 @@ msgstr "Pflanzen"
 #. STRINGS.CODEX.HEADERS.ROLE_PERKS
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
 msgid "Role Perks"
-msgstr ""
+msgstr "Rollenvorteile"
 
 #. STRINGS.CODEX.HEADERS.TECH_UNLOCKS
 #, fuzzy
@@ -6727,12 +6725,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.MUCKROOT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.EDIBLE"
-#| msgid "Edible"
 msgctxt "STRINGS.CODEX.MUCKROOT.SUBTITLE"
 msgid "Edible Plant"
-msgstr "Essbar"
+msgstr "Essbare Pflanze"
 
 #. STRINGS.CODEX.MUCKROOT.TITLE
 #, fuzzy
@@ -6786,17 +6781,11 @@ msgid "Description of power, energy, watts, generators, consumers, etc."
 msgstr ""
 
 #. STRINGS.CODEX.POWER.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.NAME"
-#| msgid "Electrical Engineer"
 msgctxt "STRINGS.CODEX.POWER.SUBTITLE"
 msgid "Electrical energy"
-msgstr "Elektroingenieur"
+msgstr "Elektische Energie"
 
 #. STRINGS.CODEX.POWER.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.NAME"
-#| msgid "Power"
 msgctxt "STRINGS.CODEX.POWER.TITLE"
 msgid "Power"
 msgstr "Strom"
@@ -6832,12 +6821,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.PUFT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.PROFESSION_NAME"
-#| msgid "Critic"
 msgctxt "STRINGS.CODEX.PUFT.SUBTITLE"
 msgid "Critter"
-msgstr "Kritiker"
+msgstr "Vieh"
 
 #. STRINGS.CODEX.PUFT.TITLE
 #, fuzzy
@@ -7035,12 +7021,9 @@ msgid "It's breathable."
 msgstr "Es ist atembar."
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.BED"
-#| msgid "Bed"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.NAME"
 msgid "Fed"
-msgstr "Bett"
+msgstr "Gefüttert"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.TOOLTIP"
@@ -7058,12 +7041,9 @@ msgid "Has a pen to live in."
 msgstr "Hat einen Pferch zum Leben."
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.NAME"
-#| msgid "Ideal Temperature"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
 msgid "Comfortable Temperature"
-msgstr "Idealtemperatur"
+msgstr "Komfortable Temperatur"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.TOOLTIP"
@@ -7071,12 +7051,9 @@ msgid "Not too hot, not too cold."
 msgstr "Nicht zu heiß, nicht zu kalt."
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WELLFED.NAME"
-#| msgid "Well fed"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.NAME"
 msgid "Well Fed"
-msgstr "Gut ernährt"
+msgstr "Gut genährt"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.TOOLTIP"
@@ -7084,12 +7061,9 @@ msgid "This critter has recently dined on its favorite food."
 msgstr "Dieses Vieh hat vor kurzem auf sein Lieblingsfutter gefressen."
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WELLFED.NAME"
-#| msgid "Well fed"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME"
 msgid "Well Groomed"
-msgstr "Gut ernährt"
+msgstr "Gut gepflegt"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP"
@@ -7185,12 +7159,9 @@ msgid "Producing at a reduced level"
 msgstr "Erzeugung auf reduziertem Niveau"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.THERMALCONDUCTIVITY.ADJECTIVES.MEDIUM_CONDUCTIVITY"
-#| msgid "Conductive"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.NAME"
 msgid "Unproductive"
-msgstr "Leitfähig"
+msgstr "Unproduktiv"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.TOOLTIP"
@@ -7218,12 +7189,9 @@ msgid "This critter's most basic needs are being met, but it's still wary of Dup
 msgstr "Die Grundbedürfnisse dieses Viehs sind gedeckt, aber es ist immer noch misstrauisch gegenüber Duplikanten"
 
 #. STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DEATHS.SUFFOCATION.NAME"
-#| msgid "Suffocation"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.NAME"
 msgid "Affectionate"
-msgstr "Erstickung"
+msgstr "Liebevoll"
 
 #. STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.TOOLTIP"
@@ -7296,12 +7264,9 @@ msgstr ""
 "Es wird dadurch mehr erzeugen"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME"
-#| msgid "Incubating"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.NAME"
 msgid "Incubation Rate"
-msgstr "Brütet"
+msgstr "Ausbrütungsrate"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.TOOLTIP"
@@ -7309,9 +7274,6 @@ msgid "Determines an egg's gestation period when placed in an Incubator"
 msgstr "Bestimmt die Brütedauer eines Eis, wenn es in einen Inkubator platziert wird"
 
 #. STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STARVING.NAME"
-#| msgid "Starving"
 msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
 msgid "Starving"
 msgstr "Verhungert"
@@ -8003,19 +7965,13 @@ msgid "<link=\"PUFT\">Puft</link>"
 msgstr "<link=\"PUFT\">Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seed</style> of a <style=\"plant\">Thimble Reed</style>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Thimble Reed Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC"
 msgid ""
 "The <link=\"SEED\">Seed</link> of a <link=\"BASICFABRICMATERIALPLANT\">Thimble Reed</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover a Thimble Reed Seed."
 msgstr ""
-"Der <link=\"SEED\">Samen</link> von <style=\"plant\">Fingerhutschilf</style>.\n"
+"Der <link=\"SEED\">Samen</link> von <link=\"BASICFABRICMATERIALPLANT\">Fingerhutschilf</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Fingerhutschilf-Samen gefunden werden."
 
@@ -8025,19 +7981,13 @@ msgid "<link=\"BASICFABRICMATERIALPLANT\">Thimble Reed Seed</link>"
 msgstr "<link=\"BASICFABRICMATERIALPLANT\">Fingerhutschilf-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seed</style> of a <style=\"plant\">Mealwood</style>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Mealwood Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC"
 msgid ""
 "The <link=\"SEED\">Seed</link> of a <link=\"BASICSINGLEHARVESTPLANT\">Mealwood</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover a Mealwood Seed."
 msgstr ""
-"Der <link=\"SEED\">Samen</link> eines <style=\"plant\">Mehlholz</style>.\n"
+"Der <link=\"SEED\">Samen</link> eines <link=\"BASICSINGLEHARVESTPLANT\">Mehlholz</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Mehlholz-Samen gefunden werden."
 
@@ -8047,19 +7997,13 @@ msgid "<link=\"BASICSINGLEHARVESTPLANT\">Mealwood Seed</link>"
 msgstr "<link=\"BASICSINGLEHARVESTPLANT\">Mehlholz-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seed</style> of a <style=\"plant\">Wheezewort</style>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Wort Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC"
 msgid ""
 "The <link=\"SEED\">Seed</link> of a <link=\"COLDBREATHER\">Wheezewort</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover a Wort Seed."
 msgstr ""
-"Der <link=\"SEED\">Samen</link> eines <style=\"plant\">Keuchwurz</style>.\n"
+"Der <link=\"SEED\">Samen</link> eines <link=\"COLDBREATHER\">Keuchwurz</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Keuchwurz-Samen gefunden werden."
 
@@ -8069,21 +8013,15 @@ msgid "<link=\"COLDBREATHER\">Wort Seed</link>"
 msgstr "<link=\"COLDBREATHER\">Keuchwurz-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seeds</style> of a <style=\"plant\">Sleet Wheat</style> plant.\n"
-#| "\n"
-#| "Grain can be sown to cultivate more Sleet Wheat, or processed into <link=\"FOOD\">Food</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC"
 msgid ""
 "The <style=\"seed\">Seeds</style> of a <link=\"COLDWHEAT\">Sleet Wheat</link> plant.\n"
 "\n"
 "Grain can be sown to cultivate more Sleet Wheat, or processed into <link=\"FOOD\">Food</link>."
 msgstr ""
-"Die <link=\"SEED\">Samen</link> einer <style=\"plant\">Graupelweizen</style>-Pflanze.\n"
+"Die <link=\"SEED\">Samen</link> einer <link=\"COLDWHEAT\">Graupelweizenkorn</link>-Pflanze.\n"
 "\n"
-"Getreide kann gesät werden, um mehr Weizen zu kultivieren oder zu <link=\"FOOD\">Nahrung</style> verarbeitet werden."
+"Getreide kann gesät werden, um mehr Weizen zu kultivieren oder zu <link=\"FOOD\">Nahrung</link> verarbeitet werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME"
@@ -8113,19 +8051,13 @@ msgid "<link=\"JUNGLEGASPLANT\">Palmera Seed</link>"
 msgstr "<link=\"JUNGLEGASPLANT\">Palmera-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seed</style> of a <style=\"plant\">Dusk Cap</style>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Fungal Spore."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC"
 msgid ""
 "The <link=\"SEED\">Seed</link> of a <link=\"MUSHROOMPLANT\">Dusk Cap</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover a Fungal Spore."
 msgstr ""
-"Der <link=\"SEED\">Samen</link> einer <style=\"plant\">Dämmerkappe</style>.\n"
+"Der <link=\"SEED\">Samen</link> einer <link=\"MUSHROOMPLANT\">Dämmerkappe</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Pilzsporen gefunden werden."
 
@@ -8157,19 +8089,13 @@ msgid "<link=\"OILEATER\">Ink Bloom Seed</link>"
 msgstr "<link=\"OILEATER\">Tintenblüten-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seed</style> of a <style=\"plant\">Bristle Blossom</style>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Blossom Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.DESC"
 msgid ""
 "The <link=\"SEED\">Seed</link> of a <link=\"PRICKLEFLOWER\">Bristle Blossom</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover a Blossom Seed."
 msgstr ""
-"Der <link=\"SEED\">Samen</link> der <style=\"plant\">Dornenblüte</style>.\n"
+"Der <link=\"SEED\">Samen</link> der <link=\"PRICKLEFLOWER\">Dornenblüte</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Blütensamen gefunden werden."
 
@@ -8179,19 +8105,13 @@ msgid "<link=\"PRICKLEFLOWER\">Blossom Seed</link>"
 msgstr "<link=\"PRICKLEFLOWER\">Dornenblütensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.DESC"
-#| msgid ""
-#| "The <style=\"seed\">Seed</style> of a <style=\"plant\">Bluff Briar</style>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Briar Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.DESC"
 msgid ""
 "The <link=\"SEED\">Seed</link> of a <link=\"PRICKLEGRASS\">Bluff Briar</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover a Briar Seed."
 msgstr ""
-"Der <link=\"SEED\">Samen</link> eines <style=\"plant\">Dornenstrauchs</style>.\n"
+"Der <link=\"SEED\">Samen</link> eines <link=\"PRICKLEGRASS\">Dornenstrauchs</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Dornenstrauchsamen gefunden werden."
 
@@ -8903,7 +8823,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.NAME"
 msgid "Expelling Waste"
-msgstr ""
+msgstr "Stößt Abfälle aus"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.TOOLTIP
 #, fuzzy
@@ -8916,7 +8836,7 @@ msgstr "Dieser Duplikant braucht etwas länger als üblich um sein \"Geschäft z
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.NAME"
 msgid "Expelling Waste"
-msgstr ""
+msgstr "Stößt Abfälle aus"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.TOOLTIP
 #, fuzzy
@@ -9151,7 +9071,7 @@ msgstr "Brütet"
 #. STRINGS.CREATURES.STATUSITEMS.INCUBATING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.TOOLTIP"
 msgid "Cozily preparing to meet the world"
-msgstr ""
+msgstr "Behaglich Vorbereitung um Bekanntschaft mit der Welt zu machen"
 
 #. STRINGS.CREATURES.STATUSITEMS.INHALING.NAME
 #, fuzzy
@@ -9976,12 +9896,9 @@ msgid "<link=\"HEALTH\">Health</style>"
 msgstr "<link=\"HEALTH\">Gesundheit</style>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC"
-#| msgid "<link=\"HYGIENE\">Hygiene</style> affects a Duplicant's sense of cleanliness."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC"
 msgid "<link=\"HYGIENE\">Hygiene</link> affects a Duplicant's sense of cleanliness."
-msgstr "<link=\"HYGIENE\">Hygiene</style> beeinflusst die Reinlichkeit eines Duplikanten."
+msgstr "<link=\"HYGIENE\">Hygiene</style> beeinflusst das Reinheitsempfinden eines Duplikanten."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.NAME"
@@ -11011,12 +10928,12 @@ msgstr "Dieser Duplikant erntet verwertbare Materialien von einer reifen Pflanze
 #. STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.NAME"
 msgid "Assist Newborn Critter"
-msgstr ""
+msgstr "Steht einem neugebohren Vieh bei"
 
 #. STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.STATUS"
 msgid "Assisting Newborn Critter"
-msgstr ""
+msgstr "Steht einem neugebohren Vieh bei"
 
 #. STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.TOOLTIP
 #, fuzzy
@@ -13519,7 +13436,7 @@ msgstr "Dieser Duplikant hat eine kleine Arbeitspause eingelegt und ist deshalb 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME"
 msgid "Unwinding"
-msgstr ""
+msgstr "Entspannt sich"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.TOOLTIP
 #, fuzzy
@@ -14496,7 +14413,7 @@ msgstr "Spezies: {0}"
 #. STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
 msgid "Becoming an artist will vastly improve a Duplicant's creative abilities."
-msgstr ""
+msgstr "Ein Künstler zu werden, wird die kreativen Fähigkeiten eines Duplikanten enorm verbessern."
 
 #. STRINGS.DUPLICANTS.ROLES.ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
@@ -14509,6 +14426,8 @@ msgid ""
 "Becoming a Botanist broadens a Duplicant's understanding of\n"
 "plants, improving their crop tending abilities."
 msgstr ""
+"Ein Botaniker zu werden, erweitert das Verständnis eines Duplikanten von\n"
+"Pflanzen und verbessert die ihre Fähigkeit zur Pflege von Nutzpflanzen."
 
 #. STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME"
@@ -14521,6 +14440,8 @@ msgid ""
 "Promotion to the full-fledged Architect position further increases\n"
 "a Duplicant's construction speeds."
 msgstr ""
+"Der Aufstieg zum vollwertigen Architekten erhöht die\n"
+"Konstruktionsgeschwindigkeit eines Duplikanten weiter."
 
 #. STRINGS.DUPLICANTS.ROLES.BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.NAME"
@@ -14533,6 +14454,8 @@ msgid ""
 "Promotion to the Chef position further increases a Duplicant's\n"
 "cooking skills."
 msgstr ""
+"Die Beförderung zur Chefposition erhöht die Kochkünste\n"
+"eines Duplikanten weiter."
 
 #. STRINGS.DUPLICANTS.ROLES.COOK.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.NAME"
@@ -14559,7 +14482,7 @@ msgstr "Dieser Duplikant genießt es den <style=\"misc\">{0}</style> Beruf auszu
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
 msgid "Becoming a Groundskeeper minorly improves a Duplicant's physical strength."
-msgstr ""
+msgstr "Platzwart zu werden, verbessert die physische Stärke eines Duplikanten geringfügig."
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.NAME"
@@ -14572,6 +14495,8 @@ msgid ""
 "Becoming a Gofer will minorly increase a Duplicant's strength\n"
 "and carrying capacity."
 msgstr ""
+"Laufbursche zu werden erhöht die Stärke und Tragfähigkeit eines\n"
+"Duplikanten geringfügig."
 
 #. STRINGS.DUPLICANTS.ROLES.HAULER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.HAULER.NAME"
@@ -14581,7 +14506,7 @@ msgstr "<link=\"HAULER\">Laufbursche</link>"
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION"
 msgid "Becoming an art student will improve a Duplicant's sculptures and paintings."
-msgstr ""
+msgstr "Kunststudent zu werden, verbessert die Skulpturen und Gemälde eines Duplikanten."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME"
@@ -18191,12 +18116,6 @@ msgid "<link=\"LIQUIDMETHANE\">Methane</link>"
 msgstr "<link=\"LIQUIDMETHANE\">Methan</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDOXYGEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIQUIDOXYGEN.DESC"
-#| msgid ""
-#| "(O<sub>2</sub>) Oxygen is a breathable chemical.\n"
-#| "\n"
-#| "This selection is in a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.LIQUIDOXYGEN.DESC"
 msgid ""
 "(O<sub>2</sub>) Oxygen is a breathable chemical.\n"
@@ -18205,7 +18124,7 @@ msgid ""
 msgstr ""
 "(O<sub>2</sub>) Sauerstoff ist eine atembare Chemikale.\n"
 "\n"
-"Der ausgewählte ist <link=\"LIQUID\">flüssig</style>."
+"Der ausgewählte ist <link=\"LIQUID\">flüssig</link>."
 
 #. STRINGS.ELEMENTS.LIQUIDOXYGEN.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDOXYGEN.NAME"
@@ -18251,12 +18170,9 @@ msgid "<link=\"LIQUIDPROPANE\">Propane</link>"
 msgstr "<link=\"LIQUIDPROPANE\">Propan</link>"
 
 #. STRINGS.ELEMENTS.MAGMA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MAGMA.DESC"
-#| msgid "Magma is a composite of <link=\"RAWMINERAL\">Igneous Rock</style> heated into a molten, <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MAGMA.DESC"
 msgid "Magma is a composite of <link=\"RAWMINERAL\">Igneous Rock</style> heated into a molten, <link=\"LIQUID\">Liquid</link> state."
-msgstr "Magma ist ein Gemisch aus <link=\"RAWMINERAL\">Magmatit</style>, erhitzt zu einer geschmolzenen <link=\"LIQUID\">Flüssigkeit</style>."
+msgstr "Magma ist ein Gemisch aus <link=\"RAWMINERAL\">Magmatit</style>, erhitzt zu einer geschmolzenen <link=\"LIQUID\">Flüssigkeit</link>."
 
 #. STRINGS.ELEMENTS.MAGMA.NAME
 msgctxt "STRINGS.ELEMENTS.MAGMA.NAME"
@@ -18264,12 +18180,9 @@ msgid "<link=\"MAGMA\">Magma</link>"
 msgstr "<link=\"MAGMA\">Magma</link>"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
-#| msgid "<style=\"decor\">Decor</style>: {0}"
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
 msgid "<link=\"DECOR\">Decor</link>: {0}"
-msgstr "<style=\"decor\">Dekor</style>: {0}"
+msgstr "<style=\"decor\">Dekor</link>: {0}"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER"
@@ -18374,12 +18287,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.MERCURY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MERCURY.DESC"
-#| msgid "(Hg) Mercury is a toxic, <link=\"RAWMETAL\">Metallic</style> <link=\"LIQUID\">Liquid</style>."
 msgctxt "STRINGS.ELEMENTS.MERCURY.DESC"
 msgid "(Hg) Mercury is a toxic, <link=\"RAWMETAL\">Metallic</style> <link=\"LIQUID\">Liquid</link>."
-msgstr "(Hg) Quecksilber ist ein giftiges, <link=\"LIQUID\">flüssiges</style> <link=\"RAWMETAL\">Metall</style>."
+msgstr "(Hg) Quecksilber ist ein giftiges, <link=\"LIQUID\">flüssiges</link> <link=\"RAWMETAL\">Metall</link>."
 
 #. STRINGS.ELEMENTS.MERCURY.NAME
 msgctxt "STRINGS.ELEMENTS.MERCURY.NAME"
@@ -18387,12 +18297,9 @@ msgid "<link=\"MERCURY\">Mercury</link>"
 msgstr "<link=\"MERCURY\">Quecksilber</link>"
 
 #. STRINGS.ELEMENTS.MERCURYGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MERCURYGAS.DESC"
-#| msgid "(Hg) Mercury is a toxic <link=\"RAWMETAL\">Metal</style> heated into a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.MERCURYGAS.DESC"
 msgid "(Hg) Mercury is a toxic <link=\"RAWMETAL\">Metal</link> heated into a <link=\"GAS\">Gaseous</link> state."
-msgstr "(Hg) Quecksilber ist ein giftiges <link=\"RAWMETAL\">Metall</style>, erhitzt zu einem <link=\"GAS\">Gas</style>."
+msgstr "(Hg) Quecksilber ist ein giftiges <link=\"RAWMETAL\">Metall</link>, erhitzt zu einem <link=\"GAS\">Gas</link>."
 
 #. STRINGS.ELEMENTS.MERCURYGAS.NAME
 msgctxt "STRINGS.ELEMENTS.MERCURYGAS.NAME"
@@ -18416,12 +18323,9 @@ msgid "<link=\"METHANE\">Natural Gas</link>"
 msgstr "<link=\"METHANE\">Erdgas</link>"
 
 #. STRINGS.ELEMENTS.MOLTENCARBON.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENCARBON.DESC"
-#| msgid "(C) Carbon is an abundant, versatile element heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENCARBON.DESC"
 msgid "(C) Carbon is an abundant, versatile element heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "(C) Kohlenstoff ist ein häufiges, vielseitiges Element, erhitzt zum <link=\"LIQUID\">flüssigen</style> Zustand."
+msgstr "(C) Kohlenstoff ist ein häufiges, vielseitiges Element, erhitzt zum <link=\"LIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENCARBON.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENCARBON.NAME"
@@ -18429,12 +18333,9 @@ msgid "<link=\"MOLTENCARBON\">Carbon</link>"
 msgstr "<link=\"MOLTENCARBON\">Kohlenstoff</link>"
 
 #. STRINGS.ELEMENTS.MOLTENCOPPER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.DESC"
-#| msgid "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</style> heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.DESC"
 msgid "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link> heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "(Cu) Kupfer ist ein leitfähiges <link=\"RAWMETAL\">Metall</style>, erhitzt zum <link=\"LIQUID\">flüssigen</style> Zustand."
+msgstr "(Cu) Kupfer ist ein leitfähiges <link=\"RAWMETAL\">Metall</link>, erhitzt zum <link=\"LIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENCOPPER.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.NAME"
@@ -18442,12 +18343,9 @@ msgid "<link=\"MOLTENCOPPER\">Copper</link>"
 msgstr "<link=\"MOLTENCOPPER\">Kupfer</link>"
 
 #. STRINGS.ELEMENTS.MOLTENGLASS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENGLASS.DESC"
-#| msgid "Molten Glass is a composite of granular rock heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENGLASS.DESC"
 msgid "Molten Glass is a composite of granular rock heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "Geschmolzenes Glas ist ein Verbund aus Stein, der zu einer <link=\"LIQUID\">Flüssigkeit</style> erhitzt wurde."
+msgstr "Geschmolzenes Glas ist ein Verbund aus Stein, der zu einer <link=\"LIQUID\">Flüssigkeit</link> erhitzt wurde."
 
 #. STRINGS.ELEMENTS.MOLTENGLASS.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENGLASS.NAME"
@@ -18455,12 +18353,9 @@ msgid "<link=\"MOLTENGLASS\">Molten Glass</link>"
 msgstr "<link=\"MOLTENGLASS\">Geschmolzenes Glas</link>"
 
 #. STRINGS.ELEMENTS.MOLTENGOLD.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENGOLD.DESC"
-#| msgid "(Au) Gold is a conductive precious <link=\"RAWMETAL\">Metal</style> heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENGOLD.DESC"
 msgid "(Au) Gold is a conductive precious <link=\"RAWMETAL\">Metal</link> heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "(Au) Gold ist ein wertvolles, leitfähiges <link=\"RAWMETAL\">Metall</style>, erhitzt zum <link=\"LIQUID\">flüssigen</style> Zustand."
+msgstr "(Au) Gold ist ein wertvolles, leitfähiges <link=\"RAWMETAL\">Metall</link>, erhitzt zum <link=\"LIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENGOLD.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENGOLD.NAME"
@@ -18468,12 +18363,9 @@ msgid "<link=\"MOLTENGOLD\">Gold</link>"
 msgstr "<link=\"MOLTENGOLD\">Gold</link>"
 
 #. STRINGS.ELEMENTS.MOLTENIRON.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENIRON.DESC"
-#| msgid "(Fe) Iron is a common industrial <link=\"RAWMETAL\">Metal</style> heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENIRON.DESC"
 msgid "(Fe) Iron is a common industrial <link=\"RAWMETAL\">Metal</link> heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "(Fe) Eisen ist ein gewöhnliches industrielles <link=\"RAWMETAL\">Metall</style>, erhitzt zum <link=\"LIQUID\">flüssigen</style> Zustand."
+msgstr "(Fe) Eisen ist ein gewöhnliches industrielles <link=\"RAWMETAL\">Metall</link>, erhitzt zum <link=\"LIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENIRON.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
@@ -18481,12 +18373,9 @@ msgid "<link=\"MOLTENIRON\">Iron</link>"
 msgstr "<link=\"MOLTENIRON\">Eisen</link>"
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.DESC"
-#| msgid "Steel is a <link=\"RAWMETAL\">Metal</style> alloy of iron and carbon, heated into a hazardous <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.DESC"
 msgid "Steel is a <link=\"RAWMETAL\">Metal</link> alloy of iron and carbon, heated into a hazardous <link=\"LIQUID\">Liquid</link> state."
-msgstr "Stahl ist eine <link=\"RAWMETAL\">Legierung</style> aus Eisen und Kohlenstoff, erhitzt zu einer gefährlichen <link=\"LIQUID\">Flüssigkeit</style>."
+msgstr "Stahl ist eine <link=\"RAWMETAL\">Legierung</link> aus Eisen und Kohlenstoff, erhitzt zu einer gefährlichen <link=\"LIQUID\">Flüssigkeit</link>."
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.NAME"
@@ -18494,12 +18383,9 @@ msgid "<link=\"MOLTENSTEEL\">Steel</link>"
 msgstr "<link=\"MOLTENSTEEL\">Stahl</link>"
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTEN.DESC"
-#| msgid "(W) Tungsten is a crystalline <link=\"RAWMETAL\">Metal</style> heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTEN.DESC"
 msgid "(W) Tungsten is a crystalline <link=\"RAWMETAL\">Metal</link> heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "(W) Wolfram ist ein kristallines <link=\"RAWMETAL\">Metall</style>, erhitzt bis zum <link=\"LIQUID\">flüssigen</style> Zustand."
+msgstr "(W) Wolfram ist ein kristallines <link=\"RAWMETAL\">Metall</link>, erhitzt bis zum <link=\"LIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTEN.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTEN.NAME"
@@ -18507,12 +18393,9 @@ msgid "<link=\"MOLTENTUNGSTEN\">Tungsten</link>"
 msgstr "<link=\"MOLTENTUNGSTEN\">Wolfram</link>"
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.DESC"
-#| msgid "(WSe<sub>2</sub>) Tungsten Diselenide is an inorganic <link=\"RAWMETAL\">Metal</style> compound heated into a <link=\"LIQUID\">Liquid</style> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.DESC"
 msgid "(WSe<sub>2</sub>) Tungsten Diselenide is an inorganic <link=\"RAWMETAL\">Metal</link> compound heated into a <link=\"LIQUID\">Liquid</link> state."
-msgstr "(WSe<sub>2</sub>) Wolframdiselenid ist ein anorganisches <link=\"RAWMETAL\">Metall</style>, erhitzt bis zum <link=\"LIQUID\">flüssigen</style> Zustand."
+msgstr "(WSe<sub>2</sub>) Wolframdiselenid ist ein anorganisches <link=\"RAWMETAL\">Metall</link>, erhitzt bis zum <link=\"LIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME"
@@ -18545,19 +18428,13 @@ msgid "<link=\"OBSIDIAN\">Obsidian</link>"
 msgstr "<link=\"OBSIDIAN\">Obsidian</link>"
 
 #. STRINGS.ELEMENTS.OXYGEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.OXYGEN.DESC"
-#| msgid ""
-#| "(O<sub>2</sub>) Oxygen is an atomically lightweight and breathable <link=\"GAS\">Gas</style>, necessary for sustaining life.\n"
-#| "\n"
-#| "It tends to rise above other gases."
 msgctxt "STRINGS.ELEMENTS.OXYGEN.DESC"
 msgid ""
 "(O<sub>2</sub>) Oxygen is an atomically lightweight and breathable <link=\"GAS\">Gas</link>, necessary for sustaining life.\n"
 "\n"
 "It tends to rise above other gases."
 msgstr ""
-"(O<sub>2</sub>) Sauerstoff ist ein leichtes brennbares <link=\"GAS\">Gas</style>. Es ist lebensnotwendig.\n"
+"(O<sub>2</sub>) Sauerstoff ist ein atomar leichtes und atembares <link=\"GAS\">Gas</style>, das für die Erhaltung des Lebens notwendig ist.\n"
 "\n"
 "Sauerstoff steigt über andere Gase."
 
@@ -18572,19 +18449,13 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.OXYROCK.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.OXYROCK.DESC"
-#| msgid ""
-#| "(Ir<sub>3</sub>O<sub>2</sub>) Oxylite is a chemical compound that slowly emits breathable <link=\"OXYGEN\">Oxygen</style>.\n"
-#| "\n"
-#| "Excavating Oxylite increases its emission rate, but depletes the ore more rapidly."
 msgctxt "STRINGS.ELEMENTS.OXYROCK.DESC"
 msgid ""
 "(Ir<sub>3</sub>O<sub>2</sub>) Oxylite is a chemical compound that slowly emits breathable <link=\"OXYGEN\">Oxygen</link>.\n"
 "\n"
 "Excavating Oxylite increases its emission rate, but depletes the ore more rapidly."
 msgstr ""
-"(Ir<sub>3</sub>O<sub>2</sub>) Oxilit ist eine chemische Verbindung, die langsam atembaren <link=\"OXYGEN\">Sauerstoff</style> ausstößt.\n"
+"(Ir<sub>3</sub>O<sub>2</sub>) Oxilit ist eine chemische Verbindung, die langsam atembaren <link=\"OXYGEN\">Sauerstoff</link> ausstößt.\n"
 "\n"
 "Die Sauerstoffrate erhöht sich, wenn es ausgegraben wird, aber es verliert auch schneller an Masse."
 
@@ -18650,12 +18521,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.PHOSPHORUS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.DESC"
-#| msgid "(P) Phosphorus is a chemical element in its <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.DESC"
 msgid "(P) Phosphorus is a chemical element in its <link=\"SOLID\">Solid</link> state."
-msgstr "(P) Phosphor ist ein chemisches Element in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(P) Phosphor ist ein chemisches Element in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.PHOSPHORUS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.NAME"
@@ -18663,12 +18531,9 @@ msgid "<link=\"PHOSPHORUS\">Phosphorus</link>"
 msgstr "<link=\"PHOSPHORUS\">Phosphor</link>"
 
 #. STRINGS.ELEMENTS.PHOSPHORUSGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.DESC"
-#| msgid "(P) Phosphorus is a chemical element in a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.DESC"
 msgid "(P) Phosphorus is a chemical element in a <link=\"GAS\">Gaseous</link> state."
-msgstr "(P) Phosphor ist ein chemisches Element in <link=\"SOLID\">gasförmigem</style> Zustand."
+msgstr "(P) Phosphor ist ein chemisches Element in <link=\"SOLID\">gasförmigem</link> Zustand."
 
 #. STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME"
@@ -18681,12 +18546,6 @@ msgid "Buildings made of this material have antiseptic properties"
 msgstr "Objekte aus diesem Material haben keimtötende Eigenschaften"
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.POLYPROPYLENE.DESC"
-#| msgid ""
-#| "(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastic is a thermoplastic polymer.\n"
-#| "\n"
-#| "It is useful as a raw <link=\"SOLID\">Plastic</style> feedstock."
 msgctxt "STRINGS.ELEMENTS.POLYPROPYLENE.DESC"
 msgid ""
 "(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastic is a thermoplastic polymer.\n"
@@ -18695,7 +18554,7 @@ msgid ""
 msgstr ""
 "(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastik ist ein thermoplastisches Polymer.\n"
 "\n"
-"Es ist nützlich als Ausgangsmaterial für <style=\"misc\">Kunststoffe</style>."
+"Es ist nützlich als Ausgangsmaterial für <link=\"POLYPROPYLENE\">Kunststoffe</link>."
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.NAME
 msgctxt "STRINGS.ELEMENTS.POLYPROPYLENE.NAME"
@@ -18756,12 +18615,9 @@ msgid "<link=\"RADIUM\">Radium</link>"
 msgstr "<link=\"RADIUM\">Radium</link>"
 
 #. STRINGS.ELEMENTS.ROCKGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ROCKGAS.DESC"
-#| msgid "Rock Gas is rock that has been superheated into a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.ROCKGAS.DESC"
 msgid "Rock Gas is rock that has been superheated into a <link=\"GAS\">Gaseous</link> state."
-msgstr "Steingas ist durch extreme Hitze <link=\"GAS\">gasförmig</style> gewordener Stein."
+msgstr "Steingas ist durch extreme Hitze <link=\"GAS\">gasförmig</link> gewordener Stein."
 
 #. STRINGS.ELEMENTS.ROCKGAS.NAME
 msgctxt "STRINGS.ELEMENTS.ROCKGAS.NAME"
@@ -18867,12 +18723,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SLIMEMOLD.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.DESC"
-#| msgid ""
-#| "Slime is a thick biomixture of algae, fungi, and mucopolysaccharides.\n"
-#| "\n"
-#| "It can be distilled into <link=\"SOLID\">Algae</style> and is useful in some <link=\"OXYGEN\">Oxygen</style> production processes."
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.DESC"
 msgid ""
 "Slime is a thick biomixture of algae, fungi, and mucopolysaccharides.\n"
@@ -18881,7 +18731,7 @@ msgid ""
 msgstr ""
 "Schleim ist eine dicke Biomasse von Algen, Pilzen und Mukopolysacchariden.\n"
 "\n"
-"Er kann zu <link=\"SOLID\">Algen</style> destilliert werden und ist in einigen <link=\"OXYGEN\">Sauerstoffproduktionsprozessen</style> nützlich."
+"Er kann zu <link=\"SOLID\">Algen</link> destilliert werden und ist in einigen <link=\"OXYGEN\">Sauerstoffproduktionsprozessen</link> nützlich."
 
 #. STRINGS.ELEMENTS.SLIMEMOLD.NAME
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.NAME"
@@ -18894,12 +18744,6 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.ELEMENTS.SNOW.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SNOW.DESC"
-#| msgid ""
-#| "(H<sub>2</sub>0) Snow is a mass of loose, crystalline ice particles.\n"
-#| "\n"
-#| "It becomes <link=\"LIQUID\">Water</style> when melted."
 msgctxt "STRINGS.ELEMENTS.SNOW.DESC"
 msgid ""
 "(H<sub>2</sub>0) Snow is a mass of loose, crystalline ice particles.\n"
@@ -18908,7 +18752,7 @@ msgid ""
 msgstr ""
 "(H<sub>2</sub>0) Schnee ist eine Masse an losen, kristallinen Eispartikeln\n"
 "\n"
-"Wird durch den Schmelzvorgang zu <link=\"LIQUID\">Wasser</style>."
+"Wird zu <link=\"WATER\">Wasser</link> beim Schmelzen."
 
 #. STRINGS.ELEMENTS.SNOW.NAME
 msgctxt "STRINGS.ELEMENTS.SNOW.NAME"
@@ -18916,12 +18760,9 @@ msgid "<link=\"SNOW\">Snow</link>"
 msgstr "<link=\"SNOW\">Schnee</link>"
 
 #. STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.DESC"
-#| msgid "(CO<sub>2</sub>) Carbon Dioxide is a toxic compound in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.DESC"
 msgid "(CO<sub>2</sub>) Carbon Dioxide is a toxic compound in a <link=\"SOLID\">Solid</link> state."
-msgstr "(CO<sub>2</sub>) Kohlenstoffdioxid ist ein giftiges Gemisch in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(CO<sub>2</sub>) Kohlenstoffdioxid ist ein giftiges Verbindung in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.NAME"
@@ -18934,12 +18775,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDCHLORINE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.DESC"
-#| msgid "(Cl) Chlorine is a toxic chemical element in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.DESC"
 msgid "(Cl) Chlorine is a toxic chemical element in a <link=\"SOLID\">Solid</link> state."
-msgstr "(Cl) Chlor ist eine extrem toxische Chemikalie in seiner <link=\"SOLID\">festen</style> Form."
+msgstr "(Cl) Chlor ist eine toxisches chemisches Element in seiner <link=\"SOLID\">festen</link> Form."
 
 #. STRINGS.ELEMENTS.SOLIDCHLORINE.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.NAME"
@@ -18967,12 +18805,9 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC"
-#| msgid "(H) Hydrogen is the universe's most common element in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC"
 msgid "(H) Hydrogen is the universe's most common element in a <link=\"SOLID\">Solid</link> state."
-msgstr "(H) Wasserstoff ist das häufigste Element des Universums, in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(H) Wasserstoff ist das häufigste Element des Universums, in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDHYDROGEN.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.NAME"
@@ -18985,12 +18820,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDMERCURY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.DESC"
-#| msgid "(Hg) Mercury is a toxic <link=\"RAWMETAL\">Metal</style> in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.DESC"
 msgid "(Hg) Mercury is a toxic <link=\"RAWMETAL\">Metal</link> in a <link=\"SOLID\">Solid</link> state."
-msgstr "(Hg) Quecksilber ist ein giftiges <link=\"RAWMETAL\">Metall</style> in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(Hg) Quecksilber ist ein giftiges <link=\"RAWMETAL\">Metall</link> in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDMERCURY.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.NAME"
@@ -19003,12 +18835,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDMETHANE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.DESC"
-#| msgid "(CH<sub>4</sub>) Methane is an alkane in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.DESC"
 msgid "(CH<sub>4</sub>) Methane is an alkane in a <link=\"SOLID\">Solid</link> state."
-msgstr "(CH<sub>4</sub>) Methan ist ein Alkan in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(CH<sub>4</sub>) Methan ist ein Alkan in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDMETHANE.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.NAME"
@@ -19021,12 +18850,9 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC"
-#| msgid "Naphtha is a distilled hydrocarbon mixture in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC"
 msgid "Naphtha is a distilled hydrocarbon mixture in a <link=\"SOLID\">Solid</link> state."
-msgstr "Naphtha ist ein destilliertes Kohlenwasserstoffgemisch  im <link=\"SOLID\">festen</style> Zustand."
+msgstr "Naphtha ist ein destilliertes Kohlenwasserstoffgemisch im <link=\"SOLID\">festen</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDNAPHTHA.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.NAME"
@@ -19039,12 +18865,9 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.ELEMENTS.SOLIDOXYGEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.DESC"
-#| msgid "(O<sub>2</sub>) Oxygen is a breathable element in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.DESC"
 msgid "(O<sub>2</sub>) Oxygen is a breathable element in a <link=\"SOLID\">Solid</link> state."
-msgstr "(O<sub>2</sub>) Sauerstoff ist ein atembares Element in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(O<sub>2</sub>) Sauerstoff ist ein atembares Element in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDOXYGEN.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.NAME"
@@ -19072,12 +18895,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDPROPANE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.DESC"
-#| msgid "(C<sub>3</sub>H<sub>8</sub>) Propane is a natural gas in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.DESC"
 msgid "(C<sub>3</sub>H<sub>8</sub>) Propane is a natural gas in a <link=\"SOLID\">Solid</link> state."
-msgstr "(C<sub>3</sub>H<sub>8</sub>) Propan ist ein natürliches Gas in <link=\"SOLID\">festem</style> Zustand."
+msgstr "(C<sub>3</sub>H<sub>8</sub>) Propan ist ein natürliches Gas in <link=\"SOLID\">festem</link> Zustand."
 
 #. STRINGS.ELEMENTS.SOLIDPROPANE.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.NAME"
@@ -19105,12 +18925,9 @@ msgid "None"
 msgstr "Kein"
 
 #. STRINGS.ELEMENTS.STEAM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEAM.DESC"
-#| msgid "(H<sub>2</sub>0) Steam is water that has been heated into a scalding <link=\"GAS\">Gas</style>."
 msgctxt "STRINGS.ELEMENTS.STEAM.DESC"
 msgid "(H<sub>2</sub>0) Steam is water that has been heated into a scalding <link=\"GAS\">Gas</link>."
-msgstr "(H<sub>2</sub>0) Dampf ist Wasser, das bis zu einem heißen <link=\"GAS\">Gas</style> erwärmt wurde."
+msgstr "(H<sub>2</sub>0) Dampf ist Wasser, das bis zu einem heißen <link=\"GAS\">Gas</link> erwärmt wurde."
 
 #. STRINGS.ELEMENTS.STEAM.NAME
 msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
@@ -19133,12 +18950,9 @@ msgid "<link=\"STEEL\">Steel</link>"
 msgstr "<link=\"STEEL\">Stahl</link>"
 
 #. STRINGS.ELEMENTS.STEELGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEELGAS.DESC"
-#| msgid "Steel is a superheated <link=\"RAWMETAL\">Metal</style> <link=\"GAS\">Gas</style> composed of iron and carbon."
 msgctxt "STRINGS.ELEMENTS.STEELGAS.DESC"
 msgid "Steel is a superheated <link=\"RAWMETAL\">Metal</link> <link=\"GAS\">Gas</link> composed of iron and carbon."
-msgstr "Stahl ist ein <link=\"RAWMETAL\">Metall</style>-<link=\"GAS\">Gas</style> aus Eisen und Kohle."
+msgstr "Stahl ist ein <link=\"RAWMETAL\">Metall</link>-<link=\"GAS\">Gas</link> aus Eisen und Kohle."
 
 #. STRINGS.ELEMENTS.STEELGAS.NAME
 msgctxt "STRINGS.ELEMENTS.STEELGAS.NAME"
@@ -19206,28 +19020,22 @@ msgstr ""
 #. STRINGS.ELEMENTS.TUNGSTENDISELENIDE.NAME
 msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDE.NAME"
 msgid "<link=\"TUNGSTENDISELENIDE\">Tungsten Diselenide</link>"
-msgstr ""
+msgstr "<link=\"TUNGSTENDISELENIDE\">Wolframdiselenid</link>"
 
 #. STRINGS.ELEMENTS.TUNGSTENDISELENIDEGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDEGAS.DESC"
-#| msgid "(WSe<sub>2</sub>) Tungsten Diselenide is a superheated <link=\"RAWMETAL\">Metal</style> compound in a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDEGAS.DESC"
 msgid "(WSe<sub>2</sub>) Tungsten Diselenide is a superheated <link=\"RAWMETAL\">Metal</link> compound in a <link=\"GAS\">Gaseous</link> state."
-msgstr "(WSe<sub>2</sub>) Wolframdiselenid ist ein stark erhitzter <link=\"RAWMETAL\">Metallverbund</style> in <link=\"GAS\">gasförmigem</style> Zustand."
+msgstr "(WSe<sub>2</sub>) Wolframdiselenid ist ein stark erhitzter <link=\"RAWMETAL\">Metallverbund</link> in <link=\"GAS\">gasförmigem</link> Zustand."
 
 #. STRINGS.ELEMENTS.TUNGSTENDISELENIDEGAS.NAME
 msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDEGAS.NAME"
 msgid "<link=\"TUNGSTENDISELENIDEGAS\">Tungsten Diselenide</link>"
-msgstr ""
+msgstr "<link=\"TUNGSTENDISELENIDE\">Wolframdiselenid</link>"
 
 #. STRINGS.ELEMENTS.TUNGSTENGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.DESC"
-#| msgid "(W) Tungsten is a superheated crystalline <link=\"RAWMETAL\">Metal</style> in a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.DESC"
 msgid "(W) Tungsten is a superheated crystalline <link=\"RAWMETAL\">Metal</link> in a <link=\"GAS\">Gaseous</link> state."
-msgstr "(W) Wolfram ist ein extrem heißes kristallines <link=\"RAWMETAL\">Metall</style> in <link=\"GAS\">gasförmigem</style> Zustand."
+msgstr "(W) Wolfram ist ein extrem heißes kristallines <link=\"RAWMETAL\">Metall</link> in <link=\"GAS\">gasförmigem</link> Zustand."
 
 #. STRINGS.ELEMENTS.TUNGSTENGAS.NAME
 msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.NAME"
@@ -19253,7 +19061,7 @@ msgstr ""
 #. STRINGS.ELEMENTS.UNOBTANIUM.NAME
 msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.NAME"
 msgid "<link=\"UNOBTANIUM\">Neutronium</link>"
-msgstr ""
+msgstr "<link=\"UNOBTANIUM\">Neutronium</link>"
 
 #. STRINGS.ELEMENTS.VACUUM.DESC
 msgctxt "STRINGS.ELEMENTS.VACUUM.DESC"
@@ -19273,15 +19081,12 @@ msgstr "Kaltes, unendliches Nichts."
 #. STRINGS.ELEMENTS.VOID.NAME
 msgctxt "STRINGS.ELEMENTS.VOID.NAME"
 msgid "<link=\"VOID\">Void</link>"
-msgstr ""
+msgstr "<link=\"VOID\">Leere</link>"
 
 #. STRINGS.ELEMENTS.WATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.WATER.DESC"
-#| msgid "(H<sub>2</sub>O) Clean <link=\"LIQUID\">Water</style>, suitable for consumption."
 msgctxt "STRINGS.ELEMENTS.WATER.DESC"
 msgid "(H<sub>2</sub>O) Clean <link=\"WATER\">Water</link>, suitable for consumption."
-msgstr "(H<sub>2</sub>O) Sauberes <link=\"LIQUID\">Wasser</style>, zum Verzehr geeignet."
+msgstr "(H<sub>2</sub>O) Sauberes <link=\"WATER\">Wasser</link>, zum Verzehr geeignet."
 
 #. STRINGS.ELEMENTS.WATER.NAME
 msgctxt "STRINGS.ELEMENTS.WATER.NAME"
@@ -19307,7 +19112,7 @@ msgstr ""
 #. STRINGS.ELEMENTS.WOLFRAMITE.NAME
 msgctxt "STRINGS.ELEMENTS.WOLFRAMITE.NAME"
 msgid "<link=\"WOLFRAMITE\">Wolframite</link>"
-msgstr ""
+msgstr "<link=\"WOLFRAMITE\">Wolframit</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC"
@@ -20282,19 +20087,13 @@ msgid "<link=\"BASICPLANTFOOD\">Meal Lice</link>"
 msgstr "<link=\"BASICPLANTFOOD\">Mehllaus</link>"
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC"
-#| msgid ""
-#| "A simple bun baked from <style=\"plant\">Sleet Wheat</style> grain.\n"
-#| "\n"
-#| "Each bite leaves a mild cooling sensation in one's mouth, even when the bun itself is warm."
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC"
 msgid ""
 "A simple bun baked from <link=\"COLDWHEAT\">Sleet Wheat</link> grain.\n"
 "\n"
 "Each bite leaves a mild cooling sensation in one's mouth, even when the bun itself is warm."
 msgstr ""
-"Ein einfaches Brötchen aus <style=\"plant\">Graupelweizenkorn</style>.\n"
+"Ein einfaches Brötchen aus <link=\"COLDWHEAT\">Graupelweizenkorn</link>.\n"
 "\n"
 "Jeder Biss hinterlässt ein kaltes Gefühl im Mund, selbst wenn das Brötchen selbst warm ist."
 
@@ -20304,12 +20103,9 @@ msgid "<link=\"COLDWHEATBREAD\">Frost Bun</link>"
 msgstr "<link=\"COLDWHEATBREAD\">Frostbrötchen</link>"
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC"
-#| msgid "A simple bun baked from <style=\"plant\">Sleet Wheat</style> grain."
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC"
 msgid "A simple bun baked from <link=\"COLDWHEAT\">Sleet Wheat</link> grain."
-msgstr "Ein einfaches Brötchen aus <style=\"plant\">Graupelweizenkorn</style>."
+msgstr "Ein einfaches Brötchen aus <link=\"COLDWHEAT\">Graupelweizenkorn</link>."
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATSEED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATSEED.DESC"
@@ -20406,19 +20202,13 @@ msgid "Deep fried, solidified mudslop."
 msgstr "Frittierter, erstarrter Schlamm."
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC"
-#| msgid ""
-#| "A fried dish made with a fruiting <style=\"plant\">Dusk Cap</style>.\n"
-#| "\n"
-#| "It has a thick, savory flavor with subtle earthy undertones."
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC"
 msgid ""
 "A fried dish made with a fruiting <link=\"MUSHROOMPLANT\">Dusk Cap</link>.\n"
 "\n"
 "It has a thick, savory flavor with subtle earthy undertones."
 msgstr ""
-"Ein frittiertes Gericht aus dem Fruchtkörper der <style=\"plant\">Dämmerkappe</style>.\n"
+"Ein frittiertes Gericht aus dem Fruchtkörper der <link=\"MUSHROOMPLANT\">Dämmerkappe</link>.\n"
 "\n"
 "Es hat einen dicken, herzhaften Geschmack mit leicht erdigem Aroma."
 
@@ -20428,12 +20218,9 @@ msgid "<link=\"FRIEDMUSHROOM\">Fried Mushroom</link>"
 msgstr "<link=\"FRIEDMUSHROOM\">Frittierter Pilz</link>"
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
-#| msgid "A fried dish made with a fruiting <style=\"plant\">Dusk Cap</style>."
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
 msgid "A fried dish made with a fruiting <link=\"MUSHROOMPLANT\">Dusk Cap</link>."
-msgstr "Ein frittiertes Gericht aus dem Fruchtkörper <style=\"plant\">Dämmerkappe</style>."
+msgstr "Ein frittiertes Gericht aus dem Fruchtkörper der <link=\"MUSHROOMPLANT\">Dämmerkappe</link>."
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.DESC"
@@ -20457,19 +20244,13 @@ msgid "A mashed up <link=\"FOOD\">Bristle Berry</style> sludge with an exception
 msgstr "Ein zerdrückter <link=\"FOOD\">Dornenbeereschlamm</style> mit außergewöhnlich langer Haltbarkeit."
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
-#| msgid ""
-#| "The grilled bud of a <style=\"plant\">Bristle Blossom</style>.\n"
-#| "\n"
-#| "Heat unlocked an exquisite taste in the fruit, though the burnt spines leave something to be desired."
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
 msgid ""
 "The grilled bud of a <link=\"PRICKLEFLOWER\">Bristle Blossom</link>.\n"
 "\n"
 "Heat unlocked an exquisite taste in the fruit, though the burnt spines leave something to be desired."
 msgstr ""
-"Die gegrillte Knospe einer <style=\"plant\">Dornenblüte</style>.\n"
+"Die gegrillte Knospe einer <link=\"PRICKLEFLOWER\">Dornenblüte</link>.\n"
 "\n"
 "Hitze gibt der Frucht einen exquisiten Geschmack, obwohl die verbrannten Stacheln etwas zu wünschen übrig lassen."
 
@@ -20479,12 +20260,9 @@ msgid "<link=\"GRILLEDPRICKLEFRUIT\">Gristle Berry</link>"
 msgstr "<link=\"GRILLEDPRICKLEFRUIT\">Knorpelbeere</link>"
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.RECIPEDESC"
-#| msgid "The grilled bud of a <style=\"plant\">Bristle Blossom</style>."
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.RECIPEDESC"
 msgid "The grilled bud of a <link=\"PRICKLEFLOWER\">Bristle Blossom</link>."
-msgstr "Die gegrillte Knospe einer <style=\"plant\">Dornenblüte</style>."
+msgstr "Die gegrillte Knospe einer <link=\"PRICKLEFLOWER\">Dornenblüte</link>."
 
 #. STRINGS.ITEMS.FOOD.MEAT.DESC
 #, fuzzy
@@ -22266,12 +22044,12 @@ msgstr "Ressource konsumiert"
 #. STRINGS.MISC.STATUSITEMS.AWAITINGSTUDY.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.AWAITINGSTUDY.NAME"
 msgid "Analysis Pending"
-msgstr ""
+msgstr "Analyse ausstehend"
 
 #. STRINGS.MISC.STATUSITEMS.AWAITINGSTUDY.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.AWAITINGSTUDY.TOOLTIP"
 msgid "New information on this Natural Feature will be compiled once the field study is complete"
-msgstr ""
+msgstr "Neue Informationen zu diesem Naturmerkmal werden nach Abschluss der Feldstudie zusammengestellt"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.NAME"
@@ -22710,6 +22488,9 @@ msgid ""
 "------------------\n"
 "It won't erupt again for some time"
 msgstr ""
+"Die Geoaktivität dieses Geysirs ist gestoppt\n"
+"------------------\n"
+"Es wird für einige Zeit nicht wieder ausbrechen"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.NAME"
@@ -22760,12 +22541,12 @@ msgstr "Der Innendruck des Geysirs steigt stetig"
 #. STRINGS.MISC.STATUSITEMS.STUDIED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.NAME"
 msgid "Analysis Complete"
-msgstr ""
+msgstr "Analyse abgeschlossen"
 
 #. STRINGS.MISC.STATUSITEMS.STUDIED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.TOOLTIP"
 msgid "Information on this Natural Feature has been compiled below."
-msgstr ""
+msgstr "Nachfolgend findest du Informationen zu diesem Naturmerkmal."
 
 #. STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME"
@@ -22959,7 +22740,7 @@ msgstr "Essbar"
 #. STRINGS.MISC.TAGS.EGG
 msgctxt "STRINGS.MISC.TAGS.EGG"
 msgid "Any Egg"
-msgstr ""
+msgstr "Irgendein Ei"
 
 #. STRINGS.MISC.TAGS.EMITSLIGHT
 msgctxt "STRINGS.MISC.TAGS.EMITSLIGHT"
