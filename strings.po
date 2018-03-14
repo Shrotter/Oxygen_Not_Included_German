@@ -8267,6 +8267,11 @@ msgid ""
 "\n"
 "After an egg is laid, Reproduction is rolled back to 0%"
 msgstr ""
+"Reproduktion\n"
+"------------------\n"
+"Beim erreichen von 100% Reproduktion sind die Lebewesen das Ende ihres Fortpflanzungszyklus und legen ein neues Ei\n"
+"\n"
+"Nachdem ein Ei gelegt wurde, wird die Reproduktion auf 0% zurückgesetzt"
 
 #. STRINGS.CREATURES.STATS.FERTILIZATION.ABSORBING_MODIFIER
 msgctxt "STRINGS.CREATURES.STATS.FERTILIZATION.ABSORBING_MODIFIER"
@@ -14468,6 +14473,8 @@ msgid ""
 "This job provides additional training in the tending of crops.\n"
 "Tending plants will increase their growth speed."
 msgstr ""
+"Dieser Beruf bietet eine Zusatzausbildung in der Pflanzenpflege.\n"
+"Die Pflege von Pflanzen wird ihre Wachstumsgeschwindigkeit erhöhen."
 
 #. STRINGS.DUPLICANTS.ROLES.FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
@@ -14534,6 +14541,8 @@ msgid ""
 "This job provides training in the use of Electric Grills and\n"
 "improves a Duplicant's cooking speed."
 msgstr ""
+"Dieser Beruf bietet eine Ausbildung in der Anwendung von Elektrogrills und\n"
+"verbessert die Kochgeschwindigkeit des Duplikanten."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.NAME"
@@ -14546,6 +14555,8 @@ msgid ""
 "Becoming a Farmhand will minorly increase a Duplicant's farming\n"
 "skills, increasing their chances of harvesting new plant seeds."
 msgstr ""
+"Ein Landarbeiter zu werden, steigert sich die landwirtschaftliche Fähigkeit\n"
+"eines Duplikanten geringfügig, was die Chancen erhöht, neue Pflanzensamen zu ernten."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME"
@@ -14558,6 +14569,8 @@ msgid ""
 "This job provides training in the excavation of very firm\n"
 "materials such as Granite."
 msgstr ""
+"Dieser Beruf bietet eine Ausbildung im Abbau von\n"
+"sehr festen Materialien wie Granit."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
@@ -14570,6 +14583,8 @@ msgid ""
 "This job provides training in the use of Super Computers and\n"
 "improves a Duplicant's researching ability."
 msgstr ""
+"Dieser Beruf bietet eine Ausbildung in der Anwendung von Supercomputern und\n"
+"verbessert die Forschungsfähigkeit des Duplikanten."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME"
@@ -14597,6 +14612,8 @@ msgid ""
 "Promotion to the Courier position further increases a Duplicant's\n"
 "strength and carrying capacity for even swifter deliveries."
 msgstr ""
+"Die Beförderung in die Position des Kuriers erhöht die Stärke und\n"
+"Tragfähigkeit eines Duplikanten für noch schnellere Lieferungen."
 
 #. STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME"
@@ -14609,6 +14626,8 @@ msgid ""
 "This job provides additional training in the construction and\n"
 "maintenance of conveyor rail systems."
 msgstr ""
+"Dieser Beruf bietet eine Zusatzausbildung in der Konstruktion und\n"
+"Instandhaltung von Förderschienensystemen."
 
 #. STRINGS.DUPLICANTS.ROLES.MECHATRONIC_ENGINEER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MECHATRONIC_ENGINEER.NAME"
@@ -25161,7 +25180,7 @@ msgstr "<link=\"PRETTYGOODCONDUCTORS\">Niedrigwiderstand-Leiter</link>"
 #. STRINGS.RESEARCH.TECHS.RANCHING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.RANCHING.DESC"
 msgid "Manage and care for critters."
-msgstr ""
+msgstr "Verwaltung und Pflege von Vieh."
 
 #. STRINGS.RESEARCH.TECHS.RANCHING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.RANCHING.NAME"
@@ -25656,7 +25675,7 @@ msgstr "Raumkonflikt"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT"
 msgid "- Hastens critter domestication"
-msgstr ""
+msgstr "- beschleunigt die Zähmung von Vieh"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.NAME
 #, fuzzy
@@ -25669,7 +25688,7 @@ msgstr "Tisch"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
 msgid "Stabled critters will be more productive and less hostile."
-msgstr ""
+msgstr "Stallvieh ist produktiver und weniger feindselig."
 
 #. STRINGS.ROOMS.TYPES.FARM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.FARM.EFFECT"
@@ -25986,7 +26005,7 @@ msgstr "Basis {0}"
 #. STRINGS.UI.BUILDCATEGORIES.AUTOMATION.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.NAME"
 msgid "<link=\"BUILD_CATEGORY_AUTOMATION\">Automation</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_AUTOMATION\">Automatiserung</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP"
@@ -25996,7 +26015,7 @@ msgstr "Automatisiere deine Basis mit Logikschaltkreisen und Sensoren."
 #. STRINGS.UI.BUILDCATEGORIES.BASE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.NAME"
 msgid "<link=\"BUILD_CATEGORY_BASE\">Base</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_BASE\">Base</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.BASE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.TOOLTIP"
@@ -26006,7 +26025,7 @@ msgstr "Diese Konstruktionen bilden die Basis für deine Basis."
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME"
 msgid "<link=\"BUILD_CATEGORY_CONVEYANCE\">Shipping</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_CONVEYANCE\">Transport</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP"
@@ -26016,7 +26035,7 @@ msgstr "Transportiere mühelos Erz und Feststoffe in deiner Basis herum."
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME"
 msgid "<link=\"BUILD_CATEGORY_EQUIPMENT\">Stations</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_EQUIPMENT\">Stationen</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.TOOLTIP"
@@ -26026,7 +26045,7 @@ msgstr "Entdecke neue Technologien durch die Kraft der Wissenschaft!"
 #. STRINGS.UI.BUILDCATEGORIES.FOOD.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FOOD.NAME"
 msgid "<link=\"BUILD_CATEGORY_FOOD\">Food</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_FOOD\">Nahrung</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.FOOD.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FOOD.TOOLTIP"
@@ -26036,7 +26055,7 @@ msgstr "Gib deinen Duplikanten ein gutes Gefühl und einen vollen Magen."
 #. STRINGS.UI.BUILDCATEGORIES.FURNITURE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FURNITURE.NAME"
 msgid "<link=\"BUILD_CATEGORY_FURNITURE\">Furniture</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_FURNITURE\">Möbel</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.FURNITURE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FURNITURE.TOOLTIP"
@@ -26046,7 +26065,7 @@ msgstr "Mit bestimmten Ausstattungen bleiben deine Duplikanten glücklich, gemü
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.NAME"
 msgid "<link=\"BUILD_CATEGORY_HVAC\">Ventilation</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_HVAC\">Lüftung</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP"
@@ -26056,7 +26075,7 @@ msgstr "Kontrolliere den Gasfluss deiner Basis."
 #. STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME"
 msgid "<link=\"BUILD_CATEGORY_MEDICAL\">Medicine</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_MEDICAL\">Medizin</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.MEDICAL.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MEDICAL.TOOLTIP"
@@ -26066,7 +26085,7 @@ msgstr "Ein Heilmittel für alles außer einer Erkältung."
 #. STRINGS.UI.BUILDCATEGORIES.MISC.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MISC.NAME"
 msgid "<link=\"BUILD_CATEGORY_MISC\">Decor</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_MISC\">Dekoration</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.MISC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MISC.TOOLTIP"
@@ -26076,7 +26095,7 @@ msgstr "Pepp deine Kolonie mit schicker Inneneinrichtung auf."
 #. STRINGS.UI.BUILDCATEGORIES.OXYGEN.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.OXYGEN.NAME"
 msgid "<link=\"BUILD_CATEGORY_OXYGEN\">Oxygen</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_OXYGEN\">Sauerstoff</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.OXYGEN.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.OXYGEN.TOOLTIP"
@@ -26086,7 +26105,7 @@ msgstr "Alles was du brauchst um deine Kolonie in Atem zu halten."
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.NAME"
 msgid "<link=\"BUILD_CATEGORY_PLUMBING\">Plumbing</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_PLUMBING\">Sanitär</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP"
@@ -26096,7 +26115,7 @@ msgstr "Halt dein Wasser am laufen und das Abwasser fließt."
 #. STRINGS.UI.BUILDCATEGORIES.POWER.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.NAME"
 msgid "<link=\"BUILD_CATEGORY_POWER\">Power</link>"
-msgstr ""
+msgstr "<link=\"BUILD_CATEGORY_POWER\">Energie</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.POWER.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.TOOLTIP"
@@ -26159,7 +26178,7 @@ msgstr "<link=\"POWER\">Energieverbrauch</link>: {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE"
 msgid "Capture Method: Lures"
-msgstr ""
+msgstr "Fangmethode: Köder"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_TRAP
 #, fuzzy
@@ -26172,7 +26191,7 @@ msgstr "Kreaturenfallen"
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_WRANGLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_WRANGLE"
 msgid "Capture Method: Wrangling"
-msgstr ""
+msgstr "Fangmethode: Ringen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CONSUMESANYELEMENT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CONSUMESANYELEMENT"
@@ -27081,7 +27100,7 @@ msgstr "({0})"
 #. STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS"
 msgid "<link=\"BUILDINGS\">Buildings</link>"
-msgstr ""
+msgstr "<link=\"BUILDINGS\">Gebäude</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.CREATURES
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.CREATURES"
@@ -27091,42 +27110,42 @@ msgstr ""
 #. STRINGS.UI.CODEX.CATEGORYNAMES.DISEASES
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.DISEASES"
 msgid "<link=\"DISEASES\">Diseases</link>"
-msgstr ""
+msgstr "<link=\"DISEASES\">Krankheiten</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTS"
 msgid "<link=\"ELEMENTS\">Elements</link>"
-msgstr ""
+msgstr "<link=\"ELEMENTS\">Elemente</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSGAS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSGAS"
 msgid "<link=\"ELEMENTSGAS\">Gases</link>"
-msgstr ""
+msgstr "<link=\"ELEMENTSGAS\">Gase</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSLIQUID
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSLIQUID"
 msgid "<link=\"ELEMENTSLIQUID\">Liquids</link>"
-msgstr ""
+msgstr "<link=\"ELEMENTSLIQUID\">Flüssigkeiten</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSOTHER
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSOTHER"
 msgid "<link=\"ELEMENTSOTHER\">Other</link>"
-msgstr ""
+msgstr "<link=\"ELEMENTSOTHER\">Sonstiges</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSSOLID
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSSOLID"
 msgid "<link=\"ELEMENTSSOLID\">Solids</link>"
-msgstr ""
+msgstr "<link=\"ELEMENTSSOLID\">Feststoffe</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.FOOD
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.FOOD"
 msgid "<link=\"FOOD\">Food</link>"
-msgstr ""
+msgstr "<link=\"FOOD\">Nahrung</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
 msgid "<link=\"PLANTS\">Plants</link>"
-msgstr ""
+msgstr "<link=\"PLANTS\">Pflanzen</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ROLES
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ROLES"
@@ -27141,12 +27160,12 @@ msgstr ""
 #. STRINGS.UI.CODEX.CATEGORYNAMES.SYSTEMS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.SYSTEMS"
 msgid "<link=\"SYSTEMS\">Systems</link>"
-msgstr ""
+msgstr "<link=\"SYSTEMS\">Systeme</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.TECH
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.TECH"
 msgid "<link=\"TECH\">Research</link>"
-msgstr ""
+msgstr "<link=\"TECH\">Forschung</link>"
 
 #. STRINGS.UI.CODEX.DETAILS
 #, fuzzy
