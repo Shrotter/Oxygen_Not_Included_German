@@ -6647,6 +6647,22 @@ msgctxt "STRINGS.CODEX.HATCH.TITLE"
 msgid "Hatch"
 msgstr "Hatch"
 
+#. STRINGS.CODEX.HEADERS.BUILDINGEFFECTS
+#, fuzzy
+#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS"
+#| msgid "Effects:"
+msgctxt "STRINGS.CODEX.HEADERS.BUILDINGEFFECTS"
+msgid "Effects"
+msgstr "Effekte:"
+
+#. STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS
+#, fuzzy
+#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.OPERATIONREQUIREMENTS"
+#| msgid "<b>Requirements:</b>"
+msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
+msgid "Requirements"
+msgstr "<b>Anforderungen:</b>"
+
 #. STRINGS.CODEX.HEADERS.DIET
 msgctxt "STRINGS.CODEX.HEADERS.DIET"
 msgid "Diet"
@@ -6661,8 +6677,11 @@ msgid "Recipes"
 msgstr "Rezepte"
 
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES"
+#| msgid "Prerequisite Roles"
 msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES"
-msgid "Prerequisite Roles"
+msgid "Prerequisite Jobs"
 msgstr "Voraussetzungen für Rollen"
 
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_TECH
@@ -6843,6 +6862,37 @@ msgstr "Essbare Pflanze"
 msgctxt "STRINGS.CODEX.MUCKROOT.TITLE"
 msgid "Muckroot"
 msgstr "Schmutzwurzel"
+
+#. STRINGS.CODEX.PAGENOTFOUND.BODY
+#, fuzzy
+#| msgid ""
+msgctxt "STRINGS.CODEX.PAGENOTFOUND.BODY"
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shrotter\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. STRINGS.CODEX.PAGENOTFOUND.SUBTITLE
+#, fuzzy
+#| msgctxt "STRINGS.UI.TOOLTIPS.NO_CODEX_ENTRY"
+#| msgid "No database entry available"
+msgctxt "STRINGS.CODEX.PAGENOTFOUND.SUBTITLE"
+msgid "This database entry is unavailable"
+msgstr "Kein Datenbankeintrag vorhanden"
+
+#. STRINGS.CODEX.PAGENOTFOUND.TITLE
+msgctxt "STRINGS.CODEX.PAGENOTFOUND.TITLE"
+msgid "Data Not Found"
+msgstr ""
 
 #. STRINGS.CODEX.PINCHAPEPPERPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PINCHAPEPPERPLANT.BODY.CONTAINER1"
@@ -17878,7 +17928,7 @@ msgctxt "STRINGS.ELEMENTS.CREATURE.DESC"
 msgid ""
 "(DuPe) Ooze is a slurry of water, carbon, and dozens and dozens of trace elements.\n"
 "\n"
-"Duplicants are printed from pure <link=\"OOZE\">solid</link>."
+"Duplicants are printed from pure <link=\"SOLID\">Ooze</link>."
 msgstr ""
 "(DuPe) Schlamm ist eine Schlacke aus Wasser, Kohlenstoff und dutzenden Spurenelementen.\n"
 "\n"
@@ -21115,7 +21165,7 @@ msgstr "Schilffaser"
 #| "Increases the growth rate of one <style=\"plant\">Plant</style>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC"
 msgid ""
-"Specialized <link=\"FERTILIZER\">solid</link> mixed by a professional farmer.\n"
+"Specialized <link=\"FERTILIZER\">Fertilizer</link> mixed by a professional farmer.\n"
 "\n"
 "Increases the growth rate of one <link=\"PLANTS\">Plant</link>."
 msgstr ""
@@ -28648,9 +28698,12 @@ msgid "More information"
 msgstr "Mehr Informationen"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.NAME
+#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.ELEMENTPROPERTIES"
+#| msgid "Properties: {0}"
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.NAME"
-msgid "Details"
-msgstr "Details"
+msgid "Properties"
+msgstr "Eigenschaften: {0}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.NET_STRESS
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.NET_STRESS"
@@ -29316,11 +29369,11 @@ msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.NAME
 #, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.MINION_NAME"
-#| msgid "About"
+#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.BIG"
+#| msgid "Big"
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.NAME"
-msgid "About"
-msgstr "Über"
+msgid "Bio"
+msgstr "Groß"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.APTITUDES.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.APTITUDES.NAME"
@@ -29442,13 +29495,19 @@ msgid "STATUS"
 msgstr "STATUS"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.DETAILTABS.STATS.NAME"
+#| msgid "Stats"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
-msgid "Info"
-msgstr "Info"
+msgid "Status"
+msgstr "Werte"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP"
+#| msgid "View the status of the selected object"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP"
-msgid "View the status of the selected object"
+msgid "View the current status of the selected object"
 msgstr "Zeigt den Status des ausgewählten Gegenstands an"
 
 #. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_ATTRIBUTES
@@ -29473,8 +29532,8 @@ msgstr "EIGENSCHAFTEN"
 
 #. STRINGS.UI.DETAILTABS.STATS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.STATS.NAME"
-msgid "Stats"
-msgstr "Werte"
+msgid "Skills"
+msgstr ""
 
 #. STRINGS.UI.DETAILTABS.STATS.TOOLTIP
 #, fuzzy
@@ -35857,14 +35916,20 @@ msgid "Missing {0} of {1}\n"
 msgstr "Benötigt {0} {1}\n"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
+#| msgid "{0}: {1}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT"
-msgid "{0}{1}: {2}"
-msgstr "{0}{1}: {2}"
+msgid "{0}: {1}"
+msgstr "{0}: {1}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT
+#, fuzzy
+#| msgctxt "STRINGS.UI.NAME_WITH_UNITS"
+#| msgid "{0} x {1}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT"
-msgid "{0}: {1} / {2}"
-msgstr "{0}: {1} / {2}"
+msgid "{0} / {1}"
+msgstr "{0} x {1}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RESULTEFFECTS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RESULTEFFECTS"
@@ -38179,6 +38244,29 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.DETAILS.NAME"
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#, fuzzy
+#~| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.MINION_NAME"
+#~| msgid "About"
+#~ msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.NAME"
+#~ msgid "About"
+#~ msgstr "Über"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT"
+#~ msgid "{0}{1}: {2}"
+#~ msgstr "{0}{1}: {2}"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT"
+#~ msgid "{0}: {1} / {2}"
+#~ msgstr "{0}: {1} / {2}"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
 #~ msgid "Emitting <link=\"GAS\">{Element}</style>: {FlowRate}"
