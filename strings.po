@@ -30222,9 +30222,15 @@ msgid "World Generation Key"
 msgstr "Welterzeugungsschlüssel"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
+#| msgid ""
+#| "<b>Welcome to the Occupational Upgrade!</b>\n"
+#| "\n"
+#| "{0}"
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Occupational Upgrade!</b>\n"
+"<b>Welcome to the Ranching Upgrade Mark I!</b>\n"
 "\n"
 "{0}"
 msgstr ""
@@ -30238,13 +30244,25 @@ msgid "OK"
 msgstr "OK"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#| msgid ""
+#| "<b>Update Features:</b>\n"
+#| "\n"
+#| "• Jobs Board added! Employ your Duplicants in new job positions for skill improvements, unique traits, and cool new hats\n"
+#| "• New Conveyor Rail System to quickly transport solid materials around your base\n"
+#| "• Food and Plant rebalances for a more rewarding overall farming experience\n"
+#| "• Tons of bug fixes, performance enhancements, QOL additions, and more!\n"
+#| "\n"
+#| "Please view the full patch notes for further details!"
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• Jobs Board added! Employ your Duplicants in new job positions for skill improvements, unique traits, and cool new hats\n"
-"• New Conveyor Rail System to quickly transport solid materials around your base\n"
-"• Food and Plant rebalances for a more rewarding overall farming experience\n"
+"• Creatures now have lifecycles and can be raised from eggs\n"
+"• Rancher job and buildings to take care of all your new creatures\n"
+"• New Duplicant Priority system for broad control of Dupe errands\n"
+"• Learn about buildings, creatures and more with the Database screen\n"
 "• Tons of bug fixes, performance enhancements, QOL additions, and more!\n"
 "\n"
 "Please view the full patch notes for further details!"
@@ -35406,12 +35424,9 @@ msgid "{0}: {1}"
 msgstr "{0}: {1}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT
-#, fuzzy
-#| msgctxt "STRINGS.UI.NAME_WITH_UNITS"
-#| msgid "{0} x {1}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT"
-msgid "{0} / {1}"
-msgstr "{0} x {1}"
+msgid "{0}: {1} / {2}"
+msgstr "{0}: {1} / {2}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RESULTEFFECTS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RESULTEFFECTS"
@@ -37679,6 +37694,13 @@ msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
 
 #, fuzzy
+#~| msgctxt "STRINGS.UI.NAME_WITH_UNITS"
+#~| msgid "{0} x {1}"
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT"
+#~ msgid "{0} / {1}"
+#~ msgstr "{0} x {1}"
+
+#, fuzzy
 #~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 #~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC"
@@ -37908,10 +37930,6 @@ msgstr "Sand verstreuen..."
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT"
 #~ msgid "{0}{1}: {2}"
 #~ msgstr "{0}{1}: {2}"
-
-#~ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPERQUIREMENT"
-#~ msgid "{0}: {1} / {2}"
-#~ msgstr "{0}: {1} / {2}"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
 #~ msgid "Emitting <link=\"GAS\">{Element}</style>: {FlowRate}"
