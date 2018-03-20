@@ -7188,7 +7188,7 @@ msgstr "Verschmort"
 
 #. STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP"
-msgid "This critter isn't comfortable with so many creatures in a room of this size"
+msgid "This critter isn't comfortable with so many other critters in a room of this size"
 msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.NAME
@@ -7211,8 +7211,8 @@ msgstr "Zahm"
 
 #. STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP"
-msgid "This critter is tame."
-msgstr "Diese Kreatur ist gezähmt."
+msgid "This critter is tame"
+msgstr "Diese Kreatur ist gezähmt"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.NAME
 #, fuzzy
@@ -7224,8 +7224,8 @@ msgstr "Wild"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.TOOLTIP"
-msgid "This critter is wild."
-msgstr "Diese Kreatur ist wild."
+msgid "This critter is wild"
+msgstr "Diese Kreatur ist wild"
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC
 #, fuzzy
@@ -7371,7 +7371,7 @@ msgstr "<link=\"FLUTEGG\">Pacu-Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A massive volcano that periodically erupts with molten <link=\"MAGMA\">Magma</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME
@@ -7379,23 +7379,23 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME"
 #| msgid "<link=\"BOTANIST\">Botanist</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME"
-msgid "<link=\"BIGVOLCANO\">Big Volcano</link>"
+msgid "<link=\"BIGVOLCANO\">Volcano</link>"
 msgstr "<link=\"BOTANIST\">Botaniker</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A highly pressurized vent that periodically erupts with warm <link=\"CHLORINEGAS\">Chlorine</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME
 #, fuzzy
 #| msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.NAME"
 #| msgid "<link=\"CHLORINEGAS\">Chlorine</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME"
-msgid "<link=\"CHLORINEGAS\">Chlorine Gas Fumarole</link>"
+msgid "<link=\"CHLORINEGAS\">Chlorine Gas Vent</link>"
 msgstr "<link=\"CHLORINEGAS\">Chlorgas</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.DESC
@@ -7411,7 +7411,7 @@ msgstr "Ein unter hohem Druck stehender Geysir, der regelmäßig ausbricht, und 
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized vent that periodically erupts with boiling <link=\"DIRTYWATER\">Polluted Water</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME
@@ -7419,31 +7419,31 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.ELEMENTS.DIRTYWATER.NAME"
 #| msgid "<link=\"DIRTYWATER\">Polluted Water</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME"
-msgid "<link=\"FILTHYWATER\">Hot Steam Fumarole</link>"
+msgid "<link=\"DIRTYWATER\">Polluted Water Vent</link>"
 msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A highly pressurized vent that periodically erupts with hot gaseous <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME
 #, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.NAME"
-#| msgid "<link=\"ROTPILE\">Rot Pile</link>"
+#| msgctxt "STRINGS.ELEMENTS.CARBONDIOXIDE.NAME"
+#| msgid "<link=\"CARBONDIOXIDE\">Carbon Dioxide</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME"
-msgid "<link=\"HOTCO2\">Hot CO2 Fumarole</link>"
-msgstr "<link=\"ROTPILE\">Verrotteter Haufen</link>"
+msgid "<link=\"HOTCO2\">Carbon Dioxide Vent</link>"
+msgstr "<link=\"CARBONDIOXIDE\">Kohlendioxid</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC
 #, fuzzy
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized vent that periodically erupts with hot gaseous <link=\"HYDROGEN\">Hydrogen</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME
@@ -7451,7 +7451,7 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
 #| msgid "<link=\"HYDROGEN\">Hydrogen</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME"
-msgid "<link=\"HOTHYDROGEN\">Hot Hydrogen Fumarole</link>"
+msgid "<link=\"HOTHYDROGEN\">Hydrogen Vent</link>"
 msgstr "<link=\"HYDROGEN\">Wasserstoff</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC
@@ -7459,7 +7459,7 @@ msgstr "<link=\"HYDROGEN\">Wasserstoff</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized vent that periodically erupts with hot <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME
@@ -7467,7 +7467,7 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.ELEMENTS.CONTAMINATEDOXYGEN.NAME"
 #| msgid "Polluted Oxygen"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME"
-msgid "<link=\"HOTPO2\">Hot Polluted Oxygen Fumarole</link>"
+msgid "<link=\"HOTPO2\">Polluted Oxygen Vent</link>"
 msgstr "Verschmutzter Sauerstoff"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC
@@ -7475,7 +7475,7 @@ msgstr "Verschmutzter Sauerstoff"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized vent that periodically erupts with scalding <link=\"STEAM\">Steam</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME
@@ -7483,7 +7483,7 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
 #| msgid "<link=\"STEAM\">Steam</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME"
-msgid "<link=\"HOTSTEAM\">Hot Steam Fumarole</link>"
+msgid "<link=\"HOTSTEAM\">Steam Vent</link>"
 msgstr "<link=\"STEAM\">Dampf</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC
@@ -7491,7 +7491,7 @@ msgstr "<link=\"STEAM\">Dampf</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized geyser that periodically erupts with hot <link=\"WATER\">Water</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME
@@ -7499,32 +7499,32 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.ELEMENTS.WATER.NAME"
 #| msgid "<link=\"WATER\">Water</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME"
-msgid "<link=\"HOTWATER\">Hot Water Geyser</link>"
+msgid "<link=\"HOTWATER\">Water Geyser</link>"
 msgstr "<link=\"WATER\">Wasser</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A highly pressurized geyser that periodically erupts with boiling liquid <link=\"LIQUIDCARBONDIOXIDE\">Carbon Dioxide</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
-#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
+#| msgctxt "STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.NAME"
+#| msgid "<link=\"LIQUIDCARBONDIOXIDE\">Carbon Dioxide</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
-msgid "<link=\"LIQUIDCO2\">Liquid CO2 Geyser</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">Rohr</link>"
+msgid "<link=\"LIQUIDCO2\">Carbon Dioxide Geyser</link>"
+msgstr "<link=\"LIQUIDCARBONDIOXIDE\">Kohlenstoffdioxid</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC
 #, fuzzy
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"METHANE\">Natural Gas</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A highly pressurized geyser that periodically erupts with hot <link=\"METHANE\">Natural Gas</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"METHANE\">Erdgas</link> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME
 #, fuzzy
@@ -7535,9 +7535,12 @@ msgid "<link=\"METHANE\">Natural Gas Geyser</link>"
 msgstr "<link=\"METHANEGEYSER\">Erdgas-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"STEAM\">Dampf</link> ausstößt."
+msgid "A large volcano that periodically erupts with molten <link=\"MOLTENCOPPER\">Copper</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME
 #, fuzzy
@@ -7552,7 +7555,7 @@ msgstr "<link=\"MOLTENCOPPER\">Kupfer</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A large volcano that periodically erupts with molten <link=\"MOLTENGOLD\">Gold</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME
@@ -7565,11 +7568,11 @@ msgstr "<link=\"MOLTENGOLD\">Gold</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A large volcano that periodically erupts with molten <link=\"MOLTENIRON\">Iron</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME
 #, fuzzy
@@ -7586,11 +7589,11 @@ msgstr "<link=\"GEYSER\">Dampf-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A fissure in the asteroid that periodically erupts with boiling<link=\"CRUDEOIL\">Crude Oil</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME
 #, fuzzy
@@ -7605,7 +7608,7 @@ msgstr "<link=\"OILSPOUT\">Ölquelle</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized vent that periodically erupts with warm <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME
@@ -7613,31 +7616,31 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME"
 #| msgid "Infected Oxygen Fumarole"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME"
-msgid "<link=\"SLIMYPO2\">Infected Oxygen Fumarole</link>"
+msgid "<link=\"SLIMYPO2\">Polluted Oxygen Vent</link>"
 msgstr "Verseuchter-Sauerstoff-Fumarole"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
+#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgid "A highly pressurized geyser that periodically erupts with freezing <link=\"CRUSHEDICE\">Crushed Ice</link>."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.NAME"
-#| msgid "<link=\"SHOWER\">Shower</link>"
+#| msgctxt "STRINGS.ELEMENTS.CRUSHEDICE.NAME"
+#| msgid "<link=\"CRUSHEDICE\">Crushed Ice</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME"
-msgid "<link=\"SLUSHWATER\">Slush Geyser</link>"
-msgstr "<link=\"SHOWER\">Dusche</link>"
+msgid "<link=\"CRUSHEDICE\">Cool Slush Geyser</link>"
+msgstr "<link=\"CRUSHEDICE\">Zerstoßenes Eis</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC
 #, fuzzy
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A miniature volcano that periodically erupts with molten <link=\"MAGMA\">Magma</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME
@@ -7645,7 +7648,7 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCONTROL.NAME"
 #| msgid "<link=\"ANIMALCONTROL\">Animal Control</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME"
-msgid "<link=\"SMALLVOLCANO\">Small Volcano</link>"
+msgid "<link=\"SMALLVOLCANO\">Minor Volcano</link>"
 msgstr "<link=\"ANIMALCONTROL\">Tierkontrolle</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC
@@ -7653,7 +7656,7 @@ msgstr "<link=\"ANIMALCONTROL\">Tierkontrolle</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 #| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC"
-msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+msgid "A highly pressurized vent that periodically erupts with hot <link=\"STEAM\">Steam</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME
@@ -7661,7 +7664,7 @@ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erd
 #| msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
 #| msgid "<link=\"STEAM\">Steam</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME"
-msgid "<link=\"STEAM\">Cool Steam Fumarole</link>"
+msgid "<link=\"STEAM\">Cool Steam Vent</link>"
 msgstr "<link=\"STEAM\">Dampf</link>"
 
 #. STRINGS.CREATURES.SPECIES.GLOM.DESC
@@ -8477,11 +8480,11 @@ msgctxt "STRINGS.CREATURES.STATS.WILDNESS.TOOLTIP"
 msgid ""
 "Wildness\n"
 "------------------\n"
-"When a critter's wildness hits zero, their happiness starts increasing but they consume more calories."
+"At zero Wildness a critter can start gaining Happiness, but they will also require more calories to survive"
 msgstr ""
 "Wildheit\n"
 "------------------\n"
-"Wenn die Wildjeit eines Viehs null erreicht, beginnt seine Zufriedenheit zu steigen aber es konsumiert mehr Kalorien."
+"Bei einer Wildheit von null ein Vieh Zufriedenheit erlangen, aber es benötigt zum überleben auch mehr Kalorien"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME"
@@ -8518,19 +8521,19 @@ msgstr "Diese Vieh greift an!"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.NAME
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME"
-#| msgid "Uprooting {Target}"
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREAKWORKSTATUS.NAME"
+#| msgid "Breaking {Target}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.NAME"
-msgid "Approaching Target"
-msgstr "Entwurzelt {Target}"
+msgid "Stalking Target"
+msgstr "Zerstört {Target}"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
-#| msgid "This creature is replenishing its stamina"
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.BURROWING.TOOLTIP"
+#| msgid "This creature is trying to hide"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.TOOLTIP"
-msgid "This critter is approaching its target"
-msgstr "Diese Kreatur regeneriert ihre Ausdauer"
+msgid "This critter is hostile and readying to pounce!"
+msgstr "Diese Kreatur versucht sich zu verstecken"
 
 #. STRINGS.CREATURES.STATUSITEMS.BARREN.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.NAME"
@@ -9126,11 +9129,11 @@ msgstr "Atmet aus"
 
 #. STRINGS.CREATURES.STATUSITEMS.INHALING.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
-#| msgid "This creature is replenishing its stamina"
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.BURROWING.TOOLTIP"
+#| msgid "This creature is trying to hide"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.INHALING.TOOLTIP"
-msgid "This critter is breathing in gas"
-msgstr "Diese Kreatur regeneriert ihre Ausdauer"
+msgid "This critter is taking a deep breath"
+msgstr "Diese Kreatur versucht sich zu verstecken"
 
 #. STRINGS.CREATURES.STATUSITEMS.LAYINGANEGG.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.LAYINGANEGG.NAME"
@@ -9404,20 +9407,26 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATUSITEMS.STARVING.NOTIFICATION_NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
-#| msgid "Starving"
+#| msgctxt "STRINGS.DUPLICANTS.DEATHS.STARVATION.NAME"
+#| msgid "Starvation"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STARVING.NOTIFICATION_NAME"
-msgid "Creature Starving"
-msgstr "Verhungert"
+msgid "Critter Starvation"
+msgstr "Verhungern"
 
 #. STRINGS.CREATURES.STATUSITEMS.STARVING.NOTIFICATION_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STARVING.NOTIFICATION_TOOLTIP"
+#| msgid "These critters are starving and near death:"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STARVING.NOTIFICATION_TOOLTIP"
-msgid "These critters are starving and near death:"
+msgid "These critters are starving and will die if not fed soon:"
 msgstr "Diese Viecher verhungern und sind dem Tode nahe:"
 
 #. STRINGS.CREATURES.STATUSITEMS.STARVING.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STARVING.TOOLTIP"
+#| msgid "This critter is starving and is near death.Duplicant is near death!"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STARVING.TOOLTIP"
-msgid "This critter is starving and is near death.Duplicant is near death!"
+msgid "This critter is starving and will die if it is not fed soon"
 msgstr "Dieses Viech ist am verhungern und dem Tode nahe."
 
 #. STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.NAME
@@ -10048,6 +10057,19 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.SPEEDMODIFIER"
 msgid "{0} Skill Leveling"
 msgstr "{0} Fähigkeits-Lerngeschwindigkeit"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.LIFESUPPORT.DESC
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC"
+#| msgid "Determines how quickly and efficiently a Duplicant raises plants."
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LIFESUPPORT.DESC"
+msgid "Determines how efficiently a Duplicant maintains algae terrariums, deodorizers, and water sieves."
+msgstr "Bestimmt, wie schnell und effizient ein Duplikant Pflanzen aufzieht."
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.LIFESUPPORT.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LIFESUPPORT.NAME"
+msgid "Life Support"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.DESC"
 msgid "Determines how adeptly a Duplicant uses machines."
@@ -10228,6 +10250,22 @@ msgstr ""
 "\n"
 "Es ist die Summe der Ausrüstung eines Duplikanten und seiner natürlichen Isolationswerte."
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.TOGGLE.DESC
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC"
+#| msgid "Determines how quickly and efficiently a Duplicant raises plants."
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOGGLE.DESC"
+msgid "Determines how efficiently a Duplicant tunes machinery, flips switches, and sets sensors."
+msgstr "Bestimmt, wie schnell und effizient ein Duplikant Pflanzen aufzieht."
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.TOGGLE.NAME
+#, fuzzy
+#| msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.TOGGLEOPEN"
+#| msgid "ToggleOpen"
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOGGLE.NAME"
+msgid "Toggle"
+msgstr "UmschaltenNachOffen"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.TOILETEFFICIENCY.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOILETEFFICIENCY.DESC"
 msgid "Determines how long a Duplicant needs to do their \"business\"."
@@ -10265,8 +10303,8 @@ msgstr "{0}: {1}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.WILDNESSDELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILDNESSDELTA.DESC"
-msgid "Wild creatures burn less calories."
-msgstr "Wilde Kreaturen verbrennen weniger Kalorien."
+msgid "Wild creatures can survive on fewer calories than domesticated ones."
+msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.WILDNESSDELTA.NAME
 #, fuzzy
@@ -10362,6 +10400,16 @@ msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.HAULING.NAME"
 msgid "Supply"
 msgstr "Versorgung"
 
+#. STRINGS.DUPLICANTS.CHOREGROUPS.LIFESUPPORT.DESC
+msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.LIFESUPPORT.DESC"
+msgid "Maintain algae terrariums, deodorizers, and water sieves to support colony life."
+msgstr ""
+
+#. STRINGS.DUPLICANTS.CHOREGROUPS.LIFESUPPORT.NAME
+msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.LIFESUPPORT.NAME"
+msgid "Life Support"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.DESC"
 msgid "Operating heavy machinery for production, fabrication, and utility purposes."
@@ -10421,6 +10469,32 @@ msgstr "Benuzt die Forschungsstationen um neue Technologien freizuschalten."
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME"
 msgid "Research"
 msgstr "Forschung"
+
+#. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC
+msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC"
+msgid "Fill non-critical storage buildings with resources."
+msgstr ""
+
+#. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.CHORES.EMPTYSTORAGE.NAME"
+#| msgid "Empty Storage"
+msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME"
+msgid "Storage"
+msgstr "Leeres Lager"
+
+#. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC
+msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC"
+msgid "Tune machinery and set or flip switches and sensors."
+msgstr ""
+
+#. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME
+#, fuzzy
+#| msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.TOGGLEOPEN"
+#| msgid "ToggleOpen"
+msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME"
+msgid "Toggle"
+msgstr "UmschaltenNachOffen"
 
 #. STRINGS.DUPLICANTS.CHORES.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ART.NAME"
@@ -16438,13 +16512,16 @@ msgstr "Verhungern"
 #| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.NOTIFICATION_TOOLTIP"
 #| msgid "These Duplicants are starving and need <link=\"FOOD\">Food</style>:"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.NOTIFICATION_TOOLTIP"
-msgid "These Duplicants are starving and need <link=\"FOOD\">Food</link>:"
+msgid "These Duplicants are starving and will die if they can't find <link=\"FOOD\">Food</link>:"
 msgstr "Diese Duplikanten verhungern und brauchen <link=\"FOOD\">Nahrung</style>:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STARVING.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNCLEAN.TOOLTIP"
+#| msgid "This Duplicant is dirty and needs a shower"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.TOOLTIP"
-msgid "This Duplicant needs food!"
-msgstr "Dieser Duplikant braucht Nahrung!"
+msgid "This Duplicant is about to die and needs food!"
+msgstr "Dieser Duplikant ist schmutzig und braucht eine Dusche"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STORECRITICALDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STORECRITICALDELIVERSTATUS.NAME"
@@ -22232,7 +22309,7 @@ msgstr "Ein blockiertes Rohr hält dieses System von der Funktion ab:"
 #| msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
 #| msgid "Duplicants will choose what work they do based on the priorities you set. To set priorities, use the priority buttons under the tool menu. Many buildings also let you change their priority on selection."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
-msgid "Duplicants will choose what work they do based on the priorities you set. To set priorities, use the Urgency buttons under the tool menu. Many buildings also let you change their Urgency level on selection."
+msgid "Duplicants will choose what work they do based on the priorities you set. To set priorities, open the Priorities menu to control master priorities, and then use the Sub-Priorities buttons under the tool menu. Many buildings also let you change their Sub-Priority level on selection."
 msgstr "Duplikanten werden die zu erledigenden Aufgaben je nach gesetzter Priorität abarbeiten. Du kannst Prioritäten mit der Prioritätsschaltfläche unten im Werkzeugmenü festlegen. Bei vielen Objekten lassen sich die Prioritäten im Info-Fenster ändern."
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
@@ -23019,11 +23096,11 @@ msgstr "Duplikanten können diesen Gegenstand nicht erreichen"
 
 #. STRINGS.MISC.STATUSITEMS.PRIORITIZED.NAME
 #, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
-#| msgid "High Decor"
+#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
+#| msgid "Priority"
 msgctxt "STRINGS.MISC.STATUSITEMS.PRIORITIZED.NAME"
-msgid "High Urgency"
-msgstr "Hohe Dekorationswerte"
+msgid "High Priority"
+msgstr "Priorität"
 
 #. STRINGS.MISC.STATUSITEMS.PRIORITIZED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PRIORITIZED.TOOLTIP"
@@ -23316,9 +23393,12 @@ msgid "Edible"
 msgstr "Essbar"
 
 #. STRINGS.MISC.TAGS.EGG
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.HATCH.SUBTITLE"
+#| msgid "Critter"
 msgctxt "STRINGS.MISC.TAGS.EGG"
-msgid "Any Egg"
-msgstr "Irgendein Ei"
+msgid "Critter Egg"
+msgstr "Vieh"
 
 #. STRINGS.MISC.TAGS.EMITSLIGHT
 msgctxt "STRINGS.MISC.TAGS.EMITSLIGHT"
@@ -31555,13 +31635,13 @@ msgctxt "STRINGS.UI.JOBSSCREEN.NEW_MINION_ITEM_TOOLTIP"
 msgid "{Job} Errands are automatically a {Priority} Priority for <b>Arriving Duplicants</b>"
 msgstr ""
 
-#. STRINGS.UI.JOBSSCREEN.PRIORITY.DEFAULT
+#. STRINGS.UI.JOBSSCREEN.OPTIONS
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_2"
-#| msgid "Standard"
-msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.DEFAULT"
-msgid "Standard"
-msgstr "Standard"
+#| msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.OPTIONS"
+#| msgid "Options"
+msgctxt "STRINGS.UI.JOBSSCREEN.OPTIONS"
+msgid "Options"
+msgstr "Optionen"
 
 # TODO: Hier steht bewusst nicht "Objekt", damit es platztechnisch passt.
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED
@@ -31588,6 +31668,14 @@ msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.LOW"
 msgid "Low"
 msgstr "Niedrig"
 
+#. STRINGS.UI.JOBSSCREEN.PRIORITY.STANDARD
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_2"
+#| msgid "Standard"
+msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.STANDARD"
+msgid "Standard"
+msgstr "Standard"
+
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.VERYHIGH
 #, fuzzy
 #| msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6"
@@ -31595,6 +31683,33 @@ msgstr "Niedrig"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.VERYHIGH"
 msgid "Very High"
 msgstr "Sehr giftig"
+
+#. STRINGS.UI.JOBSSCREEN.PRIORITY.VERYLOW
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6"
+#| msgid "Very Toxic"
+msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.VERYLOW"
+msgid "Very Low"
+msgstr "Sehr giftig"
+
+# Beruf oder Aufgabe?
+#. STRINGS.UI.JOBSSCREEN.RESET_SETTINGS
+#, fuzzy
+#| msgctxt "STRINGS.UI.ROLES_SCREEN.PRIORITY.TITLE"
+#| msgid "Job Priorities"
+msgctxt "STRINGS.UI.JOBSSCREEN.RESET_SETTINGS"
+msgid "Reset Priorities"
+msgstr "Berufsprioritäten"
+
+#. STRINGS.UI.JOBSSCREEN.RESET_SETTINGS_TOOLTIP
+msgctxt "STRINGS.UI.JOBSSCREEN.RESET_SETTINGS_TOOLTIP"
+msgid ""
+"Resets all priorities to the default values for this mode.\n"
+"\n"
+"Normal Mode: All priorities will be reset to neutral.\n"
+"\n"
+"Advanced Mode: Priorities will be adjusted high-to-low for normal base operation."
+msgstr ""
 
 #. STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP
 #, fuzzy
@@ -31611,6 +31726,30 @@ msgstr "TIPP: Auftragsprioritäten"
 msgctxt "STRINGS.UI.JOBSSCREEN.TITLE"
 msgid "MANAGE ERRAND PRIORITIES"
 msgstr "ZIEHEN ZUM PRIORISIEREN"
+
+#. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE
+#, fuzzy
+#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
+#| msgid "Advanced Research"
+msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
+msgid "Advanced Mode"
+msgstr "Fortschrittliche Forschung"
+
+#. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP
+msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
+msgid ""
+"<b>Normal Mode</b> (unchecked):\n"
+"\n"
+"Duplicants will first pick an errand based on their Priorities, and then by Sub-Priorities. If more than one available errand has the same priority, then they will pick based on a hidden priority which helps new bases run more smoothly.\n"
+"\n"
+"This mode is ideal for new players and for smaller bases.\n"
+"\n"
+"<b>Advanced Mode</b> (checked):\n"
+"\n"
+"Duplicants will still pick an errand based on their Priorities, and then by Sub-Priorities. The hidden priority gets disabled, so in case of a tie the Duplicant will pick the closest errand. This helps them to stay near the same area of the colony so long as all the work there is their highest priority.\n"
+"\n"
+"This mode is ideal for large bases and for players who have heavily customized Duplicant Priorities."
+msgstr ""
 
 #. STRINGS.UI.JOBSSCREEN.TOOLTIP_TOGGLE_ALL
 #, fuzzy
@@ -32952,9 +33091,12 @@ msgid "Watts Generated"
 msgstr "Watt erzeugt"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
+#| msgid "Priority Overlay"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
-msgid "Urgency Overlay"
-msgstr "Dringlichkeits-Overlay"
+msgid "Sub-Priority Overlay"
+msgstr "Prioritäts-Overlay"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT"
@@ -32962,9 +33104,12 @@ msgid "8"
 msgstr "8"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP"
+#| msgid "Priority 8"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP"
-msgid "Urgency 8"
-msgstr "Dringlichkeit 8"
+msgid "Sub-Priority 8"
+msgstr "Priorität 8"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FIVE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE"
@@ -32972,9 +33117,12 @@ msgid "5"
 msgstr "5"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP"
+#| msgid "Priority 5"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP"
-msgid "Urgency 5"
-msgstr "Dringlichkeit 5"
+msgid "Sub-Priority 5"
+msgstr "Priorität 5"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FOUR
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR"
@@ -32982,14 +33130,20 @@ msgid "4"
 msgstr "4"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP"
+#| msgid "Priority 4"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP"
-msgid "Urgency 4"
-msgstr "Dringlichkeit 4"
+msgid "Sub-Priority 4"
+msgstr "Priorität 4"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
+#| msgid "PRIORITY OVERLAY"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
-msgid "URGENCY OVERLAY"
-msgstr "DRINGLICHKEITS-OVERLAY"
+msgid "SUB-PRIORITY OVERLAY"
+msgstr "PRIORITÄTS-OVERLAY"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NINE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE"
@@ -32997,9 +33151,12 @@ msgid "9 (High Urgency)"
 msgstr "9 (hohe Dringlichkeit)"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP"
+#| msgid "Priority 9"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP"
-msgid "Urgency 9"
-msgstr "Dringlichkeit 9"
+msgid "Sub-Priority 9"
+msgstr "Priorität 1"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.ONE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE"
@@ -33007,9 +33164,12 @@ msgid "1 (Low Urgency)"
 msgstr "1 (niedrige Dringlichkeit)"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP"
+#| msgid "Priority 1"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP"
-msgid "Urgency 1"
-msgstr "Dringlichkeit 1"
+msgid "Sub-Priority 1"
+msgstr "Priorität 1"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN"
@@ -33017,9 +33177,12 @@ msgid "7"
 msgstr "7"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP"
+#| msgid "Priority 7"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP"
-msgid "Urgency 7"
-msgstr "Dringlichkeit 7"
+msgid "Sub-Priority 7"
+msgstr "Priorität 7"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SIX
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX"
@@ -33027,9 +33190,12 @@ msgid "6"
 msgstr "6"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP"
+#| msgid "Priority 6"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP"
-msgid "Urgency 6"
-msgstr "Dringlichkeit 6"
+msgid "Sub-Priority 6"
+msgstr "Priorität 6"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.THREE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE"
@@ -33037,9 +33203,12 @@ msgid "3"
 msgstr "3"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP"
+#| msgid "Priority 3"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP"
-msgid "Urgency 3"
-msgstr "Dringlichkeit 3"
+msgid "Sub-Priority 3"
+msgstr "Priorität 3"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.TWO
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO"
@@ -33047,9 +33216,12 @@ msgid "2"
 msgstr "2"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP"
+#| msgid "Priority 2"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP"
-msgid "Urgency 2"
-msgstr "Dringlichkeit 2"
+msgid "Sub-Priority 2"
+msgstr "Priorität 2"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.BUTTON"
@@ -33191,11 +33363,20 @@ msgid "+{0}"
 msgstr "+{0}"
 
 #. STRINGS.UI.PRIORITYSCREEN.BASIC
+#, fuzzy
+#| msgctxt "STRINGS.UI.PRIORITYSCREEN.BASIC"
+#| msgid ""
+#| "Set the urgency with which pending errands should be done\n"
+#| "\n"
+#| "Urgency will always be overridden by Duplicant Priorities <color=#F44A47>[J]</color>\n"
+#| "------------------\n"
+#| "1: Least Urgent\n"
+#| "9: Most Urgent"
 msgctxt "STRINGS.UI.PRIORITYSCREEN.BASIC"
 msgid ""
-"Set the urgency with which pending errands should be done\n"
+"Set the order in which with which pending errands should be done\n"
 "\n"
-"Urgency will always be overridden by Duplicant Priorities <color=#F44A47>[J]</color>\n"
+"Sub-Priority will always be overridden by Duplicant Priorities <color=#F44A47>[J]</color>\n"
 "------------------\n"
 "1: Least Urgent\n"
 "9: Most Urgent"
@@ -33206,6 +33387,19 @@ msgstr ""
 "------------------\n"
 "1: Niedrigste Dringlichkeit\n"
 "9: Höchste Dringlichkeit"
+
+#. STRINGS.UI.PRIORITYSCREEN.DIAGRAM
+msgctxt "STRINGS.UI.PRIORITYSCREEN.DIAGRAM"
+msgid "Duplicants will pick errands according to their Priorities first, and then based on Sub-Priority."
+msgstr ""
+
+#. STRINGS.UI.PRIORITYSCREEN.DIAGRAM_TITLE
+#, fuzzy
+#| msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION"
+#| msgid "DRAG TO PRIORITIZE"
+msgctxt "STRINGS.UI.PRIORITYSCREEN.DIAGRAM_TITLE"
+msgid "PRIORITIES"
+msgstr "ZIEHEN ZUM PRIORISIEREN"
 
 #. STRINGS.UI.PRIORITYSCREEN.EMERGENCY
 msgctxt "STRINGS.UI.PRIORITYSCREEN.EMERGENCY"
@@ -33221,6 +33415,14 @@ msgstr "\n"
 msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH_TOGGLE"
 msgid ""
 msgstr "\n"
+
+#. STRINGS.UI.PRIORITYSCREEN.OPEN_JOBS_SCREEN
+msgctxt "STRINGS.UI.PRIORITYSCREEN.OPEN_JOBS_SCREEN"
+msgid ""
+"Click to open the Duplicant Priorities screen.\n"
+"\n"
+"Duplicants will pick errands according to their Priorities first, and then based on Sub-Priority."
+msgstr ""
 
 #. STRINGS.UI.PRODUCTINFO_APPLICABLERESOURCES
 msgctxt "STRINGS.UI.PRODUCTINFO_APPLICABLERESOURCES"
@@ -33461,6 +33663,14 @@ msgstr "Nicht zugewiesen"
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.WILL_BE_UNASSIGNED"
 msgid "Note: Assigning {0} to {1} will <color=#F44A47FF>unassign</color> them from {2}"
 msgstr "Hinweis: Das Zuweisen von {0} zu {1} wird sie/ihn von {2} <color=#F44A47FF>abziehen</color>"
+
+#. STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE
+#, fuzzy
+#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PRIORITIZE"
+#| msgid "Prioritize"
+msgctxt "STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE"
+msgid "Auto-Prioritize:"
+msgstr "Priorisieren"
 
 #. STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE_DISABLED
 msgctxt "STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE_DISABLED"
@@ -34425,32 +34635,44 @@ msgid "UNREACHABLE"
 msgstr "NICHT ERREICHBAR"
 
 #. STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
+#| msgid "Priority"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME"
-msgid "Urgency"
-msgstr "Dringlichkeit"
+msgid "Sub-Priority"
+msgstr "Priorität"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
+#| msgid "Priority"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.NAME"
-msgid "Urgency"
-msgstr "Dringlichkeit"
+msgid "Sub-Priority"
+msgstr "Priorität"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.SPECIFIC_PRIORITY
+#, fuzzy
+#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_NEXT_ACTIVE"
+#| msgid "Next Activity: {0}"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.SPECIFIC_PRIORITY"
-msgid "Set Urgency: {0}"
-msgstr "Setze Dringlichkeit: {0}"
+msgid "Set Sub-Priority: {0}"
+msgstr "Nächste Tätigkeit: {0}"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION
+#, fuzzy
+#| msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION"
+#| msgid "DRAG TO ADJUST URGENCY"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION"
-msgid "DRAG TO ADJUST URGENCY"
+msgid "DRAG TO ADJUST SUB-PRIORITY"
 msgstr "ZIEHEN, UM DIE DRINGLICHKEIT EINZUSTELLEN"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME
 #, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.CANCEL.TOOLNAME"
-#| msgid "Cancel tool"
+#| msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
+#| msgid "Prioritize tool"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
-msgid "Urgency tool"
-msgstr "Abbrechen-Werkzeug"
+msgid "Sub-Priority tool"
+msgstr "Prioritäts-Werkzeug"
 
 #. STRINGS.UI.TOOLTIPS.ALERTSTOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.ALERTSTOOLTIP"
@@ -34880,7 +35102,7 @@ msgstr "Zeigt Komponenten des Stromnetzes"
 #| msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING"
 #| msgid "Displays errand priority values"
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING"
-msgid "Displays errand urgency values"
+msgid "Displays errand sub-priority values"
 msgstr "Zeigt die Werte der Auftragspriorität an"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON
@@ -34888,7 +35110,7 @@ msgstr "Zeigt die Werte der Auftragspriorität an"
 #| msgctxt "STRINGS.UI.TOOLTIPS.DIGBUTTON"
 #| msgid "Drag to set dig errands"
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON"
-msgid "Drag to set errand urgency"
+msgid "Drag to set errand Sub-Priority"
 msgstr "Ziehen, um Grabeaufträge zu befehlen"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON
@@ -37878,6 +38100,218 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
 
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.ELEMENTS.DIRTYWATER.NAME"
+#~| msgid "<link=\"DIRTYWATER\">Polluted Water</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME"
+#~ msgid "<link=\"FILTHYWATER\">Hot Steam Fumarole</link>"
+#~ msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.NAME"
+#~| msgid "<link=\"ROTPILE\">Rot Pile</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME"
+#~ msgid "<link=\"HOTCO2\">Hot CO2 Fumarole</link>"
+#~ msgstr "<link=\"ROTPILE\">Verrotteter Haufen</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
+#~| msgid "<link=\"HYDROGEN\">Hydrogen</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME"
+#~ msgid "<link=\"HOTHYDROGEN\">Hot Hydrogen Fumarole</link>"
+#~ msgstr "<link=\"HYDROGEN\">Wasserstoff</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
+#~| msgid "<link=\"STEAM\">Steam</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME"
+#~ msgid "<link=\"HOTSTEAM\">Hot Steam Fumarole</link>"
+#~ msgstr "<link=\"STEAM\">Dampf</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
+#~| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
+#~ msgid "<link=\"LIQUIDCO2\">Liquid CO2 Geyser</link>"
+#~ msgstr "<link=\"LIQUIDCONDUIT\">Rohr</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"STEAM\">Dampf</link> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
+#~| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC"
+#~ msgid "A highly pressurized geyser that periodically erupts with <link=\"STEAM\">Steam</link>."
+#~ msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+
+#, fuzzy
+#~| msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.NAME"
+#~| msgid "<link=\"SHOWER\">Shower</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME"
+#~ msgid "<link=\"SLUSHWATER\">Slush Geyser</link>"
+#~ msgstr "<link=\"SHOWER\">Dusche</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME"
+#~| msgid "Uprooting {Target}"
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.NAME"
+#~ msgid "Approaching Target"
+#~ msgstr "Entwurzelt {Target}"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
+#~| msgid "This creature is replenishing its stamina"
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.TOOLTIP"
+#~ msgid "This critter is approaching its target"
+#~ msgstr "Diese Kreatur regeneriert ihre Ausdauer"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
+#~| msgid "This creature is replenishing its stamina"
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.INHALING.TOOLTIP"
+#~ msgid "This critter is breathing in gas"
+#~ msgstr "Diese Kreatur regeneriert ihre Ausdauer"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
+#~| msgid "Starving"
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.STARVING.NOTIFICATION_NAME"
+#~ msgid "Creature Starving"
+#~ msgstr "Verhungert"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILDNESSDELTA.DESC"
+#~ msgid "Wild creatures burn less calories."
+#~ msgstr "Wilde Kreaturen verbrennen weniger Kalorien."
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.TOOLTIP"
+#~ msgid "This Duplicant needs food!"
+#~ msgstr "Dieser Duplikant braucht Nahrung!"
+
+#, fuzzy
+#~| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
+#~| msgid "High Decor"
+#~ msgctxt "STRINGS.MISC.STATUSITEMS.PRIORITIZED.NAME"
+#~ msgid "High Urgency"
+#~ msgstr "Hohe Dekorationswerte"
+
+#~ msgctxt "STRINGS.MISC.TAGS.EGG"
+#~ msgid "Any Egg"
+#~ msgstr "Irgendein Ei"
+
+#, fuzzy
+#~| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_2"
+#~| msgid "Standard"
+#~ msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.DEFAULT"
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
+#~ msgid "Urgency Overlay"
+#~ msgstr "Dringlichkeits-Overlay"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP"
+#~ msgid "Urgency 8"
+#~ msgstr "Dringlichkeit 8"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP"
+#~ msgid "Urgency 5"
+#~ msgstr "Dringlichkeit 5"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP"
+#~ msgid "Urgency 4"
+#~ msgstr "Dringlichkeit 4"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
+#~ msgid "URGENCY OVERLAY"
+#~ msgstr "DRINGLICHKEITS-OVERLAY"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP"
+#~ msgid "Urgency 9"
+#~ msgstr "Dringlichkeit 9"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP"
+#~ msgid "Urgency 1"
+#~ msgstr "Dringlichkeit 1"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP"
+#~ msgid "Urgency 7"
+#~ msgstr "Dringlichkeit 7"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP"
+#~ msgid "Urgency 6"
+#~ msgstr "Dringlichkeit 6"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP"
+#~ msgid "Urgency 3"
+#~ msgstr "Dringlichkeit 3"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP"
+#~ msgid "Urgency 2"
+#~ msgstr "Dringlichkeit 2"
+
+#~ msgctxt "STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME"
+#~ msgid "Urgency"
+#~ msgstr "Dringlichkeit"
+
+#~ msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.NAME"
+#~ msgid "Urgency"
+#~ msgstr "Dringlichkeit"
+
+#~ msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.SPECIFIC_PRIORITY"
+#~ msgid "Set Urgency: {0}"
+#~ msgstr "Setze Dringlichkeit: {0}"
+
+#, fuzzy
+#~| msgctxt "STRINGS.UI.TOOLS.CANCEL.TOOLNAME"
+#~| msgid "Cancel tool"
+#~ msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
+#~ msgid "Urgency tool"
+#~ msgstr "Abbrechen-Werkzeug"
+
 #~ msgctxt "STRINGS.UI.DETAILTABS.DETAILS.NAME"
 #~ msgid "Details"
 #~ msgstr "Details"
@@ -39884,10 +40318,6 @@ msgstr "Sand verstreuen..."
 #~ msgid "Advanced Power Regulation"
 #~ msgstr "Fortschrittliche Energieregulierung"
 
-#~ msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
-#~ msgid "Advanced Research"
-#~ msgstr "Fortschrittliche Forschung"
-
 #~ msgctxt "STRINGS.RESEARCH.TECHS.AGRICULTURE.NAME"
 #~ msgid "Agriculture"
 #~ msgstr "Landwirtschaft"
@@ -40250,15 +40680,7 @@ msgstr "Sand verstreuen..."
 #~ "<b><color=#B87194FF>Nur Duplikanten im zugeordneten Beruf</color></b> können diesen Auftrag ausführen\n"
 #~ "------------------"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
-#~ msgid "Priority Overlay"
-#~ msgstr "Prioritäts-Overlay"
-
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT"
-#~ msgid "Priority 8"
-#~ msgstr "Priorität 8"
-
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP"
 #~ msgid "Priority 8"
 #~ msgstr "Priorität 8"
 
@@ -40266,43 +40688,19 @@ msgstr "Sand verstreuen..."
 #~ msgid "Priority 5"
 #~ msgstr "Priorität 5"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP"
-#~ msgid "Priority 5"
-#~ msgstr "Priorität 5"
-
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR"
 #~ msgid "Priority 4"
 #~ msgstr "Priorität 4"
-
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP"
-#~ msgid "Priority 4"
-#~ msgstr "Priorität 4"
-
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
-#~ msgid "PRIORITY OVERLAY"
-#~ msgstr "PRIORITÄTS-OVERLAY"
 
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE"
 #~ msgid "Priority 9 (Highest)"
 #~ msgstr "Priorität 9 (Höchste)"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP"
-#~ msgid "Priority 9"
-#~ msgstr "Priorität 1"
-
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE"
 #~ msgid "Priority 1 (Lowest)"
 #~ msgstr "Priorität 1 (Niedrigste)"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP"
-#~ msgid "Priority 1"
-#~ msgstr "Priorität 1"
-
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN"
-#~ msgid "Priority 7"
-#~ msgstr "Priorität 7"
-
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP"
 #~ msgid "Priority 7"
 #~ msgstr "Priorität 7"
 
@@ -40310,23 +40708,11 @@ msgstr "Sand verstreuen..."
 #~ msgid "Priority 6"
 #~ msgstr "Priorität 6"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP"
-#~ msgid "Priority 6"
-#~ msgstr "Priorität 6"
-
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE"
 #~ msgid "Priority 3"
 #~ msgstr "Priorität 3"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP"
-#~ msgid "Priority 3"
-#~ msgstr "Priorität 3"
-
 #~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO"
-#~ msgid "Priority 2"
-#~ msgstr "Priorität 2"
-
-#~ msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP"
 #~ msgid "Priority 2"
 #~ msgstr "Priorität 2"
 
@@ -40353,10 +40739,6 @@ msgstr "Sand verstreuen..."
 #~ msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.NAME"
 #~ msgid "Prioritize"
 #~ msgstr "Priorität"
-
-#~ msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
-#~ msgid "Prioritize tool"
-#~ msgstr "Prioritäts-Werkzeug"
 
 #~ msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_JOBS"
 #~ msgid "Manage Duplicants' permitted errands"
