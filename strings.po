@@ -135,20 +135,14 @@ msgid "Compost must be flipped periodically to produce fertilizer"
 msgstr "Kompost muss regelmäßig umgegraben werden um Dünger zu produzieren"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
-#| msgid "Awaiting Delivery"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME"
 msgid "Awaiting Delivery"
 msgstr "Warte auf Lieferung"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.TOOLTIP"
-#| msgid "Awaiting delivery of selected seed"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.TOOLTIP"
 msgid "Awaiting delivery of selected egg"
-msgstr "Warte auf Lieferung des ausgewählten Samens"
+msgstr "Warte auf Lieferung eines ausgewählten Eis"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME"
@@ -2543,9 +2537,6 @@ msgid "Super computers unlock higher technology tiers than research stations alo
 msgstr "Supercomputer schalten höhere Technologiestufen als Forschungsstationen frei."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
-#| msgid "Conducts <link=\"RESEARCH\">Intermediate Research</style> to unlock new technologies."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid "Conducts <link=\"RESEARCH\">Intermediate Research</link> to unlock new technologies."
 msgstr "Führt <link=\"RESEARCH\">fortgeschrittene Forschungen</link> aus und schaltet neue Technologien frei."
@@ -2556,9 +2547,6 @@ msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>"
 msgstr "<link=\"ADVANCEDRESEARCHCENTER\">Supercomputer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
-#| msgid "Lures can relocate Pufts or Shinebugs to specific locations in your base."
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
 msgid "Lures can relocate Pufts or Shine Bugs to specific locations in your base."
 msgstr "Köder können Pufts oder Leuchtkäfer an bestimmte Orte in der Basis locken."
@@ -2585,9 +2573,6 @@ msgid "A thermo regulator doesn't remove heat, but relocates it to a new area."
 msgstr "Ein Klimagerät entfernt keine Wärme, sondern verlagert sie in einen anderen Bereich."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT"
-#| msgid "Cools the <link=\"GAS\">Gas</style> piped through it, but outputs <link=\"HEAT\">Heat</style> in its immediate vicinity."
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.EFFECT"
 msgid "Cools the<link=\"ELEMENTSGAS\">Gas</link>piped through it, but outputs <link=\"HEAT\">Heat</link> in its immediate vicinity."
 msgstr "Kühlt das durchgepumpte <link=\"ELEMENTSGAS\">Gas</link> ab, erzeugt aber <link=\"HEAT\">Wärme</link> in seiner Umgebung."
@@ -2603,9 +2588,6 @@ msgid "Airborne germs travel easily through polluted oxygen, spreading disease i
 msgstr "Luftgetragene Keime reisen leicht durch verschmutzten Sauerstoff und verbreitet der Krankheiten, wenn sie nicht gefiltert werden."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRFILTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.EFFECT"
-#| msgid "Uses <link=\"SOLID\">Sand</style> to filter <link=\"GAS\">Polluted Oxygen</style> from the air."
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.EFFECT"
 msgid "Uses <link=\"SAND\">Sand</link> to filter <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> from the air."
 msgstr "Nutzt <link=\"SAND\">Sand</link> um <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> aus der Luft zu filtern."
@@ -2621,12 +2603,9 @@ msgid "Algae distillers convert disease-causing slime into algae for oxygen prod
 msgstr "Algen-Destillen konvertieren krankheitsverursachenden Schleim in Algen für die Sauerstoffproduktion."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT"
-#| msgid "Refines <link=\"SOLID\">Slime</style> into <link=\"SOLID\">Algae</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT"
 msgid "Refines<link=\"SLIMEMOLD\">Slime</link>into <link=\"ALGAE\">Algae</link>."
-msgstr "Wandelt <style=\"misc\">Schleim</style> zu <link=\"ALGAE\">Algen</style> um."
+msgstr "Wandelt <link=\"SLIMEMOLD\">Schleim</link> zu <link=\"ALGAE\">Algen</link> um."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME"
@@ -2639,21 +2618,15 @@ msgid "Placing algae terrariums in well lit areas will produce more oxygen."
 msgstr "Die Platzierung von Algen-Terrarien in gut beleuchteten Gebieten erzeugt mehr Sauerstoff."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.EFFECT"
-#| msgid ""
-#| "Consumes <link=\"SOLID\">Algae</style> to produce <link=\"OXYGEN\">Oxygen</style> and remove some <link=\"GAS\">Carbon Dioxide</style>.\n"
-#| "\n"
-#| "Gains a 10% efficiency boost in direct <style=\"light\">Light</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.EFFECT"
 msgid ""
 "Consumes <link=\"ALGAE\">Algae</link> to produce <link=\"OXYGEN\">Oxygen</link> and remove some <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>.\n"
 "\n"
 "Gains a 10% efficiency boost in direct <link=\"LIGHT\">Light</link>."
 msgstr ""
-"Verbraucht <link=\"SOLID\">Algen</style> um <link=\"OXYGEN\">Sauerstoff</style> zu produzieren und entfernt ein wenig <link=\"GAS\">Kohlenstoffdioxid</style>.\n"
+"Verbraucht <link=\"ALGAE\">Algen</link> um <link=\"OXYGEN\">Sauerstoff</link> zu produzieren und entfernt ein wenig <link=\"CARBONDIOXIDE\">Kohlenstoffdioxid</link>.\n"
 "\n"
-"Bekommt einen 10% Effizienzboost in direktem <link=\"LIGHT\">Licht</style>."
+"Bekommt einen 10% Effizienzboost in direktem <link=\"LIGHT\">Licht</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.NAME"
@@ -2666,19 +2639,13 @@ msgid "All-natural remedies to cure what ails you."
 msgstr "Naturheilmittel zur Heilung was dich plagt."
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
-#| msgid ""
-#| "Produces <style=\"medicine\">Medicine</style> to cure most basic <link=\"DISEASE\">Diseases</style>.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
 msgid ""
 "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link=\"DISEASE\">Diseases</link>.\n"
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
-"Produziert <link=\"MEDICINE\">Medizin</link> zur Heilung der meisten <link=\"DISEASE\">Krankheiten</style>.\n"
+"Produziert <link=\"MEDICINE\">Medizin</link> zur Heilung der meisten <link=\"DISEASE\">Krankheiten</link>.\n"
 "\n"
 "Duplikanten werden nichts herstellen, wenn kein Rezept in der Warteliste ist."
 
@@ -2723,20 +2690,14 @@ msgid "<link=\"BATTERYMEDIUM\">Battery</link>"
 msgstr "<link=\"BATTERYMEDIUM\">Batterie</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
-#| msgid "Logic input will become <link=\"LOGIC\">Active</style> when battery is less than {0}% charged"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
 msgid "Logic input will become <link=\"LOGIC\">Active</link> when battery is less than {0}% charged"
-msgstr "Der Logikeingang wird <link=\"LOGIC\">Aktiv</style>, wenn die Batterie weniger als {0}% geladen ist"
+msgstr "Der Logikeingang wird <link=\"LOGIC\">Aktiv</link>, wenn die Batterie weniger als {0}% geladen ist"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
-#| msgid "Logic input will go on <link=\"LOGIC\">Standby</style> when battery is more than {0}% charged"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
 msgid "Logic input will go on <link=\"LOGIC\">Standby</link> when battery is more than {0}% charged"
-msgstr "Der Logikeingang wird <link=\"LOGIC\">Inaktiv</style> wenn die Batterie mehr als {0}% geladen ist"
+msgstr "Der Logikeingang wird <link=\"LOGIC\">Inaktiv</link> wenn die Batterie mehr als {0}% geladen ist"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
@@ -3025,12 +2986,9 @@ msgid "<link=\"CREATUREFEEDER\">Critter Feeder</link>"
 msgstr "<link=\"CREATUREFEEDER\">Viehfütterer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
-#| msgid "Creature traps cannot catch flying creatures."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
 msgid "Traps cannot catch flying critters."
-msgstr "Kreaturenfallen können keine fliegenden Kraturen fangen."
+msgstr "Fallen können keine fliegenden Kraturen fangen."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
 #, fuzzy
@@ -3067,7 +3025,7 @@ msgstr "Läuft auf Kaffeebasis"
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 msgid "<link=\"DEVGENERATOR\">DEV Generator</link>"
-msgstr ""
+msgstr "<link=\"DEVGENERATOR\">DEV Generator</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC"
@@ -3187,9 +3145,6 @@ msgstr ""
 "Wilde Kreaturen können nicht durch Türen gehen."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
-#| msgid "on the left"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
 msgid "on left"
 msgstr "links"
@@ -3215,9 +3170,6 @@ msgid "Atmo Suit required {0}"
 msgstr "Atemschutzanzug benötigt {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
-#| msgid "on the right"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
 msgid "on right"
 msgstr "rechts"
@@ -4791,12 +4743,6 @@ msgid "Algae deoxydizers are inefficient, but can output enough <link=\"OXYGEN\"
 msgstr "Algen-Deoxidierer sind ineffizient, aber geben genug <link=\"OXYGEN\">Sauerstoff</link> ab, um eine Kolonie zu versorgen."
 
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
-#| msgid ""
-#| "Converts large amounts of <link=\"SOLID\">Algae</style> into <link=\"OXYGEN\">Oxygen</style>.\n"
-#| "\n"
-#| "Becomes idle when the area reaches maximum pressure capacity."
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
 msgid ""
 "Converts large amounts of <link=\"ALGAE\">Algae</link> into <link=\"OXYGEN\">Oxygen</link>.\n"
@@ -5970,12 +5916,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.BALMLILY.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.MEDICINE"
-#| msgid "Medicine"
 msgctxt "STRINGS.CODEX.BALMLILY.SUBTITLE"
 msgid "Medicinal Herb"
-msgstr "Medizin"
+msgstr "Heilkraut"
 
 #. STRINGS.CODEX.BALMLILY.TITLE
 #, fuzzy
@@ -5994,12 +5937,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.BLUFFBRIAR.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME"
-#| msgid "Decorating"
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.SUBTITLE"
 msgid "Decorative Plant"
-msgstr "Dekoriert"
+msgstr "Dekorative Planze"
 
 #. STRINGS.CODEX.BLUFFBRIAR.TITLE
 #, fuzzy
@@ -6020,12 +5960,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.EDIBLE"
-#| msgid "Edible"
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE"
 msgid "Edible Plant"
-msgstr "Essbar"
+msgstr "Essbare Planze"
 
 #. STRINGS.CODEX.BRISTLEBLOSSOM.TITLE
 #, fuzzy
@@ -6041,20 +5978,14 @@ msgid "Description of decor, stress, expectations"
 msgstr ""
 
 #. STRINGS.CODEX.DECOR.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.TITLE"
-#| msgid "Qualifications"
 msgctxt "STRINGS.CODEX.DECOR.SUBTITLE"
 msgid "Quality sensations"
-msgstr "Qualifikationen"
+msgstr "Qualitätsempfindungen"
 
 #. STRINGS.CODEX.DECOR.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
-#| msgid "<link=\"DECOR\">Decor</link>: {0}"
 msgctxt "STRINGS.CODEX.DECOR.TITLE"
 msgid "<link=\"DECOR\">Decor</link>"
-msgstr "<link=\"DECOR\">Dekor</link>: {0}"
+msgstr "<link=\"DECOR\">Dekor</link>"
 
 #. STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1"
@@ -6062,12 +5993,9 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.CODEX.DUSKCAP.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.EDIBLE"
-#| msgid "Edible"
 msgctxt "STRINGS.CODEX.DUSKCAP.SUBTITLE"
 msgid "Edible Plant"
-msgstr "Essbar"
+msgstr "Essbare Planze"
 
 #. STRINGS.CODEX.DUSKCAP.TITLE
 #, fuzzy
@@ -6129,12 +6057,9 @@ msgid "Effects"
 msgstr "Effekte"
 
 #. STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.OPERATIONREQUIREMENTS"
-#| msgid "<b>Requirements:</b>"
 msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
 msgid "Requirements"
-msgstr "<b>Anforderungen:</b>"
+msgstr "Anforderungen"
 
 #. STRINGS.CODEX.HEADERS.DIET
 msgctxt "STRINGS.CODEX.HEADERS.DIET"
@@ -6142,39 +6067,26 @@ msgid "Diet"
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.FABRICATIONS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.SUBTITLE"
-#| msgid "Recipes"
 msgctxt "STRINGS.CODEX.HEADERS.FABRICATIONS"
 msgid "Recipes"
 msgstr "Rezepte"
 
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES"
-#| msgid "Prerequisite Roles"
 msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES"
 msgid "Prerequisite Jobs"
-msgstr "Voraussetzungen für Rollen"
+msgstr "Vorausgesetzter Beruf"
 
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_TECH
-#, fuzzy
 msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_TECH"
 msgid "Prerequisite Tech"
-msgstr "Voraussetzungen für Technik"
+msgstr "Vorausgesetzter Technik"
 
 #. STRINGS.CODEX.HEADERS.PRODUCES
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND3"
-#| msgid "Producer"
 msgctxt "STRINGS.CODEX.HEADERS.PRODUCES"
 msgid "Produces"
-msgstr "Erzeuger"
+msgstr "Produziert"
 
 #. STRINGS.CODEX.HEADERS.RECEPTACLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.PLACEINRECEPTACLE"
-#| msgid "Plant"
 msgctxt "STRINGS.CODEX.HEADERS.RECEPTACLE"
 msgid "Plants"
 msgstr "Pflanzen"
@@ -6185,12 +6097,9 @@ msgid "Role Perks"
 msgstr "Rollenvorteile"
 
 #. STRINGS.CODEX.HEADERS.TECH_UNLOCKS
-#, fuzzy
-#| msgctxt "STRINGS.UI.RESEARCHSCREEN_UNLOCKSTOOLTIP"
-#| msgid "Unlocks: {0}"
 msgctxt "STRINGS.CODEX.HEADERS.TECH_UNLOCKS"
 msgid "Unlocks"
-msgstr "Freischaltung: {0}"
+msgstr "Schaltet frei"
 
 #. STRINGS.CODEX.HEADERS.UNLOCK_ROLES
 msgctxt "STRINGS.CODEX.HEADERS.UNLOCK_ROLES"
@@ -6330,12 +6239,9 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.CODEX.PAGENOTFOUND.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.NO_CODEX_ENTRY"
-#| msgid "No database entry available"
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.SUBTITLE"
 msgid "This database entry is unavailable"
-msgstr "Kein Datenbankeintrag vorhanden"
+msgstr "Dieser Datenbankeintrag ist nicht verfügbar"
 
 #. STRINGS.CODEX.PAGENOTFOUND.TITLE
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.TITLE"
@@ -6470,12 +6376,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.THIMBLEREED.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGFABRICATOR.NAME"
-#| msgid "Textile Loom"
 msgctxt "STRINGS.CODEX.THIMBLEREED.SUBTITLE"
 msgid "Textile Plant"
-msgstr "Webstuhl"
+msgstr "Textilfabrik"
 
 #. STRINGS.CODEX.THIMBLEREED.TITLE
 #, fuzzy
@@ -6494,12 +6397,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.WHEEZEWORT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.PLACEINRECEPTACLE"
-#| msgid "Plant"
 msgctxt "STRINGS.CODEX.WHEEZEWORT.SUBTITLE"
 msgid "Plant"
-msgstr "Pflanzen"
+msgstr "Pflanze"
 
 #. STRINGS.CODEX.WHEEZEWORT.TITLE
 #, fuzzy
@@ -6520,12 +6420,9 @@ msgid "Bagged {0}"
 msgstr "Erlegt {0}"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.NAME"
-#| msgid "Sterile Atmosphere"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.NAME"
 msgid "Acceptable Atmosphere"
-msgstr "Sterile Atmosphäre"
+msgstr "Akzeptable Atmosphäre"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.TOOLTIP"
@@ -6596,12 +6493,9 @@ msgid "Likely to mess up the place"
 msgstr "Wird vermutlich den Ort schmutzig machen"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION"
-#| msgid "{Generator} overproduction"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.NAME"
 msgid "Increased Reproduction"
-msgstr "{Generator} Überproduktion"
+msgstr "Erhöhte Fortpflanzung"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.TOOLTIP"
@@ -6629,20 +6523,14 @@ msgid "Loses happiness faster than normal under poor conditions"
 msgstr "Verliert unter schlechten Bedingungen schneller Zufriedenheit als normal"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION"
-#| msgid "{Generator} overproduction"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.NAME"
 msgid "Decreased Reproduction"
-msgstr "{Generator} Überproduktion"
+msgstr "Verminderte Fortpflanzung"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.TOOLTIP"
-#| msgid "This creature is working off a big meal"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.TOOLTIP"
 msgid "This creature is holding off on laying eggs due to bad conditions"
-msgstr "Diese Kreatur verdaut eine große Mahlzeit"
+msgstr "Diese Kreatur hält sich mit der Eiablage aufgrund schlechter Bedingungen zurück"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.NAME
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.NAME"
@@ -6655,12 +6543,9 @@ msgid "Losing happiness until conditions improve"
 msgstr "Die Zufriedenheit sinkt bis sich die Bedingungen verbessern"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MORE_SATISFYING"
-#| msgid "Low priority"
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.NAME"
 msgid "Low Productivity"
-msgstr "Niedrige Priorität"
+msgstr "Geringe Produktivität"
 
 #. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.TOOLTIP"
@@ -6718,12 +6603,9 @@ msgid "This critter is fending for itself and does not trust Duplicants"
 msgstr "Dieses Vieh kann für sich selbst sorgen und traut Duplikanten nicht"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.RELOCATE.NAME_OFF"
-#| msgid "Cancel Relocation"
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME"
 msgid "Base Reproduction"
-msgstr "Verschieben abbrechen"
+msgstr "Normale Fortpflanzung"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP"
@@ -6746,17 +6628,11 @@ msgid "Happiness Increasing"
 msgstr "Steigende Zufriedenheit"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.TOOLTIP"
-#| msgid "This creature is trapped and needs help digging out"
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.TOOLTIP"
 msgid "This critter is very happy its needs are being met"
-msgstr "Diese Kreatur ist gefangen und benötigt Hilfe"
+msgstr "Dieses Tier ist sehr glücklich seine Bedürfnisse sind erfüllt"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.THOUGHTS.HAPPY.TOOLTIP"
-#| msgid "Happy"
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.NAME"
 msgid "Happy"
 msgstr "Glücklich"
@@ -6793,17 +6669,14 @@ msgid "Get this critter something to eat!"
 msgstr "Gib diesem Vieh etwas zu essen!"
 
 #. STRINGS.CREATURES.MODIFIERS.OVERCROWDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7"
-#| msgid "Overloaded"
 msgctxt "STRINGS.CREATURES.MODIFIERS.OVERCROWDED.NAME"
 msgid "Overcrowded"
-msgstr "Verschmort"
+msgstr "Überfüllt"
 
 #. STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP"
 msgid "This critter isn't comfortable with so many other critters in a room of this size"
-msgstr ""
+msgstr "Dieses Viech fühlt sich nicht wohl mit so vielen anderen Tieren in einem Raum dieser Größe"
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.NAME"
@@ -6816,9 +6689,6 @@ msgid "This critter has recently been attended to by a Rancher"
 msgstr "Dieses Vieh wurde kürzlich von einem Viehzüchter betreut"
 
 #. STRINGS.CREATURES.MODIFIERS.TAME.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.NAME"
-#| msgid "Tame"
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.NAME"
 msgid "Tame"
 msgstr "Zahm"
@@ -6829,9 +6699,6 @@ msgid "This critter is tame"
 msgstr "Diese Kreatur ist gezähmt"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.NAME"
-#| msgid "Wild"
 msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.NAME"
 msgid "Wild"
 msgstr "Wild"
@@ -6842,20 +6709,14 @@ msgid "This critter is wild"
 msgstr "Diese Kreatur ist wild"
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC"
-#| msgid "Thimble Reeds produce indescribably soft <link=\"SOLID\">Reed Fiber</style> for <style=\"equipment\">Clothing</style> production."
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC"
 msgid "Thimble Reeds produce indescribably soft Reed Fiber for <link=\"EQUIPMENT\">Clothing</link> production."
-msgstr "Fingerhutschilf produziert unbeschreibbar weiche <link=\"SOLID\">Schilffaser</style>, die bei der Herstellung von <link=\"EQUIPMENT\">Kleidung</style> verwendet wird."
+msgstr "Fingerhutschilf produziert unbeschreibbar weiche Schilffaser für Herstellung von <link=\"EQUIPMENT\">Kleidung</link>."
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DOMESTICATEDDESC"
-#| msgid "This plant produces <link=\"SOLID\">Reed Fiber</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DOMESTICATEDDESC"
 msgid "This plant produces Reed Fiber."
-msgstr "Diese Pflanze produziert <link=\"SOLID\">Schilffasern</style>."
+msgstr "Diese Pflanze produziert Schilffasern"
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.NAME"
@@ -6863,12 +6724,9 @@ msgid "<link=\"BASICFABRICMATERIALPLANT\">Thimble Reed</link>"
 msgstr "<link=\"BASICFABRICMATERIALPLANT\">Fingerhutschilf</link>"
 
 #. STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.DESC"
-#| msgid "Muckroots are incapable of propagating but can be harvested for a single <link=\"FOOD\">Food</style> serving."
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.DESC"
 msgid "Muckroots are incapable of propagating but can be harvested for a single <link=\"FOOD\">Food</link> serving."
-msgstr "Schmutzwurzel Sind unfähig zu vermehren können aber für eine einzelne Portion <link=\"FOOD\">Nahrung</style> geerntet werden."
+msgstr "Schmutzwurzeln können sich nichz vermehren, können aber für eine einzelne Portion <link=\"FOOD\">Nahrung</style> geerntet werden."
 
 #. STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME"
@@ -6957,220 +6815,139 @@ msgid "<link=\"FLUTEGG\">Pacu Egg</link>"
 msgstr "<link=\"FLUTEGG\">Pacu-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC"
 msgid "A massive volcano that periodically erupts with molten <link=\"MAGMA\">Magma</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein massiver Vulkan, der periodisch mit geschmolzenem <link=\"MAGMA\">Magma</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BOTANIST.NAME"
-#| msgid "<link=\"BOTANIST\">Botanist</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME"
 msgid "<link=\"BIGVOLCANO\">Volcano</link>"
-msgstr "<link=\"BOTANIST\">Botaniker</link>"
+msgstr "<link=\"BIGVOLCANO\">Vulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC"
 msgid "A highly pressurized vent that periodically erupts with warm <link=\"CHLORINEGAS\">Chlorine</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig warmes <link=\"CHLORINEGAS\">Chlorgas</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.NAME"
-#| msgid "<link=\"CHLORINEGAS\">Chlorine</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME"
 msgid "<link=\"CHLORINEGAS\">Chlorine Gas Vent</link>"
-msgstr "<link=\"CHLORINEGAS\">Chlorgas</link>"
+msgstr "<link=\"CHLORINEGAS\">Chlorgas-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts, spraying <link=\"GAS\">Steam</style> and boiling hot <link=\"LIQUID\">Water</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.DESC"
 msgid "A highly pressurized geyser that periodically erupts, spraying <link=\"STEAM\">Steam</link> and boiling hot <link=\"WATER\">Water</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der regelmäßig ausbricht, und heißen <link=\"GAS\">Dampf</style> und kochendes <link=\"WATER\">Wasser</style> versprüht."
+msgstr "Ein unter hohem Druck stehender Geysir, der regelmäßig ausbricht, und heißen <link=\"STEAM\">Dampf</link> und kochendes <link=\"WATER\">Wasser</link> versprüht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC"
 msgid "A highly pressurized vent that periodically erupts with boiling <link=\"DIRTYWATER\">Polluted Water</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig kochendes <link=\"DIRTYWATER\">verschmutztes Wasser</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.DIRTYWATER.NAME"
-#| msgid "<link=\"DIRTYWATER\">Polluted Water</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME"
 msgid "<link=\"DIRTYWATER\">Polluted Water Vent</link>"
-msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser</link>"
+msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot gaseous <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig heißes gasförmiges <link=\"CARBONDIOXIDE\">Kohlendioxid</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CARBONDIOXIDE.NAME"
-#| msgid "<link=\"CARBONDIOXIDE\">Carbon Dioxide</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME"
 msgid "<link=\"HOTCO2\">Carbon Dioxide Vent</link>"
-msgstr "<link=\"CARBONDIOXIDE\">Kohlendioxid</link>"
+msgstr "<link=\"HOTCO2\">Kohlendioxid-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot gaseous <link=\"HYDROGEN\">Hydrogen</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig heißer gasförmiger <link=\"HYDROGEN\">Wasserstoff</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
-#| msgid "<link=\"HYDROGEN\">Hydrogen</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME"
 msgid "<link=\"HOTHYDROGEN\">Hydrogen Vent</link>"
-msgstr "<link=\"HYDROGEN\">Wasserstoff</link>"
+msgstr "<link=\"HYDROGEN\">Wasserstoff-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig heißer <link=\"CONTAMINATEDOXYGEN\">verschmuzter Sauerstoff</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CONTAMINATEDOXYGEN.NAME"
-#| msgid "Polluted Oxygen"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME"
 msgid "<link=\"HOTPO2\">Polluted Oxygen Vent</link>"
-msgstr "Verschmutzter Sauerstoff"
+msgstr "<link=\"HOTPO2\">Verschmutzter Sauerstoff-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC"
 msgid "A highly pressurized vent that periodically erupts with scalding <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig brühender <link=\"STEAM\">Dampf</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
-#| msgid "<link=\"STEAM\">Steam</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME"
 msgid "<link=\"HOTSTEAM\">Steam Vent</link>"
-msgstr "<link=\"STEAM\">Dampf</link>"
+msgstr "<link=\"HOTSTEAM\">Dampf-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with hot <link=\"WATER\">Water</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein unter hohem Druck stehender Geysir, der periodisch heißes <link=\"WATER\">Wasser</style> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.WATER.NAME"
-#| msgid "<link=\"WATER\">Water</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME"
 msgid "<link=\"HOTWATER\">Water Geyser</link>"
-msgstr "<link=\"WATER\">Wasser</link>"
+msgstr "<link=\"HOTWATER\">Wasser-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC"
 msgid "A highly pressurized geyser that periodically erupts with boiling liquid <link=\"LIQUIDCARBONDIOXIDE\">Carbon Dioxide</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
+msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig kochendes flüssiges <link=\"LIQUIDCARBONDIOXIDE\">Kohlendioxid</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.NAME"
-#| msgid "<link=\"LIQUIDCARBONDIOXIDE\">Carbon Dioxide</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
 msgid "<link=\"LIQUIDCO2\">Carbon Dioxide Geyser</link>"
-msgstr "<link=\"LIQUIDCARBONDIOXIDE\">Kohlenstoffdioxid</link>"
+msgstr "<link=\"LIQUIDCO2\">Kohlenstoffdioxid-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"METHANE\">Natural Gas</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
 msgid "A highly pressurized geyser that periodically erupts with hot <link=\"METHANE\">Natural Gas</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"METHANE\">Erdgas</link> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.NAME"
-#| msgid "<link=\"METHANEGEYSER\">Natural Gas Geyser</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME"
 msgid "<link=\"METHANE\">Natural Gas Geyser</link>"
-msgstr "<link=\"METHANEGEYSER\">Erdgas-Geysir</link>"
+msgstr "<link=\"METHANE\">Erdgas-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENCOPPER\">Copper</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
+msgstr "Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENCOPPER\">Kupfer</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.NAME"
-#| msgid "<link=\"MOLTENCOPPER\">Copper</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME"
 msgid "<link=\"MOLTENCOPPER\">Copper Volcano</link>"
-msgstr "<link=\"MOLTENCOPPER\">Kupfer</link>"
+msgstr "<link=\"MOLTENCOPPER\">Kupfer-Vulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENGOLD\">Gold</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENGOLD\">Gold</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENGOLD.NAME"
-#| msgid "<link=\"MOLTENGOLD\">Gold</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME"
 msgid "<link=\"MOLTENGOLD\">Gold Volcano</link>"
-msgstr "<link=\"MOLTENGOLD\">Gold</link>"
+msgstr "<link=\"MOLTENGOLD\">Gold-Vulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENIRON\">Iron</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
+msgstr "Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENIRON\">Eisen</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
-#| msgid "<link=\"MOLTENIRON\">Iron</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME"
 msgid "<link=\"MOLTENIRON\">Iron Volcano</link>"
-msgstr "<link=\"MOLTENIRON\">Eisen</link>"
+msgstr "<link=\"MOLTENIRON\">Eisen-Vulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.NAME"
@@ -7178,25 +6955,17 @@ msgid "<link=\"GEYSER\">Steam Geyser</link>"
 msgstr "<link=\"GEYSER\">Dampf-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Chlorine Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
 msgid "A fissure in the asteroid that periodically erupts with boiling<link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"GAS\">Chlorgas</style> austritt."
+msgstr "Ein Riss im Asteroiden, der periodisch mit kochendem <link=\"CRUDEOIL\">Rohöl</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.NAME"
-#| msgid "<link=\"OILSPOUT\">Oil Spout</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME"
 msgid "<link=\"OILDRIP\">Leaky Oil Fissure</link>"
-msgstr "<link=\"OILSPOUT\">Ölquelle</link>"
+msgstr "<link=\"OILDRIP\">Undichte Ölspalte</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with warm <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
 msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
@@ -7242,20 +7011,14 @@ msgid "<link=\"SMALLVOLCANO\">Minor Volcano</link>"
 msgstr "<link=\"ANIMALCONTROL\">Tierkontrolle</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
-#| msgid "A highly pressurized geyser that periodically erupts with <link=\"GAS\">Natural Gas</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot <link=\"STEAM\">Steam</link>."
-msgstr "Ein unter hohem Druck stehender Geysir, der periodisch <link=\"GAS\">Erdgas</style> ausstößt."
+msgstr "Ein unter hohem Druck stehender Schlot, aus dem regelmäßig heißer <link=\"STEAM\">Dampf</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
-#| msgid "<link=\"STEAM\">Steam</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME"
 msgid "<link=\"STEAM\">Cool Steam Vent</link>"
-msgstr "<link=\"STEAM\">Dampf</link>"
+msgstr "<link=\"STEAM\">Klatdampf-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GLOM.DESC
 #, fuzzy
@@ -7279,9 +7042,6 @@ msgid "<link=\"GLOM\">Morb</link>"
 msgstr "<link=\"GLOM\">Morb</link>"
 
 #. STRINGS.CREATURES.SPECIES.GREEDYGREEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GREEDYGREEN.DESC"
-#| msgid "A rapidly growing, subterranean <link=\"PLANT\">Plant</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GREEDYGREEN.DESC"
 msgid "A rapidly growing, subterranean <link=\"PLANTS\">Plant</link>."
 msgstr "Eine schnell wachsende, unterirdische <link=\"PLANTS\">Planze</link>."
@@ -7300,12 +7060,9 @@ msgid "Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and may be un
 msgstr "Hatches scheiden <link=\"SOLID\">Kohle</style> aus und können beim Ausgraben von vergrabenen Gegenständen gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME"
-#| msgid "Hatching"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
 msgid "Hatchling Egg"
-msgstr "Schlüpft"
+msgstr "Hatchling Ei"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.NAME"
@@ -7313,9 +7070,6 @@ msgid "<link=\"HATCH\">Hatch</link>"
 msgstr "<link=\"HATCH\">Hatch</link>"
 
 #. STRINGS.CREATURES.SPECIES.HEATBULB.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HEATBULB.DESC"
-#| msgid "A temperature reactive, subterranean <style=\"plant\">Plant</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.HEATBULB.DESC"
 msgid "A temperature reactive, subterranean <link=\"PLANTS\">Plant</link>."
 msgstr "Eine temperaturreaktive, unterirdische <link=\"PLANTS\">Planze</link>."
@@ -7326,9 +7080,6 @@ msgid "<link=\"HEATBULB\">Fervine</link>"
 msgstr "<link=\"HEATBULB\">Fervine</link>"
 
 #. STRINGS.CREATURES.SPECIES.HEATBULBSEED.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HEATBULBSEED.DESC"
-#| msgid "A temperature reactive, subterranean <style=\"plant\">Plant</style>."
 msgctxt "STRINGS.CREATURES.SPECIES.HEATBULBSEED.DESC"
 msgid "A temperature reactive, subterranean <link=\"PLANTS\">Plant</link>."
 msgstr "Eine temperaturreaktive, unterirdische <link=\"PLANTS\">Planze</link>."
@@ -7339,12 +7090,6 @@ msgid "<link=\"HEATBULBSEED\">Fervine Bulb</link>"
 msgstr "<link=\"HEATBULBSEED\">Fervine-Birne</link>"
 
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DESC"
-#| msgid ""
-#| "A large, chlorine-dwelling <style=\"plant\">Plant</style> that can be grown in farm buildings.\n"
-#| "\n"
-#| "Palmeras grow inedible buds that emit toxic hydrogen gas."
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DESC"
 msgid ""
 "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that can be grown in farm buildings.\n"
@@ -7356,9 +7101,6 @@ msgstr ""
 "Palmeras hat nicht essbare Knospen, die giftigen Wasserstoff absondern."
 
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DOMESTICATEDDESC"
-#| msgid "A large, chlorine-dwelling <style=\"plant\">Plant</style> that grows inedible buds which emit toxic hydrogen gas."
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DOMESTICATEDDESC"
 msgid "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that grows inedible buds which emit toxic hydrogen gas."
 msgstr "Eine große, in Chlor beheimatete <link=\"PLANTS\">Planze</link>, die nicht essbare Knospen hat, die giftigen Wasserstoff absondern."
@@ -7419,21 +7161,15 @@ msgid "<link=\"MYSTERYEGG\">Mysterious Egg</link>"
 msgstr "<link=\"MYSTERYEGG\">Mysteriöses Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.OIL_WELL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OIL_WELL.DESC"
-#| msgid ""
-#| "Oil Reservoirs are rock formations with <link=\"LIQUID\">Crude Oil</style> deposits beneath their surface.\n"
-#| "\n"
-#| "Oil can be extracted from a reservoir with sufficient pressure."
 msgctxt "STRINGS.CREATURES.SPECIES.OIL_WELL.DESC"
 msgid ""
 "Oil Reservoirs are rock formations with <link=\"CRUDEOIL\">Crude Oil</link> deposits beneath their surface.\n"
 "\n"
 "Oil can be extracted from a reservoir with sufficient pressure."
 msgstr ""
-"Erdölvorkommen sind Gesteinsformationen mit <link=\"LIQUID\">Erdöllagerstätten</style> unter ihrer Oberfläche.\n"
+"Erdölvorkommen sind Gesteinsformationen mit <link=\"CRUDEOIL\">Rohöllagerstätten</link> unter ihrer Oberfläche.\n"
 "\n"
-"Erdöl kann aus einem Erdölvorkommen mit ausreichendem Druck entnommen werden."
+"Öl kann aus einem Vorkommen mit ausreichendem Druck entnommen werden."
 
 #. STRINGS.CREATURES.SPECIES.OIL_WELL.NAME
 #, fuzzy
@@ -7843,12 +7579,9 @@ msgid "The average gas density of the air surrounding this plant"
 msgstr "Durchschnittliche Gasdichte der Luft, die diese Pflanze umgibt"
 
 #. STRINGS.CREATURES.STATS.DOMESTICATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.DISTILLATION.NAME"
-#| msgid "Distillation"
 msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.NAME"
 msgid "Domestication"
-msgstr "Destillation"
+msgstr "Zähmung"
 
 #. STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP"
@@ -7931,12 +7664,9 @@ msgid "Illumination"
 msgstr "Beleuchtung"
 
 #. STRINGS.CREATURES.STATS.INCUBATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME"
-#| msgid "Incubating"
 msgctxt "STRINGS.CREATURES.STATS.INCUBATION.NAME"
 msgid "Incubation"
-msgstr "Brütet"
+msgstr "Bebrütung"
 
 #. STRINGS.CREATURES.STATS.INCUBATION.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.INCUBATION.TOOLTIP"
@@ -8058,12 +7788,9 @@ msgid "Thick conductivity barriers increase the time it takes an object to heat 
 msgstr "Dicke Leitfähigkeitsbarrieren erhöhen die benötigte zeit, die ein Obijekt zum erwärmen oder abkühlen benötigt"
 
 #. STRINGS.CREATURES.STATS.WILDNESS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME"
-#| msgid "Kindness"
 msgctxt "STRINGS.CREATURES.STATS.WILDNESS.NAME"
 msgid "Wildness"
-msgstr "Freundlichkeit"
+msgstr "Wildheit"
 
 #. STRINGS.CREATURES.STATS.WILDNESS.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.WILDNESS.TOOLTIP"
@@ -8560,12 +8287,9 @@ msgid "This critter's going to look so good when they're done"
 msgstr "Dieses Vieh wird so gut aussehen, wenn es fertig ist"
 
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MARKED_FOR_DISABLE"
-#| msgid "Being disabled"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.NAME"
 msgid "Being Wrangled"
-msgstr "Wird deaktiviert"
+msgstr "Wurde getrieben"
 
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.TOOLTIP"
@@ -10188,7 +9912,7 @@ msgstr "Diese Lieferung wird Material für eine geplante Baustelle bereitstellen
 #. STRINGS.DUPLICANTS.CHORES.CAPTURE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.CAPTURE.NAME"
 msgid "Wrangle"
-msgstr "Gerangel"
+msgstr "Treiben"
 
 #. STRINGS.DUPLICANTS.CHORES.CAPTURE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.CAPTURE.STATUS"
@@ -17108,21 +16832,15 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.DESC"
-#| msgid ""
-#| "Bleach stone is an unstable compound that emits toxic <link=\"GAS\">Chlorine Gas</style>.\n"
-#| "\n"
-#| "It is useful in <link=\"HYGIENE\">Hygienic</style> processes."
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.DESC"
 msgid ""
 "Bleach stone is an unstable compound that emits toxic <link=\"CHLORINEGAS\">Chlorine</link>.\n"
 "\n"
 "It is useful in <link=\"HYGIENE\">Hygienic</link> processes."
 msgstr ""
-"Bleichstein ist eine instabile Verbindung, die giftige <link=\"GAS\">Chlorgase</style> absondert.\n"
+"Bleichstein ist eine instabile Verbindung, die giftige <link=\"CHLORINEGAS\">Chlorgase</link> absondert.\n"
 "\n"
-"Er ist nützlich in <link=\"HYGIENE\">Hygiene-Prozessen</style>."
+"Er ist nützlich in <link=\"HYGIENE\">Hygiene-Prozessen</link>."
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.NAME
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.NAME"
@@ -17130,12 +16848,9 @@ msgid "<link=\"BLEACHSTONE\">Bleach Stone</link>"
 msgstr "<link=\"BLEACHSTONE\">Bleichstein</link>"
 
 #. STRINGS.ELEMENTS.BOTTLEDWATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.BOTTLEDWATER.DESC"
-#| msgid "(H<sub>2</sub>O) Clean <link=\"LIQUID\">Water</style>, prepped for transport."
 msgctxt "STRINGS.ELEMENTS.BOTTLEDWATER.DESC"
 msgid "(H<sub>2</sub>O) Clean <link=\"WATER\">Water</link>, prepped for transport."
-msgstr "(H<sub>2</sub>O) Sauberes <link=\"WATER\">Wasser</style>, bereit für den Transport."
+msgstr "(H<sub>2</sub>O) Sauberes <link=\"WATER\">Wasser</link>, bereit für den Transport."
 
 #. STRINGS.ELEMENTS.BOTTLEDWATER.NAME
 msgctxt "STRINGS.ELEMENTS.BOTTLEDWATER.NAME"
@@ -17236,12 +16951,9 @@ msgid "<link=\"CARBONFIBRE\">Carbon Fiber</link>"
 msgstr "<link=\"CARBONFIBRE\">Kohlefaser</link>"
 
 #. STRINGS.ELEMENTS.CARBONGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CARBONGAS.DESC"
-#| msgid "(C) Carbon is an abundant, versatile element heated into a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.CARBONGAS.DESC"
 msgid "(C) Carbon is an abundant, versatile element heated into a <link=\"ELEMENTSGAS\">Gaseous</link> state."
-msgstr "(C) Kohlenstoff ist ein häufiges, vielseitiges Element, erhitzt zu einem <link=\"ELEMENTSGAS\">Gas</style>."
+msgstr "(C) Kohlenstoff ist ein häufiges, vielseitiges Element, erhitzt zu einem <link=\"ELEMENTSGAS\">Gas</link>."
 
 #. STRINGS.ELEMENTS.CARBONGAS.NAME
 msgctxt "STRINGS.ELEMENTS.CARBONGAS.NAME"
@@ -17284,12 +16996,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.CHLORINE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CHLORINE.DESC"
-#| msgid "(Cl) Chlorine is an extremely toxic element in a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.CHLORINE.DESC"
 msgid "(Cl) Chlorine is an extremely toxic element in a <link=\"ELEMENTSSOLID\">Solid</link> state."
-msgstr "(Cl) Chlor ist eine extrem toxische Chemikalie in seiner <link=\"SOLID\">festen</style> Form."
+msgstr "(Cl) Chlor ist eine extrem toxische Chemikalie in seiner <link=\"ELEMENTSSOLID\">festen</link> Form."
 
 #. STRINGS.ELEMENTS.CHLORINE.NAME
 msgctxt "STRINGS.ELEMENTS.CHLORINE.NAME"
@@ -17297,12 +17006,9 @@ msgid "<link=\"CHLORINE\">Chlorine</link>"
 msgstr "<link=\"CHLORINE\">Chlor</link>"
 
 #. STRINGS.ELEMENTS.CHLORINEGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.DESC"
-#| msgid "(Cl) Chlorine is an extremely toxic chemical in a <link=\"GAS\">Gaseous</style> state."
 msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.DESC"
 msgid "(Cl) Chlorine is an extremely toxic chemical in a <link=\"ELEMENTSGAS\">Gaseous</link> state."
-msgstr "(Cl) Chlor ist eine extrem toxische Chemikalie in <link=\"GAS\">gasförmigem</style> Zustand."
+msgstr "(Cl) Chlor ist eine extrem toxische Chemikalie in <link=\"ELEMENTSGAS\">gasförmigem</link> Zustand."
 
 #. STRINGS.ELEMENTS.CHLORINEGAS.NAME
 msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.NAME"
@@ -17378,12 +17084,6 @@ msgid "<link=\"COPPERGAS\">Copper</link>"
 msgstr "<link=\"COPPERGAS\">Kupfer</link>"
 
 #. STRINGS.ELEMENTS.CREATURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CREATURE.DESC"
-#| msgid ""
-#| "(DuPe) Ooze is a slurry of water, carbon, and dozens and dozens of trace elements.\n"
-#| "\n"
-#| "Duplicants are printed from pure <link=\"SOLID\">Ooze</style>."
 msgctxt "STRINGS.ELEMENTS.CREATURE.DESC"
 msgid ""
 "(DuPe) Ooze is a slurry of water, carbon, and dozens and dozens of trace elements.\n"
@@ -17392,7 +17092,7 @@ msgid ""
 msgstr ""
 "(DuPe) Schlamm ist eine Schlacke aus Wasser, Kohlenstoff und dutzenden Spurenelementen.\n"
 "\n"
-"Duplikanten werden aus reinem <link=\"SOLID\">Schlamm</style> gedruckt."
+"Duplikanten werden aus reinem <link=\"SOLID\">Schlamm</link> gedruckt."
 
 #. STRINGS.ELEMENTS.CREATURE.NAME
 msgctxt "STRINGS.ELEMENTS.CREATURE.NAME"
@@ -17493,12 +17193,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.DIRT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.DIRT.DESC"
-#| msgid ""
-#| "Dirt is a soft, nutrient-rich substance capable of supporting life.\n"
-#| "\n"
-#| "It is necessary in some forms of <link=\"FOOD\">Food</style> production."
 msgctxt "STRINGS.ELEMENTS.DIRT.DESC"
 msgid ""
 "Dirt is a soft, nutrient-rich substance capable of supporting life.\n"
@@ -17507,7 +17201,7 @@ msgid ""
 msgstr ""
 "Erde ist eine weiche, nährstoffreiche Substanz, die das Leben unterstützen kann.\n"
 "\n"
-"Sie ist für einige Formen von <link=\"FOOD\">Nahrungsherstellung</style> notwendig."
+"Sie ist für einige Formen von <link=\"FOOD\">Nahrungsherstellung</link> notwendig."
 
 #. STRINGS.ELEMENTS.DIRT.NAME
 msgctxt "STRINGS.ELEMENTS.DIRT.NAME"
@@ -17520,12 +17214,9 @@ msgid ""
 msgstr "\n"
 
 #. STRINGS.ELEMENTS.DIRTYICE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.DIRTYICE.DESC"
-#| msgid "Polluted Ice is dirty, unfiltered water frozen into a <link=\"SOLID\">Solid</style> state."
 msgctxt "STRINGS.ELEMENTS.DIRTYICE.DESC"
 msgid "Polluted Ice is dirty, unfiltered water frozen into a <link=\"ELEMENTSSOLID\">Solid</link> state."
-msgstr "Verschmutztes Eis ist schmutziges, ungefiltertes Wasser in <link=\"SOLID\">festem</style> Zustand."
+msgstr "Verschmutztes Eis ist schmutziges, ungefiltertes Wasser in <link=\"ELEMENTSSOLID\">festem</style> Zustand."
 
 #. STRINGS.ELEMENTS.DIRTYICE.NAME
 msgctxt "STRINGS.ELEMENTS.DIRTYICE.NAME"
@@ -17533,19 +17224,13 @@ msgid "<link=\"DIRTYICE\">Polluted Ice</link>"
 msgstr "<link=\"DIRTYICE\">Verschmutztes Eis</link>"
 
 #. STRINGS.ELEMENTS.DIRTYWATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.DIRTYWATER.DESC"
-#| msgid ""
-#| "Polluted Water is dirty, unfiltered <link=\"LIQUID\">Water</style>.\n"
-#| "\n"
-#| "It is not fit for consumption."
 msgctxt "STRINGS.ELEMENTS.DIRTYWATER.DESC"
 msgid ""
 "Polluted Water is dirty, unfiltered <link=\"WATER\">Water</link>.\n"
 "\n"
 "It is not fit for consumption."
 msgstr ""
-"Verschmutztes Wasser ist schmutziges, ungefiltertes <link=\"WATER\">Wasser</style>.\n"
+"Verschmutztes Wasser ist schmutziges, ungefiltertes <link=\"WATER\">Wasser</link>.\n"
 "\n"
 "Es ist nicht zum Verzehr geeignet."
 
@@ -22547,12 +22232,9 @@ msgid "Waiting for a Duplicant to murderize this defenseless critter"
 msgstr "Wartet auf einen Duplikant um diese unbewaffnete Kreatur zu ermorden"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.SETITEMS.VENDINGMACHINE.NAME"
-#| msgid "Vending Machine"
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.NAME"
 msgid "Pending Wrangle"
-msgstr "Verkaufsautomat"
+msgstr "Austehnde Treibung"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP"
@@ -26490,20 +26172,14 @@ msgid "Coolant: {1} {0}"
 msgstr "Kühlmittel: {1} {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED"
-#| msgid "<style=\"decor\">Decor</style>: <style=\"{0}\">{1}</style> (Radius: {2} tiles)"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED"
 msgid "<link=\"DECOR\">Decor</link>: {1} (Radius: {2} tiles)"
-msgstr "<link=\"DECOR\">Dekoration</link>: <style=\"{0}\">{1}</style> (Radius: {2} Felder)"
+msgstr "<link=\"DECOR\">Dekoration</link>: {1} (Radius: {2} Felder)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE"
-#| msgid "All Diseases: <style=\"consumed\">-{0} per use</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE"
 msgid "All Diseases: -{0} per use"
-msgstr "Alle Krankheiten: <style=\"consumed\">-{0} pro Verwendung</style>"
+msgstr "Alle Krankheiten: -{0} pro Verwendung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASEEMITTEDPERUSE"
@@ -26547,12 +26223,9 @@ msgid "{0}: {1} per use"
 msgstr "{0}: {1} pro Nutzung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ENABLESDOMESTICGROWTH
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENABLESDOMESTICGROWTH"
-#| msgid "Enables <link=\"SOLID\">Plant Domestication</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENABLESDOMESTICGROWTH"
 msgid "Enables <link=\"PLANTS\">Plant Domestication</link>"
-msgstr "Erlaubt <link=\"SOLID\">Pflanzen-Domestizierung</style>"
+msgstr "Erlaubt <link=\"PLANTS\">Pflanzen-Domestizierung</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ENERGYCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENERGYCONSUMED"
@@ -26560,12 +26233,9 @@ msgid "<link=\"POWER\">Power</link> consumed: {0}"
 msgstr "<link=\"POWER\">Energie</link> verbraucht: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ENERGYGENERATED
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE"
-#| msgid "Max <link=\"POWER\">Power</link>: {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENERGYGENERATED"
 msgid "<link=\"POWER\">Power</link>: +{0}"
-msgstr "Maximale <link=\"POWER\">Energie</link>: {0}"
+msgstr "<link=\"POWER\">Energie</link>: +{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.FABRICATEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.FABRICATEDITEM"
@@ -26578,12 +26248,9 @@ msgid "Fabricates"
 msgstr "Produkte"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GASCOOLING
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.COLDBREATHER"
-#| msgid "<link=\"HEAT\">Cooling Effect</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GASCOOLING"
 msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
-msgstr "<link=\"HEAT\">Kühlungseffekt</style>"
+msgstr "<link=\"HEAT\">Kühlfaktor</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PERIOD"
@@ -26606,12 +26273,9 @@ msgid "Next Dormancy: {0}"
 msgstr "Nächste Ruhephase: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_PERIOD
-#, fuzzy
-#| msgctxt "STRINGS.UI.DELIVERED"
-#| msgid "Delivered: {0} {1}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_PERIOD"
 msgid "Active Period: {0} every {1}"
-msgstr "Geliefert: {0} {1}"
+msgstr "Aktuelle Phase: {0} jede {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_UNSTUDIED"
@@ -26629,28 +26293,19 @@ msgid "<link=\"HEAT\">Heat</link>: +{0}"
 msgstr "<link=\"HEAT\">Wärme</link>: +{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_AIRCONDITIONER
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_AIRCONDITIONER"
-#| msgid "<link=\"HEAT\">Heat</style>: <style=\"produced\">+{0}</style> (Approximate Value)"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_AIRCONDITIONER"
 msgid "<link=\"HEAT\">Heat</link>: +{0} (Approximate Value)"
-msgstr "<link=\"HEAT\">Wärme</style>: <style=\"produced\">+{0}</style> (Schätzwert)"
+msgstr "<link=\"HEAT\">Wärme</link>: +{0} (Schätzwert)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_LIQUIDCONDITIONER
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_LIQUIDCONDITIONER"
-#| msgid "<link=\"HEAT\">Heat</style>: <style=\"produced\">+{0}</style> (Approximate Value)"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_LIQUIDCONDITIONER"
 msgid "<link=\"HEAT\">Heat</link>: +{0} (Approximate Value)"
-msgstr "<link=\"HEAT\">Wärme</style>: <style=\"produced\">+{0}</style> (Schätzwert)"
+msgstr "<link=\"HEAT\">Wärme</link>: +{0} (Schätzwert)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HIT_POINTS_PER_CYCLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
-#| msgid "<link=\"HEALTH\">Health</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HIT_POINTS_PER_CYCLE"
 msgid "<link=\"HEALTH\">Health</link> per cycle: {0}"
-msgstr "<link=\"HEALTH\">Gesundheit</style>"
+msgstr "<link=\"HEALTH\">Gesundheit</style> pro Zyklus: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS"
@@ -26666,28 +26321,19 @@ msgid "{0}"
 msgstr "{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ITEM_TEMPERATURE_ADJUST
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.ITEM_TEMPERATURE_ADJUST"
-#| msgid "Stored <link=\"HEAT\">Temperature</style>: {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ITEM_TEMPERATURE_ADJUST"
 msgid "Stored <link=\"HEAT\">Temperature</link>: {0}"
-msgstr "Gespeicherte <link=\"HEAT\">Temperatur</style>: {0}"
+msgstr "Gespeicherte <link=\"HEAT\">Temperatur</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.KCAL_PER_CYCLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.KCAL_PER_CYCLE"
-#| msgid "<link=\"FOOD\">KCal</style> per cycle: <style=\"produced\">{0}</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.KCAL_PER_CYCLE"
 msgid "<link=\"FOOD\">KCal</link> per cycle: {0}"
-msgstr "<link=\"FOOD\">KCal</style> pro Zyklus: <style=\"produced\">{0}</style>"
+msgstr "<link=\"FOOD\">KCal</link> pro Zyklus: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.LIQUIDCOOLING
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.COLDBREATHER"
-#| msgid "<link=\"HEAT\">Cooling Effect</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.LIQUIDCOOLING"
 msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
-msgstr "<link=\"HEAT\">Kühlungseffekt</style>"
+msgstr "<link=\"HEAT\">Kühlungseffekt</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE"
@@ -26695,20 +26341,14 @@ msgid "Max <link=\"POWER\">Power</link>: {0}"
 msgstr "Maximale <link=\"POWER\">Energie</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MINIMUM_TEMP
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.MINIMUM_TEMP"
-#| msgid "Freeze <link=\"HEAT\">Temperature</style>: {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MINIMUM_TEMP"
 msgid "Freeze <link=\"HEAT\">Temperature</link>: {0}"
-msgstr "<link=\"HEAT\">Gefrierpunkt</style>: {0}"
+msgstr "<link=\"HEAT\">Gefrierpunkt</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.NOISE_CREATED
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED"
-#| msgid "<style=\"decor\">Decor</style>: <style=\"{0}\">{1}</style> (Radius: {2} tiles)"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.NOISE_CREATED"
 msgid "<link=\"SOUND\">Noise</link>: {0} dB (Radius: {1} tiles)"
-msgstr "<link=\"DECOR\">Dekoration</link>: <style=\"{0}\">{1}</style> (Radius: {2} Felder)"
+msgstr "<link=\"SOUND\">Lärm</link>: {0} dB (Radius: {1} Kacheln)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.OPERATIONEFFECTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.OPERATIONEFFECTS"
@@ -26787,68 +26427,44 @@ msgid "Cures"
 msgstr "Kuriert"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESCREATIVITY
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
-#| msgid "<link=\"ARTIST\">Artist</link>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESCREATIVITY"
 msgid "Duplicant <link=\"ARTIST\">Creativity</link>"
-msgstr "<link=\"ARTIST\">Künstler</link>"
+msgstr "<link=\"ARTIST\">Duplikant-Kreativität</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESELEMENT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.CURED_POPUP"
-#| msgid "Cured of {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESELEMENT"
 msgid "Supply of {0}"
-msgstr "Geheilt von {0}"
+msgstr "Lieferung von {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT"
-#| msgid "<link=\"GASPIPING\">Gas Intake Pipe</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT"
 msgid "<link=\"GASPIPING\">Gas Intake Pipe</link>"
-msgstr "<link=\"GASPIPING\">Gas-Eingangsleitung</style>"
+msgstr "<link=\"GASPIPING\">Gas-Eingangsleitung</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT"
-#| msgid "<link=\"GASPIPING\">Gas Output Pipe</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT"
 msgid "<link=\"GASPIPING\">Gas Output Pipe</link>"
-msgstr "<link=\"GASPIPING\">Gas-Ausgangsleitung</style>"
+msgstr "<link=\"GASPIPING\">Gas-Ausgangsleitung</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUTS"
-#| msgid "Two <link=\"GASPIPING\">Gas Output Pipes</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUTS"
 msgid "Two <link=\"GASPIPING\">Gas Output Pipes</link>"
-msgstr "Zwei <link=\"GASPIPING\">Gas-Ausgangsleitung</style>"
+msgstr "Zwei <link=\"GASPIPING\">Gas-Ausgangsleitung</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDINPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDINPUT"
-#| msgid "<link=\"LIQUIDPIPING\">Liquid Intake Pipe</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDINPUT"
 msgid "<link=\"LIQUIDPIPING\">Liquid Intake Pipe</link>"
-msgstr "<link=\"LIQUIDPIPING\">Flüssigkeits-Eingangsrohr</style>"
+msgstr "<link=\"LIQUIDPIPING\">Flüssigkeits-Eingangsrohr</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUT"
-#| msgid "<link=\"LIQUIDPIPING\">Liquid Output Pipe</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUT"
 msgid "<link=\"LIQUIDPIPING\">Liquid Output Pipe</link>"
-msgstr "<link=\"LIQUIDPIPING\">Flüssigkeits-Ausgangsrohr</style>"
+msgstr "<link=\"LIQUIDPIPING\">Flüssigkeits-Ausgangsrohr</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUTS"
-#| msgid "Two <link=\"LIQUIDPIPING\">Liquid Output Pipes</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUTS"
 msgid "Two <link=\"LIQUIDPIPING\">Liquid Output Pipes</link>"
-msgstr "Zwei <link=\"LIQUIDPIPING\">Flüssigkeits-Ausgangsrohre</style>"
+msgstr "Zwei <link=\"LIQUIDPIPING\">Flüssigkeits-Ausgangsrohre</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESMANUALOPERATION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESMANUALOPERATION"
@@ -26856,12 +26472,9 @@ msgid "Duplicant operation"
 msgstr "Bedienung durch Duplikanten"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESPOWER
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE"
-#| msgid "Max <link=\"POWER\">Power</link>: {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESPOWER"
 msgid "<link=\"POWER\">Power</link>: {0}"
-msgstr "Maximale <link=\"POWER\">Energie</link>: {0}"
+msgstr "<link=\"POWER\">Energie</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESPOWERGENERATOR
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESPOWERGENERATOR"
@@ -26953,6 +26566,9 @@ msgid ""
 "------------------\n"
 "Mark critters for capture using the Wrangle Tool <color=#F44A47>(N)</color>"
 msgstr ""
+"Diese Kreatur kann von einem Viehzüchter gefangen werden.\n"
+"------------------\n"
+"Markiere eine Kreatur die mit einem Treibwerkzeug gefangen werden soll <color=#F44A47>(N)</color>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
@@ -26996,28 +26612,19 @@ msgid "Duplicants walk {0} faster on this tile"
 msgstr "Duplikanten laufen {0} schneller auf diesem Feld"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED"
-#| msgid "Consumes {2} of {1} when in use"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED"
 msgid "Consumes {1} of {0} when in use"
-msgstr "Verbraucht {2} von {1} bei Benutzung"
+msgstr "Verbraucht {1} von {0} bei Benutzung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE"
-#| msgid "Consumes {2} of {1} per use"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE"
 msgid "Consumes {1} of {0} per use"
-msgstr "Verbraucht {2} von {1} pro Benutzung"
+msgstr "Verbraucht {1} von {0} pro Benutzung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED"
-#| msgid "Produces {2} of {1} when in use"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED"
 msgid "Produces {1} of {0} when in use"
-msgstr "Produziert {2} von {1} bei Benutzung"
+msgstr "Produziert {1} von {0} bei Benutzung"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE"
@@ -27050,22 +26657,19 @@ msgid "Reduces the temperature of piped gases by {0}"
 msgstr "Reduziert die Temperatur von Rohrleitungen um {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.TOOLTIP"
-#| msgid "This plant will produce no more seeds"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD"
 msgid "This geyser will produce for {0} of every {1}"
-msgstr "Diese Pflanze wird keine Samen mehr produzieren"
+msgstr "Dieser Geysir erzeugt für {0} alle {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION"
 msgid "While erupting, this geyser will produce {0} at a rate of {1}"
-msgstr ""
+msgstr "Während des Ausbruchs produziert dieser Geysir {0} mit einer Rate von {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE"
 msgid "This geyser will become active in {0}."
-msgstr ""
+msgstr "Dieser Geysir wird in {0} aktiv."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_DORMANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_DORMANT"
@@ -27075,12 +26679,12 @@ msgstr "Dieser Geysir wird in {0} inaktiv."
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD"
 msgid "This geyser will be active for {0} out of every {1}. It will be dormant the rest of the time."
-msgstr ""
+msgstr "Dieser Geysir ist für {0} alle {1} aktiv. Er wird den Rest der Zeit ruhen."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED"
 msgid "A researcher must analyze this geyser to determine its geoactive period."
-msgstr ""
+msgstr "Ein Forscher muss diesen Geysir analysieren, um seine geoaktive Periode zu bestimmen."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATCONSUMED"
@@ -27152,9 +26756,6 @@ msgid "Tune Ups will improve these buildings:"
 msgstr "Feinabstimmungen werden diese Gebäude verbessern:"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CRITERIA_FAILED.FAILED"
-#| msgid "{0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM"
 msgid "{0}"
 msgstr "{0}"
@@ -31199,20 +30800,14 @@ msgid "{Key} Increase priority"
 msgstr ""
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.TOOLTIP_TOGGLE_ROW"
-#| msgid "Toggle all errands for <b>{0}</b>"
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP"
 msgid "Prioritize <b>All Errands</b> for <b>{Name}</b>"
-msgstr "Alle Aufträge für <b>{0}</b> umschalten"
+msgstr "Priorisiere <b>alle Aufträge</b> für <b>{Name}</b>"
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_NEW_MINION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.NEW_MINIONS_TOOLTIP_TOGGLE_ROW"
-#| msgid "Toggle all errands for <b>New Duplicants</b>"
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_NEW_MINION_TOOLTIP"
 msgid "Prioritize <b>All Errands</b> for <b>New Duplicants</b>"
-msgstr "Alle Aufträge für <b>neue Duplikanten</b> umschalten"
+msgstr "Priorisiere <b>alle Aufträge</b> für <b>neue Duplikanten</b>"
 
 #. STRINGS.UI.JOBSSCREEN.ITEM_AUTO_ASSIGNED_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.ITEM_AUTO_ASSIGNED_TOOLTIP"
@@ -31242,7 +30837,6 @@ msgctxt "STRINGS.UI.JOBSSCREEN.OPTIONS"
 msgid "Options"
 msgstr "Optionen"
 
-# TODO: Hier steht bewusst nicht "Objekt", damit es platztechnisch passt.
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED
 #, fuzzy
 #| msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DISABLED.NAME"
@@ -31929,21 +31523,11 @@ msgid "Building Intake"
 msgstr "Gebäudeeingang"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED"
-#| msgid "Connected to a <link=\"GASPIPING\">Gas Pipe</style>"
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED"
 msgid "Connected to a <link=\"GASPIPING\">Gas Pipe</link>"
-msgstr "Verbunden mit <link=\"GASPIPING\">Gasleitung</style>"
+msgstr "Verbunden mit <link=\"GASPIPING\">Gasleitung</link>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER"
-#| msgid ""
-#| "<b>Output Pipe</b>\n"
-#| "Outputs send gas into pipes\n"
-#| "------------------\n"
-#| "Must be on the same network as at least one <style=\"GasDestination\">Intake</style>"
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER"
 msgid ""
 "<b>Output Pipe</b>\n"
@@ -31954,24 +31538,14 @@ msgstr ""
 "<b>Ausgangsleitung</b>\n"
 "Ausgänge senden Gas in Rohre\n"
 "------------------\n"
-"Muss im selben Netzwerk wie mindestens ein <style=\"GasDestination\">Eingang</style> sein"
+"Muss im selben Netzwerk wie mindestens ein <link=\"GASPIPING\">Eingang</link> sein"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED"
-#| msgid "Not connected to a <link=\"GASPIPING\">Gas Pipe</style>"
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED"
 msgid "Not connected to a <link=\"GASPIPING\">Gas Pipe</link>"
-msgstr "Nicht mit einer <link=\"GASPIPING\">Gasleitung</style> verbunden"
+msgstr "Nicht mit einer <link=\"GASPIPING\">Gasleitung</link> verbunden"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED"
-#| msgid ""
-#| "<b>Filtered Output Pipe</b>\n"
-#| "Filtered Outputs send filtered gas into pipes\n"
-#| "------------------\n"
-#| "Must be on the same network as at least one <style=\"GasDestination\">Intake</style>"
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED"
 msgid ""
 "<b>Filtered Output Pipe</b>\n"
@@ -31981,7 +31555,7 @@ msgid ""
 msgstr ""
 "<b>Gefiltertes Ausgangsleitung</b>\n"
 "Gefilterte Ausgänge senden gefiltertes Gas in Rohre\n"
-"Muss im selben Netzwerk wie mindestens ein <style=\"GasDestination\">Eingang</style> sein"
+"Muss im selben Netzwerk wie mindestens ein <style=\"GASPIPING\">Eingang</link> sein"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK"
@@ -31989,13 +31563,6 @@ msgid "Gas network {0}"
 msgstr "Gasnetzwerk {0}"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.PRODUCER
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.PRODUCER"
-#| msgid ""
-#| "<b>Building Intake</b>\n"
-#| "Intakes send gas into buildings\n"
-#| "------------------\n"
-#| "Must be on the same network as at least one <style=\"GasSource\">Output</style>"
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.PRODUCER"
 msgid ""
 "<b>Building Intake</b>\n"
@@ -32006,7 +31573,7 @@ msgstr ""
 "<b>Gebäudeeingang</b>\n"
 "Eingänge senden Gas in Gebäude\n"
 "------------------\n"
-"Muss im selben Netzwerk wie mindestens ein <style=\"GasSource\">Ausgang</style> sein"
+"Muss im selben Netzwerk wie mindestens ein <link=\"GASPIPING\">Ausgang</link> sein"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
@@ -33490,12 +33057,9 @@ msgid "Trait: <link=\"CONVEYOR RAIL\">Conveyor Rail System</link> Construction"
 msgstr "Merkmal:<link=\"CONVEYOR RAIL\">Förderschienensystem</link>-Konstruktion"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
-#| msgid "Trait: <style=\"equipment\">Exosuit</style> Sprinting"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
 msgid "Trait: <link=\"EXOSUIT\">Exosuit</link> Sprinting"
-msgstr "Merkmal: Rennen mit <link=\"EQUIPMENT\">Schutzanzügen</style>"
+msgstr "Merkmal: Rennen mit <link=\"EXOSUIT\">Schutzanzügen</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION"
@@ -33573,12 +33137,9 @@ msgid "This job comes with no training"
 msgstr "Dieser Beruf benötigt keine Ausbildung"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC.NAME"
-#| msgid "Basic Learning"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING"
 msgid "Basic Job Training"
-msgstr "Grundlegendes Lernen"
+msgstr "Berufliche Grundausbildung"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_MORETRAINING
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_MORETRAINING"
@@ -33974,31 +33535,22 @@ msgstr "Abbrechen-Werkzeug"
 #. STRINGS.UI.TOOLS.CAPTURE.NAME
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.NAME"
 msgid "Wrangle"
-msgstr ""
+msgstr "Treiben"
 
 #. STRINGS.UI.TOOLS.CAPTURE.NOT_CAPTURABLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
-#| msgid "Cannot Mine"
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.NOT_CAPTURABLE"
 msgid "Cannot Wrangle"
-msgstr "Nicht abbaubar"
+msgstr "Kann nicht getrieben werden"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLACTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.HARVEST.TOOLACTION"
-#| msgid "DRAG TO TOGGLE HARVEST"
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLACTION"
 msgid "DRAG TO WRANGLE CRITTERS"
-msgstr "ZIEHEN UM ERNTEN UMZUSCHALTEN"
+msgstr "ZIEHEN UM KREATUREN ZU TREIBEN"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLNAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.CANCEL.TOOLNAME"
-#| msgid "Cancel tool"
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLNAME"
 msgid "Wrangle tool"
-msgstr "Abbrechen-Werkzeug"
+msgstr "Treibwerkzeug"
 
 #. STRINGS.UI.TOOLS.CLEANUPCATEGORY.NAME
 msgctxt "STRINGS.UI.TOOLS.CLEANUPCATEGORY.NAME"
@@ -35209,17 +34761,11 @@ msgid "INCUBATE: {0}"
 msgstr "BRÜTET: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.CANCELDEPOSIT
-#, fuzzy
-#| msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
-#| msgid "Cancel"
 msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.CANCELDEPOSIT"
 msgid "Cancel"
 msgstr "Abbrechen"
 
 #. STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.CANCELREMOVAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
-#| msgid "Cancel"
 msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.CANCELREMOVAL"
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -35416,9 +34962,6 @@ msgid "Missing {0} of {1}\n"
 msgstr "Benötigt {0} {1}\n"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
-#| msgid "{0}: {1}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT"
 msgid "{0}: {1}"
 msgstr "{0}: {1}"
@@ -35648,9 +35191,6 @@ msgid "PLANT: {0}"
 msgstr "PFLANZEN: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.BONUS_SEEDS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.BONUS_SEEDS"
-#| msgid "Base <style=\"seed\">Seed</style> Harvest Chance: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.BONUS_SEEDS"
 msgid "Base <link=\"PLANTS\">Seed</link> Harvest Chance: {0}"
 msgstr "Basiserntechance für <link=\"PLANTS\">Samen</link>: {0}"
@@ -36414,12 +35954,12 @@ msgstr "Angriffsbefehl abbrechen"
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME"
 msgid "Cancel Wrangle"
-msgstr "Niederringen abbrechen"
+msgstr "Treiben abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP"
 msgid "Cancel this wrangle order"
-msgstr "Diesen Niederringauftrag abbrechen"
+msgstr "Diesen Treibauftrag abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME"
@@ -36484,7 +36024,7 @@ msgstr "Entwurzeln abbrechen"
 #. STRINGS.UI.USERMENUACTIONS.CAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.NAME"
 msgid "Wrangle"
-msgstr ""
+msgstr "Treiben"
 
 #. STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP"
