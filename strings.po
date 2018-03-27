@@ -4838,8 +4838,7 @@ msgid ""
 msgstr ""
 "Wandelt <link=\"ELEMENTSLIQUID\">Petroleum</link> in elektrische <link=\"POWER\">Energie</link> um.\n"
 "\n"
-"Produziert <link=\"ELEMENTSGAS\">Kohlendioxid</link> und <link=\"LIQUID\">verschmutztes Wasser</link>."
-"Produziert <link=\"ELEMENTSGAS\">Kohlendioxid</link> und <link=\"ELEMENTSLIQUID\">verschmutztes Wasser</link>."
+"Produziert <link=\"ELEMENTSGAS\">Kohlendioxid</link> und <link=\"LIQUID\">verschmutztes Wasser</link>.Produziert <link=\"ELEMENTSGAS\">Kohlendioxid</link> und <link=\"ELEMENTSLIQUID\">verschmutztes Wasser</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME"
@@ -6527,6 +6526,22 @@ msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP"
 msgid "This is the base speed with which critters produce new eggs"
 msgstr "Das ist die Grundfrequenz, mit der das Tier neue Eier legt"
 
+#. STRINGS.CREATURES.MODIFIERS.CONFINED.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.CONFIRMNAME"
+#| msgid "Confirm"
+msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.NAME"
+msgid "Confined"
+msgstr "Bestätigen"
+
+#. STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ATTACK_APPROACH.TOOLTIP"
+#| msgid "This critter is hostile and readying to pounce!"
+msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP"
+msgid "This critter is inside a door, tile, or confined space."
+msgstr "Dieses Tier ist feindselig und bereit zum zuschlagen!"
+
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME"
 msgid "Happiness Decreasing"
@@ -7095,7 +7110,6 @@ msgstr "<link=\"OILSPOUT\">Ölquelle</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DESC"
 msgid "Bristle Blossoms produce <link=\"PRICKLEFRUIT\">Bristle Berry</link>, a prickly edible bud."
 msgstr "Dornenblüten produzieren essbare <link=\"PRICKLEFRUIT\">Dornenbeeren</link>, Eine stachelige essbare Knospe."
-msgstr "Dornenblüten produzieren essbare <link=\"PRICKLEFRUIT\">Dornenbeeren</link>, eine stachelige essbare Knospe."
 
 #. STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DOMESTICATEDDESC"
@@ -14749,7 +14763,6 @@ msgstr ""
 "Dieser Duplikant ist angetan von der Nacht\n"
 "• +2 auf alle Eigenschaften"
 
-
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME"
 msgid "Cacophony!"
@@ -16467,8 +16480,7 @@ msgstr "<link=\"CREATURE\">Genetischer Schlamm</link>"
 #. STRINGS.ELEMENTS.CRUDEOIL.DESC
 msgctxt "STRINGS.ELEMENTS.CRUDEOIL.DESC"
 msgid "Crude Oil is a raw potential <link=\"POWER\">Power</link> source composed of billions of dead, primordial organisms."
-msgstr ""
-"Rohöl, eine <link=\"POWER\">Energiequelle</link> bestehend aus Milliarden toten urzeitlichen Organismen.\n"
+msgstr "Rohöl, eine <link=\"POWER\">Energiequelle</link> bestehend aus Milliarden toten urzeitlichen Organismen."
 
 #. STRINGS.ELEMENTS.CRUDEOIL.NAME
 msgctxt "STRINGS.ELEMENTS.CRUDEOIL.NAME"
@@ -18009,9 +18021,15 @@ msgid "Because breathing underwater is better than... not."
 msgstr "Weil unter Wasser zu atmen besser ist als... nicht."
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
+#| msgid ""
+#| "Supplies Duplicants with <link=\"oxygen\">Oxygen</link> in underwater environments.\n"
+#| "\n"
+#| "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
 msgid ""
-"Supplies Duplicants with <link=\"oxygen\">Oxygen</link> in underwater environments.\n"
+"Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater environments.\n"
 "\n"
 "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgstr ""
@@ -18035,9 +18053,15 @@ msgid "Make sure your Duplicants can breathe easy, anytime, anywhere."
 msgstr "Stelle sicher, dass deine Duplikanten jederzeit überall mühelos atmen können."
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
+#| msgid ""
+#| "Supplies Duplicants with <link=\"oxygen\">Oxygen</link> in toxic and low breathability environments.\n"
+#| "\n"
+#| "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
 msgid ""
-"Supplies Duplicants with <link=\"oxygen\">Oxygen</link> in toxic and low breathability environments.\n"
+"Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low breathability environments.\n"
 "\n"
 "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgstr ""
@@ -18136,11 +18160,17 @@ msgid ""
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.EFFECT"
+#| msgid ""
+#| "Allows Duplicants to breathe in hazardous environments.\n"
+#| "\n"
+#| "Does not work when submerged in <link=\"liquid\">Liquid</link>."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.EFFECT"
 msgid ""
 "Allows Duplicants to breathe in hazardous environments.\n"
 "\n"
-"Does not work when submerged in <link=\"liquid\">Liquid</link>."
+"Does not work when submerged in <style=\"liquid\">Liquid</style>."
 msgstr ""
 "Erlaubt Duplikanten in gefährlichen Umgebungen zu atmen.\n"
 "\n"
@@ -18157,11 +18187,17 @@ msgid "Oxygen Tank"
 msgstr "Sauerstofftank"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC"
+#| msgid ""
+#| "Allows Duplicants to breathe in hazardous environments.\n"
+#| "\n"
+#| "Does not work when submerged in <link=\"liquid\">Liquid</link>."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC"
 msgid ""
 "Allows Duplicants to breathe in hazardous environments.\n"
 "\n"
-"Does not work when submerged in <link=\"liquid\">Liquid</link>."
+"Does not work when submerged in <style=\"liquid\">Liquid</style>."
 msgstr ""
 "Erlaubt Duplikanten in gefährlichen Umgebungen zu atmen.\n"
 "\n"
@@ -18173,9 +18209,15 @@ msgid ""
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.EFFECT"
+#| msgid ""
+#| "Allows Duplicants to breathe while submerged in <link=\"liquid\">Liquid</link>.\n"
+#| "\n"
+#| "Does not work outside of liquid."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.EFFECT"
 msgid ""
-"Allows Duplicants to breathe while submerged in <link=\"liquid\">Liquid</link>.\n"
+"Allows Duplicants to breathe while submerged in <style=\"liquid\">Liquid</style>.\n"
 "\n"
 "Does not work outside of liquid."
 msgstr ""
@@ -18194,9 +18236,15 @@ msgid "Oxygen Rebreather"
 msgstr "Atemgerät"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC"
+#| msgid ""
+#| "Allows Duplicants to breathe while submerged in <link=\"liquid\">Liquid</link>.\n"
+#| "\n"
+#| "Does not work outside of liquid."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC"
 msgid ""
-"Allows Duplicants to breathe while submerged in <link=\"liquid\">Liquid</link>.\n"
+"Allows Duplicants to breathe while submerged in <style=\"liquid\">Liquid</style>.\n"
 "\n"
 "Does not work outside of liquid."
 msgstr ""
@@ -18230,9 +18278,15 @@ msgid "Keep your Duplicants cool in case things heat up."
 msgstr "Hält deine Duplikanten kühl, auch wenn's mal brenzlig wird."
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
+#| msgid ""
+#| "Provides insulation in regions with extreme <link=\"heat\">Temperatures</link>.\n"
+#| "\n"
+#| "Must be powered at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
 msgid ""
-"Provides insulation in regions with extreme <link=\"heat\">Temperatures</link>.\n"
+"Provides insulation in regions with extreme <style=\"heat\">Temperatures</style>.\n"
 "\n"
 "Must be powered at an Exosuit Recharger when depleted."
 msgstr ""
@@ -20564,9 +20618,12 @@ msgid "Research Complete"
 msgstr "Forschung abgeschlossen"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
+#| msgid "Research Complete"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP"
-msgid "<link=\"{0}\">research</link> research complete!"
-msgstr "<link=\"{0}\">Forschung</link> vollständig!"
+msgid "{0} research complete!"
+msgstr "Forschung abgeschlossen"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME"
@@ -35662,3 +35719,7 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP"
+#~ msgid "<link=\"{0}\">research</link> research complete!"
+#~ msgstr "<link=\"{0}\">Forschung</link> vollständig!"
