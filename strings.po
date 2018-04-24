@@ -922,15 +922,15 @@ msgid "Requires Emptying"
 msgstr "Benötigt Leerung"
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
-#| msgid "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of <link=\"DIRTYWATER\">Polluted Water</link>. Consider using a <link=\"BOTTLEEMPTIER\">Bottle Emptier</link> to dispose of the <link=\"DIRTYWATER\">Polluted Water</link>."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
 msgid ""
 "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of <link=\"DIRTYWATER\">Polluted Water</link>\n"
 "------------------\n"
 "<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>s can be used to transport and dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated areas"
-msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser</link> muss aus diesem <link=\"ALGAEHABITAT\">Algen-Terrarium</link> entleert werden. Erwäge die Verwendung eines <link=\"BOTTLEEMPTIER\">Flaschen-Entleerers</link> zur Entsorgung der <link=\"DIRTYWATER\">verschmutzten Wassers</link>."
+msgstr ""
+"<link=\"DIRTYWATER\">Verschmutztes Wasser</link> muss aus diesem <link=\"ALGAEHABITAT\">Algen-Terrarium</link> entleert werden.\n"
+"------------------\n"
+"<link=\"BOTTLEEMPTIER\">Flaschen-Entleerer</link> können verwendet werden um <link=\"DIRTYWATER\">verschmutzten Wassers</link> aus bestimmten Gebieten abzutranspotieren und zu entsorgen"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
@@ -963,12 +963,9 @@ msgid "This building must be submerged in liquid to function"
 msgstr "Dieses Objekt muss in Flüssigkeit eingetaucht sein"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME"
-#| msgid "Incubating"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.NAME"
 msgid "Incubating: {Percent}"
-msgstr "Brütet"
+msgstr "Bebrütung: {Percent}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.TOOLTIP"
@@ -977,6 +974,9 @@ msgid ""
 "------------------\n"
 "It will hatch when Incubation reaches 100%"
 msgstr ""
+"Dieses Ei bebrütet behaglich\n"
+"------------------\n"
+"Es schlüpft, wenn die Inkubationszeit 100% erreicht"
 
 #. STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.NAME"
@@ -2661,12 +2661,9 @@ msgid "<link=\"ALGAEHABITAT\">Algae Terrarium</link>"
 msgstr "<link=\"ALGAEHABITAT\">Algen-Terrarium</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.SIDESCREEN_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.DIRTYWATER.NAME"
-#| msgid "<link=\"DIRTYWATER\">Polluted Water</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.SIDESCREEN_TITLE"
 msgid "Empty <link=\"DIRTYWATER\">Polluted Water</link> Threshold"
-msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser</link>"
+msgstr "Schwelle zum Entleeren des <link=\"DIRTYWATER\">verschmutzten Wassers</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC"
@@ -2955,17 +2952,14 @@ msgid "<link=\"COMPOST\">Compost</link>"
 msgstr "<link=\"COMPOST\">Kompost</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME"
-#| msgid "Marked For Compost"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME"
 msgid "Marked for Emptying"
-msgstr "Markiert für Kompostierung"
+msgstr "Markiert zum Entleeren"
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
 msgid "Awaiting a Plumber to clear this pipe"
-msgstr ""
+msgstr "Wartet auf den Klempner, um dieses Rohr zu entleeren"
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC"
@@ -3332,42 +3326,30 @@ msgid "<link=\"FIREPOLE\">Fire Pole</link>"
 msgstr "<link=\"FIREPOLE\">Rutschstange</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_LIQUID.TOOLTIP"
-#| msgid "This building must be submerged in liquid to function"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC"
 msgid "This building must be built above liquid to prevent fish from suffocating."
-msgstr "Dieses Objekt muss in Flüssigkeit eingetaucht sein"
+msgstr "Dieses Gebäude muss über der Flüssigkeit gebaut werden, um zu verhindern, dass Fische ersticken."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
-#| msgid ""
-#| "Releases trapped critters back into the world.\n"
-#| "\n"
-#| "Can be used multiple times."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
 msgid ""
 "Releases trapped fish back into the world.\n"
 "\n"
 "Can be used multiple times."
 msgstr ""
-"Entlässt gefangene Tiere zurück in die Welt.\n"
+"Entlässt gefangene Fische zurück in die Welt.\n"
 "\n"
 "Kann mehrfach verwendet werden."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TILEPOI.NAME"
-#| msgid "<link=\"TILEPOI\">Tile</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME"
 msgid "<link=\"FISHDELIVERYPOINT\">Fish Release</link>"
-msgstr "<link=\"TILEPOI\">Ziegel</link>"
+msgstr "<link=\"FISHDELIVERYPOINT\">Fisch-Aussetzer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.DESC"
 msgid "Build this feeder above a body of water to feed the fish within."
-msgstr ""
+msgstr "Bauen diesen Fütterer über einem Gewässer, um die Fische darin zu füttern."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
@@ -3376,19 +3358,19 @@ msgid ""
 "\n"
 "Dispenses once per day."
 msgstr ""
+"Verteilt gelagertes Futter automatisch in den darunter liegenden Bereich.\n"
+"\n"
+"Verteilt einmal täglich."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME"
-#| msgid "<link=\"CREATUREFEEDER\">Critter Feeder</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME"
 msgid "<link=\"FISHFEEDER\">Fish Feeder</link>"
-msgstr "<link=\"CREATUREFEEDER\">Tierfütterer</link>"
+msgstr "<link=\"FISHFEEDER\">Fischfütterer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.DESC"
 msgid "Trapped fish will automatically be bagged for transport."
-msgstr ""
+msgstr "Die gefangenen Fische werden automatisch für den Transport verpackt."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT"
@@ -3397,14 +3379,14 @@ msgid ""
 "\n"
 "Single use."
 msgstr ""
+"Lockt an und fängt schwimmende Fische.\n"
+"\n"
+"Zum einmaligen Gebrauch."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.NAME"
-#| msgid "<link=\"FRIEDMUSHBAR\">Mush Fry</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME"
 msgid "<link=\"FISHTRAP\">Fish Trap</link>"
-msgstr "<link=\"FRIEDMUSHBAR\">Frittierter Matsch</link>"
+msgstr "<link=\"FISHTRAP\">Fischreuse</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC"
@@ -3560,12 +3542,9 @@ msgid "Gas Pipe Element Sensors can be used to detect the presence of a specific
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
-#| msgid "Logic input will become <link=\"LOGIC\">Active</link> when battery is less than {0}% charged"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is detected."
-msgstr "Der Logikeingang wird <link=\"LOGIC\">Aktiv</link>, wenn die Batterie weniger als {0}% geladen ist"
+msgstr "Der Logikeingang wird <link=\"LOGIC\">Aktiv</link>, wenn das eingestellte Gas detektiert wird."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC
 #, fuzzy
@@ -3584,22 +3563,9 @@ msgid "<link=\"LOGICELEMENTSENSORGAS\">Gas Pipe Element Sensor</link>"
 msgstr "<link=\"LOGICDISEASESENSOR\">Keimsensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC"
 msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+msgstr "\n"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT"
@@ -3615,22 +3581,9 @@ msgid "<link=\"GASCONDUITOVERFLOW\">Gas Overflow Valve</link>"
 msgstr "<link=\"GASCONDUIT\">Gasleitung</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT"
@@ -3648,32 +3601,23 @@ msgstr "<link=\"GASCONDUIT\">Gasleitung</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
 msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
-msgstr ""
+msgstr "Radiatorgasleitungen verbessern den Temperaturaustausch mit der Umgebung erheblich."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.EFFECT"
-#| msgid ""
-#| "Carries <link=\"ELEMENTSGAS\">Gas</link> with minimal change in <link=\"HEAT\">Temperature</link>.\n"
-#| "\n"
-#| "Can be run through tiles."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
 msgid ""
 "Carries <link=\"ELEMENTSGAS\">Gas</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Transportiert <link=\"ELEMENTSGAS\">Gas</link> mit geringen <link=\"HEAT\">Temperaturänderungen</link>.\n"
+"Transportiert <link=\"ELEMENTSGAS\">Gas</link> und begünstigt deutliche die Veränderung der <link=\"HEAT\">Temperatur</link>.\n"
 "\n"
 "Kann in Ziegel verlegt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME"
-#| msgid "<link=\"GASCONDUIT\">Gas Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME"
 msgid "<link=\"GASCONDUITRADIANT\">Radiant Gas Pipe</link>"
-msgstr "<link=\"GASCONDUIT\">Gasleitung</link>"
+msgstr "<link=\"GASCONDUITRADIANT\">Radiatorgasleitung</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC
 #, fuzzy
@@ -4240,125 +4184,75 @@ msgstr "<link=\"LIQUIDCONDUITBRIDGE\">Rohrbrücke</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC"
 msgid "Liquid Pipe Germ Sensors are used to control automation behaviour in the presence of disease."
-msgstr ""
+msgstr "Rohrflüssigkeitskeimsensoren werden zur Kontrolle des Automatisierungsverhaltens bei Krankheit eingesetzt."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
-#| msgid "<link=\"LOGIC\">Active</link>/<link=\"LOGIC\">Standby</link> depending on quantity of surrounding <link=\"DISEASE\">Germs</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> depending on quantity of the contained <link=\"DISEASE\">Germs</link>."
-msgstr "<link=\"LOGIC\">Aktiv</link>/<link=\"LOGIC\">Inaktiv</link> abhängig von der <link=\"DISEASE\">Keimanzahl</link> der Umgebung."
+msgstr "Wird <link=\"LOGIC\">Aktiv</link> oder <link=\"LOGIC\">Inaktiv</link> abhängig von der Menge an <link=\"DISEASE\">Keimen</link> in der Umgebung."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC"
-#| msgid "Active/Standby based on ambient Gas Pressure"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the contained Germs"
-msgstr "Aktiv/Inaktiv basierend auf umgebendem <link=\"ELEMENTSGAS\">Gasdruck</link>"
+msgstr "Aktiv/Inaktiv basierend auf den enthaltenen Keimen"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
-#| msgid "<link=\"LOGICDISEASESENSOR\">Germ Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"LIQUIDCONDUITDISEASESENSOR\">Liquid Pipe Germ Sensor</link>"
-msgstr "<link=\"LOGICDISEASESENSOR\">Keimsensor</link>"
+msgstr "<link=\"LIQUIDCONDUITDISEASESENSOR\">Rohrflüssigkeitskeimsensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.DESC"
-#| msgid "A bottle emptier's Element Filter can be used to designate areas for specific liquid storage."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC"
 msgid "Liquid Pipe Element Sensors can be used to detect the presence of a specific liquid in a pipe"
-msgstr "Der Elementfilter eines Flaschen-Entleerers kann verwendet werden, um Bereiche für die spezifische Flüssigkeitslagerung zu kennzeichnen."
+msgstr ""
+"Der Elementfilter eines Flaschen-Entleerers kann verwendet werden, um Bereiche für die spezifische Flüssigkeitslagerung zu kennzeichnen\n"
+"Diese Sensoren können die Präsenz einer bestimmten Flüssigkeit erkennen und Systeme entsprechend verändern."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
-#| msgid "Logic input will become <link=\"LOGIC\">Active</link> when battery is less than {0}% charged"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> when the configured Liquid Element is detected."
-msgstr "Der Logikeingang wird <link=\"LOGIC\">Aktiv</link>, wenn die Batterie weniger als {0}% geladen ist"
+msgstr "Der Logikeingang wird <link=\"LOGIC\">Aktiv</link>, wenn die eingestellte Flüssigkeit detektiert wird."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_DESC"
-#| msgid "Active/Standby based on Ambient Liquid Pressure"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the contained Liquid"
-msgstr "Aktiv/Inaktiv basierend auf umgebendem <link=\"ELEMENTSGAS\">Flüssigkeitsdruck</link>"
+msgstr "Aktiv/Inaktiv basierend auf der enthaltenden Flüssigkeit"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME"
-#| msgid "<link=\"LOGICPRESSURESENSORLIQUID\">Hydro Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"LOGICELEMENTSENSORLIQUID\">Liquid Pipe Element Sensor</link>"
-msgstr "<link=\"LOGICPRESSURESENSORLIQUID\">Hydrosenor</link>"
+msgstr "<link=\"LOGICELEMENTSENSORLIQUID\">Rohrflüssigkeitselementsensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT"
 msgid "Has a secondary output which is only used when the primary output is blocked."
-msgstr ""
+msgstr "Hat eine sekundären Ausgang, der nur verwendet wird, wenn die Primärausgang blockiert ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
-#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME"
 msgid "<link=\"LIQUIDCONDUITOVERFLOW\">Liquid Overflow Valve</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">Rohr</link>"
+msgstr "<link=\"LIQUIDCONDUITOVERFLOW\">Flüssigkeits-Überströmventil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.EFFECT"
 msgid "Has a secondary input which is only drawn from when the primary input is empty."
-msgstr ""
+msgstr "Hat einen sekundären Eingang, der nur verwendet wird, wenn der primäre Eingang leer ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
-#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME"
 msgid "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">Priority Liquid Flow</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">Rohr</link>"
+msgstr "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">Rohr</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
@@ -4366,12 +4260,6 @@ msgid "Radiant pipes significantly improve the rate of temperature exchange with
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT"
-#| msgid ""
-#| "Carries <link=\"ELEMENTSLIQUID\">Liquid</link> with minimal change in <link=\"HEAT\">Temperature</link>.\n"
-#| "\n"
-#| "Can be run through tiles."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT"
 msgid ""
 "Carries <link=\"ELEMENTSLIQUID\">Liquid</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
@@ -4383,44 +4271,29 @@ msgstr ""
 "Kann durch Ziegel verlegt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
-#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME"
 msgid "<link=\"LIQUIDCONDUITRADIANT\">Radiant Liquid Pipe</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">Rohr</link>"
+msgstr "<link=\"LIQUIDCONDUITRADIANT\">Radiatorrohr</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.DESC"
-#| msgid "Thermo Sensors can autodisable buildings when they approach inoperable temperatures."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC"
 msgid "Liquid Pipe Thermo Sensors can disable buildings when their contents reach a certain temperature."
-msgstr "Thermosensoren können Gebäude deaktivieren, wenn sie die Betriebstemperatur überschreiten."
+msgstr "Rohrflüssigkeitstemperatursensor können Gebäude deaktivieren, wenn sie die Betriebstemperatur überschreiten."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT"
-#| msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> when ambient <link=\"HEAT\">Temperature</link> enters the chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> when the pipe contents <link=\"HEAT\">Temperature</link> enters the chosen range."
-msgstr "Wird <link=\"LOGIC\">Aktiv</link> oder <link=\"LOGIC\">Inaktiv</link> wenn die umgebende <link=\"HEAT\">Temperatur</link> im ausgewählten Bereich ist."
+msgstr "Wird <link=\"LOGIC\">Aktiv</link> oder <link=\"LOGIC\">Inaktiv</link> wenn die Flüssigkeit im Rohr eine <link=\"HEAT\">Temperatur</link> im ausgewählten Bereich erreicht."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_DESC"
-#| msgid "Active/Standby based on Ambient <link=\"HEAT\">Temperature</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the <link=\"HEAT\">Temperature</link> of the contained Liquid"
-msgstr "Aktiv/Inaktiv basierend auf der <link=\"HEAT\">Umgebungstemperatur</link>"
+msgstr "Aktiv/Inaktiv basierend auf der <link=\"HEAT\">Temperatur</link> der enthaltenden Flüssigkeit"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME"
-#| msgid "<link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME"
 msgid "<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">Liquid Pipe Thermo Sensor</link>"
-msgstr "<link=\"LOGICTEMPERATURESENSOR\">Thermosensor</link>"
+msgstr "<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">Rohrflüssigkeitstemperatursensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC"
@@ -4587,20 +4460,14 @@ msgid "Detects the presence and quantity of nearby germs"
 msgstr "Detektiert das Auftreten und die Menge der sich in der Nähe befindlichen Keime"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
-#| msgid "<link=\"LOGIC\">Active</link>/<link=\"LOGIC\">Standby</link> depending on quantity of surrounding <link=\"DISEASE\">Germs</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> depending on quantity of surrounding <link=\"DISEASE\">Germs</link>."
-msgstr "<link=\"LOGIC\">Aktiv</link>/<link=\"LOGIC\">Inaktiv</link> abhängig von der <link=\"DISEASE\">Keimanzahl</link> der Umgebung."
+msgstr "Wird <link=\"LOGIC\">Aktiv</link> oder <link=\"LOGIC\">Inaktiv</link> abhängig von der <link=\"DISEASE\">Keimanzahl</link> der Umgebung."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC"
-#| msgid "Active/Standby based on ambient Gas Pressure"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.LOGIC_PORT_DESC"
 msgid "Active/Standby based on ambient Germs"
-msgstr "Aktiv/Inaktiv basierend auf umgebendem <link=\"ELEMENTSGAS\">Gasdruck</link>"
+msgstr "Aktiv/Inaktiv basierend auf den umgebenden Keimen"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
@@ -4610,78 +4477,54 @@ msgstr "<link=\"LOGICDISEASESENSOR\">Keimsensor</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.DESC"
 msgid "These sensors can detect the presence of a specific gas and alter systems accordingly."
-msgstr ""
+msgstr "Diese Sensoren können die Präsenz eines bestimmten Gases erkennen und Systeme entsprechend verändern."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> if the system connected to its Input is on <link=\"LOGIC\">Standby</link>.\n"
-#| "\n"
-#| "Goes into <link=\"LOGIC\">Standby</link> when its Input is <link=\"LOGIC\">Active</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.EFFECT"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when the selected Gaseous Element is detected.\n"
 "\n"
 "Remains on <link=\"LOGIC\">Standby</link> when the Element is not present."
 msgstr ""
-"Wird <link=\"LOGIC\">Aktiv</link> wenn das System das mit dem Eingang verbunden ist <link=\"LOGIC\">Inaktiv</link> ist.\n"
+"Wird <link=\"LOGIC\">Aktiv</link> wenn das ausgewählte gasförmige Element detektiert wird.\n"
 "\n"
-"Wird <link=\"LOGIC\">Inaktiv</link> wenn der Eingang <link=\"LOGIC\">Aktiv</link> ist."
+"Bleibt <link=\"LOGIC\">Inaktiv</link> wenn das Element nicht vorhanden ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC"
-#| msgid "Active/Standby based on ambient Gas Pressure"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the ambient Gas"
-msgstr "Aktiv/Inaktiv basierend auf umgebendem <link=\"ELEMENTSGAS\">Gasdruck</link>"
+msgstr "Aktiv/Inaktiv basierend auf umgebendem Gas"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
-#| msgid "<link=\"LOGICDISEASESENSOR\">Germ Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.NAME"
 msgid "<link=\"LOGICELEMENTSENSORGAS\">Gaseous Element Sensor</link>"
-msgstr "<link=\"LOGICDISEASESENSOR\">Keimsensor</link>"
+msgstr "<link=\"LOGICELEMENTSENSORGAS\">Gaselementsensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.DESC"
 msgid "These sensors can detect the presence of a specific liquid and alter systems accordingly."
-msgstr ""
+msgstr "Diese Sensoren können die Präsenz einer bestimmten Flüssigkeit erkennen und Systeme entsprechend verändern."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> if the system connected to its Input is on <link=\"LOGIC\">Standby</link>.\n"
-#| "\n"
-#| "Goes into <link=\"LOGIC\">Standby</link> when its Input is <link=\"LOGIC\">Active</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.EFFECT"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when the selected Liquid Element is detected.\n"
 "\n"
 "Remains on <link=\"LOGIC\">Standby</link> when the Element is not present."
 msgstr ""
-"Wird <link=\"LOGIC\">Aktiv</link> wenn das System das mit dem Eingang verbunden ist <link=\"LOGIC\">Inaktiv</link> ist.\n"
+"Wird <link=\"LOGIC\">Aktiv</link> wenn die ausgewählte Flüssigkeit Element detektiert wird.\n"
 "\n"
-"Wird <link=\"LOGIC\">Inaktiv</link> wenn der Eingang <link=\"LOGIC\">Aktiv</link> ist."
+"Bleibt <link=\"LOGIC\">Inaktiv</link> wenn die Flüssigkeit nicht vorhanden ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_DESC"
-#| msgid "Active/Standby based on Ambient Liquid Pressure"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_DESC"
 msgid "Active/Standby based on the ambient Liquid"
-msgstr "Aktiv/Inaktiv basierend auf umgebendem <link=\"ELEMENTSGAS\">Flüssigkeitsdruck</link>"
+msgstr "Aktiv/Inaktiv basierend auf der umgebenden Flüssigkeit"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSLIQUID"
-#| msgid "<link=\"ELEMENTSLIQUID\">Liquids</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.NAME"
 msgid "<link=\"LOGICELEMENTSENSORLIQUID\">Liquid Element Sensor</link>"
-msgstr "<link=\"ELEMENTSLIQUID\">Flüssigkeiten</link>"
+msgstr "<link=\"LOGICELEMENTSENSORLIQUID\">Flüssigkeitselementsensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.DESC"
@@ -4837,36 +4680,24 @@ msgid "<link=\"LOGICMEMORY\">Memory Toggle</link>"
 msgstr "<link=\"LOGICMEMORY\">Speicher</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE"
-#| msgid "Current State:"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC"
 msgid "Current Value"
-msgstr "Aktueller Status:"
+msgstr "Aktueller Wert"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME"
-#| msgid "Inactive"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_DESC"
 msgid "Make Inactive"
-msgstr "Inaktiv"
+msgstr "Inaktivieren"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_DESC"
 msgid "Make Active"
-msgstr "Aktiv"
+msgstr "Aktivieren"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.CURRENT_NEED_LEVEL"
-#| msgid "Current Level: {0}"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
 msgid "Current Value: {0}"
-msgstr "Aktuelle Stufe: {0}"
+msgstr "Aktueller Wert: {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC"
@@ -5808,12 +5639,9 @@ msgid "Shears dreckos."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
-#| msgid "<link=\"FARMSTATION\">Farm Station</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME"
 msgid "<link=\"SHEARINGSTATION\">Shearing Station</link>"
-msgstr "<link=\"FARMSTATION\">Landwitschaftsstation</link>"
+msgstr "<link=\"SHEARINGSTATION\">Scherstation</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SHOWER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.DESC"
@@ -7278,48 +7106,29 @@ msgid "No Nearby Creature"
 msgstr ""
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE"
-#| msgid "Temperature range: {0} to {1}"
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC"
 msgid "Body temperature between: {0} and {1}"
-msgstr "Temperaturbereich: {0} bis {1}"
+msgstr "Körpertemperatur zwischen {0} und {1}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TEMPERATURE"
-#| msgid "Temperature"
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.NAME"
 msgid "Temperature"
 msgstr "Temperatur"
 
 #. STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.NAME"
-#| msgid "Critter Feeder"
 msgctxt "STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.NAME"
 msgid "Ate From Feeder"
-msgstr "Tierfütterer"
+msgstr "Hat vom Tierfütterer gefressen"
 
 #. STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.FLEEING.TOOLTIP"
-#| msgid ""
-#| "This critter is trying to escape\n"
-#| "Get'em!"
 msgctxt "STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.TOOLTIP"
 msgid "This critter is getting tamer because it ate from a feeder."
-msgstr ""
-"Diese Kreatur versucht zu fliehen\n"
-"Hol sie dir!"
+msgstr "Dieses Tier wird zahmer, weil es von einem Fütterer gefressen hat."
 
 #. STRINGS.CREATURES.MODIFIERS.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.TINY"
-#| msgid "Tiny"
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.NAME"
 msgid "Tiny Baby"
-msgstr "Winzig"
+msgstr "Winziges Baby"
 
 #. STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP"
@@ -7350,15 +7159,15 @@ msgid "Confined"
 msgstr "Eingesperrt"
 
 #. STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP"
-#| msgid "This critter is inside a door, tile, or confined space."
 msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP"
 msgid ""
 "This critter is trapped inside a door, tile, or confined space\n"
 "\n"
 "That sounds uncomfortable!"
-msgstr "Diese Tier befindet sich in einer Tür, einer Kachel oder einem eingeengten Raum."
+msgstr ""
+"Diese Tier ist in einer Tür, einer Kachel oder einem begrenzten Raum gefangen.\n"
+"\n"
+"Das klingt unbequem!"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME"
@@ -7488,21 +7297,15 @@ msgid "Glum"
 msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.TOOLTIP"
-#| msgid ""
-#| "All of this critter's needs have been met and it's feeling quite contented\n"
-#| "------------------\n"
-#| "It will produce more as a result"
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP"
 msgid ""
 "This critter's feeling down because its needs aren't being met\n"
 "------------------\n"
 "It will produce less materials as a result"
 msgstr ""
-"Alle Bedürfnisse dieses Tiers wurden erfüllt und es fühlt sich sehr zufrieden\n"
+"Dieses Tier fühlt sich schlecht, weil seine Bedürfnisse nicht erfüllt sind\n"
 "------------------\n"
-"Es wird dadurch mehr erzeugen"
+"Dadurch wird es weniger Material produziert"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.NAME"
@@ -7896,6 +7699,9 @@ msgid ""
 "\n"
 "In time, it will mature into an adult <link=\"HATCH\">Hatch</link>."
 msgstr ""
+"Ein unschuldiger kleiner <link=\"HATCHLING\">Hatchling</link>.\n"
+"\n"
+"Mit der Zeit reift es zu einem Erwachsenen <link=\"HATCH\">Hatch</link>."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.BABY.NAME
 #, fuzzy
@@ -8082,20 +7888,14 @@ msgid "<link=\"JUNGLEGASPLANT\">Palmera Tree</link>"
 msgstr "<link=\"JUNGLEGASPLANT\">Palmera-Baum</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
-#| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.DESC"
 msgid "A chubby baby <link=\"LIGHTBUG\">Shine Bug</link>."
-msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
+msgstr "Ein molliges <link=\"LIGHTBUG\">Leuchtkäferbaby</link>."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME"
 msgid "<link=\"LIGHTBUG\">Shine Nymph</link>"
-msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
+msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC"
@@ -9058,12 +8858,9 @@ msgid "<link=\"SWAMPLILY\">Balm Lily</link>"
 msgstr "<link=\"SWAMPLILY\">Balsamlilie</link>"
 
 #. STRINGS.CREATURES.STATS.AGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ARRIVALTIME"
-#| msgid "Age: "
 msgctxt "STRINGS.CREATURES.STATS.AGE.NAME"
 msgid "Age"
-msgstr "Alter: "
+msgstr "Alter"
 
 #. STRINGS.CREATURES.STATS.AGE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.AGE.TOOLTIP"
@@ -9410,12 +9207,9 @@ msgid "Calling Adult"
 msgstr ""
 
 #. STRINGS.CREATURES.STATUSITEMS.CALL_ADULT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CALL_ADULT.TOOLTIP"
 msgid "This baby is craving attention."
-msgstr "Dieser Duplikant stellt etwas her"
+msgstr "Dieses Baby sehnt sich nach Aufmerksamkeit."
 
 #. STRINGS.CREATURES.STATUSITEMS.CANTACCEPTFERTILIZER.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CANTACCEPTFERTILIZER.NAME"
@@ -9737,7 +9531,7 @@ msgstr "Wischt"
 #. STRINGS.CREATURES.STATUSITEMS.FLOPPING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.FLOPPING.TOOLTIP"
 msgid "Fish out of water!"
-msgstr ""
+msgstr "Fisch außerhalb des Wassers!"
 
 #. STRINGS.CREATURES.STATUSITEMS.FRESH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.FRESH.NAME"
@@ -9788,15 +9582,12 @@ msgstr "Nächste Ernte: {TimeUntilNextHarvest}"
 #. STRINGS.CREATURES.STATUSITEMS.GROWINGUP.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GROWINGUP.NAME"
 msgid "Maturing"
-msgstr ""
+msgstr "Reifung"
 
 #. STRINGS.CREATURES.STATUSITEMS.GROWINGUP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.BREATH.TOOLTIP"
-#| msgid "This critter is about to suffocate"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GROWINGUP.TOOLTIP"
 msgid "This baby critter is about to reach adulthood"
-msgstr "Diese Kreatur erstickt gleich"
+msgstr "Dieses Tierbaby wird bald erwachsen"
 
 #. STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME"
@@ -10665,22 +10456,9 @@ msgid "Power Output"
 msgstr "Ausgangsleistung"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESS.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESS.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESS.NAME
 #, fuzzy
@@ -10751,22 +10529,9 @@ msgid "Immunity"
 msgstr "Immunität"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Shrotter\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME
 #, fuzzy
@@ -15486,15 +15251,12 @@ msgstr "<link=\"OILTECHNICIAN\">Öltechniker</link>"
 #. STRINGS.DUPLICANTS.ROLES.PLUMBER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.DESCRIPTION"
 msgid "Becoming a plumber allows you to empty pipes without leaking water everywhere."
-msgstr ""
+msgstr "Klempner können Rohre entleeren, ohne dass überall Wasser austritt."
 
 #. STRINGS.DUPLICANTS.ROLES.PLUMBER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
-#| msgid "<link=\"BURNER\">Burner</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.NAME"
 msgid "<link=\"PLUMBER\">Plumber</link>"
-msgstr "<link=\"BURNER\">brenner</link>"
+msgstr "<link=\"PLUMBER\">Klempner</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.DESCRIPTION"
@@ -26906,12 +26668,9 @@ msgid "{Food}: {Amount}"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_HEADER
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.NAME"
-#| msgid "Digesting"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_HEADER"
 msgid "Digestion:"
-msgstr "Verdaut"
+msgstr "Verdauung:"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED
 #, fuzzy
@@ -27912,14 +27671,13 @@ msgid "Quality: {0}"
 msgstr "Qualität: {0}"
 
 #. STRINGS.UI.CODEX.FOOD.SPOILPROPERTIES
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.TEMPERATURE.TITLE"
-#| msgid "    • Current temperature {0}: {1}"
 msgctxt "STRINGS.UI.CODEX.FOOD.SPOILPROPERTIES"
 msgid ""
 "Preserve temperature: {0}\n"
 "Spoil time: {1}"
-msgstr "    • Aktuelle Temperatur {0}: {1}"
+msgstr ""
+"Konservierungstemperatur: {0}\n"
+"Verderbzeit: {1}"
 
 #. STRINGS.UI.CODEX.GEYSERS.DESC
 msgctxt "STRINGS.UI.CODEX.GEYSERS.DESC"
@@ -27964,12 +27722,9 @@ msgid "Produced by"
 msgstr "Produziert"
 
 #. STRINGS.UI.CODEX.RECIPE_ITEM
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.DECOR.ENTRY"
-#| msgid "{0} {1} {2}"
 msgctxt "STRINGS.UI.CODEX.RECIPE_ITEM"
 msgid "{0} x {1}{2}"
-msgstr "{0} {1} {2}"
+msgstr "{0} x {1}{2}"
 
 #. STRINGS.UI.CODEX.SEARCH_HEADER
 msgctxt "STRINGS.UI.CODEX.SEARCH_HEADER"
@@ -28909,9 +28664,6 @@ msgid "View the disease risk presented by the selected object"
 msgstr "Zeigt das Krankheitsrisiko des ausgewählten Objektes an"
 
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
-#| msgid "{0}: {1}"
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT"
 msgid "{0}: {1}"
 msgstr "{0}: {1}"
@@ -28931,9 +28683,6 @@ msgid "This critter has a {1} chance of laying a {0}."
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_MOD_FORMAT
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.HIGH_YIELD.LINE_ITEM"
-#| msgid "    • {0}\n"
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_MOD_FORMAT"
 msgid "    • {0}\n"
 msgstr "    • {0}\n"
@@ -34209,12 +33958,9 @@ msgid "Adjust germ count"
 msgstr ""
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMECOLD"
-#| msgid "Absolute Zero"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME"
 msgid "Absolute mass"
-msgstr "Absoluter Nullpunkt"
+msgstr "Absolute Masse"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP"
@@ -34222,12 +33968,9 @@ msgid "Adjust mass"
 msgstr ""
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.TEMPERATURE.NAME"
-#| msgid "Body Temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
 msgid "Absolute temperature"
-msgstr "Körpertemperatur"
+msgstr "Absolute Temperatur"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.TOOLTIP
 #, fuzzy
