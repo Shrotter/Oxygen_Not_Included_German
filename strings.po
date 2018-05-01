@@ -4624,26 +4624,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> if the system connected to its Input is on <link=\"LOGIC\">Standby</link>.\n"
-#| "\n"
-#| "Goes into <link=\"LOGIC\">Standby</link> when its Input is <link=\"LOGIC\">Active</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> when the <link=\"SET\">logic</link> port is <link=\"LOGIC\">Active</link>. Goes to <link=\"LOGIC\">Standby</link> when the reset port is <link=\"LOGIC\">Active</link>."
-msgstr ""
-"Wird <link=\"LOGIC\">Aktiv</link> wenn das System das mit dem Eingang verbunden ist <link=\"LOGIC\">Inaktiv</link> ist.\n"
-"\n"
-"Wird <link=\"LOGIC\">Inaktiv</link> wenn der Eingang <link=\"LOGIC\">Aktiv</link> ist."
+msgstr "Wird <link=\"LOGIC\">Aktiv</link> wenn der <link=\"SET\">Logik-Anschluss</link> <link=\"LOGIC\">Aktiv</link> ist. Geht auf <link=\"LOGIC\">Standby</link> wenn der Reset-Anschluss <link=\"LOGIC\">Aktiv</link> ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME"
-#| msgid "<link=\"LOGICMEMORY\">Memory</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME"
 msgid "<link=\"LOGICMEMORY\">Memory Toggle</link>"
-msgstr "<link=\"LOGICMEMORY\">Speicher</link>"
+msgstr "<link=\"LOGICMEMORY\">Speicher-Umschalter</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC"
@@ -5597,12 +5585,12 @@ msgstr "\"Abstrakte\" Skulptur"
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC"
 msgid "Shearing stations are used to shear Dreckos."
-msgstr ""
+msgstr "Scherstationen werden zum Scheren von Dreckos verwendet."
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT"
 msgid "Shears dreckos."
-msgstr ""
+msgstr "Schert Dreckos."
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME"
@@ -6346,6 +6334,24 @@ msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.TITLE"
 msgid "Bristle Blossom"
 msgstr "Dornenblüte"
 
+#. STRINGS.CODEX.CLEANER.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.CLEANER.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.CLEANER.SUBTITLE
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.HATCH.SUBTITLE"
+#| msgid "Critter"
+msgctxt "STRINGS.CODEX.CLEANER.SUBTITLE"
+msgid "Critter Morph"
+msgstr "Tier"
+
+#. STRINGS.CODEX.CLEANER.TITLE
+msgctxt "STRINGS.CODEX.CLEANER.TITLE"
+msgid "Gulp Fish"
+msgstr ""
+
 #. STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1"
 msgid ""
@@ -6409,19 +6415,21 @@ msgid ""
 "\n"
 "As a result, Drecko fibers are often farmed for use in textile production."
 msgstr ""
+"Dreckos sind eine Reptilienart mit Milliarden von mikroskopisch kleinen Haaren an den Füßen, die es ihnen erlauben, an den meisten Oberflächen zu kleben und zu klettern.\n"
+"\n"
+"Der Schwanz des Drecko, genannt \"Schleppe\", dient nur zur Dekoration und kann ohne Schaden für das Tier verloren gehen oder geschoren werden.\n"
+"\n"
+"Daher werden Drecko-Fasern häufig für den Einsatz in der Textilproduktion gezüchtet."
 
 #. STRINGS.CODEX.DRECKO.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOMESTICATIONDELTA.NAME"
-#| msgid "Domesticability"
 msgctxt "STRINGS.CODEX.DRECKO.SUBTITLE"
 msgid "Domesticable Critter"
-msgstr "Domestizierbarkeit"
+msgstr "Domestizierbares Tier"
 
 #. STRINGS.CODEX.DRECKO.TITLE
 msgctxt "STRINGS.CODEX.DRECKO.TITLE"
 msgid "Drecko"
-msgstr ""
+msgstr "Drecko"
 
 #. STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1"
@@ -6479,7 +6487,7 @@ msgstr "Tier"
 #. STRINGS.CODEX.GLOSSY.TITLE
 msgctxt "STRINGS.CODEX.GLOSSY.TITLE"
 msgid "Glossy Drecko"
-msgstr ""
+msgstr "Glanz-Drecko"
 
 #. STRINGS.CODEX.HATCH.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER1"
@@ -6556,6 +6564,14 @@ msgstr "Rezept"
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
 msgid "Role Perks"
 msgstr "Rollenvorteile"
+
+#. STRINGS.CODEX.HEADERS.SUBENTRIES
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.CONTROLS"
+#| msgid "Controls"
+msgctxt "STRINGS.CODEX.HEADERS.SUBENTRIES"
+msgid "Contents"
+msgstr "Steuerung"
 
 #. STRINGS.CODEX.HEADERS.TECH_UNLOCKS
 msgctxt "STRINGS.CODEX.HEADERS.TECH_UNLOCKS"
@@ -6737,6 +6753,9 @@ msgid ""
 "\n"
 "It is said that the average Pacu intelligence is comparable to that of a dog, and that they are capable of learning and distinguishing from over twenty human faces."
 msgstr ""
+"Der Pacu-Fisch wird wegen seiner großen, nicht blinzelnden Augen oft als Tier mit einem leerer Blick interpretiert, aber er ist bemerkenswert aufgeweckt und freundlich.\n"
+"\n"
+"Man sagt, dass die durchschnittliche Intelligenz eines Pacu mit der eines Hundes vergleichbar ist und dass sie in der Lage sind, über zwanzig menschliche Gesichter zu erkennen und zu unterscheiden."
 
 #. STRINGS.CODEX.PACU.SUBTITLE
 #, fuzzy
@@ -6749,7 +6768,7 @@ msgstr "Siedelt Tier um"
 #. STRINGS.CODEX.PACU.TITLE
 msgctxt "STRINGS.CODEX.PACU.TITLE"
 msgid "Pacu"
-msgstr ""
+msgstr "Pacu"
 
 #. STRINGS.CODEX.PAGENOTFOUND.BODY
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.BODY"
@@ -7112,7 +7131,7 @@ msgstr "Tier"
 #. STRINGS.CODEX.TROPICAL.TITLE
 msgctxt "STRINGS.CODEX.TROPICAL.TITLE"
 msgid "Tropical Pacu"
-msgstr ""
+msgstr "Tropischer Pacu"
 
 #. STRINGS.CODEX.VITAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.VITAL.BODY.CONTAINER1"
@@ -7399,17 +7418,17 @@ msgstr "Eingesperrt mit: {0}"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME"
 msgid "Nearby Creature"
-msgstr ""
+msgstr "Benachbartes Tier"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.DESC"
 msgid "Not penned with: {0}"
-msgstr ""
+msgstr "Nicht eingesperrt mit: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME"
 msgid "No Nearby Creature"
-msgstr ""
+msgstr "Kein benachbartes Tier"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC"
@@ -7439,7 +7458,7 @@ msgstr "Winziges Baby"
 #. STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP"
 msgid "This critter will become an adult as it ages and grows wise to the ways of the world"
-msgstr ""
+msgstr "Dieses Tier wird erwachsen werden, wenn es älter und weiser wird"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME"
@@ -7452,12 +7471,9 @@ msgid "This is the base speed with which critters produce new eggs"
 msgstr "Das ist die Grundfrequenz, mit der das Tier neue Eier legt"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.NAME"
-#| msgid "Incubation Rate"
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME"
 msgid "Base Incubation Rate"
-msgstr "Ausbrütungsrate"
+msgstr "Grundausbrütungsrate"
 
 #. STRINGS.CREATURES.MODIFIERS.CONFINED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.NAME"
@@ -7516,6 +7532,9 @@ msgid ""
 "\n"
 "If there were more room, it might consider laying eggs again"
 msgstr ""
+"Dieses Tier hat seine Vermehrung verlangsamt, während es auf das neue Familienmitglied wartet\n"
+"\n"
+"Wenn es mehr Platz gäbe, könnte es in Betracht ziehen, wieder Eier zu legen"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.NAME"
@@ -7606,7 +7625,7 @@ msgstr "Diese Kreatur ist gezähmt"
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.NAME"
 msgid "Glum"
-msgstr ""
+msgstr "Mürrisch"
 
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP"
@@ -7716,6 +7735,9 @@ msgid ""
 "\n"
 "In time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
 msgstr ""
+"Ein kleines klotzendes <link=\"DRECKO\">Drecklet</link>.\n"
+"\n"
+"Mit der Zeit wird es zu einem ausgewachsenen <link=\"DRECKO\">Drecko</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME
 #, fuzzy
@@ -7732,6 +7754,9 @@ msgid ""
 "\n"
 "Their backsides are covered in thick woolly fibers that only grow in <link=\"CHLORINE\">Chlorine</link> climates."
 msgstr ""
+"Dreckos sind schleichende Kreaturen, die mit unerwarteter Geschwindigkeit Wände hochklettern können.\n"
+"\n"
+"Ihre Rücken sind mit dicken Wollfasern bedeckt, die nur in <link=\"CHLORINE\">Chlorumgebungen</link> wachsen."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
 #, fuzzy
@@ -7759,19 +7784,21 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
 msgid "<link=\"HATCHLING\">Glossy Hatchling</link>"
-msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
+msgstr "<link=\"HATCHLING\">Glanz-Hatchling</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC
+#, fuzzy
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
 msgid ""
 "Glossy Dreckos are slinking creatures that can clamber up walls with unexpected speed.\n"
 "\n"
 "Their backsides are covered in bioplastic scales that only grow in <link=\"CHLORINE\">Chlorine</link> climates."
 msgstr ""
+"Glanz-Dreckos sind schleichende Kreaturen, die mit unerwarteter Geschwindigkeit Wände hochklettern können.\n"
+"\n"
+"Ihre Rücken sind mit dicken Wollfasern bedeckt, die nur in <link=\"CHLORINE\">Chlorumgebungen</link> wachsen."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
 #, fuzzy
@@ -8662,6 +8689,9 @@ msgid ""
 "\n"
 "Every organism in the known universe finds the Pacu extremely delicious."
 msgstr ""
+"Pacus sind Wassertiere, die nicht außerhalb von <link=\"WATER\">Wasser</link> oder <link=\"DIRTYWATER\">verschmutztem Wasser</link> leben können.\n"
+"\n"
+"Jeder Organismus im bekannten Universum findet den Pacu extrem lecker."
 
 #. STRINGS.CREATURES.SPECIES.PACU.EGG_NAME
 #, fuzzy
@@ -8799,6 +8829,9 @@ msgid ""
 "\n"
 "In time it will grow into an adult <link=\"PUFT\">Puft</link>."
 msgstr ""
+"Ein geschwätziger kleiner <link=\"PUFTLET\">Puftlet</link>.\n"
+"\n"
+"Mit der Zeit reift es zu einem Erwachsenen <link=\"PUFT\">Puft</link>."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.BABY.NAME
 #, fuzzy
@@ -8830,6 +8863,9 @@ msgid ""
 "\n"
 "This one seems a bit snobby..."
 msgstr ""
+"Ein geschwätziges <link=\"PUFT\">Puftbaby</link>.\n"
+"\n"
+"Es wirkt etwas versnobt...."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME
 #, fuzzy
@@ -10300,7 +10336,7 @@ msgstr "Gehemmtes Wachstum"
 #. STRINGS.CREATURES.STATUSITEMS.STUNTED_SCALE_GROWTH.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STUNTED_SCALE_GROWTH.TOOLTIP"
 msgid "This critter's scale growth is being stunted by an unfavorable environment"
-msgstr "Das Wachstum dieses Tiers wird durch ein ungünstiges Umfeld gehemmt."
+msgstr "Das Wachstum dieses Tiers wird durch ein ungünstiges Umfeld gehemmt"
 
 #. STRINGS.CREATURES.STATUSITEMS.SUFFOCATING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SUFFOCATING.NAME"
@@ -16854,6 +16890,26 @@ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
 msgid "This Duplicant has been isolated from the colony"
 msgstr "Dieser Duplikant wurde von der Kolonie isoliert"
 
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NAME"
+msgid "Food Not Permitted"
+msgstr "Nahrungsmittel nicht erlaubt"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_NAME"
+msgid "Unpermitted food"
+msgstr "Unerlaubte Nahrung"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_TOOLTIP"
+msgid "These Duplicants are not allowed to eat any of the <link=\"FOOD\">Food</link> within their reach:"
+msgstr "Diese Duplikanten dürfen keine <link=\"FOOD\">Nahrung</link> in ihrer Reichweite essen:"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.TOOLTIP"
+msgid "This Duplicant is not allowed to eat any of the food they can reach."
+msgstr "Dieser Duplikant darf nichts von dem essen, was er erreichen kann."
+
 #. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSUNREACHABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSUNREACHABLE.NAME"
 msgid "Cannot reach food"
@@ -19762,6 +19818,9 @@ msgid ""
 "Specific Heat Capacity: {0} (J/g)/K\n"
 "Thermal Conductivity: {1} (W/m)/K"
 msgstr ""
+"\n"
+"Spezifische Wärmekapazität: {0} (J/g)/K\n"
+"Wärmeleitfähigkeit: {1} (W/m)/K"
 
 #. STRINGS.ELEMENTS.TOXICSAND.BUILD_DESC
 msgctxt "STRINGS.ELEMENTS.TOXICSAND.BUILD_DESC"
@@ -21058,29 +21117,25 @@ msgid "The cooked meat of a defeated critter."
 msgstr "Das gekochte Fleisch eines besiegten Tiers."
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.DESC
-#, fuzzy
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.DESC"
 msgid ""
 "An egg laid by a <link=\"DRECKO\">Drecko</link>\n"
 "\n"
 "If incubated, it will hatch into a new <link=\"DRECKO\">Drecko</link>"
-msgstr "Durch Nichterfüllen der <link=\"DECOR\">Dekoprationserwartungen</link> eines Duplikanten steigt der <link=\"STRESS\">Stress</link>"
+msgstr ""
+"Ein Ei gelegt von einem <link=\"DRECKO\">Drecko</link>\n"
+"\n"
+"Wenn es ausgebrütet wird, schlüpft es in ein neuer <link=\"DRECKO\">Drecko</link>"
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.NAME"
 msgid "<link=\"DRECKOEGG\">Drecklet Egg</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"DRECKOEGG\">Drecklet-Ei</link>"
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DECOR.TITLE"
-#| msgid "<link=\"DECOR\">Decor</link>"
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"DRECKO\">Drecko</link>"
-msgstr "<link=\"DECOR\">Dekor</link>"
+msgstr "Ein Ei gelegt von einem <link=\"DRECKO\">Drecko</link>"
 
 #. STRINGS.ITEMS.FOOD.FIELDRATION.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FIELDRATION.DESC"
@@ -21183,6 +21238,9 @@ msgid ""
 "\n"
 "If incubated, it will hatch into a <link=\"HATCHLING\">Hatchling</link>"
 msgstr ""
+"Ein Ei gelegt von einem <link=\"HATCH\">Hatch</link>\n"
+"\n"
+"Wenn es ausgebrütet wird, schlüpft ein <link=\"HATCHLING\">Hatchling</link>"
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.NAME"
@@ -21190,12 +21248,9 @@ msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.NAME"
-#| msgid "<link=\"HATCH\">Hatch</link>"
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"HATCH\">Hatch</link>"
-msgstr "<link=\"HATCH\">Hatch</link>"
+msgstr "Ein Ei gelegt von einem <link=\"HATCH\">Hatch</link>"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC"
@@ -21204,6 +21259,9 @@ msgid ""
 "\n"
 "If incubated, it will hatch into a <link=\"LIGHTBUG\">Shine Nymph</link>"
 msgstr ""
+"Ein Ei gelegt von einem <link=\"LIGHTBUG\">Leuchtkäfer</link>\n"
+"\n"
+"Wenn es ausgebrütet wird, schlüpft eine <link=\"LIGHTBUG\">Leucht-Nymphe</link>"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME"
@@ -21211,12 +21269,9 @@ msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
 msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer-Ei</link>"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
-#| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"LIGHTBUG\">Shine Bug</link>"
-msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
+msgstr "Ein Ei gelegt von einem </link><link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.ITEMS.FOOD.MEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MEAT.DESC"
@@ -21272,6 +21327,9 @@ msgid ""
 "\n"
 "If incubated, it will hatch into a <link=\"OILFLOATERBABY\">Slickster Larva</link>"
 msgstr ""
+"Ein Ei gelegt von einem <link=\"OILFLOATER\">Slickster</link>\n"
+"\n"
+"Wenn es ausgebrütet wird, schlüpft eine <link=\"OILFLOATERBABY\">Slickster-Larve</link>"
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
@@ -21279,12 +21337,9 @@ msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.NAME"
-#| msgid "<link=\"OILFLOATER\">Slickster</link>"
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>"
-msgstr "<link=\"OILFLOATER\">Slickster</link>"
+msgstr "Ein Ei gelegt von einem <link=\"OILFLOATER\">Slickster</link>"
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC"
@@ -21324,6 +21379,9 @@ msgid ""
 "\n"
 "If incubated, it will hatch into a <link=\"PUFTLET\">Puftlet</link>"
 msgstr ""
+"Ein Ei gelegt von einem <link=\"PUFT\">Puft</link>\n"
+"\n"
+"Wenn es ausgebrütet wird, schlüpft eine <link=\"PUFTLET\">Puftlet</link>"
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.NAME"
@@ -21331,12 +21389,9 @@ msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgstr "<link=\"PUFTEGG\">Puftlet-Ei</link>"
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"PUFT\">Puft</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "Ein Ei gelegt von einem <link=\"PUFT\">Puft</link>"
 
 #. STRINGS.ITEMS.FOOD.ROTPILE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.DESC"
@@ -26962,7 +27017,7 @@ msgstr "<link=\"DECOR\">Dekoration</link>: {1} (Radius: {2} Felder)"
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED"
 msgid "    • Diet: {Foodlist}"
-msgstr ""
+msgstr "    • Ernährung: {Foodlist}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED_ITEM"
@@ -26975,12 +27030,9 @@ msgid "Digestion:"
 msgstr "Verdauung:"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.SUBSTRATE.GROW"
-#| msgid "    • Growing on {0}: {1}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED"
 msgid "    • Excretion: {Items}"
-msgstr "    • Wächst auf {0}: {1}"
+msgstr "    • Ausscheidung: {Items}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED_ITEM"
@@ -27297,6 +27349,16 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.RESEARCH_MATERIALS"
 msgid "{0}: {1} per <link=\"RESEARCH\">Research</link> point"
 msgstr "{0}: {1} pro <link=\"RESEARCH\">Forschungspunkt</link>"
 
+#. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH"
+msgid "Shearable {Item}: {Amount} per {Time}"
+msgstr "Scherbar {Item}: {Amount} pro {Time}"
+
+#. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO"
+msgid "Shearable {Item}: {Amount} per {Time} ({Atmosphere})"
+msgstr "Scherbar {Item}: {Amount} pro {Time} ({Atmosphere})"
+
 #. STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY"
 msgid "Storage capacity: {0}"
@@ -27409,19 +27471,13 @@ msgid "Creatures will eat and digest only specific materials."
 msgstr "Tiere fressen und verdauen nur bestimmte Materialien."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED"
-#| msgid ""
-#| "This critter will... \"produce\" the following materials:\n"
-#| "\n"
-#| "{Items}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED"
 msgid ""
 "This critter will \"produce\" the following materials:\n"
 "\n"
 "{Items}"
 msgstr ""
-"Dieses Tier wird.... die folgenden Materialien \"produzieren\":\n"
+"Dieses Tier wird die folgenden Materialien \"produzieren\":\n"
 "\n"
 "{Items}"
 
@@ -27796,6 +27852,22 @@ msgstr "Braucht Samen einer Pflanze"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RESEARCH_MATERIALS"
 msgid "This research station consumes {1} of {0} for each research point produced"
 msgstr "Diese Forschungsstation verbraucht {1} von {0} für jeden prodzierten Forschungspunkt"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH"
+msgid "This critter can be sheared every {Time} to produce {Amount} {Item}"
+msgstr "Dieses Tier kann alle {Time} geschoren werden, um {Amount} an {Item} zu erhalten"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
+msgid ""
+"This critter can be sheared every {Time} to produce {Amount} {Item}\n"
+"\n"
+"An atmosphere of {Atmosphere} is required to stimulate growth"
+msgstr ""
+"Dieses Tier kann alle {Time} geschoren werden, um {Amount} an {Item} zu erhalten\n"
+"\n"
+"Eine Atmosphäre aus {Atmosphere} ist erforderlich, um das Wachstum zu aktivieren"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
@@ -29300,7 +29372,7 @@ msgstr "INFORMATION"
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_FERTILITY
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_FERTILITY"
 msgid "EGG CHANCES"
-msgstr ""
+msgstr "EIER WAHRSCHEINLICHKEIT"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_LORE
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_LORE"
@@ -30135,9 +30207,6 @@ msgstr "Beeinflusst die Widerstandsfähigkeit von Duplikanten gegen Krankheiten"
 
 # TODO: Hier steht bewusst nicht "Objekt", damit es platztechnisch passt.
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DISABLED.NAME"
-#| msgid "Disabled"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.NAME"
 msgid "Disabled"
 msgstr "Deaktiviert"
@@ -30148,12 +30217,9 @@ msgid "Click to enable Sandbox mode"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.TOGGLEENABLED"
-#| msgid "ToggleEnabled"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.NAME"
 msgid "Enabled"
-msgstr "UmschaltenNachAktiv"
+msgstr "Aktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.TOOLTIP"
@@ -30684,9 +30750,6 @@ msgid " (BACKUP)"
 msgstr " (BACKUP)"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CANCEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
-#| msgid "Cancel"
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CANCEL"
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -31001,12 +31064,9 @@ msgid "Korean (Klei)"
 msgstr "Koreanisch (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.RU_KLEI
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.KO_KLEI"
-#| msgid "Korean (Klei)"
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.RU_KLEI"
 msgid "Russian (Klei)"
-msgstr "Koreanisch (Klei)"
+msgstr "Russisch (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI"
@@ -34141,17 +34201,11 @@ msgid "Toggle Sandbox mode"
 msgstr "ScreenshotModusUmschalten"
 
 #. STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EXPIRED.NAME"
-#| msgid "Depleted"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED"
 msgid "Deleted"
-msgstr "Aufgebraucht"
+msgstr "Gelöscht"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.BACK
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.GENERIC.BACK"
-#| msgid "Back"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.BACK"
 msgid "Back"
 msgstr "Zurück"
@@ -34169,7 +34223,7 @@ msgstr "Tiere"
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE_EGG
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE_EGG"
 msgid "Eggs"
-msgstr ""
+msgstr "Eier"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.EQUIPMENT
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.EQUIPMENT"
@@ -34177,22 +34231,19 @@ msgid "Equipment"
 msgstr "Ausrüstung"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.EXPERIMENTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ELEMENT"
-#| msgid "Element"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.EXPERIMENTS"
 msgid "Experimental"
-msgstr "Element"
+msgstr "Experimentell"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.FOOD
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.FOOD"
 msgid "Foods"
-msgstr ""
+msgstr "Nahrung"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.GEYSERS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.GEYSERS"
 msgid "Geysers"
-msgstr ""
+msgstr "Geysiere"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.PLANTS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.PLANTS"
@@ -34200,9 +34251,6 @@ msgid "Plants"
 msgstr "Pflanzen"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.SPECIAL
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.SPECIAL"
-#| msgid "Special"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.SPECIAL"
 msgid "Special"
 msgstr "Speziell"
@@ -34210,7 +34258,7 @@ msgstr "Speziell"
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS"
 msgid "Gasses"
-msgstr ""
+msgstr "Gase"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.LIQUID
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.LIQUID"
@@ -34279,12 +34327,9 @@ msgid "Destroy everything on a cell"
 msgstr ""
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.DISEASE.INTERNAL_GERMS"
-#| msgid "Germ Host"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
 msgid "Germ count"
-msgstr "Keimwirt"
+msgstr "Keimanzahl"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP"
@@ -34305,12 +34350,9 @@ msgid "Paint the world simulation with a the flood area tool"
 msgstr ""
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEAT.TITLE"
-#| msgid "Heat"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME"
 msgid "Heat Gun"
-msgstr "Hitze"
+msgstr "Wärmekanone"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
@@ -34730,17 +34772,14 @@ msgid "Disinfect tool"
 msgstr "Desinfektions-Werkzeug"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
-#| msgid "Empty Pipe"
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.NAME"
 msgid "Empty Pipe"
-msgstr "Leeres Rohr"
+msgstr "Rohr entleeren"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION"
 msgid "DRAG TO MARK PIPES TO EMPTY"
-msgstr ""
+msgstr "ZIEHEN UM ROHRE ZUM ENTLEEREN ZU MARKIEREN"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME
 #, fuzzy
@@ -34753,7 +34792,7 @@ msgstr "Leeres Rohr"
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 msgid "Drag to mark pipes for emptying"
-msgstr ""
+msgstr "Ziehen Um Rohre zum Entleeren zu markieren"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
