@@ -6881,12 +6881,9 @@ msgstr ""
 "Eine spezielle Luftblase in der Brusthöhle der Puft speichert unterschiedliche Gaskonzentrationen, so dass sie ihren Auftrieb kontrollieren und ihren Innendruck mit dem ihrer Umgebung ausgleichen kann."
 
 #. STRINGS.CODEX.PUFT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOMESTICATIONDELTA.NAME"
-#| msgid "Domesticability"
 msgctxt "STRINGS.CODEX.PUFT.SUBTITLE"
 msgid "Domesticable Critter"
-msgstr "Domestizierbarkeit"
+msgstr "Domestizierbares Tier"
 
 #. STRINGS.CODEX.PUFT.TITLE
 msgctxt "STRINGS.CODEX.PUFT.TITLE"
@@ -7026,7 +7023,7 @@ msgstr "Tier"
 #. STRINGS.CODEX.SMOOTH.TITLE
 msgctxt "STRINGS.CODEX.SMOOTH.TITLE"
 msgid "Smooth Hatch"
-msgstr ""
+msgstr "Glatt-Hatch"
 
 #. STRINGS.CODEX.SQUEAKY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SQUEAKY.BODY.CONTAINER1"
@@ -7567,12 +7564,9 @@ msgid "Incubator"
 msgstr "Bebrütung"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.TOOLTIP"
-#| msgid "Determines an egg's gestation period when placed in an Incubator"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR.TOOLTIP"
 msgid "Increased incubation rate when placed inside an Incubator"
-msgstr "Bestimmt die Brütedauer eines Eis, wenn es in einen Inkubator platziert wird"
+msgstr "Erhöht die Ausbrütungsrate, wenn es in einem Brutschrank platziert wird"
 
 #. STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
@@ -7740,39 +7734,30 @@ msgstr ""
 "Mit der Zeit wird es zu einem ausgewachsenen <link=\"DRECKO\">Drecko</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
-#| msgid "<link=\"HEALTH\">Health</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME"
-msgid "<link=\"HATCHLING\">Drecklet</link>"
-msgstr "<link=\"HEALTH\">Gesundheit</link>"
+msgid "<link=\"DRECKLET\">Drecklet</link>"
+msgstr "<link=\"DRECKLET\">Drecklet</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.DESC"
 msgid ""
 "Dreckos are slinking creatures that can clamber up walls with unexpected speed.\n"
 "\n"
-"Their backsides are covered in thick woolly fibers that only grow in <link=\"CHLORINE\">Chlorine</link> climates."
+"Their backsides are covered in thick woolly fibers that only grow in <link=\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
 "Dreckos sind schleichende Kreaturen, die mit unerwarteter Geschwindigkeit Wände hochklettern können.\n"
 "\n"
-"Ihre Rücken sind mit dicken Wollfasern bedeckt, die nur in <link=\"CHLORINE\">Chlorumgebungen</link> wachsen."
+"Ihre Rücken sind mit dicken Wollfasern bedeckt, die nur in <link=\"HYDROGEN\">Wasserstoffumgebungen</link> wachsen."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
 msgid "<link=\"DRECKOEGG\">Drecklet Egg</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"DRECKOEGG\">Drecklet-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DECOR.TITLE"
-#| msgid "<link=\"DECOR\">Decor</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.NAME"
 msgid "<link=\"DRECKO\">Drecko</link>"
-msgstr "<link=\"DECOR\">Dekor</link>"
+msgstr "<link=\"DRECKO\">Drecko</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC"
@@ -7783,38 +7768,30 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
-#, fuzzy
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
-msgid "<link=\"HATCHLING\">Glossy Hatchling</link>"
-msgstr "<link=\"HATCHLING\">Glanz-Hatchling</link>"
+msgid "<link=\"DRECKLET\">Glossy Drecklet</link>"
+msgstr "<link=\"DRECKLET\">Glanz-Drecklet</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC
-#, fuzzy
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
 msgid ""
 "Glossy Dreckos are slinking creatures that can clamber up walls with unexpected speed.\n"
 "\n"
-"Their backsides are covered in bioplastic scales that only grow in <link=\"CHLORINE\">Chlorine</link> climates."
+"Their backsides are covered in bioplastic scales that only grow in <link=\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
 "Glanz-Dreckos sind schleichende Kreaturen, die mit unerwarteter Geschwindigkeit Wände hochklettern können.\n"
 "\n"
-"Ihre Rücken sind mit dicken Wollfasern bedeckt, die nur in <link=\"CHLORINE\">Chlorumgebungen</link> wachsen."
+"Ihre Rücken sind mit dicken Wollfasern bedeckt, die nur in <link=\"HYDROGEN\">Wasserstoffumgebungen</link> wachsen."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
 msgid "<link=\"PLASTICDRECKOEGG\">Glossy Drecklet Egg</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"PLASTICDRECKOEGG\">Glanz-Drecklet-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DECOR.TITLE"
-#| msgid "<link=\"DECOR\">Decor</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME"
 msgid "<link=\"PLASTICDRECKO\">Glossy Drecko</link>"
-msgstr "<link=\"DECOR\">Dekor</link>"
+msgstr "<link=\"PLASTICDRECKO\">Glanz-Drecko</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC"
@@ -8076,25 +8053,19 @@ msgid "<link=\"HATCHLING\">Stone Hatchling</link>"
 msgstr "<link=\"HATCHLING\">Stein-Hatchling</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.DESC"
-#| msgid "Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and may be uncovered by digging up Buried Objects."
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.DESC"
 msgid "Stone Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and enjoy burrowing into the ground."
-msgstr "Hatches scheiden <link=\"CARBON\">Kohle</link> aus und können beim Ausgraben von vergrabenen Gegenständen gefunden werden."
+msgstr "Stein-Hatches scheiden <link=\"CARBON\">Kohle</link> aus und lieben es im Boden zu wühlen."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.EGG_NAME"
 msgid "<link=\"HATCHEGG\">Stone Hatchling Egg</link>"
-msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
+msgstr "<link=\"HATCHEGG\">Stein-Hatchling-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.NAME"
-msgid "<link=\"HATCH\">Stone Hatch</link>"
-msgstr "<link=\"HATCH\">Stein-Hatch</link>"
+msgid "<link=\"HATCHHARD\">Stone Hatch</link>"
+msgstr "<link=\"HATCHHARD\">Stein-Hatch</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC"
@@ -8105,36 +8076,24 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME"
 msgid "<link=\"HATCHLING\">Smooth Hatchling</link>"
-msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
+msgstr "<link=\"HATCHLING\">Glatt-Hatchling</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.DESC"
-#| msgid "Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and may be uncovered by digging up Buried Objects."
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.DESC"
 msgid "Smooth Hatches excrete solid <link=\"COPPER\">Copper</link> as waste and enjoy burrowing into the ground."
-msgstr "Hatches scheiden <link=\"CARBON\">Kohle</link> aus und können beim Ausgraben von vergrabenen Gegenständen gefunden werden."
+msgstr "Glatt-Hatches scheiden <link=\"COPPER\">Kupfer</link> aus und lieben es im Boden zu wühlen."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME"
 msgid "<link=\"HATCHEGG\">Smooth Hatchling Egg</link>"
-msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
+msgstr "<link=\"HATCHEGG\">Glatt-Hatchling-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.NAME"
-#| msgid "<link=\"HATCH\">Hatch</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.NAME"
-msgid "<link=\"HATCH\">Smooth Hatch</link>"
-msgstr "<link=\"HATCH\">Hatch</link>"
+msgid "<link=\"HATCHMETAL\">Smooth Hatch</link>"
+msgstr "<link=\"HATCHMETAL\">Glatt-Hatch</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.DESC"
@@ -8145,36 +8104,24 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
 msgid "<link=\"HATCHLING\">Sage Hatchling</link>"
-msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
+msgstr "<link=\"HATCHVEGGIE\">Salbei-Hatchling</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.DESC"
-#| msgid "Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and may be uncovered by digging up Buried Objects."
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.DESC"
 msgid "Sage Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and enjoy burrowing into the ground."
-msgstr "Hatches scheiden <link=\"CARBON\">Kohle</link> aus und können beim Ausgraben von vergrabenen Gegenständen gefunden werden."
+msgstr "Salbei-Hatches scheiden <link=\"CARBON\">Kohle</link> aus und lieben es im Boden zu wühlen."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME"
 msgid "<link=\"HATCHEGG\">Sage Hatchling Egg</link>"
-msgstr "<link=\"HATCHEGG\">Hatchling-Ei</link>"
+msgstr "<link=\"HATCHVEGGIEEGG\">Salbei-Hatchling-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.NAME"
-#| msgid "<link=\"HATCH\">Hatch</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.NAME"
-msgid "<link=\"HATCH\">Sage Hatch</link>"
-msgstr "<link=\"HATCH\">Hatch</link>"
+msgid "<link=\"HATCHVEGGIE\">Sage Hatch</link>"
+msgstr "<link=\"HATCHVEGGIE\">Salbei-Hatch</link>"
 
 #. STRINGS.CREATURES.SPECIES.HEATBULB.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HEATBULB.DESC"
@@ -8225,7 +8172,7 @@ msgstr "Ein molliges <link=\"LIGHTBUG\">Leuchtkäferbaby</link>."
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME"
 msgid "<link=\"LIGHTBUG\">Shine Nymph</link>"
-msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
+msgstr "<link=\"LIGHTBUG\">Leuchtkäfernymphe</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC"
@@ -8235,7 +8182,7 @@ msgstr "Leuchtkäfer geben ein weiches <link=\"LIGHT\">Licht</link> ab, in der H
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
 msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
+msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
@@ -8279,7 +8226,7 @@ msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 #| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.NAME"
-msgid "<link=\"LIGHTBUG\">Nega Shine Bug</link>"
+msgid "<link=\"LIGHTBUGBLACK\">Nega Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.DESC
@@ -8322,7 +8269,7 @@ msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 #| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.NAME"
-msgid "<link=\"LIGHTBUG\">Placid Shine Bug</link>"
+msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.DESC
@@ -8365,7 +8312,7 @@ msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 #| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME"
-msgid "<link=\"LIGHTBUG\">Crystal Shine Bug</link>"
+msgid "<link=\"LIGHTBUGCRYSTAL\">Crystal Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC
@@ -8408,7 +8355,7 @@ msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 #| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME"
-msgid "<link=\"LIGHTBUG\">Sunny Shine Bug</link>"
+msgid "<link=\"LIGHTBUGORANGE\">Sunny Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC
@@ -8451,7 +8398,7 @@ msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 #| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME"
-msgid "<link=\"LIGHTBUG\">Vital Shine Bug</link>"
+msgid "<link=\"LIGHTBUGPINK\">Vital Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.DESC
@@ -8494,7 +8441,7 @@ msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
 #| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.NAME"
-msgid "<link=\"LIGHTBUG\">Royal Shine Bug</link>"
+msgid "<link=\"LIGHTBUGPURPLE\">Royal Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC
@@ -8549,29 +8496,20 @@ msgid "<link=\"OILWELL\">Oil Reservoir</link>"
 msgstr "<link=\"OILWELL\">Erdölvorkommen</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.BABY.DESC"
-#| msgid ""
-#| "An innocent little <link=\"HATCHLING\">Hatchling</link>.\n"
-#| "\n"
-#| "In time, it will mature into an adult <link=\"HATCH\">Hatch</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
 msgid ""
 "A goopy little <link=\"OILFLOATERBABY\">Slickster Larva</link>.\n"
 "\n"
 "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgstr ""
-"Ein unschuldiger kleiner <link=\"HATCHLING\">Hatchling</link>.\n"
+"Ein vernarrte kleine <link=\"OILFLOATERBABY\">Slickster-Larve</link>.\n"
 "\n"
-"Mit der Zeit reift es zu einem Erwachsenen <link=\"HATCH\">Hatch</link>."
+"Mit der Zeit reift es zu einem Erwachsenen <link=\"OILFLOATER\">Slickster</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME"
 msgid "<link=\"OILFLOATERBABY\">Slickster Larva</link>"
-msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
+msgstr "<link=\"OILFLOATERBABY\">Slickster-Larve</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.DESC"
@@ -8597,80 +8535,58 @@ msgid ""
 msgstr ""
 "A goopy baby <link=\"OILFLOATER\">Slickster</link>.\n"
 "\n"
-"Das hier ist ein Langhaar-Morph."
+"Das hier ist ein Langhaar-Art."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME"
 msgid "<link=\"OILFLOATERBABY\">Longhair Slickster Larva</link>"
-msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
+msgstr "<link=\"OILFLOATERBABY\">Langhaar-Slicksterlarve</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.DESC"
-#| msgid "Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and exude <link=\"CRUDEOIL\">Crude Oil</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC"
 msgid "Longhair Slicksters are slimy critters that consume <link=\"OXYGEN\">Oxygen</link> and thrive in close contact with Duplicant companions."
-msgstr "Slickster sind schleimige Kreaturen, die <link=\"CARBONDIOXIDE\">Kohlendioxid</link> konsumieren und <link=\"CRUDEOIL\">Rohöl</link> ausscheiden."
+msgstr "Langhaar-Slickster sind schleimige Kreaturen, die <link=\"OXYGEN\">Sauerstoff</link> konsumieren und und im engen Kontakt mit Duplicant Gefährten leben."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME"
 msgid "<link=\"OILFLOATEREGG\">Longhair Slickster Larva Egg</link>"
-msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
+msgstr "<link=\"OILFLOATEREGG\">Langhaar-Slickster-Larvenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.NAME"
-#| msgid "<link=\"OILFLOATER\">Slickster</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME"
 msgid "<link=\"OILFLOATER\">Longhair Slickster</link>"
-msgstr "<link=\"OILFLOATER\">Slickster</link>"
+msgstr "<link=\"OILFLOATER\">Langhaar-Slickster</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC
-#, fuzzy
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC"
 msgid ""
 "A goopy baby <link=\"OILFLOATER\">Slickster</link>.\n"
 "\n"
 "This one is a Molten morph."
-msgstr "<link=\"OILFLOATER\">Slickster</link>."
+msgstr ""
+"Ein vernarrtes <link=\"OILFLOATER\">Slicksterbaby</link>.\n"
+"\n"
+"Das hier ist ein Langhaar-Art."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME"
 msgid "<link=\"OILFLOATERBABY\">Molten Slickster Larva</link>"
-msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
+msgstr "<link=\"OILFLOATERBABY\">Geschmolzene-Slickster-Larve</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.DESC"
-#| msgid "Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and exude <link=\"CRUDEOIL\">Crude Oil</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC"
 msgid "Molten Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and exude <link=\"PETROLEUM\">Petroleum</link>."
-msgstr "Slickster sind schleimige Kreaturen, die <link=\"CARBONDIOXIDE\">Kohlendioxid</link> konsumieren und <link=\"CRUDEOIL\">Rohöl</link> ausscheiden."
+msgstr "Geschmolzene-Slickster sind schleimige Kreaturen, die <link=\"CARBONDIOXIDE\">Kohlendioxid</link> konsumieren und <link=\"PETROLEUM\">Petroleum</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME"
 msgid "<link=\"OILFLOATEREGG\">Molten Slickster Larva Egg</link>"
-msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
+msgstr "<link=\"OILFLOATEREGG\">Geschmolzene-Slickster-Larvenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.NAME"
-#| msgid "<link=\"OILFLOATER\">Slickster</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME"
 msgid "<link=\"OILFLOATER\">Molten Slickster</link>"
-msgstr "<link=\"OILFLOATER\">Slickster</link>"
+msgstr "<link=\"OILFLOATER\">Geschmolzene-Slickster</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
@@ -8775,12 +8691,9 @@ msgstr ""
 "Er ist noch nicht bereit für die Welt."
 
 #. STRINGS.CREATURES.SPECIES.PACUEGG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.FLUTEGG.NAME"
-#| msgid "<link=\"FLUTEGG\">Pacu Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PACUEGG.NAME"
 msgid "<link=\"PACUEGG\">Pacu Egg</link>"
-msgstr "<link=\"FLUTEGG\">Pacu-Ei</link>"
+msgstr "<link=\"PACUEGG\">Pacu-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DESC"
@@ -8834,12 +8747,9 @@ msgstr ""
 "Mit der Zeit reift es zu einem Erwachsenen <link=\"PUFT\">Puft</link>."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.NAME"
 msgid "<link=\"PUFTLET\">Puftlet</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTLET\">Puftlet</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.DESC"
@@ -8896,7 +8806,7 @@ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
 #| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.NAME"
-msgid "<link=\"PUFT\">Puft Prince</link>"
+msgid "<link=\"PUFTALPHA\">Puft Prince</link>"
 msgstr "<link=\"PUFT\">Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC
@@ -8933,11 +8843,11 @@ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
+#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
+#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME"
-msgid "<link=\"PUFT\">Squeaky Puft</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puft</link>"
+msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC"
@@ -8976,7 +8886,7 @@ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
 #| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
 #| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME"
-msgid "<link=\"PUFT\">Dense Puft</link>"
+msgid "<link=\"PUFTOXYLITE\">Dense Puft</link>"
 msgstr "<link=\"PUFT\">Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC
@@ -10866,9 +10776,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_INCUBATION_RATE.NAME"
-#| msgid "Incubation Rate"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME"
 msgid "Incubation Rate"
 msgstr "Ausbrütungsrate"
@@ -20917,12 +20824,9 @@ msgid "ZoomOut"
 msgstr "Rauszoomen"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
-#| msgid "Standby"
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.NAME"
 msgid "Sandbox"
-msgstr "Inaktiv"
+msgstr "Sandbox"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXBRUSH
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXBRUSH"
@@ -20971,12 +20875,9 @@ msgid "SandboxSprinkle"
 msgstr ""
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.TOGGLESANDBOXTOOLS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.TOGGLESCREENSHOTMODE"
-#| msgid "ToggleScreenshotMode"
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.TOGGLESANDBOXTOOLS"
 msgid "ToggleSandboxTools"
-msgstr "ScreenshotModusUmschalten"
+msgstr "SandboxModusUmschalten"
 
 #. STRINGS.INPUT_BINDINGS.TOOL.DRAGSTRAIGHT
 msgctxt "STRINGS.INPUT_BINDINGS.TOOL.DRAGSTRAIGHT"
@@ -28451,7 +28352,7 @@ msgstr "FoW Enthüllung erlauben"
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.SAMPLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.SAMPLE"
 msgid "Sample"
-msgstr ""
+msgstr "Muster"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN"
@@ -30214,7 +30115,7 @@ msgstr "Deaktiviert"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.TOOLTIP"
 msgid "Click to enable Sandbox mode"
-msgstr ""
+msgstr "Klicke, um den Sandbox-Modus zu aktivieren"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.NAME"
@@ -30224,17 +30125,17 @@ msgstr "Aktiviert"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.TOOLTIP"
 msgid "Click to disable Sandbox mode"
-msgstr ""
+msgstr "Klicke, um den Sandbox-Modus zu deaktivieren"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.NAME"
 msgid "Sandbox mode"
-msgstr ""
+msgstr "Sandbox-Modus"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.TOOLTIP"
 msgid "Allows the simulation to be manipulated with tools that ignore the regular constraints of the game"
-msgstr ""
+msgstr "Ermöglicht es, die Simulation mit Werkzeugen zu manipulieren, die die regulären Einschränkungen des Spiels ignorieren"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.NAME"
@@ -30614,6 +30515,14 @@ msgctxt "STRINGS.UI.FRONTEND.MAINMENU.TRANSLATIONS"
 msgid "TRANSLATIONS"
 msgstr "ÜBERSETZUNGEN"
 
+#. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION
+msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
+msgid ""
+"We require the collection of user data to assist in improving game operations. Players who opt out of data collection will no longer send crash reports and user data to the game team.\n"
+"\n"
+"For more details on our privacy policy and how we use the data we collect, please visit our <color=blue><u><b>privacy policy</u></b></color>."
+msgstr ""
+
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON"
 msgid "Done"
@@ -30621,18 +30530,21 @@ msgstr "Fertig"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON"
-msgid "Send Metrics Data: "
-msgstr "Sende Metrikdaten: "
+msgid "Opt-In to Data Collection: "
+msgstr "Opt-In zur Datenerfassung: "
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TITLE"
+#| msgid "WORLD GENERATION OPTIONS"
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE"
-msgid "METRICS OPTIONS"
-msgstr "METRIKOPTIONEN"
+msgid "DATA COLLECTION OPTIONS"
+msgstr "WELTERZEUGUNGSOPTIONEN"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP"
-msgid "If enabled, metrics data will be sent for the purpose of improving the game."
-msgstr "Wenn aktiviert, werden Metrikdaten versendet, um das Spiel zu verbessern."
+msgid "Toggle data collection."
+msgstr "Umschalten der Datenerfassung."
 
 #. STRINGS.UI.FRONTEND.MINSPECSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.MINSPECSCREEN.BODY"
@@ -30721,9 +30633,12 @@ msgid "Change Language"
 msgstr "Sprache ändern"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS
+#, fuzzy
+#| msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SAVE_TITLE"
+#| msgid "Save Selection"
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS"
-msgid "Send Metrics Data"
-msgstr "Sende Metrikdaten"
+msgid "Data Collection"
+msgstr "Speichere die Auswahl"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.RESET_TUTORIAL
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.RESET_TUTORIAL"
@@ -30757,17 +30672,17 @@ msgstr "Abbrechen"
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM"
 msgid "Enable sandbox mode"
-msgstr ""
+msgstr "Sandbox-Modus aktivieren"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM_SAVE_BACKUP
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM_SAVE_BACKUP"
 msgid "Enable sandbox mode, but save a backup first"
-msgstr ""
+msgstr "Aktiviert den Sandbox-Modus, speichert zuvor aber eine Sichheritskopie des Spielstandes"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.UNLOCK_SANDBOX_WARNING
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.UNLOCK_SANDBOX_WARNING"
 msgid "Sandbox mode will be enabled for this save file"
-msgstr ""
+msgstr "Der Sandbox-Modus wird für diese Speicherstand aktiviert"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNITS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNITS"
@@ -30777,7 +30692,7 @@ msgstr "Temperatureinheiten"
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNLOCK_SANDBOX
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNLOCK_SANDBOX"
 msgid "Unlock Sandbox Mode"
-msgstr ""
+msgstr "Sandbox-Modus freischalten"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.WORLD_GEN
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.WORLD_GEN"
@@ -30968,14 +30883,6 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY"
-#| msgid ""
-#| "A problem occurred while accessing your save directory.\n"
-#| "This may be because your directory is set to read-only.\n"
-#| "\n"
-#| "Please ensure your save directory is writable and re-launch the game.\n"
-#| "{0}"
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY"
 msgid ""
 "A problem occurred while accessing your save directory.\n"
@@ -30987,18 +30894,10 @@ msgstr ""
 "Beim Zugriff auf dein Sicherungsverzeichnis ist ein Problem aufgetreten.\n"
 "Dies kann daran liegen, dass dieses Verzeichnis schreibgeschützt ist.\n"
 "\n"
-"Bitte stelle sicher, dass dein Sicherungsverzeichnis beschreibbar ist und starte das Spiel neu.\n"
+"Bitte stelle sicher, dass dein Sicherungsverzeichnis lesbar und beschreibbar ist und starte das Spiel neu.\n"
 "{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FILES
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY"
-#| msgid ""
-#| "A problem occurred while accessing your save directory.\n"
-#| "This may be because your directory is set to read-only.\n"
-#| "\n"
-#| "Please ensure your save directory is writable and re-launch the game.\n"
-#| "{0}"
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FILES"
 msgid ""
 "A problem occurred while accessing certain game files that will prevent starting new games.\n"
@@ -31007,10 +30906,9 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
-"Beim Zugriff auf dein Sicherungsverzeichnis ist ein Problem aufgetreten.\n"
-"Dies kann daran liegen, dass dieses Verzeichnis schreibgeschützt ist.\n"
+"Beim Zugriff auf bestimmte Spieledateien ist ein Problem aufgetreten, das das Starten neuer Spiele verhindert.\n"
 "\n"
-"Bitte stelle sicher, dass dein Sicherungsverzeichnis beschreibbar ist und starte das Spiel neu.\n"
+"Bitte stelle sicher, dass du diese Dateien verändern kannst und starte das Spiel neu.\n"
 "{0}"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.ARE_YOU_SURE
@@ -33894,7 +33792,7 @@ msgstr "Merkmal : Abbau von <link=\"HARDNESS\">sehr hartem Material</link>"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION"
 msgid "Trait: Plumbing"
-msgstr ""
+msgstr "Merkmal: Klempnerei"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION"
@@ -34190,15 +34088,12 @@ msgstr ""
 #. STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED
 msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED"
 msgid "Sandbox mode must be unlocked in the options menu before it can be used."
-msgstr ""
+msgstr "Der Sandbox-Modus muss im Optionsmenü freigeschaltet werden, bevor er verwendet werden kann."
 
 #. STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.TOGGLESCREENSHOTMODE"
-#| msgid "ToggleScreenshotMode"
 msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED"
 msgid "Toggle Sandbox mode"
-msgstr "ScreenshotModusUmschalten"
+msgstr "Sandbox-Modus umschalten"
 
 #. STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED
 msgctxt "STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED"
@@ -34213,7 +34108,7 @@ msgstr "Zurück"
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON"
 msgid "Common substances"
-msgstr ""
+msgstr "Übliche Stoffe"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE"
@@ -34273,12 +34168,12 @@ msgstr "Feststoffe"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.NAME"
 msgid "Brush"
-msgstr ""
+msgstr "Pinsel"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
 msgid "Paint the world simulation with the brush tool"
-msgstr ""
+msgstr "Male die Weltsimulation mit einem Pinsel an"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME"
@@ -34288,17 +34183,17 @@ msgstr "Geräusche"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.TOOLTIP"
 msgid "Adjust brush noisiness"
-msgstr ""
+msgstr "Rauschen des Pinsels einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME"
 msgid "Brush size"
-msgstr ""
+msgstr "Pinselgröße"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.TOOLTIP"
 msgid "Adjust brush size"
-msgstr ""
+msgstr "Pinselgröße einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.NAME
 #, fuzzy
@@ -34324,7 +34219,7 @@ msgstr "Zerstören"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP"
 msgid "Destroy everything on a cell"
-msgstr ""
+msgstr "Zerstöre alles in einer Zelle"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
@@ -34334,20 +34229,17 @@ msgstr "Keimanzahl"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP"
 msgid "Adjust germ count"
-msgstr ""
+msgstr "Keimanzahl einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_NAME"
-#| msgid "Flooding"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME"
 msgid "Flood"
-msgstr "Überflutung"
+msgstr "Füllen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP"
 msgid "Paint the world simulation with a the flood area tool"
-msgstr ""
+msgstr "Male die Weltsimulation mit einem Füllwerkzeug an"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME"
@@ -34357,20 +34249,17 @@ msgstr "Wärmekanone"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
 msgid "Inject thermal energy into the world simulation"
-msgstr ""
+msgstr "Injiziere Wärmeenergie in die Weltsimulation"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINSTANTBUILDMODE"
-#| msgid "DebugInstantBuildMode"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
 msgid "Instant build mode"
-msgstr "DebugInstantBuildMode"
+msgstr "Sofortiger Baumodus"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP"
 msgid "Toggle between placing construction plans and fully built buildings"
-msgstr ""
+msgstr "Schaltet zwischen der Platzierung von Bauplänen und fertig gebauten Gebäuden um"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME"
@@ -34380,17 +34269,17 @@ msgstr "Absolute Masse"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP"
 msgid "Adjust mass"
-msgstr ""
+msgstr "Masse einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.NAME"
 msgid "Sample"
-msgstr ""
+msgstr "Muster"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP"
 msgid "Sample a tile's state for use with the brush tools"
-msgstr ""
+msgstr "Muster eines Kachelzustands für die Verwendung mit den Pinselwerkzeugen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME"
@@ -34410,12 +34299,12 @@ msgstr ""
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME"
 msgid "Sprinkle"
-msgstr ""
+msgstr "Sprühen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP"
 msgid "Paint the world simulation with a noisey brush tool"
-msgstr ""
+msgstr "Male die Weltsimulation mit einem Sprühwerkzeug an"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
@@ -34423,28 +34312,19 @@ msgid "Absolute temperature"
 msgstr "Absolute Temperatur"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
-#| msgid "Comfortable Temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.TOOLTIP"
 msgid "Adjust absolute temperature"
-msgstr "Komfortable Temperatur"
+msgstr "Absolute Temperatur einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.NAME"
-#| msgid "Ideal Temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME"
 msgid "Additive temperature"
-msgstr "Idealtemperatur"
+msgstr "Zusatztemperatur"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.COLDBREATHER"
-#| msgid "Lowers ambient air temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.TOOLTIP"
 msgid "Adjust additive temperature"
-msgstr "Senkt die Umgebungstemperatur"
+msgstr "Zusatztemperatur einstellen"
 
 #. STRINGS.UI.SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULE"
@@ -34782,12 +34662,9 @@ msgid "DRAG TO MARK PIPES TO EMPTY"
 msgstr "ZIEHEN UM ROHRE ZUM ENTLEEREN ZU MARKIEREN"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
-#| msgid "Empty Pipe"
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME"
 msgid "Empty Pipe Tool"
-msgstr "Leeres Rohr"
+msgstr "Rohrentleer-Werkzeug"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
@@ -34983,7 +34860,7 @@ msgstr "Sub-Prioritäts-Werkzeug"
 #. STRINGS.UI.TOOLS.SANDBOX.BRUSH.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.BRUSH.NAME"
 msgid "Brush"
-msgstr ""
+msgstr "Pinsel"
 
 #. STRINGS.UI.TOOLS.SANDBOX.CLEAR_FLOOR.NAME
 #, fuzzy
@@ -35027,7 +34904,7 @@ msgstr ""
 #. STRINGS.UI.TOOLS.SANDBOX.SANDBOX_TOGGLE.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SANDBOX_TOGGLE.NAME"
 msgid "SANDBOX"
-msgstr ""
+msgstr "SANDBOX"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SPAWN_ENTITY.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPAWN_ENTITY.NAME"
@@ -38394,6 +38271,41 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
+
+#, fuzzy
+#~| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
+#~| msgid "<link=\"HEALTH\">Health</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME"
+#~ msgid "<link=\"HATCHLING\">Drecklet</link>"
+#~ msgstr "<link=\"HEALTH\">Gesundheit</link>"
+
+#, fuzzy
+#~ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
+#~ msgid "<link=\"HATCHLING\">Glossy Hatchling</link>"
+#~ msgstr "<link=\"HATCHLING\">Glanz-Hatchling</link>"
+
+#, fuzzy
+#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
+#~| msgid "<link=\"PUFT\">Puft</link>"
+#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME"
+#~ msgid "<link=\"PUFT\">Squeaky Puft</link>"
+#~ msgstr "<link=\"PUFT\">Puft</link>"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON"
+#~ msgid "Send Metrics Data: "
+#~ msgstr "Sende Metrikdaten: "
+
+#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE"
+#~ msgid "METRICS OPTIONS"
+#~ msgstr "METRIKOPTIONEN"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP"
+#~ msgid "If enabled, metrics data will be sent for the purpose of improving the game."
+#~ msgstr "Wenn aktiviert, werden Metrikdaten versendet, um das Spiel zu verbessern."
+
+#~ msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS"
+#~ msgid "Send Metrics Data"
+#~ msgstr "Sende Metrikdaten"
 
 #, fuzzy
 #~| msgctxt "STRINGS.CREATURES.SPECIES.FLUT.DESC"
