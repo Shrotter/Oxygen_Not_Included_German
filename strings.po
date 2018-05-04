@@ -974,7 +974,7 @@ msgid ""
 "------------------\n"
 "It will hatch when Incubation reaches 100%"
 msgstr ""
-"Dieses Ei bebrütet behaglich\n"
+"Dieses Ei brütet behaglich\n"
 "------------------\n"
 "Es schlüpft, wenn die Inkubation 100% erreicht"
 
@@ -6884,7 +6884,7 @@ msgstr "Tier-Gestalt"
 #. STRINGS.CODEX.ROYAL.TITLE
 msgctxt "STRINGS.CODEX.ROYAL.TITLE"
 msgid "Royal Shine Bug"
-msgstr "königlicher Leuchtkäfer"
+msgstr "Königlicher Leuchtkäfer"
 
 #. STRINGS.CODEX.SAGE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SAGE.BODY.CONTAINER1"
@@ -27927,6 +27927,11 @@ msgctxt "STRINGS.UI.CODEX.DETAILS"
 msgid "Details"
 msgstr "Details"
 
+#. STRINGS.UI.CODEX.FOOD.NON_PERISHABLE
+msgctxt "STRINGS.UI.CODEX.FOOD.NON_PERISHABLE"
+msgid "Spoil time: Infinite"
+msgstr ""
+
 #. STRINGS.UI.CODEX.FOOD.QUALITY
 msgctxt "STRINGS.UI.CODEX.FOOD.QUALITY"
 msgid "Quality: {0}"
@@ -35067,6 +35072,14 @@ msgstr "Kann nicht in eine Kachel eingebaut werden"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_OCCUPIED"
 msgid "Must be built in unoccupied space"
 msgstr "Muss auf einem freien Platz gebaut werden"
+
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED
+#, fuzzy
+#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED"
+#| msgid "Liquid ports are obstructed"
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
+msgid "Solid ports are obstructed"
+msgstr "Flüssigkeitsanschlüsse sind verstopft"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
