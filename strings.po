@@ -3328,7 +3328,7 @@ msgstr "<link=\"FIREPOLE\">Rutschstange</link>"
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC"
 msgid "This building must be built above liquid to prevent fish from suffocating."
-msgstr "Dieses Gebäude muss über der Flüssigkeit gebaut werden, um zu verhindern, dass Fische ersticken."
+msgstr "Um zu verhindern dass die Fische ersticken, muss dieses Gebäude über einer Flüssigkeit gebaut werden."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
@@ -3573,10 +3573,9 @@ msgid "Has a secondary input which is only drawn from when the primary input is 
 msgstr "Hat einen sekundären Eingang, der nur verwendet wird, wenn der primäre Eingang leer ist."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME"
 msgid "<link=\"GASCONDUITPREFERENTIALFLOW\">Priority Gas Flow</link>"
-msgstr "<link=\"GASCONDUITPREFERENTIALFLOW\">Priority Gas Flow</link>"
+msgstr "<link=\"GASCONDUITPREFERENTIALFLOW\">Prioritätsgasventil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
@@ -3657,7 +3656,7 @@ msgstr "Schaltet den <link=\"ELEMENTSGAS\">Gasfluss</link> durch Nutzung von <li
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
 msgid "<link=\"GASLOGICVALVE\">Gas Shutoff</link>"
-msgstr "<link=\"GASLOGICVALVE\">Gasventil</link>"
+msgstr "<link=\"GASLOGICVALVE\">Automatisiertes Gasventil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC"
@@ -3949,7 +3948,7 @@ msgid ""
 "\n"
 "Must be sculpted by a Duplicant."
 msgstr ""
-"Steigert <link=\"DECOR\">Dekoration</link> und reduziert den <link=\"STRESS\">Stress</link>.\n"
+"Steigert die <link=\"DECOR\">Dekoration</link> und reduziert den <link=\"STRESS\">Stress</link>.\n"
 "\n"
 "Muss von einem Duplikanten modelliert werden."
 
@@ -4157,7 +4156,7 @@ msgstr "Rohrflüssigkeitskeimsensoren können zur Steuerung des Automatisierungs
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT"
 msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> depending on quantity of the contained <link=\"DISEASE\">Germs</link>."
-msgstr "Wird <link=\"LOGIC\">Aktiv</link> oder <link=\"LOGIC\">Inaktiv</link> abhängig von der Menge an <link=\"DISEASE\">Keimen</link> in der Umgebung."
+msgstr "Wird <link=\"LOGIC\">Aktiv</link> oder <link=\"LOGIC\">Inaktiv</link> abhängig von der Menge an <link=\"DISEASE\">Keimen</link> im Rohr."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.LOGIC_PORT_DESC"
@@ -4215,10 +4214,9 @@ msgid "Has a secondary input which is only drawn from when the primary input is 
 msgstr "Hat einen sekundären Eingang, der nur verwendet wird, wenn der primäre Eingang leer ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME"
 msgid "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">Priority Liquid Flow</link>"
-msgstr "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">Rohr</link>"
+msgstr "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">Prioritätsflüssigkeitsventil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
@@ -4232,7 +4230,7 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Transportiert <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link> unter minimalen Veränderungen der <link=\"HEAT\">Temperatur</link>.\n"
+"Transportiert <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link> und begünstigt deutlich die Veränderung der <link=\"HEAT\">Temperatur</link>.\n"
 "\n"
 "Kann durch Ziegel verlegt werden."
 
@@ -5568,7 +5566,7 @@ msgid ""
 "\n"
 "Must be sculpted by a Duplicant."
 msgstr ""
-"Steigert <link=\"DECOR\">Dekoration</link> und reduziert den <link=\"STRESS\">Stress</link>.\n"
+"Steigert die <link=\"DECOR\">Dekoration</link> und reduziert den <link=\"STRESS\">Stress</link>.\n"
 "\n"
 "Muss von einem Duplikanten gemeißelt werden."
 
@@ -6357,7 +6355,7 @@ msgstr "Komfortbereich: {0}"
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.NON_LETHAL_RANGE
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.NON_LETHAL_RANGE"
 msgid "Liveable range: {0}"
-msgstr "Bewohnbare Reichweite: {0}"
+msgstr "Überlebensbereich: {0}"
 
 #. STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1"
@@ -6402,7 +6400,7 @@ msgstr "Tier-Gestalt"
 #. STRINGS.CODEX.DENSE.TITLE
 msgctxt "STRINGS.CODEX.DENSE.TITLE"
 msgid "Dense Puft"
-msgstr ""
+msgstr "Massiver Puft"
 
 #. STRINGS.CODEX.DRECKO.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DRECKO.BODY.CONTAINER1"
@@ -6673,12 +6671,9 @@ msgid "Critter Morph"
 msgstr "Tier-Gestalt"
 
 #. STRINGS.CODEX.MOLTEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SLICKSTER.TITLE"
-#| msgid "Slickster"
 msgctxt "STRINGS.CODEX.MOLTEN.TITLE"
 msgid "Molten Slickster"
-msgstr "Slickster"
+msgstr "Schmelz-Slickster"
 
 #. STRINGS.CODEX.MORB.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MORB.BODY.CONTAINER1"
@@ -6735,12 +6730,9 @@ msgid "Critter Morph"
 msgstr "Tier-Gestalt"
 
 #. STRINGS.CODEX.NEGA.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SHINEBUG.TITLE"
-#| msgid "Shine Bug"
 msgctxt "STRINGS.CODEX.NEGA.TITLE"
 msgid "Nega Shine Bug"
-msgstr "Leuchtkäfer"
+msgstr "Anti-Leuchtkäfer"
 
 #. STRINGS.CODEX.PACU.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PACU.BODY.CONTAINER1"
@@ -6810,12 +6802,9 @@ msgid "Critter Morph"
 msgstr "Tier-Gestalt"
 
 #. STRINGS.CODEX.PLACID.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SHINEBUG.TITLE"
-#| msgid "Shine Bug"
 msgctxt "STRINGS.CODEX.PLACID.TITLE"
 msgid "Placid Shine Bug"
-msgstr "Leuchtkäfer"
+msgstr "Sanfter Leuchtkäfer"
 
 #. STRINGS.CODEX.POWER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.POWER.BODY.CONTAINER1"
@@ -6843,12 +6832,9 @@ msgid "Critter Morph"
 msgstr "Tier-Gestalt"
 
 #. STRINGS.CODEX.PRINCE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.PRINCE"
-#| msgid "Prince"
 msgctxt "STRINGS.CODEX.PRINCE.TITLE"
 msgid "Puft Prince"
-msgstr "Prinz"
+msgstr "Puft-Prinz"
 
 #. STRINGS.CODEX.PUFT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PUFT.BODY.CONTAINER1"
@@ -6902,14 +6888,6 @@ msgid "Sage Hatch"
 msgstr "Salbei-Hatch"
 
 #. STRINGS.CODEX.SHINEBUG.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SHINEBUG.BODY.CONTAINER1"
-#| msgid ""
-#| "The Shine Bug is a bioluminiscent insect with bladed wing membranes it rotates at high speeds to maintain flight.\n"
-#| "\n"
-#| "The bioluminescence of its body serves the social purpose of finding and communicating with others of its kind.\n"
-#| "\n"
-#| "As such, it is not uncommon for Shine Bugs to mistakenly approach inanimate sources of light in search of a friend."
 msgctxt "STRINGS.CODEX.SHINEBUG.BODY.CONTAINER1"
 msgid ""
 "The Shine Bug is a flying insect with bladed membranes atop its head which it rotates to maintain flight.\n"
@@ -6950,12 +6928,6 @@ msgid "Sleet Wheat"
 msgstr "Graupelweizen"
 
 #. STRINGS.CODEX.SLICKSTER.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SLICKSTER.BODY.CONTAINER1"
-#| msgid ""
-#| "Slicksters are a unique creature most renown for their ability to exude hydrocarbon waste that is nearly identical in makeup to crude oil.\n"
-#| "\n"
-#| "The two large rhinophores that protrude from the Slickster's head are chemical receptors that help guide it toward breathable carbon dioxide."
 msgctxt "STRINGS.CODEX.SLICKSTER.BODY.CONTAINER1"
 msgid ""
 "Slicksters are a unique creature most renown for their ability to exude hydrocarbon waste that is nearly identical in makeup to crude oil.\n"
@@ -7004,7 +6976,7 @@ msgstr "Tier-Gestalt"
 #. STRINGS.CODEX.SQUEAKY.TITLE
 msgctxt "STRINGS.CODEX.SQUEAKY.TITLE"
 msgid "Squeaky Puft"
-msgstr ""
+msgstr "Blitzsauberer Puft"
 
 #. STRINGS.CODEX.STONE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STONE.BODY.CONTAINER1"
@@ -7032,12 +7004,9 @@ msgid "Critter Morph"
 msgstr "Tier-Gestalt"
 
 #. STRINGS.CODEX.SUNNY.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SHINEBUG.TITLE"
-#| msgid "Shine Bug"
 msgctxt "STRINGS.CODEX.SUNNY.TITLE"
 msgid "Sunny Shine Bug"
-msgstr "Leuchtkäfer"
+msgstr "Sonniger Leuchtkäfer"
 
 #. STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1
 #, fuzzy
@@ -7092,12 +7061,9 @@ msgid "Critter Morph"
 msgstr "Tier-Gestalt"
 
 #. STRINGS.CODEX.VITAL.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SHINEBUG.TITLE"
-#| msgid "Shine Bug"
 msgctxt "STRINGS.CODEX.VITAL.TITLE"
 msgid "Vital Shine Bug"
-msgstr "Leuchtkäfer"
+msgstr "Vital-Leuchtkäfer"
 
 #. STRINGS.CODEX.WHEEZEWORT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.WHEEZEWORT.BODY.CONTAINER1"
@@ -7564,12 +7530,9 @@ msgid "This critter has recently been attended to by a Rancher"
 msgstr "Dieses Tier wurde kürzlich von einem Viehzüchter betreut"
 
 #. STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.MATURITY.GROWINGWILD"
-#| msgid "Wild growth rate"
 msgctxt "STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME"
 msgid "Scale Regrowth Rate"
-msgstr "Wachstumsrate in der Wildnis"
+msgstr "Schuppenwachstumsrate"
 
 #. STRINGS.CREATURES.MODIFIERS.TAME.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.NAME"
@@ -7754,7 +7717,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet Egg</link>"
-msgstr "<link=\"DRECKOPLASTIC\">Glanz-Drecklet</link>"
+msgstr "<link=\"DRECKOPLASTIC\">Glanz-Drecklet-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME"
@@ -8206,12 +8169,12 @@ msgid ""
 msgstr ""
 "Ein molliges <link=\"LIGHTBUGBLUE\">Leuchtkäferbaby</link>.\n"
 "\n"
-"Dieses hier hat eine milde Gestalt."
+"Dieses hier hat eine sanften Gestalt."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Nymph</link>"
-msgstr "<link=\"LIGHTBUGBLUE\">Mild-Leuchtnymphe</link>"
+msgstr "<link=\"LIGHTBUGBLUE\">Sanfte Leuchtnymphe</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC"
@@ -8222,7 +8185,7 @@ msgid ""
 msgstr ""
 "Leuchtkäfer geben ein weiches <link=\"LIGHT\">Licht</link> ab, in der Hoffnung mehr von ihrer Art für Unternehmen zu gewinnen.\n"
 "\n"
-"Das Licht der milden Gestalt ist durch selektive Züchtung blau geworden."
+"Das Licht der sanften Gestalt ist durch selektive Züchtung blau geworden."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
@@ -8309,7 +8272,6 @@ msgid "<link=\"LIGHTBUGORANGE\">Sunny Shine Bug</link>"
 msgstr "<link=\"LIGHTBUGORANGE\">sonniger Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC
-#, fuzzy
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGPINK\">Shine Bug</link>.\n"
@@ -8318,42 +8280,33 @@ msgid ""
 msgstr ""
 "Ein molliges <link=\"LIGHTBUGPINK\">Leuchtkäferbaby</link>.\n"
 "\n"
-"Dieses hier hat eine XXXXX Gestalt."
+"Dieses hier hat eine vitale Gestalt."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME"
 msgid "<link=\"LIGHTBUGPINK\">Vital Shine Nymph</link>"
-msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
+msgstr "<link=\"LIGHTBUGPINK\">Vital-Leuchtnymphe</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC"
-#| msgid "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting more of their kind for company."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC"
 msgid ""
 "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting more of their kind for company.\n"
 "\n"
 "The light of the Vital morph has been turned pink through selective breeding."
-msgstr "Leuchtkäfer geben ein weiches <link=\"LIGHT\">Licht</link> ab, in der Hoffnung mehr von ihrer Art für Unternehmen zu gewinnen."
+msgstr ""
+"Leuchtkäfer geben ein weiches <link=\"LIGHT\">Licht</link> ab, in der Hoffnung mehr von ihrer Art für Unternehmen zu gewinnen.\n"
+"\n"
+"Das Licht der vitalen Gestalt ist durch selektive Züchtung violett geworden."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME"
 msgid "<link=\"LIGHTBUGPINK\">Vital Shine Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGEGG\">Leuchtkäfer Ei</link>"
+msgstr "<link=\"LIGHTBUGPINK\">Vital-Leuchtnymphen-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
-#| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME"
 msgid "<link=\"LIGHTBUGPINK\">Vital Shine Bug</link>"
-msgstr "<link=\"LIGHTBUG\">Leuchtkäfer</link>"
+msgstr "<link=\"LIGHTBUGPINK\">Vital-Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.DESC"
@@ -8444,29 +8397,20 @@ msgid "<link=\"OILWELL\">Oil Reservoir</link>"
 msgstr "<link=\"OILWELL\">Erdölvorkommen</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
-#| msgid ""
-#| "A goopy little <link=\"OILFLOATERBABY\">Slickster Larva</link>.\n"
-#| "\n"
-#| "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
 msgid ""
 "A goopy little <link=\"OILFLOATER\">Slickster Larva</link>.\n"
 "\n"
 "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgstr ""
-"Ein vernarrte kleine <link=\"OILFLOATERBABY\">Slickster-Larve</link>.\n"
+"Ein vernarrte kleine <link=\"OILFLOATER\">Slickster-Larve</link>.\n"
 "\n"
 "Mit der Zeit reift es zu einem Erwachsenen <link=\"OILFLOATER\">Slickster</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME"
-#| msgid "<link=\"OILFLOATERBABY\">Slickster Larva</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME"
 msgid "<link=\"OILFLOATER\">Slickster Larva</link>"
-msgstr "<link=\"OILFLOATERBABY\">Slickster-Larve</link>"
+msgstr "<link=\"OILFLOATER\">Slickster-Larve</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.DESC"
@@ -8474,12 +8418,9 @@ msgid "Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon
 msgstr "Slickster sind schleimige Kreaturen, die <link=\"CARBONDIOXIDE\">Kohlendioxid</link> konsumieren und <link=\"CRUDEOIL\">Rohöl</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
 msgid "<link=\"OILFLOATER\">Slickster Larva Egg</link>"
-msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
+msgstr "<link=\"OILFLOATER\">Slickster-Larvenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.NAME"
@@ -8487,29 +8428,20 @@ msgid "<link=\"OILFLOATER\">Slickster</link>"
 msgstr "<link=\"OILFLOATER\">Slickster</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
-#| msgid ""
-#| "A goopy baby <link=\"OILFLOATER\">Slickster</link>.\n"
-#| "\n"
-#| "This one is a Longhair morph."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
 msgid ""
 "A goopy baby <link=\"OILFLOATERDECOR\">Slickster</link>.\n"
 "\n"
 "This one is a Longhair morph."
 msgstr ""
-"A goopy baby <link=\"OILFLOATER\">Slickster</link>.\n"
+"Ein vernarrtes <link=\"OILFLOATERDECOR\">Slickster-Baby</link>\n"
 "\n"
-"Das hier ist ein Langhaar-Art."
+"Das hier ist ein Langhaar-Morph."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME"
-#| msgid "<link=\"OILFLOATERBABY\">Longhair Slickster Larva</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME"
 msgid "<link=\"OILFLOATERDECOR\">Longhair Slickster Larva</link>"
-msgstr "<link=\"OILFLOATERBABY\">Langhaar-Slicksterlarve</link>"
+msgstr "<link=\"OILFLOATERDECOR\">Langhaar-Slicksterlarve</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC"
@@ -8517,66 +8449,45 @@ msgid "Longhair Slicksters are slimy critters that consume <link=\"OXYGEN\">Oxyg
 msgstr "Langhaar-Slickster sind schleimige Kreaturen, die <link=\"OXYGEN\">Sauerstoff</link> konsumieren und und im engen Kontakt mit Duplicant Gefährten leben."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Longhair Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME"
 msgid "<link=\"OILFLOATERDECOR\">Longhair Slickster Larva Egg</link>"
-msgstr "<link=\"OILFLOATEREGG\">Langhaar-Slickster-Larvenei</link>"
+msgstr "<link=\"OILFLOATERDECOR\">Langhaar-Slickster-Larvenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME"
-#| msgid "<link=\"OILFLOATER\">Longhair Slickster</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME"
 msgid "<link=\"OILFLOATERDECOR\">Longhair Slickster</link>"
-msgstr "<link=\"OILFLOATER\">Langhaar-Slickster</link>"
+msgstr "<link=\"OILFLOATERDECOR\">Langhaar-Slickster</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC"
-#| msgid ""
-#| "A goopy baby <link=\"OILFLOATER\">Slickster</link>.\n"
-#| "\n"
-#| "This one is a Molten morph."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC"
 msgid ""
 "A goopy baby <link=\"OILFLOATERHIGHTEMP\">Slickster</link>.\n"
 "\n"
 "This one is a Molten morph."
 msgstr ""
-"Ein vernarrtes <link=\"OILFLOATER\">Slicksterbaby</link>.\n"
+"Ein vernarrtes <link=\"OILFLOATERHIGHTEMP\">Slicksterbaby</link>.\n"
 "\n"
-"Das hier ist ein Langhaar-Art."
+"Das hier ist eine Schmelz-Art."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME"
-#| msgid "<link=\"OILFLOATERBABY\">Molten Slickster Larva</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME"
 msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster Larva</link>"
-msgstr "<link=\"OILFLOATERBABY\">Geschmolzene-Slickster-Larve</link>"
+msgstr "<link=\"OILFLOATERHIGHTEMP\">Schmelz-Slickster-Larve</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC"
 msgid "Molten Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and exude <link=\"PETROLEUM\">Petroleum</link>."
-msgstr "Geschmolzene-Slickster sind schleimige Kreaturen, die <link=\"CARBONDIOXIDE\">Kohlendioxid</link> konsumieren und <link=\"PETROLEUM\">Petroleum</link> ausscheiden."
+msgstr "Schmelz-Slickster sind schleimige Kreaturen, die <link=\"CARBONDIOXIDE\">Kohlendioxid</link> konsumieren und <link=\"PETROLEUM\">Petroleum</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME"
-#| msgid "<link=\"OILFLOATEREGG\">Molten Slickster Larva Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME"
 msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster Larva Egg</link>"
-msgstr "<link=\"OILFLOATEREGG\">Geschmolzene-Slickster-Larvenei</link>"
+msgstr "<link=\"OILFLOATERHIGHTEMP\">Schmelz-Slickster-Larvenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME"
-#| msgid "<link=\"OILFLOATER\">Molten Slickster</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME"
 msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster</link>"
-msgstr "<link=\"OILFLOATER\">Geschmolzene-Slickster</link>"
+msgstr "<link=\"OILFLOATERHIGHTEMP\">Schmelz-Slickster</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
@@ -8696,29 +8607,20 @@ msgid "<link=\"GEYSERS\">Propane Spout</link>"
 msgstr "<link=\"GEYSERS\">Propanquelle</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.DESC"
-#| msgid ""
-#| "A gassy little <link=\"PUFTLET\">Puftlet</link>.\n"
-#| "\n"
-#| "In time it will grow into an adult <link=\"PUFT\">Puft</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.DESC"
 msgid ""
 "A gassy little <link=\"PUFT\">Puftlet</link>.\n"
 "\n"
 "In time it will grow into an adult <link=\"PUFT\">Puft</link>."
 msgstr ""
-"Ein geschwätziger kleiner <link=\"PUFTLET\">Puftlet</link>.\n"
+"Ein geschwätziger kleiner <link=\"PUFT\">Puftlet</link>.\n"
 "\n"
 "Mit der Zeit reift es zu einem Erwachsenen <link=\"PUFT\">Puft</link>."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.NAME"
-#| msgid "<link=\"PUFTLET\">Puftlet</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.NAME"
 msgid "<link=\"PUFT\">Puftlet</link>"
-msgstr "<link=\"PUFTLET\">Puftlet</link>"
+msgstr "<link=\"PUFT\">Puftlet</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.DESC"
@@ -8726,12 +8628,9 @@ msgid "Pufts are non-aggressive critters that excrete lumps of <link=\"SLIMEMOLD
 msgstr "Pufts sind nicht aggressive Kreaturen, die mit jedem Atemzug Klumpen von <link=\"SLIMEMOLD\">Schleim</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
 msgid "<link=\"PUFT\">Puftlet Egg</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"PUFT\">Puftlet-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
@@ -8739,151 +8638,102 @@ msgid "<link=\"PUFT\">Puft</link>"
 msgstr "<link=\"PUFT\">Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.DESC"
-#| msgid ""
-#| "A gassy baby <link=\"PUFT\">Puft</link>.\n"
-#| "\n"
-#| "This one seems a bit snobby..."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.DESC"
 msgid ""
 "A gassy baby <link=\"PUFTALPHA\">Puft</link>.\n"
 "\n"
 "This one seems a bit snobby..."
 msgstr ""
-"Ein geschwätziges <link=\"PUFT\">Puftbaby</link>.\n"
+"Ein geschwätziges <link=\"PUFTALPHA\">Puftbaby</link>.\n"
 "\n"
 "Es wirkt etwas versnobt...."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME"
 msgid "<link=\"PUFTALPHA\">Puftlet Prince</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTALPHA\">Puftlet Prinz</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.DESC"
-#| msgid "Pufts are non-aggressive critters that excrete lumps of <link=\"SLIMEMOLD\">Slime</link> with each breath."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.DESC"
 msgid "The Puft Prince is a lazy critter that excretes little lumps of <link=\"SLIMEMOLD\">Slime</link> with each breath."
-msgstr "Pufts sind nicht aggressive Kreaturen, die mit jedem Atemzug Klumpen von <link=\"SLIMEMOLD\">Schleim</link> ausscheiden."
+msgstr "Der Puft Prinz ein faules Tier, das mit jedem Atemzug kleine Klumpen an <link=\"SLIMEMOLD\">Schleim</link> ausscheidet."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME"
 msgid "<link=\"PUFTALPHA\">Puftlet Prince Egg</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTALPHA\">Puft Prinz Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.NAME"
 msgid "<link=\"PUFTALPHA\">Puft Prince</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTALPHA\">Puft Prinz</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.DESC"
-#| msgid ""
-#| "A gassy baby <link=\"PUFT\">Puft</link>.\n"
-#| "\n"
-#| "This one seems a bit snobby..."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC"
 msgid ""
 "A gassy baby <link=\"PUFTBLEACHSTONE\">Puft</link>.\n"
 "\n"
 "This one is a Squeaky morph."
 msgstr ""
-"Ein geschwätziges <link=\"PUFT\">Puftbaby</link>.\n"
+"Ein geschwätziges <link=\"PUFTBLEACHSTONE\">Puftbaby</link>.\n"
 "\n"
-"Es wirkt etwas versnobt...."
+"Das hier ist eine blitzsaubere Art."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME"
 msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puftlet</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"PUFTBLEACHSTONE\">Blitzsauber-Puftei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.DESC"
-#| msgid "Pufts are non-aggressive critters that excrete lumps of <link=\"SLIMEMOLD\">Slime</link> with each breath."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
 msgid "Squeaky Pufts are non-aggressive critters that excrete lumps of <link=\"BLEACHSTONE\">Bleach Stone</link> with each breath."
-msgstr "Pufts sind nicht aggressive Kreaturen, die mit jedem Atemzug Klumpen von <link=\"SLIMEMOLD\">Schleim</link> ausscheiden."
+msgstr "Blitzsauber-Pufts sind nicht aggressive Kreaturen, die mit jedem Atemzug Klumpen von <link=\"BLEACHSTONE\">Bleichstein</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME"
 msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puftlet Egg</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"PUFTBLEACHSTONE\">Blitzsauber-Puftlet-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME"
 msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puft</link>"
-msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
+msgstr "<link=\"PUFTBLEACHSTONE\">Blitzsauber-Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.DESC"
-#| msgid ""
-#| "A gassy baby <link=\"PUFT\">Puft</link>.\n"
-#| "\n"
-#| "This one seems a bit snobby..."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC"
 msgid ""
 "A gassy baby <link=\"PUFTOXYLITE\">Puft</link>.\n"
 "\n"
 "This one is a Dense morph."
 msgstr ""
-"Ein geschwätziges <link=\"PUFT\">Puftbaby</link>.\n"
+"Ein geschwätziges <link=\"PUFTOXYLITE\">Puftbaby</link>.\n"
 "\n"
-"Es wirkt etwas versnobt...."
+"Das hier ist eine kompakte Art."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME"
 msgid "<link=\"PUFTOXYLITE\">Dense Puftlet</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTOXYLITE\">Kompakt-Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.DESC"
-#| msgid "Pufts are non-aggressive critters that excrete lumps of <link=\"SLIMEMOLD\">Slime</link> with each breath."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.DESC"
 msgid "Dense Pufts are non-aggressive critters that excrete condensed <link=\"OXYROCK\">Oxylite</link> with each breath."
-msgstr "Pufts sind nicht aggressive Kreaturen, die mit jedem Atemzug Klumpen von <link=\"SLIMEMOLD\">Schleim</link> ausscheiden."
+msgstr "Kompakt-Pufts sind nicht aggressive Kreaturen, die mit jedem Atemzug kondensiertes <link=\"OXYROCK\">Oxylite</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME"
 msgid "<link=\"PUFTOXYLITE\">Dense Puftlet Egg</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTOXYLITE\">Kompakt-Puftlet-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME"
 msgid "<link=\"PUFTOXYLITE\">Dense Puft</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"PUFTOXYLITE\">Kompakt-Puft</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC"
@@ -9311,22 +9161,20 @@ msgstr ""
 "Nahrung wird bei fünfzig Prozent Frische abgestanden, und bei null Prozent verroten"
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.NAME
-#, fuzzy
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.NAME"
 msgid "Scale Growth"
-msgstr "Wachstums-Ausmaß"
+msgstr "Schuppenwachstum"
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
 msgid ""
 "Scale Growth\n"
 "------------------\n"
 "How long until this creatures scales will grow back."
 msgstr ""
-"Wachstums-Ausmaß\n"
+"Schuppenwachstum\n"
 "------------------\n"
-"Wie lange noch, bis dieses Tier wieder nachwächst."
+"Dauer bis die Schuppen dieses Tier wieder nachwachsen."
 
 #. STRINGS.CREATURES.STATS.THERMALCONDUCTIVITY.NAME
 msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITY.NAME"
@@ -20012,12 +19860,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to breathe in hazardous environments.\n"
-#| "\n"
-#| "Does not work when submerged in <link=\"liquid\">Liquid</link>."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.EFFECT"
 msgid ""
 "Allows Duplicants to breathe in hazardous environments.\n"
@@ -20026,7 +19868,7 @@ msgid ""
 msgstr ""
 "Erlaubt Duplikanten in gefährlichen Umgebungen zu atmen.\n"
 "\n"
-"Funktioniert nicht in <link=\"ELEMENTSLIQUID\">Flüssigkeit</link>."
+"Funktioniert nicht in <style=\"liquid\">Flüssigkeit</style>."
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.GENERICNAME"
@@ -20039,12 +19881,6 @@ msgid "Oxygen Tank"
 msgstr "Sauerstofftank"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC"
-#| msgid ""
-#| "Allows Duplicants to breathe in hazardous environments.\n"
-#| "\n"
-#| "Does not work when submerged in <link=\"liquid\">Liquid</link>."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC"
 msgid ""
 "Allows Duplicants to breathe in hazardous environments.\n"
@@ -20053,7 +19889,7 @@ msgid ""
 msgstr ""
 "Erlaubt Duplikanten in gefährlichen Umgebungen zu atmen.\n"
 "\n"
-"Funktioniert nicht in <link=\"ELEMENTSLIQUID\">Flüssigkeit</link>."
+"Funktioniert nicht in <style=\"liquid\">Flüssigkeit</style>."
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.DESC"
@@ -20061,19 +19897,13 @@ msgid ""
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to breathe while submerged in <link=\"liquid\">Liquid</link>.\n"
-#| "\n"
-#| "Does not work outside of liquid."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.EFFECT"
 msgid ""
 "Allows Duplicants to breathe while submerged in <style=\"liquid\">Liquid</style>.\n"
 "\n"
 "Does not work outside of liquid."
 msgstr ""
-"Erlaubt Duplikanten zu atmen, während sie in <style=\"ELEMENTSLIQUID\">Flüssigkeit</style> untergetaucht sind.\n"
+"Erlaubt Duplikanten zu atmen, während sie in <style=\"liquid\">Flüssigkeit</style> untergetaucht sind.\n"
 "\n"
 "Funktioniert nicht außerhalb von Flüssigkeiten."
 
@@ -20088,19 +19918,13 @@ msgid "Oxygen Rebreather"
 msgstr "Atemgerät"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC"
-#| msgid ""
-#| "Allows Duplicants to breathe while submerged in <link=\"liquid\">Liquid</link>.\n"
-#| "\n"
-#| "Does not work outside of liquid."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC"
 msgid ""
 "Allows Duplicants to breathe while submerged in <style=\"liquid\">Liquid</style>.\n"
 "\n"
 "Does not work outside of liquid."
 msgstr ""
-"Erlaubt Duplikanten zu atmen, während sie in <style=\"ELEMENTSLIQUID\">Flüssigkeit</style> untergetaucht sind.\n"
+"Erlaubt Duplikanten zu atmen, während sie in <style=\"liquid\">Flüssigkeit</style> untergetaucht sind.\n"
 "\n"
 "Funktioniert nicht außerhalb von Flüssigkeiten."
 
@@ -21151,10 +20975,9 @@ msgstr ""
 "Wenn es ausgebrütet wird, schlüpft eine <link=\"LIGHTBUG\">Leucht-Nymphe</link>"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME
-#, fuzzy
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME"
 msgid "<link=\"LIGHTBUG\">Shine Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUG\">Leuchtkäfer-Ei</link>"
+msgstr "<link=\"LIGHTBUG\">Leuchtnymphen-Ei</link>"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC"
@@ -27930,7 +27753,7 @@ msgstr "Details"
 #. STRINGS.UI.CODEX.FOOD.NON_PERISHABLE
 msgctxt "STRINGS.UI.CODEX.FOOD.NON_PERISHABLE"
 msgid "Spoil time: Infinite"
-msgstr ""
+msgstr "Verderbzeit: Unbegrenzt"
 
 #. STRINGS.UI.CODEX.FOOD.QUALITY
 msgctxt "STRINGS.UI.CODEX.FOOD.QUALITY"
@@ -30662,10 +30485,11 @@ msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM"
 msgid "Enable sandbox mode"
 msgstr "Sandbox-Modus aktivieren"
 
+# etwas gekürzt um einen Zeilenumbruch zu verhindern
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM_SAVE_BACKUP
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM_SAVE_BACKUP"
 msgid "Enable sandbox mode, but save a backup first"
-msgstr "Aktiviert den Sandbox-Modus, speichert zuvor aber eine Sichheritskopie des Spielstandes"
+msgstr "Aktiviert den Sandbox-Modus, erstellt zuvor ein Backup"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.UNLOCK_SANDBOX_WARNING
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.UNLOCK_SANDBOX_WARNING"
@@ -31777,12 +31601,9 @@ msgid "Set all errand priorities colonywide"
 msgstr "Alle Aufträge für die ganze Kolonie festlegen"
 
 #. STRINGS.UI.JOBSSCREEN.TRAIT_DISABLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.TRAIT_DISABLED"
-#| msgid "{Name} is unable to do {Job} errands because of the {Trait} trait"
 msgctxt "STRINGS.UI.JOBSSCREEN.TRAIT_DISABLED"
 msgid "{Name} cannot do {Job} errands because they possess the {Trait} trait"
-msgstr "{Name} kann wegen der Eigenschaft {Trait} keine {Job}-Aufträge erledigen"
+msgstr "{Name} kann die {Job}-Aufträge nicht erledigen, da er die Eigenschaft {Trait} nicht hat"
 
 #. STRINGS.UI.LISTENTRYSTRING
 msgctxt "STRINGS.UI.LISTENTRYSTRING"
@@ -33383,7 +33204,7 @@ msgstr "Benötigt {0}: {1}"
 #. STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC
 msgctxt "STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC"
 msgid "Requires {0} Research"
-msgstr "Benötigt Forschung: {0}"
+msgstr "Benötigte Forschung: {0}"
 
 #. STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED
 msgctxt "STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED"
@@ -34197,7 +34018,7 @@ msgstr "Leere Boden"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP"
 msgid "Delete clutter"
-msgstr ""
+msgstr "Plunder löschen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME"
@@ -34866,7 +34687,7 @@ msgstr "Zerstöre"
 #. STRINGS.UI.TOOLS.SANDBOX.FLOOD.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.FLOOD.NAME"
 msgid "Flood"
-msgstr "Überflute"
+msgstr "Füllen"
 
 #. STRINGS.UI.TOOLS.SANDBOX.HEATGUN.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.HEATGUN.NAME"
@@ -35074,12 +34895,9 @@ msgid "Must be built in unoccupied space"
 msgstr "Muss auf einem freien Platz gebaut werden"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED"
-#| msgid "Liquid ports are obstructed"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
 msgid "Solid ports are obstructed"
-msgstr "Flüssigkeitsanschlüsse sind verstopft"
+msgstr "Feststoffanschlüsse sind verstopft"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
