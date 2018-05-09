@@ -6142,7 +6142,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME"
 msgid "<link=\"WIREBRIDGEHIGHWATTAGE\">Heavi-Watt Joint Plate</link>"
-msgstr "<link=\"WIREBRIDGEHIGHWATTAGE\">Starke Leiter-Verbindungsplatte</link>"
+msgstr "<link=\"WIREBRIDGEHIGHWATTAGE\">Starkstrom-Verbindungsplatte</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC"
@@ -6193,7 +6193,7 @@ msgstr "<link=\"WIREREFINEDBRIDGE\">Leiterkabelbrücke</link>"
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.DESC"
 msgid "Joint plates can run Heavi wires through walls without leaking gas or liquid."
-msgstr "Verbindungsplatten können Starkstromkabel durch Wände führen ohne Gase oder Flüssigkeiten durchzulassen."
+msgstr "Verbindungsplatten können starke Leiterkabel durch Wände führen ohne Gase oder Flüssigkeiten durchzulassen."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
@@ -10782,6 +10782,31 @@ msgstr "Definiert die Temperatur, bei der ein Duplikant verbrennt."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME"
 msgid "Scalding Threshold"
 msgstr "Skalierungsschwelle"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.NAME"
+#| msgid "Scale Growth"
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
+msgid "Scale Growth"
+msgstr "Schuppenwachstum"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
+#| msgid ""
+#| "Scale Growth\n"
+#| "------------------\n"
+#| "How long until this creatures scales will grow back."
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
+msgid ""
+"Scale Growth\n"
+"------------------\n"
+"How long until this creatures scales will grow back."
+msgstr ""
+"Schuppenwachstum\n"
+"------------------\n"
+"Dauer bis die Schuppen dieses Tier wieder nachwachsen."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC"
