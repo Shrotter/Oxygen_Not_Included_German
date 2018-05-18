@@ -5201,7 +5201,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME"
 msgid "<link=\"OUTHOUSE\">Outhouse</link>"
-msgstr "<link=\"OUTHOUSE\">Plumsklo</link>"
+msgstr "<link=\"OUTHOUSE\">Plumpsklo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC"
@@ -11915,12 +11915,11 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_URGE"
 msgid "No current need"
 msgstr "Kein aktueller Bedarf"
 
-# Wer oder was ist denn selektiert?
-# -Ich geh mal von ner Auswahl eines Duplikanten aus dem String nach ka wo der Text benutzt wird
+# Text wird angezeigt wenn ein Duplikant ausgewählt wird, und dann im Tooltip eines anderen Objektes die möglichen Interaktionen aufgelistet sind.
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
 msgid "The selected {Selected} could:"
-msgstr "Der/Die/Das ausgewählte {Selected} konnte:"
+msgstr "{Selected} (ausgewählt) könnte:"
 
 # Führt zu nervigem Clipping im Baumenü, daher abgekürzt.
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ALLOWED_BY_AUTOMATION
@@ -12016,7 +12015,7 @@ msgstr "Während der Alarmstufe Rot nicht verfügbar"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OFF_LADDER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OFF_LADDER"
 msgid "{Selected} is busy climbing"
-msgstr "{Selected} ist beim klettern"
+msgstr "{Selected} klettert grade"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OKAY_TIME_TO_SLEEP
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OKAY_TIME_TO_SLEEP"
@@ -16788,7 +16787,7 @@ msgstr "Dieser Duplikant erforscht {Tech} Technologie"
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.NAME"
 msgid "{Role}: {Progress} Mastery"
-msgstr "{Role}: {Progress} Meisterhaftigkeit"
+msgstr "{Role}: {Progress} gemeistert"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP"
@@ -16799,7 +16798,7 @@ msgid ""
 msgstr ""
 "Dieser Duplikant arbeitet als {Role}\n"
 "------------------\n"
-"Er hat {Progress} Meisterhaftigkeit in diesem Beruf"
+"Er hat diesen Beruf zu {Progress} gemeistert"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROTTEN.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROTTEN.NAME"
@@ -33399,7 +33398,7 @@ msgstr "Allgemeine Erfahrung"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.DESCRIPTION"
 msgid "Mastery of the <b>{0}</b> job"
-msgstr "Beherrschung des <b>{0}</b> Berufs"
+msgstr "Beherrschung des Berufs <b>{0}</b>"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.NAME"
