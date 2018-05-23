@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -1599,7 +1599,7 @@ msgid ""
 msgstr ""
 "Es wird empfohlen, dieses Gebäude innerhalb eines/einer {0} zu bauen\n"
 "\n"
-"Öffnen Sie das Raum-Overlay <color=#F44A47>[F11]</color>, um den Raumstatus anzuzeigen"
+"Öffne das Raum-Overlay <color=#F44A47>[F11]</color>, um den Raumstatus anzuzeigen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME"
@@ -1615,7 +1615,7 @@ msgid ""
 msgstr ""
 "Dieses Gebäude muss innerhalb eines/einer {0} gebaut werden, um die volle Funktionalität zu erhalten\n"
 "\n"
-"Öffnen Sie das Raum-Overlay <color=#F44A47>[F11]</color>, um den Raumstatus anzuzeigen"
+"Öffne das Raum-Overlay <color=#F44A47>[F11]</color>, um den Raumstatus anzuzeigen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
@@ -1907,7 +1907,7 @@ msgid ""
 msgstr ""
 "Diese Förderschiene kann kein Material mehr transportieren.\n"
 "------------------\n"
-"Entfernen Sie Material aus dem Förderbehälter, um Platz für weitere Objekte zu schaffen"
+"Entferne Material aus dem Förderbehälter, um Platz für weitere Objekte zu schaffen"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -5201,7 +5201,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME"
 msgid "<link=\"OUTHOUSE\">Outhouse</link>"
-msgstr "<link=\"OUTHOUSE\">Plumsklo</link>"
+msgstr "<link=\"OUTHOUSE\">Plumpsklo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC"
@@ -5712,7 +5712,7 @@ msgstr "<link=\"SOLIDTRANSFERARM\">Automatischer Räumer</link>"
 #. STRINGS.BUILDINGS.PREFABS.SPACEHEATER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.DESC"
 msgid "A space heater will radiate heat for as long as it's powered."
-msgstr "Eine Raumheizung strahlt Wärme aus, solange sie mit Strom versogt wird."
+msgstr "Eine Raumheizung strahlt Wärme aus, solange sie mit Strom versorgt wird."
 
 #. STRINGS.BUILDINGS.PREFABS.SPACEHEATER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.EFFECT"
@@ -10296,7 +10296,7 @@ msgstr "{0} Dekorationsgeschwindigkeit"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC"
 msgid "Determines a Duplicant's default runspeed."
-msgstr "Bestimmt die Laufgeschwindigkeit eines Duplikats."
+msgstr "Bestimmt die Standard-Bewegungsgeschwindigkeit eines Duplikanten."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME"
@@ -10330,7 +10330,7 @@ msgstr "Blasenentleerung"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.BONUS_SEEDS
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.BONUS_SEEDS"
 msgid "{0} Seed Chance"
-msgstr "{0} Chance für Samen für"
+msgstr "{0} Chance für Samen"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC"
@@ -10350,7 +10350,7 @@ msgstr "Landwirtschaft"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.TINKER_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.TINKER_MODIFIER"
 msgid "{0} Tending Speed"
-msgstr "{0} Hegegeschwindigkeit"
+msgstr "{0} Pflegegeschwindigkeit"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BREATHDELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BREATHDELTA.DESC"
@@ -10385,7 +10385,7 @@ msgstr "{0} Gesamt-Behandlungsgeschwindigkeit"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME"
 msgid "Kindness"
-msgstr "Freundlichkeit"
+msgstr "Fürsorge"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARING.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.SPEEDMODIFIER"
@@ -10395,7 +10395,7 @@ msgstr "{0} Medizinische Behandlungsgeschwindigkeit"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.DESC"
 msgid "Determines the maximum weight that a Duplicant can carry."
-msgstr "Bestimmt das maximale Anzahl, die ein Duplikant tragen kann."
+msgstr "Bestimmt das maximale Gewicht, das ein Duplikant tragen kann."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARRYAMOUNT.NAME"
@@ -10405,7 +10405,7 @@ msgstr "Tragekapazität"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.DESC"
 msgid "Determines a Duplicant's building speed."
-msgstr "Bestimmt die Geschwindigkeit eines Duplikats."
+msgstr "Bestimmt die Baugeschwindigkeit eines Duplikanten."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.NAME"
@@ -10671,7 +10671,7 @@ msgstr "Lebenserhaltung"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.DESC"
 msgid "Determines how adeptly a Duplicant uses machines."
-msgstr "Legt fest, wie geschickt ein Duplikant beim benutzen von Maschinen ist."
+msgstr "Legt fest, wie geschickt ein Duplikant beim Benutzen von Maschinen ist."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.NAME"
@@ -10706,7 +10706,7 @@ msgstr "Wachstumsgeschwindigkeit"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC"
 msgid "Determines a Duplicant's runspeed when submerged in liquid"
-msgstr "Bestimmt die Laufgeschwindigkeit eines Duplikats, wenn dieser in Flüssigkeit taucht"
+msgstr "Bestimmt die Laufgeschwindigkeit eines Duplikaten, wenn dieser in Flüssigkeit taucht"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.NAME"
@@ -10836,7 +10836,7 @@ msgstr "{0} Tragekapazität"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC"
 msgid "Determines a Duplicant's carrying capacity, and how much elbow grease they can put into cleaning errands."
-msgstr "Bestimmt die Tragfähigkeit eines Duplikats und wie viel Muskelkraft er für Reinigungsaufträge aufbringen kann."
+msgstr "Bestimmt die Tragekapazität eines Duplikanten und wie viel Muskelkraft er für Reinigungsaufträge aufbringen kann."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.NAME"
@@ -11318,12 +11318,12 @@ msgstr "Pflegen"
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.STATUS"
 msgid "Tending plant"
-msgstr "Pflegen von Pflanzen"
+msgstr "Pflegt eine Pflanze"
 
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP"
 msgid "Tending plants increases their growth rate"
-msgstr "Das Pflegen von Pflanzen züchten erhöhen ihre Wachstumsrate"
+msgstr "Das Pflegen von Pflanzen erhöht ihre Wachstumsrate"
 
 #. STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME"
@@ -11915,12 +11915,11 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_URGE"
 msgid "No current need"
 msgstr "Kein aktueller Bedarf"
 
-# Wer oder was ist denn selektiert?
-# -Ich geh mal von ner Auswahl eines Duplikanten aus dem String nach ka wo der Text benutzt wird
+# Text wird angezeigt wenn ein Duplikant ausgewählt wird, und dann im Tooltip eines anderen Objektes die möglichen Interaktionen aufgelistet sind.
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
 msgid "The selected {Selected} could:"
-msgstr "Der/Die/Das ausgewählte {Selected} konnte:"
+msgstr "{Selected} (ausgewählt) könnte:"
 
 # Führt zu nervigem Clipping im Baumenü, daher abgekürzt.
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ALLOWED_BY_AUTOMATION
@@ -12016,7 +12015,7 @@ msgstr "Während der Alarmstufe Rot nicht verfügbar"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OFF_LADDER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OFF_LADDER"
 msgid "{Selected} is busy climbing"
-msgstr "{Selected} ist beim klettern"
+msgstr "{Selected} klettert grade"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OKAY_TIME_TO_SLEEP
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OKAY_TIME_TO_SLEEP"
@@ -12918,7 +12917,7 @@ msgid ""
 "This Duplicant's last meal wasn't exactly sanitary"
 msgstr ""
 "\n"
-"Die letzte Mahlzeit des Duplikats war nicht ganz hygienisch"
+"Die letzte Mahlzeit des Duplikanten war nicht ganz hygienisch"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.DESCRIPTIVE_SYMPTOMS"
@@ -12984,7 +12983,7 @@ msgid ""
 "This Duplicant's thought processes have short circuited from extreme heat exposure"
 msgstr ""
 "\n"
-"Die Gedankenprozesse des Duplikats sind durch extremer Hitzebelastung lahmgelegt"
+"Die Gedankenprozesse des Duplikanten sind durch extreme Hitzebelastung lahmgelegt"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT"
@@ -15159,7 +15158,7 @@ msgstr "<link=\"FARMER\">Landwirt</link>"
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
 msgid "This Duplicant enjoys performing {0} jobs and will master them {1}% faster"
-msgstr "Dieser Duplikant genießt es den {0} Beruf auszuüben und wird diesen um {1}% schneller meistern"
+msgstr "Dieser Duplikant genießt es den Beruf {0} auszuüben und wird diesen um {1}% schneller meistern"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
@@ -16212,12 +16211,12 @@ msgstr "Krankheit"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants have contracted a <link=\"DISEASE\">Disease</link>:"
-msgstr "Diese Duplikaten sind an einer <link=\"DISEASE\">Krankheit</link> erkrankt:"
+msgstr "Diese Duplikanten sind an einer <link=\"DISEASE\">Krankheit</link> erkrankt:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP"
 msgid "This Duplicant has contracted a Disease"
-msgstr "Dieser Duplikat ist an einer Krankheit erkrankt"
+msgstr "Dieser Duplikant ist an einer Krankheit erkrankt"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HOLDINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HOLDINGBREATH.NAME"
@@ -16533,7 +16532,7 @@ msgid ""
 msgstr ""
 "Dieser Duplikant hat keine Berufszuordnung\n"
 "------------------\n"
-"Rufen Sie das Beruf-Panel auf <color=#F44A47>[L]</color>, um verfügbare Berufe anzuzeigen"
+"Rufe das Beruf-Panel auf <color=#F44A47>[L]</color>, um verfügbare Berufe anzuzeigen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME"
@@ -16788,7 +16787,7 @@ msgstr "Dieser Duplikant erforscht {Tech} Technologie"
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.NAME"
 msgid "{Role}: {Progress} Mastery"
-msgstr "{Role}: {Progress} Meisterhaftigkeit"
+msgstr "{Role}: {Progress} gemeistert"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP"
@@ -16799,7 +16798,7 @@ msgid ""
 msgstr ""
 "Dieser Duplikant arbeitet als {Role}\n"
 "------------------\n"
-"Er hat {Progress} Meisterhaftigkeit in diesem Beruf"
+"Er hat diesen Beruf zu {Progress} gemeistert"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROTTEN.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROTTEN.NAME"
@@ -17157,7 +17156,7 @@ msgstr "Ersticken"
 #. STRINGS.DUPLICANTS.STATUSITEMS.SUFFOCATING.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SUFFOCATING.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants cannot breathe:"
-msgstr "Diese Duplikatoren können nicht atmen:"
+msgstr "Diese Duplikanten können nicht atmen:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SUFFOCATING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SUFFOCATING.TOOLTIP"
@@ -22534,7 +22533,7 @@ msgid ""
 "\n"
 "Duplicants will equip an exosuit when they walk past the Checkpoint in the chosen direction, and will unequip their suit when walking back the opposite way."
 msgstr ""
-"<link=\"EQUIPMENT\">Schutzanzüge</link> schützen deine Duplikanten vor Umweltrisiken wie extreme <link=\"HEAT\">Hitze</link>, <link=\"DISEASE\">Keime</link> in der Luft und nicht atmbare <link=\"ELEMENTSGAS\">Gase</link>. Um diese Anzüge verwenden zu können, müssen du sie in einem Schutzanzug-Dock aufbewahrt werden, die an einem Schutzanzug-Kontrollpunkt angekoppelt sind.\n"
+"<link=\"EQUIPMENT\">Schutzanzüge</link> schützen deine Duplikanten vor Umweltrisiken wie extreme <link=\"HEAT\">Hitze</link>, <link=\"DISEASE\">Keime</link> in der Luft und nicht atmbare <link=\"ELEMENTSGAS\">Gase</link>. Um diese Anzüge verwenden zu können, müssen sie in einem Schutzanzug-Dock aufbewahrt werden, die an einem Schutzanzug-Kontrollpunkt angekoppelt sind.\n"
 "\n"
 "Duplikanten ziehen einen Anzug an, wenn sie einen Kontrollpunkt in dessen Richtung passieren, und ziehen ihn wieder aus, wenn sie den entgegengesetzten Weg gehen."
 
@@ -27141,7 +27140,7 @@ msgstr "Diese Einrichtung wird nur von dem zugewiesenen Duplikanten verwendet"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY"
 msgid "Can hold {0} of power when connected to a generator"
-msgstr "Kann {0} Energie speichern wenn sie mit einem Generator verbunden sind"
+msgstr "Kann bei Verbindung mit einem Generator {0} Energie speichern"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK"
@@ -28247,7 +28246,7 @@ msgstr "Mittlere Zellmasse: {0}"
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_TEMPERATURE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_TEMPERATURE"
 msgid "Average temperature: {0}"
-msgstr "Mittleretemperatur: {0}"
+msgstr "Mittlere Temperatur: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.JOULES_PER_KILOGRAM
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.JOULES_PER_KILOGRAM"
@@ -28706,7 +28705,7 @@ msgid ""
 "------------------\n"
 "Without medical care, they will be infected indefinitely"
 msgstr ""
-"Behandelte Duplikate erholen sich von dieser Krankheit in {0}\n"
+"Behandelte Duplikanten erholen sich von dieser Krankheit in {0}\n"
 "------------------\n"
 "Ohne medizinische Hilfe bleiben sie unbegrenzt lange infiziert"
 
@@ -29889,7 +29888,7 @@ msgstr "Normal"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.DEFAULT.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.DEFAULT.TOOLTIP"
 msgid "Duplicants regain immunity normally"
-msgstr "Duplikanten regenerieren normalerweise ihre Immunität"
+msgstr "Duplikanten haben normale Immunitätsregeneration"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.ATTRIBUTE_MODIFIER_NAME"
@@ -29919,7 +29918,7 @@ msgstr "Stark"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.STRONG.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.STRONG.TOOLTIP"
 msgid "Duplicants have increased immune recovery"
-msgstr "Duplikant hat erhöhte Immunitätsregeneration"
+msgstr "Duplikanten haben erhöhte Immunitätsregeneration"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.ATTRIBUTE_MODIFIER_NAME"
@@ -29934,7 +29933,7 @@ msgstr "Schwach"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.TOOLTIP"
 msgid "Duplicants have reduced immune recovery"
-msgstr "Duplikant hat reduzierte Immunitätsregeneration"
+msgstr "Duplikanten haben reduzierte Immunitätsregeneration"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME"
@@ -30000,7 +29999,7 @@ msgstr "Schicksalsergeben"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DOOMED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DOOMED.TOOLTIP"
 msgid "Duplicants stress out at an extremely accelerated rate"
-msgstr "Die Belastung der Duplikanten nimmt extrem schnell zu"
+msgstr "Duplikanten werden extrem schnell gestresst"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.INDOMITABLE.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.INDOMITABLE.ATTRIBUTE_MODIFIER_NAME"
@@ -30015,7 +30014,7 @@ msgstr "Unbeirrbar"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.INDOMITABLE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.INDOMITABLE.TOOLTIP"
 msgid "Duplicants will never get stressed"
-msgstr "Duplikaten werden nie gestresst"
+msgstr "Duplikanten werden nie gestresst"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.ATTRIBUTE_MODIFIER_NAME"
@@ -30030,7 +30029,7 @@ msgstr "Optimistisch"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.TOOLTIP"
 msgid "Duplicants are harder to stress out"
-msgstr "Duplikant wird nicht so einfach Gestresst"
+msgstr "Duplikanten werden langsamer gestresst"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.PESSIMISTIC.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.PESSIMISTIC.ATTRIBUTE_MODIFIER_NAME"
@@ -30045,7 +30044,7 @@ msgstr "Pessimistisch"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.PESSIMISTIC.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.PESSIMISTIC.TOOLTIP"
 msgid "Duplicants stress out easily"
-msgstr "Duplikant lässt sich einfach Stressen"
+msgstr "Duplikanten werden schneller gestresst"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.NAME"
@@ -30055,7 +30054,7 @@ msgstr "Gemüt"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.TOOLTIP"
 msgid "Affects how well your Duplicants deal with stress"
-msgstr "Beeinflusst wie ein Duplikant mit Stress umgehen kann"
+msgstr "Beeinflusst wie gut deine Duplikanten mit Stress umgehen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DEFAULT.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DEFAULT.NAME"
@@ -30065,7 +30064,7 @@ msgstr "Normal"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DEFAULT.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DEFAULT.TOOLTIP"
 msgid "Duplicants will act out when they reach 100% stress"
-msgstr "Duplikanten werden sich aus­agie­ren, wenn sie 100% Stress erreichen"
+msgstr "Duplikanten zeigen eine Stressreaktion, wenn sie 100% Stress erreichen"
 
 # TODO: Hier steht bewusst nicht "Objekt", damit es platztechnisch passt.
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DISABLED.NAME
@@ -30076,7 +30075,7 @@ msgstr "Deaktiviert"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DISABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DISABLED.TOOLTIP"
 msgid "Duplicants will not act out at maximum stress"
-msgstr "Duplikanten werden nicht bei maximalem Stress ausagieren"
+msgstr "Duplikanten zeigen bei 100% keine Stressreaktion"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.NAME"
@@ -30086,7 +30085,7 @@ msgstr "Stressreaktionen"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.TOOLTIP"
 msgid "Whether or not your Duplicants act out when they reach maximum stress"
-msgstr "Ob Ihre Duplikanten sich bei maximalem Stress ausagieren oder nicht"
+msgstr "Bestimmt, ob deine Duplikanten Stressreaktionen zeigen oder nicht"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.NAME"
@@ -30096,7 +30095,7 @@ msgstr "Welt(DEBUG)"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.TOOLTIP"
 msgid "(DEBUG FEATURE) Select your starting world."
-msgstr "(DEBUG FEATURE) Wähle deine Startwelt aus."
+msgstr "(DEBUG-FEATURE) Wähle deine Startwelt aus."
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.NAME"
@@ -30106,7 +30105,7 @@ msgstr "Weltgenerator-Seed"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.TOOLTIP"
 msgid "This chooses the random parameters of your new world"
-msgstr "Wählt die Parameter zufällig für deine neuen Welt aus"
+msgstr "Dies bestimmt die zufälligen Parameter deiner neuen Welt"
 
 #. STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.DEMO_OVER_SCREEN.BODY"
@@ -30543,7 +30542,7 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
-"<b>Willkommen beim Viehzucht Upgrade Mark 2!</b>\n"
+"<b>Willkommen beim Viehzucht-Upgrade Mark 2!</b>\n"
 "\n"
 "{0}"
 
@@ -30568,10 +30567,10 @@ msgstr ""
 "\n"
 "• Neue \"Tier-Gestalten\" können durch eine sorgfältige Zucht ausgebrütet werden\n"
 "• Zwei neue Kreaturen, Drecko und Pacu, können nun in Welten gefunden werden\n"
-"• Werde Im Sandbox-Modus zum Meister des Asteroiden\n"
+"• Werde im Sandbox-Modus zum Meister des Asteroiden\n"
 "• Neue Automatisierungssteuerungen, Rohre und Gebäude\n"
 "\n"
-"Schau dir bitte auch die vollständigen Patchnotes für alle Details an!"
+"Schau dir bitte die vollständigen Patchnotizen für alle Details an!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
@@ -30645,7 +30644,7 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
-"Beim Speichern des Spielstands ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass genügend Speicherplatz vorhanden ist.\n"
+"Beim Speichern des Spielstands ist ein Fehler aufgetreten. Bitte stelle sicher, dass genügend Speicherplatz vorhanden ist.\n"
 "\n"
 "{0}"
 
@@ -30779,7 +30778,7 @@ msgstr "Liste der Sprachen konnte nicht von Steam abgefragt werden"
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PLEASE_REBOOT
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PLEASE_REBOOT"
 msgid "Please restart your game for these changes to take effect."
-msgstr "Bitte starten Sie Ihr Spiel neu, damit diese Änderungen wirksam werden."
+msgstr "Bitte starte dein Spiel neu, damit diese Änderungen wirksam werden."
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_HEADER
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_HEADER"
@@ -31459,7 +31458,7 @@ msgstr "{0} kann diese {Job}-Auftrag nicht ausführen"
 #. STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP"
 msgid "Set the priority for <b>{Job} Errands</b> colonywide\n"
-msgstr "Stellt die Priorität für <b>{Job} Aufträge</b> kolonieweit ein\n"
+msgstr "Stellt die Priorität für <b>{Job}-Aufträge</b> kolonieweit ein\n"
 
 #. STRINGS.UI.JOBSSCREEN.HEADER_DETAILS_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_DETAILS_TOOLTIP"
@@ -31505,22 +31504,22 @@ msgstr "Priorisiere <b>alle Aufträge</b> für <b>neue Duplikanten</b>"
 #. STRINGS.UI.JOBSSCREEN.ITEM_AUTO_ASSIGNED_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.ITEM_AUTO_ASSIGNED_TOOLTIP"
 msgid "As a {Role}, {Name} considers {Job} Errands to be a {Priority} Priority"
-msgstr "Als {Rolle}, {Name} betrachtet {Job} -Aufträge als {Priorität} Priorität"
+msgstr "Als {Rolle}, {Name} betrachtet {Job} -Aufträge als Priorität {Priorität} "
 
 #. STRINGS.UI.JOBSSCREEN.ITEM_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.ITEM_TOOLTIP"
 msgid "{Job} Errands are a {Priority} Priority for <b>{Name}</b>"
-msgstr "{Job}-Aufträge sind für <b>{Name}</b> {Priority} Priorität"
+msgstr "{Job}-Aufträge sind für <b>{Name}</b> von Priorität {Priority}"
 
 #. STRINGS.UI.JOBSSCREEN.MINION_SKILL_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.MINION_SKILL_TOOLTIP"
 msgid "{Name}'s {Attribute} skill: "
-msgstr "{Name}s {Attribute} Fähigkeit: "
+msgstr "{Name}s {Attribute}-Fähigkeit: "
 
 #. STRINGS.UI.JOBSSCREEN.NEW_MINION_ITEM_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.NEW_MINION_ITEM_TOOLTIP"
 msgid "{Job} Errands are automatically a {Priority} Priority for <b>Arriving Duplicants</b>"
-msgstr "{Job}-Aufträge haben für <b>neue Duplikanten</b> automatisch {Priority} Priorität"
+msgstr "{Job}-Aufträge haben für <b>neue Duplikanten</b> automatisch die Priorität {Priority}"
 
 #. STRINGS.UI.JOBSSCREEN.OPTIONS
 msgctxt "STRINGS.UI.JOBSSCREEN.OPTIONS"
@@ -31535,12 +31534,12 @@ msgstr "Deaktiviert"
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.HIGH
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.HIGH"
 msgid "High"
-msgstr "Hohe"
+msgstr "Hoch"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.LOW
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.LOW"
 msgid "Low"
-msgstr "Niedrige"
+msgstr "Niedrig"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.STANDARD
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.STANDARD"
@@ -31586,7 +31585,7 @@ msgstr "Sortierung nach der Priorität der {Job}-Aufträge"
 #. STRINGS.UI.JOBSSCREEN.TITLE
 msgctxt "STRINGS.UI.JOBSSCREEN.TITLE"
 msgid "MANAGE ERRAND PRIORITIES"
-msgstr "VERWALTE AUFTRAGS-PRIORITÄTEN"
+msgstr "AUFTRAGS-PRIORITÄTEN VERWALTEN"
 
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
@@ -31608,13 +31607,13 @@ msgid ""
 "\n"
 "This mode is ideal for large bases and for players who have heavily customized Duplicant Priorities."
 msgstr ""
-"<b>Normal Modus</b> (nicht angekreuzt):\n"
+"<b>Normaler Modus</b> (nicht angekreuzt):\n"
 "\n"
 "Duplikanten wählen zuerst einen Auftrag auf der Grundlage ihrer Prioritäten und dann nach Sub-Prioritäten aus. Wenn mehr als eine verfügbarer Auftrag die gleiche Priorität hat, dann werden sie auf der Grundlage einer versteckten Priorität auswählen, die neuen Basen hilft, reibungsloser zu laufen.\n"
 "\n"
 "Dieser Modus ist ideal für neue Spieler und für kleinere Basen.\n"
 "\n"
-"<b>Erweiteter Modus</b> (nicht angekreuzt):\n"
+"<b>Erweiterter Modus</b> (angekreuzt):\n"
 "\n"
 "Duplikanten wählen immer noch einen Auftrag basierend auf ihren Prioritäten und dann nach Sub-Prioritäten aus. Die versteckte Priorität wird deaktiviert, so dass der Duplikant im Falle eines Gleichstands den nächstgelegenen Auftrag auswählt. Dies hilft ihnen, in der Nähe des gleichen Bereichs der Kolonie zu bleiben, solange die gesamte Arbeit dort ihre höchste Priorität hat.\n"
 "\n"
@@ -31628,7 +31627,7 @@ msgstr "Alle Aufträge für die ganze Kolonie festlegen"
 #. STRINGS.UI.JOBSSCREEN.TRAIT_DISABLED
 msgctxt "STRINGS.UI.JOBSSCREEN.TRAIT_DISABLED"
 msgid "{Name} cannot do {Job} errands because they possess the {Trait} trait"
-msgstr "{Name} kann die {Job}-Aufträge nicht erledigen, da er die Eigenschaft {Trait} nicht hat"
+msgstr "{Name} kann keine {Job}-Aufträge erledigen, da er die Eigenschaft {Trait} hat"
 
 #. STRINGS.UI.LISTENTRYSTRING
 msgctxt "STRINGS.UI.LISTENTRYSTRING"
@@ -32683,7 +32682,7 @@ msgid ""
 msgstr ""
 "[>{0} dB]\n"
 "------------------\n"
-"Kakophoner Lärm verursacht erheblichen Stress und verhindert, dass Duplikaten schlafen oder forschen.\n"
+"Kakophoner Lärm verursacht erheblichen Stress und verhindert, dass Duplikanten schlafen oder forschen.\n"
 "Fußgängerverkehr, Generatoren und Gebäude mit Stromzufuhr können hohe Lärmpegel verursachen."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.EXTREME
@@ -32719,7 +32718,7 @@ msgid ""
 "------------------\n"
 "Soundproofed rooms and areas free of buildings and critters will generally be quieter."
 msgstr ""
-"Ruhige Bereiche verringern Stress, stellen Sie sicher, dass Duplikanten guten Schlaf haben und helfe ihnen, sich zu konzentrieren\n"
+"Ruhige Bereiche verringern Stress, stellen sicher, dass Duplikanten guten Schlaf haben und helfen ihnen, sich zu konzentrieren\n"
 "------------------\n"
 "Schallgedämmte Räume und Zonen ohne Objekte oder Tiere sind im Allgemeinen ruhiger."
 
@@ -33399,7 +33398,7 @@ msgstr "Allgemeine Erfahrung"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.DESCRIPTION"
 msgid "Mastery of the <b>{0}</b> job"
-msgstr "Beherrschung des <b>{0}</b> Berufs"
+msgstr "Beherrschung des Berufs <b>{0}</b>"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.NAME"
@@ -33494,12 +33493,12 @@ msgstr "Mittlere Dekorationswerte"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire slightly improved colony decor"
-msgstr "Duplikate, die in dieser Stufe eingesetzt werden, wünschen leicht verbessertes Koloniedekor"
+msgstr "Duplikanten, die in dieser Stufe eingesetzt werden, wünschen leicht verbessertes Koloniedekor"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME"
 msgid "Minor Decor"
-msgstr "Unwesentliche Dekoration"
+msgstr "Unwesentliche Dekorationswerte"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION"
@@ -33559,17 +33558,17 @@ msgstr "Duplikanten in dieser Stufe möchten, dass ihre Nahrung den grundlegende
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME"
 msgid "Standard Food"
-msgstr "Standard Nahrung"
+msgstr "Standard-Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier have a refined taste for food"
-msgstr "Duplikate in diesem Beruf haben einen erlesenen Geschmack für Lebensmittel"
+msgstr "Duplikanten in dieser Stufe haben einen hohen Anspruch an Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME"
 msgid "Superb Food"
-msgstr "Hervorragendes Essen"
+msgstr "Hervorragende Nahrung"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.NO_EXPECTATIONS
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.NO_EXPECTATIONS"
@@ -33637,7 +33636,7 @@ msgid ""
 "Trait: <link=\"PLANTS\">Crop Tending</link>\n"
 "    • Trait: <link=\"MISC\">Micronutrient fertilizer</link> Crafting"
 msgstr ""
-"Merkmal: <link=\"PLANTS\">Pflanzenpfelge</link>\n"
+"Merkmal: <link=\"PLANTS\">Pflanzenpflege</link>\n"
 "    • Merkmal: <link=\"MISC\">Spurenelementdünger-Herstellung</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION
@@ -33707,7 +33706,7 @@ msgstr "+{0} zu Athletik"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INCREASED_CARING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASED_CARING.DESCRIPTION"
 msgid "+{0} to Caring"
-msgstr "+{0} zum Tragegewicht"
+msgstr "+{0} zu Fürsorge"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INCREASED_CARRY_AMOUNT.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASED_CARRY_AMOUNT.DESCRIPTION"
@@ -33863,7 +33862,7 @@ msgstr "Offene Stelle"
 #. STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED_TOOLTIP
 msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED_TOOLTIP"
 msgid "Click to assign a Duplicant to this job opening"
-msgstr "Klicken Sie hier, um diesem Stellenangebot einen Duplikanten zuzuordnen"
+msgstr "Klicke hier, um diesem Stellenangebot einen Duplikanten zuzuordnen"
 
 #. STRINGS.UI.ROLES_SCREEN.TIER_NAMES.FIVE
 msgctxt "STRINGS.UI.ROLES_SCREEN.TIER_NAMES.FIVE"
@@ -34273,7 +34272,7 @@ msgstr "Wähle einen Blocktyp aus, um den Zeitplan der Kolonie anzupassen"
 #. STRINGS.UI.SCHEDULESCREEN.SELECTHELP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTHELP"
 msgid "Select an option and then click or drag on the timetable to adjust the Duplicant's schedule."
-msgstr "Wählen Sie eine Option aus und klicke dann auf den Zeitplan, um den Zeitplan des Duplikanten anzupassen."
+msgstr "Wähle eine Option aus und klicke dann auf den Zeitplan, um den Zeitplan des Duplikanten anzupassen."
 
 #. STRINGS.UI.SCHEDULESCREEN.TIMESLOT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.TIMESLOT"
@@ -35814,7 +35813,7 @@ msgstr "Warmer Pullover ({0})"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.INFORMATION
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.INFORMATION"
 msgid "INFORMATION"
-msgstr "INFORMATOIN"
+msgstr "INFORMATION"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG"
@@ -37360,7 +37359,7 @@ msgstr "Entwurzeln"
 #. STRINGS.UI.USERMENUACTIONS.UPROOT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.UPROOT.TOOLTIP"
 msgid "Convert this plant into a seed"
-msgstr "Wandle Sie diese Pflanze in Samen um"
+msgstr "Wandelt diese Pflanze in Samen um"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME"
