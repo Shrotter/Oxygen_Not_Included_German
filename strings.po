@@ -3467,7 +3467,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
 msgid "<link=\"FARMSTATION\">Farm Station</link>"
-msgstr "<link=\"FARMSTATION\">Landwitschaftsstation</link>"
+msgstr "<link=\"FARMSTATION\">Landwirtschafts-Station</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
@@ -3950,7 +3950,7 @@ msgstr "Ein Auslass um <link=\"GASPIPING\">Gas</link> aus <link=\"GASPIPING\">Ga
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.NAME"
 msgid "<link=\"GASVENT\">Gas Vent</link>"
-msgstr "<link=\"GASVENT\">Gas-Abzug</link>"
+msgstr "<link=\"GASVENT\">Gasabzug</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.DESC"
@@ -3965,7 +3965,7 @@ msgstr "Lässt <link=\"ELEMENTSGAS\">Gas</link> aus <link=\"GASPIPING\">Gasleitu
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME"
 msgid "<link=\"GASVENTHIGHPRESSURE\">High Pressure Gas Vent</link>"
-msgstr "<link=\"GASVENTHIGHPRESSURE\">Hochdruck-Gas-Abzug</link>"
+msgstr "<link=\"GASVENTHIGHPRESSURE\">Hochdruck-Gasabzug</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.DESC"
@@ -22905,7 +22905,7 @@ msgstr "Forschung abgeschlossen"
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP"
 msgid "{0} research complete!"
-msgstr "{0} Forschung abgeschlossen!"
+msgstr "Forschung an {0} abgeschlossen!"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME"
@@ -23897,7 +23897,7 @@ msgstr "Nährstoffreiche Erde"
 #. STRINGS.MISC.TAGS.FARMING
 msgctxt "STRINGS.MISC.TAGS.FARMING"
 msgid "Farm Build-Delivery"
-msgstr "Bauernhoferzeugnis Lieferung"
+msgstr "Bauernhoferzeugnis-Lieferung"
 
 #. STRINGS.MISC.TAGS.FARMINGMATERIAL
 msgctxt "STRINGS.MISC.TAGS.FARMINGMATERIAL"
@@ -23907,7 +23907,7 @@ msgstr "Düngemittel"
 #. STRINGS.MISC.TAGS.FARMSTATION
 msgctxt "STRINGS.MISC.TAGS.FARMSTATION"
 msgid "Farm Station"
-msgstr "Landwitschaftsstation"
+msgstr "Landwirtschafts-Station"
 
 #. STRINGS.MISC.TAGS.FILTER
 msgctxt "STRINGS.MISC.TAGS.FILTER"
@@ -26547,12 +26547,12 @@ msgstr "Dekoriationsgegenstand"
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION"
 msgid "Requires a single Farm Station"
-msgstr "Benötigt einen einzelen Landwitschaftsstation"
+msgstr "Benötigt eine Landwirtschafts-Station"
 
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME"
 msgid "Farm Station"
-msgstr "Landwitschaftsstation"
+msgstr "Landwirtschafts-Station"
 
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION"
@@ -30163,7 +30163,7 @@ msgid ""
 "\n"
 "Between two objects, the rate of heat transfer will be determined by the object with the lowest Thermal Conductivity"
 msgstr ""
-"Dieses Objekt kann Wärme an andere Materialien mit einer Rate von {0} W für jedes Grad {TEMPERATURE_UNIT} Differenz ableiten\n"
+"Dieses Objekt kann Wärme an andere Materialien mit einer Rate von {THERMAL_CONDUCTIVITY} W für jedes Grad {TEMPERATURE_UNIT} Differenz ableiten\n"
 "\n"
 "Wenn zwei Objekte miteinander interagieren, wird die Rate der Wärmeübertragung durch das Objekt mit der niedrigeren Wärmeleitfähigkeit bestimmt"
 
@@ -32387,7 +32387,7 @@ msgstr "Aktiviert/Deaktiviert"
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORTS
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORTS"
 msgid "<link=\"LOGIC\">Auto Inputs</link>: {0}"
-msgstr "<link=\"LOGIC\">automatische Eingaben</link>: {0}"
+msgstr "<link=\"LOGIC\">Automatisierungs-Eingaben</link>: {0}"
 
 #. STRINGS.UI.LOGIC_PORTS.OUTPUT_PORTS
 msgctxt "STRINGS.UI.LOGIC_PORTS.OUTPUT_PORTS"
@@ -32633,7 +32633,7 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.DECOR.TOTAL
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOTAL"
 msgid "Total Decor: "
-msgstr "Gesamt Dekorationswert: "
+msgstr "Gesamt-Dekorationswert: "
 
 #. STRINGS.UI.OVERLAYS.DECOR.VALUE
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.VALUE"
