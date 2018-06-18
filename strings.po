@@ -22885,6 +22885,12 @@ msgstr ""
 =======
 >>>>>>> parent of 9abc5ab... Cosmic Update
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
+#| msgid ""
+#| "The <link=\"FOOD\">Food</link> your Duplicants cook will only ever be as clean as the ingredients used to make it. Storing food in sterile or <link=\"REFRIGERATOR\">Refrigerated</link> environments will keep food free of <link=\"DISEASE\">Germs</link>, while carefully placed hygiene stations like <link=\"WASHBASIN\">Wash Basin</link> or <link=\"SHOWER\">Shower</link> will prevent your cooks from infecting the food by handling it.\n"
+#| "\n"
+#| "Dangerously contaminated food can be sent to compost by clicking the <link=\"MISC\">Compost</link> button on the selected item."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
 msgid ""
 "The <link=\"FOOD\">Food</link> your Duplicants cook will only ever be as clean as the ingredients used to make it. Storing food in sterile or <link=\"REFRIGERATOR\">Refrigerated</link> environments will keep food free of <link=\"DISEASE\">Germs</link>, while carefully placed hygiene stations like <link=\"WASHBASIN\">Wash Basin</link> or <link=\"SHOWER\">Shower</link> will prevent your cooks from infecting the food by handling it.\n"
@@ -23188,6 +23194,12 @@ msgid "Understanding your Duplicants' maneuverability"
 msgstr "Erklärung der Manövrierfähigkeit deiner Duplikanten"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
+#| msgid ""
+#| "<link=\"DISEASE\">Germs</link> are an invisible peril that cause <link=\"DISEASE\">Disease</link> in your Duplicants. The <link=\"MISC\">Germ overlay</link> <color=#F44A47><b>[F9]</b></color> will allow you to view all germ concentrations in your colony and the sources spawning them.\n"
+#| "\n"
+#| "Wash Basins can be built in dirty areas from the <link=\"MISC\">Medicine tab</link> <color=#F44A47><b>[8]</b></color> to tell your Duplicants to where to wash up. If you keep your base clean and your Duplicants hygienic, their <link=\"IMMUNE SYSTEM\">Immunity</link> will handle the rest."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
 msgid ""
 "<link=\"DISEASE\">Germs</link> are an invisible peril that cause <link=\"DISEASE\">Disease</link> in your Duplicants. The <link=\"MISC\">Germ overlay</link> <color=#F44A47><b>[F9]</b></color> will allow you to view all germ concentrations in your colony and the sources spawning them.\n"
@@ -23219,6 +23231,12 @@ msgid "These resources are not available:"
 msgstr "Diese Ressourcen sind nicht verfügbar:"
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY"
+#| msgid ""
+#| "<link=\"DIRTYWATER\">Polluted Water</link> emits <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> and can accelerate the spread of <link=\"DISEASE\">Disease</link> through your base.\n"
+#| "\n"
+#| "Small accidents can be cleaned up by clicking and dragging with the <link=\"MISC\">Mop tool</link> <color=#F44A47><b>[M]</b></color>, while larger bodies may be worth filtering. Polluted water also <link=\"STRESS\">stress</link> out Duplicants that come into contact with it, so it is best removed quickly for your colony's safety."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY"
 msgid ""
 "<link=\"DIRTYWATER\">Polluted Water</link> emits <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> and can accelerate the spread of <link=\"DISEASE\">Disease</link> through your base.\n"
@@ -23373,8 +23391,15 @@ msgid "Blocked pipes have stopped these systems from functioning:"
 msgstr "Ein blockiertes Rohr hält dieses System von der Funktion ab:"
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
+#| msgid "Duplicants will choose what work they do based on the priorities you set. To set priorities, open the Priorities menu to control master priorities, and then use the Sub-Priorities buttons under the tool menu. Many buildings also let you change their Sub-Priority level on selection."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
+<<<<<<< HEAD
 msgid "Duplicants will choose what work they do based on the priorities you set. To set priorities, open the Priorities menu to control master priorities, and then use the Sub-Priorities buttons under the tool menu. Many buildings also let you change their Sub-Priority level on selection."
+=======
+msgid "Duplicants will choose what work they do based on the priorities that I give them. I can open the <link=\"PRIORITIES\">PRIORITIES TAB</link> <color=#F44A47><b>[J]</b></color> to set their general priorities, and the <link=\"PRIORITIES\">SUB-PRIORITIES TOOL</link> <color=#F44A47><b>[P]</b></color> to fine tune them. Many buildings will also let me change their Sub-Priority level when I select them."
+>>>>>>> parent of 99af8b3... weitere Überarbeitungen
 msgstr "Duplikanten werden die zu erledigenden Aufgaben je nach gesetzter Priorität abarbeiten. Du kannst Prioritäten mit der Prioritätsschaltfläche unten im Werkzeugmenü festlegen. Bei vielen Objekten lassen sich die Sub-Prioritäten im Info-Fenster ändern."
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
@@ -27914,8 +27939,15 @@ msgid "<link=\"BUILDCATEGORYHVAC\">Ventilation</link>"
 msgstr "<link=\"BUILDCATEGORYHVAC\">Lüftung</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP"
+#| msgid "Control the flow of gas in your base."
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP"
+<<<<<<< HEAD
 msgid "Control the flow of gas in your base."
+=======
+msgid "Control the flow of gas in the base."
+>>>>>>> parent of 99af8b3... weitere Überarbeitungen
 msgstr "Kontrolliere den Gasfluss deiner Basis."
 
 #. STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME
