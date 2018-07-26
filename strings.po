@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -2793,12 +2793,17 @@ msgstr "<link=\"APOTHECARY\">Apotheke</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC"
-msgid "Duplicants can come here to play the hottest new video games."
-msgstr "Duplikanten müssen mindestens einmal täglich die Toilette benutzen."
+msgid ""
+"Komet Kablam-O!\n"
+"For up to two players."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
-msgid "Temp Crisis III GOTY Edition"
+msgid ""
+"Allows Duplicants to play video games on their breaks.\n"
+"\n"
+"Increases Duplicant Morale."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
@@ -2955,8 +2960,8 @@ msgstr "<link=\"BUNKERDOOR\">Bunkertür</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
-msgid "Extremely resilient to pressure and impact."
-msgstr "Extrem widerstandsfähig gegen Druck und Einschläge."
+msgid "Bunker tiles can be used to build strong shelters in otherwise dangerous environments."
+msgstr "Bunkerfliesen können verwendet werden, um in ansonsten gefährlichen Umgebungen starke Schutzräume zu errichten."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
@@ -3452,6 +3457,24 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME"
 msgid "<link=\"ELECTROLYZER\">Electrolyzer</link>"
 msgstr "<link=\"ELECTROLYZER\">Elektrolyseur</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
+msgid "A little boost of energy."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
+msgid ""
+"Provides a delicious and stimulating refreshment.\n"
+"\n"
+"Increases Duplicant Morale."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME"
+msgid "<link=\"ESPRESSOMACHINE\">Espresso Machine</link>"
+msgstr "<link=\"ESPRESSOMACHINE\">Espresso Machine</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
 msgid "Drywall can be used in conjunction with tiles to build airtight rooms on the surface."
@@ -3791,13 +3814,13 @@ msgstr "<link=\"LOGICELEMENTSENSORGAS\">Rohrgasdetektor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC"
-msgid ""
-msgstr "\n"
+msgid "Overflow valves can be used to prioritize which buildings should receive precious resources first."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT"
-msgid "Has a secondary output which is only used when the primary output is blocked."
-msgstr "Hat eine sekundären Ausgang, der nur verwendet wird, wenn der primäre Ausgang blockiert ist."
+msgid "Fills a secondary<link=\"ELEMENTSGAS\">Gas</link> output only when its primary output is blocked."
+msgstr "Füllt einen sekundären <link=\"ELEMENTSGAS\">Gas</link>ausgang nur, wenn der primäre Ausgang blockiert ist."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME"
@@ -4500,13 +4523,13 @@ msgstr "<link=\"LOGICELEMENTSENSORLIQUID\">Rohrflüssigkeitsdetektor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC"
-msgid ""
+msgid "Overflow valves can be used to prioritize which buildings should receive precious resources first."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT"
-msgid "Has a secondary output which is only used when the primary output is blocked."
-msgstr "Hat eine sekundären Ausgang, der nur verwendet wird, wenn die Primärausgang blockiert ist."
+msgid "Fills a secondary<link=\"ELEMENTSLIQUID\">Liquid</link> output only when its primary output is blocked."
+msgstr "Füllt eine sekundären <link=\"ELEMENTSLIQUID\">Flüssigkeits</link>ausgang nur, wenn der primäre Ausgang blockiert ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME"
@@ -5536,8 +5559,8 @@ msgstr "<link=\"PETROLEUMGENERATOR\">Petroleum-Generator</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC"
-msgid "Duplicants can come here to jam to some sweet tunes."
-msgstr ""
+msgid "Dancing helps Duplicants get their feelings out."
+msgstr "Tanzen hilft Duplikanten, ihre Gefühle auszudrücken."
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
@@ -5549,8 +5572,8 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
-msgid "<link=\"PHONOBOX\">Phonobox</link>"
-msgstr "<link=\"PHONOBOX\">Phono-Box</link>"
+msgid "<link=\"PHONOBOX\">Jukebot</link>"
+msgstr "<link=\"PHONOBOX\">Jukebot</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC"
@@ -5863,7 +5886,10 @@ msgstr "Tisch des Direktors"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY1.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY1.DESC"
-msgid "An electronic display projecting the blueprint of a strange device."
+msgid ""
+"An electronic display projecting the blueprint of a familiar device.\n"
+"\n"
+"It looks like a Printing Pod."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY1.NAME
@@ -5873,7 +5899,10 @@ msgstr "Elektronische Anzeige"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY2.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY2.DESC"
-msgid "An electronic display projecting the blueprint of a strange device."
+msgid ""
+"An electronic display projecting the blueprint of a familiar device.\n"
+"\n"
+"It looks like a Mining Gun."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY2.NAME
@@ -5883,7 +5912,10 @@ msgstr "Elektronische Anzeige"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY3.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY3.DESC"
-msgid "An electronic display projecting the blueprint of a strange device."
+msgid ""
+"An electronic display projecting the blueprint of a strange device.\n"
+"\n"
+"Perhaps these displays were used to entice visitors."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYDISPLAY3.NAME
@@ -6024,8 +6056,8 @@ msgstr "Modellskelett"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.DESC"
-msgid "Wreck of a satellite"
-msgstr "Wrack eines Satelliten"
+msgid "All that remains of a once peacefully orbiting satellite."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.NAME"
@@ -6034,23 +6066,23 @@ msgstr "Abgestürzter Satellit"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.DESC"
-msgid "Wreck of a satellite"
-msgstr "Wrack eines Satelliten"
+msgid "All that remains of a once peacefully orbiting satellite."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.NAME"
-msgid "Crashed Satellite"
-msgstr "Abgestürzter Satellit"
+msgid "Wrecked Satellite"
+msgstr "Ruinierter Satellit"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.DESC"
-msgid "Wreck of a satellite"
-msgstr "Wrack eines Satelliten"
+msgid "All that remains of a once peacefully orbiting satellite."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.NAME"
-msgid "Crashed Satellite"
-msgstr "Abgestürzter Satellit"
+msgid "Crushed Satellite"
+msgstr "Zerquetschter Satellit"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPTABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPTABLE.DESC"
@@ -7349,13 +7381,13 @@ msgstr "Schluckfisch"
 #. STRINGS.CODEX.CLEANUPTHEMESS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CLEANUPTHEMESS.BODY.CONTAINER1"
 msgid ""
-"I cleaned up a few messes in my time, but ain't nothing like the mess I seen today in that bio lab. Green goop all over the floor, all over the walls. Murky tubes with what look like human shapes floatin' in 'em.\n"
+"I cleaned up a few messes in my time, but ain't nothing like the mess I seen today in that bio lab. Green goop all over the floor, all over the walls. Murky tubes with what look like human shapes floating in them.\n"
 "\n"
-"They think Ol'[REDACTED] ain't got smarts enough to put two'n'two together, but I got eyes, don't I?\n"
+"They think old Mr. Gunderson ain't got smarts enough to put two and two together, but I got eyes, don't I?\n"
 "\n"
-"Then again, ain't nobody ever notice the janitor.\n"
+"Ain't nobody ever pay attention to the janitor.\n"
 "\n"
-"[REDACTED]"
+"-Mr. Stinky Gunderson"
 msgstr ""
 
 #. STRINGS.CODEX.CLEANUPTHEMESS.SUBTITLE
@@ -7365,7 +7397,7 @@ msgstr ""
 
 #. STRINGS.CODEX.CLEANUPTHEMESS.TITLE
 msgctxt "STRINGS.CODEX.CLEANUPTHEMESS.TITLE"
-msgid "Cleanin' Up The Mess"
+msgid "Cleaning Up The Mess"
 msgstr ""
 
 #. STRINGS.CODEX.CLONEDRATS.BODY.CONTAINER1
@@ -7383,7 +7415,9 @@ msgid ""
 "\n"
 "(squeaking)\n"
 "\n"
-"They also seem quite happy.\"\n"
+"They also seem quite happy.\n"
+"\n"
+"Dr. McClintock, signing off.\"\n"
 "\n"
 "[LOG ENDS]"
 msgstr ""
@@ -7576,6 +7610,9 @@ msgstr "<link=\"HARDNESS\">Härte</link>"
 #. STRINGS.CODEX.EMPLOYEEPROCESSING.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.EMPLOYEEPROCESSING.BODY.CONTAINER1"
 msgid ""
+"[VOICE RECOGNITION INITIALIZED]\n"
+"[SUBJECTS IDENTIFIED: A001, A435, B111]\n"
+"\n"
 "[LOG BEGINS]\n"
 "\n"
 "Technician: Thank-you for the fingerprints, doctor. We just need a quick voice sample, then you can be on your way.\n"
@@ -7594,7 +7631,7 @@ msgid ""
 "\n"
 "(throat clearing)\n"
 "\n"
-"Dr. McClintock: Security code B195, Dr. Jodi McClintock. Gravitas Facility Bioengineering Department.\n"
+"Dr. McClintock: Security code B111, Dr. Jodi McClintock. Gravitas Facility Bioengineering Department.\n"
 "\n"
 "(pause)\n"
 "\n"
@@ -7667,11 +7704,17 @@ msgstr "Title of the Example entry"
 #. STRINGS.CODEX.GENETICOOZE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GENETICOOZE.BODY.CONTAINER1"
 msgid ""
-"The Printing Pod is primed by a synthesized bio-organic concoction the technicians have taken to calling \"Ooze\", a specialized mixture composed of water, carbon, and dozens upon dozens of the trace elements necessary for the creation of life.\n"
+"[LOG BEGINS]\n"
+"\n"
+"\"The Printing Pod is primed by a synthesized bio-organic concoction the technicians have taken to calling \"Ooze\", a specialized mixture composed of water, carbon, and dozens upon dozens of the trace elements necessary for the creation of life.\n"
 "\n"
 "The pod then reconstitutes these elements into a living organism using the blueprints we feed it, before finally administering a shock of life.\n"
 "\n"
-"It is like any other 3D printer. We just use different ink."
+"It is like any other 3D printer. We just use different ink.\n"
+"\n"
+"Dr. McClintock, signing off.\"\n"
+"\n"
+"[LOG ENDS]"
 msgstr ""
 
 #. STRINGS.CODEX.GENETICOOZE.SUBTITLE
@@ -7870,6 +7913,7 @@ msgstr "Hitze"
 msgctxt "STRINGS.CODEX.HIBISCUS3.BODY.CONTAINER1"
 msgid ""
 "EXPERIMENT 7D\n"
+"Security Code: B111\n"
 "\n"
 "Subject: #762, \"Hibiscus-3\"\n"
 "Adult female, 42cm, 257g\n"
@@ -8048,7 +8092,9 @@ msgid ""
 "\n"
 "The Director seems eager to move past this problem, and I am concerned at her willingness to bypass essential stages of the research development process.\n"
 "\n"
-"We cannot move on to the fine polish of printing systems until the core processes have been perfected - which they have not.\"\n"
+"We cannot move on to the fine polish of printing systems until the core processes have been perfected - which they have not.\n"
+"\n"
+"Dr. McClintock, signing off.\"\n"
 "\n"
 "[LOG ENDS.]"
 msgstr ""
@@ -8364,7 +8410,9 @@ msgid ""
 "\n"
 "\"For the moment we remain focused on eliminating the remaining glitches in the system, as well as developing effective education and training routines for printed subjects.\n"
 "\n"
-"Suggest: Omega 3 supplements and mentally stimulating enclosure apparatuses to accompany tutelage.\"\n"
+"Suggest: Omega 3 supplements and mentally stimulating enclosure apparatuses to accompany tutelage.\n"
+"\n"
+"Dr. McClintock signing off.\"\n"
 "\n"
 "[LOG ENDS]"
 msgstr ""
@@ -8774,15 +8822,20 @@ msgstr "Glatt-Hatch"
 #. STRINGS.CODEX.SPITTINGIMAGE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SPITTINGIMAGE.BODY.CONTAINER1"
 msgid ""
-"Was in the bio lab moppin' the floors late last night and you'd never guess who I seen - 'was me!\n"
+"[VOICE RECOGNITION INITIALIZED]\n"
+"[SUBJECT IDENTIFIED: A030]\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"\"Was in the bio lab moppin' the floors late last night and you'd never guess who I seen - 'was me!\n"
 "\n"
 "Well, was a fellow who'd looked like me, 'cept a bit smaller an' with no nose - he was floatin' around in a tube, dressed in some kinda jumpsuit.\n"
 "\n"
 "Now, I know no good comes of odd mirror men bobbin' around in secret tubes, so I did my janitorial duty and got out of there quick.\n"
 "\n"
-"Nobody'd alive would believe me anyway.\n"
+"Nobody'd alive would believe me anyway.\"\n"
 "\n"
-"[REDACTED]"
+"[LOG ENDS]"
 msgstr ""
 
 #. STRINGS.CODEX.SPITTINGIMAGE.SUBTITLE
@@ -8828,6 +8881,9 @@ msgstr "Stein-Hatch"
 #. STRINGS.CODEX.SUNFLOWERSEEDS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SUNFLOWERSEEDS.BODY.CONTAINER1"
 msgid ""
+"[VOICE RECOGNITION INITIALIZED]\n"
+"[SUBJECT IDENTIFIED: B111]\n"
+"\n"
 "[LOG BEGINS]\n"
 "\n"
 "\"How are you chaps today?\n"
@@ -8838,7 +8894,7 @@ msgid ""
 "\n"
 "(excited squeaking)\n"
 "\n"
-"Oh, one moment friends.I left the recorder on --\n"
+"Oh, one moment friends. I left the recorder on --\n"
 "\n"
 "(rustling)\"\n"
 "\n"
@@ -12248,13 +12304,13 @@ msgstr "Dekoration"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC"
-msgid "Not meeting a Duplicant's <link=\"DECOR\">Decor</link> expectations will increase their <link=\"STRESS\">Stress</link>."
-msgstr "Durch Nichterfüllen der <link=\"DECOR\">Dekoprationserwartungen</link> eines Duplikanten steigt der <link=\"STRESS\">Stress</link>."
+msgid "Duplicants with a high Decor Perception don't require as much <link=\"DECOR\">Decor</link> to keep up their <link=\"QUALITYOFLIFE\">Morale</link>."
+msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-msgid "Decor Expectation"
-msgstr "Dekorationserwartung"
+msgid "Decor Perception"
+msgstr "Dekor Wahrnehmung"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC"
@@ -12334,12 +12390,12 @@ msgstr "Reproduktionsrate"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC"
-msgid "Not meeting a Duplicant's <link=\"FOOD\">Food</link> expectations will increase their <link=\"STRESS\">Stress</link>."
-msgstr "Nichterfüllen der <link=\"FOOD\">Nahrungserwartungen</link> eines Duplikanten erhöht seinen <link=\"STRESS\">Stress</link>."
+msgid "Duplicants with a high Food Perception are satisfied with lower quaity <link=\"FOOD\">Food</link> to keep up their <link=\"QUALITYOFLIFE\">Morale</link>."
+msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-msgid "Food Quality Expectation"
+msgid "Food Quality Perception"
 msgstr "Nahrungsqualitäts-Erwartung"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME
@@ -12562,6 +12618,11 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC"
 msgid "How well this Duplicant's expectations and aspirations are being met."
 msgstr "Die Verletzungs- und Krankheitserholung dieses Duplikanten ist verbessert."
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT"
+msgid "{0} / {1}"
+msgstr "{0} / {1}"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
 msgid "Morale"
@@ -12586,16 +12647,6 @@ msgstr "Bestimmt, wie schnell und effizient ein Duplikant Tiere aufzieht."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
 msgid "Ranching"
 msgstr "Viehzucht"
-
-#. STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.DESC
-msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.DESC"
-msgid "Recreation Expectation"
-msgstr "Erholungserwartung"
-
-#. STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.NAME
-msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.NAME"
-msgid "Recreation Expectation"
-msgstr "Erholungserwartung"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC"
@@ -12996,18 +13047,18 @@ msgstr "Dieser Duplikant versucht seine Emotionen aufgrund von Stress zu unterdr
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
-msgid "Off Duty: Use Toilet"
+msgid "Downtime: Use Toilet"
 msgstr "Dienstfrei: Toilette benutzen"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
-msgid "Off Duty: Going to use toilet"
+msgid "Downtime: Going to use toilet"
 msgstr "Dienstfrei: Geht die Toilette benutzen"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP"
 msgid ""
-"This Duplicant is off duty and is using their personal time to go to the toilet\n"
+"This Duplicant has scheduled Downtime and is using their break to go to the toilet\n"
 "\n"
 "Duplicants have to use the toilet at least once per day"
 msgstr ""
@@ -13479,8 +13530,8 @@ msgstr "Kompost muss umgegraben werden, um den Inhalt zu kompostieren"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME"
-msgid "Sleeping on Floor"
-msgstr "Schlafen auf dem Boden"
+msgid "Sleep on Floor"
+msgstr "Schläft auf dem Boden"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS"
@@ -13489,8 +13540,11 @@ msgstr "Schläft auf dem Boden"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.TOOLTIP"
-msgid "Zzzzzz..."
-msgstr "Zzzzzz..."
+msgid ""
+"Zzzzzz...\n"
+"\n"
+"Sleeping on the floor will give Duplicants a Sore Back"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME"
@@ -15423,7 +15477,7 @@ msgstr "Dieser glückliche Duplikant hat ein eigenes Schlafzimmer"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME"
-msgid "Slept in a cot"
+msgid "Sleeping in a cot"
 msgstr "Schlief in einem Feldbett"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.TOOLTIP
@@ -15707,15 +15761,18 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINGCALORIES.NAME"
 msgid "Eating"
 msgstr "Isst"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.NAME"
-msgid "Mess Hall"
-msgstr "Speisesaal"
+#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.NAME"
+msgid "Standard Meal"
+msgstr "Standardmahlzeit"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.TOOLTIP"
-msgid "This Duplicant ate their last meal in a nice mess hall"
-msgstr "Dieser Duplikant aß seine letzte Mahlzeit in einem schönen Speisesaal"
+#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP"
+msgid ""
+"The food this Duplicant last ate was Average\n"
+"\n"
+"They thought it was sort of okay"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
@@ -15769,19 +15826,6 @@ msgid ""
 "They thought it was super tasty!"
 msgstr ""
 
-#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME"
-msgid "Standard Meal"
-msgstr "Standardmahlzeit"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP"
-msgid ""
-"The food this Duplicant last ate was Average\n"
-"\n"
-"They thought it was sort of okay"
-msgstr ""
-
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME"
 msgid "Poor Meal"
@@ -15830,6 +15874,19 @@ msgstr "Anspruchsvoll"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.TOOLTIP"
 msgid "Duplicants will demand better decor and accommodations with each Expertise level they gain"
 msgstr "Duplikanten verlangen bessere Dekoration und Unterkünfte mit jeder Fähigkeitsstufe, die sie bekommen"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME"
+msgid "Had An Espresso"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
+msgid ""
+"This Duplicant had delicious drink!\n"
+"\n"
+"Leisure activities increase Duplicants' Morale"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.NAME"
@@ -15894,13 +15951,13 @@ msgstr "Dieser Duplikant ist schwer zufriedenzustellen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.NAME"
-msgid "Chatted with Friends"
+msgid "Pleasant Chitchat"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP"
-msgid "This Duplicant had a pleasant interaction with a buddy"
-msgstr "Dieser Duplikant hatte eine angenehme Interaktion mit einem Kumpel"
+msgid "This Duplicant recently had a chance to chat with a friend"
+msgstr "Dieser Duplikant hat sich vor kurzem, mit einem Freund unterhalten"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE"
@@ -15924,16 +15981,19 @@ msgstr "Dieser Duplikant hatte ein leckeres selbstgemachtes Essen und ist absolu
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME"
-msgid "Met a Friend"
-msgstr "Einen Freund getroffen"
+msgid "Saw a Friend"
+msgstr "Sah einen Freund"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GREETING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.TOOLTIP"
 msgid ""
-"This Duplicant saw a friend in the halls and had the chance to say \"hi\"\n"
+"This Duplicant recently saw a friend in the halls and got to say \"hi\"\n"
 "\n"
-"It wasn't even awkward or anything!"
+"It wasn't even awkward!"
 msgstr ""
+"Dieser Duplikant hat kürzlich einen Freund gesehen und konnte \"Hi\" sagen\n"
+"\n"
+"Es war nicht einmal peinlich!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HOLDINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOLDINGBREATH.NAME"
@@ -16012,7 +16072,7 @@ msgstr "Die Luft in diesem Bereich ist dünn"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME"
-msgid "Slept in a comfy bed"
+msgid "Sleeping in a comfy bed"
 msgstr "Schlief in einem bequemen Bett"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.TOOLTIP
@@ -16203,13 +16263,16 @@ msgstr "In diesem Bereich gibt es keine atembare Luft"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME"
-msgid "Passed Out On Floor"
-msgstr "Fiel in Ohnmacht auf dem Boden"
+msgid "Exhausted"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.TOOLTIP"
-msgid "This Duplicant's stamina dwindled to nothing"
-msgstr "Dieser Duplikant hat überhaupt keine Ausdauer mehr"
+msgid ""
+"Lack of rest depleted this Duplicant's stamina\n"
+"\n"
+"They passed out from the fatigue"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME"
@@ -16243,8 +16306,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant recently got to play some fun video games!"
+msgstr "Dieser Duplikant hat vor kurzem einige lustige Videospiele gespielt!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POPPEDEARDRUMS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POPPEDEARDRUMS.NAME"
@@ -16286,26 +16349,6 @@ msgstr ""
 "Ein erfahrener Elektroingenieur hat die Leistungseffizienz dieses Generators verbessert\n"
 "------------------\n"
 "Die Anwendung dieses Effekts verbrauchte einen Microchip."
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME"
-msgid "Nice Bathroom"
-msgstr "Schönes Badezimmer"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP"
-msgid "This Duplicant used a toilet in a nice bathroom"
-msgstr "Dieser Duplikant benutzte ein Toilette in einem schönen Badezimmer"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.NAME"
-msgid "Slept In Bedroom"
-msgstr ""
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.TOOLTIP"
-msgid "This Duplicant slept in a suitable room"
-msgstr "Dieser Duplikant hat in einem angemessenen Raum geschlafen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME"
@@ -16372,15 +16415,65 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RESTLESS.TOOLTIP"
 msgid "This Duplicant went a few minutes without working and is now completely awash with guilt"
 msgstr "Dieser Duplikant hat eine kleine Arbeitspause eingelegt und ist deshalb jetzt von Schuldgefühlen zerfressen"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME"
-msgid "Unwinding"
-msgstr "Entspannt sich"
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME"
+msgid "Comfortable Barracks"
+msgstr "Komfortable Baracken"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.TOOLTIP"
-msgid "This Duplicant is taking some relaxing leisure time in the Rec Room"
-msgstr "Dieser Duplikant entspannt sich im Erholungsraum"
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.TOOLTIP"
+msgid "This Duplicant slept in proper barracks last night and feels refreshed"
+msgstr "Dieser Duplikant hat letzte Nacht in den richtigen Baracken geschlafen und fühlt sich erholt"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME"
+msgid "Plumbed Bathroom"
+msgstr "Installiertes Badezimmer"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP"
+msgid "This Duplicant used a toilet in a well plumbed bathroom"
+msgstr "Dieser Duplikant benutzte ein Toilette in einem gut Installiertem Badezimmer"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME"
+msgid "Comfortable Bedroom"
+msgstr "Komfortable Baracken"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.TOOLTIP"
+msgid "This Duplicant slept in a real bedroom last night and feels extra refreshed"
+msgstr "Dieser Duplikant hat letzte Nacht in den richtigen Schlafzimmer geschlafen und fühlt sich richtig erholt"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.NAME"
+msgid "Great Hall"
+msgstr "Große Halle"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.TOOLTIP"
+msgid "This Duplicant's most recent meal was eaten in a fancy great hall"
+msgstr "Dieser Duplikant aß seine letzte Mahlzeit in einem schönen Speisesaal"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME"
+msgid "Nice Bathroom"
+msgstr "Nettes Badezimmer"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP"
+msgid "This Duplicant used a toilet in a nice bathroom"
+msgstr "Dieser Duplikant benutzte ein Toilette in einem netten Badezimmer"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME"
+msgid "Mess Hall"
+msgstr "Speisesaal"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.TOOLTIP"
+msgid "This Duplicant's most recent meal was eaten in a suitable mess hall"
+msgstr "Dieser Duplikant aß seine letzte Mahlzeit in einem geeigneten Speisesaal"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NAME"
@@ -16474,8 +16567,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant had some free time to hang out with buddies"
+msgstr "Dieser Duplikant hatte eine angenehme Zeit mit Freunden"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE"
@@ -16557,6 +16650,16 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION.TOOLTIP"
 msgid "This Duplicant's stress is just melting away"
 msgstr "Der Stress des Duplikanten schmilzt einfach weg"
 
+#. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME"
+msgid "Recieving Clinic Massage"
+msgstr "Erhält eine Klinik-Massage"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP"
+msgid "Proper facilities futher improve this massage's effectiveness"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME"
 msgid "Intensely Bright"
@@ -16612,12 +16715,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
-msgid "Off Duty"
+msgid "Downtime"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
-msgid "This Duplicant had a bit of time off from work to attend to personal matters"
+msgid "This Duplicant has a bit of time off from work to attend to personal matters"
 msgstr "Dieser Duplikant hatte etwas Freizeit um sich um persönliche Dinge zu kümmern"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME
@@ -16795,7 +16898,7 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.TOOLTIP"
 msgid ""
 "Someone saw how hard this Duplicant was working and gave them a compliment\n"
 "\n"
-"This Duplicant feels great about themselves"
+"This Duplicant feels great about themselves now!"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.WORKING.NAME
@@ -17876,6 +17979,35 @@ msgstr ""
 "------------------\n"
 "Duplikanten werden gestresst in Räumen mit Dekorations-Werten unter ihren Erwartungen\n"
 "Öffne das Dekorations-Overlay <color=#F44A47>[F8]</color>, um aktuelle Dekorationswerte anzuzeigen"
+
+#. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY
+msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY"
+msgid ""
+"\n"
+"Average Decor This Cycle: {0}"
+msgstr ""
+"\n"
+"Durchschnittsdekor diesen Zyklus: {0}"
+
+#. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_YESTERDAY
+msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_YESTERDAY"
+msgid ""
+"\n"
+"Average Decor Last Cycle: {0}"
+msgstr ""
+"\n"
+"Durchschnittsdecor letzten Zyklus: {0}"
+
+#. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_CURRENT
+msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_CURRENT"
+msgid ""
+"\n"
+"\n"
+"Current Environmental Decor: {0}"
+msgstr ""
+"\n"
+"\n"
+"Aktueller Umgebungsdekor: {0}"
 
 #. STRINGS.DUPLICANTS.STATS.DISEASERECOVERYTIME.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.DISEASERECOVERYTIME.NAME"
@@ -19650,8 +19782,8 @@ msgstr "Friert"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.CONVERSATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.CONVERSATION.TOOLTIP"
-msgid "Having a conversation"
-msgstr "Führt eine Unterhaltung"
+msgid "Chatting"
+msgstr "Geplauder"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.ENCOURAGE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.ENCOURAGE.TOOLTIP"
@@ -19915,6 +20047,16 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.FLATULENCE.NAME"
 msgid "Flatulent"
 msgstr "Flatulenzen"
 
+#. STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC"
+msgid "This Duplicant has a highly refined palate."
+msgstr "Dieser Duplikant hat einen sehr raffinierten Gaumen."
+
+#. STRINGS.DUPLICANTS.TRAITS.FOODIE.NAME
+msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.NAME"
+msgid "Foodie"
+msgstr "Gourmet"
+
 #. STRINGS.DUPLICANTS.TRAITS.FUSSY.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.FUSSY.DESC"
 msgid "Nothing's ever quite good enough for this Duplicant"
@@ -20153,6 +20295,16 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.SCAREDYCAT.NAME"
 msgid "Pacifist"
 msgstr "Pazifist"
 
+#. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
+msgid "This Duplicant is satisfied by even the blandest food."
+msgstr "Dieser Duplikant ist selbst mit dem Fadesten Essen zufrieden."
+
+#. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME
+msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME"
+msgid "Simple Tastes"
+msgstr "Simpler Geschmack"
+
 #. STRINGS.DUPLICANTS.TRAITS.SLOWLEARNER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SLOWLEARNER.DESC"
 msgid "This Duplicant's a little slow on the uptake, but gosh do they try"
@@ -20263,11 +20415,6 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME"
 msgid "Biohazardous"
 msgstr "Biogefährdung"
 
-#. STRINGS.ELEMENTS.AEROGEL.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.AEROGEL.BUILD_DESC"
-msgid ""
-msgstr "\n"
-
 #. STRINGS.ELEMENTS.AEROGEL.DESC
 msgctxt "STRINGS.ELEMENTS.AEROGEL.DESC"
 msgid ""
@@ -20277,11 +20424,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.AEROGEL.NAME"
 msgid "<link=\"AEROGEL\">Aerogel</link>"
 msgstr "<link=\"AEROGEL\">Aerogel</link>"
-
-#. STRINGS.ELEMENTS.ALGAE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.ALGAE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.ALGAE.DESC
 msgctxt "STRINGS.ELEMENTS.ALGAE.DESC"
@@ -20298,11 +20440,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.ALGAE.NAME"
 msgid "<link=\"ALGAE\">Algae</link>"
 msgstr "<link=\"ALGAE\">Alge</link>"
-
-#. STRINGS.ELEMENTS.BLEACHSTONE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.DESC"
@@ -20335,11 +20472,6 @@ msgctxt "STRINGS.ELEMENTS.BREATHABLEDESC"
 msgid "<color=#{0}>({1})</color>"
 msgstr "<color=#{0}>({1})</color>"
 
-#. STRINGS.ELEMENTS.BRICK.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.BRICK.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.BRICK.DESC
 msgctxt "STRINGS.ELEMENTS.BRICK.DESC"
 msgid ""
@@ -20355,11 +20487,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.BRICK.NAME"
 msgid "<link=\"BRICK\">Brick</link>"
 msgstr "<link=\"BRICK\">Ziegelstein</link>"
-
-#. STRINGS.ELEMENTS.CARBON.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CARBON.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.CARBON.DESC
 msgctxt "STRINGS.ELEMENTS.CARBON.DESC"
@@ -20393,11 +20520,6 @@ msgctxt "STRINGS.ELEMENTS.CARBONDIOXIDE.NAME"
 msgid "<link=\"CARBONDIOXIDE\">Carbon Dioxide</link>"
 msgstr "<link=\"CARBONDIOXIDE\">Kohlendioxid</link>"
 
-#. STRINGS.ELEMENTS.CARBONFIBRE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CARBONFIBRE.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.CARBONFIBRE.DESC
 msgctxt "STRINGS.ELEMENTS.CARBONFIBRE.DESC"
 msgid "Carbon Fiber is a <link=\"MANUFACTURED MATERIAL\">RefinedMineral</link> with high tensile strength."
@@ -20418,11 +20540,6 @@ msgctxt "STRINGS.ELEMENTS.CARBONGAS.NAME"
 msgid "<link=\"CARBONGAS\">Carbon</link>"
 msgstr "<link=\"CARBONGAS\">Kohlenstoff</link>"
 
-#. STRINGS.ELEMENTS.CEMENT.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CEMENT.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.CEMENT.DESC
 msgctxt "STRINGS.ELEMENTS.CEMENT.DESC"
 msgid "Cement is a refined building material used for assembling advanced buildings."
@@ -20433,11 +20550,6 @@ msgctxt "STRINGS.ELEMENTS.CEMENT.NAME"
 msgid "<link=\"CEMENT\">Cement</link>"
 msgstr "<link=\"CEMENT\">Zement</link>"
 
-#. STRINGS.ELEMENTS.CEMENTMIX.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CEMENTMIX.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.CEMENTMIX.DESC
 msgctxt "STRINGS.ELEMENTS.CEMENTMIX.DESC"
 msgid "Cement Mix can be used to create <link=\"CEMENT\">Cement</link> for advanced building assembly."
@@ -20447,11 +20559,6 @@ msgstr "Zementmischung kann zur Herstellung von <link=\"CEMENT\">Zement</link> f
 msgctxt "STRINGS.ELEMENTS.CEMENTMIX.NAME"
 msgid "<link=\"CEMENTMIX\">Cement Mix</link>"
 msgstr "<link=\"CEMENTMIX\">Zementmischung</link>"
-
-#. STRINGS.ELEMENTS.CERAMIC.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CERAMIC.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.CERAMIC.DESC
 msgctxt "STRINGS.ELEMENTS.CERAMIC.DESC"
@@ -20468,11 +20575,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.CERAMIC.NAME"
 msgid "<link=\"CERAMIC\">Ceramic</link>"
 msgstr "<link=\"CERAMIC\">Keramik</link>"
-
-#. STRINGS.ELEMENTS.CHLORINE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CHLORINE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.CHLORINE.DESC
 msgctxt "STRINGS.ELEMENTS.CHLORINE.DESC"
@@ -20493,11 +20595,6 @@ msgstr "(Cl) Chlor ist eine extrem toxische Chemikalie in <link=\"ELEMENTSGAS\">
 msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.NAME"
 msgid "<link=\"CHLORINEGAS\">Chlorine</link>"
 msgstr "<link=\"CHLORINEGAS\">Chlorgas</link>"
-
-#. STRINGS.ELEMENTS.CLAY.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CLAY.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.CLAY.DESC
 msgctxt "STRINGS.ELEMENTS.CLAY.DESC"
@@ -20530,11 +20627,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.CONTAMINATEDOXYGEN.NAME"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Verschmutzter Sauerstoff</link>"
-
-#. STRINGS.ELEMENTS.COPPER.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.COPPER.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.COPPER.DESC
 msgctxt "STRINGS.ELEMENTS.COPPER.DESC"
@@ -20588,11 +20680,6 @@ msgctxt "STRINGS.ELEMENTS.CRUDEOIL.NAME"
 msgid "<link=\"CRUDEOIL\">Crude Oil</link>"
 msgstr "<link=\"CRUDEOIL\">Rohöl</link>"
 
-#. STRINGS.ELEMENTS.CRUSHEDICE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CRUSHEDICE.BUILD_DESC"
-msgid ""
-msgstr "\n"
-
 #. STRINGS.ELEMENTS.CRUSHEDICE.DESC
 msgctxt "STRINGS.ELEMENTS.CRUSHEDICE.DESC"
 msgid "(H<sub>2</sub>0) A slush of crushed, semi-solid ice."
@@ -20603,11 +20690,6 @@ msgctxt "STRINGS.ELEMENTS.CRUSHEDICE.NAME"
 msgid "<link=\"CRUSHEDICE\">Crushed Ice</link>"
 msgstr "<link=\"CRUSHEDICE\">Zerstoßenes Eis</link>"
 
-#. STRINGS.ELEMENTS.CRUSHEDROCK.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CRUSHEDROCK.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.CRUSHEDROCK.DESC
 msgctxt "STRINGS.ELEMENTS.CRUSHEDROCK.DESC"
 msgid "Crushed Rock is <link=\"IGNEOUSROCK\">Igneous Rock</link> crushed into a mechanical mixture."
@@ -20617,11 +20699,6 @@ msgstr "Zerstoßener Stein ist <link=\"IGNEOUSROCK\">Magmatit</link>, der zu ein
 msgctxt "STRINGS.ELEMENTS.CRUSHEDROCK.NAME"
 msgid "<link=\"CRUSHEDROCK\">Crushed Rock</link>"
 msgstr "<link=\"CRUSHEDROCK\">Zerstoßener Stein</link>"
-
-#. STRINGS.ELEMENTS.CUPRITE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.CUPRITE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.CUPRITE.DESC
 msgctxt "STRINGS.ELEMENTS.CUPRITE.DESC"
@@ -20639,11 +20716,6 @@ msgctxt "STRINGS.ELEMENTS.CUPRITE.NAME"
 msgid "<link=\"CUPRITE\">Copper Ore</link>"
 msgstr "<link=\"CUPRITE\">Kupfererz</link>"
 
-#. STRINGS.ELEMENTS.DIAMOND.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.DIAMOND.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.DIAMOND.DESC
 msgctxt "STRINGS.ELEMENTS.DIAMOND.DESC"
 msgid ""
@@ -20660,11 +20732,6 @@ msgctxt "STRINGS.ELEMENTS.DIAMOND.NAME"
 msgid "<link=\"DIAMOND\">Diamond</link>"
 msgstr "<link=\"DIAMOND\">Diamant</link>"
 
-#. STRINGS.ELEMENTS.DIRT.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.DIRT.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.DIRT.DESC
 msgctxt "STRINGS.ELEMENTS.DIRT.DESC"
 msgid ""
@@ -20680,11 +20747,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.DIRT.NAME"
 msgid "<link=\"DIRT\">Dirt</link>"
 msgstr "<link=\"DIRT\">Erde</link>"
-
-#. STRINGS.ELEMENTS.DIRTYICE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.DIRTYICE.BUILD_DESC"
-msgid ""
-msgstr "\n"
 
 #. STRINGS.ELEMENTS.DIRTYICE.DESC
 msgctxt "STRINGS.ELEMENTS.DIRTYICE.DESC"
@@ -20711,11 +20773,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.DIRTYWATER.NAME"
 msgid "<link=\"DIRTYWATER\">Polluted Water</link>"
 msgstr "<link=\"DIRTYWATER\">Verschmutztes Wasser</link>"
-
-#. STRINGS.ELEMENTS.ELECTRUM.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.ELECTRUM.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.ELECTRUM.DESC
 msgctxt "STRINGS.ELEMENTS.ELECTRUM.DESC"
@@ -20774,11 +20831,6 @@ msgctxt "STRINGS.ELEMENTS.ELEMENTPROPERTIES"
 msgid "Properties: {0}"
 msgstr "Eigenschaften: {0}"
 
-#. STRINGS.ELEMENTS.FERTILIZER.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.FERTILIZER.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.FERTILIZER.DESC
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
 msgid ""
@@ -20794,11 +20846,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.NAME"
 msgid "<link=\"FERTILIZER\">Fertilizer</link>"
 msgstr "<link=\"FERTILIZER\">Dünger</link>"
-
-#. STRINGS.ELEMENTS.FOOLSGOLD.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.FOOLSGOLD.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.FOOLSGOLD.DESC
 msgctxt "STRINGS.ELEMENTS.FOOLSGOLD.DESC"
@@ -20816,25 +20863,15 @@ msgctxt "STRINGS.ELEMENTS.FOOLSGOLD.NAME"
 msgid "<link=\"FOOLSGOLD\">Pyrite</link>"
 msgstr "<link=\"FOOLSGOLD\">Pyrite</link>"
 
-#. STRINGS.ELEMENTS.GLASS.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.GLASS.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.GLASS.DESC
 msgctxt "STRINGS.ELEMENTS.GLASS.DESC"
-msgid ""
+msgid "Glass is a brittle, transparent substance formed from <link=\"SAND\">Sand</link> fired at high temperatures."
 msgstr ""
 
 #. STRINGS.ELEMENTS.GLASS.NAME
 msgctxt "STRINGS.ELEMENTS.GLASS.NAME"
 msgid "<link=\"GLASS\">Glass</link>"
 msgstr "<link=\"GLASS\">Glas</link>"
-
-#. STRINGS.ELEMENTS.GOLD.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.GOLD.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.GOLD.DESC
 msgctxt "STRINGS.ELEMENTS.GOLD.DESC"
@@ -20851,11 +20888,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.GOLD.NAME"
 msgid "<link=\"GOLD\">Gold</link>"
 msgstr "<link=\"GOLDGAS\">Gold</link>"
-
-#. STRINGS.ELEMENTS.GOLDAMALGAM.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.GOLDAMALGAM.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.GOLDAMALGAM.DESC
 msgctxt "STRINGS.ELEMENTS.GOLDAMALGAM.DESC"
@@ -20882,11 +20914,6 @@ msgstr "(Au) Gold ist ein wertvolles leitfähiges <link=\"RAWMETAL\">Metall</lin
 msgctxt "STRINGS.ELEMENTS.GOLDGAS.NAME"
 msgid "<link=\"GOLDGAS\">Gold</link>"
 msgstr "<link=\"GOLDGAS\">Gold</link>"
-
-#. STRINGS.ELEMENTS.GRANITE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.GRANITE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.GRANITE.DESC
 msgctxt "STRINGS.ELEMENTS.GRANITE.DESC"
@@ -20959,11 +20986,6 @@ msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
 msgid "<link=\"HYDROGEN\">Hydrogen</link>"
 msgstr "<link=\"HYDROGEN\">Wasserstoff</link>"
 
-#. STRINGS.ELEMENTS.ICE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.ICE.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.ICE.DESC
 msgctxt "STRINGS.ELEMENTS.ICE.DESC"
 msgid "(H<sub>2</sub>0) Ice is clean water frozen into a <link=\"ELEMENTSSOLID\">Solid</link> state."
@@ -20973,11 +20995,6 @@ msgstr "(H<sub>2</sub>0) Eis ist sauberes Wasser in <link=\"ELEMENTSSOLID\">fest
 msgctxt "STRINGS.ELEMENTS.ICE.NAME"
 msgid "<link=\"ICE\">Ice</link>"
 msgstr "<link=\"ICE\">Eis</link>"
-
-#. STRINGS.ELEMENTS.IGNEOUSROCK.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.IGNEOUSROCK.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.IGNEOUSROCK.DESC
 msgctxt "STRINGS.ELEMENTS.IGNEOUSROCK.DESC"
@@ -20994,11 +21011,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.IGNEOUSROCK.NAME"
 msgid "<link=\"IGNEOUSROCK\">Igneous Rock</link>"
 msgstr "<link=\"IGNEOUSROCK\">Magmatit</link>"
-
-#. STRINGS.ELEMENTS.IRON.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.IRON.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.IRON.DESC
 msgctxt "STRINGS.ELEMENTS.IRON.DESC"
@@ -21020,11 +21032,6 @@ msgctxt "STRINGS.ELEMENTS.IRONGAS.NAME"
 msgid "<link=\"IRONGAS\">Iron</link>"
 msgstr "<link=\"IRONGAS\">Eisen</link>"
 
-#. STRINGS.ELEMENTS.IRONINGOT.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.IRONINGOT.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.IRONINGOT.DESC
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.DESC"
 msgid "(Fe) Iron is refined <link=\"IRONORE\">Iron Ore</link>."
@@ -21034,11 +21041,6 @@ msgstr "(Fe) Eisen ist raffiniertes <link=\"IRONORE\">Eisenerz</link>."
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.NAME"
 msgid "<link=\"IRONINGOT\">Iron</link>"
 msgstr "<link=\"IRONINGOT\">Eisenbarren</link>"
-
-#. STRINGS.ELEMENTS.IRONORE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.IRONORE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.IRONORE.DESC
 msgctxt "STRINGS.ELEMENTS.IRONORE.DESC"
@@ -21056,11 +21058,6 @@ msgctxt "STRINGS.ELEMENTS.IRONORE.NAME"
 msgid "<link=\"IRONORE\">Iron Ore</link>"
 msgstr "<link=\"IRONORE\">Eisenerz</link>"
 
-#. STRINGS.ELEMENTS.KATAIRITE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.KATAIRITE.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.KATAIRITE.DESC
 msgctxt "STRINGS.ELEMENTS.KATAIRITE.DESC"
 msgid "(Ab) Abyssalite is a resilient, crystalline element."
@@ -21074,11 +21071,11 @@ msgstr "<link=\"KATAIRITE\">Abyssalit</link>"
 #. STRINGS.ELEMENTS.LIME.DESC
 msgctxt "STRINGS.ELEMENTS.LIME.DESC"
 msgid ""
-"Lime is a mineral. It has various uses including soil fertilization and steel making.\n"
+"(CaCO<sub>3</sub>) Lime is a mineral commonly found in animal shells.\n"
 "\n"
 "It is useful as a Construction Material."
 msgstr ""
-"Kalk ist ein Mineral. Er hat unterschiedliche Verwendungen als Düngemittel oder zur Stahlherstellung.\n"
+"(CaCO<sub>3</sub>) Kalk ist ein Mineral, das üblicherweise in Tierschalen gefunden wird.\n"
 "\n"
 "Er ist nützlich als Baumaterial."
 
@@ -21186,11 +21183,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.LIQUIDPROPANE.NAME"
 msgid "<link=\"LIQUIDPROPANE\">Propane</link>"
 msgstr "<link=\"LIQUIDPROPANE\">Propan</link>"
-
-#. STRINGS.ELEMENTS.MAFICROCK.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.MAFICROCK.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.MAFICROCK.DESC
 msgctxt "STRINGS.ELEMENTS.MAFICROCK.DESC"
@@ -21653,15 +21645,10 @@ msgctxt "STRINGS.ELEMENTS.RADIUM.NAME"
 msgid "<link=\"RADIUM\">Radium</link>"
 msgstr "<link=\"RADIUM\">Radium</link>"
 
-#. STRINGS.ELEMENTS.REFINEDCARBON.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.REFINEDCARBON.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.REFINEDCARBON.DESC
 msgctxt "STRINGS.ELEMENTS.REFINEDCARBON.DESC"
-msgid "Refined carbon is..."
-msgstr "Veredelter Kohlenstoff ist..."
+msgid "(C) Refined carbon is solid element purified from raw <link=\"CARBON\">Coal</link>."
+msgstr ""
 
 #. STRINGS.ELEMENTS.REFINEDCARBON.NAME
 msgctxt "STRINGS.ELEMENTS.REFINEDCARBON.NAME"
@@ -24653,13 +24640,17 @@ msgstr "ALARM - Oberflächendurchbruch"
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
 msgid ""
-"Amazingly, my Duplicants have broken through to the surface of the asteroid.\n"
+"Amazing!\n"
+"\n"
+"My Duplicants have managed to breach the surface of the asteroid.\n"
 "\n"
 "I should be careful; the region is extremely inhospitable and I could easily lose resources to the vaccuum of space."
 msgstr ""
-"Verblüffenderweise haben meine Duplikanten es bis zur Oberfläche des Asteroiden geschafft.\n"
+"Toll!\n"
 "\n"
-"Ich sollte vorsichtig sein; dieses Gebiet ist sehr unwirtlich und ich kann schnell meine Ressourcen an das Vakuum des Weltalls verlieren."
+"Meine Duplikanten haben es geschafft, die Oberfläche des Asteroiden zu durchbrechen.\n"
+"\n"
+"Ich sollte vorsichtig sein; Die Region ist extrem unwirtlich und ich könnte leicht Ressourcen an das Vakuum des Weltraums verlieren."
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
@@ -25228,8 +25219,18 @@ msgstr "Gemeisterte Berufe"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
-msgid "{0}: {1} Time!"
-msgstr "{0}: {1} Time!"
+msgid "Schedule Clock: {1}!"
+msgstr "Zeitplan Uhr: {0}!"
+
+#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.ROLES_SCREEN.WIDGET.NUMBER_OF_MASTERS_TOOLTIP"
+#| msgid "<b>Duplicants who have mastered this job:</b>{0}"
+msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.TOOLTIP"
+msgid "Duplicants on the {0} have started their {1} block:"
+msgstr ""
+"<b>Duplikanten, die diesen Beruf gemeistert haben:</b>\n"
+"{0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
@@ -28567,6 +28568,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.POWERREGULATION.NAME"
 msgid "<link=\"POWERREGULATION\">Power Regulation</link>"
 msgstr "<link=\"POWERREGULATION\">Energieregulierung</link>"
 
+#. STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.DESC"
+msgid "Precise control of the flow and temperature of <link=\"ELEMENTSLIQUID\">Liquids</link> allows the creation of <link=\"QUALITYOFLIFE\">Morale</link>-enhancing devices."
+msgstr ""
+
+#. STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.NAME"
+msgid "<link=\"PRECISIONPLUMBING\">Precision Plumbing</link>"
+msgstr "<link=\"PRECISIONPLUMBING\">Präzisionsklempnerei</link>"
+
 #. STRINGS.RESEARCH.TECHS.PRESSUREMANAGEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PRESSUREMANAGEMENT.DESC"
 msgid "Unlock technologies to manage colony pressure and atmosphere."
@@ -28755,6 +28766,16 @@ msgctxt "STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC"
 msgid "Unlocks improved technologies."
 msgstr "Schaltet verbesserte Technologien frei."
 
+#. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION"
+msgid "Requires one or more Sinks, Hand Sanitizers, or Showers"
+msgstr "Benötigt ein oder mehrere Waschbecken, , Hand-Desinfizierer oder Duschen"
+
+#. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.NAME"
+msgid "Plumbed wash station"
+msgstr "Verrohrte Waschstation"
+
 #. STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION"
 msgid "Requires two or more Cots or Comfy Beds"
@@ -28784,6 +28805,16 @@ msgstr "Benötigt mindestens ein Gebäude mit positivem Dekor"
 msgctxt "STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.NAME"
 msgid "Positive decor"
 msgstr "Positives Dekor"
+
+#. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION"
+msgid "The ceiling must be at least {0} tiles above the floor"
+msgstr ""
+
+#. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.NAME"
+msgid "Minimum ceiling height: {0} tiles"
+msgstr "Minimale Deckenhöhe: {0} Felder"
 
 #. STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION"
@@ -28835,6 +28866,16 @@ msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME"
 msgid "Decoration item"
 msgstr "Dekorationsgegenstand"
 
+#. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.DESCRIPTION"
+msgid "Requires a decorative object with a Decor of at least {0}."
+msgstr ""
+
+#. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.NAME"
+msgid "Decor item: {0}+ Decor"
+msgstr ""
+
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION"
 msgid "Requires a single Farm Station"
@@ -28844,6 +28885,16 @@ msgstr "Benötigt eine Landwirtschafts-Station"
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME"
 msgid "Farm Station"
 msgstr "Landwirtschafts-Station"
+
+#. STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION"
+msgid "Requires one or more Lavatories"
+msgstr "Benötigt ein oder mehrere Toiletten"
+
+#. STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.NAME"
+msgid "Flush Toilet"
+msgstr "Toilette spülen"
 
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION"
@@ -28869,6 +28920,16 @@ msgstr "Benötigt eine oder mehrere Lichtquellen"
 msgctxt "STRINGS.ROOMS.CRITERIA.LIGHT.NAME"
 msgid "Light source"
 msgstr "Lichtquelle"
+
+#. STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.DESCRIPTION"
+msgid "Requires Comfy Bed"
+msgstr "Benötigt ein bequemes Bett"
+
+#. STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.NAME"
+msgid "Single luxury bed"
+msgstr "Einzel Luxusbett"
 
 #. STRINGS.ROOMS.CRITERIA.MACHINE_SHOP.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MACHINE_SHOP.DESCRIPTION"
@@ -28977,8 +29038,8 @@ msgstr "Viehfarm"
 
 #. STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION"
-msgid "Requires one or more Massage Tables"
-msgstr "Benötigt eine oder mehrere Massagetische"
+msgid "Requires one or more Recreational Buildings"
+msgstr "Benötigt eine oder mehrere Erholungsobjekte"
 
 #. STRINGS.ROOMS.CRITERIA.REC_BUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.NAME"
@@ -29061,8 +29122,8 @@ msgstr "Raumgröße: {0} Felder"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.EFFECT"
-msgid "- Stamina recovery bonus"
-msgstr "- Ausdauer-Erholungsbonus"
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.NAME
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.NAME"
@@ -29071,8 +29132,23 @@ msgstr "Baracke"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP"
-msgid "Sleeping in a bed will restore additional stamina for Duplicants if it is located within Barracks."
-msgstr "Das Schlafen in Betten, die sich in einer Baracke befinden, stellt zusätzliche Ausdauer der Duplikanten wieder her."
+msgid "Sleeping in a bed will improve Morale for Duplicants if it is located within Barracks."
+msgstr "Das Schlafen in Betten, die sich in einer Baracke befinden, erhöht die Moral der Duplikanten."
+
+#. STRINGS.ROOMS.TYPES.BEDROOM.EFFECT
+msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.EFFECT"
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
+
+#. STRINGS.ROOMS.TYPES.BEDROOM.NAME
+msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.NAME"
+msgid "Bedroom"
+msgstr "Schlafzimmer"
+
+#. STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP
+msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP"
+msgid "Sleeping in a comfortable Bedroom will improve Morale for Duplicants"
+msgstr "Schlafen in einem komfortablen Schlafzimmer verbessert Moral von Duplikanten"
 
 #. STRINGS.ROOMS.TYPES.CONFLICTED
 msgctxt "STRINGS.ROOMS.TYPES.CONFLICTED"
@@ -29109,6 +29185,21 @@ msgctxt "STRINGS.ROOMS.TYPES.FARM.TOOLTIP"
 msgid "Crops grown within a Greenhouse can be tended by Farmers to increase their growth speed."
 msgstr "In einem Gewächshaus angebaute Pflanzen können von den Landwirten gepflegt werden, um deren Wachstumsgeschwindigkeit zu erhöhen."
 
+#. STRINGS.ROOMS.TYPES.GREATHALL.EFFECT
+msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.EFFECT"
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
+
+#. STRINGS.ROOMS.TYPES.GREATHALL.NAME
+msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.NAME"
+msgid "Great Hall"
+msgstr "Große Halle"
+
+#. STRINGS.ROOMS.TYPES.GREATHALL.TOOLTIP
+msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.TOOLTIP"
+msgid "Eating and relaxing in a Great Hall will significantly improve Duplicants' Morale."
+msgstr ""
+
 #. STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT"
 msgid "- Quarantine sick Duplicants"
@@ -29126,8 +29217,8 @@ msgstr "Kranke Duplikanten, die einem Krankenbett innerhalb einer Krankenstation
 
 #. STRINGS.ROOMS.TYPES.LATRINE.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.EFFECT"
-msgid "- Quality of Life bonus"
-msgstr ""
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.NAME
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.NAME"
@@ -29136,8 +29227,8 @@ msgstr "Latrine"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
-msgid "Using a toilet will relieve additional stress for Duplicants if it is located in a Latrine."
-msgstr "Das Verwenden einer Toilette, die sich in einer Latrine befindet, verringert zusätzlichen den Stress für Duplikanten."
+msgid "Using a toilet in an enclosed room will improve Duplicants' Morale."
+msgstr ""
 
 #. STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT"
@@ -29171,8 +29262,8 @@ msgstr "Massage-Tische reduzieren extremen Stress schnell im richtigen Raum."
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
-msgid "- Quality of Life bonus"
-msgstr ""
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.NAME"
@@ -29181,8 +29272,8 @@ msgstr "Speisesaal"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP"
-msgid "Eating at a Mess Table will relieve additional stress for Duplicants if it is located within a Mess Hall."
-msgstr "Essen an einem Kantinentisch, der sich innerhalb eines Speisesaal befindet, verringert den Stress eines Duplikanten zusätzlich."
+msgid "Eating at a Mess Table will improve Morale for Duplicants if it is located within a Mess Hall."
+msgstr "Essen an einem Kantinentisch, der sich innerhalb eines Speisesaal befindet, erhöht die Moral eines Duplikanten."
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT"
@@ -29198,6 +29289,21 @@ msgstr "Allgemeiner Raum"
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.TOOLTIP"
 msgid "This area qualifies as a room but has no dedicated use."
 msgstr "Dieser Bereich gilt als Raum, hat aber keine besondere Verwendung."
+
+#. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT
+msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT"
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
+
+#. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME
+msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME"
+msgid "Washroom"
+msgstr ""
+
+#. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.TOOLTIP
+msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.TOOLTIP"
+msgid "Using a fully plumbed Washroom will improve Duplicants' Morale."
+msgstr ""
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT"
@@ -29246,8 +29352,8 @@ msgstr "Duplikanten erhalten beim Schlafen im privaten Schlafzimmer noch mehr Au
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
-msgid "- Quality of Life improvement"
-msgstr ""
+msgid "- Morale bonus"
+msgstr "- Moralbonus"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
@@ -29256,8 +29362,8 @@ msgstr "Erholungsraum"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
-msgid "Leisure time will relieve additional stress for Duplicants visiting a Recreation Room."
-msgstr "Freizeit die in einem Erholungsraum verbracht werden, reduziert den Stress deiner Duplikanten zusätzlich."
+msgid "Leisure time will further improve Morale for Duplicants visiting a Recreation Room."
+msgstr "Freizeit die Duplikanten in einen Erholungsraum verbringen, verbessert die Moral."
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -30670,16 +30776,6 @@ msgctxt "STRINGS.UI.CONSUMABLES"
 msgid "CONSUMABLES"
 msgstr "ERNÄHRUNG"
 
-#. STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_ABOVE
-msgctxt "STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_ABOVE"
-msgid "<b><color=#B87194FF>fulfills</color></b>"
-msgstr "<b><color=#B87194FF>erfüllt</color></b>"
-
-#. STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_BELOW
-msgctxt "STRINGS.UI.CONSUMABLESSCREEN.EXPECTATIONS_BELOW"
-msgid "is <b><color=#B87194FF>below</color></b>"
-msgstr "ist <b><color=#B87194FF>unterhalb</color></b> von"
-
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_AVAILABLE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_AVAILABLE"
 msgid "Available: {0}"
@@ -30693,22 +30789,6 @@ msgid ""
 msgstr ""
 "<b>{0}</b> <color=#B87194FF>kann Körperlich nicht</color> Essen\n"
 "<b>{1}</b>"
-
-#. STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS
-msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS"
-msgid "Expectations"
-msgstr "Erwartungen"
-
-#. STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS_TOOLTIP
-msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
-msgid ""
-"Expectations\n"
-"------------------\n"
-"Desires food that is {0} quality or better"
-msgstr ""
-"Erwartungen\n"
-"------------------\n"
-"Die Hoffnung, dass die Nahrung eine Qualität von {0} oder besser hat"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_OFF
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_OFF"
@@ -30729,12 +30809,9 @@ msgstr "Qualität: {0}"
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION"
 msgid ""
 "------------------\n"
-"This food type {0} {1}'s quality expectations\n"
-"[{2} Quality / {3} Expectation]"
+"This food has a quality of {0}\n"
+"It will give these bonuses if {1} eats it:"
 msgstr ""
-"------------------\n"
-"Die Qualität dieser Nahrung {0} {1}s Erwartungen\n"
-"[{2} Qualität / {3} Erwartung]"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE"
@@ -30767,22 +30844,6 @@ msgstr ""
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.NEW_MINIONS_TOOLTIP_TOGGLE_ROW"
 msgid "Toggle all food permissions for <b>New Duplicants</b>"
 msgstr "Alle Nahrungsberechtigungen für <b>neue Duplikanten</b> umschalten"
-
-#. STRINGS.UI.CONSUMABLESSCREEN.STRESS
-msgctxt "STRINGS.UI.CONSUMABLESSCREEN.STRESS"
-msgid "Stress"
-msgstr "Stress"
-
-#. STRINGS.UI.CONSUMABLESSCREEN.STRESS_TOOLTIP
-msgctxt "STRINGS.UI.CONSUMABLESSCREEN.STRESS_TOOLTIP"
-msgid ""
-"Stress\n"
-"------------------\n"
-"{0} of a possible 100%"
-msgstr ""
-"Stress\n"
-"------------------\n"
-"{0} von möglichen 100%"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.TITLE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.TITLE"
@@ -33346,14 +33407,14 @@ msgid ""
 "\n"
 "• New Duplicant interactions and reactions\n"
 "• Colony Schedule management\n"
-"• Recreational time and new leisure buildings\n"
+"• Downtime and new leisure buildings\n"
 "• New lore, animations, and sounds\n"
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
 "<b>Update-Features:</b>\n"
 "\n"
-"• Neue Duplikanten-Interaktionen und -Reaktionen\n"
+"• Neue Duplikanten Interaktionen und Reaktionen\n"
 "• Kolonie-Zeitplan-Verwaltung\n"
 "• Freizeit und neue Freizeitgebäude\n"
 "• Neue Geschichten, Animationen und Sounds\n"
@@ -34654,7 +34715,6 @@ msgid "Generators"
 msgstr "Generatoren"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34715,7 +34775,6 @@ msgid "Ladders"
 msgstr "Leitern"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34733,7 +34792,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34751,7 +34809,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICSWITCHES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICSWITCHES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34769,7 +34826,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICWIRING.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICWIRING.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34825,7 +34881,6 @@ msgid "Pipes"
 msgstr "Gasleitungen"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34860,7 +34915,6 @@ msgstr ""
 "Versorgung"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34876,7 +34930,6 @@ msgid "Ranching"
 msgstr "Viehzucht"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34922,7 +34975,6 @@ msgid "Research"
 msgstr "Forschung"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34938,7 +34990,6 @@ msgid "Storage"
 msgstr "Lager"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34954,7 +35005,6 @@ msgid "Tiles"
 msgstr "Ziegel"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TILES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34974,7 +35024,6 @@ msgstr ""
 "rohre"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34994,7 +35043,6 @@ msgstr ""
 "steuerung"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -35025,7 +35073,6 @@ msgid "Wires"
 msgstr "Kabel"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.WIRES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -37702,16 +37749,16 @@ msgstr "Badezeit"
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
 msgid ""
-"When my Duplicants are off duty they may do as they please.\n"
+"During downtime my Duplicants they may do as they please.\n"
 "\n"
 "This may include personal matters like bathroom visits or snacking, or they may choose to engage in leisure activities like socializing with friends.\n"
 "\n"
-"Off Duty time increases Duplicant Morale."
+"Downtime increases Duplicant Morale."
 msgstr ""
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
-msgid "Off Duty"
+msgid "Downtime"
 msgstr ""
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
@@ -37719,7 +37766,7 @@ msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
 msgid ""
 "My Duplicants use bedtime blocks to rest up after a hard day's work.\n"
 "\n"
-"Scheduling too few bedtime blocks may prevent my Duplicants from regaining enough Stamina to make it through the next day."
+"Scheduling too few bedtime blocks may prevent my Duplicants from regaining enough Stamina to make it through the following day."
 msgstr ""
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME
@@ -37730,15 +37777,15 @@ msgstr "Badezeit"
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
 msgid ""
-"When on duty my Duplicants must work and perform the tasks I have set out for them.\n"
+"During Work shifts my Duplicants must perform the work tasks I have placed for them throughout the colony.\n"
 "\n"
 "It's important when scheduling to maintain a good work-life balance for my Duplicants to maintain their health and prevent Morale loss."
 msgstr ""
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
-msgid "On Duty"
-msgstr ""
+msgid "Work"
+msgstr "Arbeiten"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP"
@@ -41860,923 +41907,3 @@ msgstr "Sand verstreuen..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Sand verstreuen..."
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.TOOLTIP"
-#~ msgid "There are high speed objects approaching!"
-#~ msgstr "Objekte mit hoher Geschwindigkeit nähern sich!"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACENOTVISIBLE.NAME"
-#~ msgid "Space Not Visible"
-#~ msgstr "Weltraum nicht sichbar"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACENOTVISIBLE.TOOLTIP"
-#~ msgid "This detector must be able to see the sky in order to detect anything."
-#~ msgstr "Dieser Detektor muss das Weltall sehen können um etwas erkennen zu können."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
-#~ msgid "Scans the sky to predict incoming meteor showers."
-#~ msgstr "Scannt den Himmel um eintreffende Meteorschauer vorherzusagen."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
-#~ msgid "Produces a logic signal before a meteor shower begins."
-#~ msgstr "Erzeugt ein Logiksignal bevor ein Meteorschauer beginnt."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
-#~ msgid "It's little-endian."
-#~ msgstr "Es ist Little Endian."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
-#~ msgid "Cracks open a critter egg for use as a cooking ingredient."
-#~ msgstr "Bricht ein Ei auf, um es als Kochzutat verwenden zu können."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
-#~ msgid "You'd be surprised how much research went into making this wall."
-#~ msgstr "Du wärst überrascht, wenn du wüsstest, wie viel Forschung für warme Tapete getrieben wurde."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
-#~ msgid "Back wall included."
-#~ msgstr "Inklusive Rückwand."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
-#~ msgid "Window"
-#~ msgstr "Fenster"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT"
-#~ msgid "Has a secondary input which is only drawn from when the primary input is empty."
-#~ msgstr "Hat einen sekundären Eingang, der nur verwendet wird, wenn der primäre Eingang leer ist."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
-#~ msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
-#~ msgstr "Radiatorgasleitungen verbessern den Temperaturaustausch mit der Umgebung erheblich."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
-#~ msgid ""
-#~ "Carries <link=\"ELEMENTSGAS\">Gas</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
-#~ "\n"
-#~ "Can be run through tiles."
-#~ msgstr ""
-#~ "Transportiert <link=\"ELEMENTSGAS\">Gas</link> und begünstigt deutliche die Veränderung der <link=\"HEAT\">Temperatur</link>.\n"
-#~ "\n"
-#~ "Kann in Ziegel verlegt werden."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC"
-#~ msgid "Window tiles allow the passage of light and decor, while blocking liquids and gasses. Plate construction makes windows susceptible to impact damage."
-#~ msgstr "Fensterziegel lassen Licht und Dekorationseffekte durch, während Flüssigkeiten und Gase blockiert werden. Durch Installation Platten werden Fenster empfindlich gegen Einschlagsschaden."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT"
-#~ msgid ""
-#~ "Used as floor and wall tile to build rooms.\n"
-#~ "\n"
-#~ "Allows light and decor to pass through"
-#~ msgstr ""
-#~ "Wird als Wand- oder Bodenziegel zum Bau von Räumen verwendet.\n"
-#~ "\n"
-#~ "Lässt Licht und Dekorationseffekte durch"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
-#~ msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>"
-#~ msgstr "Wandelt <link=\"CLAY\">Ton</link> zu <link=\"CERAMIC\">Keramik</link> um"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.EFFECT"
-#~ msgid "Has a secondary input which is only drawn from when the primary input is empty."
-#~ msgstr "Hat einen sekundären Eingang, der nur verwendet wird, wenn der primäre Eingang leer ist."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
-#~ msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
-#~ msgstr "Radiatorrohr verbessern den Temperaturaustausch mit der Umgebung erheblich."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT"
-#~ msgid ""
-#~ "Carries <link=\"ELEMENTSLIQUID\">Liquid</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
-#~ "\n"
-#~ "Can be run through tiles."
-#~ msgstr ""
-#~ "Transportiert <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link> und begünstigt deutlich die Veränderung der <link=\"HEAT\">Temperatur</link>.\n"
-#~ "\n"
-#~ "Kann durch Ziegel verlegt werden."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.EFFECT"
-#~ msgid "A fancy door to a big facility."
-#~ msgstr "Eine schicke Tür zu einer großen Fabrik."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT"
-#~ msgid "Shears dreckos."
-#~ msgstr "Schert Dreckos."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC"
-#~ msgid "Keeps the space out and the atmosphere in"
-#~ msgstr "Lässt das Weltall draußen und die Atmosphäre drinnen"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT"
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.NAME"
-#~ msgid "<link=\"SPACEWALL\">Space Wall</link>"
-#~ msgstr "<link=\"SPACEWALL\">Raumwand</link>"
-
-#~ msgctxt "STRINGS.CODEX.CRYSTAL.TITLE"
-#~ msgid "Crystal Shine Bug"
-#~ msgstr "Kristall-Leuchtkäfer"
-
-#~ msgctxt "STRINGS.CODEX.EXAMPLECATEGORY.SUBTITLE"
-#~ msgid "Example Subtitle"
-#~ msgstr "Beispiel-Untertitel"
-
-#~ msgctxt "STRINGS.CODEX.EXAMPLECATEGORY.TITLE"
-#~ msgid "Example Title"
-#~ msgstr "Beispiel-Titel"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.COMFORTRANGE"
-#~ msgid "Temperature Range"
-#~ msgstr "Temperaturbereich"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED"
-#~ msgid "Additional content locked"
-#~ msgstr "Zusätzliche Inhalte gesperrt"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED_SUBTITLE"
-#~ msgid "More exploration and research is necessary"
-#~ msgstr "Mehr Erkundung und Forschung ist notwendig"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.SECTION_UNLOCKABLES"
-#~ msgid "Unlockable Data"
-#~ msgstr "Freischaltbare Daten"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.SUBENTRIES"
-#~ msgid "Contents"
-#~ msgstr "Inhalte"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.UNLOCK_ROLES"
-#~ msgid "Promotable to Roles"
-#~ msgstr "Beförderbar für Rollen"
-
-#~ msgctxt "STRINGS.CODEX.NEGA.TITLE"
-#~ msgid "Nega Shine Bug"
-#~ msgstr "Anti-Leuchtkäfer"
-
-#~ msgctxt "STRINGS.CODEX.PLACID.TITLE"
-#~ msgid "Placid Shine Bug"
-#~ msgstr "Sanfter Leuchtkäfer"
-
-#~ msgctxt "STRINGS.CODEX.SUNNY.TITLE"
-#~ msgid "Sunny Shine Bug"
-#~ msgstr "Sonniger Leuchtkäfer"
-
-#~ msgctxt "STRINGS.CODEX.VITAL.TITLE"
-#~ msgid "Vital Shine Bug"
-#~ msgstr "Vital-Leuchtkäfer"
-
-#~ msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME"
-#~ msgid "Nearby Creature"
-#~ msgstr "Benachbartes Tier"
-
-#~ msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.NAME"
-#~ msgid "Incubation Suppressed"
-#~ msgstr "Ausbrütung unterdrückt"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
-#~ msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Nymph</link>"
-#~ msgstr "<link=\"LIGHTBUGBLUE\">Sanfte Leuchtnymphe</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
-#~ msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Nymph Egg</link>"
-#~ msgstr "<link=\"LIGHTBUGBLUE\">Mild-Leuchtnymphen-Ei</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.NAME"
-#~ msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Bug</link>"
-#~ msgstr "<link=\"LIGHTBUG\">Mild-Leuchtkäfer</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC"
-#~ msgid ""
-#~ "An innocent little <link=\"PACUTROPICAL\">Tropical Pacu Fry</link>.\n"
-#~ "\n"
-#~ "In time, it will mature into an adult <link=\"PACUTROPICAL\">Tropical Pacu</link>."
-#~ msgstr ""
-#~ "Ein unschuldiger kleiner <link=\"PACUTROPICAL\">Tropischer Jungpacu</link>.\n"
-#~ "\n"
-#~ "Mit der Zeit wächst er zu einem erwachsenen <link=\"PACUTROPICAL\">Tropischen Pacu</link>."
-
-#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.NAME"
-#~ msgid "Old"
-#~ msgstr "Alt"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
-#~ msgid "EdibleIsNotNull"
-#~ msgstr "EssbarkeitIstNichtNull"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.SINGTOEGG.TOOLTIP"
-#~ msgid "Singing to critter eggs improves their incubation rate, and really who doesn't love singing?"
-#~ msgstr "Tiereier zu besingen verbessert ihre Ausbrütungsrate, und wer singt nicht gerne?"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
-#~ msgid "Exposed to Space"
-#~ msgstr "Dem Weltall ausgesetzt"
-
-#~ msgctxt "STRINGS.MISC.TAGS.BAGABLECREATURE"
-#~ msgid "Critters"
-#~ msgstr "Tiere"
-
-#~ msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC"
-#~ msgid "Prevent my Duplicants from getting into dangerous situations."
-#~ msgstr "Verhindert, dass meine Duplikanten in gefährliche Situationen geraten."
-
-#~ msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
-#~ msgid "- Stress relief bonus"
-#~ msgstr "- Entspannungsbonus"
-
-#~ msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
-#~ msgid "- Stress relief bonus"
-#~ msgstr "- Entspannungsbonus"
-
-#~ msgctxt "STRINGS.SETITEMS.CHAIR.DESC"
-#~ msgid "A chair"
-#~ msgstr "Ein Stuhl"
-
-#~ msgctxt "STRINGS.SETITEMS.DESK.NAME"
-#~ msgid "Desk"
-#~ msgstr "Bürotisch"
-
-#~ msgctxt "STRINGS.SETITEMS.ELEVATOR.DESC"
-#~ msgid "An elevator"
-#~ msgstr "Ein Aufzug"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_CENTERPEICE.DESC"
-#~ msgid "A big statue"
-#~ msgstr "Eine große Statue"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_CENTERPEICE.NAME"
-#~ msgid "Statue"
-#~ msgstr "Statue"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_CHANDELIER.DESC"
-#~ msgid "A light that is too big"
-#~ msgstr "Eine viel zu große Lampe"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_COUCH.DESC"
-#~ msgid "A couch"
-#~ msgstr "Ein Sofa"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_DESK.DESC"
-#~ msgid "A desk"
-#~ msgstr "Ein Tisch"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_DISPLAY.DESC"
-#~ msgid "An electronic display"
-#~ msgstr "Eine elektronische Anzeige"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.DESC"
-#~ msgid "A filing cabinet"
-#~ msgstr "Ein Aktenschrank"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.DESC"
-#~ msgid "A lamp"
-#~ msgstr "Eine Lampe"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.NAME"
-#~ msgid "Lamp"
-#~ msgstr "Lampe"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_TABLE.DESC"
-#~ msgid "A table"
-#~ msgstr "Ein Tisch"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_TABLE.NAME"
-#~ msgid "Table"
-#~ msgstr "Tisch"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC"
-#~ msgid "A plant"
-#~ msgstr "Eine Pflanze"
-
-#~ msgctxt "STRINGS.SETITEMS.FACILITY_TALLPLANT.NAME"
-#~ msgid "Plant"
-#~ msgstr "Pflanze"
-
-#~ msgctxt "STRINGS.SETITEMS.GENESHUFFLER.NAME"
-#~ msgid "Neural Vacillator"
-#~ msgstr "Neural-Oszillator"
-
-#~ msgctxt "STRINGS.SETITEMS.RECEPTION_DESK.DESC"
-#~ msgid "An intact office desk, decorated with several personal belongings and a barely functioning computer."
-#~ msgstr "Ein erhaltener Bürotisch, dekoriert mit persönlichen Gegenständen und einem grade so funktionstüchtigen Computer."
-
-#~ msgctxt "STRINGS.SETITEMS.WALL_DEGREE.DESC"
-#~ msgid "Someone is proud of this"
-#~ msgstr "Jemand ist hierauf stolz"
-
-#~ msgctxt "STRINGS.SETITEMS.WALL_DEGREE.NAME"
-#~ msgid "Fancy Degree"
-#~ msgstr "Schickes Diplom"
-
-#~ msgctxt "STRINGS.SETITEMS.WALL_PAINTING.DESC"
-#~ msgid "A painting of a landscape"
-#~ msgstr "Ein Gemälde einer Landschaft"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
-#~ msgid ""
-#~ "<b>Update Features:</b>\n"
-#~ "\n"
-#~ "• The Surface biome has been added to the top of the asteroid\n"
-#~ "• Solar power and metallic meteors can be harnessed\n"
-#~ "• New glass and steel resources allow constructing advanced buildings\n"
-#~ "• Further fixes and polish to Critter Ranching and eggs\n"
-#~ "\n"
-#~ "Please view the full patch notes for further details!"
-#~ msgstr ""
-#~ "<b>Update-Features:</b>\n"
-#~ "\n"
-#~ "• Das Oberflächenbiom wurde an der Oberseite des Asteroiden hinzugefügt\n"
-#~ "• Solarenergie und metallische Meteore können jetzt genutzt werden\n"
-#~ "• Neue Glas- und Stahlressourcen erlauben die Konstruktion neuer Gebäude\n"
-#~ "• Weitere Fehlerbehebungen für Tierzähmung und Eier\n"
-#~ "\n"
-#~ "Schau dir die vollständigen Notizen für alle Details an!"
-
-#~ msgctxt "STRINGS.UI.JOBSSCREEN.RESET_SETTINGS_TOOLTIP"
-#~ msgid ""
-#~ "Resets all priorities to the default values for this mode.\n"
-#~ "\n"
-#~ "Default: All priorities will be reset to neutral.\n"
-#~ "\n"
-#~ "Advanced: Priorities will be adjusted high-to-low for normal base operation."
-#~ msgstr ""
-#~ "Setzt alle Prioritäten auf die Standardwerte für diesen Modus zurück.\n"
-#~ "\n"
-#~ "Standard: Alle Prioritäten werden auf neutral zurückgesetzt.\n"
-#~ "\n"
-#~ "Erweitert: Prioritäten werden für den normalen Basisbetrieb hoch bis niedrig eingestellt."
-
-#~ msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
-#~ msgid "Advanced"
-#~ msgstr "Erweitert"
-
-#~ msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
-#~ msgid ""
-#~ "<b>Advanced Priority Settings</b>\n"
-#~ "------------------\n"
-#~ "This option disables a hidden priority hierarchy used to choose errands in the event of a priority tie.\n"
-#~ "\n"
-#~ "When disabled, Duplicants will still choose errands based on their Priorities first and their Sub-Priorities second, but ties will be settled by simply choosing the nearest high priority errand. This helps them to stay near the same area of the colony so long as all the nearby work is their highest priority.\n"
-#~ "\n"
-#~ "This mode is ideal for large bases and experienced players with heavily customized priority settings."
-#~ msgstr ""
-#~ "<b>Erweiterter Modus</b> (angekreuzt):\n"
-#~ "------------------\n"
-#~ "Diese Otion deaktiviert die versteckte Prioritätshierarchie für Aufträge bei identischen Prioritäten.\n"
-#~ "\n"
-#~ "Ist diese deaktiviert, wählen Duplikanten immer noch einen Auftrag basierend auf ihren Prioritäten und dann nach Sub-Prioritäten aus, bei einem Gleichstand wählt der Duplikant aber den nächstgelegenen Auftrag. Dies hilft ihnen, in der Nähe des gleichen Bereichs der Kolonie zu bleiben, solange die gesamte Arbeit dort ihre höchste Priorität hat.\n"
-#~ "\n"
-#~ "Dieser Modus ist ideal für große Basen und für Spieler, die stark angepasste Duplikanten-Prioritäten haben."
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.ALLOWED"
-#~ msgid "Allowed"
-#~ msgstr "Erlaubt"
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.BLOCKS"
-#~ msgid "BLOCKS:"
-#~ msgstr "BLÖCKE:"
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOCHANGE"
-#~ msgid "Click to change block type."
-#~ msgstr "Klicke hier, um den Blocktyp zu ändern."
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOSELECT"
-#~ msgid "Click to select."
-#~ msgstr "Klicke um auszuwählen."
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.DENIED"
-#~ msgid "Denied"
-#~ msgstr "Verweigert"
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE"
-#~ msgid "SCHEDULE:"
-#~ msgstr "ZEITPLAN:"
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP"
-#~ msgid "Select a block type to adjust the colony's schedule"
-#~ msgstr "Wähle einen Blocktyp aus, um den Zeitplan der Kolonie anzupassen"
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTHELP"
-#~ msgid "Select an option and then click or drag on the timetable to adjust the Duplicant's schedule."
-#~ msgstr "Wähle eine Option aus und klicke dann auf den Zeitplan, um den Zeitplan des Duplikanten anzupassen."
-
-#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.TIMESLOT"
-#~ msgid "Time Slot"
-#~ msgstr "Zeitfenster"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
-#~ msgid "A new colony member is ready to be printed"
-#~ msgstr "Ein neues Kolonie-Mitglied ist bereit gedruckt zu werden"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.TOOLTIP"
-#~ msgid "The duplicant working this station is creating {0} for use elsewhere."
-#~ msgstr "Der Duplikant, der an dieser Station arbeitet, erstellt {0} für die Verwendung an anderer Stelle."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.AIRFILTER.DESC"
-#~ msgid "Airborne germs travel easily through polluted oxygen, spreading disease if unfiltered."
-#~ msgstr "Luftgetragene Keime reisen leicht durch verschmutzten Sauerstoff und verbreitet der Krankheiten, wenn sie nicht gefiltert werden."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.DESC"
-#~ msgid "Placing algae terrariums in well lit areas will produce more oxygen."
-#~ msgstr "Die Platzierung von Algen-Terrarien in gut beleuchteten Gebieten erzeugt mehr Sauerstoff."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.DESC"
-#~ msgid "Electrolyzers output a high volume of oxygen and are a reliable source of breathable air."
-#~ msgstr "Elektrolyseure liefern ein hohes Volumen an Sauerstoff und sind eine zuverlässige Quelle für atembare Luft."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.EFFECT"
-#~ msgid "Reduces <link=\"HEAT\">Heat</link> loss through colony walls."
-#~ msgstr "Reduziert <link=\"HEAT\">Wärme</link>-Verlust durch Koloniewände."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.NAME"
-#~ msgid "<link=\"INSULATIONWALL\">Insulation</link>"
-#~ msgstr "<link=\"INSULATIONWALL\">Isolierung</link>"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.DESC"
-#~ msgid "Manual generators require no fuel and power buildings when connected to them by wire."
-#~ msgstr "Hamsterräder produzieren Strom, wenn sie angeschlossen sind und sie verbrauchen keinen Kraftstoff."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.NAME"
-#~ msgid "Acceptable Atmosphere"
-#~ msgstr "Akzeptable Atmosphäre"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.TOOLTIP"
-#~ msgid "It's breathable."
-#~ msgstr "Es ist atembar."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.NAME"
-#~ msgid "Fed"
-#~ msgstr "Gefüttert"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.TOOLTIP"
-#~ msgid "Has enough food to eat."
-#~ msgstr "Hat genug Futter zum essen."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.NAME"
-#~ msgid "Critter Pen"
-#~ msgstr "Tier-Gehege"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.TOOLTIP"
-#~ msgid "Has a pen to live in."
-#~ msgstr "Hat ein Gehege zum Leben."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
-#~ msgid "Comfortable Temperature"
-#~ msgstr "Komfortable Temperatur"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.TOOLTIP"
-#~ msgid "Not too hot, not too cold."
-#~ msgstr "Nicht zu heiß, nicht zu kalt."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.NAME"
-#~ msgid "Well Fed"
-#~ msgstr "Gut genährt"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.TOOLTIP"
-#~ msgid "This critter has recently dined on its favorite food."
-#~ msgstr "Dieses Tier hat vor kurzem sein Lieblingsfutter gefressen."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME"
-#~ msgid "Well Groomed"
-#~ msgstr "Gut gepflegt"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP"
-#~ msgid "Getting plenty of personal attention from a Rancher."
-#~ msgstr "Bekommt viel persönliche Aufmerksamkeit von einem Viehzüchter."
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.NAME"
-#~ msgid "Destructive"
-#~ msgstr "Zerstörerisch"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.TOOLTIP"
-#~ msgid "Likely to mess up the place"
-#~ msgstr "Wird vermutlich den Ort schmutzig machen"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.NAME"
-#~ msgid "Increased Reproduction"
-#~ msgstr "Erhöhte Fortpflanzung"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.TOOLTIP"
-#~ msgid "This critter will produce an egg soon if conditions remain favorable"
-#~ msgstr "Dieses Tier wird bald, wenn die Bedingungen günstig bleiben, ein Ei legen"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.NAME"
-#~ msgid "Good Productivity"
-#~ msgstr "Gute Produktivität"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.TOOLTIP"
-#~ msgid "Producing at a normal level"
-#~ msgstr "Erzeugung auf normalem Niveau"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.NAME"
-#~ msgid "Sensitive"
-#~ msgstr "Sensibel"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.TOOLTIP"
-#~ msgid "Loses happiness faster than normal under poor conditions"
-#~ msgstr "Verliert unter schlechten Bedingungen schneller Zufriedenheit als normal"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.NAME"
-#~ msgid "Decreased Reproduction"
-#~ msgstr "Verminderte Fortpflanzung"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.TOOLTIP"
-#~ msgid "This creature is holding off on laying eggs due to bad conditions"
-#~ msgstr "Diese Kreatur hält sich mit der Eiablage aufgrund schlechter Bedingungen zurück"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.NAME"
-#~ msgid "Downward Spiral"
-#~ msgstr "Abwärtsspirale"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.TOOLTIP"
-#~ msgid "Losing happiness until conditions improve"
-#~ msgstr "Die Zufriedenheit sinkt bis sich die Bedingungen verbessern"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.NAME"
-#~ msgid "Low Productivity"
-#~ msgstr "Geringe Produktivität"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.TOOLTIP"
-#~ msgid "Producing at a reduced level"
-#~ msgstr "Erzeugung auf reduziertem Niveau"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.NAME"
-#~ msgid "Unproductive"
-#~ msgstr "Unproduktiv"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.TOOLTIP"
-#~ msgid "Without improved conditions, this critter will not provide any useful products"
-#~ msgstr "Ohne verbesserte Bedingungen wird dieses Tier keine brauchbaren Erzeugnisse liefern"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.NAME"
-#~ msgid "Tame"
-#~ msgstr "Zahm"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.TOOLTIP"
-#~ msgid "This critter is well taken care of and fully trusts its Duplicant caregivers"
-#~ msgstr "Dieses Tier ist gut versorgt und vertraut voll und ganz auf seine Duplikantenpfleger"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.NAME"
-#~ msgid "Skittish"
-#~ msgstr "Scheu"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.TOOLTIP"
-#~ msgid "This critter's most basic needs are being met, but it's still wary of Duplicants"
-#~ msgstr "Die Grundbedürfnisse dieses Tiers sind gedeckt, aber es ist immer noch misstrauisch gegenüber Duplikanten"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.NAME"
-#~ msgid "Affectionate"
-#~ msgstr "Liebevoll"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.TOOLTIP"
-#~ msgid "This critter loves its Duplicant caregivers and is spoiled absolutely rotten"
-#~ msgstr "Dieses Tier liebt seinen Duplikantenpfleger und ist absolut verwöhnt und faul"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.NAME"
-#~ msgid "Wild"
-#~ msgstr "Wild"
-
-#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.TOOLTIP"
-#~ msgid "This critter is fending for itself and does not trust Duplicants"
-#~ msgstr "Dieses Tier kann für sich selbst sorgen und traut Duplikanten nicht"
-
-#~ msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR.NAME"
-#~ msgid "Incubator"
-#~ msgstr "Brutschrank"
-
-#~ msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR.TOOLTIP"
-#~ msgid "Increased incubation rate when placed inside an Incubator"
-#~ msgstr "Erhöht die Ausbrütungsrate, wenn es in einem Brutschrank platziert wird"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.NAME"
-#~ msgid "<link=\"GULPFISH\">Gulp Fish</link>"
-#~ msgstr "<link=\"GULPFISH\">Schluckfisch</link>"
-
-#~ msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITY.NAME"
-#~ msgid "Thermal Conductivity"
-#~ msgstr "Wärmeleitfähigkeit"
-
-#~ msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITY.TOOLTIP"
-#~ msgid "Heat can pass through the selected object at a rate of (W/m)/K"
-#~ msgstr "Wärme kann den ausgewählten Gegenstand mit einer Rate von (W/m)/K durchdringen"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.NAME"
-#~ msgid "Assist Newborn Critter"
-#~ msgstr "Steht einem neugebohren Tier bei"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.STATUS"
-#~ msgid "Assisting Newborn Critter"
-#~ msgstr "Steht einem neugebohren Tier bei"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.HATCHCREATURE.TOOLTIP"
-#~ msgid "This Rancher Duplicant is welcoming a newborn critter into the colony"
-#~ msgstr "Dieser Viehzüchter begrüßt ein neugeborenes Tier in der Kolonie"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP"
-#~ msgid "These Duplicants are distressed by the lack of toilets:"
-#~ msgstr "Diese Duplikanten sind durch das Fehlen von Toiletten beunruhigt:"
-
-#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.TOOLTIP"
-#~ msgid "Learn how to use exosuits"
-#~ msgstr "Lerne wie man Schutzanzüge nutzt"
-
-#~ msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
-#~ msgid "Compost Edibles"
-#~ msgstr "Kompostiere essbares"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON"
-#~ msgid "Opt-In to Data Collection: "
-#~ msgstr "Opt-In zur Datenerfassung: "
-
-#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-#~ msgid "RANCHING UPGRADE MARK II"
-#~ msgstr "RANCHING UPGRADE MARK II"
-
-#~ msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MINION_DESTRUCTION"
-#~ msgid "Anger Damage"
-#~ msgstr "Wutschaden"
-
-#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
-#~ msgid "Trait: <link=\"SUPER COMPUTER\">Researching</link>"
-#~ msgstr "Merkmal: <link=\"SUPER COMPUTER\">Forschung</link>"
-
-#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION"
-#~ msgid "Trait: <link=\"ELECTRIC GRILL\">Electric Grill</link> Cooking"
-#~ msgstr "Merkmal: Kochen mit <link=\"ELECTRIC GRILL\">Elektrogrill</link>"
-
-#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION"
-#~ msgid "Trait: <link=\"DECOR\">Canvas Painting</link>"
-#~ msgstr "Merkmal: <link=\"DECOR\">Leinwandmalerei</link>"
-
-#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION"
-#~ msgid "Trait: <link=\"DECOR\">Block Sculpting</link>"
-#~ msgstr "Merkmal: <link=\"DECOR\">Skulptur-Hauerei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_BUTTON"
-#~| msgid "Clear Floor"
-#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.NAME"
-#~ msgid "Clear Floor"
-#~ msgstr "Leere Boden"
-
-#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP"
-#~ msgid "Delete clutter"
-#~ msgstr "Plunder löschen"
-
-#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME"
-#~ msgid "Flood"
-#~ msgstr "Füllen"
-
-#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP"
-#~ msgid "Paint the world simulation with a the flood area tool"
-#~ msgstr "Male die Weltsimulation mit einem Füllwerkzeug an"
-
-#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP"
-#~ msgid "Paint the world simulation with a noisey brush tool"
-#~ msgstr "Male die Weltsimulation mit einem Sprühwerkzeug an"
-
-#~ msgctxt "STRINGS.UI.TOOLS.SANDBOX.FLOOD.NAME"
-#~ msgid "Flood"
-#~ msgstr "Füllen"
-
-#~ msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.SPECIFICHEATCAPACITY"
-#~ msgid "(J/g)/K"
-#~ msgstr "(J/g)/K"
-
-#~ msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.THERMALCONDUCTIVITY"
-#~ msgid "(W/m)/K"
-#~ msgstr "(W/m)/K"
-
-#~ msgctxt "STRINGS.UI.UNITSUFFIXES.TEMPERATURE.KELVIN"
-#~ msgid " K"
-#~ msgstr " K"
-
-#~ msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
-#~ msgid ""
-#~ "Your crew has awoken stranded inside a distant asteroid.\n"
-#~ "Oddly, they can't recall how they got here.\n"
-#~ "\n"
-#~ "They'll need to survive to find answers."
-#~ msgstr ""
-#~ "Deine Mannschaft ist in einem entfernten Asteroiden aufgewacht.\n"
-#~ "Seltsamerweise können sie sich nicht erinnern, wie sie hierher gekommen sind.\n"
-#~ "\n"
-#~ "Sie müssen überleben, um Antworten zu finden."
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
-#~ msgid "<link=\"PLASTICDRECKOEGG\">Glossy Drecklet Egg</link>"
-#~ msgstr "<link=\"PLASTICDRECKOEGG\">Glanz-Drecklet-Ei</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME"
-#~ msgid "<link=\"PLASTICDRECKO\">Glossy Drecko</link>"
-#~ msgstr "<link=\"PLASTICDRECKO\">Glanz-Drecko</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME"
-#~ msgid "<link=\"HATCHLING\">Stone Hatchling</link>"
-#~ msgstr "<link=\"HATCHLING\">Stein-Hatchling</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME"
-#~ msgid "<link=\"HATCHLING\">Smooth Hatchling</link>"
-#~ msgstr "<link=\"HATCHLING\">Glatt-Hatchling</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
-#~ msgid "<link=\"HATCHLING\">Sage Hatchling</link>"
-#~ msgstr "<link=\"HATCHVEGGIE\">Salbei-Hatchling</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#~| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME"
-#~ msgid "<link=\"PUFTLET\">Puftlet Prince</link>"
-#~ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#~| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME"
-#~ msgid "<link=\"PUFTEGG\">Puftlet Prince Egg</link>"
-#~ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#~| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME"
-#~ msgid "<link=\"PUFTLET\">Squeaky Puftlet</link>"
-#~ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#~| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME"
-#~ msgid "<link=\"PUFTEGG\">Squeaky Puftlet Egg</link>"
-#~ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#~| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME"
-#~ msgid "<link=\"PUFTLET\">Dense Puftlet</link>"
-#~ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-#~| msgid "<link=\"PUFTEGG\">Puftlet Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME"
-#~ msgid "<link=\"PUFTEGG\">Dense Puftlet Egg</link>"
-#~ msgstr "<link=\"PUFTEGG\">Puft-Ei</link>"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
-#~ msgid ""
-#~ "<b>Update Features:</b>\n"
-#~ "\n"
-#~ "• Creatures now have lifecycles and can be raised from eggs\n"
-#~ "• Rancher job and buildings to take care of all your new creatures\n"
-#~ "• New Duplicant Priority system for broad control of Dupe errands\n"
-#~ "• Learn about buildings, creatures and more with the Database screen\n"
-#~ "• Tons of bug fixes, performance enhancements, QOL additions, and more!\n"
-#~ "\n"
-#~ "Please view the full patch notes for further details!"
-#~ msgstr ""
-#~ "<b>Update-Features:</b>\n"
-#~ "\n"
-#~ "• Kreaturen haben jetzt Lebenszyklen und können aus Eiern aufgezogen werden\n"
-#~ "• Viehzüchterberuf und -gebäude, um sich um all deine neuen Kreaturen zu kümmern\n"
-#~ "• Neues Prioritätssystem zur umfassenden Kontrolle der Aufträge der Duplikanten\n"
-#~ "• Erfahre mit der neuen Wissensdatenbank mehr über die Gebäude, die Kreaturen und vielem mehr\n"
-#~ "• Unzählige Bugfixes, Performance-Verbesserungen, Lebensqualität-Zusätze und vieles mehr!\n"
-#~ "\n"
-#~ "Schau dir bitte auch die vollständigen Patchnotes für alle Details an!"
-
-#, fuzzy
-#~| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
-#~| msgid "<link=\"HEALTH\">Health</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME"
-#~ msgid "<link=\"HATCHLING\">Drecklet</link>"
-#~ msgstr "<link=\"HEALTH\">Gesundheit</link>"
-
-#, fuzzy
-#~ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
-#~ msgid "<link=\"HATCHLING\">Glossy Hatchling</link>"
-#~ msgstr "<link=\"HATCHLING\">Glanz-Hatchling</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#~| msgid "<link=\"PUFT\">Puft</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME"
-#~ msgid "<link=\"PUFT\">Squeaky Puft</link>"
-#~ msgstr "<link=\"PUFT\">Puft</link>"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON"
-#~ msgid "Send Metrics Data: "
-#~ msgstr "Sende Metrikdaten: "
-
-#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE"
-#~ msgid "METRICS OPTIONS"
-#~ msgstr "METRIKOPTIONEN"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP"
-#~ msgid "If enabled, metrics data will be sent for the purpose of improving the game."
-#~ msgstr "Wenn aktiviert, werden Metrikdaten versendet, um das Spiel zu verbessern."
-
-#~ msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS"
-#~ msgid "Send Metrics Data"
-#~ msgstr "Sende Metrikdaten"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.FLUT.DESC"
-#~| msgid "Every organism in the known universe finds the Pacu extremely delicious."
-#~ msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
-#~ msgid "Every organism in the known universe finds the Pacu extremely delicious."
-#~ msgstr "Jeder Organismus im bekannten Universum findet Pacu sehr lecker."
-
-#~ msgctxt "STRINGS.CODEX.PUFT.SUBTITLE"
-#~ msgid "Critter"
-#~ msgstr "Tier"
-
-#~ msgctxt "STRINGS.CODEX.SHINEBUG.SUBTITLE"
-#~ msgid "Critter"
-#~ msgstr "Tier"
-
-#~ msgctxt "STRINGS.CODEX.SLICKSTER.SUBTITLE"
-#~ msgid "Critter"
-#~ msgstr "Tier"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#~| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
-#~ msgid "<link=\"OILFLOATERBABY\">Slickster Larva</link>"
-#~ msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#~| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
-#~ msgid "<link=\"OILFLOATERBABY\">Longhair Slickster Larva</link>"
-#~ msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
-
-#, fuzzy
-#~| msgid ""
-#~ msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC"
-#~ msgid ""
-#~ msgstr ""
-#~ "Project-Id-Version: \n"
-#~ "POT-Creation-Date: \n"
-#~ "PO-Revision-Date: \n"
-#~ "Last-Translator: Shrotter\n"
-#~ "Language-Team: \n"
-#~ "Language: de\n"
-#~ "MIME-Version: 1.0\n"
-#~ "Content-Type: text/plain; charset=UTF-8\n"
-#~ "Content-Transfer-Encoding: 8bit\n"
-#~ "X-Generator: Poedit 2.0.6\n"
-#~ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-#~| msgid "<link=\"OILFLOATEREGG\">Slickster Larva Egg</link>"
-#~ msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC"
-#~ msgid "<link=\"OILFLOATERBABY\">Molten Slickster Larva</link>"
-#~ msgstr "<link=\"OILFLOATEREGG\">Slickster-Ei</link>"
-
-#, fuzzy
-#~| msgid ""
-#~ msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC"
-#~ msgid ""
-#~ msgstr ""
-#~ "Project-Id-Version: \n"
-#~ "POT-Creation-Date: \n"
-#~ "PO-Revision-Date: \n"
-#~ "Last-Translator: Shrotter\n"
-#~ "Language-Team: \n"
-#~ "Language: de\n"
-#~ "MIME-Version: 1.0\n"
-#~ "Content-Type: text/plain; charset=UTF-8\n"
-#~ "Content-Transfer-Encoding: 8bit\n"
-#~ "X-Generator: Poedit 2.0.6\n"
-#~ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
-#~ msgid "When the <link=\"WRITE\">logic</link> port is <link=\"LOGIC\">Active</link> the <link=\"VALUE\">logic</link> port is read and stored. Reading from the <link=\"LOGIC\">Read</link> port will then return the new value."
-#~ msgstr "Wenn der <link=\"WRITE\">Schreiben-Anschluss</link> <link=\"LOGIC\">Aktive</link> ist, wird der die <link=\"VALUE\">Wert-Anschluss</link> gelesen und gespeichert. Das Lesen aus dem <link=\"LOGIC\">Lesen-Anschluss</link> gibt dann den neuen Wert zurück."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC"
-#~ msgid "Stored Value"
-#~ msgstr "Gespeicherter Wert"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
-#~ msgid "Stored Value: {0}"
-#~ msgstr "Gespeicherter Wert: {0}"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.VALUE_PORT_DESC"
-#~ msgid "Specify Value"
-#~ msgstr "Wert festlegen"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOMESTICATIONDELTA.DESC"
-#~ msgid "Determines how easily a critter gains or loses Domestication."
-#~ msgstr "Bestimmt, wie einfach Tiere Domestiziert werden können oder verwildern."
-
-#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP"
-#~ msgid "<link=\"{0}\">research</link> research complete!"
-#~ msgstr "<link=\"{0}\">Forschung</link> vollständig!"
