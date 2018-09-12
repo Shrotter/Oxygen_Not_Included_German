@@ -262,7 +262,7 @@ msgstr "Autoabfüllung: An"
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP"
 msgid "Duplicants may specifically fetch gas from Canister Fillers to bring to this location"
-msgstr "Duplikanten können gezielt Gas aus Kartuschenfüllern holen, um es an diesen Ort zu bringen"
+msgstr "Duplikanten können gezielt Gas aus Kanisterfüllern holen, um es an diesen Ort zu bringen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME"
@@ -2792,19 +2792,15 @@ msgid "Super computers unlock higher technology tiers than research stations alo
 msgstr "Supercomputer schalten höhere Technologiestufen als Forschungsstationen frei."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
-#| msgid ""
-#| "<link=\"RESEARCH\">Intermediate Research</link> is required to unlock improved technologies.\n"
-#| "It can be conducted at a <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n"
 "\n"
 "Assigned Duplicants must possess the <link=\"RESEARCHER\">Super Computer Researching</link> trait."
 msgstr ""
-"<link=\"RESEARCH\">Fortgeschrittene Forschung</link> wird für verbesserte Technologien benötigt.\n"
-"Sie wird an einem <link=\"ADVANCEDRESEARCHCENTER\">Super-Computer</link> durchgeführt."
+"Führt <link=\"RESEARCH\">fortgeschrittene Forschung</link> wird für verbesserte Technologien aus.\n"
+"\n"
+"Zugewiesene Duplikanten müssen das Merkmal <link=\"RESEARCHER\">Super-Computer-Forschung</link> haben."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
@@ -3095,17 +3091,17 @@ msgstr "<link=\"BOTTLEEMPTIER\">Flaschen-Entleerer</link>"
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC"
 msgid "A canister emptier's Element Filter can be used to designate areas for specific gas storage."
-msgstr "Der Elementfilter eines Kartuschenentleerers kann verwendet werden, um Bereiche für bestimmte Gasspeicher zu definieren."
+msgstr "Der Elementfilter eines Kanisterentleerers kann verwendet werden, um Bereiche für bestimmte Gasspeicher zu definieren."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT"
 msgid "Empties <link=\"ELEMENTSGAS\">Gas</link> canisters back into the world."
-msgstr "Entleert <link=\"ELEMENTSGAS\">Gas</link> aus Kartuschen zurück in die Welt."
+msgstr "Entleert <link=\"ELEMENTSGAS\">Gas</link> aus Kanistern zurück in die Welt."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME"
 msgid "<link=\"BOTTLEEMPTIERGAS\">Canister Emptier</link>"
-msgstr "<link=\"BOTTLEEMPTIERGAS\">Kartuschen-Entleerer</link>"
+msgstr "<link=\"BOTTLEEMPTIERGAS\">Kanister-Entleerer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.DESC"
@@ -3958,7 +3954,7 @@ msgstr "<link=\"FLUSHTOILET\">Toilette</link>"
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
 msgid "A gantry can be built over rocket pieces where tiles and ladders cannot."
-msgstr "Ein Startrampe kann über Raketenteilen aufgebaut werden, wo Ziegel und Leitern nicht hinreichen."
+msgstr "Ein Abschussrampe kann über Raketenteilen aufgebaut werden, wo Ziegel und Leitern nicht hinreichen."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT"
@@ -3973,7 +3969,7 @@ msgstr "<link=\"GANTRY\">Abschussrampe</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
 msgid "Canisters allow Duplicants to manually delivery gases from place to place."
-msgstr "Kartuschen ermöglichen es Duplikaten, Gase manuell von Ort zu Ort zu transportieren."
+msgstr "Kanister ermöglichen es Duplikaten, Gase manuell von Ort zu Ort zu transportieren."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT"
@@ -5909,17 +5905,17 @@ msgstr "<link=\"OUTHOUSE\">Plumpsklo</link>"
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC"
 msgid "Oxylite is a solid and easily transportable source of consumable oxygen."
-msgstr "Oxylit ist eine feste und leicht zu transportierende Quelle für verbrauchbaren Sauerstoff."
+msgstr "Oxilit ist eine feste und leicht zu transportierende Quelle für verbrauchbaren Sauerstoff."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.EFFECT"
 msgid "Synthesizes <link=\"OXYROCK\">Oxylite</link> using <link=\"OXYGEN\">Oxygen</link> and a small amount of <link=\"GOLD\">Gold</link>."
-msgstr "Synthetisiert<link=\"OXYROCK\">Oxilit</link> durch Verwendung von <link=\"OXYGEN\">Sauerstoff</link> und eine kleinen Menge <link =\"GOLD\">Gold</link>."
+msgstr "Synthetisiert <link=\"OXYROCK\">Oxilit</link> durch Verwendung von <link=\"OXYGEN\">Sauerstoff</link> und eine kleinen Menge <link =\"GOLD\">Gold</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.NAME"
 msgid "<link=\"OXYLITEREFINERY\">Oxylite Refinery</link>"
-msgstr "<link=\"OXYLITEREFINERY\">Oxylit-Raffinerie</link>"
+msgstr "<link=\"OXYLITEREFINERY\">Oxilit-Raffinerie</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.DESC"
@@ -7052,7 +7048,6 @@ msgid "Telescopes are necessary for conducting rocket research and learning star
 msgstr "Teleskope sind notwendig, um Raketenforschung zu betreiben und Sternkarten zu erstellen."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Interstellar Research</link> to unlock new technologies.\n"
@@ -7061,11 +7056,11 @@ msgid ""
 "\n"
 "Must be exposed to space to function."
 msgstr ""
-"Führt <link=\"RESEARCH\">fortgeschrittene Forschungen</link> aus und schaltet neue Technologien frei.\n"
+"Führt <link=\"RESEARCH\">Interstellare Forschung</link> aus und schaltet neue Technologien frei.\n"
 "\n"
-"Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Telescope Researching</link> trait.\n"
+"Zugewiesene Duplikanten müssen das Merkmal <link=\"SENIORRESEARCHER\">Teleskop-Forschung</link> haben.\n"
 "\n"
-"Must be exposed to space to function."
+"Muss dem Weltraum zugewandt sein, um zu funktionieren."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
@@ -7282,7 +7277,7 @@ msgid ""
 "\n"
 "Improves Duplicant Morale."
 msgstr ""
-"Stellt einen Treffpunkt für Duplikanten während einer Stillstandszeit dar.\n"
+"Stellt einen Treffpunkt für Duplikanten während der Freizeit dar.\n"
 "\n"
 "Verbessert Duplikantenmoral."
 
@@ -17322,7 +17317,7 @@ msgstr "Eine Schicht Pause"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP"
 msgid "This Duplicant has had one Downtime shift in the last cycle"
-msgstr "Dieser Duplikant hatte im letzten Zyklus eine Schichten Pause"
+msgstr "Dieser Duplikant hatte im letzten Zyklus eine Schicht Pause"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME"
@@ -17332,7 +17327,7 @@ msgstr "Zwei Schichten Pause"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP"
 msgid "This Duplicant has had two Downtime shifts in the last cycle"
-msgstr "Dieser Duplikant hatte im letzten Zyklus zwei Schichten Pause"
+msgstr "Dieser Duplikant hatte im letzten Zyklus zwei Schichten Freizeit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME"
@@ -17342,7 +17337,7 @@ msgstr "Drei Schichten Pause"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP"
 msgid "This Duplicant has had three Downtime shifts in the last cycle"
-msgstr "Dieser Duplikant hatte im letzten Zyklus drei Schichten Pause"
+msgstr "Dieser Duplikant hatte im letzten Zyklus drei Schichten Freizeit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME"
@@ -17352,7 +17347,7 @@ msgstr "Vier Schichten Pause"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP"
 msgid "This Duplicant has had four Downtime shifts in the last cycle"
-msgstr "Dieser Duplikant hatte im letzten Zyklus vier Schichten Pause"
+msgstr "Dieser Duplikant hatte im letzten Zyklus vier Schichten Freizeit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME"
@@ -17362,7 +17357,7 @@ msgstr "Fünf Schichten Pause"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP"
 msgid "This Duplicant has had five Downtime shifts in the last cycle"
-msgstr "Dieser Duplikant hatte im letzten Zyklus fünf Schichten Pause"
+msgstr "Dieser Duplikant hatte im letzten Zyklus fünf Schichten Freizeit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME"
@@ -21033,7 +21028,7 @@ msgid ""
 msgstr ""
 "Das Schlechte im Leben dieses Duplikanten beginnt, das Gute zu überwiegen\n"
 "\n"
-"Verbesserte Einrichtungen und zusätzliche Ausfallzeiten würden dazu beitragen, ihre Moral zu verbessern"
+"Verbesserte Einrichtungen und zusätzliche Freizeit würden dazu beitragen, ihre Moral zu verbessern"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME"
@@ -30769,11 +30764,6 @@ msgid "Unlocks rudimentary technologies."
 msgstr "Schaltet einfache Technologien frei."
 
 #. STRINGS.RESEARCH.TYPES.BETA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
-#| msgid ""
-#| "<link=\"RESEARCH\">Intermediate Research</link> is required to unlock improved technologies.\n"
-#| "It can be conducted at a <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>."
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
 msgid ""
 "<link=\"RESEARCH\">Advanced Research</link> is required to unlock improved technologies.\n"
@@ -30793,18 +30783,13 @@ msgid "Unlocks improved technologies."
 msgstr "Schaltet verbesserte Technologien frei."
 
 #. STRINGS.RESEARCH.TYPES.GAMMA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
-#| msgid ""
-#| "<link=\"RESEARCH\">Intermediate Research</link> is required to unlock improved technologies.\n"
-#| "It can be conducted at a <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>."
 msgctxt "STRINGS.RESEARCH.TYPES.GAMMA.DESC"
 msgid ""
 "<link=\"RESEARCH\">Interstellar Research</link> is required to unlock space technologies.\n"
 "It can be conducted at a <link=\"TELESCOPE\">Research Telescope</link>."
 msgstr ""
-"<link=\"RESEARCH\">Fortgeschrittene Forschung</link> wird für verbesserte Technologien benötigt.\n"
-"Sie wird an einem <link=\"ADVANCEDRESEARCHCENTER\">Super-Computer</link> durchgeführt."
+"<link=\"RESEARCH\">Interstellare Forschung</link> ist erforderlich, um Weltraumtechnologien freizuschalten.\n"
+"Sie wird an einem <link=\"TELESCOPE\">Forschungsteleskop</link> durchgeführt."
 
 #. STRINGS.RESEARCH.TYPES.GAMMA.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.GAMMA.NAME"
@@ -31438,7 +31423,7 @@ msgstr "Erholungsraum"
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
 msgid "Downtime shifts will further improve Morale for Duplicants visiting a Recreation Room."
-msgstr "Pausenschichten, die Duplikanten in einem Erholungsraum verbringen, verbessern die Moral erheblich."
+msgstr "Freizeit, die Duplikanten in einem Erholungsraum verbringen, verbessern die Moral erheblich."
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -32439,7 +32424,7 @@ msgstr "Produziert {0}-Forschung"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RECREATION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RECREATION"
 msgid "Improves Duplicant Morale during scheduled Downtime"
-msgstr "Verbessert die Duplikantenmoral während geplanter Unterbrechungen"
+msgstr "Verbessert die Duplikantenmoral während geplanter Freizeit"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK"
@@ -36863,9 +36848,9 @@ msgstr ""
 "------------------\n"
 "Setzt alle Prioritäten auf ihre Standardwerte zurück.\n"
 "\n"
-"Nachbarschaftsaufträge aktiviert: Die Prioritäten werden von wichtig zu hoch zu niedrig angepasst.\n"
+"Annäherung aktiviert: Die Prioritäten werden von wichtig zu hoch zu niedrig angepasst.\n"
 "\n"
-"Nachbarschaftsaufträge deaktiviert: Alle Prioritäten werden auf neutral gesetzt."
+"Annäherung deaktiviert: Alle Prioritäten werden auf neutral gesetzt."
 
 #. STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP"
@@ -36880,7 +36865,7 @@ msgstr "AUFTRAGS-PRIORITÄTEN VERWALTEN"
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
 msgid "Enable Proximity"
-msgstr "Nachbarschaftsaufträge aktivieren"
+msgstr "Annäherung aktivieren"
 
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
@@ -36893,10 +36878,10 @@ msgid ""
 "\n"
 "Enabling Proximity helps cut down on travel time in areas with lots of high-priority errands, and is useful for large colonies."
 msgstr ""
-"<b>Nachbarschaftsauftrags-Einstellung</b>\n"
+"<b>Auftrags-Annäherungseinstellung</b>\n"
 "------------------\n"
 "\n"
-"Die Aktivierung der Nachbarschaftseinstellung weist meine Duplikanten an, immer den nächstgelegenen Auftrag mit hoher Priorität auszuwählen.\n"
+"Die Aktivierung der Annäherungseinstellung weist meine Duplikanten an, immer den nächstgelegenen Auftrag mit hoher Priorität auszuwählen.\n"
 "\n"
 "Wenn deaktiviert, wählen Duplikanten stattdessen basierend auf den versteckten Prioritätshierarchien zwischen zwei Aufträgen mit hoher Priorität."
 
@@ -40254,7 +40239,7 @@ msgid ""
 "\n"
 "Once they're all caught up on personal hygiene, Duplicants will head back to work."
 msgstr ""
-"Während der Badezeit-Schichten kümmern sich meine Duplikanten um ihre Hygienebedürfnisse, wie dem Gang ins Badezimmer, zum Duschen oder Händewaschen.\n"
+"Während der Badezeit kümmern sich meine Duplikanten um ihre Hygienebedürfnisse, wie dem Gang ins Badezimmer, zum Duschen oder Händewaschen.\n"
 "\n"
 "Sobald sie alle ihre Körperpflege abgeschlossen haben, werden Duplikanten wieder an die Arbeit gehen."
 
@@ -40264,12 +40249,9 @@ msgid "Bathtime"
 msgstr "Badezeit"
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
-#| msgid "During bathtime blocks my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP"
 msgid "During Bathtime shifts my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands."
-msgstr "Während der Badezeit-Blöcke kümmern sich meine Duplikanten um ihre Hygienebedürfnisse, wie dem Gang ins Badezimmer, zum Duschen oder Händewaschen."
+msgstr "Während der Badezeit kümmern sich meine Duplikanten um ihre Hygienebedürfnisse, wie dem Gang ins Badezimmer, zum Duschen oder Händewaschen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS"
@@ -40282,14 +40264,6 @@ msgid "No {0} shifts allotted"
 msgstr "Keine {0} Schichten zugeteilt"
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
-#| msgid ""
-#| "During downtime my Duplicants they may do as they please.\n"
-#| "\n"
-#| "This may include personal matters like bathroom visits or snacking, or they may choose to engage in leisure activities like socializing with friends.\n"
-#| "\n"
-#| "Downtime increases Duplicant Morale."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
 msgid ""
 "During Downtime my Duplicants they may do as they please.\n"
@@ -40312,7 +40286,7 @@ msgstr "Freizeit"
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NOTIFICATION_TOOLTIP"
 msgid "During Downtime shifts my Duplicants they may do as they please."
-msgstr "Während der Pausenschichten können meine Duplikanten tun, was sie wollen."
+msgstr "Während der Freizeit können meine Duplikanten tun, was sie wollen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
@@ -40321,9 +40295,9 @@ msgid ""
 "\n"
 "Scheduling too few bedtime shifts may prevent my Duplicants from regaining enough Stamina to make it through the following day."
 msgstr ""
-"Meine Duplikanten nutzen die Schlafschicht um sich nach einem harten Arbeitstag zu erholen.\n"
+"Meine Duplikanten nutzen die Schlafszeit um sich nach einem harten Arbeitstag zu erholen.\n"
 "\n"
-"Die Planung zu weniger Schlafschichten kann meine Duplikanten daran hindern, wieder genügend Ausdauer zu erlangen, um den nächsten Tag zu überstehen."
+"Die Planung zu weniger Schlafszeit kann meine Duplikanten daran hindern, wieder genügend Ausdauer zu erlangen, um den nächsten Tag zu überstehen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME"
@@ -40333,7 +40307,7 @@ msgstr "Schlafenszeit"
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NOTIFICATION_TOOLTIP"
 msgid "My Duplicants use Bedtime shifts to rest up after a hard day's work."
-msgstr "Meine Duplikanten nutzen Schlafschichten, um sich von einem harten Arbeitstag zu erholen."
+msgstr "Meine Duplikanten nutzen die Schlafszeit, um sich von einem harten Arbeitstag zu erholen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT"
@@ -40353,19 +40327,19 @@ msgid ""
 "\n"
 "It's important when scheduling to maintain a good work-life balance for my Duplicants to maintain their health and prevent Morale loss."
 msgstr ""
-"Während der Arbeitsblöcke müssen Duplikanten die Arbeit erledigen, die ich in der Kolonie vorgesehen habe.\n"
+"Während der Arbeitszeit müssen Duplikanten die Arbeit erledigen, die ich in der Kolonie vorgesehen habe.\n"
 "\n"
 "Bei der Zeitplanung ist eine gute Work-Life-Balance ausschlaggebend für die Gesundheit und Moral meiner Duplikanten."
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
 msgid "Work"
-msgstr "Arbeit"
+msgstr "Arbeitszeit"
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP"
 msgid "During Work shifts my Duplicants must perform the work tasks I've placed for them throughout the colony."
-msgstr "Während der Arbeitsblöcke müssen Duplikanten die Arbeit erledigen, die ich in der Kolonie vorgesehen habe."
+msgstr "Während der Arbeitszeit müssen Duplikanten die Arbeit erledigen, die ich in der Kolonie vorgesehen habe."
 
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
@@ -40420,19 +40394,18 @@ msgstr "Zeitplan löschen"
 #. STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE"
 msgid "Downtime Morale: {0}"
-msgstr "Downtime Moral: {0}"
+msgstr "Freizeit-Moral: {0}"
 
 #. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
 msgid "Paint Tools:"
-msgstr "Malerei-Werkzeuge:"
+msgstr "Zeitblöcke:"
 
 #. STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
 msgid "Rename custom schedule"
 msgstr "Eigenen Zeitplan umbenennen"
 
-# Beruf oder Aufgabe?
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS"
 msgid "Reset Shifts"
@@ -40452,7 +40425,7 @@ msgstr ""
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE"
 msgid "Duplicants will receive {0} Morale from the scheduled Downtime shifts"
-msgstr "Duplikanten erhalten {0} Moral von den geplanten Pausenschichten"
+msgstr "Duplikanten erhalten {0} Moral von der geplanten Freizeit"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED"
@@ -40877,7 +40850,7 @@ msgstr "ALLE SYSTEME LAUFEN"
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED"
 msgid "Grounded"
-msgstr ""
+msgstr "am Boden"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING"
@@ -44055,12 +44028,12 @@ msgstr "Wenn aktiviert, liefern Duplikanten abgefüllte Flüssigkeiten direkt vo
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME"
 msgid "Enable Auto-Canister"
-msgstr "Aktiviere Auto-Kanister"
+msgstr "Autoabfüllung aktivieren"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP"
 msgid "If enabled, Duplicants will deliver gas canisters to this building directly from Canister Fillers"
-msgstr "Wenn aktiviert, liefern Duplikanten abgefüllte Gase direkt von einem Kartuschenfüller zu diesem Gebäude"
+msgstr "Wenn aktiviert, liefern Duplikanten abgefüllte Gase direkt von einem Kanisterfüller zu diesem Gebäude"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
@@ -44080,7 +44053,7 @@ msgstr "Deaktiviere Autoabfüllung"
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP"
 msgid "If disabled, Duplicants will no longer deliver gas canisters directly from Canister Fillers"
-msgstr "Wenn deaktiviert, liefern Duplikanten keine abgefüllte Gase direkt von einem Kartuschenfüller zu diesem Gebäude"
+msgstr "Wenn deaktiviert, liefern Duplikanten keine abgefüllte Gase direkt von einem Kanisterfüller zu diesem Gebäude"
 
 #. STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME"
