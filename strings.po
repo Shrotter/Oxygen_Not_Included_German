@@ -1446,12 +1446,6 @@ msgstr ""
 "{ResourcesRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.TOOLTIP"
-#| msgid ""
-#| "The mass of material that was delivered to this building was too low\n"
-#| "\n"
-#| "Deliver more material to run this building"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP"
 msgid ""
 "The mass of material that was delivered to this building was too low\n"
@@ -1812,7 +1806,6 @@ msgid "Transferred from pipes"
 msgstr "Übertragen von Rohren"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP"
 msgid ""
 "This building is producing {0} DTU per second\n"
@@ -2962,7 +2955,6 @@ msgid "Duplicants must complete astronaut training in order to pilot space rocke
 msgstr "Duplikanten müssen eine Astronautenausbildung absolvieren, um Weltraumraketen zu steuern."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT"
 msgid ""
 "Trains Duplicants to become <link=\"ASTRONAUT\">Astronauts</link>.\n"
@@ -2971,7 +2963,7 @@ msgid ""
 msgstr ""
 "Trainiert Duplikanten, um <link=\"ASTRONAUT\">Astronauten</link> zu werden.\n"
 "\n"
-"Duplikanten müssen die Eigenschaft <link=\"ASTRONAUTTRAINEE\">Astronaut in Ausbildung</link> besitzen, um eine Ausbildung zu erhalten."
+"Duplikanten müssen das Merkmal <link=\"ASTRONAUTTRAINEE\">Astronaut-in-Ausbildung</link> innehaben, um eine Ausbildung zu erhalten."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
@@ -8615,7 +8607,6 @@ msgid "SUBJECT: frankie's bloggg"
 msgstr "THEMA: Frankies blogg"
 
 #. STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1
-#, fuzzy
 msgctxt "STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1"
 msgid ""
 "Little is currently known of the Gassy Moo due to its alien nature and origin.\n"
@@ -8624,7 +8615,7 @@ msgid ""
 msgstr ""
 "Von der Gassy Moo ist derzeit wenig bekannt, da sie von fremder Natur und Herkunft ist.\n"
 "\n"
-"Es ist in der Lage, in Schwerelosigkeit und ohne Atmosphäre zu überleben und sein Überleben ist abhängig von einer zweiten fremden Spezies, <link=\"GASGRASS\">Gasgras</link>."
+"Es ist in der Lage, in Schwerelosigkeit und ohne Atmosphäre zu überleben und sein Überleben ist abhängig von einer zweiten fremden Spezies, <link=\"GASGRASS\">Gasgrass</link>."
 
 #. STRINGS.CODEX.GASSYMOO.SUBTITLE
 msgctxt "STRINGS.CODEX.GASSYMOO.SUBTITLE"
@@ -8632,7 +8623,6 @@ msgid "Domesticable Critter"
 msgstr "Domestizierbares Tier"
 
 #. STRINGS.CODEX.GASSYMOO.TITLE
-#, fuzzy
 msgctxt "STRINGS.CODEX.GASSYMOO.TITLE"
 msgid "Gassy Moo"
 msgstr "Gassy Moo"
@@ -8720,6 +8710,20 @@ msgid ""
 "\n"
 "This may be because the Hatch's teeth have evolved to be exceptionally hard and sturdy to masticate a wide variety of materials, and it is therefore less likely to incur injuries to itself during attack."
 msgstr ""
+"Um die Sehschwäche auszugleichen, hat die Luke scharfsinnig chemische Rezeptoren in den Tarsi an den Enden ihrer Beine, die sich zu scharfen Zacken für den Tunnelbau entwickelt haben.\n"
+"\n"
+"Diese Rezeptoren erkennen winzige Veränderungen in der Erde und der Luft, so dass der Hatch den Spuren chemischer Spuren zu Lebensmitteln folgen kann, gefährliche Gebiete erfasst und auf potenzielle Raubtiere reagiert.\n"
+"\n"
+"Der Hatch ist nachtaktiv und benötigt über zwölf Stunden Schlaf pro Tag.\n"
+"Er kommt erst nachts zum hervor und verbringt den Tag lieber unter der Erde und außerhalb der Sichtweite potenzieller Raubtiere.\n"
+"\n"
+"Ohne einen Ort, an dem er sich verstecken kann, wird der hatch Luke in Verzweiflung geraten und kann ganz auf den Schlaf verzichten.\n"
+"\n"
+"Es ist schwierig, die Ernährung des Hatch zu klassifizieren, da sich der Begriff \"Allesfresser\" nicht auf die anorganischen Materialien erstreckt, die der Hatch aufnehmen kann.\n"
+"\n"
+"Ein passenderer Begriff ist \"totumvore\", da er in der Lage ist, aus fast jeder bekannten Substanz Nährstoffe zu gewinnen und zu konsumieren.\n"
+"\n"
+"Trotzdem ist der Hatch ein nicht aggressiver Aasfresser und vermeidet den Kontakt mit den meisten anderen Organismen. Überraschenderweise zieht der Hatch es vor, Raubtiere in der Selbstverteidigung zu beißen, anstatt seine geschärften Tarsi zu benutzen."
 
 #. STRINGS.CODEX.HATCH.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER3"
@@ -8730,6 +8734,11 @@ msgid ""
 "\n"
 "The proper way to pet a Hatch is to touch any of its four feet to first make it aware of your presence, then either scratch the soft segmented underbelly or firmly pat the creature's thick chitinous back."
 msgstr ""
+"Beim Versuch, einen Hatch zu streicheln, machen Unerfahrene den Fehler, zu schnell nach dem Kopf der Kreatur zu greifen.\n"
+"\n"
+"Dies löst eine Angstreaktion beim Hatch aus, denn ihr lichtempfindlicher Hautfleck, das \"parietale Auge\", interpretiert diese plötzliche Lichtveränderung als ein ankommendes Flugraubtier.\n"
+"\n"
+"Der richtige Weg, einen Hatch zu streicheln, besteht darin, einen der vier Füße zu berühren, um sie zuerst auf deine Anwesenheit aufmerksam zu machen, dann entweder den weichen, segmentierten Unterbauch zu kratzen oder den dicken, chitinösen Rücken der Kreatur fest zu klopfen."
 
 #. STRINGS.CODEX.HATCH.SUBTITLE
 msgctxt "STRINGS.CODEX.HATCH.SUBTITLE"
@@ -8947,9 +8956,7 @@ msgstr ""
 "\n"
 "So lästig.</indent>"
 
-# m/w?
 #. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2
-#, fuzzy
 msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing my cat did? She always falls asleep on my bed but last night she sprawled out on her back and her little tongue was poking out! So cute.\n"
@@ -8969,7 +8976,7 @@ msgid ""
 "You're the worst!</indent>"
 msgstr ""
 "<indent=5%><i><b>UGHHHHHHHHHHH!</b></i>\n"
-"Du bist die Schlimmste!</indent>"
+"Du bist der Schlimmste!</indent>"
 
 #. STRINGS.CODEX.HOLLANDSDOG.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.EMAILHEADER1"
@@ -11765,7 +11772,7 @@ msgstr "<link=\"GEYSERGENERICMETHANEGEYSER\">Erdgas-Geysir</link>"
 #. STRINGS.CREATURES.SPECIES.MOO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOO.DESC"
 msgid "Moos are extraterrestrial critters that feed on <link=\"GASGRASS\">Gas Grass</link> and excrete <link=\"METHANE\">Natural Gas</link>."
-msgstr "Moos sind außerirdische Lebewesen, die sich von <link=\"GASGRASS\">Gasgras</link> ernähren und <link=\"METHANE\">Erdgas</link> ausscheiden."
+msgstr "Moos sind außerirdische Lebewesen, die sich von <link=\"GASGRASS\">Gasgrass</link> ernähren und <link=\"METHANE\">Erdgas</link> ausscheiden."
 
 #. STRINGS.CREATURES.SPECIES.MOO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOO.NAME"
@@ -12072,7 +12079,7 @@ msgstr "<link=\"PRICKLEGRASS\">Dornenstrauch</link>"
 #. STRINGS.CREATURES.SPECIES.PRICKLEGRASS.WILT_PENALTY
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEGRASS.WILT_PENALTY"
 msgid "Wilt Penalty"
-msgstr ""
+msgstr "Nachteil für Verwelkung"
 
 #. STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC"
@@ -12279,14 +12286,14 @@ msgid ""
 "\n"
 "Used as feed for<link=\"MOO\">Gassy Moos</link>."
 msgstr ""
-"Die <link=\"PLANTS\">Samen</link> einer <link=\"COLDWHEAT\">Gas Grass</link>-Pflanze.\n"
+"Die <link=\"PLANTS\">Samen</link> einer <link=\"COLDWHEAT\">Gasgrass</link>-Pflanze.\n"
 "\n"
 "Wird verwendet um <link=\"MOO\">Gassy Moos</link> zu füttern."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.NAME"
 msgid "<link=\"GASGRASS\">Gas Grass Seed</link>"
-msgstr "<link=\"GASGRASS\">Gas Grass Samen</link>"
+msgstr "<link=\"GASGRASS\">Gasgrass-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC"
@@ -15581,12 +15588,9 @@ msgid "Not enough Oxygen"
 msgstr "Nicht genug Sauerstoff"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
-#| msgid "Currently Researching"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING"
 msgid "Currently Peeing"
-msgstr "Wird gerade erforscht"
+msgstr "Pinkelt gerade"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_IDLE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_IDLE"
@@ -18598,12 +18602,12 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME"
 msgid "Morale Upgrade Helper"
-msgstr ""
+msgstr "Moral-Upgrade-Helfer"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
 msgid "This Duplicant will receive a temporary Morale bonus to buffer the new system introduction"
-msgstr ""
+msgstr "Dieser Duplikant erhält einen temporären Moralbonus, um die Einführung des neuen Systems abzufedern"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME"
@@ -21716,10 +21720,9 @@ msgid "Angry"
 msgstr "Verärgert"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP"
 msgid "Washroom Break"
-msgstr "Waschraum"
+msgstr "Toiletten -Pause"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP"
@@ -23243,7 +23246,6 @@ msgid "Buildings constructed from this material will have these properties"
 msgstr "Gebäude aus diesem Material haben folgende Eigenschaften"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_SPECIFIC_HEAT_CAPACITY
-#, fuzzy
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_SPECIFIC_HEAT_CAPACITY"
 msgid ""
 "Slow Heating materials require a large amount of energy to raise in temperature, and therefore heat and cool slowly\n"
@@ -23270,7 +23272,6 @@ msgstr ""
 "Wärmeleitfähigkeit: {1} W pro K Differenz (Sauerstoff: 0,024 W)"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY
-#, fuzzy
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY"
 msgid ""
 "Thermally Reactive materials require little energy to raise in temperature, and therefore heat and cool quickly\n"
@@ -26855,14 +26856,6 @@ msgstr ""
 "Ihre Erwartungen sind entsprechend gestiegen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants must be able to reach the errands I set in order to do their work.\n"
-#| "\n"
-#| "When placing errands, I should keep in mind that they can only climb obstacles up to two spaces high, and are themselves two spaces tall.\n"
-#| "\n"
-#| "If I need to check that an errand I've placed is accessible, I can select a Duplicant and click SHOW NAVIGATION to view all areas within their reach."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
 msgid ""
 "In order to perform the errands I set, Duplicants must first be able to reach them.\n"
@@ -26871,11 +26864,11 @@ msgid ""
 "\n"
 "To check if an errand I've placed is accessible, I can select a Duplicant and click <color=#F44A47><b>SHOW NAVIGATION</b></color> to view all areas currently within their reach."
 msgstr ""
-"Duplikanten müssen ihre Aufträge erreichen können.\n"
+"Um die von mir gesetzten Aufträge ausführen zu können, müssen Duplikanten sie zuerst erreichen können.\n"
 "\n"
 "Wenn ich Aufträge vergebe, sollte ich darauf achten, dass Duplikanten nur zwei Felder hochklettern können und selbst auch zwei Felder groß sind.\n"
 "\n"
-"Wenn ich unsicher bin, ob eine Aufgabe erreichbar ist, kann ich einen Duplikanten auswählen und auf NAVIGATION ANZEIGEN klicken, um alle Bereiche in seiner Reichweite zu sehen."
+"Wenn ich unsicher bin, ob eine Aufgabe erreichbar ist, kann ich einen Duplikanten auswählen und auf <color=#F44A47><b>NAVIGATION ANZEIGEN</b></color> klicken, um alle Bereiche in seiner Reichweite zu sehen."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME"
@@ -26948,6 +26941,9 @@ msgid ""
 "\n"
 "As Duplicants are assigned to Jobs, they gain increased Expectations, and so the colony will have to be improved to keep up their Morale. An overview of Morale and Stress can be viewed on the Vitals screen."
 msgstr ""
+"Die Nahrung, die Räume, die Dekoration und die Erholung, die ein Duplikant erlebt beinflusst seine Moral. Gute Erfahrungen verbessern seine Moral und schlechte Erfahrungen verringern sie. Wenn die Moral unter ihren Erwartungen liegt, werden Duplikanten gestresst.\n"
+"\n"
+"Wenn Duplikanten Berufen zugewiesen werden, steigen die Erwartungen, und somit muss die Kolonie aufgewertet werden, um ihre Moral aufrechtzuerhalten. Ein Überblick über Moral und Stress findest du in der Vitalwerte Anzeige."
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.NAME"
@@ -31245,9 +31241,6 @@ msgid "Stable"
 msgstr "Stall"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
-#| msgid "Stabled critters will be more productive and less hostile."
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
 msgid "Stabled critters will become more productive and less hostile."
 msgstr "Stallvieh ist produktiver und weniger feindselig."
@@ -31443,12 +31436,9 @@ msgid "Recreation Room"
 msgstr "Erholungsraum"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
-#| msgid "Leisure time will further improve Morale for Duplicants visiting a Recreation Room."
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
 msgid "Downtime shifts will further improve Morale for Duplicants visiting a Recreation Room."
-msgstr "Freizeit, die Duplikanten in einem Erholungsraum verbringen, verbessert die Moral."
+msgstr "Pausenschichten, die Duplikanten in einem Erholungsraum verbringen, verbessern die Moral erheblich."
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -34843,9 +34833,6 @@ msgid "AUDIO OPTIONS"
 msgstr "AUDIOOPTIONEN"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DEFAULT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.DEFAULT.NAME"
-#| msgid "Regular"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DEFAULT.NAME"
 msgid "Regular"
 msgstr "Normal"
@@ -35074,7 +35061,7 @@ msgstr "Duplikanten haben sehr hohe Erwartungen"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.NAME"
 msgid "Morale Stress"
-msgstr ""
+msgstr "Moralischer Stress"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.TOOLTIP"
@@ -35858,6 +35845,13 @@ msgid ""
 "\n"
 "2) Disable Morale in this save. The new Morale mechanics will still be visible, but won't affect your Duplicants' stress. Food and Decor expectations will no longer exist in this save."
 msgstr ""
+"Willkommen zum Expressive Upgrade! Dieses Update führt ein neues Moralsystem ein, das die Erwartungen an Nahrung und Dekoration ersetzt, die in früheren Versionen des Spiels vorkamen.\n"
+"\n"
+"Das Spiel, das du laden möchtest, wurde vor der Einführung dieses Systems erstellt und muss aktualisiert werden. Du kannst wahlweise:\n"
+"\n"
+"1) Das neue Moralsystem in diesem Speicherstand aktivieren, wodurch die Erwartungen an Essen und Dekor entfernt werden. Es ist möglich, dass deine alte Kolonie beim Laden des Spielstandes die neuen Moralbedürfnisse deiner Duplikanten nicht erfüllt, weshalb sie für 5 Zyklen einen Moralschub erhalten, um dir Zeit zur Anpassung zu geben.\n"
+"\n"
+"2) Das Moralsystem in diesem Speicherstand deaktivieren. Die neue Moralmechanik wird weiterhin sichtbar sein, aber den Stress deiner Duplikanten nicht beeinträchtigen. Die Erwartungen an Lebensmittel und Dekor werden in dieser Hinsicht nicht mehr bestehen."
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_BUFF
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_BUFF"
@@ -36865,6 +36859,13 @@ msgid ""
 "\n"
 "Proximity Disabled: All priorities will be reset to neutral."
 msgstr ""
+"<b>Prioritäten zurücksetzen</b>\n"
+"------------------\n"
+"Setzt alle Prioritäten auf ihre Standardwerte zurück.\n"
+"\n"
+"Nachbarschaftsaufträge aktiviert: Die Prioritäten werden von wichtig zu hoch zu niedrig angepasst.\n"
+"\n"
+"Nachbarschaftsaufträge deaktiviert: Alle Prioritäten werden auf neutral gesetzt."
 
 #. STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP"
@@ -36879,7 +36880,7 @@ msgstr "AUFTRAGS-PRIORITÄTEN VERWALTEN"
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
 msgid "Enable Proximity"
-msgstr ""
+msgstr "Nachbarschaftsaufträge aktivieren"
 
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
@@ -36892,6 +36893,12 @@ msgid ""
 "\n"
 "Enabling Proximity helps cut down on travel time in areas with lots of high-priority errands, and is useful for large colonies."
 msgstr ""
+"<b>Nachbarschaftsauftrags-Einstellung</b>\n"
+"------------------\n"
+"\n"
+"Die Aktivierung der Nachbarschaftseinstellung weist meine Duplikanten an, immer den nächstgelegenen Auftrag mit hoher Priorität auszuwählen.\n"
+"\n"
+"Wenn deaktiviert, wählen Duplikanten stattdessen basierend auf den versteckten Prioritätshierarchien zwischen zwei Aufträgen mit hoher Priorität."
 
 #. STRINGS.UI.JOBSSCREEN.TOOLTIP_TOGGLE_ALL
 msgctxt "STRINGS.UI.JOBSSCREEN.TOOLTIP_TOGGLE_ALL"
@@ -39355,12 +39362,12 @@ msgstr "Die Moral des Duplikanten ist zu niedrig für die Erwartungen an diesen 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_EXPECTATION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_EXPECTATION"
 msgid "Morale: {0}, Current Expectation: {1}"
-msgstr ""
+msgstr "Moral: {0}, aktuelle Erwartung: {1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_JOB
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_JOB"
 msgid "Morale: {0}, {2} job expecations: {1}"
-msgstr ""
+msgstr "Moral: {0}: Erwartungen von {2} Beruf: {1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_TARGET_JOB
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_TARGET_JOB"
@@ -39615,7 +39622,7 @@ msgstr "Merkmal : Abbau von <link=\"HARDNESS\">sehr hartem Material</link>"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION"
 msgid "Trait: Astronaut-in-Training"
-msgstr "Trait: Astronaut-in-Ausbildung"
+msgstr "Merkmal: Astronaut-in-Ausbildung"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION"
@@ -39650,7 +39657,7 @@ msgstr "Merkmal: Pflegestationstraining"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_ROCKETS.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_ROCKETS.DESCRIPTION"
 msgid "Trait: Astronaut"
-msgstr ""
+msgstr "Merkmal: Astronaut"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_WRANGLE_CREATURES.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_WRANGLE_CREATURES.DESCRIPTION"
@@ -40241,16 +40248,15 @@ msgid "Work"
 msgstr "Arbeiten"
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION
-#, fuzzy
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
 msgid ""
 "During Bathtime shifts my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands.\n"
 "\n"
 "Once they're all caught up on personal hygiene, Duplicants will head back to work."
 msgstr ""
-"Während der Badezeit-Blöcke kümmern sich meine Duplikanten um ihre Hygienebedürfnisse, wie dem Gang ins Badezimmer, zum Duschen oder Händewaschen.\n"
+"Während der Badezeit-Schichten kümmern sich meine Duplikanten um ihre Hygienebedürfnisse, wie dem Gang ins Badezimmer, zum Duschen oder Händewaschen.\n"
 "\n"
-"Once they're all caught up on personal hygiene, Duplicants will head back to work."
+"Sobald sie alle ihre Körperpflege abgeschlossen haben, werden Duplikanten wieder an die Arbeit gehen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME"
@@ -40309,16 +40315,15 @@ msgid "During Downtime shifts my Duplicants they may do as they please."
 msgstr "Während der Pausenschichten können meine Duplikanten tun, was sie wollen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
-#, fuzzy
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
 msgid ""
 "My Duplicants use Bedtime shifts to rest up after a hard day's work.\n"
 "\n"
 "Scheduling too few bedtime shifts may prevent my Duplicants from regaining enough Stamina to make it through the following day."
 msgstr ""
-"Meine Duplikanten nutzen die Schlafenszeit um sich nach einem harten Arbeitstag zu erholen.\n"
+"Meine Duplikanten nutzen die Schlafschicht um sich nach einem harten Arbeitstag zu erholen.\n"
 "\n"
-"Scheduling too few bedtime shifts may prevent my Duplicants from regaining enough Stamina to make it through the following day."
+"Die Planung zu weniger Schlafschichten kann meine Duplikanten daran hindern, wieder genügend Ausdauer zu erlangen, um den nächsten Tag zu überstehen."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME"
@@ -40363,12 +40368,9 @@ msgid "During Work shifts my Duplicants must perform the work tasks I've placed 
 msgstr "Während der Arbeitsblöcke müssen Duplikanten die Arbeit erledigen, die ich in der Kolonie vorgesehen habe."
 
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE"
-#| msgid "Time Schedule"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
 msgid "Add New Schedule"
-msgstr "Zeitplan"
+msgstr "Neuen Zeitplan hinzufügen"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON"
@@ -40423,15 +40425,12 @@ msgstr "Downtime Moral: {0}"
 #. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
 msgid "Paint Tools:"
-msgstr ""
+msgstr "Malerei-Werkzeuge:"
 
 #. STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
-#| msgid "Rename Schedule"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
 msgid "Rename custom schedule"
-msgstr "Zeitplan umbenennen"
+msgstr "Eigenen Zeitplan umbenennen"
 
 # Beruf oder Aufgabe?
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS
@@ -40446,11 +40445,14 @@ msgid ""
 "------------------\n"
 "Restore this schedule to default shifts"
 msgstr ""
+"<b>Schichten zurücksetzen</b>\n"
+"------------------\n"
+"Stellen den Zeitplan auf Standardschichten zurück"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE"
 msgid "Duplicants will receive {0} Morale from the scheduled Downtime shifts"
-msgstr ""
+msgstr "Duplikanten erhalten {0} Moral von den geplanten Pausenschichten"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED"
@@ -40460,15 +40462,12 @@ msgstr "{0} Zugewiesen"
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK"
 msgid "<i>Move Duplicant...</i>"
-msgstr ""
+msgstr "<i>Verschiebe Duplikant...</i>"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_FORMAT"
-#| msgid "Schedule {0}"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR"
 msgid "Schedule Editor"
-msgstr "Zeitplan {0}"
+msgstr "Zeitplan-Editor"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT"
@@ -40688,7 +40687,7 @@ msgstr "{0} km"
 #. STRINGS.UI.STARMAP.DISTANCE_OVERLAY
 msgctxt "STRINGS.UI.STARMAP.DISTANCE_OVERLAY"
 msgid "TOO FAR FOR THIS ROCKET"
-msgstr ""
+msgstr "ZU WEIT FÜR DIESE RAKETE"
 
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
@@ -40738,7 +40737,7 @@ msgstr "Lebensmittel eingeladen"
 #. STRINGS.UI.STARMAP.HASFOOD.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.HASFOOD.TOOLTIP"
 msgid "Sufficient food stores have been loaded, ready for launch"
-msgstr ""
+msgstr "Es wurden genügend Lebensmittellager beladen, bereit für den Start"
 
 #. STRINGS.UI.STARMAP.HASSUIT.NAME
 msgctxt "STRINGS.UI.STARMAP.HASSUIT.NAME"
@@ -40753,12 +40752,12 @@ msgstr "Ein Atemschutzanzug wurde eingeladen"
 #. STRINGS.UI.STARMAP.LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_MISSION"
 msgid "LAUNCH MISSION"
-msgstr ""
+msgstr "MISSION STARTEN"
 
 #. STRINGS.UI.STARMAP.LAUNCH_ROCKET
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_ROCKET"
 msgid "Launch Rocket"
-msgstr ""
+msgstr "Rakete starten"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT"
@@ -40793,7 +40792,7 @@ msgstr "Benötigt"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
 msgid "A {0} must be installed before launch"
-msgstr ""
+msgstr "Ein {0} muss vor dem Start eingebaut werden"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.DISTANCE
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.DISTANCE"
@@ -40808,7 +40807,7 @@ msgstr "Treibstoff"
 #. STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
 msgid "Launch Checklist"
-msgstr ""
+msgstr "Checkliste für den Start"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.MASS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MASS"
@@ -40858,7 +40857,7 @@ msgstr "Lager"
 #. STRINGS.UI.STARMAP.LISTTITLES.TYPE
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.TYPE"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION"
@@ -40873,7 +40872,7 @@ msgstr "STERNENKARTE"
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GO
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GO"
 msgid "ALL SYSTEMS GO"
-msgstr ""
+msgstr "ALLE SYSTEME LAUFEN"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED"
@@ -40916,11 +40915,18 @@ msgid ""
 "\n"
 "Remember the more weight a rocket has, the more limited it'll be on the distance it can travel. You can add more fuel to fix that, but fuel will add weight as well."
 msgstr ""
+"Raketen ermöglichen es Dir, nahe gelegene Himmelskörper zu besuchen.\n"
+"\n"
+"Jede Rakete muss über ein Kommandomodul, einen Triebwerk und Treibstoff verfügen.\n"
+"\n"
+"Sie können auch andere Module mitführen, die es dir ermöglichen, bestimmte Ressourcen von den besuchten Orten zu sammeln.\n"
+"\n"
+"Denke daran, je mehr Gewicht eine Rakete hat, desto geringer ist ihre Reichweite. Du kannst mehr Treibstoff hinzufügen, um das zu korrigieren, aber Treibstoff wird auch Gewicht hinzufügen."
 
 #. STRINGS.UI.STARMAP.NO_ROCKETS_TITLE
 msgctxt "STRINGS.UI.STARMAP.NO_ROCKETS_TITLE"
 msgid "NO ROCKETS"
-msgstr ""
+msgstr "KEINE RAKETEN"
 
 #. STRINGS.UI.STARMAP.NOFOOD.NAME
 msgctxt "STRINGS.UI.STARMAP.NOFOOD.NAME"
@@ -40930,7 +40936,7 @@ msgstr "Unzureichende Nahrung"
 #. STRINGS.UI.STARMAP.NOFOOD.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.NOFOOD.TOOLTIP"
 msgid "Rocket cannot launch without adequate food stores for passengers"
-msgstr ""
+msgstr "Rakete kann ohne ausreichende Lebensmittelvorräte für die Passagiere nicht starten"
 
 #. STRINGS.UI.STARMAP.NOSUIT.NAME
 msgctxt "STRINGS.UI.STARMAP.NOSUIT.NAME"
@@ -40940,7 +40946,7 @@ msgstr "Atemschutzanzug fehlt"
 #. STRINGS.UI.STARMAP.NOSUIT.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.NOSUIT.TOOLTIP"
 msgid "Rocket cannot launch without an Atmo Suit loaded"
-msgstr ""
+msgstr "Rakete kann nicht ohne einen geladenen Atemschutzanzug starten"
 
 #. STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION"
@@ -40948,6 +40954,8 @@ msgid ""
 "Gather Interstellar Research Data on a Research Module.\n"
 "Research Modules Equipped: {0}."
 msgstr ""
+"Sammle mit einem Forschungsmodul interstellare Forschungsdaten.\n"
+"Installierte Forschungsmodule: {0}."
 
 #. STRINGS.UI.STARMAP.ROCKET_COUNT
 msgctxt "STRINGS.UI.STARMAP.ROCKET_COUNT"
@@ -41012,7 +41020,7 @@ msgstr "Total"
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.WEIGHTPENALTY
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.WEIGHTPENALTY"
 msgid "Weight Penalty"
-msgstr ""
+msgstr "Gewichtsnachteil"
 
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS"
@@ -41032,12 +41040,12 @@ msgstr "Masse: "
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY"
 msgid "Mass Penalty: "
-msgstr ""
+msgstr "Massenachteil"
 
 #. STRINGS.UI.STARMAP.SEE_ROCKETS_LIST
 msgctxt "STRINGS.UI.STARMAP.SEE_ROCKETS_LIST"
 msgid "See Rockets List"
-msgstr ""
+msgstr "Raketenliste anzeigen"
 
 #. STRINGS.UI.STARMAP.STATUS
 msgctxt "STRINGS.UI.STARMAP.STATUS"
@@ -41165,12 +41173,9 @@ msgid "Cannot Wrangle"
 msgstr "Kann nicht eingefangen werden"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLACTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.HARVEST.TOOLACTION"
-#| msgid "DRAG TO TOGGLE HARVEST"
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLACTION"
 msgid "DRAG TO TOGGLE WRANGLE"
-msgstr "ZIEHEN UM ERNTEN UMZUSCHALTEN"
+msgstr "ZIEHEN UM EINFANGEN UMZUSCHALTEN"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLNAME"
@@ -41253,12 +41258,9 @@ msgid "Empty Pipe"
 msgstr "Rohr leeren"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION"
-#| msgid "DRAG TO MARK PIPES TO EMPTY"
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION"
 msgid "DRAG TO REMOVE PIPE CONTENTS"
-msgstr "ZIEHEN UM ROHRE ZUM ENTLEEREN ZU MARKIEREN"
+msgstr "ZIEHEN UM ROHRE ZU ENTLEEREN"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME"
@@ -41266,12 +41268,9 @@ msgid "Empty Pipe Tool"
 msgstr "Rohrentleer-Werkzeug"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
-#| msgid "Drag to move debris into storage"
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 msgid "Drag to remove contents of pipe"
-msgstr "Ziehe, um Ressourcen ins Lager zu bringen"
+msgstr "Ziehen, um Ressourcen ins Lager zu bringen"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
@@ -41550,12 +41549,9 @@ msgid "Cancel queued orders or deconstruct existing buildings"
 msgstr "Bricht ausstehende Befehle ab oder zerlegt existierende Gebäude"
 
 #. STRINGS.UI.TOOLTIPS.CAPTUREBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CAPTUREBUTTON"
-#| msgid "Drag to capture live critters"
 msgctxt "STRINGS.UI.TOOLTIPS.CAPTUREBUTTON"
 msgid "Drag to capture critters"
-msgstr "Ziehen, um lebende Tiere zu fangen"
+msgstr "Ziehen, um Tiere einzufangen"
 
 #. STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON"
@@ -41565,7 +41561,7 @@ msgstr "Wischt und räumt unordentlichen Boden auf"
 #. STRINGS.UI.TOOLTIPS.CLEARBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
 msgid "Drag to move debris into storage"
-msgstr "Ziehe, um Ressourcen ins Lager zu bringen"
+msgstr "Ziehen, um Ressourcen ins Lager zu bringen"
 
 #. STRINGS.UI.TOOLTIPS.CLOSETOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.CLOSETOOLTIP"
@@ -41588,12 +41584,9 @@ msgid "Drag to demolish buildings"
 msgstr "Ziehen, um Gebäude zu zerlegen"
 
 #. STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING"
-#| msgid "Displays decor values"
 msgctxt "STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING"
 msgid "Displays areas with Morale-boosting decor values"
-msgstr "Zeigt Dekorationswerte"
+msgstr "Zeigt Bereiche mit moralsteigernden Dekorationswerten an"
 
 #. STRINGS.UI.TOOLTIPS.DIGBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DIGBUTTON"
@@ -41601,12 +41594,9 @@ msgid "Drag to set dig errands"
 msgstr "Ziehen, um Grabeaufträge zu befehlen"
 
 #. STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
-#| msgid "Displays disease risk areas"
 msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
 msgid "Displays areas of disease risk"
-msgstr "Zeigt Risikobereiche für Krankheiten an"
+msgstr "Zeigt Bereiche mit Krankheitsrisiken an"
 
 #. STRINGS.UI.TOOLTIPS.DISINFECTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
@@ -41644,12 +41634,9 @@ msgid "Displays gas pipe system components"
 msgstr "Zeigt Komponenten des Gasleitungssystems"
 
 #. STRINGS.UI.TOOLTIPS.HARVESTBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HARVESTBUTTON"
-#| msgid "Drag to harvest plants"
 msgctxt "STRINGS.UI.TOOLTIPS.HARVESTBUTTON"
 msgid "Drag to harvest fullgrown plants"
-msgstr "Ziehen, um Pflanzen zu ernten"
+msgstr "Ziehen, um reife Pflanzen zu ernten"
 
 #. STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING
 #, fuzzy
@@ -41821,7 +41808,6 @@ msgid "Manage colony diets"
 msgstr "Verwalte Kolonie Ernährungsplan"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_DAILYREPORT
-#, fuzzy
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_DAILYREPORT"
 msgid "View each cycle's Colony Report"
 msgstr "Tägliche Kolonieberichte anzeigen"
@@ -41864,25 +41850,19 @@ msgid "Manage Duplicants' job assignments"
 msgstr "Verwalte Arbeitsaufträge von Duplikanten"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
-#| msgid "Adjust colony scheduling"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
 msgid "Adjust the colony's time usage"
-msgstr "Zeitplan der Kolonie anpassen"
+msgstr "Zeitverwendung in der Kolonie anpassen"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP"
 msgid "Manage astronaut rocket missions"
-msgstr ""
+msgstr "Verwalte die Astronauten-Raketenmissionen"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
-#| msgid "View Duplicants' vitals"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
 msgid "View my Duplicants' vitals"
-msgstr "Zeigt die Vitalwerte der Duplikanten an"
+msgstr "Zeigt die Vitalwerte meiner Duplikanten an"
 
 #. STRINGS.UI.TOOLTIPS.MATIERIAL_MOD
 msgctxt "STRINGS.UI.TOOLTIPS.MATIERIAL_MOD"
@@ -41917,7 +41897,7 @@ msgstr "Bevölkerung: {0}"
 #. STRINGS.UI.TOOLTIPS.MOPBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.MOPBUTTON"
 msgid "Drag to mop small spills"
-msgstr ""
+msgstr "Ziehen, um kleine Lachen aufzuwischen"
 
 #. STRINGS.UI.TOOLTIPS.NEXTMESSAGESTOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.NEXTMESSAGESTOOLTIP"
@@ -42026,6 +42006,9 @@ msgid ""
 "\n"
 "Use in case of emergency"
 msgstr ""
+"Duplikanten werden arbeiten, und dabei Zeitpläne und ihre Grundbedürfnisse ignorieren\n"
+"\n"
+"Einsatz für den Notfall"
 
 #. STRINGS.UI.TOOLTIPS.RED_ALERT_TITLE
 msgctxt "STRINGS.UI.TOOLTIPS.RED_ALERT_TITLE"
@@ -42033,12 +42016,9 @@ msgid "Toggle Red Alert"
 msgstr "Alarmstufe Rot umschalten"
 
 #. STRINGS.UI.TOOLTIPS.ROOMSOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
-#| msgid "Displays disease risk areas"
 msgctxt "STRINGS.UI.TOOLTIPS.ROOMSOVERLAYSTRING"
 msgid "Displays special purpose rooms and bonuses"
-msgstr "Zeigt Risikobereiche für Krankheiten an"
+msgstr "Zeigt Spezialräume und Boni an"
 
 #. STRINGS.UI.TOOLTIPS.SELECTAMATERIAL
 msgctxt "STRINGS.UI.TOOLTIPS.SELECTAMATERIAL"
@@ -44169,7 +44149,7 @@ msgstr "Ich habe hier schon alles interessante mitgenommen. In der Datenbank kan
 #. STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE"
 msgid "View Entry"
-msgstr ""
+msgstr "Eintrag ansehen"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.NAME"
