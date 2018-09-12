@@ -272,7 +272,7 @@ msgstr "Autoabfüllung: Aus"
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP"
 msgid "Duplicants may not specifically fetch gas from Canister Fillers to bring to this location"
-msgstr "Duplikanten holen kein Gas direkt von Kanisterfüllern hierher"
+msgstr "Duplikanten werden nicht gezielt Gas aus Kanisterfüllern holen, um es an diesen Ort zu bringen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME"
@@ -2038,7 +2038,7 @@ msgstr "Forschung dieser Station wird in {Tech} investiert"
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME"
 msgid "Parent Rocket: {0}"
-msgstr "Parent Rocket: {0}"
+msgstr "Vorgängerrakete: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.TOOLTIP"
@@ -2124,12 +2124,12 @@ msgstr "Bereit zur Landung"
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP"
 msgid "A spacecraft is ready to land"
-msgstr "Ein Raumschiff ist bereit zu landen"
+msgstr "Ein Raumschiff ist bereit zur Landung"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP"
 msgid "A spacecraft is ready to land"
-msgstr "Ein Raumschiff ist bereit zu landen"
+msgstr "Ein Raumschiff ist bereit zur Landung"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -2532,7 +2532,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP"
 msgid "These materials must be delivered before this building can be repaired"
-msgstr "Diese Materialien müssen geliefert werden, bevor dieses Objekt repariert werden kann"
+msgstr "Diese Materialien müssen angeliefert werden, bevor dieses Objekt repariert werden kann"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME"
@@ -7045,7 +7045,7 @@ msgstr "Einschalten"
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC"
 msgid "Telescopes are necessary for conducting rocket research and learning starmaps."
-msgstr "Teleskope sind notwendig, um Raketenforschung zu betreiben und Sternkarten zu erstellen."
+msgstr "Teleskope sind notwendig für die Durchführung von Raketenforschung und das Erlernen von Sternenkarten."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
@@ -11118,10 +11118,11 @@ msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecko</link>"
 msgstr "<link=\"DRECKOPLASTIC\">Glanz-Drecko</link>"
 
+# Punkt ist falsch im Englischen !?
 #. STRINGS.CREATURES.SPECIES.GASGRASS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DESC"
 msgid "Gas grass."
-msgstr "Gasgrass."
+msgstr "Gasgrass"
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC"
@@ -21717,7 +21718,7 @@ msgstr "Verärgert"
 #. STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP"
 msgid "Washroom Break"
-msgstr "Toiletten -Pause"
+msgstr "Toiletten-Pause"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP"
@@ -39262,7 +39263,7 @@ msgstr "{0} Erfahrung"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERED
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERED"
 msgid "{0} has mastered the job {1}"
-msgstr "{0} hat den Beruf {1}"
+msgstr "{0} hat den Beruf {1} gemeistert"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NO_APTITUDE
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NO_APTITUDE"
@@ -40363,7 +40364,6 @@ msgid ""
 msgstr ""
 "Sounds und Benachrichtungen umschalten\n"
 "------------------\n"
-"\n"
 "Keine Sounds oder Benachrichtungen werden für diesen Zeitplan abgespielt.\n"
 "\n"
 "DEAKTIVIERT\n"
