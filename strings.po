@@ -3274,7 +3274,7 @@ msgstr "Erzeugt einen sengenden <link=\"HEAT\">Hitzestrahl</link> mittels flüss
 #. STRINGS.BUILDINGS.PREFABS.BURNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
 msgid "<link=\"BURNER\">Burner</link>"
-msgstr "<link=\"BURNER\">brenner</link>"
+msgstr "<link=\"BURNER\">Brenner</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME"
@@ -3419,15 +3419,15 @@ msgid "Networks of many scanners will detect objects more efficiently than one s
 msgstr "Netzwerke aus mehreren Scannern erkennen Meteore schneller als einzelne Scanner."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
-#| msgid "Sends an <link=\"LOGIC\">Active Signal</link> to its logic circuit when it detects incoming meteorite showers."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
 msgid ""
 "Sends an <link=\"LOGIC\">Active Signal</link> to its logic circuit when it detects incoming objects from space.\n"
 "\n"
 "Can be configured to detect incoming meteor showers or returning space rockets."
-msgstr "Sendet ein <link=\"LOGIC\">Aktiv-Signal</link> an den Logikschaltkreis, wenn Meteorschauer erkannt werden."
+msgstr ""
+"Sendet ein <link=\"LOGIC\">Aktiv-Signal</link> an den Logikschaltkreis, wenn Meteorschauer erkannt werden.\n"
+"\n"
+"Kann konfiguriert werden, um ankommende Meteoritenschauer oder zurückkehrende Weltraumraketen zu erkennen."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME"
@@ -4643,9 +4643,6 @@ msgid "<link=\"HEADQUARTERS\">Printing Pod</link>"
 msgstr "<link=\"HEADQUARTERS\">Biodrucker</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME"
-#| msgid "<link=\"HEADQUARTERS\">Printing Pod</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.NAME"
 msgid "<link=\"HEADQUARTERS\">Printing Pod</link>"
 msgstr "<link=\"HEADQUARTERS\">Biodrucker</link>"
@@ -4899,30 +4896,16 @@ msgstr ""
 "Neben einer Schutzanzug-Kontrollstelle bauen, damit Duplikanten beim vorbeigehen in den Anzug steigen."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME"
-#| msgid "<link=\"SUITLOCKER\">Exosuit Dock</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME"
 msgid "<link=\"JETSUITLOCKER\">Jet Suit Dock</link>"
-msgstr "<link=\"SUITLOCKER\">Schutzanzug-Dock</link>"
+msgstr "<link=\"SUITLOCKER\">Jet-Pack-Dock</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.DESC"
-#| msgid "A checkpoint must have an exosuit dock built on the opposite side its arrow faces."
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC"
 msgid "A checkpoint must have a jet suit dock built on the opposite side its arrow faces."
-msgstr "An eine Kontrollstelle muss einen Schutzanzug-Dock entgegen der Pfeilrichung angebaut sein."
+msgstr "An eine Kontrollstelle muss einen Jet-Pack-Dock entgegen der Pfeilrichung angebaut sein."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.EFFECT"
-#| msgid ""
-#| "Marks a threshold where Duplicants must change into or out of Atmo Suit.\n"
-#| "\n"
-#| "Must be built next to an Exosuit Dock.\n"
-#| "\n"
-#| "Can be rotated before construction."
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT"
 msgid ""
 "Marks a threshold where Duplicants must change into or out of Jet Suits.\n"
@@ -4931,9 +4914,9 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
-"Markiert eine Grenze, ab der Duplikanten in oder aus einen Atemschutzanzug steigen.\n"
+"Markiert eine Grenze, ab der Duplikanten in oder aus einem Jet-Pack steigen.\n"
 "\n"
-"Muss neben einem Schutzanzug-Dock gebaut werden.\n"
+"Muss neben einem Jet-Pack-Dock gebaut werden.\n"
 "\n"
 "Vor der Konstruktion drehbar."
 
@@ -9956,7 +9939,7 @@ msgstr "Tier"
 #. STRINGS.CODEX.MOLE.TITLE
 msgctxt "STRINGS.CODEX.MOLE.TITLE"
 msgid "Shove Vole"
-msgstr ""
+msgstr "Schubwühlmaus"
 
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER1"
@@ -12408,12 +12391,9 @@ msgid "<link=\"GEYSER\">Steam Geyser</link>"
 msgstr "<link=\"GEYSER\">Dampf-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
-#| msgid "A fissure in the asteroid that periodically erupts with boiling <link=\"CRUDEOIL\">Crude Oil</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
 msgid "A fissure that periodically erupts with boiling <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "Ein Riss im Asteroiden, der periodisch mit kochendem <link=\"CRUDEOIL\">Rohöl</link> ausbricht."
+msgstr "Ein Riss der periodisch mit kochendem <link=\"CRUDEOIL\">Rohöl</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME"
@@ -12461,20 +12441,14 @@ msgid "<link=\"GEYSERGENERICSTEAM\">Cool Steam Vent</link>"
 msgstr "<link=\"GEYSERGENERICSTEAM\">Kaltdampf-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GLOM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GLOM.DESC"
-#| msgid "Morbs are attracted to decomposing corpses and frequently excrete bursts of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GLOM.DESC"
 msgid "Morbs are attracted to unhygienic conditions and frequently excrete bursts of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "Morbs werden von den sich zersetzenden Körpern angezogen und geben regelmäßig kleine Wölkchen von <link=\"CONTAMINATEDOXYGEN\">verschmutztem Sauerstoff</link> ab."
+msgstr "Morbs werden von unhygienischen Bedingungen angezogen und geben regelmäßig kleine Wölkchen von <link=\"CONTAMINATEDOXYGEN\">verschmutztem Sauerstoff</link> ab."
 
 #. STRINGS.CREATURES.SPECIES.GLOM.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GLOM.EGG_NAME"
-#| msgid "<link=\"MORBEGG\">Morb Pod</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GLOM.EGG_NAME"
 msgid "<link=\"MORB\">Morb Pod</link>"
-msgstr "<link=\"MORBEGG\">Morb-Ei</link>"
+msgstr "<link=\"MORB\">Morb-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.GLOM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GLOM.NAME"
@@ -12535,6 +12509,9 @@ msgid ""
 "\n"
 "It matures into an adult Hatch morph, the <link=\"HATCHHARD\">Stone Hatch</link>, which loves nibbling on various rocks and metals."
 msgstr ""
+"Ein alberner kleiner Stein-Hatchling.\n"
+"\n"
+"Es reift zu einem erwachsenen Hatch, dem <link=\"HATCHHARD\">Stein-Hatchling</link>, der es liebt, an verschiedenen Arten von Steinen und Metallen zu knabbern."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME"
@@ -12557,21 +12534,15 @@ msgid "<link=\"HATCHHARD\">Stone Hatch</link>"
 msgstr "<link=\"HATCHHARD\">Stein-Hatch</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC"
-#| msgid ""
-#| "An innocent baby <link=\"HATCHMETAL\">Hatch</link>.\n"
-#| "\n"
-#| "This one is a Smooth morph, and loves nibbling on different types of metals."
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC"
 msgid ""
 "A doofy little Smooth Hatchling.\n"
 "\n"
 "It matures into an adult Hatch morph, the <link=\"HATCHMETAL\">Smooth Hatch</link>, which loves nibbling on different types of metals."
 msgstr ""
-"Ein unschuldiger kleiner <link=\"HATCHMETAL\">Hatchling</link>.\n"
+"Ein alberner kleiner Metall-Hatchling.\n"
 "\n"
-"Dieser hier hat eine Metall-Gestalt und liebt es an verschiedenen Metallen zu knabbern."
+"Es reift zu einem erwachsenen Hatch, dem <link=\"HATCHMETAL\">Metall-Hatchling</link>, der es liebt, an verschiedenen Arten von Metallen zu knabbern."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME"
@@ -12600,6 +12571,9 @@ msgid ""
 "\n"
 "It matures into an adult Hatch morph, the <link=\"HATCHVEGGIE\">Sage Hatch</link>, which loves nibbling on organic materials."
 msgstr ""
+"Ein alberner kleiner Salbei-Hatchling.\n"
+"\n"
+"Es reift zu einem erwachsenen Hatch, dem <link=\"HATCHVEGGIE\">Salbei-Hatchling</link>, der es liebt, an verschiedenen organischem Material zu knabbern."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
@@ -12919,12 +12893,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
-#| msgid "<link=\"FIREPOLE\">Fire Pole</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME"
 msgid "<link=\"MOLE\">Shove Vole Baby</link>"
-msgstr "<link=\"FIREPOLE\">Rutschstange</link>"
+msgstr "<link=\"MOLE\">Schubswühlmaus-Baby</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.DESC"
@@ -12932,23 +12903,17 @@ msgid ""
 "Shove Voles are burrowing critters that eat the <link=\"REGOLITH\">Regolith</link> collected on terrestrial surfaces.\n"
 "\n"
 "They cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
-msgstr ""
+msgstr "Schubswühlmause sind grabende Lebewesen, die das auf terrestrischen Oberflächen angesammelte <link=\"REGOLITH\">Regolith</link> essen."
 
 #. STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
-#| msgid "<link=\"FIREPOLE\">Fire Pole</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME"
 msgid "<link=\"MOLE\">Shove Vole Egg</link>"
-msgstr "<link=\"FIREPOLE\">Rutschstange</link>"
+msgstr "<link=\"MOLE\">Schubswühlmaus-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
-#| msgid "<link=\"FIREPOLE\">Fire Pole</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.NAME"
 msgid "<link=\"MOLE\">Shove Vole</link>"
-msgstr "<link=\"FIREPOLE\">Rutschstange</link>"
+msgstr "<link=\"MOLE\">Schubswühlmaus</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOO.DESC"
@@ -14315,9 +14280,6 @@ msgid "Drowning"
 msgstr "Ertrinkt"
 
 #. STRINGS.CREATURES.STATUSITEMS.DROWNING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DROWNING.TOOLTIP"
-#| msgid "This critter can't breathe in liquid!"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DROWNING.TOOLTIP"
 msgid "This critter can't breathe in liquid!"
 msgstr "Dieses Tier kann nicht in Flüssigkeit atmen!"
@@ -14363,12 +14325,9 @@ msgid "Entombed"
 msgstr "Begraben"
 
 #. STRINGS.CREATURES.STATUSITEMS.ENTOMBED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.TOOLTIP"
-#| msgid "This critter is trapped and needs help digging out"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.TOOLTIP"
 msgid "This {0} is trapped and needs help digging out"
-msgstr "Diese Kreatur ist gefangen und benötigt Hilfe beim Ausgraben"
+msgstr "Dieser {0} ist gefangen und benötigt Hilfe beim Ausgraben"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_BE_RANCHED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_BE_RANCHED.NAME"
@@ -15677,20 +15636,14 @@ msgid "Job Assignment: +{0} Morale Need"
 msgstr "Berufszuordnung: +{0} Moralbedürfnis"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.STRONGARM.DESC"
-#| msgid "This Duplicant has muscles on their muscles"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER"
 msgid "This Duplicant has sufficiently high Morale"
-msgstr "Dieser Duplikant hat Muskeln auf seinen Muskeln"
+msgstr "Dieser Duplikant hat eine ausreichend hohe Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_UNDER
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.TOOLTIP"
-#| msgid "This Duplicant is relieving their stress all over the floor"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_UNDER"
 msgid "This Duplicant's low Morale will gain Stress over time"
-msgstr "Dieser Duplikant verteilt seinen Stress über den ganzen Fußboden"
+msgstr "Die schlechte Moral dieses Duplikanten wird mit der Zeit zu Stress führen"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
@@ -15836,12 +15789,9 @@ msgid "Determines how long a Duplicant needs to do their \"business\"."
 msgstr "Beeinflusst wie lang ein Duplikant für sein \"Geschäft\" braucht."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.TOILETEFFICIENCY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOILETEFFICIENCY.NAME"
-#| msgid "Bathroom Hustle"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOILETEFFICIENCY.NAME"
 msgid "Bathroom Use Speed"
-msgstr "Badezimmergedränge"
+msgstr "Geschwindigkeit der Badnutzung"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.TOTAL_VALUE
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOTAL_VALUE"
@@ -16050,12 +16000,9 @@ msgid "Research"
 msgstr "Forschung"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC"
-#| msgid "Fill non-critical storage buildings with resources."
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC"
 msgid "Fill storage buildings with resources when no other errands are available."
-msgstr "Füllt unkritische Lagergebäude mit Ressourcen auf."
+msgstr "Füllt unkritische Lagergebäude mit Ressourcen auf, wenn keine anderen Aufträge vorliegen"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME"
@@ -17783,9 +17730,6 @@ msgid "Death"
 msgstr "Tod"
 
 #. STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION"
-#| msgid "{Target} has overheated to death."
 msgctxt "STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION"
 msgid "{Target} overheated to death."
 msgstr "{Target} starb an einem Hitzeschlag."
@@ -24249,12 +24193,9 @@ msgid "(C<sub>60</sub>) Fullerene is a form of <link=\"CARBON\">Carbon</link> co
 msgstr "(C<sub>60</sub>) Fulleren ist eine Art von <link=\"CARBON\">Kohlenstoff</link>, die aus sphärischen Molekülen besteht."
 
 #. STRINGS.ELEMENTS.FULLERENE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
-#| msgid "<link=\"BURNER\">Burner</link>"
 msgctxt "STRINGS.ELEMENTS.FULLERENE.NAME"
 msgid "<link=\"FULLERENE\">Fullerene</link>"
-msgstr "<link=\"BURNER\">brenner</link>"
+msgstr "<link=\"FULLERENE\">Fullerene</link>"
 
 #. STRINGS.ELEMENTS.GLASS.DESC
 msgctxt "STRINGS.ELEMENTS.GLASS.DESC"
@@ -24463,12 +24404,9 @@ msgstr ""
 "Es wird bei der Herstellung von seltenen, hochwertigen Materialien eingesetzt."
 
 #. STRINGS.ELEMENTS.ISORESIN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.IRON.NAME"
-#| msgid "<link=\"IRON\">Iron</link>"
 msgctxt "STRINGS.ELEMENTS.ISORESIN.NAME"
 msgid "<link=\"ISORESIN\">Isoresin</link>"
-msgstr "<link=\"IRON\">Eisen</link>"
+msgstr "<link=\"ISORESIN\">Isoresin</link>"
 
 #. STRINGS.ELEMENTS.KATAIRITE.DESC
 msgctxt "STRINGS.ELEMENTS.KATAIRITE.DESC"
@@ -25344,12 +25282,9 @@ msgstr ""
 "Die Auswahl ist derzeit <link=\"ELEMENTSSOLID\">fest</link>."
 
 #. STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.NAME"
-#| msgid "<link=\"SOLIDOXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME"
 msgid "<link=\"SOLIDVISCOGEL\">Visco-Gel</link>"
-msgstr "<link=\"SOLIDOXYGEN\">Sauerstoff</link>"
+msgstr "<link=\"SOLIDVISCOGEL\">Visco-Gel</link>"
 
 #. STRINGS.ELEMENTS.SOURGAS.DESC
 msgctxt "STRINGS.ELEMENTS.SOURGAS.DESC"
@@ -25611,12 +25546,9 @@ msgid "Visco-Gel is a <link=\"ELEMENTSLIQUID\">Liquid</link> polymer with high s
 msgstr "Visco-Gel ist ein <link=\"ELEMENTSLIQUID\">flüssiges</link> Polymer mit hoher Oberflächenspannung, das den typischen Flüssigkeitsfluss verhindert und ungewöhnliche Konfigurationen ermöglicht."
 
 #. STRINGS.ELEMENTS.VISCOGEL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.ELEMENTS.VISCOGEL.NAME"
 msgid "<link=\"VISCOGEL\">Visco-Gel</link>"
-msgstr "<link=\"ICE\">Eis</link>"
+msgstr "<link=\"VISCOGEL\">Visco-Gel</link>"
 
 #. STRINGS.ELEMENTS.VOID.DESC
 msgctxt "STRINGS.ELEMENTS.VOID.DESC"
@@ -25819,20 +25751,14 @@ msgstr ""
 "Muss mit Sauerstoff bei einem Anzug-Ladestation nachgefüllt werden, wenn er erschöpft ist."
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
-#| msgid "Atmo Suit"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME"
 msgid "Jet Suit"
-msgstr "Atemschutzanzug"
+msgstr "Jet-Pack"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
-#| msgid "Atmo Suit"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME"
 msgid "Jet Suit"
-msgstr "Atemschutzanzug"
+msgstr "Jet-Pack"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC
 #, fuzzy
@@ -27968,16 +27894,6 @@ msgid "These resources have become available:"
 msgstr "Diese Ressourcen sind jetzt verfügbar:"
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY"
-#| msgid ""
-#| "• The <color=#F44A47><b><link=\"CONTROLS\">[WASD]</link></b></color> keys pan my view and the <color=#F44A47><b><link=\"CONTROLS\">[MOUSE WHEEL]</link></b></color> zooms it in and out.\n"
-#| "\n"
-#| "• <color=#F44A47><b>[H]</b></color> returns me back to the Printing Pod at the asteroid's center.\n"
-#| "\n"
-#| "• I can speed or slow my perception of time using the top left corner buttons, or by pressing <color=#F44A47><b>[TAB]</b></color>. <color=#F44A47><b>[SPACE]</b></color> will pause the flow of time entirely.\n"
-#| "\n"
-#| "• I'll keep records of everything I discover in my personal DATABASE <color=#F44A47><b>[U]</b></color> to refer back to if I forget anything important."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY"
 msgid ""
 "• The <color=#F44A47><b><link=\"CONTROLS\">[WASD]</link></b></color> keys pan my view and the <color=#F44A47><b><link=\"CONTROLS\">[MOUSE WHEEL]</link></b></color> zooms it in and out.\n"
@@ -27992,7 +27908,7 @@ msgstr ""
 "\n"
 "• <color=#F44A47><b>[H]</b></color> bewegt die Kamera zurück zum Biodrucker.\n"
 "\n"
-"• Das Spiel kann mit den Geschwindigkeitsschaltflächen oben links oder mit <color=#F44A47><b>[TAB]</b></color> beschleunigt oder verlangsamt werden. Die <color=#F44A47><b>[LEERTASTE]</b></color> pausiert den Ablauf der Zeit vollständig.\n"
+"• Ich kann meine Zeitwahrnehmung mit den Schaltflächen in der linken oberen Ecke, oder durch drücken von <color=#F44A47><b>[TAB]</b></color>, beschleunigen oder verlangsamen. Die <color=#F44A47><b>[LEERTASTE]</b></color> pausiert den Ablauf der Zeit vollständig.\n"
 "\n"
 "• Ich werde alles, was ich entdecke, in meiner persönlichen DATENBANK <color=#F44A47><b>[U]</b></color> protokollieren, um mich darauf zu besinnen, wenn ich etwas Wichtiges vergesse."
 
@@ -30067,12 +29983,9 @@ msgid "Precious Metal"
 msgstr "Edelmetall"
 
 #. STRINGS.MISC.TAGS.RAREMATERIALS
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.MANUFACTUREDMATERIAL"
-#| msgid "Manufactured Material"
 msgctxt "STRINGS.MISC.TAGS.RAREMATERIALS"
 msgid "Rare Material"
-msgstr "Hergestelltes Material"
+msgstr "Seltenes Material"
 
 #. STRINGS.MISC.TAGS.RAW
 msgctxt "STRINGS.MISC.TAGS.RAW"
@@ -32099,9 +32012,6 @@ msgid "<link=\"BASICROCKETRY\">Basic Rocketry</link>"
 msgstr "<link=\"BASICROCKETRY\">Grundlegende Raketentechnik</link>"
 
 #. STRINGS.RESEARCH.TECHS.CARGOI.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.INTERMEDIATEROCKETRY.DESC"
-#| msgid "Continue your space program"
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOI.DESC"
 msgid "Continue your space program"
 msgstr "Setze dein Raumfahrtprogramm fort"
@@ -44750,12 +44660,9 @@ msgid "Nothing"
 msgstr "Nichts"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ROCKETS
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ROCKETS"
 msgid "Rocket Landing Ping"
-msgstr "Raketentriebwerk"
+msgstr "Raketenlandung-Ping"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.SORT_BY_ASSIGNMENT
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.SORT_BY_ASSIGNMENT"
