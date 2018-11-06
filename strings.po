@@ -3504,21 +3504,15 @@ msgid "Virtual planetariums allow the simulated exploration of locations discove
 msgstr "Virtuelle Planetarien ermöglichen die simulierte Erkundung von mit Teleskopen entdeckten Orten."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
-#| msgid ""
-#| "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"RESEARCHER\">Super Computer Researching</link> trait."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Interstellar Research</link> using data from <link=\"TELESCOPE\">Telescopes</link> and <link=\"RESEARCHMODULE\">Research Modules</link>.\n"
 "\n"
 "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Planetarium Researching</link> trait."
 msgstr ""
-"Führt <link=\"RESEARCH\">fortgeschrittene Forschung</link> wird für verbesserte Technologien aus.\n"
+"Führt <link=\"RESEARCH\">interstellare Forschung</link> mit Daten aus <link=\"TELESCOPE\">Teleskopen</link> und <link=\"RESEARCHMODULE\">Forschungsmodulen</link> durch.\n"
 "\n"
-"Zugewiesene Duplikanten müssen das Merkmal <link=\"RESEARCHER\">Super-Computer-Forschung</link> haben."
+"Zugewiesene Duplikanten müssen das Merkmal <link=\"SENIORRESEARCHER\">Planetarium-Forschung</link> haben."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME"
@@ -5983,12 +5977,6 @@ msgid "Refined metals are necessary to build advanced electronics and technologi
 msgstr "Veredelte Metalle sind notwendig, um fortschrittliche Elektronik und Technologien zu bauen."
 
 #. STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT"
-#| msgid ""
-#| "Produces <link=\"REFINEDMETAL\">Refined Metals</link> from raw <link=\"RAWMETAL\">Metal Ore</link>.\n"
-#| "\n"
-#| "Outputs significantly <link=\"HEAT\">Heated</link> <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT"
 msgid ""
 "Produces <link=\"REFINEDMETAL\">Refined Metals</link> from raw <link=\"RAWMETAL\">Metal Ore</link>.\n"
@@ -5999,7 +5987,9 @@ msgid ""
 msgstr ""
 "Produziert <link=\"REFINEDMETAL\">veredelte Metalle</link> aus rohem <link=\"RAWMETAL\">Metallerz</link>.\n"
 "\n"
-"Erzeugt außerdem stark <link=\"HEAT\">erhitzte</link> <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link>."
+"Erzeugt außerdem stark <link=\"HEAT\">erhitzte</link> <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link>.\n"
+"\n"
+"Duplikanten werden nichts herstellen, wenn kein Rezept in der Warteliste ist."
 
 #. STRINGS.BUILDINGS.PREFABS.METALREFINERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.NAME"
@@ -6899,12 +6889,9 @@ msgstr ""
 "Generierte <link=\"RESEARCH\">Forschungspunkte</link> werden nach der Rückkehr der Rakete verfügbar."
 
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.RESEARCHNOTES"
-#| msgid "<link=\"RESEARCHNOTES\">Research Notes</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.NAME"
 msgid "<link=\"RESEARCHMODULE\">Research Module</link>"
-msgstr "<link=\"RESEARCHNOTES\">Forschungsnotizen</link>"
+msgstr "<link=\"RESEARCHMODULE\">Forschungsmodul</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.DESC"
@@ -6912,12 +6899,6 @@ msgid "Sand is used in an array of liquid and air filtering processes."
 msgstr "Sand wird in unterschiedlichen Luft- und Flüssigkeitsfilterprozessen genutzt."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
-#| msgid ""
-#| "Produces <link=\"SAND\">Sand</link> from <link=\"RAWMINERAL\">Raw Mineral</link>.\n"
-#| "\n"
-#| "Inefficiently produces <link=\"REFINEDMETAL\">Refined Metals</link> from raw <link=\"RAWMETAL\">Metal Ore</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
 msgid ""
 "Produces <link=\"SAND\">Sand</link> from <link=\"RAWMINERAL\">Raw Mineral</link>.\n"
@@ -6928,7 +6909,9 @@ msgid ""
 msgstr ""
 "Produziert <link=\"SAND\">Sand</link> aus <link=\"RAWMINERAL\">rohen Mineralien</link>.\n"
 "\n"
-"Erzeugt verhältnismäßig ineffizient <link=\"REFINEDMETAL\">veredelte Metalle</link> aus rohem <link=\"RAWMETAL\">Metallerz</link>."
+"Erzeugt verhältnismäßig ineffizient <link=\"REFINEDMETAL\">veredelte Metalle</link> aus rohem <link=\"RAWMETAL\">Metallerz</link>.\n"
+"\n"
+"Duplikanten werden nichts herstellen, wenn kein Rezept in der Warteliste ist."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION"
@@ -7085,12 +7068,9 @@ msgid "Burns <link=\"IRON\">Refined Iron</link> and <link=\"OXYROCK\">Oxylite</l
 msgstr "Verbrennt <link=\"IRON\">veredeltes Eisen</link> und <link=\"OXYROCK\">Oxylit</link> zur Erhöhung der Erkundungsdistanz der Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME"
-#| msgid "<link=\"SOLIDTRANSPORT\">Solid Transport</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.NAME"
 msgid "<link=\"SOLIDBOOSTER\">Solid Fuel Thruster</link>"
-msgstr "<link=\"SOLIDTRANSPORT\">Feststofftransport</link>"
+msgstr "<link=\"SOLIDBOOSTER\">Feststofftriebwerk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC"
@@ -7228,37 +7208,25 @@ msgid "<link=\"SPECIALCARGOBAY\">Biological Cargo Bay</link>"
 msgstr "<link=\"SPECIALCARGOBAY\">Biologischer Frachtraum</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC"
-#| msgid "Rockets can be used to send Duplicants into space and retrieve rare resources."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC"
 msgid "Rockets can be used to send Duplicants into space and retrieve rare resources."
 msgstr "Raketen können verwendet werden, um Duplikanten in den Weltraum zu schicken und seltene Ressourcen zu bergen."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.EFFECT"
-#| msgid ""
-#| "Burns <link=\"PETROLEUM\">Petroleum</link> to propel rockets for space exploration.\n"
-#| "\n"
-#| "The engine of a rocket must be built first before more rocket modules may be added."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.EFFECT"
 msgid ""
 "Utilizes <link=\"STEAM\">Steam</link> to propel rockets for space exploration.\n"
 "\n"
 "The engine of a rocket must be built first before more rocket modules may be added."
 msgstr ""
-"Verbrennt <link=\"PETROLEUM\">Petroleum</link>, um Raketen für die Weltraumforschung anzutreiben.\n"
+"Verwendet <link=\"STEAM\">Dampf</link>, um Raketen für die Weltraumforschung anzutreiben.\n"
 "\n"
 "Der Antrieb einer Rakete muss zuerst gebaut werden, bevor weitere Raketenmodule hinzugefügt werden können."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.NAME"
-#| msgid "<link=\"STEAMTURBINE\">Steam Turbine</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.NAME"
 msgid "<link=\"STEAMENGINE\">Steam Engine</link>"
-msgstr "<link=\"STEAMTURBINE\">Dampfturbine</link>"
+msgstr "<link=\"STEAMENGINE\">Dampftriebwerk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC"
@@ -7408,12 +7376,6 @@ msgid "Rare materials can be procured through rocket missions into space."
 msgstr "Seltene Materialien können durch Raketenmissionen ins All beschafft werden."
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
-#| msgid ""
-#| "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link=\"DISEASE\">Diseases</link>.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT"
 msgid ""
 "Processes <link=\"RAREMATERIALS\">Rare Materials</link> into advanced industrial goods.\n"
@@ -7422,7 +7384,9 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
-"Produziert <link=\"MEDICINE\">Medizin</link> zur Heilung der meisten <link=\"DISEASE\">Krankheiten</link>.\n"
+"Verarbeitet <link=\"RAREMATERIALS\">seltene Materialien</link> zu hochwertigen Industriegütern.\n"
+"\n"
+"Seltene Materialien können während Raumfahrtmissionen gefunden werden.\n"
 "\n"
 "Duplikanten werden nichts herstellen, wenn kein Rezept in der Warteliste ist."
 
@@ -7488,14 +7452,6 @@ msgid "Telescopes are necessary for learning starmaps and conducting rocket miss
 msgstr "Teleskope sind notwendig, um Sternenkarten zu lernen und Raketenmissionen durchzuführen."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
-#| msgid ""
-#| "Conducts <link=\"RESEARCH\">Interstellar Research</link> to unlock new technologies.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Telescope Researching</link> trait.\n"
-#| "\n"
-#| "Must be exposed to space to function."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid ""
 "Maps Starmap destinations and produces <link=\"RESEARCH\">Interstellar Research</link>.\n"
@@ -7504,9 +7460,9 @@ msgid ""
 "\n"
 "Building must be exposed to space to function."
 msgstr ""
-"Führt <link=\"RESEARCH\">Interstellare Forschung</link> aus und schaltet neue Technologien frei.\n"
+"Kartiert Ziele in die Sternenkarten und generiert <link=\"RESEARCH\">Interstellare Forschung</link>.\n"
 "\n"
-"Zugewiesene Duplikanten müssen das Merkmal <link=\"SENIORRESEARCHER\">Teleskop-Forschung</link> haben.\n"
+"Zugewiesene Duplikanten müssen das Merkmal <link=\"RESEARCHER\">Geographische Analyse</link> haben.\n"
 "\n"
 "Muss dem Weltraum zugewandt sein, um zu funktionieren."
 
@@ -8002,14 +7958,6 @@ msgid "Personal Journal: A046"
 msgstr "Persönliches Protokoll: A046"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>Director,\n"
-#| "\n"
-#| "Engineering has requested brainmaps of all blueprint subjects for the development of a Pod linked software and I am reluctant to oblige.\n"
-#| "\n"
-#| "I believe they are seeking a way to exert temporary control over implanted subjects, and I fear this avenue of research may be ethically unsound.</indent>"
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
@@ -8025,12 +7973,6 @@ msgstr ""
 "Ich glaube, sie suchen einen Weg, um eine vorübergehende Kontrolle über implantierte Subjekte auszuüben, und ich fürchte, dieser Forschungsweg kann ethisch unsolide ist.</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER3
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER3"
-#| msgid ""
-#| "<indent=5%>Doctor,\n"
-#| "\n"
-#| "Engineering's newest project was conceived under my supervision. Please give them any materials they require to move forward with their research.</indent>"
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER3"
 msgid ""
 "<indent=5%>Doctor,\n"
@@ -8041,7 +7983,9 @@ msgid ""
 msgstr ""
 "<indent=5%>Doktor,\n"
 "\n"
-"Das neueste Projekt der Konstruktion wurde unter meiner Leitung konzipiert. Bitte geben Sie ihnen alle Materialien, die sie benötigen, um mit ihrer Forschung voranzuschreiten.</indent>"
+"Ich verstehe Ihre Bedenken, aber das neueste Projekt der Konstruktion wurde unter meiner Leitung konzipiert.\n"
+"\n"
+"Bitte geben Sie ihnen alle Materialien, die sie benötigen, um mit ihrer Forschung voranzuschreiten.</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER4"
@@ -8049,32 +7993,27 @@ msgid "<indent=5%>You can't be serious, Jacquelyn?</indent>"
 msgstr "<indent=5%>Das kann nicht Ihr Ernst sein, Jacquelyn?</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER5
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER5"
-#| msgid "<indent=5%>Jodi, you signed off on the cranial chip implantation, is this really where you draw the line? It would be an invaluable safety measure.</indent>"
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER5"
 msgid ""
 "<indent=5%>You signed off on cranial chip implantation, why would this be where you draw the line?\n"
 "\n"
 "It would be an invaluable safety measure and protect your printing subjects.</indent>"
-msgstr "<indent=5%>Jodi, Sie haben die Kopfchip-Implantation unterschrieben, ziehen Sie hier wirklich eine Grenze? Es wäre eine unschätzbare Sicherheitsmaßnahme.</indent>"
+msgstr ""
+"<indent=5%>Sie haben die Kopfchip-Implantation unterschrieben, ziehen Sie hier wirklich eine Grenze?\n"
+"\n"
+"Es wäre eine unschätzbare Sicherheitsmaßnahme und würde ihr Duplikanten schützen.</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER6
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER6"
-#| msgid ""
-#| "<indent=5%>I'm telling you it gives me a bad feeling in my gut.\n"
-#| "\n"
-#| "If you're committed to this then I can't stop you, but I won't be able to continue working at this facility.</indent>"
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER6"
 msgid ""
 "<indent=5%>It just gives me a bad feeling.\n"
 "\n"
 "If you insist on going forward on this I can't stop you, but I'd ask that you move me off the project.</indent>"
 msgstr ""
-"<indent=5%>Ich sage Ihnen, dass ich ein schlechtes Bauchgefühl dabei habe.\n"
+"<indent=5%>Ich hab ein schlechtes Gefühl dabei.\n"
 "\n"
-"Wenn Sie sich dafür einsetzen, dann kann ich Sie nicht aufhalten, aber ich kann nicht weiter in dieser Einrichtung arbeiten.</indent>"
+"Wenn Sie sich dafür einsetzen, dann kann ich Sie nicht aufhalten, aber ich kann nicht weiter in dieser Einrichtung arbeiten.\n"
+"Wenn Sie darauf bestehen das Projekt fortzusetzen, kann ich Sie nicht davon abhalten, aber ich bitte darum, mich aus dem Projekt zu abzuziehen.</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.EMAILHEADER1"
@@ -8222,16 +8161,6 @@ msgid "Ants"
 msgstr "Ameisen"
 
 #. STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>Director,\n"
-#| "\n"
-#| "I have been thinking, and it occurs to me that our subjects may one day travel outside the range of radio contact when establishing new colonies.\n"
-#| "\n"
-#| "I believe in such a case it is our duty to preserve our planet's non-scientific knowledge as colonies travel into the cosmos as representatives of humanity.\n"
-#| "\n"
-#| "I would like to make a formal request that arts and cultural histories make their way onto the microchip databases.</indent>"
 msgctxt "STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
@@ -8246,7 +8175,7 @@ msgstr ""
 "\n"
 "Ich habe nachgedacht, und es fiel mir ein, dass unsere Probanden bei der Gründung neuer Kolonien eines Tages außerhalb der Reichweite des Funkkontaktes reisen könnten.\n"
 "\n"
-"Ich glaube, dass es in einem solchen Fall unsere Pflicht ist, das nicht-wissenschaftliche Wissen unseres Planeten zu bewahren, wenn Kolonien als Vertreter der Menschheit in den Kosmos reisen.\n"
+"Kolonien reisen als Vertreter der Menschheit in den Kosmos, und ich glaube, es ist unsere Pflicht, neben praktischen Informationen auch das nicht-wissenschaftliche Wissen des Planeten zu bewahren.\n"
 "\n"
 "Ich möchte eine formelle Anfrage stellen, dass Kunst- und Kulturgeschichten ihren Weg in die Mikrochip-Datenbanken finden.</indent>"
 
@@ -8853,27 +8782,6 @@ msgid "Radiant Bug"
 msgstr "Glanzkäfer"
 
 #. STRINGS.CODEX.DEBRIEF.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DEBRIEF.BODY.CONTAINER1"
-#| msgid ""
-#| "[VOICE RECOGNITION INITIALIZED]\n"
-#| "[SUBJECTS IDENTIFIED: A001, B111]\n"
-#| "\n"
-#| "[LOG BEGINS]\n"
-#| "\n"
-#| "Director: I'm going to try and build a human colony in space.\n"
-#| "\n"
-#| "McClintock: Alright.\n"
-#| "\n"
-#| "Director: ...\"Alright\"? I was prepared to... give you my justifications. Allure you with resources and promises of unregulated research potential.\n"
-#| "\n"
-#| "McClintock: I know you have the wherewithal to pull it off and it sounds like a worthy project. Would you prefer I put up more of a fight?\n"
-#| "\n"
-#| "Director: No. I'm glad to have you on board.\n"
-#| "\n"
-#| "McClintock: So how does my genetics research come into play?\n"
-#| "\n"
-#| "[LOG ENDS]"
 msgctxt "STRINGS.CODEX.DEBRIEF.BODY.CONTAINER1"
 msgid ""
 "[VOICE RECOGNITION INITIALIZED]\n"
@@ -8900,15 +8808,15 @@ msgstr ""
 "\n"
 "[LOG START]\n"
 "\n"
-"Direktor: Ich werde versuchen, eine menschliche Kolonie im Weltraum aufzubauen.\n"
+"Direktor: Wir planen, eine Crew in den Weltraum zu schicken und einen entfernten Planeten dauerhaft zu kolonisieren.\n"
 "\n"
 "McClintock: In Ordnung.\n"
 "\n"
-"Direktor: .... \"In Ordnung\"? Ich war bereit, Ihnen meine Begründungen zu geben. Sie mit Ressourcen und Versprechungen von unreguliertem Forschungspotenzial locken.\n"
+"Direktor: .... \"In Ordnung\"? Ich war bereit, Sie überzeugen zu müssen. Sie mit Ressourcen und Versprechungen von unregulierter Forschung zu locken.\n"
 "\n"
-"McClintock: Ich weiß, dass Sie das Zeug dazu haben, es zu schaffen, und es klingt nach einem würdigen Projekt. Würden Sie es vorziehen, wenn ich mich mehr wehren würde?\n"
+"McClintock: Ich weiß, dass es einen Sinn hat zu versuchen Ihre Meinung zu ändern. Würden Sie es vorziehen, wenn ich mich mehr wehren würde?\n"
 "\n"
-"Direktor: Nein. Ich bin froh, dass Sie mit an Bord sind.\n"
+"Direktor: Nein.\n"
 "\n"
 "McClintock: Wie kommt also meine genetische Forschung ins Spiel?\n"
 "\n"
@@ -9612,13 +9520,6 @@ msgstr ""
 "SO lästig.</indent>"
 
 #. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing my cat did? She always falls asleep on my bed but last night she sprawled out on her back and her little tongue was poking out! So cute.\n"
-#| "\n"
-#| "<color=#F44A47>[BROKEN IMAGE]</color>\n"
-#| "<alpha=#AA>[121 MISSING ATTACHMENTS]</color></indent>"
 msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing my cat did last night? She always falls asleep on my bed but this time she sprawled out on her back and her little tongue was poking out! So cute.\n"
@@ -9781,16 +9682,6 @@ msgid "Mealwood"
 msgstr "Mehlholz"
 
 #. STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>Director,\n"
-#| "\n"
-#| "I had a thought about how to solve your Duplicant memory problem.\n"
-#| "\n"
-#| "Rather than attempt to access the subject's old memories, what if we were to embed all necessary information for colony survival into the printing process itself?\n"
-#| "\n"
-#| "The amount of data engineering can store has grown exponentially over the last year. We should take advantage of the development.</indent>"
 msgctxt "STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
@@ -9873,19 +9764,6 @@ msgstr ""
 "Siehe Experiment 7F."
 
 #. STRINGS.CODEX.MEMORYIMPLANTATION.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MEMORYIMPLANTATION.BODY.CONTAINER2"
-#| msgid ""
-#| "\n"
-#| "Memories <i>must</i> be embedded within the physical brainmaps of our subjects. The only questions remains how to activate them. Hormones? Chemical supplements? Situational triggers?\n"
-#| "\n"
-#| "The Director seems eager to move past this problem, and I am concerned at her willingness to bypass essential stages of the research development process.\n"
-#| "\n"
-#| "We cannot move on to the fine polish of printing systems until the core processes have been perfected - which they have not.\n"
-#| "\n"
-#| "Dr. McClintock, signing off.\n"
-#| "\n"
-#| "[LOG ENDS.]"
 msgctxt "STRINGS.CODEX.MEMORYIMPLANTATION.BODY.CONTAINER2"
 msgid ""
 "\n"
@@ -9904,7 +9782,7 @@ msgstr ""
 "\n"
 "Der Direktor scheint begierig darauf zu sein, dieses Problem zu überwinden, und ich bin besorgt über seine Bereitschaft, wesentliche Phasen des Forschungsentwicklungsprozesses zu umgehen.\n"
 "\n"
-"Wir können nicht zum Feinschliff von Drucksystemen übergehen, bis die Kernprozesse perfektioniert sind - was sie nicht sind.\n"
+"Wir können nicht zum Feinschliff des Drucksystemes übergehen, bis die Kernprozesse perfektioniert sind - was sie nicht sind.\n"
 "\n"
 "gezeichnet, Dr. McClintock.\"\n"
 "\n"
@@ -10044,12 +9922,6 @@ msgid "Moved Rats"
 msgstr "Verlegung der Rattern"
 
 #. STRINGS.CODEX.MUCKROOT.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MUCKROOT.BODY.CONTAINER1"
-#| msgid ""
-#| "The Muckroot is an aggressively invasive yet exceedingly delicate root plant known for its earthy flavour and unusual texture.\n"
-#| "\n"
-#| "The Muckroot reproduces wildly when kept in precise conditions, but it is wholly incapable of reproducing without direct, natural sunlight."
 msgctxt "STRINGS.CODEX.MUCKROOT.BODY.CONTAINER1"
 msgid ""
 "The Muckroot is an aggressively invasive yet exceedingly delicate root plant known for its earthy flavour and unusual texture.\n"
@@ -10058,7 +9930,7 @@ msgid ""
 msgstr ""
 "Die Schmutzwurzel ist eine aggressiv-invasive, aber äußerst zarte Wurzelpflanze, die für ihren erdigen Geschmack und ihre ungewöhnliche Textur bekannt ist.\n"
 "\n"
-"Die Schmutzwurzel vermehrt sich wild, wenn sie unter strengen Bedingungen gehalten wird, aber sie ist völlig unfähig, sich ohne direktes, natürliches Sonnenlicht zu vermehren."
+"Sie ist leicht zu lagern und über ungewöhnlich lange Zeiträume lagerfähig, Eigenschaften, die sie einst zu einem Grundnahrungsmittel für Entdecker auf langen Expeditionen machte."
 
 #. STRINGS.CODEX.MUCKROOT.SUBTITLE
 msgctxt "STRINGS.CODEX.MUCKROOT.SUBTITLE"
@@ -10860,14 +10732,6 @@ msgid "Polite Request"
 msgstr "Höfliche Anfrage"
 
 #. STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>Director,\n"
-#| "\n"
-#| "Even with dramatic optimization we can't fit the massive volume of resources needed for a colony seed onboard, even when calculating for a small interplanetary travel duration.\n"
-#| "\n"
-#| "Some serious changes are gonna have to be made for this to work.</indent>"
 msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
@@ -11070,14 +10934,6 @@ msgid "Puft"
 msgstr "Puft"
 
 #. STRINGS.CODEX.REMYPENS.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.REMYPENS.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>We would like to remind staff not to use the CC: All function for intra-office issues.\n"
-#| "\n"
-#| "In the event of disputes or disruptive work behavior within the facility, please speak to HR directly.\n"
-#| "\n"
-#| "Thank-you for your restraint.</indent>"
 msgctxt "STRINGS.CODEX.REMYPENS.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>We would like to remind staff not to use the CC: All function for intra-office issues.\n"
@@ -11709,12 +11565,9 @@ msgid "<link=\"LIGHTBUGSPECIES\">Shine Bug</link>"
 msgstr "<link=\"LIGHTBUGSPECIES\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.FAMILY.MOLE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FAMILY.MOO"
-#| msgid "<link=\"MOOSPECIES\">Moo</link>"
 msgctxt "STRINGS.CREATURES.FAMILY.MOLE"
 msgid "<link=\"MOLESPECIES\">Shove Vole</link>"
-msgstr "<link=\"MOOSPECIES\">Moo</link>"
+msgstr "<link=\"MOLESPECIES\">Schubswühlmaus</link>"
 
 #. STRINGS.CREATURES.FAMILY.MOO
 msgctxt "STRINGS.CREATURES.FAMILY.MOO"
@@ -11757,12 +11610,9 @@ msgid "<link=\"LIGHTBUGSPECIES\">Shine Bugs</link>"
 msgstr "<link=\"LIGHTBUGSPECIES\">Leuchtkäfer</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES"
-#| msgid "<link=\"MOOSPECIES\">Moos</link>"
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES"
 msgid "<link=\"MOLESPECIES\">Shove Voles</link>"
-msgstr "<link=\"MOOSPECIES\">Moos</link>"
+msgstr "<link=\"MOLESPECIES\">Schubswühlmaus</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES"
@@ -13749,22 +13599,12 @@ msgid "Reproduction"
 msgstr "Reproduktion"
 
 #. STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP"
-#| msgid ""
-#| "Reproduction\n"
-#| "------------------\n"
-#| "At 100% Reproduction, critters will reach the end of their reproduction cycle and lay a new egg\n"
-#| "\n"
-#| "After an egg is laid, Reproduction is rolled back to 0%"
 msgctxt "STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP"
 msgid ""
 "At 100% Reproduction, critters will reach the end of their reproduction cycle and lay a new egg\n"
 "\n"
 "After an egg is laid, Reproduction is rolled back to 0%"
 msgstr ""
-"Reproduktion\n"
-"------------------\n"
 "Beim erreichen von 100% Reproduktion sind die Lebewesen das Ende ihres Fortpflanzungszyklus und legen ein neues Ei\n"
 "\n"
 "Nachdem ein Ei gelegt wurde, wird die Reproduktion auf 0% zurückgesetzt"
@@ -15999,7 +15839,7 @@ msgstr "Forschung"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC"
 msgid "Fill storage buildings with resources when no other errands are available."
-msgstr "Füllt unkritische Lagergebäude mit Ressourcen auf, wenn keine anderen Aufträge vorliegen"
+msgstr "Füllt unkritische Lagergebäude mit Ressourcen auf, wenn keine anderen Aufträge vorliegen."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME"
@@ -29100,12 +28940,9 @@ msgid "Buried Object"
 msgstr "Vergrabenes Objekt"
 
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NOTIFICATION
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME"
-#| msgid "Buried Object"
 msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NOTIFICATION"
 msgid "Buried object discovered"
-msgstr "Vergrabenes Objekt"
+msgstr "Vergrabenes Objekt entdeckt"
 
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NOTIFICATION_TOOLTIP"
@@ -31847,12 +31684,9 @@ msgid "Allows Advanced Research Points to be acculumated, unlocking higher techn
 msgstr "Ermöglicht das Ansammeln von fortschritlichen Forschungspunkten, um höhere Technologiestufen freizuschalten."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.NAME"
-#| msgid "Advanced Research Point"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.NAME"
 msgid "Advanced Research Capability"
-msgstr "Fortgeschrittener Forschungspunkt"
+msgstr "Fortgeschrittene Forschungskapazität"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.CONVEYOR_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.CONVEYOR_OVERLAY.DESC"
@@ -31870,12 +31704,9 @@ msgid "Allows Interstellar Research Points to be acculumated, unlocking higher t
 msgstr "Ermöglicht das Ansammeln von Interstellaren Forschungspunkten, um höhere Technologiestufen freizuschalten."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.GAMMA_RESEARCH_POINT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.GAMMA_RESEARCH_POINT.NAME"
-#| msgid "Interstellar Research Point"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.GAMMA_RESEARCH_POINT.NAME"
 msgid "Interstellar Research Capability"
-msgstr "Interstellarer Forschungspunkt"
+msgstr "Interstellarer Forschungskapazität"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.DESC"
