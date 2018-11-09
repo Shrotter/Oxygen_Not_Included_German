@@ -3040,7 +3040,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME"
 msgid "<link=\"ARCADEMACHINE\">Arcade Cabinet</link>"
-msgstr "<link=\"SANDCEMENT\">Arcade-Kabinett</link>"
+msgstr "<link=\"SANDCEMENT\">Arcade-Automat</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
@@ -4862,39 +4862,30 @@ msgid "<link=\"ITEMPEDESTAL\">Pedestal</link>"
 msgstr "<link=\"ITEMPEDESTAL\">Podest</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.DESC"
-#| msgid "Docks can refill exosuits with air or empty them of waste, but can only charge one suit at a time."
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.DESC"
 msgid "Docks can refill jet suits with air and fuel, or empty them of waste."
-msgstr "Schutzanzug-Docks können Schutzanzüge mit Luft befüllen oder von Abfällen befreien, können aber nur jeweils einen Anzug aufladen."
+msgstr "Docks können Jetpacks mit Luft und Treibstoff befüllen oder von Abfällen befreien."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
-#| msgid ""
-#| "Stores and recharges Atmo Suit.\n"
-#| "\n"
-#| "Build next to an Exosuit Checkpoint to make Duplicants change into suits when passing by."
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
 msgid ""
 "Stores and refuels Jet Suits with <link=\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
 "\n"
 "Build next to a Jet Suit Checkpoint to make Duplicants change into suits when passing by."
 msgstr ""
-"Lagert und lädt Atemschutzanzüge auf.\n"
+"Lagert und betankt Jetpacks mit <link=\"OXYGEN\">Oxygen</link> und <link=\"PETROLEUM\">Petroleum</link>.\n"
 "\n"
-"Neben einer Schutzanzug-Kontrollstelle bauen, damit Duplikanten beim vorbeigehen in den Anzug steigen."
+"Neben einer Jetpack-Kontrollstelle bauen, damit Duplikanten beim vorbeigehen in den Anzug steigen."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME"
 msgid "<link=\"JETSUITLOCKER\">Jet Suit Dock</link>"
-msgstr "<link=\"SUITLOCKER\">Jet-Pack-Dock</link>"
+msgstr "<link=\"SUITLOCKER\">Jetpack-Dock</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC"
 msgid "A checkpoint must have a jet suit dock built on the opposite side its arrow faces."
-msgstr "An eine Kontrollstelle muss einen Jet-Pack-Dock entgegen der Pfeilrichung angebaut sein."
+msgstr "An eine Kontrollstelle muss einen Jetpack-Dock entgegen der Pfeilrichung angebaut sein."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT"
@@ -4905,16 +4896,16 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
-"Markiert eine Grenze, ab der Duplikanten in oder aus einem Jet-Pack steigen.\n"
+"Markiert eine Grenze, ab der Duplikanten in oder aus einem Jetpack steigen.\n"
 "\n"
-"Muss neben einem Jet-Pack-Dock gebaut werden.\n"
+"Muss neben einem Jetpack-Dock gebaut werden.\n"
 "\n"
 "Vor der Konstruktion drehbar."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.NAME"
 msgid "<link=\"JETSUITMARKER\">Jet Suit Checkpoint</link>"
-msgstr "<link=\"JETSUITMARKER\">Jet-Pack-Kontrollstelle</link>"
+msgstr "<link=\"JETSUITMARKER\">Jetpack-Kontrollstelle</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC"
@@ -8444,6 +8435,8 @@ msgid ""
 "HAHAHAHAHA! Bioengineering and Robotics did the testrun today and Banhi was securing the live cargo pods when one of the rats squeaked at her. She was so scared, she fell on her butt and TOOTED in front of EVERYONE! They're all calling her \"Pipsqueak\" - \"Bubbles\" doesn't seem quite so bad now. Pipsqueak's been a really good sport about it though, she even laughed it off at the time. I think we might actually be friends now? It's weird.\n"
 "------------------\n"
 msgstr ""
+"HAHAHAHAHAHAHAHAHA! Bioengineering und Robotik haben heute den Testlauf gemacht und Banhi sicherte die lebenden Frachtkapseln, als eine der Ratten sie anquietschte. Sie war so verängstigt, dass sie auf ihren Hintern fiel und vor ALLEN hupte! Sie nennen sie alle \"Pipsqueak\" - \"Bubbles\" scheint jetzt nicht mehr ganz so schlimm zu sein. Ich denke Pipsqueak scheint ein netter Kerl zu sein, sie lachte sogar darüber. Ich denke, wir könnten jetzt wirklich Freunde sein? Es ist seltsam.\n"
+"------------------\n"
 
 # Wirklich Thermo-Ratten?
 #. STRINGS.CODEX.B835.BODY.CONTAINER6
@@ -9346,7 +9339,7 @@ msgstr "Ernährung"
 #. STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONS
 msgctxt "STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONS"
 msgid "Transitions"
-msgstr "Durchleitungen"
+msgstr "Übergänge"
 
 #. STRINGS.CODEX.HEADERS.FABRICATIONS
 msgctxt "STRINGS.CODEX.HEADERS.FABRICATIONS"
@@ -13544,18 +13537,9 @@ msgid "Age"
 msgstr "Alter"
 
 #. STRINGS.CREATURES.STATS.AGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.AGE.TOOLTIP"
-#| msgid ""
-#| "Age\n"
-#| "------------------\n"
-#| "This critter will die when its Age reaches its species' maximum lifespan"
 msgctxt "STRINGS.CREATURES.STATS.AGE.TOOLTIP"
 msgid "This critter will die when its Age reaches its species' maximum lifespan"
-msgstr ""
-"Alter\n"
-"------------------\n"
-"Dieses Tier wird sterben, wenn sein Alter die maximale Lebenserwartung seiner Art erreicht hat"
+msgstr "Dieses Tier wird sterben, wenn sein Alter die maximale Lebenserwartung seiner Art erreicht hat"
 
 #. STRINGS.CREATURES.STATS.AIRPRESSURE.NAME
 msgctxt "STRINGS.CREATURES.STATS.AIRPRESSURE.NAME"
@@ -13573,22 +13557,12 @@ msgid "Domestication"
 msgstr "Zähmung"
 
 #. STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP"
-#| msgid ""
-#| "Domestication\n"
-#| "------------------\n"
-#| "Fully domesticated critters produce more materials than wild ones, and may even provide psychological benefits to my colony\n"
-#| "\n"
-#| "This critter is {0} domesticated"
 msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP"
 msgid ""
 "Fully domesticated critters produce more materials than wild ones, and may even provide psychological benefits to my colony\n"
 "\n"
 "This critter is {0} domesticated"
 msgstr ""
-"Domestikation\n"
-"------------------\n"
 "Vollständig domestizierte Tiere erzeugen mehr Material als wilde Tiere und können deiner Kolonie sogar psychologische Vorteile bringen\n"
 "\n"
 "Dieses Tier ist {0} domestiziert"
@@ -13630,22 +13604,12 @@ msgid "Happiness"
 msgstr "Zufriedenheit"
 
 #. STRINGS.CREATURES.STATS.HAPPINESS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.HAPPINESS.TOOLTIP"
-#| msgid ""
-#| "Happiness\n"
-#| "------------------\n"
-#| "High Happiness increases a critter's productivity and indirectly improves their egg laying rates\n"
-#| "\n"
-#| "It also provides the satisfaction in knowing they're living a good little critter life"
 msgctxt "STRINGS.CREATURES.STATS.HAPPINESS.TOOLTIP"
 msgid ""
 "High Happiness increases a critter's productivity and indirectly improves their egg laying rates\n"
 "\n"
 "It also provides the satisfaction in knowing they're living a good little critter life"
 msgstr ""
-"Zufriedenheit\n"
-"------------------\n"
 "Hohe Zufriedenheit steigert die Produktivität eines Tieres und verbessert indirekt seine Legeleistung\n"
 "\n"
 "Es bietet auch Befriedigung, wenn man weiß, dass sie ein gutes Leben führen"
@@ -13666,18 +13630,9 @@ msgid "Incubation"
 msgstr "Bebrütung"
 
 #. STRINGS.CREATURES.STATS.INCUBATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.INCUBATION.TOOLTIP"
-#| msgid ""
-#| "Incubation\n"
-#| "------------------\n"
-#| "Eggs hatch into brand new critters at the end of their incubation period"
 msgctxt "STRINGS.CREATURES.STATS.INCUBATION.TOOLTIP"
 msgid "Eggs hatch into brand new critters at the end of their incubation period"
-msgstr ""
-"Brutzeit\n"
-"------------------\n"
-"Brandneue Lebewesen schlüpfen am Ende der Brutzeit aus Eiern"
+msgstr "Brandneue Lebewesen schlüpfen am Ende der Brutzeit aus Eiern"
 
 #. STRINGS.CREATURES.STATS.IRRIGATION.ABSORBING_MODIFIER
 msgctxt "STRINGS.CREATURES.STATS.IRRIGATION.ABSORBING_MODIFIER"
@@ -13799,22 +13754,12 @@ msgid "Viability"
 msgstr "Lebensfähigkeit"
 
 #. STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP"
-#| msgid ""
-#| "Viability\n"
-#| "------------------\n"
-#| "Eggs will lose viability over time when exposed to poor environmental conditions\n"
-#| "\n"
-#| "At 0% Viability a critter egg will become \"Cracked\" and be unable to hatch"
 msgctxt "STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP"
 msgid ""
 "Eggs will lose viability over time when exposed to poor environmental conditions\n"
 "\n"
 "At 0% Viability a critter egg will become \"Cracked\" and be unable to hatch"
 msgstr ""
-"Lebensfähigkeit\n"
-"------------------\n"
 "In schlechten Umgebungsbedingungen verlieren Eier ihre Lebensfähigkeit\n"
 "\n"
 "Wenn die Lebensfähigkeit Null erreicht, \"zerbricht\" das Ei und kann dann nicht mehr schlüpfen"
@@ -13825,18 +13770,9 @@ msgid "Wildness"
 msgstr "Wildheit"
 
 #. STRINGS.CREATURES.STATS.WILDNESS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.WILDNESS.TOOLTIP"
-#| msgid ""
-#| "Wildness\n"
-#| "------------------\n"
-#| "At 0% Wildness a critter becomes Tame, increasing its metabolism and requiring regular care from a Rancher"
 msgctxt "STRINGS.CREATURES.STATS.WILDNESS.TOOLTIP"
 msgid "At 0% Wildness a critter becomes Tame, increasing its metabolism and requiring regular care from a Rancher"
-msgstr ""
-"Wildheit\n"
-"------------------\n"
-"Bei einer Wildheit von null wird ein Tier zahm, erhält einen stärkeren Metabolismus und muss von einem Viehzüchter versorgt werden"
+msgstr "Bei einer Wildheit von null wird ein Tier zahm, erhält einen stärkeren Metabolismus und muss von einem Viehzüchter versorgt werden"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME"
@@ -25576,12 +25512,12 @@ msgstr ""
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME"
 msgid "Jet Suit"
-msgstr "Jet-Pack"
+msgstr "Jetpack"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME"
 msgid "Jet Suit"
-msgstr "Jet-Pack"
+msgstr "Jetpack"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC"
@@ -31814,7 +31750,6 @@ msgid "Continue your space program"
 msgstr "Setze dein Raumfahrtprogramm fort"
 
 #. STRINGS.RESEARCH.TECHS.CARGOI.NAME
-#, fuzzy
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOI.NAME"
 msgid "<link=\"CARGOI\">Solid Cargos</link>"
 msgstr "<link=\"CARGOI\">Feststoff-Frachträume</link>"
@@ -31828,7 +31763,6 @@ msgid "Continue your space program"
 msgstr "Setze dein Raumfahrtprogramm fort"
 
 #. STRINGS.RESEARCH.TECHS.CARGOII.NAME
-#, fuzzy
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOII.NAME"
 msgid "<link=\"CARGOII\">Liquid and Gas Cargos</link>"
 msgstr "<link=\"CARGOII\">Flüssigkeits- und Gasfrachträume</link>"
@@ -31842,7 +31776,6 @@ msgid "Continue your space program"
 msgstr "Setze dein Raumfahrtprogramm fort"
 
 #. STRINGS.RESEARCH.TECHS.CARGOIII.NAME
-#, fuzzy
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOIII.NAME"
 msgid "<link=\"CARGOIII\">Special Cargos</link>"
 msgstr "<link=\"CARGOIII\">Speziallfrachträume</link>"
@@ -31865,7 +31798,7 @@ msgstr "Produziert gemütliche Luxusartikel für Duplikanten."
 #. STRINGS.RESEARCH.TECHS.CLOTHING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.NAME"
 msgid "<link=\"CLOTHING\">Self Expression</link>"
-msgstr "<link=\"CLOTHING\">Selbstdarstellung</link>"
+msgstr "<link=\"CLOTHING\">Selbstentfaltung</link>"
 
 #. STRINGS.RESEARCH.TECHS.COMBUSTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.DESC"
@@ -32275,7 +32208,7 @@ msgstr "Das Weltall: es ist nicht so leer wie du denkst."
 #. STRINGS.RESEARCH.TECHS.SKYDETECTORS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SKYDETECTORS.NAME"
 msgid "<link=\"SKYDETECTORS\">Celestial Detection</link>"
-msgstr "<link=\"SKYDETECTORS\">Himmelserkennung</link>"
+msgstr "<link=\"SKYDETECTORS\">Himmelsentdeckung</link>"
 
 #. STRINGS.RESEARCH.TECHS.SMARTSTORAGE.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SMARTSTORAGE.DESC"
@@ -33226,7 +33159,7 @@ msgstr "<link=\"BUILDCATEGORYROCKETRY\">Raketen</link>"
 #. STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP"
 msgid "Rocketry"
-msgstr "Rocketry"
+msgstr "Raketen"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
@@ -43212,7 +43145,7 @@ msgstr "Rohrentleer-Werkzeug"
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 msgid "Drag to remove contents of pipe"
-msgstr "Ziehen, um Ressourcen ins Lager zu bringen"
+msgstr "Ziehen, um Rohr zu entleeren"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
