@@ -2,4 +2,5 @@
 
 - Abgleich der Begriffe für "Building" (Hier werden immer wieder unterschiedliche Begriffe verwendet)
 - Vereinheitlichung der Übersetzung von "Critter"
-- Übersetzung des Wissensdatenbank
+- Überarbeitung/Überprüfung der neuen Pflanzenarten
+- Überarbeitung/Überprüfung der Tiernamen (sind die Eier von den Larven/Jungtieren?)
