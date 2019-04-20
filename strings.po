@@ -5261,7 +5261,7 @@ msgstr "Ein Duplikant kann ein Ice-E-Lüfter bedienen, um vorübergehend kleine 
 #. STRINGS.BUILDINGS.PREFABS.ICECOOLEDFAN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICECOOLEDFAN.EFFECT"
 msgid "Uses <link=\"ICE\">Ice</link> to dissipate a small amount of the <link=\"HEAT\">Heat</link>."
-msgstr "Verwendet <link=\"ICE\">Eis</link>, um eine kleine Menge der <link=\"HEAT\">Wärme</link> abzuführen."
+msgstr "Verwendet <link=\"ICE\">Eis</link>, um eine kleine Menge <link=\"HEAT\">Wärme</link> abzuführen."
 
 #. STRINGS.BUILDINGS.PREFABS.ICECOOLEDFAN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICECOOLEDFAN.NAME"
@@ -6057,7 +6057,7 @@ msgstr "Sendet ein <link=\"LOGIC\">Aktiv-Signal</link>, wenn die <link=\"DISEASE
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Sends a <link=\"LOGIC\">Standby</link> signal when the number of <link=\"DISEASE\">Germ</link> is outside the configured Germ Threshold range"
-msgstr "Sendet ein <link=\"LOGIC\">Inaktiv-Signal</link>, wenn die <link=\"DISEASE\">Keimanzahl</link> außerhalb des eingestellten Bereich liegt"
+msgstr "Sendet ein <link=\"LOGIC\">Inaktiv-Signal</link>, wenn die <link=\"DISEASE\">Keimanzahl</link> außerhalb des eingestellten Bereichs liegt"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
@@ -6449,7 +6449,7 @@ msgstr "Strom abschalten"
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE"
 msgid "Allows power through connected circuits while receiving an <link=\"LOGIC\">Active</link> signal"
-msgstr "Erlaub, dass Strom durch angeschlossene Stromkreise fließt, während ein <link=\"LOGIC\">Aktiv-Signal</link> empfangen wird"
+msgstr "Erlaubt, dass Strom durch angeschlossene Stromkreise fließt, während ein <link=\"LOGIC\">Aktiv-Signal</link> empfangen wird"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE"
@@ -24241,12 +24241,12 @@ msgstr "Krankheit"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants have contracted a <link=\"DISEASE\">Disease</link> and require recovery time at a <link=\"DOCTORSTATION\">Sick Bay</link>:"
-msgstr "Diese Duplikanten sind an einer <link=\"DISEASE\">Krankheit</link> erkrankt und benötigen Zeit auf einem <link=\"DOCTORSTATION\">Krankenstation</link>:"
+msgstr "Dieser Duplikant hat sich eine <link=\"DISEASE\">Krankheit</link> eingehandelt und benötigt Zeit in einer <link=\"DOCTORSTATION\">Krankenstation</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP"
 msgid "This Duplicant has contracted a <link=\"DISEASE\">Disease</link> and must take recovery time at a <link=\"DOCTORSTATION\">Sick Bay</link>"
-msgstr "Dieser Duplikant ist an <link=\"DISEASE\">Krankheit</link> erkrankt und benötigt Zeit in einer <link=\"DOCTORSTATION\">Krankenstation</link>"
+msgstr "Dieser Duplikant hat sich eine <link=\"DISEASE\">Krankheit</link> eingehandelt und benötigt Zeit in einer <link=\"DOCTORSTATION\">Krankenstation</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HOLDINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HOLDINGBREATH.NAME"
