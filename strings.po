@@ -5861,7 +5861,7 @@ msgstr "Rohrflüssigkeitsdetektoren können die Präsenz einer bestimmten Flüss
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT"
 msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when the chosen <link=\"ELEMENTSLIQUID\">Liquid</link> is detected."
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die konfigurierte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link>detektiert wird."
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die konfigurierte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> detektiert wird."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -6523,7 +6523,7 @@ msgid ""
 msgstr ""
 "Gibt ein <b><color=#57b95e>Grünes Signal</b></color> aus, wenn mindestens einder der Eingänge A <b>ODER</b> Eingang B <b><color=#57b95e>Grün</b></color> empfängt.\n"
 "\n"
-"Gibt ein <b><color=#f44a47>Rotes Signal</b></color> aus, , wenn weder Eingang A noch Eingang B <b><color=#57b95e>Grün</b></color> empfängt."
+"Gibt ein <b><color=#f44a47>Rotes Signal</b></color> aus, wenn weder Eingang A noch Eingang B <b><color=#57b95e>Grün</b></color> empfängt."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
@@ -6932,7 +6932,7 @@ msgid ""
 "\n"
 "Duplicants will automatically sleep in their assigned beds at night."
 msgstr ""
-"Bietet einen Schlafplatz für einen Duplikanten und stellt zusätzliche<link=\"STAMINA\">Ausdauer</link> wieder her.\n"
+"Bietet einen Schlafplatz für einen Duplikanten und stellt zusätzliche <link=\"STAMINA\">Ausdauer</link> wieder her.\n"
 "\n"
 "Duplikanten schlafen nachts automatisch in ihren zugewiesenen Betten."
 
@@ -7102,7 +7102,7 @@ msgid ""
 "\n"
 "Revives incapacitated Duplicants."
 msgstr ""
-"Beschleunigt <link=\"HEALTH\">Gesundheitsregeneration</link> und die Heilung von physischen Verletzungen.\n"
+"Beschleunigt die Wiederherstellung der <link=\"HEALTH\">Gesundheit</link> und die Heilung von physischen Verletzungen.\n"
 "\n"
 "Belebt bewusstlose Duplikanten wieder."
 
@@ -8267,7 +8267,7 @@ msgstr "Forschungsstationen sind notwendig, um alle Forschungsstufen freizuschal
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.EFFECT"
 msgid "Conducts <link=\"RESEARCH\">Novice Research</link> to unlock new technologies."
-msgstr "Führt <link=\"RESEARCH\">Anfängerforschungen</link> aus und schaltet neue Technologien frei."
+msgstr "Führt <link=\"RESEARCH\">Novizenforschungen</link> aus und schaltet neue Technologien frei."
 
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME"
@@ -8403,7 +8403,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RUSTDEOXIDIZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RUSTDEOXIDIZER.NAME"
 msgid "<link=\"RUSTDEOXIDIZER\">Rust Deoxidizer</link>"
-msgstr "<link=\"RUSTDEOXIDIZER\">Rost-Desoxidirier</link>"
+msgstr "<link=\"RUSTDEOXIDIZER\">Rost-Desoxidierer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
@@ -14361,13 +14361,14 @@ msgstr "Pinchapfeffer-Pflanze"
 #. STRINGS.CODEX.PIP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER1"
 msgid "Pips are a member of the Rodentia order with a strong caching instinct that causes them to find and bury small objects, most often seeds."
-msgstr ""
+msgstr "Pips sind ein Vertreter des Rodentia-Ordens mit einem starken Versteck-Instinkt, der sie dazu bringt, kleine Objekte, meist Samen, zu finden und zu vergraben."
 
 #. STRINGS.CODEX.PIP.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER2"
 msgid "It is unknown whether their caching behavior is a compulsion or a form of entertainment, as the Pip relies primarily on bark and wood for its survival."
-msgstr ""
+msgstr "Es ist nicht bekannt, ob ihr Versteck-Verhalten ein Zwang oder eine Form der Unterhaltung ist, da die Pip zum Überleben hauptsächlich auf Rinde und Holz angewiesen ist."
 
+# Was ist mit "detexerous" gemeint?
 #. STRINGS.CODEX.PIP.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER3"
 msgid "Although the Pip lacks truly opposable thumbs, it nonetheless has highly detexerous paws that allow it to rummage through most tight to reach spaces in search of seeds and other treasures."
@@ -14561,22 +14562,22 @@ msgstr "Planetarische Echos"
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER1"
 msgid "Pokeshells are bottom-feeding invertebrates that consume the waste and discarded food left behind by other creatures."
-msgstr ""
+msgstr "Pokepanzer sind wirbellose Tiere, die die Abfälle und weggeworfene Nahrung, die von anderen Kreaturen zurückgelassen wurden, verzehren."
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER2"
 msgid "They have formidably sized claws that fold safely into their shells for protection when not in use."
-msgstr ""
+msgstr "Sie haben beeindruckend große Krallen, die sie bei Nichtgebrauch sicher in ihre Schalen einziehen und so schützen."
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER3"
 msgid "As Pokeshells mature they must periodically shed portions of their exoskeletons to make room for new growth."
-msgstr ""
+msgstr "Wenn Pokepanzer auswachsen müssen sie regelmäßig Teile ihres Exoskeletts abstoßen, um Platz für neues Wachstum zu schaffen."
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER4"
 msgid "Although the most dramatic sheds occur early in a Pokeshell's adolescence, they will continue growing and shedding throughout their adult lives, until the day they eventually die."
-msgstr ""
+msgstr "Obwohl die dramatischsten Schuppen früh in der Pubertät eines Pokepanzer entstehen, werden sie während ihres gesamten Erwachsenenlebens weiter wachsen, bis zu dem Tag an dem sie schließlich sterben."
 
 #. STRINGS.CODEX.POKESHELL.SUBTITLE
 msgctxt "STRINGS.CODEX.POKESHELL.SUBTITLE"
@@ -14623,6 +14624,8 @@ msgid ""
 "Several buildings can generate power. Duplicants can run on the <link=\"MANUALGENERATOR\">Manual Generator</link> to generate clean power. Once generated, power can be consumed by buildings or stored in a <link=\"BATTERY\">Battery</link> to prevent waste. Any generated power that is not consumed or stored will be wasted. Batteries and Generators tend to produce a signifcant amount of <link=\"HEAT\">Heat</link> while active.\n"
 "\n"
 msgstr ""
+"Verschiedene Gebäude können Strom erzeugen. Duplikanten können im <link=\"MANUALGENERATOR\">Hamsterrad</link> laufen, um sauberen Strom zu erzeugen. Einmal erzeugt, kann der Strom von Gebäuden verbraucht oder, um Verschwendung zu vermeiden, in einer <link=\"BATTERIE\">Batterie</link> gespeichert werden. Jede erzeugte Energie, die nicht verbraucht oder gespeichert wird, wird vergeudet. Wenn Batterien und Generatoren aktiv sind, neigen sie dazu eine signifikante Menge an <link=\"HEAT\">Wärme</link> abzugeben.\n"
+"\n"
 
 #. STRINGS.CODEX.POWER.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.POWER.PARAGRAPH_3"
@@ -14702,6 +14705,8 @@ msgid ""
 "Duplicants prioritize their errands based on several factors. Some of these can be adjusted to affect errand choice, but some errands (such as seeking breathable <link=\"OXYGEN\">oxygen</link>) are so important that they cannot be delayed. Errand priority can primarily be controlled by Errand Type prioritization, and then can be further fine tuned by the <b>Priotity Tool</b> <b><color=#F44A4A>[P]</b></color>.\n"
 "\n"
 msgstr ""
+"Duplikanten priorisieren ihre Aufträge basierend auf mehreren Faktoren. Einige davon können angepasst werden, um die Auswahl der Aufträgge zu beeinflussen, aber einige Aufträge (z.B. die Suche nach atembaren <link=\"OXYGEN\">Sauerstoff</link>) sind so wichtig, dass sie nicht verzögert werden können. Die Auftragspriorität kann vorrangig durch die Priorisierung der Auftragsart gesteuert und dann durch das <b>Prioritätswerkzeug</b> <b><color=#F44A4A>[P]</b></color> weiter verfeinert werden.\n"
+"\n"
 
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_2"
@@ -14711,6 +14716,10 @@ msgid ""
 "For example, Duplicants who are good at Research could be made to prioritize the Researching errand type. Duplicants with poor Athletics could be made to deprioritize the Supplying and Storing errand types.\n"
 "\n"
 msgstr ""
+"Jede Aufgabe, die ein Duplikant ausführen kann, fällt in eine Aufgabenkategorie. Diese Kategorien können für jeden Duplikanten extra in der <b>Prioritätsanzeige</b> priorisiert werden. Für einen Duplikanten können auch ganze Aufgabenkategorie verboten werden, wenn er diesen Aufgabentyp nie durchführen soll. Eine übliche Konfiguration basiert auf den Attributen des Duplikanten.\n"
+"\n"
+"Zum Beispiel könnten Duplikanten, die gut in der Forschung sind, veranlasst werden Forschungsaufträge zu priorisieren. Duplikanten mit schlechter Athletik könnten die Aufgaben für Lieferung und Lagerung deaktiviert werden.\n"
+"\n"
 
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_3"
@@ -14718,6 +14727,8 @@ msgid ""
 "The priority of errands can often be modified using the <b>Priority tool</b> <b><color=#F44A4A>[P]</b></color>. The values applied by this tool are always less influencial than the Errand Type priorities described above. If two errands with equal Errand Type Priority are available to a Duplicant, they will choose the errand with a higher priority setting as applied by the tool.\n"
 "\n"
 msgstr ""
+"Die Priorität von Besorgungen kann häufig mit dem <b>Prioritätswerkzeug</b> <b><b><color=#F44A4A>[P]</b></b></color> geändert werden. Die mit diesem Werkzeug angewandten Werte haben immer einen geringeren Einfluss als die oben beschriebenen Prioritäten der Aufgabenart. Wenn ein Duplikant zwei Aufgaben mit gleicher Priorität hat, wählt er die Aufgabe dessen vom Werkzeug gesetzte Priorität höher ist.\n"
+"\n"
 
 #. STRINGS.CODEX.PRIORITY.TITLE
 msgctxt "STRINGS.CODEX.PRIORITY.TITLE"
@@ -14769,6 +14780,8 @@ msgid ""
 "A selected research task is completed once enough research points have been generated at the colonies research stations. Duplicants with high 'Science' attribute scores will generate research points faster than Duplicants with lower scores.\n"
 "\n"
 msgstr ""
+"Eine ausgewählte Forschungsaufgabe ist abgeschlossen, sobald genügend Forschungspunkte an den Forschungsstationen der Kolonie generiert wurden. Duplikanten mit hohen \"Forschungs\"-Attributwerten generieren Forschungspunkte schneller als Duplikanten mit niedrigeren Werten.\n"
+"\n"
 
 #. STRINGS.CODEX.RESEARCH.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_3"
@@ -14782,6 +14795,14 @@ msgid ""
 "Interstellar Research is performed at the <link=\"COSMICRESEARCHCENTER\">Virtual Planetarium</link>\n"
 "\n"
 msgstr ""
+"Fortschrittliche Forschungsaufgaben erfordern spezielle Forschungsstationen, um die richtige Art von Forschungspunkten zu generieren. Diese Forschungsstationen verbrauchen häufig fortschrittlichere Ressourcen.\n"
+"\n"
+"Die Nutzung von Forschungsstationen mit höherer Stufe erfordert auch, dass Duplikanten die <link=\"ROLES\">Forschungsfertigkeit</link> mit höherer Stufe gelernt haben\n"
+"\n"
+"Novizenforschung wird in der <link=\"RESEARCHCENTER\">Forschungsstation</link> durchgeführt\n"
+"Fortschrittliche Forschung wird im <link=\"ADVANCEDRESEARCHCENTER\">Super-Computer</link> durchgeführt\n"
+"Interstellare Forschung wird im <link=\"COSMICRESEARCHCENTER\">Virtuellem Planetarium</link> durchgeführt\n"
+"\n"
 
 #. STRINGS.CODEX.RESEARCH.TITLE
 msgctxt "STRINGS.CODEX.RESEARCH.TITLE"
@@ -15498,7 +15519,7 @@ msgstr "Leichtes Leben"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
 msgid "Go {0} cycles with Duplicants performing a single errand while still maintaining {1} Morale."
-msgstr ""
+msgstr "Durchlaufe {0} Zyklen mit Duplikanten, die eine einzige Aufgabe ausführen, während sie gleichzeitig eine Moral von {1} wahren."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI"
@@ -25790,7 +25811,7 @@ msgstr "Ermöglicht die Pflege von <style=\"KKeyword\">Pflanzen</style>, was der
 #. STRINGS.DUPLICANTS.ROLES.FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
 msgid "<link=\"FARMER\">Crop Tending</link>"
-msgstr "<link=\"FARMER\">Planzenpflege</link>"
+msgstr "<link=\"FARMER\">Pflanzenpflege</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
@@ -31128,7 +31149,7 @@ msgstr "Erhöht Dekoration in einem kleinen Bereich um den Träger."
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC"
 msgid "Allows my Duplicants to take to the skies, for a time."
-msgstr "Erlaube dass Duplikanten manuell mit diesem Lager zu interagieren."
+msgstr "Erlaubt meinen Duplikanten, eine Zeit lang in den Himmel zu schweben."
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.EFFECT"
@@ -31440,37 +31461,37 @@ msgstr "UmschaltenNachOffen"
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMACAMENABLE
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMACAMENABLE"
 msgid "Enable Cinematic Camera"
-msgstr ""
+msgstr "Filmkamera aktivieren"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANDOWN
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANDOWN"
 msgid "Cinematic Pan Down"
-msgstr ""
+msgstr "Kamera nach unten schwenken"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANLEFT
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANLEFT"
 msgid "Cinematic Pan Left"
-msgstr ""
+msgstr "Kamera nach links schwenken"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANRIGHT
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANRIGHT"
 msgid "Cinematic Pan Right"
-msgstr ""
+msgstr "Kamera nach rechts schwenken"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANSPEEDMINUS
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANSPEEDMINUS"
 msgid "Pan Speed Decrease"
-msgstr ""
+msgstr "Schwenkgeschwindigkeit verringern"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANSPEEDPLUS
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANSPEEDPLUS"
 msgid "Pan Speed Increase"
-msgstr ""
+msgstr "Schwenkgeschwindigkeit erhöhen"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANUP
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANUP"
 msgid "Cinematic Pan Up"
-msgstr ""
+msgstr "Kamera nach oben schwenken"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLEEASING
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLEEASING"
@@ -31480,32 +31501,32 @@ msgstr ""
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLELOCK
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLELOCK"
 msgid "Toggle Zoom/Pan Lock"
-msgstr ""
+msgstr "Umschalten Zoom-/Schwenksperre"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMIN
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMIN"
 msgid "Cinematic Zoom In"
-msgstr ""
+msgstr "Kamera einzoomen"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT"
 msgid "Cinematic Zoom Out"
-msgstr ""
+msgstr "Kamera auszoomen"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDMINUS
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDMINUS"
 msgid "Zoom Speed Decrease"
-msgstr ""
+msgstr "Zoomgeschwindigkeit verringern"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS"
 msgid "Zoom Speed Increase"
-msgstr ""
+msgstr "Zoomgeschwindigkeit erhöhen"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.NAME"
 msgid "Cinematic Camera"
-msgstr ""
+msgstr "Filmkamera"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE"
@@ -33681,13 +33702,13 @@ msgid ""
 "\n"
 "• I'll keep records of everything I discover in my personal DATABASE <b><color=#F44A4A>[U]</b></color> to refer back to if I forget anything important."
 msgstr ""
-"• Ich kann <color=#F44A47><b><link=\"CONTROLS\">[WASD]</link></b></color> benutzen, um die Kamera zu schwenken und das <color=#F44A47><b><link=\"CONTROLS\">[MAUSRAD]</link></b></color> zum Rein- und Rauszoomen. \n"
+"• Die <color=#F44A4A><b>[WASD]</b></color> Tasten schwenken die Kamera und das <color=#F44A4A><b>[MAUSRAD]</b></color> zum Rein- und Rauszoomen. \n"
 "\n"
-"• <color=#F44A47><b>[H]</b></color> bewegt die Kamera zurück zum Biodrucker.\n"
+"• <color=#F44A4A><b>[H]</b></color> bewegt die Kamera zurück zum Biodrucker.\n"
 "\n"
-"• Das Spiel kann mit den Geschwindigkeitsschaltflächen oben links oder mit <color=#F44A47><b>[TAB]</b></color> beschleunigt oder verlangsamt werden. Die <color=#F44A47><b>[LEERTASTE]</b></color> pausiert den Ablauf der Zeit vollständig.\n"
+"• Das Spiel kann mit den Geschwindigkeitsschaltflächen oben links oder mit <color=#F44A4A><b>[TAB]</b></color> beschleunigt oder verlangsamt werden. Die <color=#F44A4A><b>[LEERTASTE]</b></color> pausiert den Ablauf der Zeit vollständig.\n"
 "\n"
-"• Ich werde alles, was ich entdecke, in meiner persönlichen DATENBANK <color=#F44A47><b>[U]</b></color> protokollieren, um mich darauf zu besinnen, wenn ich etwas Wichtiges vergesse."
+"• Ich werde alles, was ich entdecke, in meiner persönlichen DATENBANK <color=#F44A4A><b>[U]</b></color> protokollieren, um mich darauf zu besinnen, wenn ich etwas Wichtiges vergesse."
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME"
@@ -39650,7 +39671,7 @@ msgstr "Stall"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
 msgid "Stabled critters can be tended at a Grooming Station to hasten their domestication and increase their production."
-msgstr "Stalltiere können, um ihre Domestikation zu beschleunigen und ihre Produktion zu steigern, an einer Pflegestation gepflegt werden."
+msgstr "Stalltiere können an einer Pflegestation gepflegt werden. Dies beschleunigt ihre Domestikation und steigert ihre Produktion."
 
 #. STRINGS.ROOMS.TYPES.FARM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.FARM.EFFECT"
@@ -40077,7 +40098,7 @@ msgstr "<link=\"BUILDCATEGORYROCKETRY\">Raketen</link>"
 #. STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP"
 msgid "With rockets, the sky's no longer the limit! {Hotkey}"
-msgstr "Mit Raketen ist der Himmel nicht mehr die Grenze! (Hotkey)"
+msgstr "Mit Raketen ist der Himmel nicht mehr die Grenze! {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
@@ -52442,7 +52463,7 @@ msgstr "Füllen"
 #. STRINGS.UI.TOOLS.SANDBOX.FOW.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.FOW.HOVERACTION"
 msgid "DE-FOG"
-msgstr ""
+msgstr "ENTNEBELN"
 
 #. STRINGS.UI.TOOLS.SANDBOX.FOW.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.FOW.NAME"
@@ -52452,7 +52473,7 @@ msgstr "Aufdecken"
 #. STRINGS.UI.TOOLS.SANDBOX.HEATGUN.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.HEATGUN.HOVERACTION"
 msgid "PAINT HEAT"
-msgstr ""
+msgstr "HITZE MALEN"
 
 #. STRINGS.UI.TOOLS.SANDBOX.HEATGUN.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.HEATGUN.NAME"
@@ -52487,7 +52508,7 @@ msgstr "Spawn"
 #. STRINGS.UI.TOOLS.SANDBOX.SPAWNER.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPAWNER.HOVERACTION"
 msgid "SPAWN"
-msgstr ""
+msgstr "SPAWN"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SPAWNER.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPAWNER.NAME"
@@ -52497,7 +52518,7 @@ msgstr "Spawner"
 #. STRINGS.UI.TOOLS.SANDBOX.SPRINKLE.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPRINKLE.HOVERACTION"
 msgid "SPRINKLE SIM"
-msgstr ""
+msgstr "SCHLEIM SPRÜHEN"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SPRINKLE.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPRINKLE.NAME"
@@ -57165,7 +57186,7 @@ msgid ""
 msgstr ""
 "Ein karger Ort mit einem Überfluss an Bodenschätzen.\n"
 "\n"
-"<smallcaps>Das felsige Terrain des Ödlandes stellt keine unmittelbare Bedrohung dar, aber durch die spärliche Ressourcenverfügbarkeit wird die Expansion und den technologischen Fortschritt schwierig werden.</smallcaps>\n"
+"<smallcaps>Das felsige Terrain des Ödlandes stellt keine unmittelbare Bedrohung dar, aber durch die spärliche Ressourcenverfügbarkeit wird die Expansion und der technologischen Fortschritt schwierig werden.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.BADLANDS.NAME
@@ -57247,7 +57268,7 @@ msgid ""
 msgstr ""
 "Ein trostloser Ort mit einer lebensnotwendigen Wasserader unter der Oberfläche.\n"
 "\n"
-"<smallcaps>Eine große Untergrundwüste birgt Temperaturrisiken und strapaziert die Ressourcen einer Kolonie auf Oase. Überlebt man aber die Herausforderung, präsentieren sich große industrielle Gelegenheiten.</smallcaps>\n"
+"<smallcaps>Eine große Untergrundwüste birgt Temperaturrisiken und strapaziert die Ressourcen deiner Kolonie. Durchsteht man aber die Herausforderung, präsentieren sich große industrielle Gelegenheiten.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.OASIS.NAME
@@ -57265,7 +57286,7 @@ msgid ""
 msgstr ""
 "Ein Ort mit riesigen untrinkbaren Salzwassermengen.\n"
 "\n"
-"<smallcaps>Ozeanien ist recht stabil und ressourcenreich, allerdings ist ein Großteil des Gebietes mit Salzwasser beansprucht. Nur vorsichtige Erweiterungen und gewissenhafter Ressourcenverbrauch führen zu einer erfolgreichen Kolonie.</smallcaps>\n"
+"<smallcaps>Ozeanien ist recht stabil und ressourcenreich, allerdings ist ein Großteil des Gebietes mit Salzwasser bedeckt. Nur vorsichtige Erweiterungen und gewissenhafter Ressourcenverbrauch führen zu einer erfolgreichen Kolonie.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.OCEANIA.NAME
@@ -57312,7 +57333,7 @@ msgstr "Rime"
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.HIGH
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.HIGH"
 msgid "Likely"
-msgstr "Vermutlich"
+msgstr "Wahrscheinlich"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.LEASTHOSPITABLE
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.LEASTHOSPITABLE"
@@ -57374,7 +57395,7 @@ msgid ""
 msgstr ""
 "Ein Ort mit geschmolzenen Lavataschen und intensiver Hitze.\n"
 "\n"
-"<smallcaps>Volcanea wäre perfekt, wenn es keine Vulkane hätte. Wir müssen vorsichtig graben und auf die Temperaturen achten, wenn wir erfolgreich sein wollen.</smallcaps>\n"
+"<smallcaps>Volcanea wäre perfekt, wenn es keine Vulkane gäbe. Wir müssen vorsichtig graben und auf die Temperaturen achten, wenn wir erfolgreich sein wollen.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.VOLCANIC.NAME
