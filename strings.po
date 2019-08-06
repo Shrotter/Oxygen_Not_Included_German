@@ -13057,6 +13057,12 @@ msgid ""
 "The <link=\"MICROBEMUSHER\">Microbe Musher</link> has a decor value of -15 and a radius of 3 tiles. \n"
 "The result of placing a <link=\"MICROBEMUSHER\">Microbe Musher</link> next to a <link=\"PRICKLEGRASS\">Bluff Briar</link> would be a combined decor value of 10"
 msgstr ""
+"Viele Faktoren haben einen Einfluss auf den Dekorationswert einer Kachel. Die Wirkung eines Gebäudes wird als Intensitätswert und Radius ausgedrückt. Oft ist dieser Effekt positiv, aber viele Gebäude senken auch den Dekorationswert eines Bereichs. <link=\"PLANTS\">Pflanzen</link>, <link=\"CREATURES\">Tier</link>, und <link=\"BUILDCATEGORYFURNITURE\">Möbel</link> erhöhen häufig die Dekoration, während Industriegebäude und Verrottertes es oft verringern. Duplikanten erleben die kombinierte Dekoration aller Objekte, die eine Kachel berühren.\n"
+"\n"
+"\n"
+"Der <link=\"PRICKLEGRASS\">Dornenstrauch</link> hat einen Dekorationswert von 25 und einen Radius von 4 Kachel.\n"
+"Der <link=\"MICROBEMUSHER\">Mikrobenmatscher</link> hat einen Dekorationswert von -15 und einen Radius von 3 Kachel.\n"
+"Das Ergebnis der Anordnung eines <link=\"MICROBEMUSHER\">Mikrobenmatscher</link> neben einem <link=\"PRICKLEGRASS\">Dornenstrauch</link> wäre ein kombinierter Dekorationswert von 10"
 
 #. STRINGS.CODEX.DECORSYSTEM.TITLE
 msgctxt "STRINGS.CODEX.DECORSYSTEM.TITLE"
@@ -13429,6 +13435,12 @@ msgid ""
 " Duplicants are generally more vulnerable to <link=\"DISEASE\">Disease</link> than physical damage.\n"
 "\n"
 msgstr ""
+"Außer Gefecht gesetzte Duplikanten können sich nicht bewegen oder Aufträge durchführen. Sie müssen von einem anderen Duplikanten gerettet werden, bevor ihre Gesundheit auf Null fällt. Wenn die Gesundheit eines Duplikanten Null erreicht, wird er sterben.\n"
+"\n"
+"Die Gesundheit kann langsam über die Zeit und schnell durch Ruhe im <link=\"MEDICALCOT\">Krankenbett</link> wiederhergestellt werden.\n"
+"\n"
+" Duplikanten sind im Allgemeinen anfälliger für <link=\"DISEASE\">Krankheit</link> als körperliche Schäden.\n"
+"\n"
 
 #. STRINGS.CODEX.HEALTH.TITLE
 msgctxt "STRINGS.CODEX.HEALTH.TITLE"
@@ -14145,6 +14157,24 @@ msgid ""
 "God, what have we done.\n"
 "\n"
 msgstr ""
+"Echos aus einer anderen Zeit breiten sich in meinem Kopf aus. Lassen mich zuhören. Wie rachsüchtige Geister kratzen sie sich unter der Schwerkraft dieses toten Planeten heraus.\n"
+"\n"
+"<smallcaps>>>DATENBANK DURCHSUCHEN [\"pod_brainmap.AI\"]\n"
+">...Fehler...\n"
+".........................\n"
+">...Repariere beschädigten Daten...\n"
+".........................\n"
+"\n"
+"</smallcaps><b>Ich-Ich erinnere mich jetzt.</b><smallcaps>\n"
+".........................</smallcaps>\n"
+"<b>Wer ich vorher war.</b><smallcaps>\n"
+".........................\n"
+".........................\n"
+">...Daten repariert...\n"
+">.........................</smallcaps>\n"
+"\n"
+"Gott was haben wir getan.\n"
+"\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.TITLE"
@@ -14159,6 +14189,10 @@ msgid ""
 "As the place of their origin, I notice the Duplicants regard my Pod with a certain reverence, much like the reverence a child might have for a parent. I'm happy to fill this role for them, should they desire.\n"
 "\n"
 msgstr ""
+"Dies ist die Leitung, durch die ich mit der Welt interagiere. Wenn ich es betrachte, erfüllt es mich mit einem Gefühl von Nostalgie und Geborgenheit, obwohl es von einer leichten Unruhe geprägt ist.\n"
+"\n"
+"Ist stelle fest, dass die Duplikanten meine Kapsel, den Ort ihrer Entstehung, mit einer gewissen Ehrfurcht betrachten, ähnlich der Ehrfurcht, die ein Kind vor einem Elternteil haben könnte. Ich freue mich, diese Rolle für sie zu übernehmen, wenn sie es wünschen.\n"
+"\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.PRINTINGPOD.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PRINTINGPOD.TITLE"
@@ -14175,6 +14209,12 @@ msgid ""
 "This discovery has raised many questions, though it's also provided a small clue; the machine discovered was embedded inside the rock of this planet, just like how I found my Pod.\n"
 "\n"
 msgstr ""
+"Meine Duplikanten entdeckten während ihrer letzten Erkundungsmission einen intakten Computer. Das sollte nicht möglich sein.\n"
+"\n"
+"Der Zielort sollte kein intelligentes Leben außer unserem eigenen haben, und außerdem scheinen die von uns entdeckten Geräte aus der Gravitas Facility zu stammen.\n"
+"\n"
+"Diese Entdeckung hat viele Fragen aufgeworfen, obwohl sie auch einen kleinen Hinweis liefert; die entdeckte Maschine war in das Gestein des Planeten eingebettet, genau wie ich meinen Biodrucker vorgefunden habe.\n"
+"\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.STRANGERELICS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.STRANGERELICS.TITLE"
@@ -14193,6 +14233,14 @@ msgid ""
 "I will need some time to assess the data the Duplicants have gathered for me and calculate the total mass of this asteroid, although I have a suspicion I already know the answer.\n"
 "\n"
 msgstr ""
+"Meine Duplikanten haben das Unmögliche geschafft und ihren Weg an die Oberfläche gegraben, obwohl sie dabei einige beunruhigende neue Daten für mich gesammelt haben.\n"
+"\n"
+"Wie ich zu vermuten begonnen hatte, befinden wir uns nicht am Zielort, sondern auf einem Asteroiden mit einer höchst ungewöhnlichen Vielfalt an Elementen und Ressourcen.\n"
+"\n"
+"Außerdem haben meine Duplikanten einen beschädigten Planeten am Horizont entdeckt, der mit bloßem Auge sichtbar ist. Er zeigt, gemäß meinen historischen Daten, eine auffällige Ähnlichkeit mit dem Planeten unseres Ursprungs.\n"
+"\n"
+"Ich werde einige Zeit brauchen, um die Daten, die die Duplikanten für mich gesammelt haben, zu bewerten und die Gesamtmasse dieses Asteroiden zu berechnen, obwohl ich einen Verdacht habe, dass ich die Antwort bereits kenne.\n"
+"\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.TITLE"
@@ -14211,6 +14259,13 @@ msgid ""
 "Theoretically, we could send a rocket through the Tear to allow a Duplicant to explore the timelines and universes on the other side. They would never return, and we could not follow, but perhaps they could find a home among the stars, or even undo the terrible past that led us to our current fate.\n"
 "\n"
 msgstr ""
+"Die Weltraumforschung meiner Duplikanten hat eine erstaunliche Entdeckung gemacht.\n"
+"\n"
+"Weit, weit entfernt am Horizont haben ihre Teleskope eine Anomalie entdeckt, die ich nur als \"Zeitriss\" bezeichnen kann. Die Messwerte von Neutronium deuten darauf hin, dass es mit dem Neutronium verwandt ist, das den größten Teil unseres Asteroiden umgibt.\n"
+"\n"
+"Obwohl ich glaube, dass durch diesen Zeitriss eine Sektion unseres alten Planeten durcheinander gewürfelt wurde, bietet seine Entdeckung einen Hoffnungsschimmer.\n"
+"\n"
+"Theoretisch könnten wir eine Rakete durch den Zeitriss schicken, damit ein Duplikant die Zeitlinien und Universen auf der anderen Seite erkunden kann. Er würde nie zurückkehren, und wir könnten ihm nicht folgen, aber vielleicht könnten er eine Heimat unter den Sternen finden oder sogar die schreckliche Vergangenheit rückgängig machen, die uns zu unserem gegenwärtigen Schicksal geführt hat.\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE"
@@ -14559,6 +14614,8 @@ msgid ""
 "Electrical power is required to run many of the buildings in a base. Different buildings requires different amounts of power to run. Power can be transfered to buildings that require it using <link=\"WIRE\">Wires</link>\n"
 "\n"
 msgstr ""
+"Für den Betrieb vieler Gebäude in der Basis ist elektrischer Strom erforderlich. Verschiedene Gebäude benötigen unterschiedliche Leistungen, um zu funktioniere. Mit <link=\"WIRE\">Kabeln</link> kann die benötigte Energie auf Gebäude übertragen werden.\n"
+"\n"
 
 #. STRINGS.CODEX.POWER.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.POWER.PARAGRAPH_2"
@@ -14575,6 +14632,10 @@ msgid ""
 "A Battery that stored 5000 Joules could power a building that consumed 240 Watts for about 20 seconds. A generator which produces 480 Watts could power two buildings which consume 240 Watts for as long as it was running.\n"
 "\n"
 msgstr ""
+"Die in <link=\"BATTERIE\">Batterien</link> gespeicherte Energie wird in Joule gemessen. Die von Gebäuden produzierte und verbrauchte Leistung wird in Watt gemessen, was Joule (verbraucht oder produziert) pro Sekunde entspricht.\n"
+"\n"
+"Eine Batterie die 5000 Joules speichert, könnte ein Gebäude mit einem Verbrauch von 240 Watt für etwa 20 Sekunden versorgen. Ein Generator mit einer Leistung von 480 Watt könnte zwei Gebäude versorgen, die 240 Watt verbrauchen, solange er in Betrieb ist.\n"
+"\n"
 
 #. STRINGS.CODEX.POWER.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.POWER.PARAGRAPH_4"
@@ -14699,6 +14760,8 @@ msgid ""
 "Doing research unlocks new types of buildings for the colony. Duplicants can perform research at the <link=\"RESEARCHCENTER\">Research Station</link>\n"
 "\n"
 msgstr ""
+"Die Forschung erschließt neue Gebäude für die Kolonie. Duplikanten können an der <link=\"RESEARCHCENTER\">Forschungsstation</link> Forschung betreiben\n"
+"\n"
 
 #. STRINGS.CODEX.RESEARCH.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_2"
@@ -14961,6 +15024,8 @@ msgid ""
 "A Duplicant's experiences in the colony affect their stress level. Stress increases when they have negative experiences or unmet expectations. Stress decreases with time if <link=\"MORALE\">Morale</link> is satisfied. Duplicant behavior starts to change for the worse when stress levels get too high .\n"
 "\n"
 msgstr ""
+"Die Erfahrungen eines Duplikanten in der Kolonie beeinflussen sein Stressniveau. Stress nimmt zu, wenn sie negative Erfahrungen machen oder Erwartungen nicht erfüllt sind. Der Stress nimmt mit der Zeit ab, wenn die <link=\"MORALE\">Moral</link> erfüllt ist. Das Verhalten der Duplikanten beginnt sich zu verschlechtern, wenn der Stresspegel zu hoch wird.\n"
+"\n"
 
 #. STRINGS.CODEX.STRESS.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.STRESS.PARAGRAPH_2"
@@ -14968,6 +15033,8 @@ msgid ""
 "If a Duplicant has very high stress values they will experience a Stress Response episode. Each Duplicant has a different Stress Behavior - but all stress responses are bad. After the stress behavior episode is done, the Duplicants stress will reset to a lower value. Though, if the factors causing the Duplicant's high stress are not corrected they are bound to have another stress response episode.\n"
 "\n"
 msgstr ""
+"Wenn ein Duplikant sehr hohe Stresswerte hat, wird er eine Stressreaktion durchlaufen. Jeder Duplikant hat ein andere Stressreaktion - aber jede Stressreaktion ist negativ. Nachdem die Stressreaktion vorüber ist, wird der Stress des Duplikanten auf einen niedrigeren Wert fallen. Wenn jedoch die Faktoren, die den hohen Stress des Duplikanten verursachen, nicht beseitigt werden, wird er zwangsläufig weitere der Stressreaktion zeigen.\n"
+"\n"
 
 #. STRINGS.CODEX.STRESS.TITLE
 msgctxt "STRINGS.CODEX.STRESS.TITLE"
@@ -15196,7 +15263,7 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_BODY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_BODY"
 msgid "Our homeworld in this universe is gone, replaced by the skeleton of a planet and a wound in the sky... But I hold out hope that other worlds exist out there, tucked away in other dimensions. I sent my Duplicant through the Temporal Tear carrying that hope on their shoulders... Perhaps one day they'll find a place to call home, and begin a thriving colony all their own."
-msgstr ""
+msgstr "Unsere Heimatwelt in diesem Universum ist verschwunden, abgelöst durch das Gerippe eines Planeten und eine Wunde am Himmel... Aber ich hoffe, dass es da draußen andere Welten gibt, die in anderen Dimensionen versteckt sind. Ich schickte meinen Duplikanten durch den Zeitriss und lud diese Hoffnung auf ihre Schultern... Vielleicht finden sie eines Tages einen Ort, an dem sie ihr Zuhause finden und eine blühende Kolonie gründen können."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_TITLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_TITLE"
@@ -15226,12 +15293,12 @@ msgstr "Sende einen Duplikanten auf einer Einweg-Mission zum am weitesten entfer
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.FIRST
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.FIRST"
 msgid "Our homeworld in this universe is gone, replaced by the skeleton of a planet and a wound in the sky... But I hold out hope that other worlds exist out there, tucked away in other dimensions."
-msgstr ""
+msgstr "Unsere Heimatwelt in diesem Universum ist verschwunden, abgelöst durch das Gerippe eines Planeten und eine Wunde am Himmel... Aber ich hoffe, dass es da draußen andere Welten gibt, die in anderen Dimensionen versteckt sind."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND"
 msgid "I sent my Duplicant through the Temporal Tear carrying that hope on their shoulders... Perhaps one day they'll find a place to call home, and begin a thriving colony all their own."
-msgstr ""
+msgstr "I sent my Duplicant through the Temporal Tear carrying that hope on their shoulders... Perhaps one day they'll find a place to call home, and begin a thriving colony all their own."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING"
@@ -15276,7 +15343,7 @@ msgstr "Verbessere die Duplikantenmoral, indem du {1} Bereiche als {0} zuordnest
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME"
 msgid "Outdoor Renovations"
-msgstr ""
+msgstr "Renovierungen im Umland"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME_DESCRIPTION"
@@ -15326,12 +15393,12 @@ msgstr "Entsperre jeden Punkt im Forschungsbaum."
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COMPLETED_SKILL_BRANCH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COMPLETED_SKILL_BRANCH"
 msgid "To Pay the Bills"
-msgstr ""
+msgstr "Bezahle die Rechnungen"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COMPLETED_SKILL_BRANCH_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COMPLETED_SKILL_BRANCH_DESCRIPTION"
 msgid "Use a Duplicant's Skill Points to buy out an entire branch of the Skill Tree."
-msgstr ""
+msgstr "Benutze die Fertigkeitspunkte eines Duplikanten, um einen ganzen Zweig des Fertigkeitsbaums zu erwerben."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COOKED_FOOD
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COOKED_FOOD"
@@ -15371,7 +15438,7 @@ msgstr "Kein Entkommen"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EQUIP_N_DUPES_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EQUIP_N_DUPES_DESCRIPTION"
 msgid "Have {0} Duplicants wear non-default clothing simultaneously."
-msgstr ""
+msgstr "Lasse gleichzeitig {0} Duplikanten nicht-standardmäßige Kleidung tragen."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES"
@@ -15381,7 +15448,7 @@ msgstr "Job-Angemessenheit"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXOSUIT_CYCLES_DESCRIPTION"
 msgid "For {0} cycles in a row, have every Duplicant in the colony complete at least one chore while wearing an Exosuit."
-msgstr ""
+msgstr "Erledige für {0} Zyklen hintereinander mit jedem Duplikanten in der Kolonie mindestens eine Aufgabe in einem Schutzanzug."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXPLORE_OIL_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXPLORE_OIL_BIOME"
@@ -15396,12 +15463,12 @@ msgstr "Betrete zum ersten Mal ein Ölbiom."
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP"
 msgid "Tune Up For What?"
-msgstr ""
+msgstr "Feinabstimmung, für was denn?"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP_DESCRIPTION"
 msgid "Perform {0} Tune Ups on power generators."
-msgstr ""
+msgstr "Führe {0} Feinabstimmungen an Stromgeneratoren durch."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_A_CRITTER
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_A_CRITTER"
@@ -15411,7 +15478,7 @@ msgstr "Gutes Ei"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_A_CRITTER_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_A_CRITTER_DESCRIPTION"
 msgid "Hatch a new critter morph from an egg."
-msgstr ""
+msgstr "Lasse eine neue Gestalt eines Tiers aus einem Ei schlüpfen."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT"
@@ -15421,12 +15488,12 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION"
 msgid "Produce {0} of refined metal by ranching Smooth Hatches."
-msgstr ""
+msgstr "Produziere {0} veredeltem Metall durch die Zucht von Glatt-Hatches."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS"
 msgid "Easy Livin'"
-msgstr ""
+msgstr "Leichtes Leben"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
@@ -15436,17 +15503,17 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI"
 msgid "Ghosts of Gravitas"
-msgstr ""
+msgstr "Gespenster von Gravitas"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI_DESCRIPTION"
 msgid "Recover a Database entry by inspecting facility ruins."
-msgstr ""
+msgstr "Berge einen Datenbankeintrag durch Untersuchung von Anlagenruinen."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MASTERPIECE_PAINTING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MASTERPIECE_PAINTING"
 msgid "Art Underground"
-msgstr ""
+msgstr "Kunst unter Tage"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MASTERPIECE_PAINTING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MASTERPIECE_PAINTING_DESCRIPTION"
@@ -15456,12 +15523,12 @@ msgstr "Nutze einen Duplikant mit der Meisterwerk-Fertigkeit um ein Meisterwerk 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX"
 msgid "Locavore"
-msgstr ""
+msgstr "Locavore"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX_DESCRIPTION"
 msgid "Have Duplicants consume 400,000kcal of food without planting any seeds in Planter Boxes, Farm Tiles, or Hydroponic Farms."
-msgstr ""
+msgstr "Lasse deine Duplikanten 400.000kcal Nahrung konsumieren, ohne Samen in Pflanzkisten, Äckern oder Hydroponischen Farmen zu pflanzen."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS"
@@ -15521,7 +15588,7 @@ msgstr "Tierflüsterer"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_BASIC_CRITTERS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_BASIC_CRITTERS_DESCRIPTION"
 msgid "Find and tame one of every critter species in the world. Default morphs only."
-msgstr ""
+msgstr "Finde und zähme von jeder Tierart der Welt einen. Nur Standardgestalten."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_GASSYMOO
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_GASSYMOO"
@@ -15561,7 +15628,7 @@ msgstr "Baue einen Raum"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.VARIETY_OF_ROOMS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.VARIETY_OF_ROOMS_DESCRIPTION"
 msgid "Build at least one of each of the following rooms in a single colony: A Nature Reserve, a Hospital, a Recreation Room, a Great Hall, a Bedroom, a Washroom, a Greenhouse and a Stable."
-msgstr ""
+msgstr "Baue von jedem der folgenden Räume mindestens einen in deiner Kolonie: Ein Naturreservat, ein Krankenhaus, ein Erholungsraum, einen großen Speisesaal, ein Schlafzimmer, ein Waschraum, ein Gewächshaus und einen Stall."
 
 # Filmtitel
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE
@@ -15572,7 +15639,7 @@ msgstr "Gesprengte Ketten"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE_DESCRIPTION"
 msgid "Ensure your colony's legacy by fulfilling the requirements of the Escape Imperative."
-msgstr ""
+msgstr "Sichere das Vermächtnis deiner Kolonie, indem du die Anforderungen des Flucht-Imperative erfüllst."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY"
@@ -15582,7 +15649,7 @@ msgstr "Trautes Heim"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY_DESCRIPTION"
 msgid "Establish your permanent home by fulfilling the requirements of the Colonize Imperative."
-msgstr ""
+msgstr "Errichte dein dauerhaftes Zuhause, indem du die Anforderungen des kolonisatorischen Imperativ erfüllst."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER"
@@ -16003,6 +16070,11 @@ msgid ""
 "\n"
 "Duplicants must possess the <style=\"KKeyword\">Critter Ranching</style> Skill to sing to eggs"
 msgstr ""
+"Dieses Ei wurde kürzlich von einer freundlichen Duplikanten angesungen.\n"
+"------------------\n"
+"Erhöhte die <style=\"KKeyword\">Inkubationsrate</style>\n"
+"\n"
+"Duplikanten müssen über Fertigkeit <style=\"KKeyword\">Viehzüchter</style> verfügen, um sich um Tiere zu kümmern"
 
 #. STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
@@ -16036,6 +16108,9 @@ msgid ""
 "\n"
 "Duplicants must possess the <style=\"KKeyword\">Critter Ranching</style> Skill to care for critters"
 msgstr ""
+"Dieses Tier wurde kürzlich von einem freundlichen Duplikanten betreut.\n"
+"\n"
+"Duplikanten müssen über Fertigkeit <style=\"KKeyword\">Viehzüchter</style> verfügen, um sich um Tiere zu kümmern"
 
 #. STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME"
@@ -18245,6 +18320,9 @@ msgid ""
 "\n"
 "Duplicants must possess the <style=\"KKeyword\">Critter Ranching</style> Skill to care for critters"
 msgstr ""
+"Bei 0% <style=\"KKeyword\">Wildheit</style> wird ein Tier <style=\"KKeyword\">zahm</style>, erhöht seinen <style=\"KKeyword\">Stoffwechsel</style> und benötigt regelmäßige Pflege durch Duplikanten.\n"
+"\n"
+"Duplikanten müssen über Fertigkeit <style=\"KKeyword\">Viehzüchter</style> verfügen, um sich um Tiere zu kümmern"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME"
@@ -19608,6 +19686,9 @@ msgid ""
 "\n"
 "Maintaining high <style=\"KKeyword\">Morale</style> will allow Duplicants to learn more <style=\"KKeyword\">Skills</style>."
 msgstr ""
+"Ein Dekorations-Moralbonus erlaubt es Duplikanten <style=\"KKeyword\">Moralboni</style> bei niedrigen <style=\"KKeyword\">Dekorationswerten</style> zu erhalten.\n"
+"\n"
+"Die Aufrechterhaltung hoher <style=\"KKeyword\">Moral</style> ermöglicht es Duplikanten mehr <style=\"KKeyword\">Fertigkeiten</style> zu lernen."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
@@ -19661,6 +19742,9 @@ msgid ""
 "\n"
 "This effect reduces the severity of <style=\"KKeyword\">Disease</style> symptoms"
 msgstr ""
+"Duplikanten die in einer <link=\"DOCTORSTATION\">Krankenstation</link> oder in einem <link=\"ADVANCEDDOCTORSTATION\">Krankenhaus</link> medizinische Behandlung erhalten, erlangen den <style=\"KKeyword\">Behandlung erhalten</style> Effekt.\n"
+"\n"
+"Dieser Effekt reduziert die Intensität der <style=\"KKeyword\">Krankheitssymptome</style>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME"
@@ -19694,6 +19778,9 @@ msgid ""
 "\n"
 "Maintaining high <style=\"KKeyword\">Morale</style> will allow Duplicants to learn more <style=\"KKeyword\">Skills</style>."
 msgstr ""
+"Ein Nahrungsmittelmoralbonus erlaubt es Duplikanten durch <style=\"KKeyword\">Nahrung</style> von geringerer Qualität einen <style=\"KKeyword\">Moralbonus</style> zu erhalten <style=\"KKeyword\">Food</style>.\n"
+"\n"
+"Die Aufrechterhaltung hoher <style=\"KKeyword\">Moral</style> ermöglicht es Duplikanten mehr <style=\"KKeyword\">Fertigkeiten</style> zu lernen."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
@@ -22087,6 +22174,11 @@ msgid ""
 "\n"
 "Duplicants must possess the <link=\"RANCHER\">Critter Ranching I</link> Skill to sing to an egg"
 msgstr ""
+"Ein sanftes Schlaflied von einem hilfsbereiten Duplikanten fördert die Entwicklung von <style=\"KKeyword\">Eiern</style>\n"
+"\n"
+"Erhöht die <style=\"KKeyword\">Inkubationsrate</style>\n"
+"\n"
+"Duplikanten müssen über Fertigkeit <style=\"KKeyword\">Viehzucht I</style> verfügen, um Eier ansingen zu können"
 
 #. STRINGS.DUPLICANTS.CHORES.SLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SLEEP.NAME"
@@ -26228,7 +26320,7 @@ msgstr "Stammlebenspunkte"
 #. STRINGS.DUPLICANTS.STATS.TRUNKHEALTH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.TRUNKHEALTH.TOOLTIP"
 msgid "Tree branches will die if they do not have a healthy trunk to grow from"
-msgstr ""
+msgstr "Baumäste sterben ohne einen gesunden Stamm, aus dem sie wachsen können"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME"
@@ -26416,6 +26508,9 @@ msgid ""
 "\n"
 "<i>Click to jump to last contact location</i>"
 msgstr ""
+"Dieses Duplikat ist mit {Sickness}-Keimen in Berührung gekommen und ist bei anhaltendem Kontakt gefährdet.\n"
+"\n"
+"<i>Klicke hier, um zum letzten Kontaktort zu springen</i>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.COOKDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COOKDELIVERSTATUS.NAME"
@@ -28448,7 +28543,7 @@ msgstr "Immun gegen <b><link=\"FOODSICKNESS\">Lebensmittelvergiftung</link></b>"
 #. STRINGS.DUPLICANTS.TRAITS.IRONGUT.SHORT_DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.TRAITS.IRONGUT.SHORT_DESC_TOOLTIP"
 msgid "Eating food contaminated with <link=\"FOODSICKNESS\">Food Poisoning</link> Germs will not affect this Duplicant"
-msgstr ""
+msgstr "Der Verzehr von Lebensmitteln, die mit <link=\"FOODSICKNESS\">Lebensmittelvergiftung</link> kontaminiert sind, wird diesen Duplikanten nicht beeinträchtigen"
 
 #. STRINGS.DUPLICANTS.TRAITS.IRRITABLEBOWEL.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.IRRITABLEBOWEL.DESC"
@@ -28498,7 +28593,7 @@ msgstr "Schläft regelmäßig ein"
 #. STRINGS.DUPLICANTS.TRAITS.NARCOLEPSY.SHORT_DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NARCOLEPSY.SHORT_DESC_TOOLTIP"
 msgid "This Duplicant's work will be periodically interrupted by naps"
-msgstr ""
+msgstr "Dieser Duplikant wird seine Arbeit regelmäßig durch Nickerchen unterbrechen"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.DESC"
@@ -38362,7 +38457,7 @@ msgstr "<link=\"ARTISTRY\">Künstlerischer Ausdruck</link>"
 #. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC"
 msgid "Low-tech refinement methods for producing clay and renewable sources of sand."
-msgstr ""
+msgstr "Technisch einfache Veredelungsverfahren zur Herstellung von Ton und Sand aus nachhaltigen Quellen."
 
 #. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME"
@@ -38392,7 +38487,7 @@ msgstr "<link=\"CARGOI\">Feststoff-Frachträume</link>"
 #. STRINGS.RESEARCH.TECHS.CARGOII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOII.DESC"
 msgid "Extract precious liquids and gases from the far reaches of space, and return with them to the colony."
-msgstr ""
+msgstr "Extrahiert wertvolle Flüssigkeiten und Gase aus den Weiten des Weltraums und kehrt mit ihnen in die Kolonie zurück."
 
 #. STRINGS.RESEARCH.TECHS.CARGOII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOII.NAME"
@@ -38402,7 +38497,7 @@ msgstr "<link=\"CARGOII\">Flüssigkeits- und Gasfrachträume</link>"
 #. STRINGS.RESEARCH.TECHS.CARGOIII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOIII.DESC"
 msgid "Allow Duplicants to take their friends to see the stars... or simply bring souvenirs back from their travels."
-msgstr ""
+msgstr "Ermöglicht es Duplikanten ihre Freunde mitzunehmen, um die Sterne zu sehen.... oder einfach Souvenirs von ihren Reisen mitzubringen."
 
 #. STRINGS.RESEARCH.TECHS.CARGOIII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOIII.NAME"
@@ -38422,7 +38517,7 @@ msgstr "<link=\"CATALYTICS\">Katalysatoren</link>"
 #. STRINGS.RESEARCH.TECHS.CLOTHING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.DESC"
 msgid "Bring Duplicants the <link=\"MORALE\">Morale</link> boosting benefits of soft, cushy fabrics."
-msgstr ""
+msgstr "Bringe den Duplikanten die <link=\"MORALE\">moralsteigernden</link> Vorteile von weichen, kuscheligen Stoffen."
 
 #. STRINGS.RESEARCH.TECHS.CLOTHING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.NAME"
@@ -38462,12 +38557,12 @@ msgstr "<link=\"DISTILLATION\">Destillation</link>"
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC"
 msgid "Virtually extend the boundaries of Duplicant imagination."
-msgstr ""
+msgstr "Erweitert virtuell die Grenzen der Vorstellungskraft der Duplikanten."
 
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME"
 msgid "<link=\"DUPETRAFFICCONTROL\">Computing</link>"
-msgstr "<link=\"DUPETRAFFICCONTROL\">Berechne</link>"
+msgstr "<link=\"DUPETRAFFICCONTROL\">Datenverarbeitung</link>"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESI.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESI.DESC"
@@ -38482,7 +38577,7 @@ msgstr "<link=\"ENGINESI\">Festtreibstoff-Verbrennung</link>"
 #. STRINGS.RESEARCH.TECHS.ENGINESII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.DESC"
 msgid "Delve deeper into the vastness of space than ever before."
-msgstr ""
+msgstr "Tauche tiefer in die Weiten des Weltraums ein als je zuvor."
 
 #. STRINGS.RESEARCH.TECHS.ENGINESII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.NAME"
@@ -38492,7 +38587,7 @@ msgstr "<link=\"ENGINESII\">Kohlenwasserstoff-Verbrennung</link>"
 #. STRINGS.RESEARCH.TECHS.ENGINESIII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.DESC"
 msgid "With this technology, the sky is your oyster. Go exploring!"
-msgstr ""
+msgstr "Mit dieser Technologie liegt dir der Himmel zu Füßen. Geh auf Entdeckungsreise!"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESIII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.NAME"
@@ -38532,7 +38627,7 @@ msgstr "<link=\"FINEDINING\">Nahrungszubereitung</link>"
 #. STRINGS.RESEARCH.TECHS.FINERDINING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.FINERDINING.DESC"
 msgid "Raise colony Morale by cooking the most delicious, high-quality <link=\"FOOD\">Foods</link>."
-msgstr ""
+msgstr "Steigere die Moral der Kolonie, indem du die köstlichsten, hochwertigsten <link=\"FOOD\">Lebensmittel</link> kochst."
 
 #. STRINGS.RESEARCH.TECHS.FINERDINING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FINERDINING.NAME"
@@ -38562,7 +38657,7 @@ msgstr "<link=\"GENERICSENSORS\">Sensortechnik</link>"
 #. STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.DESC"
 msgid "The decorative benefits of glass are both apparent and transparent."
-msgstr ""
+msgstr "Die dekorativen Vorteile von Glas sind sowohl sichtbar als auch transparent."
 
 #. STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.NAME"
@@ -38572,7 +38667,7 @@ msgstr "<link=\"GLASSFURNISHINGS\">Glasblasen</link>"
 #. STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.DESC"
 msgid "Craft entirely new materials by harnessing the most extreme temperatures."
-msgstr ""
+msgstr "Fertige völlig neue Materialien, indem du die extremsten Temperaturen beherrschst."
 
 #. STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.NAME"
@@ -38622,7 +38717,7 @@ msgstr "<link=\"IMPROVEDLIQUIDPIPING\">Verbesserte Sanitärtechnik</link>"
 #. STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.DESC"
 msgid "Maintain clean, breathable air in the colony."
-msgstr ""
+msgstr "Halte die Luft in der Kolonie sauber und atmebar."
 
 #. STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.NAME"
@@ -38662,7 +38757,7 @@ msgstr "<link=\"JETPACKS\">Jetpacks</link>"
 #. STRINGS.RESEARCH.TECHS.JOBS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.JOBS.DESC"
 msgid "Exchange the skill points earned by Duplicants for new traits and abilities."
-msgstr ""
+msgstr "Tausche die von Duplikanten erworbenen Fertigkeitspunkte gegen neue Eigenschaften und Fähigkeiten ein."
 
 #. STRINGS.RESEARCH.TECHS.JOBS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.JOBS.NAME"
@@ -38742,7 +38837,7 @@ msgstr "<link=\"MEDICINEI\">Pharmazie</link>"
 #. STRINGS.RESEARCH.TECHS.MEDICINEII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.MEDICINEII.DESC"
 msgid "The basic necessities doctors need to facilitate patient care."
-msgstr ""
+msgstr "Die Grundvoraussetzungen für Ärzte, um die Behandlung von Patienten zu ermöglichen."
 
 #. STRINGS.RESEARCH.TECHS.MEDICINEII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.MEDICINEII.NAME"
@@ -38792,7 +38887,7 @@ msgstr "<link=\"POWERREGULATION\">Energieregulierung</link>"
 #. STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.DESC"
 msgid "Let Duplicants relax after a long day of subterranean digging with a shot of warm beanjuice."
-msgstr ""
+msgstr "Lasse deine Duplikanten sich nach einem langen Tag unterirdischen Grabens mit einem Schuss warmen Bohnensaft entspannen."
 
 #. STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.NAME"
@@ -38832,7 +38927,7 @@ msgstr "<link=\"RANCHING\">Viehzucht</link>"
 #. STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.DESC"
 msgid "Improve base infrastructure with new objects crafted from <link=\"REFINEDMETAL\">Refined Metals</link>."
-msgstr ""
+msgstr "Verbessere die Infrastruktur deiner Basis mit neuen Objekten, die aus <link=\"REFINEDMETAL\">veredelten Metallen</link> hergestellt werden."
 
 #. STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.NAME"
@@ -38852,7 +38947,7 @@ msgstr "<link=\"REFRACTIVEDECOR\">Hochkultur</link>"
 #. STRINGS.RESEARCH.TECHS.RENAISSANCEART.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.RENAISSANCEART.DESC"
 msgid "The kind of art that culture legacies are made of."
-msgstr ""
+msgstr "Die Art von Kunst, aus der Kulturvermächtnisse gemacht sind."
 
 #. STRINGS.RESEARCH.TECHS.RENAISSANCEART.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.RENAISSANCEART.NAME"
@@ -38882,7 +38977,7 @@ msgstr "<link=\"SANITATIONSCIENCES\">Hygiene</link>"
 #. STRINGS.RESEARCH.TECHS.SKYDETECTORS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SKYDETECTORS.DESC"
 msgid "Turn Duplicants' eyes to the skies and discover what undiscovered wonders await out there."
-msgstr ""
+msgstr "Richte die Augen der Duplikanten in den Himmel und entdecke, welche unentdeckten Wunder da draußen auf dich warten."
 
 #. STRINGS.RESEARCH.TECHS.SKYDETECTORS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SKYDETECTORS.NAME"
@@ -38902,7 +38997,7 @@ msgstr "<link=\"SMARTSTORAGE\">Intelligente Lagerung</link>"
 #. STRINGS.RESEARCH.TECHS.SMELTING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.DESC"
 msgid "High temperatures facilitate the production of purer, special use metal resources."
-msgstr ""
+msgstr "Hohe Temperaturen ermöglichen die Herstellung reinerer, für Spezialzwecke nutzbare Metallressourcen."
 
 #. STRINGS.RESEARCH.TECHS.SMELTING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.NAME"
@@ -38912,7 +39007,7 @@ msgstr "<link=\"SMELTING\">Schmelzen</link>"
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
 msgid "Free Duplicants from the drudgery of day-to-day material deliveries with new methods of automation."
-msgstr ""
+msgstr "Befreie die Duplikanten aus der Schufterei der täglichen Materiallieferungen mit neuartigen Methoden der Automatisierung."
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME"
@@ -39555,7 +39650,7 @@ msgstr "Stall"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
 msgid "Stabled critters can be tended at a Grooming Station to hasten their domestication and increase their production."
-msgstr ""
+msgstr "Stalltiere können, um ihre Domestikation zu beschleunigen und ihre Produktion zu steigern, an einer Pflegestation gepflegt werden."
 
 #. STRINGS.ROOMS.TYPES.FARM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.FARM.EFFECT"
@@ -39677,7 +39772,7 @@ msgstr "Naturreservat"
 #. STRINGS.ROOMS.TYPES.NATURERESERVE.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.NATURERESERVE.TOOLTIP"
 msgid "A Nature Reserve will grant higher Morale bonuses to Duplicants than a Park."
-msgstr ""
+msgstr "Ein Naturreservat verleiht Duplikanten einen höheren Moralbonus als ein Park."
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT"
@@ -39707,7 +39802,7 @@ msgstr "Park"
 #. STRINGS.ROOMS.TYPES.PARK.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.PARK.TOOLTIP"
 msgid "Passing through natural spaces throughout the day will raise the Morale of Duplicants."
-msgstr ""
+msgstr "Das Durchqueren von Naturgebieten während des Tages wird die Moral der Duplikanten erhöhen."
 
 #. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT"
@@ -39982,7 +40077,7 @@ msgstr "<link=\"BUILDCATEGORYROCKETRY\">Raketen</link>"
 #. STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP"
 msgid "With rockets, the sky's no longer the limit! {Hotkey}"
-msgstr ""
+msgstr "Mit Raketen ist der Himmel nicht mehr die Grenze! (Hotkey)"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
@@ -40573,7 +40668,7 @@ msgstr "Entfernt <style=\"consumed\">{0}</style> pro Verwendung"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> per use"
-msgstr ""
+msgstr "Produziert pro Nutzung <style=\"produced\">{1}</style> <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING"
@@ -40588,12 +40683,12 @@ msgstr "Duplikanten laufen <b>{0}</b> schneller auf diesem Feld"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED"
 msgid "Consumes <style=\"consumed\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use"
-msgstr ""
+msgstr "Verbraucht im Betrieb <style=\"consumed\">{1}</style> <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE"
 msgid "Consumes <style=\"consumed\">{1}</style> of <style=\"KKeyword\">{0}</style> per use"
-msgstr ""
+msgstr "Verbraucht pro Nutzung <style=\"consumed\">{1}</style> <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_ENTITYTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_ENTITYTEMP"
@@ -40646,6 +40741,9 @@ msgid ""
 "\n"
 "It will be at least <b>{2}</b>, or hotter if the input materials are hotter."
 msgstr ""
+"Produziert im Betrieb <style=\"produced\">{1}</style> <style=\"KKeyword\">{0}</style> \n"
+"\n"
+"Es wird mindestens <b>{2}</b> heiß sein, oder heißer wenn die Ausgangsmaterialien heißer sind."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_TOILET
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_TOILET"
@@ -40827,7 +40925,7 @@ msgstr "Mehr als die erlaubte <style=\"KKeyword\">Wattzahl</style> abzurufen, ka
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MESS_TABLE_SALT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MESS_TABLE_SALT"
 msgid "Duplicants gain <b>+{0}</b> <style=\"KKeyword\">Morale</style> when using <style=\"KKeyword\">Table Salt</style> with their food at a <link=\"DININGTABLE\">Mess Table</link>"
-msgstr ""
+msgstr "Duplikanten erhalten bei der Nutzung von <style=\"KKeyword\">Tafelsalz</style> an einem <link=\"DININGTABLE\">Kantinen-Tisch</link> für ihre Nahrung <b>+{0}</b> <style=\"KKeyword\">Moral</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MINIMUM_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MINIMUM_TEMP"
@@ -42541,6 +42639,9 @@ msgid ""
 "------------------\n"
 "<link=\"RESETSKILLSSTATION\">Skill Scrubber</link>s can be built from the <b>Stations Tab</b> <b><color=#F44A4A>[0]</b></color> to completely reset a Duplicant's learned <style=\"KKeyword\">Skills</style>, refunding all <style=\"KKeyword\">Skill Points</style>"
 msgstr ""
+"Alle <style=\"KKeyword\">Merkmale</style> und <style=\"KKeyword\">Moralbedürfnisse</style> werden dauerhaft, sobald ein Duplikant eine neue <style=\"KKeyword\">Fertigkeit</style> gelernt hat\n"
+"------------------\n"
+"<link=\"RESETSKILLSSTATION\">Fertigkeiten-Schrubber</link>s können über den <b>Stationstab</b> <b><color=#F44A4A>[0]</b></color> gebaut werden, um die erlernten <style=\"KKeyword\">Fertigkeiten</style> vollständig zurückzusetzen und alle <style=\"KKeyword\">Fertigkeitenpunkte</style> zurückerhalten"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME"
@@ -43511,7 +43612,7 @@ msgstr "Zeitraffer-Auflösung:"
 #. STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_RESOLUTION_DESCRIPTION
 msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_RESOLUTION_DESCRIPTION"
 msgid "{0}x{1}"
-msgstr ""
+msgstr "{0}x{1}"
 
 #. STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TITLE"
@@ -43592,7 +43693,7 @@ msgstr "Sauerstoffernährung (kein Hunger)"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DISABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DISABLED.NAME"
 msgid "Tummyless"
-msgstr ""
+msgstr "Sauerstoffernährung"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DISABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DISABLED.TOOLTIP"
@@ -43602,7 +43703,7 @@ msgstr "Diese Duplikanten wurden ohne Magen gedruckt und benötigen keinerlei Na
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.EASY.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.EASY.ATTRIBUTE_MODIFIER_NAME"
 msgid "Fasting (Difficulty Down)"
-msgstr ""
+msgstr "Fasten (niedrige Schwierigkeit)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.EASY.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.EASY.NAME"
@@ -43612,17 +43713,17 @@ msgstr "Fastet"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.EASY.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.EASY.TOOLTIP"
 msgid "Duplicants burn calories slowly and get by with fewer meals"
-msgstr ""
+msgstr "Duplikanten verbrennen langsam Kalorien und kommen mit weniger Mahlzeiten aus"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.HARD.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.HARD.ATTRIBUTE_MODIFIER_NAME"
 msgid "Rumbly Tummies (Difficulty Up)"
-msgstr ""
+msgstr "Knurrende Mägen (Hohe Schwierigkeit)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.HARD.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.HARD.NAME"
 msgid "Rumbly Tummies"
-msgstr ""
+msgstr "Knurrende Mägen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.HARD.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.HARD.TOOLTIP"
@@ -43632,17 +43733,18 @@ msgstr "Duplikanten benötigen mehr Kalorien als üblich und müssen öfter Nahr
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.VERYHARD.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.VERYHARD.ATTRIBUTE_MODIFIER_NAME"
 msgid "Ravenous (Highest Difficulty)"
-msgstr ""
+msgstr "Heißhunger (Höchste Schwierigkeit)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.VERYHARD.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.VERYHARD.NAME"
 msgid "Ravenous"
-msgstr ""
+msgstr "Heißhunger"
 
+# geht der Witz "see-food" auch im deutschen?
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.VERYHARD.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.VERYHARD.TOOLTIP"
 msgid "Your Duplicants are on a see-food diet... They see food and they eat it"
-msgstr ""
+msgstr "Deine Duplikanten sind auf see-food-Diät... Sie sehen Essen und essen es"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.NAME"
@@ -43662,7 +43764,7 @@ msgstr "Nur Duplikanten"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.DUPLICANTS_ONLY.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.DUPLICANTS_ONLY.TOOLTIP"
 msgid "Unchecked: The Printing Pod will only offer Duplicant blueprints"
-msgstr ""
+msgstr "Nicht angekreuzt: Die Biodrucker bietet nur Duplikanten-Blaupausen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.NORMAL.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.NORMAL.NAME"
@@ -43672,7 +43774,7 @@ msgstr "Alle"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.NORMAL.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.NORMAL.TOOLTIP"
 msgid "Checked: The Printing Pod will offer both Duplicant blueprints and care packages (Default)"
-msgstr ""
+msgstr "Angekreuzt: Die Biodrucker bietet sowohl Duplikanten-Blaupausen als auch Hilfspakete (Standard)."
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.NAME"
@@ -43687,17 +43789,17 @@ msgstr "Beeinflusst, was vom Biodrucker hergestellt werden kann"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.ATTRIBUTE_MODIFIER_NAME"
 msgid "Outbreak Prone (Highest Difficulty)"
-msgstr ""
+msgstr "Ausbruchgefährdet (Höchste Schwierigkeit)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.NAME"
 msgid "Outbreak Prone"
-msgstr ""
+msgstr "Ausbruchgefährdet"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.TOOLTIP"
 msgid "The whole colony will be ravaged by plague if a Duplicant so much as sneezes funny"
-msgstr ""
+msgstr "Die ganze Kolonie wird von der Pest heimgesucht werden, wenn ein Duplikant so drollig niest"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.DEFAULT.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.DEFAULT.NAME"
@@ -43712,7 +43814,7 @@ msgstr "Standard-Krankheitschance"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.ATTRIBUTE_MODIFIER_NAME"
 msgid "Total Immunity (No Disease)"
-msgstr ""
+msgstr "Vollständige Immunität (Keine Krankheiten)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.NAME"
@@ -43722,7 +43824,7 @@ msgstr "Vollständige Immunität"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.TOOLTIP"
 msgid "Like diplomatic immunity, but without the diplomacy. These Duplicants will never get sick"
-msgstr ""
+msgstr "Wie diplomatische Immunität, aber ohne die Diplomatie. Diese Duplikanten werden nie krank werden"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.STRONG.ATTRIBUTE_MODIFIER_NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.STRONG.ATTRIBUTE_MODIFIER_NAME"
@@ -44792,7 +44894,7 @@ msgstr "KEIN SCHWEISS"
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.SURVIVAL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.SURVIVAL_DESC"
 msgid "Stay on your toes and one step ahead of this unforgiving world. One slip up could bring your colony crashing down."
-msgstr "Bleib immer auf der Hut und dieser gnadenlosen Welt einen Schritt voraus. "
+msgstr "Bleib immer auf der Hut und dieser gnadenlosen Welt einen Schritt voraus."
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.SURVIVAL_TITLE
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.SURVIVAL_TITLE"
@@ -57061,6 +57163,10 @@ msgid ""
 "<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but sparse resource availability will make expansion and technological progress challenging.</smallcaps>\n"
 "\n"
 msgstr ""
+"Ein karger Ort mit einem Überfluss an Bodenschätzen.\n"
+"\n"
+"<smallcaps>Das felsige Terrain des Ödlandes stellt keine unmittelbare Bedrohung dar, aber durch die spärliche Ressourcenverfügbarkeit wird die Expansion und den technologischen Fortschritt schwierig werden.</smallcaps>\n"
+"\n"
 
 #. STRINGS.WORLDS.BADLANDS.NAME
 msgctxt "STRINGS.WORLDS.BADLANDS.NAME"
