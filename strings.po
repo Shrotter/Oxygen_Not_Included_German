@@ -253,7 +253,7 @@ msgstr "Drücke <style=\"KKeyword\">Gebäude aktivieren</style> <b><color=#F44A4
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME"
 msgid "Consuming Fuel: {0}"
-msgstr "Verbraucht Brennstoff: {o}"
+msgstr "Verbraucht Brennstoff: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP"
@@ -741,7 +741,7 @@ msgstr "Produziert {ElementType} mit einer Rate von <style=\"produced\">{FlowRat
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
 msgid "Emitting {Element}: {FlowRate}"
-msgstr "Stößt {ElementType} aus: {FlowRate}"
+msgstr "Stößt {Element} aus: {FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
@@ -5865,7 +5865,7 @@ msgstr "Interne <link=\"ELEMENTSLIQUID\">Flüssigkeitsart</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><color=#57b95e>Green Signal</b></color> if the configured Liquid is detected within the pipe"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die eingestellte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> im Rohr detektiert wird"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die eingestellte Flüssigkeit im Rohr detektiert wird"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
@@ -12994,7 +12994,7 @@ msgstr ""
 #. STRINGS.CODEX.DECORSYSTEM.TITLE
 msgctxt "STRINGS.CODEX.DECORSYSTEM.TITLE"
 msgid "<link=\"DECOR\">Decor</link>"
-msgstr "<link=\"DECOR\">Dekoration</link>: {0}"
+msgstr "<link=\"DECOR\">Dekoration</link>"
 
 #. STRINGS.CODEX.DENSE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DENSE.BODY.CONTAINER1"
@@ -18844,7 +18844,7 @@ msgstr "{ConsumeElement} wird mit einer Rate von <style=\"consumed\">{ConsumeRat
 #. STRINGS.CREATURES.STATUSITEMS.EXCHANGINGELEMENTOUTPUT.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCHANGINGELEMENTOUTPUT.NAME"
 msgid "Outputting {OutputElement} at {OutputRate}"
-msgstr "Ausgabe von {FlowRate} {ElementType}"
+msgstr "Ausgabe von {OutputRate} {OutputElement}"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXCHANGINGELEMENTOUTPUT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCHANGINGELEMENTOUTPUT.TOOLTIP"
@@ -19933,7 +19933,7 @@ msgstr "<link=\"MEDICINE\">Behandlung erhalten</link>-Effekt"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.DESC"
 msgid "A building at break down <style=\"KKeyword\">Temperature</style> will lose functionality and take damage"
-msgstr "Ein Gebäude auf <link=\"HEAT\">Beschädigungstemperatur</link> verliert seine Funktion und nimmt Schaden"
+msgstr "Ein Gebäude auf <style=\"KKeyword\">Beschädigungstemperatur</style> verliert seine Funktion und nimmt Schaden"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.NAME"
@@ -28197,7 +28197,7 @@ msgstr "Dieser Duplikant transportiert Materialien zu <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.NAME"
 msgid "Change {Target} setting"
-msgstr "Ändere die {Ziel}-Einstellung"
+msgstr "Ändere die {Target}-Einstellung"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.TOOLTIP"
@@ -31209,7 +31209,7 @@ msgid ""
 "\n"
 "Must be refilled with <link=\"OXYGEN\">Oxygen</link> at an Atmo Suit Dock when depleted."
 msgstr ""
-"Versorgt Duplikanten unter Wasser mit <link=\"OXYGEN\">Sauerstoff</link>.\n"
+"Versorgt Duplikanten unter Wasser mit <style=\"oxygen\">Sauerstoff</style>.\n"
 "\n"
 "Muss nach Verbrauch mit <link=\"OXYGEN\">Sauerstoff</link> an einer Schutzanzug-Dock aufgeladen werden."
 
@@ -31221,7 +31221,7 @@ msgstr "<link=\"AQUASUIT\">Taucheranzug</link>"
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.RECIPE_DESC"
 msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater environments."
-msgstr "Versorgt Duplikanten unter Wasser mit <link=\"OXYGEN\">Sauerstoff</link>."
+msgstr "Versorgt Duplikanten unter Wasser mit <style=\"oxygen\">>Sauerstoff</style>."
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC"
@@ -31235,7 +31235,7 @@ msgid ""
 "\n"
 "Must be refilled with oxygen at an Atmo Suit Dock when depleted."
 msgstr ""
-"Versorgt Duplikanten in giftigen und schlecht atembaren Umgebungen mit <link=\"OXYGEN\">Sauerstoff</link>\n"
+"Versorgt Duplikanten in giftigen und schlecht atembaren Umgebungen mit <style=\"oxygen\">Sauerstoff</style>\n"
 "\n"
 "Muss mit Sauerstoff bei einem Schutzanzug-Dock nachgefüllt werden, wenn er erschöpft ist."
 
@@ -31252,7 +31252,7 @@ msgstr "<link=\"ATMOSUIT\">Atemschutzanzug</link>"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC"
 msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low breathability environments."
-msgstr "Versorgt Duplikanten mit <link=\"OXYGEN\">Sauerstoff</link> in giftigen und schwer atembaren Umgebungen."
+msgstr "Versorgt Duplikanten mit <style=\"oxygen\">Sauerstoff</style> in giftigen und schwer atembaren Umgebungen."
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.DESC"
@@ -31262,7 +31262,7 @@ msgstr "Lass den Schweiß nicht auf deine Stirn!"
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.EFFECT"
 msgid "Protects the wearer from <style=\"heat\">Heat</style> by decreasing insulation."
-msgstr "Schützt den Träger vor <style=\"HEAT\">Wärme</style> durch Senkung der Isolierung."
+msgstr "Schützt den Träger vor <style=\"heat\">Wärme</style> durch Senkung der Isolierung."
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.GENERICNAME"
@@ -31432,7 +31432,7 @@ msgid ""
 "\n"
 "Must be powered at a Thermo Suit Dock when depleted."
 msgstr ""
-"Sorgt für Isolierung in Bereichen mit extremen <link=\"HEAT\">Temperaturen</link>.\n"
+"Sorgt für Isolierung in Bereichen mit extremen <style=\"heat\">Temperaturen</style>.\n"
 "\n"
 "Muss nach Gebrauch an einem Thermo-Anzug-Dock aufgeladen werden."
 
@@ -40129,7 +40129,7 @@ msgstr "Fertigkeit: {Skill}"
 #. STRINGS.UI.BUILD_REQUIRES_SKILL_TOOLTIP
 msgctxt "STRINGS.UI.BUILD_REQUIRES_SKILL_TOOLTIP"
 msgid "At least one Duplicant must have the {Skill} Skill to construct this building"
-msgstr "Mindestens ein Duplikant benötigt die Fertigkeit {ROLE} für den Bau dieses Gebäudes"
+msgstr "Mindestens ein Duplikant benötigt die Fertigkeit {Skill} für den Bau dieses Gebäudes"
 
 #. STRINGS.UI.BUILDCATEGORIES.AUTOMATION.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.NAME"
@@ -40464,7 +40464,7 @@ msgstr "Produkte"
 #. STRINGS.UI.BUILDINGEFFECTS.GASCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GASCOOLING"
 msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
-msgstr "<link=\"HEAT\">Kühlfaktor</link>"
+msgstr "<link=\"HEAT\">Kühlfaktor</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_DISEASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_DISEASE"
@@ -40629,7 +40629,7 @@ msgstr "Füllt den <link=\"OXYGENTANK\">Sauerstofftank</link> eines Schutzanzugs
 #. STRINGS.UI.BUILDINGEFFECTS.REFINEMENT_ENERGY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REFINEMENT_ENERGY"
 msgid "Heat: {0}"
-msgstr "Hitze: {1}"
+msgstr "Hitze: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REMOVEDEFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REMOVEDEFFECT"
@@ -42143,7 +42143,7 @@ msgstr "{Name} ist beschäftigt: \"{Errand}\""
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_INACTIVE
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_INACTIVE"
 msgid "\"{Errand}\" is #{Rank} on {Name}'s To Do list, after they finish their current errand"
-msgstr "\"{Errand}\" ist #{Rang} auf der To-Do-Liste von {Name}, nachdem der aktuelle Auftrag abgeschlossen wurde"
+msgstr "\"{Errand}\" ist #{Rank} auf der To-Do-Liste von {Name}, nachdem der aktuelle Auftrag abgeschlossen wurde"
 
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_FAILED
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_FAILED"
@@ -49145,12 +49145,12 @@ msgstr "Fähigkeitsstufe: {0}"
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_GERMS
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_GERMS"
 msgid "Average Germs"
-msgstr "Durchschnittliche Keime: {FlowRate}"
+msgstr "Durchschnittliche Keime"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_CREATED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_CREATED"
 msgid "Average Stress Created"
-msgstr "Durchschnittliche Stressrate: {FlowRate}"
+msgstr "Durchschnittliche Stressrate"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_REMOVED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_REMOVED"
@@ -49210,7 +49210,7 @@ msgstr "Durchschnittliche produzierte Leistung"
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.POWER_WASTED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.POWER_WASTED"
 msgid "Average Power Wasted"
-msgstr "Durchschnittliche Stromverschwendung: {FlowRate}"
+msgstr "Durchschnittliche Stromverschwendung"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.ROCKET_MISSIONS
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.ROCKET_MISSIONS"
@@ -53084,7 +53084,7 @@ msgid ""
 "------------------\n"
 "The <link=\"TELESCOPE\">Telescope</link> can be found in the <b>Stations Tab</b> <b><color=#F44A4A>[0]</b></color> of the Build Menu"
 msgstr ""
-"Baue ein <link=\"TELESCOPE\">Teleskope</link> zur Freischaltung\n"
+"Baue ein Teleskope zur Freischaltung\n"
 "------------------\n"
 "Das <link=\"TELESCOPE\">Teleskope</link> befindet sich im <b>Stationstab</b> <color=#F44A47><b>[0]</b></color> des Baumenüs"
 
