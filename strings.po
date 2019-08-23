@@ -3704,7 +3704,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>.\n"
 "\n"
-"Duplicants can operate buildings more quickly the building is lit."
+"Duplicants can operate buildings more quickly when the building is lit."
 msgstr ""
 "Spendet <link=\"LIGHT\">Licht</link> wenn <link=\"POWER\">Strom</link> anliegt.\n"
 "\n"
@@ -5358,6 +5358,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.NAME"
 msgid "<link=\"HEADQUARTERS\">Printing Pod</link>"
 msgstr "<link=\"HEADQUARTERS\">Biodrucker</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.UNIQUE_POPTEXT
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.UNIQUE_POPTEXT"
+msgid "Only one {0} allowed!"
+msgstr "Nur ein {0} zulässig!"
+
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.DESC"
 msgid "Higher wattage wire is used to avoid power overloads, particularly for strong generators."
@@ -6271,7 +6276,7 @@ msgid ""
 "\n"
 "Sends a <b><color=#f44a47>Red Signal</b></color> when the selected <link=\"ELEMENTSGAS\">Gas</link> is not present."
 msgstr ""
-"Sendet ein <b><color=#57b95e>Grünes Signal</b></color>wenn das ausgewählte <link=\"ELEMENTSGAS\">gasförmige</link> Element detektiert wird.\n"
+"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn das ausgewählte <link=\"ELEMENTSGAS\">gasförmige</link> Element detektiert wird.\n"
 "\n"
 "Sendet ein <b><color=#f44a47>Rotes Signal</b></color> wenn das ausgewählte <link=\"ELEMENTSGAS\">Gas</link> nicht vorhanden ist."
 
@@ -6307,7 +6312,7 @@ msgid ""
 "\n"
 "Sends a <b><color=#f44a47>Red Signal</b></color> when the <link=\"ELEMENTSLIQUID\">Liquid</link> is not present."
 msgstr ""
-"Sendet ein <b><color=#57b95e>Grünes Signal</b></color>wenn die ausgewählte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> detektiert wird.\n"
+"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die ausgewählte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> detektiert wird.\n"
 "\n"
 "Sendet ein <b><color=#f44a47>Rotes Signal</b></color> wenn die <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> nicht vorhanden ist."
 
@@ -6343,7 +6348,7 @@ msgid ""
 "\n"
 "Outputs a <b><color=#f44a47>Red Signal</b></color> when even one Input is receiving <b><color=#f44a47>Red</b></color>."
 msgstr ""
-"Gibt ein <b><color=#57b95e>Grünes Signal</b></color> aus, wenn beide Eingänge A <b>AND</b> Eingang B <b><color=#57b95e>Grün</b></color> empfangen.\n"
+"Gibt ein <b><color=#57b95e>Grünes Signal</b></color> aus, wenn beide Eingänge A <b>UND</b> Eingang B <b><color=#57b95e>Grün</b></color> empfangen.\n"
 "\n"
 "Gibt ein <b><color=#f44a47>Rotes Signal</b></color> aus, wenn auch nur ein Eingang <b><color=#f44a47>Rot</b></color> empfängt."
 
@@ -7203,7 +7208,7 @@ msgstr "<link=\"METHANEGENERATOR\">Erdgas-Generator</link>"
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.DESC"
 msgid "Musher recipes will keep Duplicants fed, but may impact health and morale over time."
-msgstr "Nahrung von einem Mikroben-Matscher hält Duplikanten am Leben, kann aber im Laufe der Zeit ihre Gesundheit und Moral beeinträchtigen."
+msgstr "Nahrung von einem Mikrobenmatscher hält Duplikanten am Leben, kann aber im Laufe der Zeit ihre Gesundheit und Moral beeinträchtigen."
 
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT"
@@ -13765,14 +13770,14 @@ msgstr "Zyklus 1"
 #. STRINGS.CODEX.MYLOG.BODY.LOG2.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG2.BODY"
 msgid ""
-"I've synthesized enough Ooze to print a new Duplicant; all I have to do now is choose a blueprint.\n"
+"I've almost synthesized enough Ooze to print a new Duplicant; once the Ooze is ready, all I'll have left to do is choose a blueprint.\n"
 "\n"
 "It'd be helpful to have an extra set of hands around the colony, but having another Duplicant also means another mouth to feed.\n"
 "\n"
 "Of course, I could always print supplies to help my existing Duplicants instead. I'm sure they would appreciate it.\n"
 "\n"
 msgstr ""
-"Ich habe genug Ooze synthetisiert, um einen neuen Duplikanten zu drucken; alles, was ich tun muss, ist, die Blaupause auszuwählen.\n"
+"Ich habe beinahe genug Ooze synthetisiert, um einen neuen Duplikanten zu drucken; alles was ich tun muss, wenn genügend Ooze vorhanden ist, ist eine Blaupause auszuwählen.\n"
 "\n"
 "Ein weiteres Paar arbeitende Hände wären in der Kolonie hilfreich, aber es würde einen weiteren Mund zum Füttern und ein Paar Lungen zum Füllen bedeuten.\n"
 "\n"
@@ -15243,6 +15248,11 @@ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND"
 msgid "I sent my Duplicant through the Temporal Tear carrying that hope on their shoulders... Perhaps one day they'll find a place to call home, and begin a thriving colony all their own."
 msgstr "Ich schickte meinen Duplikanten durch den Zeitriss und lud diese Hoffnung auf ihre Schultern... Vielleicht finden sie eines Tages einen Ort, an dem sie ihr Zuhause finden und eine blühende Kolonie gründen können."
 
+#. STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY"
+msgid "The current colony cannot fulfill this Initiative"
+msgstr "Die aktuelle Kolonie kann diese Initiative nicht erfüllen"
+
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING"
 msgid "Red Light, Green Light"
@@ -15271,7 +15281,7 @@ msgstr "Oxygen Nicht Verstopft"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION"
 msgid "Distribute 1000kg of Oxygen using gas vents."
-msgstr "Verteile 1000kg Sauerstoff mit Hilfe von Gasausgängen."
+msgstr "Verteile 1000 kg Sauerstoff mit Hilfe von Gasausgängen."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES"
@@ -15426,7 +15436,7 @@ msgstr "Lasse eine neue Gestalt eines Tiers aus einem Ei schlüpfen."
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT"
 msgid "Down the Hatch"
-msgstr "Bezwinge die Hatch"
+msgstr "Bezwinge die Brut"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION"
@@ -15440,7 +15450,7 @@ msgstr "Leichtes Leben"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
-msgid "Have Auto Sweepers complete more deliveries to machines than Duplicatnts over 5 cycles."
+msgid "Have Auto-Sweepers complete more deliveries to machines than Duplicants over 5 cycles."
 msgstr "Automatische Räumer haben mehr Lieferungen an Maschinen abgeschlossen als deine Duplikanten in 5 Zyklen."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI
@@ -15502,6 +15512,232 @@ msgstr "Nicht 0 K, aber ziemlich kalt"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING_DESCRIPTION"
 msgid "Reduce the temperature of a building to 6 Kelvin."
 msgstr "Reduziere die Temperatur eines beliebigen Gebäudes auf 6 Kelvin."
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE"
+msgid "Auto-Sweepers outperformed dupes for cycles: {0} / {1}"
+msgstr "Automatische Räumer übertrafen die Duplikanten an Zyklen: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES"
+msgid "Deliveries this cycle: Auto-Sweepers: {1} Duplicants: {2}"
+msgstr "Lieferung während dieses Zyklus: Automatische Räumer: {1} Duplikante: {2}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING"
+msgid "Automated a building"
+msgstr "Ein Gebäude automatisiert"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BLOCKED_A_COMET
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BLOCKED_A_COMET"
+msgid "Blocked a meteor with a Bunker Door"
+msgstr "Einen Meteoriten mit einer Bunkertür abgewehrt"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILING_BEDS
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILING_BEDS"
+msgid "Built beds: {0} ({1} Needed)"
+msgstr "Gebaute Betten: {0} ({1} Benötigt)"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_A_ROOM
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_A_ROOM"
+msgid "Built a {0}."
+msgstr "Baue ein {0}."
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_N_ROOMS
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_N_ROOMS"
+msgid "Built {0}: {1} / {2}"
+msgstr "Baue {0}: {1} / {2}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_ONE_BED_PER_DUPLICANT
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_ONE_BED_PER_DUPLICANT"
+msgid "Built one bed for each Duplicant"
+msgstr "Baue für jeden Duplikanten ein Bett"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_ONE_TOILET
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_ONE_TOILET"
+msgid "Built one toilet"
+msgstr "Baue eine Toilette"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_OUTSIDE_START
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_OUTSIDE_START"
+msgid "Built outside the starting biome"
+msgstr "Außerhalb des Startbioms gebaut"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS"
+msgid "Calorie surplus: {0} / {1}"
+msgstr "Kalorienüberschuss: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIES_FROM_MEAT
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIES_FROM_MEAT"
+msgid "Calories from meat: {0} / {1}"
+msgstr "Kalorien von Fleisch: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE"
+msgid "{2} errands: {0} / {1}"
+msgstr "{2} Aufträge: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CLOTHE_DUPES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CLOTHE_DUPES"
+msgid "Duplicants in clothing: {0} / {1}"
+msgstr "Duplikanten die Kleidung tragen: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_CALORIES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_CALORIES"
+msgid "Calories: {0} / {1}"
+msgstr "Kalorien: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_ITEM
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_ITEM"
+msgid "Consume something prepared at {0}"
+msgstr "Verzehre etwas, das am {0} zubereitet wurde"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CREATE_A_PAINTING
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CREATE_A_PAINTING"
+msgid "Created a masterpiece painting"
+msgstr "Schuf ein Meisterwerk Gemälde"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CURED_DISEASE
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CURED_DISEASE"
+msgid "Cured a disease"
+msgstr "Eine Krankheit kuriert"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CYCLE_NUMBER
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CYCLE_NUMBER"
+msgid "Cycle: {0} / {1}"
+msgstr "Zyklus: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ENTER_OIL_BIOME
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ENTER_OIL_BIOME"
+msgid "Entered an oil biome"
+msgstr "Ein Ölbiom betreten"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES"
+msgid "All Dupes completed a Exosuit errand for cycles: {0} / {1}"
+msgstr "Alle Duplikanten haben während eines Zykluses einen Auftrag in einem Schutzanzug abgeschlossen: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE"
+msgid "Dupes who completed Exosuit errands this cycle: {0} / {1}"
+msgstr "Duplikanten die innerhalb des aktuellen Zykluses einen Auftrag in einem Schutzanzug abgeschlossen haben: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP"
+msgid "<i>Click to view progress</i>"
+msgstr "<i>Klicken um den Fortschritt anzuzeigen</i>"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.FRACTIONAL_CYCLE
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.FRACTIONAL_CYCLE"
+msgid "Cycle: {0:0.##} / {1:0.##}"
+msgstr "Zyklus: {0:0.##} / {1:0.##}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GENERATE_POWER
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GENERATE_POWER"
+msgid "Energy generated: {0} / {1}"
+msgstr "Energie erzeugt: {0} {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HATCH_A_MORPH
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HATCH_A_MORPH"
+msgid "Hatched a critter morph"
+msgstr "Neue Gestalt eines Tieres geschlüpft"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.INVESTIGATE_A_POI
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.INVESTIGATE_A_POI"
+msgid "Inspected a ruin"
+msgstr "Eine Ruine untersucht"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.KELVIN_COOLING
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.KELVIN_COOLING"
+msgid "Coldest building: {0:##0.#}k"
+msgstr "Kältestes Gebäude: {0:##0.#}K"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET"
+msgid "Launched a Rocket into Space"
+msgstr "Eine Rakete ins All gestartet"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET_TO_WORMHOLE
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET_TO_WORMHOLE"
+msgid "Sent a Duplicant on a one-way mission to the furthest Starmap destination"
+msgstr "Einen Duplikanten auf einer Einweg-Mission zum am weitesten entfernten Sternenkartenziel gesendet"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_BUILDING
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_BUILDING"
+msgid "Never built a {0}"
+msgstr "Noch nie einen {0} gebaut"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_FARM_TILES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_FARM_TILES"
+msgid "No farmed plants"
+msgstr "Keine Pflanzen angebaut"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_DISABLED
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_DISABLED"
+msgid "Platform achievements cannot be unlocked because a debug command was used in this colony. "
+msgstr "Errungenschaften können nicht freigeschaltet werden, da in dieser Kolonie ein Debug-Befehl verwendet wurde. "
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_ENABLED
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_ENABLED"
+msgid "Platform achievements can be unlocked."
+msgstr "Errungenschaften können freigeschaltet werden."
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION"
+msgid "Poop production: {0} / {1}"
+msgstr "Kackeproduktion: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POPULATION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POPULATION"
+msgid "Population: {0} / {1}"
+msgstr "Bevölkerung: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PREPARED_SEPARATOR
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PREPARED_SEPARATOR"
+msgid " or "
+msgstr " oder "
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REMAINING_CYCLES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REMAINING_CYCLES"
+msgid "Cycles remaining: {0} / {1}"
+msgstr "Zyklen verbleibend: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REVEALED
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REVEALED"
+msgid "Revealed: {0:0.##}% / {1:0.##}%"
+msgstr "Aufgedeckt: Die {0:0.##}% / {1:0.##}%"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH"
+msgid "Unlocked an entire branch of the skill tree"
+msgstr "Einen ganzen Zweig des Fertigkeitsbaums freigeschaltet"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TAME_A_CRITTER
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TAME_A_CRITTER"
+msgid "Tamed a {0}"
+msgstr "Ein {0} gezähmt"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TECH_RESEARCHED
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TECH_RESEARCHED"
+msgid "Tech researched: {0} / {1}"
+msgstr "Technologie erforscht: {0} / {1}"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TRAVELED_IN_TUBES
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TRAVELED_IN_TUBES"
+msgid "Distance: {0:n} m / {1:n} m"
+msgstr "Distanz: {0:n} m / {1:n} m m"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.UPGRADE_ALL_BUILDINGS
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.UPGRADE_ALL_BUILDINGS"
+msgid "All {0} updgraded to {1}"
+msgstr "Alle {0} auf {1} aufgewertet"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS
+#, fuzzy
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS"
+msgid "Vented: {0} / {1}"
+msgstr "Belüftet: {0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_HUNDRED_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_HUNDRED_CYCLES"
@@ -24256,7 +24492,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME"
 msgid "Immuno Booster"
-msgstr "Immunsystemverstärker"
+msgstr "Immunsystem­verstärker"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP"
@@ -25754,7 +25990,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS"
 msgid "Suit Wearing"
-msgstr "Schutzanzugbenutzung"
+msgstr "Schutzanzug­benutzung"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
@@ -28540,7 +28776,7 @@ msgstr "Dieser Duplikant wird seine Arbeit regelmäßig durch Nickerchen unterbr
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.DESC"
-msgid "This Duplicant feels suffocated in spaces less than four tiles high or three tiles wide"
+msgid "This Duplicant feels suffocated in spaces fewer than four tiles high or three tiles wide"
 msgstr "Dieser Duplikant fühlt sich in Räumen, die weniger als vier Fliesen hoch oder drei Fliesen breit sind, beengt"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.NAME
@@ -33695,18 +33931,18 @@ msgstr "Diese <link=\"WIRE\">Kabel</link> sind geschmolzen, da die übertragene 
 
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY"
-msgid "A new Database entry is available"
-msgstr "Ein neuer Datenbankeintrag ist vorhanden"
+msgid "I've added a new log entry to my Database"
+msgstr "Ich habe einen neuen Eintrag in meiner Datenbank erstellt"
 
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME"
-msgid "New Database Entry"
-msgstr "Neuer Datenbankeintrag"
+msgid "New Log Entry"
+msgstr "Neuer Eintrag"
 
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP"
-msgid "A new Database entry is available"
-msgstr "Ein neuer Datenbankeintrag ist vorhanden"
+msgid "I've added a new log entry to my Database"
+msgstr "Ich habe einen neuen Eintrag in meiner Datenbank erstellt"
 
 #. STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.NAME"
@@ -35696,7 +35932,7 @@ msgstr "Düngemittel"
 #. STRINGS.MISC.TAGS.FARMSTATION
 msgctxt "STRINGS.MISC.TAGS.FARMSTATION"
 msgid "Farm Station"
-msgstr "Landwirtschafts-Station"
+msgstr "Landwirt­schafts-Station"
 
 #. STRINGS.MISC.TAGS.FILTER
 msgctxt "STRINGS.MISC.TAGS.FILTER"
@@ -39240,7 +39476,7 @@ msgstr "Benötigt eine Landwirtschafts-Station"
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME"
 msgid "Farm Station"
-msgstr "Landwirtschafts-Station"
+msgstr "Landwirt­schafts-Station"
 
 #. STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION"
@@ -39536,7 +39772,7 @@ msgstr "Gebäude: {0}"
 #. STRINGS.ROOMS.DETAILS.CREATURE_COUNT.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.CREATURE_COUNT.NAME"
 msgid "Critters: {0}"
-msgstr "Tier: {0}"
+msgstr "Tiere: {0}"
 
 #. STRINGS.ROOMS.DETAILS.HEADER
 msgctxt "STRINGS.ROOMS.DETAILS.HEADER"
@@ -39546,7 +39782,7 @@ msgstr "Raumdetails"
 #. STRINGS.ROOMS.DETAILS.PLANT_COUNT.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.PLANT_COUNT.NAME"
 msgid "Plants: {0}"
-msgstr "Pflanzt: {0}"
+msgstr "Pflanzen: {0}"
 
 #. STRINGS.ROOMS.DETAILS.SIZE.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.SIZE.NAME"
@@ -41330,13 +41566,13 @@ msgstr "<link=\"TIPS\">Tipps und Informationen</link>"
 
 #. STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY
 msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY"
-msgid "Database Update Discovered: {codex}\n"
-msgstr "Datenbank-Update aufgedeckt: {codex}\n"
+msgid "I've added a new entry to my log: {codex}\n"
+msgstr "Ich habe einen neuen Eintrag in meiner Datenbank erstellt: {codex}\n"
 
 #. STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE
 msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE"
-msgid "Database Update Discovered"
-msgstr "Datenbank-Update aufgedeckt"
+msgid "New Log Entry"
+msgstr "Neuer Eintrag"
 
 #. STRINGS.UI.CODEX.DETAILS
 msgctxt "STRINGS.UI.CODEX.DETAILS"
@@ -42069,7 +42305,7 @@ msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP"
 msgid ""
 "Low germ count in this area is causing germs to die rapidly\n"
 "\n"
-"Less than {0} germs are on this {1} of material.\n"
+"Fewer than {0} germs are on this {1} of material.\n"
 "({2} germs/Kg)"
 msgstr ""
 "Die niedrige Keimzahl lässt die Keime in diesem Bereich schnell absterben\n"
@@ -53564,13 +53800,23 @@ msgstr "Ausschalten"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
-msgid "Critter Count"
-msgstr "Anzahl der Tiere"
+msgid "Critter Count Sensor"
+msgstr "Tierzähl-Sensor"
 
-#. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP
-msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP"
+#. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_ABOVE
+msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_ABOVE"
 msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if there are more than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room"
 msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die Anzahl der <style=\"KKeyword\">Tiere</style> oder <style=\"KKeyword\">Eier</style> in diesem Raum über <b>{0}</b> steigt"
+
+#. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_BELOW
+msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_BELOW"
+msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if there are fewer than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die Anzahl der <style=\"KKeyword\">Tiere</style> oder <style=\"KKeyword\">Eier</style> in diesem Raum unter <b>{0}</b> fällt"
+
+#. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME
+msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME"
+msgid "Critter / Egg Count"
+msgstr "Anzahl Tiere / Eierer"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT"
@@ -57373,6 +57619,40 @@ msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
 
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
+#~ msgid ""
+#~ "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>.\n"
+#~ "\n"
+#~ "Duplicants can operate buildings more quickly the building is lit."
+#~ msgstr ""
+#~ "Spendet <link=\"LIGHT\">Licht</link> wenn <link=\"POWER\">Strom</link> anliegt.\n"
+#~ "\n"
+#~ "Duplikanten können Maschinen schneller bedienen, wenn sie beleuchtet sind."
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY"
+#~ msgid "A new Database entry is available"
+#~ msgstr "Ein neuer Datenbankeintrag ist vorhanden"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME"
+#~ msgid "New Database Entry"
+#~ msgstr "Neuer Datenbankeintrag"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP"
+#~ msgid "A new Database entry is available"
+#~ msgstr "Ein neuer Datenbankeintrag ist vorhanden"
+
+#~ msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY"
+#~ msgid "Database Update Discovered: {codex}\n"
+#~ msgstr "Datenbank-Update aufgedeckt: {codex}\n"
+
+#~ msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE"
+#~ msgid "Database Update Discovered"
+#~ msgstr "Datenbank-Update aufgedeckt"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
+#~ msgid "Critter Count"
+#~ msgstr "Anzahl der Tiere"
+
 #~ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
 #~ msgid "Go {0} cycles with Duplicants performing a single errand while still maintaining {1} Morale."
 #~ msgstr "Durchlaufe {0} Zyklen mit Duplikanten, die eine einzige Aufgabe ausführen, während sie gleichzeitig eine Moral von {1} wahren."
@@ -61066,10 +61346,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.SPEEDMODIFIER"
 #~ msgid "{0} Critter Tending Speed"
 #~ msgstr "{0} Tierpflegegeschwindigkeit"
-
-#~ msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
-#~ msgid "Critter Sensor"
-#~ msgstr "Tier-Sensor"
 
 #~ msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_IMMUNEPOINTS"
 #~ msgid "Sort by immunity strength"
