@@ -25,7 +25,7 @@ msgstr "Dieses Objekt wurde bisher {0} mal verwendet"
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.NAME"
 msgid "Access Restrictions"
-msgstr "Zugriffsbeschränkungen"
+msgstr "Zugangsbeschränkungen"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.ACTIVE.TOOLTIP"
@@ -35,7 +35,7 @@ msgstr "Einigen Duplikanten ist es verboten, diese Tür durch die aktuellen <sty
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.NAME"
 msgid "Access Control Offline"
-msgstr "Zugriffskontrolle offline"
+msgstr "Zugangskontrolle offline"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.TOOLTIP"
@@ -44,7 +44,7 @@ msgid ""
 "------------------\n"
 "All Duplicants are permitted to pass through it until <style=\"KKeyword\">Power</style> is restored"
 msgstr ""
-"Diese Tür hat <style=\"KKeyword\">Notfallzugriffsberechtigungen</style> aktiviert\n"
+"Diese Tür hat <style=\"KKeyword\">Notfallzugangsberechtigungen</style> aktiviert\n"
 "------------------\n"
 "Alle Duplikanten können die Türe benutzen, bis die <style=\"KKeyword\">Stromversorgung</style> wiederhergestellt ist"
 
@@ -1060,9 +1060,9 @@ msgstr "Benötigt Leerung"
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
 msgid ""
-"This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of <link=\"DIRTYWATER\">Contaminated Water</link>\n"
+"This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of <link=\"DIRTYWATER\">Polluted Water</link>\n"
 "------------------\n"
-"<link=\"BOTTLEEMPTIER\">Bottle Emptiers</link> can be used to transport and dispose of <link=\"DIRTYWATER\">Contaminated Water</link> in designated areas"
+"<link=\"BOTTLEEMPTIER\">Bottle Emptiers</link> can be used to transport and dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated areas"
 msgstr ""
 "<link=\"DIRTYWATER\">Verschmutztes Wasser</link> muss aus diesem <link=\"ALGAEHABITAT\">Algen-Terrarium</link> entleert werden.\n"
 "------------------\n"
@@ -1080,8 +1080,8 @@ msgstr "Duplikanten dürfen nun diese Sektion der Rakete betreten"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
-msgid "Max Temperature Reached"
-msgstr "Maximale Temperatur erreicht"
+msgid "Target Temperature Reached"
+msgstr "Zieltemperatur erreicht"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP"
@@ -1178,8 +1178,8 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME"
-msgid "<link=\"POWER\">Power</link> Available: {JoulesAvailable}"
-msgstr "<link=\"POWER\">Energie</link> verfügbar: {JoulesAvailable}"
+msgid "Power Available: {JoulesAvailable} / {JoulesCapacity}"
+msgstr "Energie verfügbar: {JoulesAvailable} / {JoulesCapacity}"
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.TOOLTIP"
@@ -1701,8 +1701,8 @@ msgstr "Diese Gebäude erfordern einen Analysefokus:"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.TOOLTIP"
-msgid "Select an unknown destination from the <b>Starmap</b> <b><color=#F44A4A>[R]</b></color> to begin analysis"
-msgstr "Wähle ein unbekanntes Ziel in der <b>Sternenkarte</b> <color=#F44A47><b>[R]</b></color> aus, um eine Analyse zu starten"
+msgid "Select an unknown destination from the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to begin analysis"
+msgstr "Wähle ein unbekanntes Ziel in der <b>Sternenkarte</b> <color=#F44A4A><b>[Z]</b></color> aus, um eine Analyse zu starten"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME"
@@ -1826,13 +1826,13 @@ msgstr "Kein <link=\"TECH\">Forschungsschwerpunkt</link> oder Sternkartenziel au
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NOTIFICATION_TOOLTIP"
-msgid "Select a <link=\"TECH\">Research</link> project in the <style=\"KKeyword\">Research Tree</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> or a Destination in the <style=\"KKeyword\">Starmap</style> <b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
-msgstr "Wähle ein <link=\"TECH\">Forschungs</link>-Projekt im <color=#833A5FFF>Forschungsbaum</color> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> oder ein Ziel in der <style=\"KKeyword\">Sternenkarte</style> <b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
+msgid "Select a <link=\"TECH\">Research</link> project in the <b>Research Tree</b> <b><color=#F44A4A>[R]</b></color> or a Destination in the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color>"
+msgstr "Wähle ein <b>Forschungs</b>-Projekt im <b>Forschungsbaum</b> <b><color=#F44A4A>[R]</b></color> oder ein Ziel in der <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.TOOLTIP"
-msgid "Select a <link=\"TECH\">Research</link> project in the <style=\"KKeyword\">Research Tree</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> or a Destination in the <style=\"KKeyword\">Starmap</style> <b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
-msgstr "Wähle ein <link=\"TECH\">Forschungs</link>-Projekt im <color=#833A5FFF>Forschungsbaum</color> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> oder ein Ziel in der <style=\"KKeyword\">Sternenkarte</style> <b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
+msgid "Select a <link=\"TECH\">Research</link> project in the <b>Research Tree</b> <b><color=#F44A4A>{Hotkey}</b></color> or a Destination in the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color>"
+msgstr "Wähle ein <b>Forschungs</b>-Projekt im <b>Forschungsbaum</b> <b><color=#F44A4A>{Hotkey}</b></color> oder ein Ziel in der <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NAME"
@@ -1846,13 +1846,13 @@ msgstr "Kein <link=\"TECH\">Forschungsschwerpunkt</link> ausgewählt"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.NOTIFICATION_TOOLTIP"
-msgid "Open the <style=\"KKeyword\">Research Tree</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> to select a new <link=\"TECH\">Research</link> project"
-msgstr "Öffne den <style=\"KKeyword\">Forschungsbaum</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> um ein neues <link=\"TECH\">Forschungsprojekt</link> zu wählen"
+msgid "Open the <b>Research Tree</b> <b><color=#F44A4A>[R]</b></color> to select a new <link=\"TECH\">Research</link> project"
+msgstr "Öffne den <b>Forschungsbaum</b> <b><color=#F44A4A>[R]</b></color> um ein neues <link=\"TECH\">Forschungsprojekt</link> zu wählen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
-msgid "Open the <style=\"KKeyword\">Research Tree</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> to select a new <link=\"TECH\">Research</link> project"
-msgstr "Öffne den <style=\"KKeyword\">Forschungsbaum</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> um ein neues <link=\"TECH\">Forschungsprojekt</link> zu wählen"
+msgid "Open the <b>Research Tree</b> <b><color=#F44A4A>[R]</b></color> to select a new <link=\"TECH\">Research</link> project"
+msgstr "Öffne den <b>Forschungsbaum</b> <b><color=#F44A4A>[R]</b></color> um ein neues <link=\"TECH\">Forschungsprojekt</link> zu wählen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
@@ -1964,8 +1964,8 @@ msgstr "Duplikante können eine Transitröhre nur dann verlassen, wenn sie irgen
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
-msgid "No Wire Connected"
-msgstr "Keine Kabel verbunden"
+msgid "No Power Wire Connected"
+msgstr "Keine Stromkabel verbunden"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP"
@@ -2216,6 +2216,16 @@ msgstr ""
 "Diese Einrichtung ist ausgeschaltet\n"
 "Drücke <style=\"KKeyword\">Aktivieren</style> <b><color=#F44A4A>[ENTER]</b></color> um es weiter zu verwenden"
 
+#. STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.NAME"
+msgid "Power Loop Detected"
+msgstr "Stromschleife entdeckt"
+
+#. STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP"
+msgid "A Transformer's <style=\"KKeyword\">Power Output </style>should not be connected back to its own <style=\"KKeyword\">Input</style>"
+msgstr "Der <style=\"KKeyword\">Leistungsausgang</style> eines Transformators darf nicht an den eigenen <style=\"KKeyword\">Eingang</style> angeschlossen werden"
+
 #. STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME"
 msgid "Max Gas Pressure"
@@ -2352,13 +2362,13 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP"
 msgid ""
 "This building has no view of space\n"
 "\n"
-"Ensure an unblocked view of the sky is available to collect <style=\"KKeyword\">Starmap</style> data\n"
+"Ensure an unblocked view of the sky is available to collect <b>Starmap</b> data\n"
 "    • Visibility: <b>{VISIBILITY}</b>\n"
 "    • Scan Radius: <b>{RADIUS}</b> cells"
 msgstr ""
-"Dieses Gebäude hat keinen Sichtkontakt zum Weltraum.\n"
+"Dieses Gebäude hat keinen Sichtkontakt zum Weltraum\n"
 "\n"
-"Stelle sicher, dass ein ungehinderter Blick in den Sternenhimmel möglich ist, um Daten für die <style=\"KKeyword\">Sternenkarte</style> zu sammeln.\n"
+"Stelle ein ungehinderter Blick in den Sternenhimmel sicher, um Daten für die <b>Sternenkarte</b> zu sammeln\n"
 "    • Sichtbarkeit: <b>{VISIBILITY}</b>\n"
 "    • Scanradius: <b>{RADIUS}</b> Zellen"
 
@@ -2372,13 +2382,13 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP"
 msgid ""
 "This building has an inadequate or obscured view of space\n"
 "\n"
-"Ensure an unblocked view of the sky is available to collect <style=\"KKeyword\">Starmap</style> data\n"
+"Ensure an unblocked view of the sky is available to collect <b>Starmap</b> data\n"
 "    • Visibility: <b>{VISIBILITY}</b>\n"
 "    • Scan Radius: <b>{RADIUS}</b> cells"
 msgstr ""
-"Dieses Gebäude hat eine unzureichende oder verdeckte Sicht auf den Weltraum.\n"
+"Dieses Gebäude hat eine unzureichende oder verdeckte Sicht auf den Weltraum\n"
 "\n"
-"Stelle sicher, dass ein ungehinderter Blick in den Sternenhimmel möglich ist, um Daten für die <style=\"KKeyword\">Sternenkarte</style> zu sammeln.\n"
+"Stelle ein ungehinderter Blick in den Sternenhimmel sicher, um Daten für die <b>Sternenkarte</b> zu sammeln\n"
 "    • Sichtbarkeit: <b>{VISIBILITY}</b>\n"
 "    • Scanradius: <b>{RADIUS}</b> Zellen"
 
@@ -2944,13 +2954,19 @@ msgstr "Der Druck in der Ölquelle steigt mit jedem Gebrauch und muss regelmäß
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME"
-msgid "Circuit Status: {CurrentLoad} / {MaxLoad}"
-msgstr "Stromnetz-Status: {CurrentLoad} / {MaxLoad}"
+msgid "Current Load: <color=#{Color}>{CurrentLoad}</color> / {MaxLoad}"
+msgstr "Aktuelle Last: <color=#{Color}>{CurrentLoad}</color> / {MaxLoad}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP"
-msgid "The current load on this circuit"
-msgstr "Die aktuelle Belastung dieser Schaltung"
+msgid ""
+"The current <style=\"KKeyword\">Power</style> load on this wire\n"
+"\n"
+"Overloading a wire will cause damage to the wire over time and cause it to break"
+msgstr ""
+"Die aktuelle <style=\"KKeyword\">Stromlast</style> auf diesem Kabel\n"
+"\n"
+"Eine Überlastung eines Kabels führt im Laufe der Zeit zu einer Beschädigung und zu einem Bruch"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECONNECTED.NAME"
@@ -2974,13 +2990,13 @@ msgstr "Dieses Kabel verbindet keinen <style=\"KKeyword\">Stromverbraucher</styl
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME"
-msgid "Max Wattage: {WireMaxWattage}"
-msgstr "Maximaler Stromverbrauch: {WireMaxWattage}"
+msgid "Potential Load: <color=#{Color}>{TotalPotentialLoad}</color> / {MaxLoad}"
+msgstr "Potenzielle Last: <color=#{Color}>{TotalPotentialLoad}</color> / {MaxLoad}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP"
-msgid "The maximum wattage that this wire can safely sustain"
-msgstr "Der maximale Stromverbrauch, den dieses Kabel sicher aushält"
+msgid "How much wattage this network will draw if all <style=\"KKeyword\">Power</style> consumers on the network become active at once"
+msgstr "Wie viel Watt dieses Netzwerk verbraucht, wenn alle <style=\"KKeyword\">Stromverbraucher</style> im Netzwerk auf einmal aktiv sind"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.NAME"
@@ -3362,13 +3378,19 @@ msgstr "{Battery} Ladeverlust"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.DESC"
-msgid "Batteries allow extra power from generators to be stored for later, rather than lost."
-msgstr "Batterien erlauben zusätzliche Energie von Generatoren zum späteren Gebrauch zu speichern, anstatt verschwendet zu werden."
+msgid "Batteries allow power from generators to be stored for later."
+msgstr "Batterien ermöglichen es, die Energie von Generatoren für später zu speichern."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT"
-msgid "Stores runoff <link=\"POWER\">Power</link> from generators, but loses charge over time."
-msgstr "Speichert überschüssigen <link=\"POWER\">Energie</link> von Generatoren, aber verliert mit der Zeit Ladung."
+msgid ""
+"Stores <link=\"POWER\">Power</link> from generators, then provides that <link=\"POWER\">Power</link> to buildings.\n"
+"\n"
+"Loses charge over time."
+msgstr ""
+"Speichert überschüssigen <link=\"POWER\">Energie</link> von Generatoren und versorgt Gebäude mit dieser <link=\"POWER\">Energie</link>.\n"
+"\n"
+"Verliert mit der Zeit Ladung."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
@@ -3382,8 +3404,14 @@ msgstr "Größere Batterien speichern mehr Strom und halten die Systeme länger 
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.EFFECT"
-msgid "Stores most runoff <link=\"POWER\">Power</link> from generators, but loses charge over time."
-msgstr "Speichert Teile der überschüssigen <link=\"POWER\">Energie</link> von Generatoren, aber verliert mit der Zeit Ladung."
+msgid ""
+"Stores <link=\"POWER\">Power</link> from generators, then provides that <link=\"POWER\">Power</link> to buildings.\n"
+"\n"
+"Slightly loses charge over time."
+msgstr ""
+"Speichert <link=\"POWER\">Energie</link> von Generatoren und versorgt dann Gebäude mit <link=\"POWER\">Strom</link>.\n"
+"\n"
+"Verliert mit der Zeit leicht an Ladung."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
@@ -3402,19 +3430,23 @@ msgstr "Sendet ein <b><color=#f44a47>Rotes Signal</b></color> wenn die Batterie 
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
-msgid "Smart batteries send an active automation signal when they require charging."
-msgstr "Intelligente Batterien senden ein Automatisierungssignal, wenn sie aufgeladen werden müssen."
+msgid "Smart batteries send a <b><color=#57b95e>Green Signal</b></color> when they require charging."
+msgstr "Intelligente Batterien senden ein <b><color=#57b95e>Grünes Signal</b></color>, wenn sie geladen werden müssen."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
 msgid ""
-"Stores most runoff <link=\"POWER\">Power</link> from generators, but loses charge over time.\n"
+"Stores <link=\"POWER\">Power</link> from generators, then provides that <link=\"POWER\">Power</link> to buildings.\n"
 "\n"
-"Sends a <b><color=#57b95e>Green Signal</b></color> or <b><color=#f44a47>Red Signal</b></color> based on the configuration of the Logic Activation Parameters."
+"Sends a <b><color=#57b95e>Green Signal</b></color> or <b><color=#f44a47>Red Signal</b></color> based on the configuration of the Logic Activation Parameters.\n"
+"\n"
+"Very slightly loses charge over time."
 msgstr ""
-"Speichert Teile der überschüssigen <link=\"POWER\">Energie</link> von Generatoren, aber verliert mit der Zeit Ladung.\n"
+"Speichert <link=\"POWER\">Energie</link> von Generatoren und versorgt dann Gebäude mit <link=\"POWER\">Strom</link>.\n"
 "\n"
-"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder <b><color=#f44a47>Rotes Signal</b></color> entsprechend der Konfiguration des Logik-Aktivierungsparameters."
+"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder <b><color=#f44a47>Rotes Signal</b></color> entsprechend der Konfiguration des Logik-Aktivierungsparameters.\n"
+"\n"
+"Verliert mit der Zeit leicht an Ladung."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT"
@@ -3428,8 +3460,8 @@ msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die Batter
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
-msgid "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more than <b>High Threshold</b> charged"
-msgstr "Sendet ein <b><color=#f44a47>Rotes Signal</b></color>, wenn die Batterie höher als der <b>obere Schwellwert</b> geladen ist"
+msgid "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more than <b>High Threshold</b> charged, until <b>Low Threshold</b> is reached again"
+msgstr "Sendet ein <b><color=#f44a47>Rotes Signal</b></color>, wenn die Batterie höher als der <b>obere Schwellwert</b> geladen ist, bis der <b>untere Schwellwert</b> wieder erreicht wird"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
@@ -4183,15 +4215,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT"
 msgid ""
 "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n"
 "\n"
-"Sets Duplicant Access Permissions for area restriction.\n"
-"\n"
 "Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgstr ""
 "Grenzt ein Gebiet ab ohne <link=\"ELEMENTSGAS\">Gas</link> oder <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link> abzuhalten.\n"
 "\n"
-"Kann zur Bereichsbeschränkung für Duplikanten verwendet werden.\n"
-"\n"
-"Wilde <link=\"CRITTERS\">Kreaturen</link> können nicht durch Türen gehen."
+"Wilde <link=\"CRITTERS\">Kreaturen</link> können die Tür nicht passieren."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
@@ -4879,8 +4907,8 @@ msgstr "Rohrgasdetektoren können die Präsenz einer bestimmter Gase einer Rohrl
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when the chosen <link=\"ELEMENTSGAS\">Gas</link> is detected."
-msgstr "Sendet <b><color=#57b95e>Grünes Signal</b></color>, wenn das eingestellte <link=\"ELEMENTSGAS\">Gas</link> detektiert wird."
+msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when the selected <link=\"ELEMENTSGAS\">Gas</link> is detected within a pipe."
+msgstr "Sendet <b><color=#57b95e>Grünes Signal</b></color>, wenn das eingestellte <link=\"ELEMENTSGAS\">Gas</link> im Rohr detektiert wird."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -4960,8 +4988,8 @@ msgstr "Temperatursensoren deaktivieren Gebäude, wenn ihr Rohrinhalt eine besti
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
-msgid "Sends a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red Signal</b></color> when contents enter the chosen <link=\"HEAT\">Temperature</link> range."
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder ein <b><color=#f44a47>Rotes Signal</b></color> wenn der Inhalt eine <link=\"HEAT\">Temperatur</link> im ausgewählten Bereich erreicht."
+msgid "Sends a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red Signal</b></color> when pipe contents enter the chosen <link=\"HEAT\">Temperature</link> range."
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder ein <b><color=#f44a47>Rotes Signal</b></color> wenn der Rohrinhalt eine <link=\"HEAT\">Temperatur</link> im ausgewählten Bereich erreicht."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT"
@@ -5854,8 +5882,8 @@ msgstr "Rohrflüssigkeitsdetektoren können die Präsenz einer bestimmten Flüss
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT"
-msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when the chosen <link=\"ELEMENTSLIQUID\">Liquid</link> is detected."
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die konfigurierte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> detektiert wird."
+msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when the selected <link=\"ELEMENTSLIQUID\">Liquid</link> is detected within a pipe."
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die konfigurierte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> im Rohr detektiert wird."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -5935,8 +5963,8 @@ msgstr "Temperatursensoren können Gebäude deaktivieren, wenn ihr Rohrinhalt ei
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.EFFECT"
-msgid "Sends a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red Signal</b></color> when contents enter the chosen <link=\"HEAT\">Temperature</link> range."
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder ein <b><color=#f44a47>Rotes Signal</b></color> wenn der Inhalt eine <link=\"HEAT\">Temperatur</link> im ausgewählten Bereich erreicht."
+msgid "Sends a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red Signal</b></color> when pipe contents enter the chosen <link=\"HEAT\">Temperature</link> range."
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder ein <b><color=#f44a47>Rotes Signal</b></color> wenn der Rohrinhalt eine <link=\"HEAT\">Temperatur</link> im ausgewählten Bereich erreicht."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT"
@@ -6017,8 +6045,8 @@ msgstr "<link=\"LIQUIDFUELTANK\">Flüssig­treibstofftank</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC"
-msgid "Tepidizers kill waterborne germs and heat liquid to perfect showering temperature."
-msgstr "Erwärmer töten Wasserkeime und erhitzen Flüssigkeiten auf die perfekte Temperatur zum Duschen."
+msgid "Tepidizers heat liquid which can kill waterborne germs."
+msgstr "Flüssigkeits­wärmer erhitzen Flüssigkeiten. Dies kann wasserbasierte Keime abtöten."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT"
@@ -6272,11 +6300,11 @@ msgstr "Diese Sensoren können die Präsenz eines bestimmten Gases erkennen und 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.EFFECT"
 msgid ""
-"Sends a <b><color=#57b95e>Green Signal</b></color> when the selected <link=\"ELEMENTSGAS\">Gas</link> is detected.\n"
+"Sends a <b><color=#57b95e>Green Signal</b></color> when the selected <link=\"ELEMENTSGAS\">Gas</link> is detected on this sensor's tile.\n"
 "\n"
 "Sends a <b><color=#f44a47>Red Signal</b></color> when the selected <link=\"ELEMENTSGAS\">Gas</link> is not present."
 msgstr ""
-"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn das ausgewählte <link=\"ELEMENTSGAS\">gasförmige</link> Element detektiert wird.\n"
+"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn das ausgewählte <link=\"ELEMENTSGAS\">Gas</link> im Sensorbereich detektiert wird.\n"
 "\n"
 "Sendet ein <b><color=#f44a47>Rotes Signal</b></color> wenn das ausgewählte <link=\"ELEMENTSGAS\">Gas</link> nicht vorhanden ist."
 
@@ -6308,11 +6336,11 @@ msgstr "Diese Sensoren können die Präsenz einer bestimmten Flüssigkeit erkenn
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.EFFECT"
 msgid ""
-"Sends a <b><color=#57b95e>Green Signal</b></color> when the chosen <link=\"ELEMENTSLIQUID\">Liquid</link> is detected.\n"
+"Sends a <b><color=#57b95e>Green Signal</b></color> when the selected <link=\"ELEMENTSLIQUID\">Liquid</link> is detected on this sensor's tile.\n"
 "\n"
-"Sends a <b><color=#f44a47>Red Signal</b></color> when the <link=\"ELEMENTSLIQUID\">Liquid</link> is not present."
+"Sends a <b><color=#f44a47>Red Signal</b></color> when the selected <link=\"ELEMENTSLIQUID\">Liquid</link> is not present."
 msgstr ""
-"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die ausgewählte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> detektiert wird.\n"
+"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die ausgewählte <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> im Sensorbereich detektiert wird.\n"
 "\n"
 "Sendet ein <b><color=#f44a47>Rotes Signal</b></color> wenn die <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> nicht vorhanden ist."
 
@@ -6952,15 +6980,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.EFFECT"
 msgid ""
 "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n"
 "\n"
-"Sets Duplicant Access Permissions for area restriction.\n"
-"\n"
 "Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgstr ""
 "Blockiert <link=\"ELEMENTSLIQUID\">Flüssigkeits-</link> und <link=\"ELEMENTSGAS\">Gasfluss</link>, hält den Druck zwischen den Bereichen.\n"
 "\n"
-"Kann zur Bereichsbeschränkung für Duplikanten verwendet werden.\n"
-"\n"
-"Wilde <link=\"CRITTERS\">Kreaturen</link> können nicht durch Türen gehen."
+"Wilde <link=\"CRITTERS\">Kreaturen</link> können die Tür nicht passieren."
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME"
@@ -7044,11 +7068,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT"
 msgid ""
 "A self-sustaining machine powered by what appears to be refined <link=\"UNOBTANIUM\">Neutronium</link>.\n"
 "\n"
-"Absorbs and neutralizes <link=\"HEAT\">Heat</link> energy when submersed in <link=\"HYDROGEN\">Hydrogen</link>."
+"Absorbs and neutralizes <link=\"HEAT\">Heat</link> energy when provided with piped <link=\"HYDROGEN\">Hydrogen</link>."
 msgstr ""
 "Eine selbstversorgende Maschine, die anscheinend von verarbeitetem <link=\"UNOBTANIUM\">Neutronium</link> versorgt wird.\n"
 "\n"
-"Absorbiert und neutralisiert <link=\"HEAT\">Wärmeenergie</link> wenn mit <link=\"HYDROGEN\">Wasserstoff</link> beliefert."
+"Absorbiert und neutralisiert <link=\"HEAT\">Wärmeenergie</link> wenn sie mit <link=\"HYDROGEN\">Wasserstoff</link> beliefert wird."
 
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
@@ -7695,19 +7719,13 @@ msgstr "<link=\"POWERCONTROLSTATION\">Stromregel­station</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
-msgid "Shh! It only transforms when no one's looking."
-msgstr "Shh! Es wandelt nur um, wenn niemand schaut."
+msgid "Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 4 kW."
+msgstr "Verbinde <link=\"BATTERY\">Batterien</link> auf der großen Seite des Transformators, und zu verhindern, dass die <link=\"WIRE\">Kabel</link> mehr als 4 kW entnehmen."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
-msgid ""
-"Protects circuits from overloading by increasing or decreasing <link=\"POWER\">Power</link> flow.\n"
-"\n"
-"Stores a great deal of <link=\"POWER\">Power</link>."
-msgstr ""
-"Schützt Schaltungen vor Überlastung durch Erhöhen oder Senken des zur Verfügung gestellten <link=\"POWER\">Energieflusses</link>.\n"
-"\n"
-"Speichert viel <link=\"POWER\">Energie</link>."
+msgid "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 4 kW."
+msgstr "Der Transformator begrenzt den <link=\"POWER\">Stromfluss</link> auf 4 kW."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME"
@@ -7716,19 +7734,13 @@ msgstr "<link=\"POWERTRANSFORMER\">großer Transformator</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
-msgid "Transformers prevent buildings from frying on circuits with powerful generators."
-msgstr "Transformatoren verhindern das Durchbrennen von Kabeln in Stromkreisen mit leistungsstarken Generatoren."
+msgid "Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 1000 W and suffering overload damage."
+msgstr "Verbinde <link=\"BATTERY\">Batterien</link> auf der großen Seite des Transformators, und zu verhindern, dass die <link=\"WIRE\">Kabel</link> mehr als 1000 W entnehmen und Schäden durch Überlastung erleiden."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
-msgid ""
-"Protects circuits from overloading by increasing or decreasing <link=\"POWER\">Power</link> flow.\n"
-"\n"
-"Stores the <link=\"POWER\">Power</link> that is fed into it."
-msgstr ""
-"Schützt Schaltungen vor Überlastung durch Erhöhen oder Senken des zur Verfügung gestellten <link=\"POWER\">Energieflusses</link>.\n"
-"\n"
-"Speichert die <link=\"POWER\">Energie</link> die eingespeist wird."
+msgid "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 1000 W."
+msgstr "Der Transformator begrenzt den <link=\"POWER\">Stromfluss</link> auf 1000 W."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
@@ -7745,15 +7757,15 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.EFFECT"
 msgid ""
 "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n"
 "\n"
-"Sets Duplicant Access Permissions for area restriction.\n"
+"Functions as a <link=\"MANUALPRESSUREDOOR\">Manual Airlock</link> when no <link=\"POWER\">Power</link> is available.\n"
 "\n"
-"Functions as a <link=\"MANUALPRESSUREDOOR\">Manual Airlock</link> when no <link=\"POWER\">Power</link> is available."
+"Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgstr ""
 "Blockiert <link=\"ELEMENTSLIQUID\">Flüssigkeits-</link> und <link=\"ELEMENTSGAS\">Gasfluss</link>, hält den Druck zwischen den Bereichen.\n"
 "\n"
-"Kann zur Bereichsbeschränkung für Duplikanten verwendet werden.\n"
+"Funktioniert als <link=\"MANUALPRESSUREDOOR\">manuelle Schleuse</link>, wenn kein <link=\"POWER\">Strom</link> verfügbar ist.\n"
 "\n"
-"Funktioniert als <link=\"MANUALPRESSUREDOOR\">manuelle Schleuse</link>, wenn kein <link=\"POWER\">Strom</link> verfügbar ist."
+"Wilde <link=\"CRITTERS\">Kreaturen</link> können die Tür nicht passieren."
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.NAME"
@@ -8771,8 +8783,8 @@ msgstr "Ressourcen auf dem Boden liegen werden zu \"Schutt\" und verringern das 
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT"
-msgid "Stores the resources of your choosing."
-msgstr "Speichert Ressourcen deiner Wahl."
+msgid "Stores the Solid resources of your choosing."
+msgstr "Speichert feste Ressourcen deiner Wahl."
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME"
@@ -8787,11 +8799,11 @@ msgstr "Intelligente Lagerbehälter ermöglichen die Automatisierung der Ressour
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
 msgid ""
-"Stores the resources of your choosing.\n"
+"Stores the Solid resources of your choosing.\n"
 "\n"
 "Sends a <b><color=#57b95e>Green Signal</b></color> when bin is full."
 msgstr ""
-"Lagert die Ressourcen Deiner Wahl.\n"
+"Lagert die Ressourcen deiner Wahl.\n"
 "\n"
 "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn der Behälter voll ist."
 
@@ -9418,11 +9430,11 @@ msgstr "Ein Kabel mit höherer Wattzahl zur Vermeidung von Überlastungen, insbe
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT"
 msgid ""
-"Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">WIRE</link> without overloading.\n"
+"Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">Wire</link> without overloading.\n"
 "\n"
 "Cannot be run through wall and floor tile."
 msgstr ""
-"Transportiert eine höhere <link=\"POWER\">Wattzahl</link> als normale Kabel ohne zu überladen.\n"
+"Überträgt eine höhere <link=\"POWER\">Wattzahl</link> als ein normales <link=\"WIRE\">Kabel</link> ohne zu überladen.\n"
 "\n"
 "Kann nicht in Wand- und Bodenziegeln verlegt werden."
 
@@ -9434,7 +9446,7 @@ msgstr "<link=\"WIREREFINEDHIGHWATTAGE\">Starkes Leiterkabel</link>"
 #. STRINGS.BUILDINGS.PREFABS.WOODGASGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WOODGASGENERATOR.DESC"
 msgid "Wood burners are small and easy to maintain, but produce a fair amount of heat."
-msgstr "Holzöfen sind klein und wartungsfreundlich, produzieren aber eine beträchtliche Menge an Wärme."
+msgstr "Holzgeneratoren sind klein und wartungsfreundlich, produzieren aber eine beträchtliche Menge an Wärme."
 
 #. STRINGS.BUILDINGS.PREFABS.WOODGASGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WOODGASGENERATOR.EFFECT"
@@ -9450,7 +9462,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WOODGASGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WOODGASGENERATOR.NAME"
 msgid "<link=\"WOODGASGENERATOR\">Wood Burner</link>"
-msgstr "<link=\"WOODGASGENERATOR\">Holzofen</link>"
+msgstr "<link=\"WOODGASGENERATOR\">Holzgenerator</link>"
 
 #. STRINGS.BUILDINGS.REPAIRABLE.DISABLE_AUTOREPAIR.NAME
 msgctxt "STRINGS.BUILDINGS.REPAIRABLE.DISABLE_AUTOREPAIR.NAME"
@@ -10623,7 +10635,7 @@ msgstr "VERSCHLÜSSELUNGSEBENE: DREI"
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.TITLE
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.TITLE"
 msgid "Husbandry Notes"
-msgstr "Landwirtschaftliche Hinweise"
+msgstr "Tierzucht Hinweise"
 
 #. STRINGS.CODEX.A3_NEWSECURITY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A3_NEWSECURITY.BODY.CONTAINER1"
@@ -15320,8 +15332,8 @@ msgstr "Supererneuerbar"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY_DESCRIPTION"
-msgid "Generate 240,000kJ of power without using coal, methane, petrol or wood generators."
-msgstr "Erzeuge 240.000 kJ Energie, ohne Kohle-, Methan-, Benzin- oder Holzgeneratoren zu verwenden."
+msgid "Generate 240,000kJ of power without using coal, natural gas, petrol or wood generators."
+msgstr "Erzeuge 240.000 kJ Energie, ohne Kohle-, Erdgas-, Petroleum- oder Holzgeneratoren zu verwenden."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAR_FOW
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAR_FOW"
@@ -15650,8 +15662,8 @@ msgstr "Eine Ruine untersucht"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.KELVIN_COOLING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.KELVIN_COOLING"
-msgid "Coldest building: {0:##0.#}k"
-msgstr "Kältestes Gebäude: {0:##0.#}K"
+msgid "Coldest building: {0:##0.#}K"
+msgstr "Kältestes Gebäude: {0:##0.#} K"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET"
@@ -15662,6 +15674,12 @@ msgstr "Eine Rakete ins All gestartet"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET_TO_WORMHOLE"
 msgid "Sent a Duplicant on a one-way mission to the furthest Starmap destination"
 msgstr "Einen Duplikanten auf einer Einweg-Mission zum am weitesten entfernten Sternenkartenziel gesendet"
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE
+#, fuzzy
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE"
+msgid "{0} morale: {1}"
+msgstr "{0} Moral: {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_BUILDING"
@@ -15730,7 +15748,7 @@ msgstr "Distanz: {0:n} m / {1:n} m m"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.UPGRADE_ALL_BUILDINGS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.UPGRADE_ALL_BUILDINGS"
-msgid "All {0} updgraded to {1}"
+msgid "All {0} upgraded to {1}"
 msgstr "Alle {0} auf {1} aufgewertet"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS
@@ -18209,7 +18227,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.SQUIRREL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SQUIRREL.EGG_NAME"
 msgid "<link=\"SQUIRREL\">Pip Egg</link>"
-msgstr "<link=\"PACUEGG\">Pip -Ei</link>"
+msgstr "<link=\"PACUEGG\">Pip-Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.SQUIRREL.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SQUIRREL.NAME"
@@ -20292,7 +20310,7 @@ msgstr "{0} Dauer des Pflege-Effekts"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
 msgid "Husbandry"
-msgstr "Landwirtschaft"
+msgstr "Tierzucht"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC"
@@ -23272,8 +23290,8 @@ msgstr "NEIN"
 
 #. STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP"
-msgid "{0} contracted {1} {2}"
-msgstr "{0} infiziert {1} {2}"
+msgid "{0} contracted {1} from: {2}"
+msgstr "{0} infiziert {1} durch: {2}"
 
 #. STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.LEGEND_HOVERTEXT"
@@ -27470,11 +27488,11 @@ msgstr "Kein Plumpsklo gebaut"
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP"
 msgid ""
-"<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b>.\n"
+"<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b> <b><color=#F44A4A>[5]</b></color>.\n"
 "------------------\n"
 "These Duplicants are in need of an <link=\"OUTHOUSE\">Outhouse</link>:"
 msgstr ""
-"<link=\"OUTHOUSE\">Plumpsklos</link> können im <b>Sanitär-Tab</b> <color=#F44A47><b>[5]</b></color> gebaut werden.\n"
+"<link=\"OUTHOUSE\">Plumpsklos</link> können im <b>Sanitär-Tab</b> <color=#F44A4A><b>[5]</b></color> gebaut werden.\n"
 "------------------\n"
 "Diese Duplikanten benötigen einen <link=\"OUTHOUSE\">Plumpsklo</link>:"
 
@@ -28096,11 +28114,11 @@ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSFULLYEMPTYINGBLADDER.TOOLTIP"
 msgid ""
 "This poor Duplicant couldn't find an <link=\"OUTHOUSE\">Outhouse</link> in time and is super embarrassed\n"
 "------------------\n"
-"<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b>"
+"<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b> <b><color=#F44A4A>[5]</b></color>"
 msgstr ""
 "Dieser arme Duplikant konnte nicht rechtzeitig ein <link=\"OUTHOUSE\">Plumpsklo</link> finden und ist super verlegen.\n"
 "------------------\n"
-"<link=\"OUTHOUSE\">Plumpsklos</link> können im <b>SANITÄRTAB</b> <color=#F44A47><b>[5]</b></color> gebaut werden"
+"<link=\"OUTHOUSE\">Plumpsklos</link> können im <b>Sanitär-Tab</b> <color=#F44A4A><b>[5]</b></color> gebaut werden"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.NAME"
@@ -30700,11 +30718,11 @@ msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.DESC"
 msgid ""
 "Slime is a thick biomixture of algae, fungi, and mucopolysaccharides.\n"
 "\n"
-"It can be distilled into <link=\"ALGAE\">Algae</link> and is useful in some <link=\"OXYGEN\">Oxygen</link> production processes."
+"It can be distilled into <link=\"ALGAE\">Algae</link> and emits <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> once dug up."
 msgstr ""
 "Schleim ist eine dicke Biomasse von Algen, Pilzen und Mukopolysacchariden.\n"
 "\n"
-"Er kann zu <link=\"ALGAE\">Algen</link> destilliert werden und ist in einigen <link=\"OXYGEN\">Sauerstoffproduktionsprozessen</link> nützlich."
+"Er kann zu <link=\"ALGAE\">Algen</link> destilliert werden und und gibt nach dem Ausgraben <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> ab."
 
 #. STRINGS.ELEMENTS.SLIMEMOLD.NAME
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.NAME"
@@ -34232,8 +34250,8 @@ msgstr "Diese Fabrikatoren haben keine Rezepte in der Warteliste:"
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
-msgid "By building a <link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> from the <b>PLUMBING TAB</b> <color=#F44A47><b>[5]</b></color> over a pool of liquid, my Duplicants will be able to bottle it up and manually deliver it wherever it needs to go."
-msgstr "Wenn ich über den <b>SANITÄRTAB</b> <color=#F44A47><b>[5]</b></color> <link=\"LIQUIDPUMPINGSTATION\">Handpumpen</link> über Flüssigkeitsvorkommen baue, können meine Duplikanten diese in Flaschen abfüllen und manuell dort hin liefern wo sie benötigt werden."
+msgid "By building a <link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> from the <b>PLUMBING TAB</b> <b><color=#F44A4A>[5]</b></color> <color=#F44A47><b>[5]</b></color> over a pool of liquid, my Duplicants will be able to bottle it up and manually deliver it wherever it needs to go."
+msgstr "Wenn ich über den <b>SANITÄRTAB</b> <color=#F44A4A><b>[5]</b></color> <link=\"LIQUIDPUMPINGSTATION\">Handpumpen</link> über Flüssigkeitsvorkommen baue, können meine Duplikanten diese in Flaschen abfüllen und manuell dort hin liefern wo sie benötigt werden."
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
@@ -34258,14 +34276,14 @@ msgid ""
 "    • {0} are currently available\n"
 "    • {1} is being consumed per cycle\n"
 "\n"
-"<link=\"MICROBEMUSHER\">Microbe Mushers</link> can be built from the <b>Food Tab</b>"
+"<link=\"MICROBEMUSHER\">Microbe Mushers</link> can be built from the <b>Food Tab</b> <b><color=#F44A4A>[4]</b></color>"
 msgstr ""
 "Die <link=\"FOOD\">Lebensmittelvorräte</link> der Kolonie sind gering:\n"
 "------------------\n"
 "    • {0} sind derzeit verfügbar\n"
 "    • {1} werden pro Zyklus verbraucht\n"
 "\n"
-"<link=\"MICROBEMUSHER\">Mikrobenmatscher</link> können im <b>Nahrungstab</b> gebaut werden"
+"<link=\"MICROBEMUSHER\">Mikrobenmatscher</link> können im <b>Nahrungstab</b> <b><color=#F44A4A>[4]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME"
@@ -34391,11 +34409,11 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP"
 msgid ""
 "<link=\"DISEASE\">Germs</link> are spreading in the colony because my Duplicants have nowhere to clean up\n"
 "------------------\n"
-"<link=\"WASHBASIN\">Wash Basins</link> can be built from the <b>Medicine Tab</b>"
+"<link=\"WASHBASIN\">Wash Basins</link> can be built from the <b>Medicine Tab</b> <b><color=#F44A4A>[8]</b></color>"
 msgstr ""
 "<link=\"DISEASE\">Keime</link> verbreiten sich in der Kolonie, weil sich meine Duplikanten nirgendwo reinigen können\n"
 "------------------\n"
-"<link=\"WASHBASIN\">Waschzuber</link> können im <b>Medizintab</b> gebaut werden"
+"<link=\"WASHBASIN\">Waschzuber</link> können im <b>Medizintab</b> <b><color=#F44A4A>[8]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME"
@@ -34613,11 +34631,11 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP"
 msgid ""
 "The colony will exhaust their supplies without a new <link=\"FOOD\">Food</link> source\n"
 "------------------\n"
-"<link=\"MICROBEMUSHER\">Microbe Mushers</link> can be built from the <b>Food Tab</b>"
+"<link=\"MICROBEMUSHER\">Microbe Mushers</link> can be built from the <b>Food Tab</b> <b><color=#F44A4A>[4]</b></color>"
 msgstr ""
 "Die Kolonie wird ohne neue <link=\"FOOD\">Nahrungsquellen</link> ihre Vorräte aufbrauchen\n"
 "------------------\n"
-"<link=\"MICROBEMUSHER\">Mikrobenmatscher</link> können im <b>NAHRUNGSTAB</b> gebaut werden"
+"<link=\"MICROBEMUSHER\">Mikrobenmatscher</link> können im <b>Nahrungstab</b> <b><color=#F44A4A>[4]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME"
@@ -34629,11 +34647,11 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP"
 msgid ""
 "My Duplicants would appreciate a place to sleep\n"
 "------------------\n"
-"<link=\"COTS\">Cots</link> can be built from the <b>Furniture Tab</b>"
+"<link=\"COTS\">Cots</link> can be built from the <b>Furniture Tab</b> <b><color=#F44A4A>[9]</b></color>"
 msgstr ""
 "Meine Duplikanten würden sich über einen Schlafplatz freuen.\n"
 "------------------\n"
-"<link=\"COTS\">Feldbetten</link> können im <b>MÖBELTAB</b> gebaut werden"
+"<link=\"COTS\">Feldbetten</link> können im <b>MÖBELTAB</b> <b><color=#F44A4A>[9]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME"
@@ -34645,11 +34663,11 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP"
 msgid ""
 "My Duplicants have nowhere to relieve themselves\n"
 "------------------\n"
-"<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b>"
+"<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b> <b><color=#F44A4A>[5]</b></color>"
 msgstr ""
 "Meine Duplikanten haben keinen Platz, um sich zu erleichtern.\n"
 "------------------\n"
-"<link=\"OUTHOUSE\">Plumpsklos</link> können im <b>SANITÄRTAB</b> gebaut werden"
+"<link=\"OUTHOUSE\">Plumpsklos</link> können im <b>Sanitärtab</b> <b><color=#F44A4A>[5]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
@@ -34675,11 +34693,11 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP"
 msgid ""
 "There is nowhere for sick Duplicants receive medical care\n"
 "------------------\n"
-"<link=\"DOCTORSTATION\">Sick Bays</link> can be built from the <b>Medicine Tab</b>"
+"<link=\"DOCTORSTATION\">Sick Bays</link> can be built from the <b>Medicine Tab</b> <b><color=#F44A4A>[8]</b></color>"
 msgstr ""
 "Es gibt keinen Ort für die medizinische Versorgung von kranken Duplikanten\n"
 "------------------\n"
-"<link=\"DOCTORSTATION\">Krankenstationen</link> können im <b>MEDIZINTAB</b> gebaut werden"
+"<link=\"DOCTORSTATION\">Krankenstationen</link> können im <b>Medizintab</b> <b><color=#F44A4A>[8]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.NAME"
@@ -34691,11 +34709,11 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP"
 msgid ""
 "My colony is not producing any new <link=\"OXYGEN\">Oxygen</link>\n"
 "------------------\n"
-"<link=\"MINERALDEOXIDIZER\">Oxygen Diffusers</link> can be built from the <b>Oxygen Tab</b>"
+"<link=\"MINERALDEOXIDIZER\">Oxygen Diffusers</link> can be built from the <b>Oxygen Tab</b> <b><color=#F44A4A>[2]</b></color>"
 msgstr ""
 "Meine Kolonie produziert keine neuen <link=\"OXYGEN\">Sauerstoff</link>\n"
 "------------------\n"
-"<link=\"MINERALDEOXIDIZER\">Sauerstoffdiffusoren</link> können im <b>SAUERSTOFFTAB</b> gebaut werden"
+"<link=\"MINERALDEOXIDIZER\">Sauerstoffdiffusoren</link> können im <b>Sauerstofftab</b> <b><color=#F44A4A>[2]</b></color> gebaut werden"
 
 #. STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME"
@@ -35523,8 +35541,14 @@ msgstr "Lager nicht verfügbar"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEARNOSTORAGE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEARNOSTORAGE.TOOLTIP"
-msgid "No available storage lockers can accept this item"
-msgstr "Keine verfügbaren Lagerplätze können diesen Gegenstand akzeptieren"
+msgid ""
+"No available <link=\"STORAGELOCKER\">Storage Bin</link> can accept this item\n"
+"\n"
+"Make sure the filter on your storage is correctly set and there is sufficient space remaining"
+msgstr ""
+"Kein verfügbarer <link=\"STORAGELOCKER\">Lagerbehälter</link> kann diesen Gegenstand aufnehmen\n"
+"\n"
+"Stelle sicher, dass der Filter deiner Lager richtig eingestellt ist und genügend Platz vorhanden ist"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGHARVEST.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGHARVEST.NAME"
@@ -40281,6 +40305,11 @@ msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP"
 msgid "Heat up and cool down. {Hotkey}"
 msgstr "Aufheizen und abkühlen lassen. {Hotkey}"
 
+#. STRINGS.UI.BUILDINGEFFECTS.ACCESS_CONTROL
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.ACCESS_CONTROL"
+msgid "Duplicant Access Permissions"
+msgstr "Duplikanten-Zugangsrechte"
+
 #. STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT"
 msgid "Added Effect: {0}"
@@ -40308,8 +40337,8 @@ msgstr "<link=\"POWER\">Energiekapazität</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.BATTERYLEAK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.BATTERYLEAK"
-msgid "<link=\"POWER\">Power</link> runoff: {0}"
-msgstr "<link=\"POWER\">Energieverbrauch</link>: {0}"
+msgid "<link=\"POWER\">Power</link> leak: {0}"
+msgstr "<link=\"POWER\">Energieverlust</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE"
@@ -40505,6 +40534,11 @@ msgstr "Aktive Phase: (Analyse erforderlich)"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED"
 msgid "<link=\"HEAT\">Heat</link>: -{0}/s"
 msgstr "<link=\"HEAT\">Wärme</link>: -{0}/s"
+
+#. STRINGS.UI.BUILDINGEFFECTS.HEATER_TARGETTEMPERATURE
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATER_TARGETTEMPERATURE"
+msgid "Target <link=\"HEAT\">Temperature</link>: {0}"
+msgstr "<link=\"HEAT\">Zieltemperatur</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED"
@@ -40736,6 +40770,11 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.STRESSREDUCEDPERMINUTE"
 msgid "<link=\"STRESS\">Stress</link>: {0} per minute"
 msgstr "<link=\"STRESS\">Stress</link>: {0} pro Minute"
 
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ACCESS_CONTROL
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ACCESS_CONTROL"
+msgid "Settings to allow or restrict Duplicants from passing through the door."
+msgstr "Einstellungen, um Duplikanten den Durchgang durch die Tür zu erlauben oder zu verbieten."
+
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ADDED_EFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ADDED_EFFECT"
 msgid ""
@@ -40771,13 +40810,13 @@ msgstr "Diese Einrichtung wird nur von dem zugewiesenen Duplikanten verwendet"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY"
-msgid "Can hold {0} of <style=\"KKeyword\">Power</style> when connected to a <style=\"KKeyword\">Generator</style>"
-msgstr "Kann bei Verbindung mit einem <style=\"KKeyword\">Generator</style> {0} <style=\"KKeyword\">Energie</style> speichern"
+msgid "Can hold <b>{0}</b> of <style=\"KKeyword\">Power</style> when connected to a <style=\"KKeyword\">Generator</style>"
+msgstr "Kann beim Anschluss an einen <style=\"KKeyword\">Generator</style> {0} <style=\"KKeyword\">Energie</style> speichern"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK"
-msgid "Imperfect buildings materials mean <style=\"consumed\">{0}</style> battery charge will be lost as <style=\"KKeyword\">Heat</style>"
-msgstr "Mangelhafte Baumaterialien führen dazu, dass <style=\"consumed\">{0}</style> Batterieladung als <style=\"KKeyword\">Wärme</style> verloren geht"
+msgid "<style=\"consumed\">{0}</style> of this battery's charge will be lost as <style=\"KKeyword\">Heat</style>"
+msgstr "<style=\"consumed\">{0}</style> der Ladung dieser Batterie geht als <style=\"KKeyword\">Wärme</style> verloren"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE"
@@ -41046,6 +41085,11 @@ msgstr ""
 "    • Dicke der Isolierung\n"
 "    • Wärmeleitfähigkeit"
 
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE"
+msgid "Stops heating when the surrounding average <style=\"KKeyword\">Tempature</style> is above <b>{0}</b>"
+msgstr "Stoppt die Erhitzung, wenn die umgebende <style=\"KKeyword\">Durchschnittstempature</style> über <b>{0}</b> steigt"
+
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED"
 msgid ""
@@ -41176,8 +41220,8 @@ msgstr "Dieses Material zu verarbeiten produziert <style=\"KKeyword\">{0}</style
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSES
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSES"
-msgid "This building processes raw materials into refined materials"
-msgstr "Dieses Gebäude verarbeitet rohe Materialien zu veredelten"
+msgid "Processes raw materials into refined materials"
+msgstr "Verarbeitet Rohstoffe zu veredelten Materialien"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS"
@@ -43068,6 +43112,26 @@ msgctxt "STRINGS.UI.DUPLICANTPRINTING"
 msgid "Duplicant Printing"
 msgstr "Duplikant wird gedruckt"
 
+#. STRINGS.UI.ELEMENTAL.AGE.NAME
+msgctxt "STRINGS.UI.ELEMENTAL.AGE.NAME"
+msgid "Age: {0}"
+msgstr "Alter: {0}"
+
+#. STRINGS.UI.ELEMENTAL.AGE.TOOLTIP
+msgctxt "STRINGS.UI.ELEMENTAL.AGE.TOOLTIP"
+msgid "The selected object is {0} cycles old"
+msgstr "Der ausgewählte Objekt ist {0} Zyklen alt"
+
+#. STRINGS.UI.ELEMENTAL.AGE.UNKNOWN
+msgctxt "STRINGS.UI.ELEMENTAL.AGE.UNKNOWN"
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#. STRINGS.UI.ELEMENTAL.AGE.UNKNOWN_TOOLTIP
+msgctxt "STRINGS.UI.ELEMENTAL.AGE.UNKNOWN_TOOLTIP"
+msgid "The age of the selected object is unknown"
+msgstr "Das Alter des ausgewählten Objekts ist nicht bekannt"
+
 #. STRINGS.UI.ELEMENTAL.CONDUCTIVITYBARRIER.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.CONDUCTIVITYBARRIER.NAME"
 msgid "Insulation Thickness: {0}"
@@ -43229,6 +43293,12 @@ msgstr "Stapeleinheiten: {0}"
 msgctxt "STRINGS.UI.ELEMENTAL.UNITS.TOOLTIP"
 msgid "This stack contains {0} units of {1}"
 msgstr "Dieser Stapel enthält {0} Stück {1}"
+
+#. STRINGS.UI.ELEMENTAL.UPTIME.NAME
+#, fuzzy
+msgctxt "STRINGS.UI.ELEMENTAL.UPTIME.NAME"
+msgid "Uptime: ({0}/ {1}/ {2}) {3}/ {4}/ {5}"
+msgstr "Betriebszeit: ({0}/ {1}/ {2}) {3}/ {4}/ {5}"
 
 #. STRINGS.UI.ELEMENTAL.VAPOURIZATIONPOINT.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.VAPOURIZATIONPOINT.NAME"
@@ -45316,20 +45386,6 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
 "<b>Welcome to the Launch Upgrade! ONI Has Launched!</b>\n"
 "\n"
-"{0}"
-msgstr ""
-"<b>Willkommen zum Launch-Upgrade! ONI ist endlich gestartet!</b>\n"
-"\n"
-"{0}"
-
-#. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON
-msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON"
-msgid "OK"
-msgstr "OK"
-
-#. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES
-msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
-msgid ""
 "<b>Update Features:</b>\n"
 "\n"
 "• New asteroid selections with 3 new biomes to explore and exploit\n"
@@ -45340,6 +45396,8 @@ msgid ""
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
+"<b>Wilkkommen zum Lauch-Upgrade! ONI wurde veröffentlicht!</b>\n"
+"\n"
 "<b>Update-Features:</b>\n"
 "\n"
 "• Neue Auswahl an Asteroiden mit 3 neuen Biomen zur Erkundung und Ausbeutung\n"
@@ -45350,10 +45408,10 @@ msgstr ""
 "\n"
 "Schau dir die vollständigen Notizen für alle Details an!"
 
-#. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
-msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "LAUNCH UPGRADE"
-msgstr "LAUNCH UPGRADE"
+#. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON
+msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON"
+msgid "OK"
+msgstr "OK"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.COLONY_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.COLONY_SUMMARY"
@@ -47722,29 +47780,30 @@ msgid "Producer"
 msgstr "Erzeuger"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND4
+#, fuzzy
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND4"
-msgid "<b>CIRCUIT POWER LOAD</b>"
-msgstr "<b>SCHALTKREIS-AUSLASTUNG</b>"
+msgid "<b>CIRCUIT POWER HEALTH</b>"
+msgstr "<b>ZUSTAND DES STROMKREISES</b>"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND5"
-msgid "Energy Surplus"
-msgstr "Energieüberschuss"
+msgid "Inactive"
+msgstr "Inaktiv"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND6
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND6"
-msgid "Strained"
-msgstr "Ausgelastet"
+msgid "Safe"
+msgstr "Sicher"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7"
-msgid "Overloaded"
-msgstr "Überlastet"
+msgid "Strained"
+msgstr "Ausgelastet"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND8
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND8"
-msgid "Underpowered"
-msgstr "Unterversorgt"
+msgid "Overloaded"
+msgstr "Überlastet"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.NAME
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.NAME"
@@ -47785,45 +47844,44 @@ msgstr ""
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND4
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND4"
-msgid "Displays the power load on wire systems"
-msgstr "Zeigt die Leistungsbelastung von Schaltkreisen an"
+msgid "Displays the health of wire systems"
+msgstr "Zeigt den Zustand von Kabelsystemen an"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND5"
 msgid ""
-"<b>Energy Surplus</b>\n"
-"These circuits produce more power than they can consume"
+"<b>Inactive</b>\n"
+"There is no power activity on these circuits"
 msgstr ""
-"<b>Energieüberschuss</b>\n"
-"Dieser Schaltkreis produziert mehr Leistung als er verbraucht"
+"<b>Inaktiv</b>\n"
+"Es gibt keine Stromaktivität auf diesen Stromkreisen"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND6
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND6"
 msgid ""
-"<b>Strained</b>\n"
-"These circuits consume nearly all power they produce, but can still function as intended"
+"<b>Safe</b>\n"
+"These circuits are not in danger of overloading"
 msgstr ""
-"<b>Ausgelastet</b>\n"
-"Diese Schaltkreis verbraucht fast allen verfügbaren Strom, funktioniert aber noch wie vorgesehen"
+"<b>Sicher</b>\n"
+"Diese Stromkreise sind nicht gefährdet, überlastet zu werden"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND7
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND7"
-msgid "Too much power being drawn from system"
-msgstr "Zu viel Strom wird im System verbraucht"
+msgid ""
+"<b>Strained</b>\n"
+"These circuits are close to consuming more power than their wires support"
+msgstr ""
+"<b>Ausgelastet</b>\n"
+"Diese Schaltungen verbrauchen beinahe mehr Strom als ihre Kabel zulassen"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND8
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND8"
 msgid ""
-"<b>Underpowered</b>\n"
-"These circuits consume more power than they can produce\n"
-"------------------\n"
-"Buildings may be frequently shut off when connected to underpowered circuits"
+"<b>Overloaded</b>\n"
+"These circuits are consuming more power than their wires support"
 msgstr ""
-"<b>Unterversorgt</b>\n"
-"Dieser Schaltkreis verbraucht mehr Leistung als produziert wird\n"
-"------------------\n"
-"\n"
-"Gebäude können häufig abgeschaltet werden, wenn sie auf unterversorgten Stromkreisen betrieben werden"
+"<b>Überlastet</b>\n"
+"Diese Schaltungen verbrauchen mehr Strom als ihre Kabel zulassen"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.BUTTON"
@@ -48548,13 +48606,13 @@ msgstr "Nicht atembar"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND5"
-msgid "Slightly Toxic"
-msgstr "Leicht giftig"
+msgid "Barely Breathable"
+msgstr "Kaum atembar"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6"
-msgid "Very Toxic"
-msgstr "Sehr giftig"
+msgid "Unbreathable"
+msgstr "Nicht atembar"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.NAME
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.NAME"
@@ -49077,6 +49135,11 @@ msgstr ""
 "Zählt alle nicht zugewiesenen Ressourcen in Reichweite\n"
 "------------------\n"
 "Klicken um zu erweitern"
+
+#. STRINGS.UI.RESOURCESCREEN.HEADER
+msgctxt "STRINGS.UI.RESOURCESCREEN.HEADER"
+msgid "RESOURCES"
+msgstr "RESSOURCEN"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.BUILDING_COUNT
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.BUILDING_COUNT"
@@ -50520,10 +50583,38 @@ msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP"
 msgid "Delete Schedule"
 msgstr "Zeitplan löschen"
 
+#. STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE
+msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE"
+msgid "Delete Schedule"
+msgstr "Zeitplan löschen"
+
+#. STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE_TOOLTIP"
+msgid "Remove this schedule and unassign all Duplicants from it"
+msgstr "Löscht diesen Zeitplan und entfernt alle Duplikanten von ihm"
+
 #. STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE"
 msgid "Downtime Morale: {0}"
 msgstr "Freizeit-Moral: {0}"
+
+#. STRINGS.UI.SCHEDULESCREEN.DUPLICANT_EARLYBIRD_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.DUPLICANT_EARLYBIRD_TOOLTIP"
+msgid ""
+"Early Bird\n"
+"• All <style=\"KKeyword\">Attributes</style> <b>+2</b> in the morning"
+msgstr ""
+"Lerche\n"
+"• Alle <style=\"KKeyword\">Attribute</style> <b>+2</b> am Morgen"
+
+#. STRINGS.UI.SCHEDULESCREEN.DUPLICANT_NIGHTOWL_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.DUPLICANT_NIGHTOWL_TOOLTIP"
+msgid ""
+"Night Owl\n"
+"• All <style=\"KKeyword\">Attributes</style> <b>+3</b> at night"
+msgstr ""
+"Nachteule\n"
+"• Alle <style=\"KKeyword\">Attribute</style> <b>+2</b> am Morgen"
 
 #. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
@@ -50531,7 +50622,6 @@ msgid "Paint Tools:"
 msgstr "Zeitblöcke:"
 
 #. STRINGS.UI.SCHEDULESCREEN.POO
-#, fuzzy
 msgctxt "STRINGS.UI.SCHEDULESCREEN.POO"
 msgid "dar"
 msgstr "dar"
@@ -50548,14 +50638,8 @@ msgstr "Schichten zurücksetzen"
 
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS_TOOLTIP"
-msgid ""
-"<b>Reset Shifts</b>\n"
-"------------------\n"
-"Restore this schedule to default shifts"
-msgstr ""
-"<b>Schichten zurücksetzen</b>\n"
-"------------------\n"
-"Stellen den Zeitplan auf Standardschichten zurück"
+msgid "Restore this schedule to default shifts"
+msgstr "Stellen den Zeitplan auf Standardschichten zurück"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE"
@@ -51479,8 +51563,8 @@ msgstr "Ziel außer Reichweite"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
-msgid "Select a destination from the starmap"
-msgstr "Wähle ein Ziel in dern Sternenkarte"
+msgid "Select a destination from the Starmap"
+msgstr "Wähle ein Ziel in der Sternenkarte"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE"
@@ -53522,7 +53606,7 @@ msgstr "Klicken um eigene Berechtigungen zu löschen"
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.TITLE"
 msgid "Door Access Control"
-msgstr "Türzugriffskontrolle"
+msgstr "Türzugangskontrolle"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.USING_CUSTOM
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.USING_CUSTOM"
@@ -54972,10 +55056,10 @@ msgstr ""
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.NO_SELECTED_ANALYSIS_TARGET"
 msgid ""
 "No analysis focus selected.\n"
-"Open the starmap to selected a focus."
+"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a focus."
 msgstr ""
 "Kein Analysefokus ausgewählt.\n"
-"Öffnen die Sternenkarte, um einen Fokus auszuwählen."
+"Öffnen die <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color, um einen Fokus auszuwählen."
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON"
@@ -56289,8 +56373,8 @@ msgstr "Forschung wählen"
 
 #. STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP"
-msgid "Choose a technology from the Research Tree <color=#F44A47><b>[R]</b></color>"
-msgstr "Wähle eine Forschung aus dem Forschungsbaum aus <color=#F44A47><b>[R]</b></color>"
+msgid "Choose a technology from the <b>Research Tree</b> <b><color=#F44A4A>[R]</b></color>"
+msgstr "Wähle eine Forschung aus dem <b>Forschungsbaum</b> aus <b><color=#F44A4A>[R]</b></color>"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME"
@@ -57618,6 +57702,131 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP"
+#~ msgid "The current load on this circuit"
+#~ msgstr "Die aktuelle Belastung dieser Schaltung"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME"
+#~ msgid "Max Wattage: {WireMaxWattage}"
+#~ msgstr "Maximaler Stromverbrauch: {WireMaxWattage}"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.TOOLTIP"
+#~ msgid "The maximum wattage that this wire can safely sustain"
+#~ msgstr "Der maximale Stromverbrauch, den dieses Kabel sicher aushält"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.EFFECT"
+#~ msgid "Stores most runoff <link=\"POWER\">Power</link> from generators, but loses charge over time."
+#~ msgstr "Speichert Teile der überschüssigen <link=\"POWER\">Energie</link> von Generatoren, aber verliert mit der Zeit Ladung."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
+#~ msgid "Smart batteries send an active automation signal when they require charging."
+#~ msgstr "Intelligente Batterien senden ein Automatisierungssignal, wenn sie aufgeladen werden müssen."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC"
+#~ msgid "Tepidizers kill waterborne germs and heat liquid to perfect showering temperature."
+#~ msgstr "Erwärmer töten Wasserkeime und erhitzen Flüssigkeiten auf die perfekte Temperatur zum Duschen."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
+#~ msgid "Shh! It only transforms when no one's looking."
+#~ msgstr "Shh! Es wandelt nur um, wenn niemand schaut."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
+#~ msgid ""
+#~ "Protects circuits from overloading by increasing or decreasing <link=\"POWER\">Power</link> flow.\n"
+#~ "\n"
+#~ "Stores a great deal of <link=\"POWER\">Power</link>."
+#~ msgstr ""
+#~ "Schützt Schaltungen vor Überlastung durch Erhöhen oder Senken des zur Verfügung gestellten <link=\"POWER\">Energieflusses</link>.\n"
+#~ "\n"
+#~ "Speichert viel <link=\"POWER\">Energie</link>."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
+#~ msgid "Transformers prevent buildings from frying on circuits with powerful generators."
+#~ msgstr "Transformatoren verhindern das Durchbrennen von Kabeln in Stromkreisen mit leistungsstarken Generatoren."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
+#~ msgid ""
+#~ "Protects circuits from overloading by increasing or decreasing <link=\"POWER\">Power</link> flow.\n"
+#~ "\n"
+#~ "Stores the <link=\"POWER\">Power</link> that is fed into it."
+#~ msgstr ""
+#~ "Schützt Schaltungen vor Überlastung durch Erhöhen oder Senken des zur Verfügung gestellten <link=\"POWER\">Energieflusses</link>.\n"
+#~ "\n"
+#~ "Speichert die <link=\"POWER\">Energie</link> die eingespeist wird."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT"
+#~ msgid ""
+#~ "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">WIRE</link> without overloading.\n"
+#~ "\n"
+#~ "Cannot be run through wall and floor tile."
+#~ msgstr ""
+#~ "Transportiert eine höhere <link=\"POWER\">Wattzahl</link> als normale Kabel ohne zu überladen.\n"
+#~ "\n"
+#~ "Kann nicht in Wand- und Bodenziegeln verlegt werden."
+
+#~ msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEARNOSTORAGE.TOOLTIP"
+#~ msgid "No available storage lockers can accept this item"
+#~ msgstr "Keine verfügbaren Lagerplätze können diesen Gegenstand akzeptieren"
+
+#~ msgctxt "STRINGS.UI.BUILDINGEFFECTS.BATTERYLEAK"
+#~ msgid "<link=\"POWER\">Power</link> runoff: {0}"
+#~ msgstr "<link=\"POWER\">Energieverbrauch</link>: {0}"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
+#~ msgid ""
+#~ "<b>Welcome to the Launch Upgrade! ONI Has Launched!</b>\n"
+#~ "\n"
+#~ "{0}"
+#~ msgstr ""
+#~ "<b>Willkommen zum Launch-Upgrade! ONI ist endlich gestartet!</b>\n"
+#~ "\n"
+#~ "{0}"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
+#~ msgid "LAUNCH UPGRADE"
+#~ msgstr "LAUNCH UPGRADE"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND5"
+#~ msgid "Energy Surplus"
+#~ msgstr "Energieüberschuss"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND8"
+#~ msgid "Underpowered"
+#~ msgstr "Unterversorgt"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND6"
+#~ msgid ""
+#~ "<b>Strained</b>\n"
+#~ "These circuits consume nearly all power they produce, but can still function as intended"
+#~ msgstr ""
+#~ "<b>Ausgelastet</b>\n"
+#~ "Diese Schaltkreis verbraucht fast allen verfügbaren Strom, funktioniert aber noch wie vorgesehen"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND7"
+#~ msgid "Too much power being drawn from system"
+#~ msgstr "Zu viel Strom wird im System verbraucht"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND8"
+#~ msgid ""
+#~ "<b>Underpowered</b>\n"
+#~ "These circuits consume more power than they can produce\n"
+#~ "------------------\n"
+#~ "Buildings may be frequently shut off when connected to underpowered circuits"
+#~ msgstr ""
+#~ "<b>Unterversorgt</b>\n"
+#~ "Dieser Schaltkreis verbraucht mehr Leistung als produziert wird\n"
+#~ "------------------\n"
+#~ "\n"
+#~ "Gebäude können häufig abgeschaltet werden, wenn sie auf unterversorgten Stromkreisen betrieben werden"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND5"
+#~ msgid "Slightly Toxic"
+#~ msgstr "Leicht giftig"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND6"
+#~ msgid "Very Toxic"
+#~ msgstr "Sehr giftig"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
 #~ msgid ""
@@ -62467,13 +62676,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_POWER_INPUT_OBSTRUCTED"
 #~ msgid "Power input obstructed"
 #~ msgstr "Lüftung versperrt"
-
-#, fuzzy
-#~| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME"
-#~| msgid "Power Output"
-#~ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_POWER_OUTPUT_OBSTRUCTED"
-#~ msgid "Power output obstructed"
-#~ msgstr "Ausgangsleistung"
 
 #, fuzzy
 #~| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
