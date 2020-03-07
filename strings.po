@@ -1315,23 +1315,20 @@ msgstr ""
 "Feedbackschleifen treten auf, wenn die <style=\"KKeyword\">Ausgabe</style> eines automatisierten Gebäudes zurück zu dessen <style=\"KKeyword\">Eingabe</style> geführt wird"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.OVERLOADED.NAME"
-#| msgid "Damage: Overloading"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.NAME"
 msgid "Damage: Overloading"
 msgstr "Schaden: Überlastet"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_OUTPUT_WIRE"
-#| msgid "The <style=\"KKeyword\">Power</style> provided by the the small <style=\"KKeyword\">Output</style> will be limited to {0}."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Logic Wire</style> is taking damage.\n"
 "\n"
 "Use a <style=\"KKeyword\">Logic Ribbon</style> instead, or limit the output to one Bit."
-msgstr "Diese <style=\"KKeyword\">Energie</style> wird von einem kleinen <style=\"KKeyword\">Ausgang</style> bereitgestellt und ist begrenzt auf {0}."
+msgstr ""
+"Dieser <style=\"KKeyword\">Logikdraht</style> nimmt Schaden\n"
+"\n"
+"Verwende stattdessen ein <style=\"KKeyword\">Logikband</style> oder beschränke die Ausgabe auf ein Bit."
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME"
@@ -3224,12 +3221,9 @@ msgid "neighboring liquid pressure"
 msgstr "benachbarten Flüssigkeitsdruck"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.LOGIC_CIRCUIT_OVERLOADED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CIRCUIT_OVERLOADED"
-#| msgid "an overloaded circuit"
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.LOGIC_CIRCUIT_OVERLOADED"
 msgid "an overloaded logic circuit"
-msgstr "eine überlastete Schaltung"
+msgstr "eine überlastete Logikschaltung"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE"
@@ -3544,20 +3538,14 @@ msgid "<link=\"BATTERYMEDIUM\">Jumbo Battery</link>"
 msgstr "<link=\"BATTERYMEDIUM\">große Batterie</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than <b>Low Threshold</b> charged"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
 msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than <b>{0}%</b> charged, until it is <b>{1}% (High Threshold)</b> charged"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die Batterie weniger als der <b>untere Schwellwert</b> geladen ist"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die Batterie weniger als <b>{0}%</b> und nicht mehr wie <b>{1}% (Oberer Schwellwert)</b> geladen ist"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than <b>Low Threshold</b> charged"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
 msgid "Sends a <b><color=#f44a47>Red Signal</b></color> when battery is <b>{0}%</b> charged, until it is less than <b>{1}% (Low Threshold)</b> charged"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die Batterie weniger als der <b>untere Schwellwert</b> geladen ist"
+msgstr "Sendet ein <b><color=#f44a47>Rotes Signal</b></color>, wenn die Batterie eine Ladung von <b>{0}%</b> hat und nicht unter <b>{1}% (unterer Schwellwert)</b> geladen ist"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
@@ -3585,12 +3573,9 @@ msgid "Charge Parameters"
 msgstr "Ladeparameter"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
-#| msgid "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more than <b>High Threshold</b> charged, until <b>Low Threshold</b> is reached again"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than <b>Low Threshold</b> charged, until <b>High Threshold</b> is reached again"
-msgstr "Sendet ein <b><color=#f44a47>Rotes Signal</b></color>, wenn die Batterie höher als der <b>obere Schwellwert</b> geladen ist, bis der <b>untere Schwellwert</b> wieder erreicht wird"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die Batterie niedriger als der <b>untere Schwellwert</b> geladen ist, bis der <b>obere Schwellwert</b> wieder erreicht wird"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
@@ -6444,12 +6429,9 @@ msgid "<link=\"LIQUIDVENT\">Liquid Vent</link>"
 msgstr "<link=\"LIQUIDVENT\">Auslauf</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME"
-#| msgid "Sending a <b><color=#57b95e>Green Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.DESC"
 msgid "Sends a notification when it receives a <b><color=#57b95e>Green Signal</b></color>."
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>"
+msgstr "Sendet eine Benachrichtigung wenn ein <b><color=#57b95e>grünes Signal</b></color> empfangen wird."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.EFFECT"
@@ -6460,44 +6442,29 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_NAME"
-#| msgid "INPUT"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_NAME"
 msgid "INPUT"
 msgstr "EINGANG"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Launch rocket"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Push notification"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Startet Rakete"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Push-Benachrichtigung"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: No effect"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
 msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Kein Effekt"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
-#| msgid "Debug Notification"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT"
 msgid "Notification"
-msgstr "Debug Notification"
+msgstr "Benachrichtigung"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AUTOMATION.TITLE"
-#| msgid "<link=\"LOGIC\">Automation</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.NAME"
 msgid "<link=\"LOGICALARM\">Automated Notifier</link>"
-msgstr "<link=\"LOGIC\">Automatisierung</link>"
+msgstr "<link=\"LOGICALARM\">Automatischer Notifier</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.DESC"
@@ -6505,34 +6472,22 @@ msgid "For numbers higher than ten connect multiple counters together."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.EFFECT"
-#| msgid ""
-#| "Outputs a <b><color=#57b95e>Green Signal</b></color> if the Input is receiving a <b><color=#57b95e>Green Signal</b></color>.\n"
-#| "\n"
-#| "Continues sending a <b><color=#57b95e>Green Signal</b></color> for an amount of buffer time after the Input receives a <b><color=#f44a47>Red Signal</b></color>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.EFFECT"
 msgid ""
 "Counts how many times a <b><color=#57b95e>Green Signal</b></color> has been received up to a chosen number.\n"
 "\n"
 "When the chosen number is reached it sends a <b><color=#57b95e>Green Signal</b></color> until it receives another <b><color=#57b95e>Green Signal</b></color> to start the count over."
 msgstr ""
-"Gibt ein <b><color=#57b95e>Grünes Signal</b></color> aus, wenn der Eingang ein <b><color=#57b95e>Grünes Signal</b></color> empfängt.\n"
+"Zählt wie viele <b><color=#57b95e>grüne Signale</b></color> erhalten wurden, dis zu einem eingestelltem Wert.\n"
 "\n"
-"Sendet weiterhin ein <b><color=#57b95e>Grünes Signal</b></color> für eine Zeitspanne, nachdem der Eingang ein <b><color=#f44a47>Rotes Signal</b></color> empfängt."
+"Wenn der eingestellte Wert erreicht ist, wird ein <b><color=#57b95e>grünes Signal</b></color> gesendet, dis ein weiteres <b><color=#57b95e>grünes Signal</b></color> erhalten wird, um den Zähler neu zu starten."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Launch rocket"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Increase counter by one"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Startet Rakete"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: erhöht Zähler um eins"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: No effect"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
 msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Kein Effekt"
@@ -6549,68 +6504,44 @@ msgstr ""
 
 # Beruf oder Aufgabe?
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_RESET
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE"
-#| msgid "Reset Port"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_RESET"
 msgid "Reset Counter"
-msgstr "Anschluss zurücksetzen"
+msgstr "Zähler zurücksetzen"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.LOGICCONTROL.NAME"
-#| msgid "<link=\"LOGICCONTROL\">Smart Home</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.NAME"
 msgid "<link=\"LOGICCOUNTER\">Signal Counter</link>"
-msgstr "<link=\"LOGICCONTROL\">Heimautomatisierung</link>"
+msgstr "<link=\"LOGICCOUNTER\">Signalzähler</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.LOGIC_PORT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> if the number of Germs is within the selected range"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_ACTIVE"
 msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when the counter matches the selected value"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die Anzahl der Keime im Rohr innerhalb des gewählten Bereichs liegt"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color>, wenn der Zähler mit dem ausgewählten Wert übereinstimmt"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
-msgstr "Andernfalls wird ein <b><color=#f44a47>Rotes Signal</b></color> gesendet"
+msgstr "Andernfalls wird ein <b><color=#f44a47>rotes Signal</b></color> gesendet"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Open"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Reset counter"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Offen"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Zähler zurücksetzen"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: No effect"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
 msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Kein Effekt"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_CRITTER_LABEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.UNITS_SUFFIX"
-#| msgid " Critters"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_CRITTER_LABEL"
 msgid "Count Critters"
-msgstr " Tiere"
+msgstr "Zählt Tiere"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_EGG_LABEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.TITLE"
-#| msgid "Critter Eggs"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_EGG_LABEL"
 msgid "Count Eggs"
-msgstr "Tier-Eier"
+msgstr "Zählt Tier-Eier"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC"
@@ -6643,12 +6574,9 @@ msgid "<link=\"LOGICCRITTERCOUNTSENSOR\">Critter Sensor</link>"
 msgstr "<link=\"LOGICCRITTERCOUNTSENSOR\">Tier-Sensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.SIDESCREEN_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
-#| msgid "Critter Count Sensor"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.SIDESCREEN_TITLE"
 msgid "Critter Sensor"
-msgstr "Tierzähl-Sensor"
+msgstr "Tier-Sensor"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC"
@@ -6763,12 +6691,9 @@ msgstr ""
 "Sendet ein <b><color=#f44a47>Rotes Signal</b></color> wenn die <link=\"ELEMENTSLIQUID\">Flüssigkeit</link> nicht vorhanden ist."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT"
-#| msgid "Specific<link=\"ELEMENTSLIQUID\">Liquid</link> Presence"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT"
 msgid "Specific <link=\"ELEMENTSLIQUID\">Liquid</link> Presence"
-msgstr "Spezifische <link=\"ELEMENTSLIQUID\">Flüssigkeitspräsenz</link>"
+msgstr "Spezifische <link=\"ELEMENTSLIQUID\">Flüssigkeits</link>präsenz"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE"
@@ -6871,33 +6796,21 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME"
-#| msgid "<link=\"ALGAEDISTILLERY\">Algae Distiller</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME"
 msgid "<link=\"LOGICGATEDEMULTIPLEXER\">Signal Distributor</link>"
-msgstr "<link=\"ALGAEDISTILLERY\">Algen-Destillerie</link>"
+msgstr "<link=\"LOGICGATEDEMULTIPLEXER\">Signalverteiler</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> if receiving <b><color=#f44a47>Red</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_ACTIVE"
 msgid "Sends a <b><color=#57b95e>Green</b></color> or <b><color=#f44a47>Red</b></color> signal to the selected output"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn <b><color=#f44a47>Rot</b></color> empfangen wird"
+msgstr "Sendet ein <b><color=#57b95e>grünes</b></color> oder <b><color=#f44a47>rotes</b></color>Signal zum Ausgewähltem Ausgang"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER_NONE"
-#| msgid "Nothing"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_INACTIVE"
 msgid "Nothing"
 msgstr "Nichts"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_NAME"
 msgid "OUTPUT"
 msgstr "AUSGANG"
@@ -6952,33 +6865,21 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME"
-#| msgid "<link=\"LOGICSWITCH\">Signal Switch</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME"
 msgid "<link=\"LOGICGATEMULTIPLEXER\">Signal Selector</link>"
-msgstr "<link=\"LOGICSWITCH\">Signalschalter</link>"
+msgstr "<link=\"LOGICGATEMULTIPLEXER\">Signalwähler</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> if receiving <b><color=#f44a47>Red</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_ACTIVE"
 msgid "Receives a <b><color=#57b95e>Green</b></color> or <b><color=#f44a47>Red</b></color> signal from the selected input"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn <b><color=#f44a47>Rot</b></color> empfangen wird"
+msgstr "Empfängt ein <b><color=#57b95e>grünes</b></color> oder <b><color=#f44a47>rotes</b></color> Signal vom ausgewähltem Eingang"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER_NONE"
-#| msgid "Nothing"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_INACTIVE"
 msgid "Nothing"
 msgstr "Nichts"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_NAME"
 msgid "OUTPUT"
 msgstr "AUSGANG"
@@ -7094,7 +6995,7 @@ msgstr "AUSGANG"
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.DESC"
 msgid "The hammer makes neat sounds when it strikes buildings."
-msgstr ""
+msgstr "Der Hammer macht ordentliche Geräusche, wenn er auf Gebäude trifft."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.EFFECT"
@@ -7103,46 +7004,34 @@ msgid ""
 "\n"
 "Each building has a unique sound when struck by the hammer. The hammer does no damage when it strikes."
 msgstr ""
+"In seiner Standardausrichtung schlägt der Hammer links auf das Gebäude, wenn er ein<b><color = # 57b95e> grünes Signal</b></color> empfängt.\n"
+"\n"
+"Jedes Gebäude hat einen einzigartigen Klang, wenn es vom Hammer getroffen wird. Der Hammer fügt beim Schlagen keinen Schaden zu."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_NAME"
-#| msgid "INPUT"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_NAME"
 msgid "INPUT"
 msgstr "EINGANG"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Launch rocket"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Hammer strikes once"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Startet Rakete"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Hammer schlägt einmal zu"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: No effect"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
 msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Kein Effekt"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.TOOL.ROTATEBUILDING"
-#| msgid "Rotate Building"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.LOGIC_PORT"
 msgid "Resonating Buildings"
-msgstr "Gebäude drehen"
+msgstr "Resonierendes Gebäude "
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
-#| msgid "<link=\"LOGICGATEOR\">OR Gate</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.NAME"
 msgid "<link=\"LOGICHAMMER\">Hammer</link>"
-msgstr "<link=\"LOGICGATEOR\">ODER-Gatter</link>"
+msgstr "<link=\"LOGICHAMMER\">Hammer</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC"
@@ -7338,69 +7227,45 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AUTOMATION.TITLE"
-#| msgid "<link=\"LOGIC\">Automation</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.NAME"
 msgid "<link=\"LOGICRIBBON\">Automation Ribbon</link>"
-msgstr "<link=\"LOGIC\">Automatisierung</link>"
+msgstr "<link=\"LOGICRIBBON\">Automatisierungs-Band</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.DESC"
-#| msgid "Wire bridges allow multiple automation grids to exist in a small area without connecting."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.DESC"
 msgid "Wire bridges allow multiple automation grids to exist in a small area without connecting."
 msgstr "Kabelbrücken erlauben mehrere Automatisierungsnetze in einem Bereich, ohne sie zu verbinden."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.EFFECT"
-#| msgid ""
-#| "Runs one <link=\"LOGICWIRE\">Automation Wire</link> section over another without joining them.\n"
-#| "\n"
-#| "Can be run through wall and floor tile."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.EFFECT"
 msgid ""
 "Runs one <link=\"LOGICRIBBON\">Automation Ribbon</link> section over another without joining them.\n"
 "\n"
 "Can be run through wall and floor tile."
 msgstr ""
-"Leitet <link=\"LOGICWIRE\">Automatisierungskabel</link> über ein andere ohne sie zu verbinden.\n"
+"Leitet <link=\"LOGICRIBBON\">Automatisierungs-Band</link> über ein andere ohne sie zu verbinden.\n"
 "\n"
 "Kann in Wand- und Bodenziegeln verlegt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT"
-#| msgid "Transmit Signal"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT"
 msgid "Transmit Signal"
-msgstr "Übertragungssignal"
+msgstr "Signal senden"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Pass through the <b><color=#57b95e>Green Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Pass through the <b><color=#57b95e>Green Signal</b></color>"
 msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Passieren des <b><color=#57b95e>Grünen Signals</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: Pass through the <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Pass through the <b><color=#f44a47>Red Signal</b></color>"
 msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Passieren des <b><color=#f44a47>Roten Signals</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME"
-#| msgid "<link=\"LOGICWIREBRIDGE\">Automation Wire Bridge</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME"
 msgid "<link=\"LOGICRIBBONBRIDGE\">Automation Ribbon Bridge</link>"
-msgstr "<link=\"LOGICWIREBRIDGE\">Automatisier­ungs-Kabelbrücke</link>"
+msgstr "<link=\"LOGICRIBBONBRIDGE\">Automatisier­ungs-Bandbrücke</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC"
@@ -7408,39 +7273,24 @@ msgid "Inputs the signal from a single Bit in an <link=\"LOGICRIBBON\">Automatio
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red Signal</b></color> on an <link=\"LOGIC\">Automation</link> grid.\n"
-#| "\n"
-#| "Must be manually toggled by a Duplicant."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.EFFECT"
 msgid "Reads a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red Signal</b></color> from the specified Bit of an <link=\"LOGICRIBBON\">Automation Ribbon</link> onto an <link=\"LOGICWIRE\">Automation Wire</link>."
-msgstr ""
-"Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder ein <b><color=#f44a47>Rotes Signal</b></color> an ein <link=\"LOGIC\">Automatisierungsnetz</link>.\n"
-"\n"
-"Muss manuell von einem Duplikanten umgeschaltet werden."
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> oder ein <b><color=#f44a47>Rotes Signal</b></color> von einem bestimmten Bit eines <link=\"LOGICRIBBON\">Automatisier­ungs-Band</link> an ein <link=\"LOGICWIRE\">Automatisierungskabel</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_NAME"
 msgid "RIBBON INPUT"
-msgstr ""
+msgstr "BAND EINGANG"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Pass through the <b><color=#57b95e>Green Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Reads a <b><color=#57b95e>Green Signal</b></color> from selected Bit"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Passieren des <b><color=#57b95e>Grünen Signals</b></color>"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Liest ein <b><color=#57b95e>grünes Signal</b></color> von ausgewähltem Bit."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: Pass through the <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Reads a <b><color=#f44a47>Red Signal</b></color> from selected Bit"
-msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Passieren des <b><color=#f44a47>Roten Signals</b></color>"
+msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Liest ein <b><color=#f44a47>rotes Signas</b></color> von ausgewähltem Bit."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT"
@@ -7448,25 +7298,16 @@ msgid "4-Bit Input"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT_OUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.NAME"
-#| msgid "Building"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT_OUTPUT"
 msgid "Bit Reading"
-msgstr "Bauen"
+msgstr "Bit lesen"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
-#| msgid "<link=\"LOGICGATEOR\">OR Gate</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.NAME"
 msgid "<link=\"LOGICRIBBONREADER\">Ribbon Reader</link>"
-msgstr "<link=\"LOGICGATEOR\">ODER-Gatter</link>"
+msgstr "<link=\"LOGICRIBBONREADER\">Band Lesegerät</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_NAME"
 msgid "OUTPUT"
 msgstr "AUSGANG"
@@ -7618,9 +7459,6 @@ msgid "<link=\"LOGICSWITCH\">Signal Switch</link>"
 msgstr "<link=\"LOGICSWITCH\">Signalschalter</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.SIDESCREEN_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND_SWITCH"
-#| msgid "Switch"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.SIDESCREEN_TITLE"
 msgid "Signal Switch"
 msgstr "Schalter"
