@@ -9527,57 +9527,36 @@ msgid "Sends a <b><color=#57b95e>Green Signal</b></color> if the contained item 
 msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn das enthaltene Element innerhalb des ausgewählten Temperaturbereichs liegt"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgstr "Andernfalls wird ein <b><color=#f44a47>Rotes Signal</b></color> gesendet"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME"
-#| msgid "<link=\"GASCONDUITTEMPERATURESENSOR\">Gas Pipe Thermo Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME"
 msgid "<link=\"SOLIDCONDUITTEMPERATURESENSOR\">Conveyor Rail Thermo Sensor</link>"
-msgstr "<link=\"GASCONDUITTEMPERATURESENSOR\">Rohrgastem­peratursensor</link>"
+msgstr "<link=\"SOLIDCONDUITTEMPERATURESENSOR\">Förderschienen-Thermosensor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.DESC"
-#| msgid "All liquids are sent into the building's output pipe, except the liquid chosen for filtering."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.DESC"
 msgid "All solids are sent into the building's output conveyor, except the solid chosen for filtering."
-msgstr "Alle Flüssigkeiten werden zum Ausgangsrohr gesendet, mit Ausnahme der gefilterten Flüssigkeit."
+msgstr "Alle Feststoffe werden in den Ausgangsförderer des Gebäudes geleitet, mit Ausnahme des im Filter ausgewählten Feststoffs."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
-#| msgid "Sieves one <link=\"ELEMENTSGAS\">Gas</link> from the air, sending it into a dedicated <link=\"GASPIPING\">Pipe</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT"
 msgid "Separates one <link=\"ELEMENTSSOLID\">Solid</link> from the conveyor, sending it into a dedicated <link=\"SOLIDCONDUIT\">Conveyor Rail</link>."
-msgstr "Filtert ein <link=\"ELEMENTSGAS\">Gas</link> aus der Luft heraus und sendet es in eine separates <link=\"GASPIPING\">Rohr</link>."
+msgstr "Filtert ein <link=\"ELEMENTSSOLID\">Feststoffs</link> vom Förderband und sendet es auf ein separate <link=\"SOLIDCONDUIT\">Förderschiene</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.ELEMENT_NOT_SPECIFIED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
-#| msgid "Not Specified"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.ELEMENT_NOT_SPECIFIED"
 msgid "Not Specified"
 msgstr "Nicht definiert"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.NAME"
-#| msgid "<link=\"LIQUIDFILTER\">Liquid Filter</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.NAME"
 msgid "<link=\"SOLIDFILTER\">Solid Filter</link>"
-msgstr "<link=\"LIQUIDFILTER\">Flüssigkeits­filter</link>"
+msgstr "<link=\"SOLIDFILTER\">Feststofffilter</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.STATUS_ITEM
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.STATUS_ITEM"
-#| msgid "Filters: {0}"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.STATUS_ITEM"
 msgid "Filters: {0}"
 msgstr "Filtert: {0}"
@@ -9965,29 +9944,20 @@ msgid "Deploys a helpful little Sweepy robot."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.EFFECT"
-#| msgid ""
-#| "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n"
-#| "\n"
-#| "Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT"
 msgid ""
 "Stores <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSSOLID\">Solid Materials</link> debris from the Sweepy.\n"
 "\n"
 "Requires <link=\"POWER\">Power</link> to recharge the Sweepy."
 msgstr ""
-"Blockiert <link=\"ELEMENTSLIQUID\">Flüssigkeits-</link> und <link=\"ELEMENTSGAS\">Gasfluss</link>, hält den Druck zwischen den Bereichen.\n"
+"Speichert <link=\"ELEMENTSLIQUID\">Flüssigkeits-</link> und <link=\"ELEMENTSSOLID\">feste Materialien</link> von Sweepy. \n"
 "\n"
-"Wilde <link=\"CRITTERS\">Kreaturen</link> können die Tür nicht passieren."
+"Benötigt <link=\"POWER\">Energie</link>, um Sweepy aufzuladen."
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.NAME"
-#| msgid "<link=\"DOCTORSTATION\">Sick Bay</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
 msgid "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
-msgstr "<link=\"DOCTORSTATION\">Krankenstation</link>"
+msgstr "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION"
@@ -10016,9 +9986,6 @@ msgid "<link=\"SWITCH\">Switch</link>"
 msgstr "<link=\"SWITCH\">Schalter</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.SIDESCREEN_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND_SWITCH"
-#| msgid "Switch"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.SIDESCREEN_TITLE"
 msgid "Switch"
 msgstr "Schalter"
@@ -15988,20 +15955,14 @@ msgid "<link=\"RESEARCH\">Research</link>"
 msgstr "<link=\"RESEARCH\">Forschung</link>"
 
 #. STRINGS.CODEX.ROBOT_DESCRIPTORS.BATTERY.CAPACITY
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY"
-#| msgid "Storage capacity: {0}"
 msgctxt "STRINGS.CODEX.ROBOT_DESCRIPTORS.BATTERY.CAPACITY"
 msgid "Battery capacity: <b>{0} J</b>"
-msgstr "Lagerkapazität: {0}"
+msgstr "Batteriekapazität: <b>{0} J</b>"
 
 #. STRINGS.CODEX.ROBOT_DESCRIPTORS.STORAGE.CAPACITY
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.IGNORED_EFFECTS"
-#| msgid "Immune to <b>{0}</b>"
 msgctxt "STRINGS.CODEX.ROBOT_DESCRIPTORS.STORAGE.CAPACITY"
 msgid "Internal storage: <b>{0} Kg</b>"
-msgstr "Immun gegen <b>{0}</b>"
+msgstr "Internes Lager: <b>{0} Kg</b>"
 
 #. STRINGS.CODEX.ROYAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ROYAL.BODY.CONTAINER1"
@@ -16305,20 +16266,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.SWEEPY.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning"
 msgctxt "STRINGS.CODEX.SWEEPY.SUBTITLE"
 msgid "Cleaning Robot"
-msgstr "Reinigt"
+msgstr "Reinigungsroboter"
 
 #. STRINGS.CODEX.SWEEPY.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TRANSPORT.NAME"
-#| msgid "Sweep"
 msgctxt "STRINGS.CODEX.SWEEPY.TITLE"
 msgid "Sweepy"
-msgstr "Aufräumen"
+msgstr "Sweepy"
 
 #. STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1"
@@ -17317,12 +17272,9 @@ msgid "<link=\"SQUIRRELSPECIES\">Pip</link>"
 msgstr "<link=\"SQUIRRELSPECIES\">Pip</link>"
 
 #. STRINGS.CREATURES.FAMILY.SWEEPBOT
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEEL.NAME"
-#| msgid "<link=\"STEEL\">Steel</link>"
 msgctxt "STRINGS.CREATURES.FAMILY.SWEEPBOT"
 msgid "<link=\"SWEEPBOT\">Sweepys</link>"
-msgstr "<link=\"STEEL\">Stahl</link>"
+msgstr "<link=\"SWEEPBOT\">Sweepys</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.CRABSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.CRABSPECIES"
@@ -25193,9 +25145,6 @@ msgid "This Duplicant feels like someone's watching over them..."
 msgstr "Dieser Duplikant fühlt sich beobachtet..."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALGENERATORCHARGINGUP.NAME"
-#| msgid "Charging Up"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME"
 msgid "Charging"
 msgstr "Lädt auf"
@@ -36053,20 +36002,14 @@ msgid "Notes on my Duplicants' maneuverability"
 msgstr "Notizen zur Bewegungsfähigkeit meiner Duplikanten"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME"
-#| msgid "Circuit Overloaded"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.NAME"
 msgid "Logic Circuit Overloaded"
-msgstr "Stromkreis überlastet"
+msgstr "Logikschaltung überlastet"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP"
-#| msgid "These <link=\"WIRE\">Wire</link>s melted due to excessive current demands on their circuits"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.TOOLTIP"
 msgid "These <link=\"LOGICWIRE\">Automation Wire</link>s melted due to more bits of data being sent over them than they can support"
-msgstr "Diese <link=\"WIRE\">Kabel</link> sind geschmolzen, da die übertragene Leistung sie überlastet hat"
+msgstr "Dieser <link=\"LOGICWIRE\">Automatisierungsdraht</link> sind geschmolzen, weil mehr Daten über sie gesendet wurden, als sie unterstützen können"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
@@ -40244,12 +40187,9 @@ msgid "Sweeping advances in companion technology."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.AGRICULTURE.NAME"
-#| msgid "<link=\"AGRICULTURE\">Agriculture</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME"
 msgid "<link=\"ARTIFICIALFRIENDS\">Artificial Friends</link>"
-msgstr "<link=\"AGRICULTURE\">Landwirtschaft</link>"
+msgstr "<link=\"ARTIFICIALFRIENDS\">Künstliche Freunde</link>"
 
 #. STRINGS.RESEARCH.TECHS.ARTISTRY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ARTISTRY.DESC"
@@ -40707,12 +40647,9 @@ msgid "More choices for Automation signal distribution."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.MULTIPLEXING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS"
-#| msgid "<link=\"BUILDINGS\">Buildings</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.MULTIPLEXING.NAME"
 msgid "<link=\"MULTIPLEXING\">Multiplexing</link>"
-msgstr "<link=\"BUILDINGS\">Gebäude</link>"
+msgstr "<link=\"MULTIPLEXING\">Multiplexing</link>"
 
 #. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC"
@@ -40720,12 +40657,9 @@ msgid "Get all the news you need to know about your complex colony."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.SYSTEMS"
-#| msgid "<link=\"SYSTEMS\">Systems</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME"
 msgid "<link=\"NOTIFICATIONSYSTEMS\">Notification Systems</link>"
-msgstr "<link=\"SYSTEMS\">Systeme</link>"
+msgstr "<link=\"NOTIFICATIONSYSTEMS\">Benachrichtigungssysteme</link>"
 
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
@@ -40733,12 +40667,9 @@ msgid "Multi-wire automation at a fraction of the space."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.NAME"
-#| msgid "<link=\"BUILDCATEGORYAUTOMATION\">Automation</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.NAME"
 msgid "<link=\"PARALLELAUTOMATION\">Parallel Automation</link>"
-msgstr "<link=\"BUILDCATEGORYAUTOMATION\">Autom.</link>"
+msgstr "<link=\"PARALLELAUTOMATION\">Parallele Automatisierung.</link>"
 
 #. STRINGS.RESEARCH.TECHS.PLASTICS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PLASTICS.DESC"
@@ -40856,12 +40787,9 @@ msgid "High tech displays with lots of pretty colors."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.SCREENS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CEMENT.NAME"
-#| msgid "<link=\"CEMENT\">Cement</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.SCREENS.NAME"
 msgid "<link=\"SCREENS\">New Media</link>"
-msgstr "<link=\"CEMENT\">Zement</link>"
+msgstr "<link=\"SCREENS\">Neue Medien</link>"
 
 #. STRINGS.RESEARCH.TECHS.SKYDETECTORS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SKYDETECTORS.DESC"
@@ -40894,20 +40822,14 @@ msgid "<link=\"SMELTING\">Smelting</link>"
 msgstr "<link=\"SMELTING\">Schmelzen</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC"
-#| msgid "Naphtha is a distilled hydrocarbon mixture in a <link=\"ELEMENTSSOLID\">Solid</link> state."
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC"
 msgid "Make solid decisions in <link=\"ELEMENTSSOLID\">Solid</link> sorting."
-msgstr "Naphtha ist ein destilliertes Kohlenwasserstoffgemisch im <link=\"ELEMENTSSOLID\">festen</link> Zustand."
+msgstr "Trifft Solide Entscheidungen in der <link=\"ELEMENTSSOLID\">Feststoff</link>sortierung."
 
 #. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SANDCEMENT.NAME"
-#| msgid "<link=\"SANDCEMENT\">Sand Cement</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME"
 msgid "<link=\"SOLIDMANAGEMENT\">Solid Management</link>"
-msgstr "<link=\"SANDCEMENT\">Sand-Zement</link>"
+msgstr "<link=\"SOLIDMANAGEMENT\">Feststoff-Management</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
@@ -41072,12 +40994,9 @@ msgid "Unlocks cutting-edge technologies."
 msgstr "Schaltet hochmoderne Technologien frei."
 
 #. STRINGS.ROBOTS.CATEGORY_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEARTIFACTS.ROBOTARM.NAME"
-#| msgid "Robot Arm"
 msgctxt "STRINGS.ROBOTS.CATEGORY_NAME"
 msgid "Robots"
-msgstr "Roboterarm"
+msgstr "Roboter"
 
 #. STRINGS.ROBOTS.MODELS.SWEEPBOT.DESC
 msgctxt "STRINGS.ROBOTS.MODELS.SWEEPBOT.DESC"
@@ -41088,12 +41007,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ROBOTS.MODELS.SWEEPBOT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TRANSPORT.NAME"
-#| msgid "Sweep"
 msgctxt "STRINGS.ROBOTS.MODELS.SWEEPBOT.NAME"
 msgid "Sweepy"
-msgstr "Aufräumen"
+msgstr "Sweepy"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC"
@@ -41101,12 +41017,9 @@ msgid "Something is blocking this robot from reaching its base station"
 msgstr ""
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNREACHABLE.NAME"
-#| msgid "Cannot reach quarantine"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME"
 msgid "Can't reach base station"
-msgstr "Kann Quarantäne nicht erreichen"
+msgstr "Kann Basisstation nicht erreichen"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP"
@@ -41119,12 +41032,9 @@ msgid "This robot must return to its base station to unload"
 msgstr ""
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.NAME"
-#| msgid "Output Pipe Full"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME"
 msgid "Dust Bin Full"
-msgstr "Ausgangsrohr voll"
+msgstr "Staubbehälter voll"
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP"
@@ -42360,12 +42270,9 @@ msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
 msgstr "<link=\"HEAT\">Kühlungseffekt</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MAX_BITS
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.EMITS_LIGHT_LUX"
-#| msgid "<link=\"LIGHT\">Brightness</link>: {0} Lux"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_BITS"
 msgid "<link=\"LOGIC\">Bit</link> Depth: {0}"
-msgstr "<link=\"LIGHT\">Helligkeit</link>: {0} Lux"
+msgstr "<link=\"LOGIC\">Bit</link> Depth: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE"
@@ -42945,12 +42852,9 @@ msgid "Reduces the <style=\"KKeyword\">Temperature</style> of piped <style=\"KKe
 msgstr "Reduziert die <style=\"KKeyword\">Temperatur</style> von transportierten <style=\"KKeyword\">Flüssigkeiten</style> um <b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_INPUT_WIRE"
-#| msgid "Connect a <style=\"KKeyword\">Wire</style> to the large <style=\"KKeyword\">Input</style> with any amount of <style=\"KKeyword\">Watts</style>."
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS"
 msgid "Sending an <style=\"KKeyword\">Automation Signal</style> with a higher <style=\"KKeyword\">Bit Depth</style> than the connected <style=\"KKeyword\">Logic Wire</style> can result in damage to the circuit"
-msgstr "Verbindet ein <style=\"KKeyword\">Kabel</style> mit einer beliebigen <style=\"KKeyword\">Wattzahl</style> an einem großen <style=\"KKeyword\">Eingang</style> an."
+msgstr "Sendet ein <style=\"KKeyword\">Automatisierungssignal</style> mit einer höheren <style=\"KKeyword\">Bit Depth</style> als der angeschlossene<style=\"KKeyword\">Logikdraht</style>. Kann zur Beschädigung des Kreises führen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE"
@@ -47169,12 +47073,9 @@ msgid "STEAM WORKSHOP"
 msgstr "STEAM WORKSHOP"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.NAME"
-#| msgid "AUTOMATION OVERLAY"
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
 msgid "AUTOMATION PACK!"
-msgstr "AUTOMATISIERUNGS-OVERLAY"
+msgstr "AUTOMATISIERUNGSPAKET!"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -47187,18 +47088,6 @@ msgid "JOIN THE DISCUSSION"
 msgstr "DISKUTIERE MIT"
 
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
-#| msgid ""
-#| "<b>Welcome to Meep's Mandatory Recreation Pack!</b>\n"
-#| "\n"
-#| "<b>Update Features:</b>\n"
-#| "\n"
-#| "• New recreational buildings for Duplicants to relax in\n"
-#| "• New 'Overjoyed Reactions' may trigger when Duplicants have an excess of morale\n"
-#| "• Numerous bug fixes and improvements\n"
-#| "\n"
-#| "Please view the full patch notes for further details!"
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
 "<b>Welcome to Banhi's Automation Innovation Pack!</b>\n"
@@ -47211,15 +47100,15 @@ msgid ""
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
-"<b>Willkommen zu Meeps unerlässlichem Erholdungspaket</b>\n"
+"<b>Willkommen bei Banhis Automation Innovation Pack!</b>\n"
 "\n"
-"<b>Update-Features:</b>\n"
+"<b>Aktualisierungsfunktionen:</b>\n"
 "\n"
-"• Neue Freizeitgebäude für Duplikanten zum Entspannen\n"
-"• Neue \"Begeisterungsreaktionen\" können auslösen, wenn Duplikanten einen Überschuss an Moral haben\n"
-"• Viele behobene Fehler und Probleme\n"
+"• Neue und verbesserte Automatisierungssensoren und -ausgänge für Arbeit und Freizeit\n"
+"• Der neue 'Sweepy'-Roboter sorgt dafür, dass Ihre Kolonie sauber und stilvoll bleibt\n"
+"• Eine Reihe von Optimierungen, Fehlerkorrekturen und Verbesserungen im gesamten Spiel\n"
 "\n"
-"Schau dir die vollständigen Notizen für alle Details an!"
+"Bitte lesen Sie die vollständigen Patchnotizen für weitere Details!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -47511,12 +47400,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.NAME"
-#| msgid "AUTOMATION OVERLAY"
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE"
 msgid "AUTOMATION CHANGES"
-msgstr "AUTOMATISIERUNGS-OVERLAY"
+msgstr "AUTOMATISIERUNGSÄNDERUNGEN"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER"
@@ -47994,12 +47880,9 @@ msgid "Pressure Damage"
 msgstr "Druckschaden"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LOGIC_CIRCUIT_OVERLOADED
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CIRCUIT_OVERLOADED"
-#| msgid "Overload Damage"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LOGIC_CIRCUIT_OVERLOADED"
 msgid "Signal Overload Damage"
-msgstr "Überladungsschaden"
+msgstr "Signalüberlastungsschaden"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MICROMETEORITE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MICROMETEORITE"
@@ -48790,236 +48673,149 @@ msgid "<b><color=#f44a47>Red Signal</b></color>: Disable building"
 msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Gebäude deaktivieren"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME"
-#| msgid "INPUT A"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_NAME"
 msgid "INPUT D"
-msgstr "EINGANG A"
+msgstr "EINGANG D"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME"
-#| msgid "INPUT A"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_NAME"
 msgid "INPUT A"
 msgstr "EINGANG A"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME"
-#| msgid "INPUT A"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_NAME"
 msgid "INPUT C"
-msgstr "EINGANG A"
+msgstr "EINGANG C"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_NAME"
-#| msgid "INPUT B"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_NAME"
 msgid "INPUT B"
 msgstr "EINGANG B"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_NAME"
 msgid "OUTPUT D"
-msgstr "AUSGANG"
+msgstr "AUSGANG D"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_NAME"
 msgid "OUTPUT A"
-msgstr "AUSGANG"
+msgstr "AUSGANG A"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_NAME"
 msgid "OUTPUT C"
-msgstr "AUSGANG"
+msgstr "AUSGANG C"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_NAME"
 msgid "OUTPUT B"
-msgstr "AUSGANG"
+msgstr "AUSGANG B"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Enable building"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Set signal path to <b>down</b> position"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Gebäude aktivieren"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Stellt den Signalpfad auf die Position <b>Unten</b>"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: Disable building"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Set signal path to <b>up</b> position"
-msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Gebäude deaktivieren"
+msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Stellt den Signalpfad auf die Position <b>Oben</b>"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.CONTRACTION_RATES"
-#| msgid "CONTRACTION RATES"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_NAME"
 msgid "CONTROL A"
-msgstr "INFEKTIONSRATEN"
+msgstr "KONTROLLE A"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Enable building"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Set signal path to <b>down</b> position"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Gebäude aktivieren"
+msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Stellt den Signalpfad auf die Position <b>Unten</b>"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: Disable building"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Set signal path to <b>up</b> position"
-msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Gebäude deaktivieren"
+msgstr "<b><color=#f44a47>Rotes Signal</b></color>: Stellt den Signalpfad auf die Position <b>Oben</b>"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_NAME
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_NAME"
@@ -49042,25 +48838,16 @@ msgid "INPUT"
 msgstr "EINGANG"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
-#| msgid "Green Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_ACTIVE"
 msgid "Green Signal"
 msgstr "Grünes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
-#| msgid "Red Signal"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_INACTIVE"
 msgid "Red Signal"
 msgstr "Rotes Signal"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.OUTPUT_NAME"
-#| msgid "OUTPUT"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_NAME"
 msgid "OUTPUT"
 msgstr "AUSGANG"
@@ -50549,12 +50336,9 @@ msgid "GRID STATUS"
 msgstr "NETZSTATUS"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.CONTROL_INPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.CONTROLS"
-#| msgid "Controls"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.CONTROL_INPUT"
 msgid "Control Port"
-msgstr "Steuerung"
+msgstr "Steueranschluss"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED"
@@ -50588,20 +50372,14 @@ msgid "Reset Port"
 msgstr "Anschluss zurücksetzen"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.RIBBON_INPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.INPUT"
-#| msgid "Input Port"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RIBBON_INPUT"
 msgid "Ribbon Input Port"
-msgstr "Eingabe"
+msgstr "Band-Eingangsanschluss"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.RIBBON_OUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.OUTPUT"
-#| msgid "Output Port"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RIBBON_OUTPUT"
 msgid "Ribbon Output Port"
-msgstr "Ausgabe"
+msgstr "Band-Ausgangsanschluss"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.CONTROL_INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.CONTROL_INPUT"
@@ -50647,42 +50425,31 @@ msgstr ""
 "Sendet ein Signal an ein Automatisierungsnetz"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Reset the internal Memory to <b><color=#f44a47>Red</b></color>"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE"
 msgid ""
 "<b>Reset Port</b>\n"
 "Reset a <link=\"LOGICMEMORY\">Memory Toggle</link>'s internal Memory to <b><color=#f44a47>Red</b></color>"
-msgstr "<b><color=#57b95e>Grünes Signal</b></color>: Setze den internen Speicher auf <b><color=#f44a47>Rot</b></color> zurück"
+msgstr ""
+"<b>Port zurücksetzen</b>\n"
+"Setzen Sie den internen Speicher eines <link =\"LOGICMEMORY\">-Speichers</link> auf <b><color=#f44a47>Rot</b></color> zurück"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_INPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT"
-#| msgid ""
-#| "<b>Input Port</b>\n"
-#| "Receives a signal from an automation grid"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_INPUT"
 msgid ""
 "<b>Ribbon Input Port</b>\n"
 "Receives a 4-bit signal from an automation grid"
 msgstr ""
-"<b>Eingangsanschluss</b>\n"
-"Erhält ein Signal aus einem Automatisierungsnetz"
+"<b>Band-Eingangsanschluss</b>\n"
+"Erhält ein 4-bit Signal aus einem Automatisierungsnetz"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_OUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT"
-#| msgid ""
-#| "<b>Output Port</b>\n"
-#| "Sends a signal out to an automation grid"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_OUTPUT"
 msgid ""
 "<b>Ribbon Output Port</b>\n"
 "Sends a 4-bit signal out to an automation grid"
 msgstr ""
-"<b>Ausgangsanschluss</b>\n"
-"Sendet ein Signal an ein Automatisierungsnetz"
+"<b>band-Ausgangsanschluss</b>\n"
+"Sendet ein 4-bit Signal an ein Automatisierungsnetz"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
@@ -52517,36 +52284,24 @@ msgid "Paint elements into the world simulation {Hotkey}"
 msgstr "Zeichnet Elemente in die Weltsimulation {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME"
-#| msgid "Noise"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.NAME"
 msgid "Noise B"
-msgstr "Geräusche"
+msgstr "Lärm B"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.TOOLTIP"
-#| msgid "Adjust brush noisiness"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.TOOLTIP"
 msgid "Adjust brush noisiness B"
-msgstr "Rauschen des Pinsels einstellen"
+msgstr "Bürstengeräusch auf B stellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME"
-#| msgid "Noise"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.NAME"
 msgid "Noise A"
-msgstr "Geräusche"
+msgstr "Lärm A"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.TOOLTIP"
-#| msgid "Adjust brush noisiness"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.TOOLTIP"
 msgid "Adjust brush noisiness A"
-msgstr "Rauschen des Pinsels einstellen"
+msgstr "Bürstengeräusch auf A stellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME"
@@ -52579,25 +52334,16 @@ msgid "Delete everything in the selected cell(s) {Hotkey}"
 msgstr "Löscht alles in den ausgewählten Zellen {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.DISEASE.HOVERTITLE"
-#| msgid "Germ"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.NAME"
 msgid "Germ"
 msgstr "Keim"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP"
-#| msgid "Adjust germ count"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.TOOLTIP"
 msgid "Adjust type of germ"
-msgstr "Keimanzahl einstellen"
+msgstr "Keimtyp einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.GERMS"
-#| msgid "Germs"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
 msgid "Germs"
 msgstr "Keime"
@@ -52608,20 +52354,14 @@ msgid "Adjust germ count"
 msgstr "Keimanzahl einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ELEMENT"
-#| msgid "Element"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.NAME"
 msgid "Element"
 msgstr "Element"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP"
-#| msgid "Adjust germ count"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.TOOLTIP"
 msgid "Adjust type of element"
-msgstr "Keimanzahl einstellen"
+msgstr "Elementtyp einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME"
@@ -52664,9 +52404,6 @@ msgid "Toggle between placing construction plans and fully built buildings"
 msgstr "Schaltet zwischen der Platzierung von Bauplänen und fertig gebauten Gebäuden um"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MASS"
-#| msgid "Mass"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME"
 msgid "Mass"
 msgstr "Masse"
@@ -52712,9 +52449,6 @@ msgid "Paint elements into the simulation using noise {Hotkey}"
 msgstr "Malt Elemente mit Rauschen in die Simulation {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEAT.HEADER_1"
-#| msgid "Temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
 msgid "Temperature"
 msgstr "Temperatur"
@@ -52725,9 +52459,6 @@ msgid "Adjust absolute temperature"
 msgstr "Absolute Temperatur einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEAT.HEADER_1"
-#| msgid "Temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME"
 msgid "Temperature"
 msgstr "Temperatur"
@@ -56270,20 +56001,14 @@ msgid "Launch Conditions"
 msgstr "Startbedingungen"
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DECREMENT_MODE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME"
-#| msgid "Morale Requirements"
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DECREMENT_MODE"
 msgid "Mode: Decrement"
-msgstr "Moralanforderungen"
+msgstr "Modus: Dekrementieren"
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> when full"
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DESCRIPTION"
 msgid "Send <b><color=#57b95e>Green Signal</b></color> when count is reached:"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn voll"
+msgstr "Senden ein <b><color=#57b95e>Grünes Signal</b></color>, wenn die Anzahl erreicht ist:"
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.INCREMENT_MODE
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.INCREMENT_MODE"
@@ -56292,20 +56017,14 @@ msgstr ""
 
 # Beruf oder Aufgabe?
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.RESET_BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE"
-#| msgid "Reset Port"
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.RESET_BUTTON"
 msgid "Reset Counter"
-msgstr "Anschluss zurücksetzen"
+msgstr "Zähler zurücksetzen"
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT.ENTER"
-#| msgid "Enter"
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.TITLE"
 msgid "Counter"
-msgstr "Eingabe"
+msgstr "Zähler"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START"
@@ -56333,12 +56052,9 @@ msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if there are fewer
 msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn die Anzahl der <style=\"KKeyword\">Tiere</style> oder <style=\"KKeyword\">Eier</style> in diesem Raum unter <b>{0}</b> fällt"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.BUILDING_COUNT"
-#| msgid "Count: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME"
 msgid "Count"
-msgstr "Anzahl: {0}"
+msgstr "Anzahl"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT"
@@ -56635,12 +56351,9 @@ msgid "Recipe Details"
 msgstr "Rezeptdetails"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_FOREVER
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.AUTOSAVE_NEVER"
-#| msgid "Never"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_FOREVER"
 msgid "Forever"
-msgstr "Niemals"
+msgstr "Für immer"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE"
@@ -56725,17 +56438,12 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.SOLID
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.LIQUID"
-#| msgid ""
-#| "Filtered Liquid Output:\n"
-#| "{0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.SOLID"
 msgid ""
 "Filtered Solid Output:\n"
 "{0}"
 msgstr ""
-"Gefilterte Flüssigkeitsausgabe:\n"
+"Gefilterte feststoff Ausgabe:\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NO_SELECTION
@@ -56792,17 +56500,12 @@ msgstr ""
 "Alle"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.SOLID
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.LIQUID"
-#| msgid ""
-#| "Liquid Output:\n"
-#| "All"
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.SOLID"
 msgid ""
 "Solid Output:\n"
 "All"
 msgstr ""
-"Flüssigkeits-Ausgabe:\n"
+"Feststoff-Ausgabe:\n"
 "Alle"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON
@@ -56874,60 +56577,39 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
 msgid "<b>Name:</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Name:</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME_DEFAULT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
-#| msgid "Debug Notification"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME_DEFAULT"
 msgid "Notification"
-msgstr "Debug Notification"
+msgstr "Benachrichtigung"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.PAUSE
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.PAUSE"
 msgid "<b>Pause:</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Pause:</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE"
-#| msgid "Debug Notification Message"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TITLE"
 msgid "Notification Designer"
-msgstr "Debug Notification Message"
+msgstr "Benachrichtigungs-Designer"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
 msgid "<b>Tooltip:</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Tooltip:</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP_DEFAULT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.TOOL.NAME"
-#| msgid "Tool"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP_DEFAULT"
 msgid "Tooltip"
-msgstr "Werkzeug"
+msgstr "Tooltip"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
-#| msgid "Debug Notification"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NAME"
 msgid "Select notification text"
-msgstr "Debug Notification"
+msgstr "Benachrichtigungstext auswählen"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.PAUSE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.PAUSE"
@@ -56950,28 +56632,19 @@ msgid "The view will zoom to this building upon notification when checked"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.EFFECTS.HEADER"
-#| msgid "<b>Effects:</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE"
 msgid "<b>Type:</b>"
-msgstr "<b>Effekte:</b>"
+msgstr "<b>Typ:</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
 msgid "<b>Zoom:</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Zoom:</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.BIT
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.BUILD.NAME"
-#| msgid "Build {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.BIT"
 msgid "Bit {0}"
-msgstr "{0} bauen"
+msgstr "Bit {0}"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION"
@@ -56989,25 +56662,16 @@ msgid "Received <b>Signal</b> will be written to selected <b>Bit</b>"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.HEADER"
-#| msgid "Room Criteria"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_TITLE"
 msgid "Ribbon Writer"
-msgstr "Raumkriterien"
+msgstr "Ribbon Writer"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ONE"
-#| msgid "Green"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_ACTIVE"
 msgid "Green"
 msgstr "Grün"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
-#| msgid "Red"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_INACTIVE"
 msgid "Red"
 msgstr "Rot"
@@ -57836,20 +57500,14 @@ msgid "Watts"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_ABOVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE_TOOLTIP_ABOVE"
-#| msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if the <style=\"KKeyword\">Pressure</style> is above <b>{0}</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_ABOVE"
 msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if the <style=\"KKeyword\">Wattage</style> consumed is above <b>{0}</b>"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn der <style=\"KKeyword\">Druck</style> über <b>{0}</b> ist"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn der <style=\"KKeyword\">Leistungsverbrauch</style> über <b>{0}</b> ist"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_BELOW
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.PRESSURE_TOOLTIP_BELOW"
-#| msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if the <style=\"KKeyword\">Pressure</style> is below <b>{0}</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_BELOW"
 msgid "Will send a <b><color=#57b95e>Green Signal</b></color> if the <style=\"KKeyword\">Wattage</style> consumed is below <b>{0}</b>"
-msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn der <style=\"KKeyword\">Druck</style> unter <b>{0}</b> ist"
+msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn der <style=\"KKeyword\">Leistungsverbrauch</style> unter <b>{0}</b> ist"
 
 #. STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.START
 msgctxt "STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.START"
@@ -57961,96 +57619,63 @@ msgstr ""
 
 # TODO: Hier steht bewusst nicht "Objekt", damit es platztechnisch passt.
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.DISABLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_DISABLED_DESCRIPTION"
-#| msgid "Disabled"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.DISABLED"
 msgid "Timer Disabled"
-msgstr "Deaktiviert"
+msgstr "Timer deaktiviert"
 
 # Was ist mit dem 2. Satz gemeint?
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.GREEN_DURATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.ON_TOOLTIP"
-#| msgid ""
-#| "Activation time determines the time of day this sensor should begin sending a <b><color=#57b95e>Green Signal</b></color>\n"
-#| "------------------\n"
-#| "This sensor sends a <b><color=#57b95e>Green Signal</b></color> {0} through the day"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.GREEN_DURATION_TOOLTIP"
 msgid ""
 "Green duration determines the amount of time this sensor should send a <b><color=#57b95e>Green Signal</b></color>\n"
 "------------------\n"
 "This sensor sends a <b><color=#57b95e>Green Signal</b></color> for {0}"
 msgstr ""
-"Die Aktivierungszeit bestimmt die Tageszeit, zu der der Sensor ein <b><color=#57b95e>Grünes Signal</b></color> senden soll\n"
-"------------------\n"
-"Dieser Sensor sendet ein <b><color=#57b95e>Grünes Signal</b></color> {0} durch den Tag"
+"Die grüne Dauer bestimmt, wie lange dieser Sensor ein <b><color=#57b95e>grünes Signal</b></color> senden soll\n"
+"------------------ ------------------.\n"
+"Dieser Sensor sendet ein <b><color=#57b95e>grünes Signal</b></color> für {0}"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_CYCLES
-#, fuzzy
-#| msgctxt "STRINGS.UI.MATH_PICTURES.AXIS_LABELS.CYCLES"
-#| msgid "Cycles"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_CYCLES"
 msgid "Mode: Cycles"
-msgstr "Zyklen"
+msgstr "Modus: Zyklen"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_SECONDS
-#, fuzzy
-#| msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.SECONDS"
-#| msgid "Seconds"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_SECONDS"
 msgid "Mode: Seconds"
-msgstr "Sekunden"
+msgstr "Modus: Sekunden"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.OFF
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION"
-#| msgid "Duration:"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.OFF"
 msgid "Red Duration"
-msgstr "Dauer:"
+msgstr "Rote Dauer"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.ON
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION"
-#| msgid "Duration:"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.ON"
 msgid "Green Duration"
-msgstr "Dauer:"
+msgstr "Grüne Dauer"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RED_DURATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION_TOOLTIP"
-#| msgid ""
-#| "Active duration determines what percentage of the day this sensor will spend sending a <b><color=#57b95e>Green Signal</b></color>\n"
-#| "------------------\n"
-#| "This sensor will send a <b><color=#57b95e>Green Signal</b></color> for {0} of the day"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RED_DURATION_TOOLTIP"
 msgid ""
 "Red duration determines the amount of time this sensor should send a <b><color=#f44a47>Red Signal</b></color>\n"
 "------------------\n"
 "This sensor will send a <b><color=#57b95e>Red Signal</b></color> for {0}"
 msgstr ""
-"Die aktive Dauer bestimmt, wie viel Prozent des Tages dieser Sensor ein <b><color=#57b95e>Grünes Signal</b></color> sendet\n"
-"------------------\n"
-"Dieser Sensor sendet ein <b><color=#57b95e>Grünes Signal</b></color> für {0} des Tages"
+"Die rote Dauer bestimmt, wie lange dieser Sensor ein <b><color=#57b95e>rotes Signal</b></color> senden soll\n"
+"------------------ ------------------.\n"
+"Dieser Sensor sendet ein <b><color=#57b95e>rotes Signal</b></color> für {0}"
 
 # Beruf oder Aufgabe?
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RESET_BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE"
-#| msgid "Reset Port"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RESET_BUTTON"
 msgid "Reset Timer"
-msgstr "Anschluss zurücksetzen"
+msgstr "Timer zurücksetzen"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.ONTIME"
-#| msgid "On Time:"
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.TITLE"
 msgid "Timer"
-msgstr "Eingeschaltete Zeit:"
+msgstr "Timer"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ALLBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ALLBUTTON"
@@ -58098,43 +57723,30 @@ msgid "Flow Control"
 msgstr "Flusskontrolle"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF"
-#| msgid "Send <b><color=#57b95e>Green Signal</b></color> if:"
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF"
 msgid "Send <b><color=#57b95e>Green Signal</b></color> if:"
 msgstr "Sendet ein <b><color=#57b95e>Grünes Signal</b></color> wenn:"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.COLDER_BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.COLDER_BUTTON"
-#| msgid "Below"
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.COLDER_BUTTON"
 msgid "Below"
 msgstr "Unter"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.CURRENT_TEMPERATURE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.NAME"
-#| msgid "Current Wattage: {Wattage}"
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.CURRENT_TEMPERATURE"
 msgid ""
 "Current Wattage:\n"
 "{0}"
-msgstr "Aktuelle Leistung: {Wattage}"
+msgstr ""
+"Aktuelle Leistung: \n"
+"{Wattage}"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TITLE"
-#| msgid "Battery Recharge Threshold"
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.TITLE"
 msgid "Wattage Threshold"
-msgstr "Batterie-Ladeschwelle"
+msgstr "Ladeschwelle"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.WARMER_BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.WARMER_BUTTON"
-#| msgid "Above"
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.WARMER_BUTTON"
 msgid "Above"
 msgstr "Über"
