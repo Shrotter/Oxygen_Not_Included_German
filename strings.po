@@ -12787,7 +12787,7 @@ msgid ""
 "In addition to an <link=\"WIRE\">electrical wire</link>, most powered buildings can also have an <link=\"LOGICWIRE\">Automation Wire</link> connected to them. This wire can signal the building to turn on or off. If the other end of a <link=\"LOGICWIRE\">Automation Wire</link> is connected to a sensor, the building will turn on and off as the sensor outputs signals.\n"
 "\n"
 msgstr ""
-"Zusätzlich zu einem <link=\"WIRE\" >elektrischen Kabel</link> können die meisten strombetriebenen Gebäude auch mit einem <link=\"LOGICWIRE\">Automatisierungsdraht</link> verbunden werden. Dieses Kabel kann dem Gebäude das Ein- und Ausschalten signalisieren. Wenn das andere Ende eines <link=\"LOGICWIRE\">Automatisierungsdrahts</link> an einen Sensor angeschlossen ist, wird das Gebäude ein- und ausgeschaltet, wenn der Sensor Signale ausgibt.\n"
+"Zusätzlich zu einem <link=\"WIRE\">elektrischen Kabel</link> können die meisten strombetriebenen Gebäude auch mit einem <link=\"LOGICWIRE\">Automatisierungsdraht</link> verbunden werden. Dieses Kabel kann dem Gebäude das Ein- und Ausschalten signalisieren. Wenn das andere Ende eines <link=\"LOGICWIRE\">Automatisierungsdrahts</link> an einen Sensor angeschlossen ist, wird das Gebäude ein- und ausgeschaltet, wenn der Sensor Signale ausgibt.\n"
 "\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_3
@@ -27866,7 +27866,7 @@ msgstr "<link=\"MEDIC\">Fortschrittliche medizinische Versorgung</link>"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
 msgid "Allows the excavation of <style=\"KKeyword\">Nearly Impenetrable</style> elements, including <link=\"DIAMOND\">Diamond</link> and <link=\"OBSIDIAN\">Obsidian</link>"
-msgstr "Erlaubt den Abbau von <style=\"KKeyword\" >nahezu undurchdringlichen</style> Materialien, einschließlich <link=\"DIAMOND\">Diamond</link> und <link=\"OBSIDIAN\">Obsidian</link>"
+msgstr "Erlaubt den Abbau von <style=\"KKeyword\">nahezu undurchdringlichen</style> Materialien, einschließlich <link=\"DIAMOND\">Diamant</link> und <link=\"OBSIDIAN\">Obsidian</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
@@ -35710,7 +35710,8 @@ msgid ""
 msgstr ""
 "Alles, was für die Entwicklung der Kolonie benötigt wird, kann im Boden gefunden werden. Indem ich Duplikanten anweise, in einem Gebiet zu graben, kann ich Ressourcen abbauen, um Infrastruktur aufzubauen, Nahrung finden und Platz für das Wachstum der Kolonie schaffen. Ich kann auf das Grabe-Werkzeug <b><color=#F44A4A>[G]</b></color> nutzen, das es mir gestattet, den Bereich auszuwählen, in dem meinen Duplikaten graben sollen.\n"
 "\n"
-"Duplikanten müssen die Fertigkeit \"superschweres Graben\" zum Abbau von Abyssalit und die Fertigkeit \"superduperschweres Graben\" zum Abbau von Diamanten und Obsidian besitzen."
+" \n"
+"Duplikanten müssen die Fertigkeit \"superschweres Graben\" zum Abbau von Abyssalit und die Fertigkeit \"superduperschweres Graben\" zum Abbau von Diamanten und Obsidian besitzen. Ohne die entsprechende Fertigkeit sind diese Materialien nicht abbaubar."
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME"
@@ -36045,7 +36046,7 @@ msgid ""
 msgstr ""
 "Die Temperatur der Umgebung kann positive oder negative Effekte auf die Gesundheit meiner Duplikanten, sowie auf die Pflanzen und Tiere meiner Kolonie, haben. <b><color=#F44A4A>[F3]</b></color> öffnet das Temperatur-Overlay, wo ich nach heißen und halten Stellen suchen kann.\n"
 "\n"
-"Ich kann Hilfsmittel wie Ice-E-Lüfter oder die Raumheizung nutzen, um einen Bereich wärmer oder kälter zu machen. Allerdings sollte ich darauf achten, den Bereich mit isolierten Ziegeln abzuschotten, um die warme bzw. kalte Luft nicht sofort wieder zu verlieren."
+"Ich kann Hilfsgebäude wie Ice-E-Lüfter oder die Raumheizung nutzen, um einen Bereich wärmer oder kälter zu machen. Allerdings sollte ich darauf achten, den Bereich mit isolierten Ziegeln abzuschotten, um die warme bzw. kalte Luft nicht sofort wieder zu verlieren."
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -45055,9 +45056,10 @@ msgid ""
 "\n"
 "If you encounter any bugs or strange behavior, please add a report to the bug forums. We appreciate it!"
 msgstr ""
-"In diesem Spiel wird eine Testversion von Oxygen Not Included ausgeführt. Dies bedeutet, dass einige Funktionen möglicherweise in der Entwicklung oder fehlerhafter als normal sind und nicht ganz bereit sind, zur Release-Version des Spiels zu wechseln.\n"
+"In diesem Spiel wird eine Testversion von Oxygen Not Included ausgeführt. Dies bedeutet, dass einige Funktionen möglicherweise in der Entwicklung oder fehlerhafter als normal sind und \n"
+"und erfordern weitere Tests, bevor sie in den Release-Build übernommen werden können.\n"
 "\n"
-"Wenn Sie auf Fehler oder seltsames Verhalten stoßen, würden wir uns freuen, wenn Sie sich die Zeit nehmen, einen Bericht zu den Fehlerforen hinzuzufügen. Wir wissen das zu schätzen!"
+"Wenn Sie auf Fehler oder seltsames Verhalten stoßen, fügen Sie bitte einen Bericht zu den Fehlerforen hinzu. Wir wissen das zu schätzen!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE"
@@ -46589,7 +46591,7 @@ msgstr "Cloud-Speicherstände als Standard"
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES_TOOLTIP"
 msgid "When a new colony is created, this controls whether it will be saved into the cloud saves folder for syncing or not."
-msgstr "Wenn eine neue Kolonie erstellt wird, steuert dies, ob sie in den Cloud-Speicherordner zum Synchronisieren gespeichert wird oder nicht."
+msgstr "Wenn eine neue Kolonie erstellt wird, steuert dies, ob diese in den Cloud-Speicherordner zum Synchronisieren gespeichert wird oder nicht."
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING"
@@ -46920,7 +46922,7 @@ msgstr ""
 "\n"
 "<b>{Error}</b>\n"
 "\n"
-"Bitte versuche es noch einmal, oder poste einen Fehler im Forum, falls dieses Problem weiterhin auftritt."
+"Bitte versuche Sie es noch einmal, oder posten Sie einen Fehler im Forum, falls dieses Problem weiterhin auftritt."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR_TITLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR_TITLE"
@@ -46941,7 +46943,7 @@ msgid ""
 msgstr ""
 "Die Konvertierung einer Kolonie zur Verwendung von Cloud-Speichern verschiebt alle Speicherdateien diese Kolonie in den Cloud-Speicherordner.\n"
 "\n"
-"Dadurch kann Spielplattform diese Kolonie über dein Konto in der Cloud synchronisieren, so dass auf mehreren Rechnern gespielt werden kann."
+"Dadurch kann die Spielplattform diese Kolonie über Ihr Konto in der Cloud synchronisieren, so dass auf mehreren Rechnern gespielt werden kann."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL"
@@ -47017,7 +47019,7 @@ msgid ""
 "Please click the button below to automatically update your save file storage."
 msgstr ""
 "Wir haben den Aufbau der Speicherstände geändert!\n"
-"Bitte klicke auf die Schaltfläche unten, um deine Speicherstände automatisch zu aktualisieren."
+"Bitte klicken Sie auf die Schaltfläche unten, um ihre Speicherstände automatisch zu aktualisieren."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT"
@@ -47051,19 +47053,19 @@ msgid ""
 "    1. Try temporarily disabling virus scanners and malware\n"
 "         protection programs."
 msgstr ""
-"    1. Versuche Virenscanner und Malware-Schutzprogramme\n"
+"    1. Versuchen Sie Virenscanner und Malware-Schutzprogramme\n"
 "         vorübergehend zu deaktivieren.\n"
 "."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM2
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM2"
 msgid "    2. Turn off file sync services such as OneDrive and DropBox."
-msgstr "    2. Deaktiviere Dateisynchronisierungsdienste wie OneDrive und DropBox."
+msgstr "    2. Deaktivieren Sie Dateisynchronisierungsdienste wie OneDrive und DropBox."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM3
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM3"
 msgid "    3. Restart the game to retry file migration."
-msgstr "    3. Starte das Spiel neu, um die Datei-Migration erneut zu versuchen."
+msgstr "    3. Starten Sie das Spiel neu, um die Datei-Migration erneut zu versuchen."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST"
@@ -47072,7 +47074,7 @@ msgid ""
 "<b>If this still doesn't solve the problem, please post a bug in the forums and we will attempt to assist with your issue.</b>"
 msgstr ""
 "\n"
-"<b>Wenn das Problem damit immer noch nicht gelöst ist, poste bitte einen Fehler in den Foren und wir werden versuchen dir bei Ihrem Problem zu helfen.</b>"
+"<b>Wenn das Problem damit immer noch nicht gelöst ist, posten Sie bitte einen Fehler in den Foren und wir werden versuchen ihnen bei Ihrem Problem zu helfen.</b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE"
@@ -47138,7 +47140,7 @@ msgstr "{0} Speicherstände  {1} Autosaves  {2}"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TEXT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TEXT"
 msgid "Access your save files using the options below."
-msgstr "Greife auf deine Speicherstände mit den folgenden Optionen zu."
+msgstr "Greifen Sie auf ihre Speicherstände mit den folgenden Optionen zu."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TITLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TITLE"
@@ -47148,7 +47150,7 @@ msgstr "SPEICHERINFORMATION"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP"
 msgid "Access your save file locations from here."
-msgstr "Greife von hier aus auf deine Speicherorte der Speicherstände zu."
+msgstr "Greifen Sie von hier aus auf ihre Speicherorte der Speicherstände zu."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
@@ -47846,7 +47848,7 @@ msgid ""
 msgstr ""
 "<b>Cloud-Speicher-Update für November 2020</b>\n"
 "\n"
-" • Unterstützung für Cloud-Speicher hinzugefügt. Klicke auf \"Spiel laden\", um das Speichermenü zu öffnen und deinen lokalen und Cloud-Speicherstände zu verwalten!\n"
+" • Unterstützung für Cloud-Speicher hinzugefügt. Klicken Sie auf \"Spiel laden\", um das Speichermenü zu öffnen und ihre lokalen und Cloud-Speicherstände zu verwalten!\n"
 " • Viele Leistungsverbesserungen, besonders für Kolonien mit vielen Duplikanten\n"
 " • Die Unity-Game-Engine auf die neueste LTS-Version aktualisiert\n"
 "\n"
@@ -60734,7 +60736,7 @@ msgstr "<i>Diese Welt ist beständig und hat keine ungewöhnlichen Eigenschaften
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION"
 msgid "Sickly <link=\"SLIMEMOLD\">Slime</link> growths have crept all over this world"
-msgstr "Der Wachstum von ekelhaftem <link=\"SLIMEMOLD\">Schleim</link> hat sich auf der ganzen Welt eingeschlichen"
+msgstr "Wachstum von ekelhaftem <link=\"SLIMEMOLD\">Schleim</link> hat sich auf der ganzen Welt eingeschlichen"
 
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME"
