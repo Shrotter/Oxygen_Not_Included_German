@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -181,8 +181,14 @@ msgstr "{0} Köder"
 
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
-msgid "This lure is baited with {0}"
-msgstr "Dieser Köder ist mit {0} bestückt"
+msgid ""
+"This lure is baited with {0}\n"
+"\n"
+"Bait material is set during the construction of the building"
+msgstr ""
+"Als Köder wird {0} verwendet-\n"
+"\n"
+"Der Köder wird während des Baus des Gebäudes festgelegt"
 
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME"
@@ -580,14 +586,8 @@ msgstr "Benötigt Leerung"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP"
-msgid ""
-"This building is full of <link=\"SALT\">Salt</link> and can no longer operate.\n"
-"------------------\n"
-"A Duplicant must empty it for operation to continue."
-msgstr ""
-"Dieses Gebäude ist voller <link=\"SALT\">Salz</link> und kann nicht mehr betrieben werden.\n"
-"------------------\n"
-"Ein Duplikant muss es leeren, damit der Betrieb fortgesetzt werden kann."
+msgid "This building needs to be emptied of <link=\"SALT\">Salt</link> to resume function"
+msgstr "Zur Wiederaufnahme der Funktion dieses Gebäudes muss <link=\"SALT\">Salz</link> entleert werden"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -4550,27 +4550,6 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLDISTILLERY.NAME"
 msgid "<link=\"ETHANOLDISTILLERY\">Ethanol Distiller</link>"
 msgstr "<link=\"ETHANOLDISTILLERY\">Ethanol-Destillerie</link>"
 
-#. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC"
-msgid "Ethanol generators require less Duplicant operation, but produce significant waste."
-msgstr "Ethanolgeneratoren benötigen weniger Bedienung durch Duplikanten, produzieren aber erhebliche Mengen an Abfall."
-
-#. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT"
-msgid ""
-"Converts <link=\"ETHANOL\">Ethanol</link> into electrical <link=\"POWER\">Power</link>.\n"
-"\n"
-"Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link=\"DIRTYWATER\">Polluted Water</link>."
-msgstr ""
-"Wandelt <link=\"ETHANOL\">Ethanol</link> in elektrische <link=\"POWER\">Energie</link> um.\n"
-"\n"
-"Erzeugte <link=\"CARBONDIOXIDE\">Kohlendioxid</link> und <link=\"DIRTYWATER\">verschmutztes Wasser</link>."
-
-#. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME"
-msgid "<link=\"ETHANOLGENERATOR\">Ethanol Generator</link>"
-msgstr "<link=\"ETHANOLGENERATOR\">Ethanol-Generator</link>"
-
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
 msgid "Drywall can be used in conjunction with tiles to build airtight rooms on the surface."
@@ -8312,13 +8291,13 @@ msgstr "Petroleum-Generatoren haben einen hohen Energieertrag, produzieren aber 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT"
 msgid ""
-"Converts <link=\"PETROLEUM\">Petroleum</link> into electrical <link=\"POWER\">Power</link>.\n"
+"Converts either <link=\"PETROLEUM\">Petroleum</link> or <link=\"ETHANOL\">Ethanol</link> into electrical <link=\"POWER\">Power</link>.\n"
 "\n"
 "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link=\"DIRTYWATER\">Polluted Water</link>."
 msgstr ""
-"Wandelt <link=\"ELEMENTSLIQUID\">Petroleum</link> in elektrische <link=\"POWER\">Energie</link> um.\n"
+"Wandelt entweder <link=\"PETROLEUM\">Petroleum</link> oder <link=\"ETHANOL\">Ethanol</link> in elektrische <link=\"POWER\">Energie</link> um.\n"
 "\n"
-"Produziert <link=\"ELEMENTSGAS\">Kohlendioxid</link> und <link=\"LIQUID\">verschmutztes Wasser</link>."
+"Produziert <link=\"CARBONDIOXIDE\">Kohlendioxid</link> und <link=\"DIRTYWATER\">verschmutztes Wasser</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME"
@@ -12808,7 +12787,7 @@ msgid ""
 "In addition to an <link=\"WIRE\">electrical wire</link>, most powered buildings can also have an <link=\"LOGICWIRE\">Automation Wire</link> connected to them. This wire can signal the building to turn on or off. If the other end of a <link=\"LOGICWIRE\">Automation Wire</link> is connected to a sensor, the building will turn on and off as the sensor outputs signals.\n"
 "\n"
 msgstr ""
-"Zusätzlich zu einem <link=\"WIRE\" >elektrischen Kabel</link> können die meisten strombetriebenen Gebäude auch mit einem <link=\"LOGICWIRE\">Automatisierungsdraht</link> verbunden werden. Dieses Kabel kann dem Gebäude das Ein- und Ausschalten signalisieren. Wenn das andere Ende eines <link=\"LOGICWIRE\">Automatisierungsdrahts</link> an einen Sensor angeschlossen ist, wird das Gebäude ein- und ausgeschaltet, wenn der Sensor Signale ausgibt.\n"
+"Zusätzlich zu einem <link=\"WIRE\">elektrischen Kabel</link> können die meisten strombetriebenen Gebäude auch mit einem <link=\"LOGICWIRE\">Automatisierungsdraht</link> verbunden werden. Dieses Kabel kann dem Gebäude das Ein- und Ausschalten signalisieren. Wenn das andere Ende eines <link=\"LOGICWIRE\">Automatisierungsdrahts</link> an einen Sensor angeschlossen ist, wird das Gebäude ein- und ausgeschaltet, wenn der Sensor Signale ausgibt.\n"
 "\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_3
@@ -27886,12 +27865,12 @@ msgstr "<link=\"MEDIC\">Fortschrittliche medizinische Versorgung</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
-msgid "Allows excavation of extremely hard materials like <link=\"DIAMOND\">Diamond</link> and <link=\"OBSIDIAN\">Obsidian</link>"
-msgstr "Erlaubt den Abbau von extrem harten Materialien wie <link=\"DIAMANT\">Diamant</link> und <link=\"OBSIDIAN\">Obsidian</link>"
+msgid "Allows the excavation of <style=\"KKeyword\">Nearly Impenetrable</style> elements, including <link=\"DIAMOND\">Diamond</link> and <link=\"OBSIDIAN\">Obsidian</link>"
+msgstr "Erlaubt den Abbau von <style=\"KKeyword\">nahezu undurchdringlichen</style> Materialien, einschließlich <link=\"DIAMOND\">Diamant</link> und <link=\"OBSIDIAN\">Obsidian</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
-msgid "<link=\"SENIORMINER\">Superduperhard Digging</link>"
+msgid "<link=\"SENIORMINER\">Super-Duperhard Digging</link>"
 msgstr "<link=\"SENIORMINER\">Superduperschweres Graben</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.DESCRIPTION
@@ -30665,7 +30644,7 @@ msgstr "Dieser Duplikant versprüht Glücksfunken, wenn er <style=\"KKeyword\">b
 #. STRINGS.DUPLICANTS.TRAITS.SPARKLESTREAKER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SPARKLESTREAKER.NAME"
 msgid "Sparkle Streaker"
-msgstr ""
+msgstr "Funken-Flitzer"
 
 #. STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.DESC"
@@ -30675,7 +30654,7 @@ msgstr "Dieser Duplikant wird spontan einen Raum neu dekorieren, wenn er <style=
 #. STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME"
 msgid "Sticker Bomber"
-msgstr ""
+msgstr "Aufkleber-Attentäter"
 
 #. STRINGS.DUPLICANTS.TRAITS.STRESSVOMITER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STRESSVOMITER.DESC"
@@ -31433,6 +31412,36 @@ msgstr "<link=\"GRANITE\">Granit</link>"
 msgctxt "STRINGS.ELEMENTS.HARDNESS.FIRM"
 msgid "{0} (Firm)"
 msgstr "{0} (Fest)"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.FIRM
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.FIRM"
+msgid "Firm"
+msgstr "Hart"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.IMPENETRABLE
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.IMPENETRABLE"
+msgid "Impenetrable"
+msgstr "Undurchdringlich"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.NEARLYIMPENETRABLE
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.NEARLYIMPENETRABLE"
+msgid "Nearly Impenetrable"
+msgstr "Nahezu undurchdringlich"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.SOFT
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.SOFT"
+msgid "Soft"
+msgstr "Weich"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYFIRM
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYFIRM"
+msgid "Very Firm"
+msgstr "Sehr hart"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYSOFT
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYSOFT"
+msgid "Very Soft"
+msgstr "Sehr weich"
 
 #. STRINGS.ELEMENTS.HARDNESS.IMPENETRABLE
 msgctxt "STRINGS.ELEMENTS.HARDNESS.IMPENETRABLE"
@@ -35399,13 +35408,13 @@ msgstr "ANKÜNDIGUNG AN DAS PERSONAL"
 
 #. STRINGS.MISC.MONUMENT_COMPLETE.DESC
 msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.DESC"
-msgid "Monument has head, midsection and bottom."
-msgstr "Das Monument hat Kopf, Mittelteil und Unterteil."
+msgid "A feat of artistic vision and expert engineering that will doubtless inspire Duplicants for thousands of cycles to come"
+msgstr "Eine Meisterleistung von künstlerischer Vision und fachmännischer Technik, die Duplikanten zweifellos Tausende von Zyklen lang inspirieren wird"
 
 #. STRINGS.MISC.MONUMENT_COMPLETE.NAME
 msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.NAME"
-msgid "Completed Monument"
-msgstr "Monument fertiggestellt"
+msgid "Great Monument"
+msgstr "Großes Monument"
 
 #. STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME"
@@ -35695,13 +35704,14 @@ msgstr "Diese Duplikanten starben an einem Mangel an <link=\"OXYGEN\">Sauerstoff
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY"
 msgid ""
-"Everything a colony needs to get going is found in the ground. By instructing a Duplicant to dig in an area I can mine resources to build infrastructure, find food, and clear space for the colony to grow. I can access the Dig Tool <b><color=#F44A4A>[G]</b></color> which allows me to select the area I want my Duplicants to dig.\n"
+"Everything a colony needs to get going is found in the ground. Instructing Duplicants to dig out areas means we can find food, mine resources to build infrastructure, and clear space for the colony to grow. I can access the Dig Tool with <b><color=#F44A4A>[G]</b></color>, which allows me to select the area where I want my Duplicants to dig.\n"
 "\n"
-"Duplicants will need to gain the Superhard Digging skill to mine Abyssalite and the Superduperhard Digging skill to mine Diamond and Obsidian."
+"Duplicants will need to gain the Superhard Digging skill to mine Abyssalite and the Superduperhard Digging skill to mine Diamond and Obsidian. Without the proper skills, these materials will be undiggable."
 msgstr ""
-"Alles, was für die Entwicklung der Kolonie benötigt wird, kann im Boden gefunden werden. Indem ich einen Duplikanten anweise, in einem Gebiet zu graben, kann ich Ressourcen abbauen, um Infrastruktur aufzubauen, Nahrung finden und Platz für das Wachstum der Kolonie schaffen. Ich kann auf das Grabe-Werkzeug <b><color=#F44A4A>[G]</b></color> nutzen, das es mir gestattet, den Bereich auszuwählen, in dem meinen Duplikaten graben sollen.\n"
+"Alles, was für die Entwicklung der Kolonie benötigt wird, kann im Boden gefunden werden. Indem ich Duplikanten anweise, in einem Gebiet zu graben, kann ich Ressourcen abbauen, um Infrastruktur aufzubauen, Nahrung finden und Platz für das Wachstum der Kolonie schaffen. Ich kann auf das Grabe-Werkzeug <b><color=#F44A4A>[G]</b></color> nutzen, das es mir gestattet, den Bereich auszuwählen, in dem meinen Duplikaten graben sollen.\n"
 "\n"
-"Duplikanten müssen die Fertigkeit \"superschweres Graben\" zum Abbau von Abyssalit und die Fertigkeit \"superduperschweres Graben\" zum Abbau von Diamanten und Obsidian besitzen."
+" \n"
+"Duplikanten müssen die Fertigkeit \"superschweres Graben\" zum Abbau von Abyssalit und die Fertigkeit \"superduperschweres Graben\" zum Abbau von Diamanten und Obsidian besitzen. Ohne die entsprechende Fertigkeit sind diese Materialien nicht abbaubar."
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME"
@@ -36030,13 +36040,13 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
 msgid ""
-"The temperature of an environment can have positive or negative effects on the wellbeing of my Duplicants, and the plants and critters in my colony. Selecting <b><color=#F44A4A>[F3]</b></color> will open the Temperature Overlay where I can check for hot and cold spots.\n"
+"The temperature of an environment can have positive or negative effects on the wellbeing of my Duplicants, as well as the plants and critters in my colony. Selecting <b><color=#F44A4A>[F3]</b></color> will open the Temperature Overlay where I can check for any hot or cold spots.\n"
 "\n"
-"I can use a Utility like an Ice-E Fan or a Space Heater to make an area colder or hotter. However, I will have limited success changing the temperature of a room unless I build the area with insulating tiles to prevent cold or warm air from escaping."
+"I can use a Utility building like an Ice-E Fan or a Space Heater to make an area colder or warmer. However, I will have limited success changing the temperature of a room unless I build the area with insulating tiles to prevent cold or warm air from escaping."
 msgstr ""
-"Die Temperatur der Umgebung kann positive oder negative Effekte auf die Gesundheit meiner Duplikanten, Pflanzen und Tiere haben. <b><color=#F44A4A>[F3]</b></color> öffnet das Temperatur-Overlay, wo ich nach heißen und halten Stellen suchen kann.\n"
+"Die Temperatur der Umgebung kann positive oder negative Effekte auf die Gesundheit meiner Duplikanten, sowie auf die Pflanzen und Tiere meiner Kolonie, haben. <b><color=#F44A4A>[F3]</b></color> öffnet das Temperatur-Overlay, wo ich nach heißen und halten Stellen suchen kann.\n"
 "\n"
-"Ich kann Hilfsmittel wie Ice-E-Lüfter oder die Raumheizung nutzen, um einen Bereich wärmer oder kälter zu machen. Allerdings sollte ich darauf achten, den Bereich mit isolierten Ziegeln abzuschotten, um die warme bzw. kalte Luft nicht sofort wieder zu verlieren."
+"Ich kann Hilfsgebäude wie Ice-E-Lüfter oder die Raumheizung nutzen, um einen Bereich wärmer oder kälter zu machen. Allerdings sollte ich darauf achten, den Bereich mit isolierten Ziegeln abzuschotten, um die warme bzw. kalte Luft nicht sofort wieder zu verlieren."
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -36065,8 +36075,8 @@ msgstr "Attributserhöhung"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.SUFFIX"
-msgid " - {0} raised to {1}"
-msgstr " - {0} verbessert auf Stufe {1}"
+msgid " - {0} Skill Level modifier raised to +{1}"
+msgstr " - {0} Fertigkeitsstufen-Modifikator auf +{1} erhöht"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP"
@@ -36159,11 +36169,11 @@ msgstr "Notizen zur Handhabung verschmutzter Materialien"
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
 msgid ""
-"Food, Rooms, Decor, and Recreation all have have an effect on Duplicant Morale. Good experiences improve their Morale and poor experiences lower it. When Morale is below their Expectations, Duplicants will become Stressed.\n"
+"Food, Rooms, Decor, and Recreation all have an effect on Duplicant Morale. Good experiences improve their Morale, while poor experiences lower it. When a Duplicant's Morale is below their Expectations, they will become Stressed.\n"
 "\n"
-"As Duplicants are given new Skills they gain increased Expectations, and the colony will have to be improved to keep up their Morale. An overview of Morale and Stress can be viewed on the Vitals screen."
+"Duplicants' Expectations will get higher as they are given new Skills, and the colony will have to be improved to keep up their Morale. An overview of Morale and Stress can be viewed on the Vitals screen."
 msgstr ""
-"Nahrung, Räume, Dekoration und die Erholung, die ein Duplikant erlebt, beeinflussen seine Moral. Gute Erfahrungen verbessern seine Moral und schlechte Erfahrungen verringern sie. Wenn die Moral unter ihren Erwartungen liegt, werden Duplikanten gestresst.\n"
+"Nahrung, Räume, Dekoration und die Erholung, die ein Duplikant erlebt, beeinflussen seine Moral. Gute Erfahrungen verbessern seine Moral, während schlechte Erfahrungen sie verringern. Wenn die Moral unter ihren Erwartungen liegt, werden Duplikanten gestresst.\n"
 "\n"
 "Wenn Duplikanten neue Fähigkeiten erhalten, steigen ihre Erwartungen, und die Kolonie muss aufgewertet werden, um die Moral aufrechtzuerhalten. Ein Überblick über Moral und Stress findest du in der Vitalwerte-Anzeige."
 
@@ -36361,13 +36371,17 @@ msgstr "Notizen zur Verbindung von Gebäuden mit Rohren"
 #. STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY"
 msgid ""
-"Generators produce power and the various buildings and machines in the colony are the Consumers. Each Consumer will pull a certain wattage from the power circuit it is connected to.\n"
+"Generators are considered \"Producers\" of Power, while the various buildings and machines in the colony are considered \"Consumers\". Each Consumer will pull a certain wattage from the power circuit it is connected to, which can be checked at any time by clicking the building and going to the Energy Tab.\n"
 "\n"
-"I can use the Power Overlay <b><color=#F44A4A>[F2]</b></color> to check the status of my circuits. If the Consumers are consuming more wattage than the Generators are producing, the Batteries will drain and there will be brownouts. Additionally, if the Consumers are consuming more wattage than the Wires can handle, the Wires will overload and burn out. To correct both these situations, I will need to reorganize my Consumers onto separate circuits."
+"I can use the Power Overlay <b><color=#F44A4A>[F2]</b></color> to quickly check the status of all my circuits. If the Consumers are taking more wattage than the Generators are creating, the Batteries will drain and there will be brownouts.\n"
+"\n"
+"Additionally, if the Consumers are pulling more wattage through the Wires than the Wires can handle, they will overload and burn out. To correct both these situations, I will need to reorganize my Consumers onto separate circuits."
 msgstr ""
-"Generatoren produzieren Strom den verschiedenen Gebäuden und Maschinen in der Kolonie verbrauchen. Jeder Verbraucher zieht eine bestimmte Leistung aus dem Stromkreis, an den er angeschlossen ist.\n"
+"Generatoren werden als \"Erzeuger\" von Strom betrachtet, während die verschiedenen Gebäude und Maschinen in der Kolonie als \"Verbraucher\" betrachtet werden. Jeder Verbraucher entnimmt dem Stromkreis, an den er angeschlossen ist, eine bestimmte Wattzahl, die jederzeit abgerufen werden kann, indem man auf das Gebäude klickt und auf die Registerkarte Energie geht.\n"
 "\n"
-"Ich kann das Strom-Overlay <b><color=#F44A4A>[F2]</b></color> verwenden, um den Status meiner Schaltkreise zu überprüfen. Wenn die Verbraucher mehr Leistung benötigen, als die Generatoren produzieren, werden die Batterien geleert und es kann zu Stromausfällen kommen. Wenn die Verbraucher mehr Leistung verbrauchen, als die Kabel vertragen können, werden die Kabel überlastet und brennen durch. Um diese beiden Situationen zu vermeiden, muss ich meine Verbraucher auf getrennte Kreisläufe aufteilen."
+"Ich kann das Strom-Overlay <b><color=#F44A4A>[F2]</b></color> verwenden, um den Status meiner Schaltkreise zu überprüfen. Wenn die Verbraucher mehr Leistung benötigen, als die Generatoren produzieren, werden die Batterien geleert und es kann zu Stromausfällen kommen.\n"
+"\n"
+"Wenn die Verbraucher mehr Leistung verbrauchen, als die Kabel vertragen können, werden die Kabel überlastet und brennen durch. Um diese beiden Situationen zu vermeiden, muss ich meine Verbraucher auf getrennte Kreisläufe aufteilen."
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.NAME"
@@ -45038,13 +45052,14 @@ msgstr "Vorherige Version"
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE"
 msgid ""
-"This game is running a Test version of Oxygen Not Included. This means that some features may be in development or buggier than normal, and not quite ready to go to the Release version of the game.\n"
+"This game is running a Test version of Oxygen Not Included. This means that some features may be in development or buggier than normal, and require more testing before they can be moved into the Release build.\n"
 "\n"
-"If you encounter any bugs or strange behavior, we'd appreciate if you took the time to add a report to the bug forums."
+"If you encounter any bugs or strange behavior, please add a report to the bug forums. We appreciate it!"
 msgstr ""
-"In diesem Spiel wird eine Testversion von Oxygen Not Included ausgeführt. Dies bedeutet, dass einige Funktionen möglicherweise in der Entwicklung oder fehlerhafter als normal sind und nicht ganz bereit sind, zur Release-Version des Spiels zu wechseln.\n"
+"In diesem Spiel wird eine Testversion von Oxygen Not Included ausgeführt. Dies bedeutet, dass einige Funktionen möglicherweise in der Entwicklung oder fehlerhafter als normal sind und \n"
+"und erfordern weitere Tests, bevor sie in den Release-Build übernommen werden können.\n"
 "\n"
-"Wenn Sie auf Fehler oder seltsames Verhalten stoßen, würden wir uns freuen, wenn Sie sich die Zeit nehmen, einen Bericht zu den Fehlerforen hinzuzufügen."
+"Wenn Sie auf Fehler oder seltsames Verhalten stoßen, fügen Sie bitte einen Bericht zu den Fehlerforen hinzu. Wir wissen das zu schätzen!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE"
@@ -45059,11 +45074,11 @@ msgstr "BUG FORUMS"
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_TOOLTIP
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_TOOLTIP"
 msgid ""
-"The game is currently running a Test version\n"
+"This game is currently running a Test version.\n"
 "\n"
 "Click for more info."
 msgstr ""
-"Das Spiel läuft derzeit eine Testversion\n"
+"Das Spiel läuft derzeit in einer Testversion.\n"
 "\n"
 "Klicke hier für weitere Informationen."
 
@@ -45517,6 +45532,11 @@ msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
 msgid "My Duplicants gained a total of {0} skill levels today"
 msgstr "Meine Duplikanten haben heute {0} Fähigkeitsstufen erlangt"
 
+#. STRINGS.UI.ENDOFDAYREPORT.MY_COLONY
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.MY_COLONY"
+msgid "my colony"
+msgstr "meine Kolonie"
+
 #. STRINGS.UI.ENDOFDAYREPORT.NET
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NET"
 msgid "Net"
@@ -45527,6 +45547,11 @@ msgstr "Netto"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NEXT"
 msgid "Next"
 msgstr "Neuer"
+
+#. STRINGS.UI.ENDOFDAYREPORT.NONE
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.NONE"
+msgid "None"
+msgstr "Keine"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED"
@@ -45624,13 +45649,13 @@ msgstr "Domestizierte Tiere:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP"
-msgid "My colony has {0} critters"
-msgstr "Meine Kolonie hat {0} Tiere"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} Haustiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP"
-msgid "My colony has {0} critters"
-msgstr "Meine Kolonie hat {0} Tiere"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} Haustiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NAME"
@@ -45639,13 +45664,13 @@ msgstr "Wilde Tiere:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
-msgid "There are {0} wild critters around my colony"
-msgstr "Es sind {0} wilde Kreaturen um meine Kolonie herum"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} Haustiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
-msgid "There are {0} wild critters around my colony"
-msgstr "Es sind {0} wilde Kreaturen um meine Kolonie herum"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} Haustiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
@@ -45695,13 +45720,13 @@ msgstr "Laufende Raketenmissionen:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP"
-msgid "There are {0} Rockets currently flying missions"
-msgstr "Es sind derzeit {0} Raketen auf Flugmissionen"
+msgid "{0} rockets are currently flying missions for {1}"
+msgstr "{0} Raketen fliegen derzeit Missionen für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP"
-msgid "There are {0} Rockets currently flying missions"
-msgstr "Es sind derzeit {0} Raketen auf Flugmissionen"
+msgid "{0} rockets are currently flying missions for {1}"
+msgstr "{0} Raketen fliegen derzeit Missionen für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME"
@@ -46302,6 +46327,48 @@ msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.TOOLT
 msgid "Manipulate and customize the simulation with tools that ignore regular game constraints"
 msgstr "Ermöglicht es, die Simulation mit Werkzeugen zu manipulieren, die die regulären Einschränkungen des Spiels ignorieren"
 
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.DISABLED.NAME
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.DISABLED.NAME"
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.DISABLED.TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.DISABLED.TOOLTIP"
+msgid "Unchecked: This colony will be a local save"
+msgstr "Deaktiviert: Diese Kolonie wird lokal gesichert"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.ENABLED.NAME
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.ENABLED.NAME"
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.ENABLED.TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.ENABLED.TOOLTIP"
+msgid "Checked: This colony will be a cloud save (Default)"
+msgstr "Aktiviert: Diese Kolonie wird in der Cloud gesichert (Standard)"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.NAME
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.NAME"
+msgid "Save To Cloud"
+msgstr "In der Cloud speichern"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP"
+msgid "This colony will be created in the cloud saves folder, and synced by the game platform."
+msgstr "Diese Kolonie wird im Cloud-Speicherordner gesichert und von der Spielplattform synchronisiert."
+
+# Satzbau?
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_EXTRA
+#, fuzzy
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_EXTRA"
+msgid "This can be changed later with the colony management options in the load screen, from the main menu."
+msgstr "Dies kann später mit den Optionen zur Kolonieverwaltung im Ladebildschirm vom Hauptmenü aus geändert werden."
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_LOCAL"
+msgid "This colony will be created in the local saves folder. It will not be a cloud save and will not be synced by the game platform."
+msgstr "Diese Kolonie wird lokal gesichert. Es handelt sich nicht um einen Cloud-Speicherstand und wird von der Spielplattform nicht synchronisiert."
+
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.NAME"
 msgid "Default"
@@ -46516,6 +46583,16 @@ msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.CONTROLS_DESCRIPTION"
 msgid "Change key bindings"
 msgstr "Tastenbelegung ändern"
 
+#. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES
+msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES"
+msgid "Default to cloud saves"
+msgstr "Cloud-Speicherstände als Standard"
+
+#. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES_TOOLTIP"
+msgid "When a new colony is created, this controls whether it will be saved into the cloud saves folder for syncing or not."
+msgstr "Wenn eine neue Kolonie erstellt wird, steuert dies, ob diese in den Cloud-Speicherordner zum Synchronisieren gespeichert wird oder nicht."
+
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING"
 msgid "More options available in-game"
@@ -46712,10 +46789,45 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.AUTOSAVEWARNING"
 msgid "<color=#ff0000>Autosave: This file will get deleted as new autosaves are created</color>"
 msgstr "<color=#ff0000>Autosave: Dieser Speicherstand wird gelöscht, wenn neue Autosaves erstellt werden</color>"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.BACKBUTTON
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.BACKBUTTON"
+msgid "< BACK"
+msgstr "< ZURÜCK"
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.BASE_NAME
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.BASE_NAME"
 msgid "Base Name"
 msgstr "Basisname"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_SAVE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_SAVE"
+msgid "cloud"
+msgstr "Cloud"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_TUTORIAL_BOUNCER
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_TUTORIAL_BOUNCER"
+msgid "Upload Saves to Cloud"
+msgstr "Lädt Speicherstand in die Cloud hoch"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONIES_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONIES_TITLE"
+msgid "Colony View"
+msgstr "Kolonieansicht"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_NAME
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_NAME"
+msgid "File: '{0}'"
+msgstr "Datei: '{0}'"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_SIZE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_SIZE"
+msgid "Size: {0}"
+msgstr "Größe: '{0}'"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE"
+msgid "Viewing colony '{0}'"
+msgstr "Ansicht der Kolonie '{0}'"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONFIRMDELETE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONFIRMDELETE"
@@ -46725,6 +46837,131 @@ msgid ""
 msgstr ""
 "Bist du dir sicher, dass du {0} löschen möchtest?\n"
 "Diese Aktion kann nicht rückgängig gemacht werden."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_COLONIES
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_COLONIES"
+msgid "CONVERT ALL"
+msgstr "ALLE KONVERTIEREN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD"
+msgid "Convert <b>all</b> colonies below to use cloud saves"
+msgstr "Konvertiert <b>alle</b> nachfolgenden Kolonien zu Cloud-Speicherständen"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD_SUCCESS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD_SUCCESS"
+msgid ""
+"<style=\"KKeyword\">SUCCESS!</style>\n"
+"All existing colonies have been converted into <style=\"KKeyword\">cloud</style> saves.\n"
+"New colonies will use <style=\"KKeyword\">cloud</style> saves by default.\n"
+"\n"
+"{Client} may take longer than usual to sync the next time you exit the game as a result of this change."
+msgstr ""
+"<style=\"KKKeyword\">ERFOLG!</style>\n"
+"Alle bestehenden Kolonien wurden in <style=\"KKeyword\">Cloud-Speicherstände</style> umgewandelt.\n"
+"Neue Kolonien verwenden standardmäßig <style=\"KKeyword\">Cloud-Speicherstände</style>.\n"
+"\n"
+"Die Synchronisierung von {Client} kann aufgrund dieser Änderung länger als gewöhnlich dauern, wenn Sie das Spiel das nächste Mal verlassen."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL"
+msgid "Convert <b>all</b> colonies below to use local saves"
+msgstr "Konvertiert <b>alle</b> nachfolgenden Kolonien zu lokalen Speicherständen"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL_SUCCESS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL_SUCCESS"
+msgid ""
+"<style=\"KKeyword\">SUCCESS!</style>\n"
+"All existing colonies have been converted into <style=\"KKeyword\">local</style> saves.\n"
+"New colonies will use <style=\"KKeyword\">local</style> saves by default.\n"
+"\n"
+"{Client} may take longer than usual to sync the next time you exit the game as a result of this change."
+msgstr ""
+"<style=\"KKKeyword\">ERFOLG!</style>\n"
+"Alle bestehenden Kolonien wurden in <style=\"KKeyword\">lokale</style> Speicherstände umgewandelt.\n"
+"Neue Kolonien verwenden standardmäßig <style=\"KKeyword\">lokale</style> Speicherstände.\n"
+"\n"
+"Die Synchronisierung von {Client} kann aufgrund dieser Änderung länger als gewöhnlich dauern, wenn Sie das Spiel das nächste Mal verlassen."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_WARNING
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_WARNING"
+msgid ""
+"<style=\"KKeyword\">\n"
+"Warning:</style> Converting all colonies may take some time."
+msgstr ""
+"<style=\"KKeyword\">\n"
+"Warnung:</style> Die Konvertierung aller Kolonien kann einige Zeit in Anspruch nehmen."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY"
+msgid "CONVERT COLONY"
+msgstr "KOLONIE KONVERTIEREN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_CLOUD
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_CLOUD"
+msgid "Convert colony to use cloud saves"
+msgstr "Konvertiert die Kolonie zu einem Cloud-Speicherstand"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_LOCAL"
+msgid "Convert to colony to use local saves"
+msgstr "Konvertiert die Kolonie zu einem lokalem Speicherstand"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR"
+msgid ""
+"Converting the colony <style=\"KKeyword\">{Colony}</style> was unsuccessful!\n"
+"The error was:\n"
+"\n"
+"<b>{Error}</b>\n"
+"\n"
+"Please try again, or post a bug in the forums if this problem keeps happening."
+msgstr ""
+"Die Konvertierung der Kolonie <style=\"KKeyword\">{Colony}</style> ist fehlgeschlagen!\n"
+"Der Fehler war:\n"
+"\n"
+"<b>{Error}</b>\n"
+"\n"
+"Bitte versuche Sie es noch einmal, oder posten Sie einen Fehler im Forum, falls dieses Problem weiterhin auftritt."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR_TITLE"
+msgid "SAVE CONVERSION UNSUCCESSFUL"
+msgstr "SPEICHERSTANDKONVERTIERUNG MISSLUNGEN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD"
+msgid "CONVERT TO CLOUD SAVES"
+msgstr "ZU CLOUD-SPEICHERSTAND KONVERTIEREN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD_DETAILS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD_DETAILS"
+msgid ""
+"Converting a colony to use cloud saves will move all of the save files for that colony into the cloud saves folder.\n"
+"\n"
+"This allows your game platform to sync this colony to the cloud for your account, so it can be played on multiple machines."
+msgstr ""
+"Die Konvertierung einer Kolonie zur Verwendung von Cloud-Speichern verschiebt alle Speicherdateien diese Kolonie in den Cloud-Speicherordner.\n"
+"\n"
+"Dadurch kann die Spielplattform diese Kolonie über Ihr Konto in der Cloud synchronisieren, so dass auf mehreren Rechnern gespielt werden kann."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL"
+msgid "CONVERT TO LOCAL SAVES"
+msgstr "ZU LOKALEM SPEICHERSTAND KONVERTIEREN"
+
+# Satzbau klar?
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL_DETAILS
+#, fuzzy
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL_DETAILS"
+msgid ""
+"Converting a colony to NOT use cloud saves will move all of the save files for that colony into the local saves folder.\n"
+"\n"
+"<style=\"KKeyword\">These save files will no longer be synced to the cloud.</style>"
+msgstr ""
+"Die Konvertierung einer Kolonie zur NICHT Verwendung von Cloud-Speichern verschiebt alle Speicherdateien diese Kolonie in die lokalen Speicherordner.\n"
+"\n"
+"<style=\"KKeyword\">Diese Speicherstände werden nicht mehr mit der Cloud synchronisiert.</style>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE"
@@ -46746,6 +46983,125 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.DUPLICANTS_ALIVE"
 msgid "Duplicants Alive"
 msgstr "Lebende Duplikanten"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
+msgid "local"
+msgstr "lokal"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_COUNT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_COUNT"
+msgid ""
+"\n"
+"Found <style=\"KKeyword\">{0}</style> saves and <style=\"KKeyword\">{1}</style> autosaves that require migration."
+msgstr ""
+"\n"
+"Gefundene <style=\"KKeyword\">{0}</style> Speicherstände und <style=\"KKeyword\">{1}</style> Autosaves, die eine Migration erfordern."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_DONE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_DONE"
+msgid "CONTINUE"
+msgstr "FORTSETZEN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_DONE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_DONE"
+msgid "MORE INFO"
+msgstr "MEHR INFORMATIONEN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_FORUM_BUTTON
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_FORUM_BUTTON"
+msgid "VISIT FORUMS"
+msgstr "FOREN BESUCHEN"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_INFO
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_INFO"
+msgid ""
+"We've changed how save files are organized!\n"
+"Please click the button below to automatically update your save file storage."
+msgstr ""
+"Wir haben den Aufbau der Speicherstände geändert!\n"
+"Bitte klicken Sie auf die Schaltfläche unten, um ihre Speicherstände automatisch zu aktualisieren."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT"
+msgid ""
+"<style=\"KKeyword\">SUCCESS!</style>\n"
+"Migration moved <style=\"KKeyword\">{0}/{1}</style> saves and <style=\"KKeyword\">{2}/{3}</style> autosaves</style>."
+msgstr ""
+"<style=\"KKeyword\">ERFOLG!</style>\n"
+"Migration hat <style=\"KKeyword\">{0}/{1}</style> Speicherstände und <style=\"KKeyword\">{2}/{3}</style> Autosaves verschoben."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES"
+msgid ""
+"<style=\"KKeyword\"><b>WARNING:</b> Not all saves could be migrated.</style>\n"
+"Migration moved <style=\"KKeyword\">{0}/{1}</style> saves and <style=\"KKeyword\">{2}/{3}</style> autosaves.\n"
+"\n"
+"The file <style=\"KKeyword\">{ErrorColony}</style> encountered this error:\n"
+"\n"
+"<b>{ErrorMessage}</b>"
+msgstr ""
+"<style=\"KKeyword\"><b>WARNUNG:</b> Nicht alle Speicherstände konnten migriert werden.</style>\n"
+"Die Migration hat <style=\"KKeyword\">{0}/{1}</style> Speicherstände und <style=\"KKeyword\">{2}/{3}</style> Autosaves verschoben.\n"
+"\n"
+"In der Datei <style=\"KKeyword\">{ErrorColony}</style> trat dieser Fehler auf:\n"
+"\n"
+"<b>{ErrorMessage}</b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM1
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM1"
+msgid ""
+"    1. Try temporarily disabling virus scanners and malware\n"
+"         protection programs."
+msgstr ""
+"    1. Versuchen Sie Virenscanner und Malware-Schutzprogramme\n"
+"         vorübergehend zu deaktivieren.\n"
+"."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM2
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM2"
+msgid "    2. Turn off file sync services such as OneDrive and DropBox."
+msgstr "    2. Deaktivieren Sie Dateisynchronisierungsdienste wie OneDrive und DropBox."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM3
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM3"
+msgid "    3. Restart the game to retry file migration."
+msgstr "    3. Starten Sie das Spiel neu, um die Datei-Migration erneut zu versuchen."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST"
+msgid ""
+"\n"
+"<b>If this still doesn't solve the problem, please post a bug in the forums and we will attempt to assist with your issue.</b>"
+msgstr ""
+"\n"
+"<b>Wenn das Problem damit immer noch nicht gelöst ist, posten Sie bitte einen Fehler in den Foren und wir werden versuchen ihnen bei Ihrem Problem zu helfen.</b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE"
+msgid ""
+"<b>The game was unable to move all save files to their new location.\n"
+"To fix this, please:</b>\n"
+"\n"
+msgstr ""
+"<b>Das Spiel konnte nicht alle Speicherstände an den neuen Ort verschieben.\n"
+"Um dies zu beheben, bitte:</b>\n"
+"\n"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_TITLE"
+msgid "MIGRATION INCOMPLETE"
+msgstr "MIGRATION UNVOLLSTÄNDIG"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_SAVE_FILES
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_SAVE_FILES"
+msgid "MIGRATE SAVE FILES"
+msgstr "MIGRIERE SPEICHERSTÄNDE"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_TITLE"
+msgid "SAVE FILE MIGRATION"
+msgstr "SPEICHERSTAND-MIGRATION"
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MORE_INFO
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MORE_INFO"
 msgid "More Info"
@@ -46761,10 +47117,45 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.NO_FILE_SELECTED"
 msgid "No file selected"
 msgstr "Keine Datei ausgewählt"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.NO_PREVIEW
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.NO_PREVIEW"
+msgid "NO PREVIEW"
+msgstr "KEINE VORSCHAU"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_CLOUDSAVE_FOLDER
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_CLOUDSAVE_FOLDER"
+msgid "CLOUD SAVES"
+msgstr "CLOUD-SPEICHERSTÄNDE"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER"
+msgid "LOCAL SAVES"
+msgstr "LOKALE SPEICHERSTÄNDE"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
+msgid "{0} saves  {1} autosaves  {2}"
+msgstr "{0} Speicherstände  {1} Autosaves  {2}"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TEXT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TEXT"
+msgid "Access your save files using the options below."
+msgstr "Greifen Sie auf ihre Speicherstände mit den folgenden Optionen zu."
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TITLE"
+msgid "SAVE INFORMATION"
+msgstr "SPEICHERINFORMATION"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP"
+msgid "Access your save file locations from here."
+msgstr "Greifen Sie von hier aus auf ihre Speicherorte der Speicherstände zu."
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
-msgid "<b><color=#ff0000>Could not load file {0}. File is using build {1}. This build is {2}.</color></b>"
-msgstr "<b><color=#ff0000>Datei {0} konnte nicht geladen werden. Datei benutzt Build {1}. Aktuell benutzter Build ist {2}.</color></b>"
+msgid "<b><color=#ff0000>Could not load file {0}. File is using build {1}, v{2}. This build is {3}, v{4}.</color></b>"
+msgstr "<b><color=#ff0000>Datei {0} konnte nicht geladen werden. Datei verwendet Build {1}, v{2}. Aktuell benutzter Build ist {3}, v{4}.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS"
@@ -47033,10 +47424,10 @@ msgstr "MOD-FEHLER"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.DEV_MESSAGE"
 msgid ""
 "{0}\n"
-"Check output_log.txt for details."
+"Check Player.log for details."
 msgstr ""
 "{0}\n"
-"Siehe output_log.txt für Einzelheiten."
+"Siehe Player.log für Einzelheiten."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE"
@@ -47447,21 +47838,19 @@ msgstr "DISKUTIERE MIT"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"<b>New Bugfix Patch for July 2020</b>\n"
+"<b>Cloud Save Update for Nov 2020</b>\n"
 "\n"
-" • Fixed multiple simulation heat creation/destruction bugs\n"
-" • Fixed Duplicants getting stuck digging forever\n"
-" • Continued work on alternate color sets\n"
-" • Dozens of other fixes and improvements\n"
+" • Added support for cloud saves. Click \"Load Game\" to open the saves menu and manage your local and cloud saves!\n"
+" • Lots of performance improvements, especially for colonies with lots of Duplicants\n"
+" • Upgraded the Unity game engine to the latest LTS version\n"
 "\n"
-"Please check out the full patch notes for more details!"
+"Check out the full patch notes for more details!"
 msgstr ""
-"<b> Neuer Bugfix Patch für Juli 2020 </ b>\n"
+"<b>Cloud-Speicher-Update für November 2020</b>\n"
 "\n"
-"  • Mehrere Fehler bei der Erzeugung / Zerstörung von Simulationswärme wurden behoben\n"
-"  • Behoben, dass Duplikanten für immer stecken bleiben\n"
-"  • Fortsetzung der Arbeit an alternativen Farbsätzen\n"
-"  • Dutzende anderer Korrekturen und Verbesserungen\n"
+" • Unterstützung für Cloud-Speicher hinzugefügt. Klicken Sie auf \"Spiel laden\", um das Speichermenü zu öffnen und ihre lokalen und Cloud-Speicherstände zu verwalten!\n"
+" • Viele Leistungsverbesserungen, besonders für Kolonien mit vielen Duplikanten\n"
+" • Die Unity-Game-Engine auf die neueste LTS-Version aktualisiert\n"
 "\n"
 "Bitte lesen Sie die vollständigen Patchnotizen für weitere Details!"
 
@@ -48719,6 +49108,11 @@ msgstr "Der Biodrucker braucht Zeit zum Aufladen, wenn ich diese Druckerzeugniss
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
 msgid "Reject All Printables?"
 msgstr "Alle Druckerzeugnisse abweisen?"
+
+#. STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME
+msgctxt "STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME"
+msgid "A colony named \"{0}\" already exists!"
+msgstr "Eine Kolonie mit dem Namen \"{0}\" existiert bereits!"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.EMBARK
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.EMBARK"
@@ -51458,6 +51852,26 @@ msgstr "Aufgenommen: {0} {1}"
 msgctxt "STRINGS.UI.PLACEINRECEPTACLE"
 msgid "Plant"
 msgstr "Pflanzen"
+
+#. STRINGS.UI.PLATFORMS.EPIC
+msgctxt "STRINGS.UI.PLATFORMS.EPIC"
+msgid "Epic Games Store"
+msgstr ""
+
+#. STRINGS.UI.PLATFORMS.STEAM
+msgctxt "STRINGS.UI.PLATFORMS.STEAM"
+msgid "Steam"
+msgstr ""
+
+#. STRINGS.UI.PLATFORMS.UNKNOWN
+msgctxt "STRINGS.UI.PLATFORMS.UNKNOWN"
+msgid "Your game client"
+msgstr "Dein Spieleklient"
+
+#. STRINGS.UI.PLATFORMS.WEGAME
+msgctxt "STRINGS.UI.PLATFORMS.WEGAME"
+msgid "Wegame"
+msgstr ""
 
 #. STRINGS.UI.POS_INFINITY
 msgctxt "STRINGS.UI.POS_INFINITY"
@@ -58280,6 +58694,11 @@ msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S"
 msgid " kDTU/s"
 msgstr " kDTU/s"
 
+#. STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE
+msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE"
+msgid "B"
+msgstr "B"
+
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE"
 msgid "GB"
@@ -58294,6 +58713,11 @@ msgstr "kB"
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE"
 msgid "MB"
 msgstr "MB"
+
+#. STRINGS.UI.UNITSUFFIXES.INFORMATION.TERABYTE
+msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.TERABYTE"
+msgid "TB"
+msgstr "TB"
 
 #. STRINGS.UI.UNITSUFFIXES.LIGHT.LUX
 msgctxt "STRINGS.UI.UNITSUFFIXES.LIGHT.LUX"
@@ -60146,8 +60570,8 @@ msgstr "Anleitung:"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_LARGE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_LARGE.DESCRIPTION"
-msgid "A number of large but hard-to-dig boulders are scattered around this world"
-msgstr "Einige große, schwer zu durchdringende, Felsbrocken sind in dieser Welt verteilt"
+msgid "Huge boulders make digging through this world more difficult"
+msgstr "Große Felsbrocken erschweren das Graben durch diese Welt"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_LARGE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_LARGE.NAME"
@@ -60156,8 +60580,8 @@ msgstr "Große Felsbrocken"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.DESCRIPTION"
-msgid "A number of moderately-sized but hard-to-dig boulders are scattered around this world"
-msgstr "Einige mittelgroße, schwer zu durchdringende, Felsbrocken sind in dieser Welt verteilt"
+msgid "Mid-sized boulders make digging through this world more difficult"
+msgstr "Mittlere Felsbrocken erschweren das Graben durch diese Welt"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.NAME"
@@ -60166,8 +60590,8 @@ msgstr "Mittlere Felsbrocken"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MIXED.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MIXED.DESCRIPTION"
-msgid "A number of hard-to-dig boulders of various sizes are scattered around this world"
-msgstr "Einige schwer zu durchdringende Felsbrocken sind in dieser Welt verteilt"
+msgid "Boulders of various sizes make digging through this world more difficult"
+msgstr "Felsbrocken verschiedener Größe erschweren das Graben durch diese Welt"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MIXED.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MIXED.NAME"
@@ -60176,8 +60600,8 @@ msgstr "Gemischte Felsbrocken"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_SMALL.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.DESCRIPTION"
-msgid "A number of small but hard-to-dig boulders are scattered around this world"
-msgstr "Einige kleine, schwer zu durchdringende, Felsbrocken sind in dieser Welt verteilt"
+msgid "Tiny boulders make digging through this world more difficult"
+msgstr "Kleine Felsbrocken erschweren das Graben durch diese Welt"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME"
@@ -60186,18 +60610,18 @@ msgstr "Kleine Felsbrocken"
 
 #. STRINGS.WORLD_TRAITS.DEEP_OIL.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.DEEP_OIL.DESCRIPTION"
-msgid "Most of the <style=\"KKeyword\">Oil</style> in this world remains inside the rock and must be extracted with <link=\"OILWELLCAP\">Oil Well</link>s"
-msgstr "Der Großteil des <style=\"KKeyword\">Öls</style> in dieser Welt befindet sich im Fels und muss mit <link=\"OILWELLCAP\">Ölbrunnen</link> extrahiert werden"
+msgid "Most of the <style=\"KKeyword\">Oil</style> in this world will need to be extracted with <link=\"OILWELLCAP\">Oil Well</link>s"
+msgstr "Der Großteil des <style=\"KKeyword\">Öls</style> in dieser Welt muss mit <link=\"OILWELLCAP\">Ölbrunnen</link> extrahiert werden"
 
 #. STRINGS.WORLD_TRAITS.DEEP_OIL.NAME
 msgctxt "STRINGS.WORLD_TRAITS.DEEP_OIL.NAME"
-msgid "Buried Oil"
-msgstr "Vergrabenes Öl"
+msgid "Trapped Oil"
+msgstr "Eingeschlossenes Öl"
 
 #. STRINGS.WORLD_TRAITS.FROZEN_CORE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.FROZEN_CORE.DESCRIPTION"
-msgid "The core of this world is a block of <link=\"ICE\">Ice</link>"
-msgstr "Der Kern dieser Welt ist ein Block aus <link=\"ICE\">Eis</link>"
+msgid "This world has a chilly core of solid <link=\"ICE\">Ice</link>"
+msgstr "Diese Welt hat einen frostigen Kern aus festem <link=\"ICE\">Eis</link>"
 
 #. STRINGS.WORLD_TRAITS.FROZEN_CORE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.FROZEN_CORE.NAME"
@@ -60216,8 +60640,8 @@ msgstr "Geoaktiv"
 
 #. STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION"
-msgid "A number of large geodes containing caches of rare material have been deposited around this asteroid"
-msgstr "Größere Geoden mit Lagern seltener Ressourcen finden sich auf diesem Asteroiden"
+msgid "Large geodes containing rare material caches are deposited across this world"
+msgstr "Überall auf der Welt befinden sich große Geoden mit Lagerstätten für seltene Materialien"
 
 #. STRINGS.WORLD_TRAITS.GEODES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.NAME"
@@ -60236,8 +60660,8 @@ msgstr "Geodormant"
 
 #. STRINGS.WORLD_TRAITS.GLACIERS_LARGE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GLACIERS_LARGE.DESCRIPTION"
-msgid "Huge chunks of primordial <link=\"ICE\">Ice</link> have been captured in this world"
-msgstr "Riesige Brocken des urzeitlichen <link=\"ICE\">Eis</link> wurden in dieser Welt festgehalten"
+msgid "Huge chunks of primordial <link=\"ICE\">Ice</link> are scattered across this world"
+msgstr "Riesige Brocken des urzeitlichen <link=\"ICE\">Eis</link> sind in dieser Welt verstreut"
 
 #. STRINGS.WORLD_TRAITS.GLACIERS_LARGE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GLACIERS_LARGE.NAME"
@@ -60256,8 +60680,8 @@ msgstr "Irreguläres Öl"
 
 #. STRINGS.WORLD_TRAITS.MAGMA_VENTS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.MAGMA_VENTS.DESCRIPTION"
-msgid "The <link=\"MAGMA\">Magma</link> of the core has spread up in to the body of this world"
-msgstr "Das <link=\"MAGMA\">Magma</link> des Kerns hat sich in den Kern dieser Welt ausgebreitet"
+msgid "The <link=\"MAGMA\">Magma</link> from this world's core has leaked into the mantle and crust"
+msgstr "Das <link=\"MAGMA\">Magma</link> des Kerns dieser Welt ist in Mantel und die Kruste eingedrungen"
 
 #. STRINGS.WORLD_TRAITS.MAGMA_VENTS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.MAGMA_VENTS.NAME"
@@ -60266,8 +60690,8 @@ msgstr "Magmakanäle"
 
 #. STRINGS.WORLD_TRAITS.METAL_POOR.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.METAL_POOR.DESCRIPTION"
-msgid "There is less <style=\"KKeyword\">Metal Ore</style> than expected here, proceed with caution!"
-msgstr "Es gibt weniger <style=\"KKeyword\">Metallerze</style> als hier erwartet, sei vorsichtig!"
+msgid "There is a reduced amount of <style=\"KKeyword\">Metal Ore</style> on this world, proceed with caution!"
+msgstr "Es gibt in dieser Welt nur eine geringe Menge an <style=\"KKeyword\">Metallerzen</style>, sei vorsichtig!"
 
 #. STRINGS.WORLD_TRAITS.METAL_POOR.NAME
 msgctxt "STRINGS.WORLD_TRAITS.METAL_POOR.NAME"
@@ -60286,13 +60710,13 @@ msgstr "Metallreich"
 
 #. STRINGS.WORLD_TRAITS.MISALIGNED_START.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.MISALIGNED_START.DESCRIPTION"
-msgid "The <link=\"HEADQUARTERS\">Printing Pod</link> failed to land in the center of this world"
-msgstr "Der <link=\"HEADQUARTERS\">Biodrucker</link> konnte nicht im Herzen dieser Welt landen"
+msgid "The <link=\"HEADQUARTERS\">Printing Pod</link> didn't end up in the asteroid's exact center this time... but it's still nowhere near the surface"
+msgstr "Der <link=\"HEADQUARTERS\">Biodrucker</link> ist diesmal nicht genau im Zentrum des Asteroiden gelandet... aber er ist immer noch weit von der Oberfläche entfernt"
 
 #. STRINGS.WORLD_TRAITS.MISALIGNED_START.NAME
 msgctxt "STRINGS.WORLD_TRAITS.MISALIGNED_START.NAME"
-msgid "Miscalculated Pod Location"
-msgstr "Fehlberechnete Drucker-Position"
+msgid "Alternate Pod Location"
+msgstr "Alternative Drucker-Position"
 
 #. STRINGS.WORLD_TRAITS.MISSING_TRAIT
 msgctxt "STRINGS.WORLD_TRAITS.MISSING_TRAIT"
@@ -60301,8 +60725,8 @@ msgstr "<fehlende Eigenschaft>"
 
 #. STRINGS.WORLD_TRAITS.NO_TRAITS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.DESCRIPTION"
-msgid "This world exists in a particularly stable configuration each time it is encountered."
-msgstr "Diese Welt existiert in einer besonders stabilen Konfiguration."
+msgid "This world exists in a particularly stable configuration each time it is encountered"
+msgstr "Diese Welt existiert in einer besonders stabilen Konfiguration, jedes Mal wenn man ihr begegnet"
 
 #. STRINGS.WORLD_TRAITS.NO_TRAITS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.NAME"
@@ -60311,8 +60735,8 @@ msgstr "<i>Diese Welt ist beständig und hat keine ungewöhnlichen Eigenschaften
 
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION"
-msgid "Sickly <link=\"SLIMEMOLD\">Slime</link> growths have been located all over this world"
-msgstr "Wachstum von ekelhaftem <link=\"SLIMEMOLD\">Schleim</link> wurde auf der ganzen Welt beobachtet"
+msgid "Sickly <link=\"SLIMEMOLD\">Slime</link> growths have crept all over this world"
+msgstr "Wachstum von ekelhaftem <link=\"SLIMEMOLD\">Schleim</link> hat sich auf der ganzen Welt eingeschlichen"
 
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME"
@@ -60336,8 +60760,8 @@ msgstr "Mehrere aktive <style=\"KKeyword\">Vulkane</style> wurden in dieser Regi
 
 #. STRINGS.WORLD_TRAITS.VOLCANOES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
-msgid "Volcanoes"
-msgstr "Vulkane"
+msgid "Volcanic Activity"
+msgstr "Vulkanische Aktivität"
 
 #. STRINGS.WORLDS.BADLANDS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.BADLANDS.DESCRIPTION"
@@ -60565,6 +60989,106 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
+#~ msgid "This lure is baited with {0}"
+#~ msgstr "Dieser Köder ist mit {0} bestückt"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP"
+#~ msgid ""
+#~ "This building is full of <link=\"SALT\">Salt</link> and can no longer operate.\n"
+#~ "------------------\n"
+#~ "A Duplicant must empty it for operation to continue."
+#~ msgstr ""
+#~ "Dieses Gebäude ist voller <link=\"SALT\">Salz</link> und kann nicht mehr betrieben werden.\n"
+#~ "------------------\n"
+#~ "Ein Duplikant muss es leeren, damit der Betrieb fortgesetzt werden kann."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC"
+#~ msgid "Ethanol generators require less Duplicant operation, but produce significant waste."
+#~ msgstr "Ethanolgeneratoren benötigen weniger Bedienung durch Duplikanten, produzieren aber erhebliche Mengen an Abfall."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT"
+#~ msgid ""
+#~ "Converts <link=\"ETHANOL\">Ethanol</link> into electrical <link=\"POWER\">Power</link>.\n"
+#~ "\n"
+#~ "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link=\"DIRTYWATER\">Polluted Water</link>."
+#~ msgstr ""
+#~ "Wandelt <link=\"ETHANOL\">Ethanol</link> in elektrische <link=\"POWER\">Energie</link> um.\n"
+#~ "\n"
+#~ "Erzeugte <link=\"CARBONDIOXIDE\">Kohlendioxid</link> und <link=\"DIRTYWATER\">verschmutztes Wasser</link>."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME"
+#~ msgid "<link=\"ETHANOLGENERATOR\">Ethanol Generator</link>"
+#~ msgstr "<link=\"ETHANOLGENERATOR\">Ethanol-Generator</link>"
+
+#~ msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.DESC"
+#~ msgid "Monument has head, midsection and bottom."
+#~ msgstr "Das Monument hat Kopf, Mittelteil und Unterteil."
+
+#~ msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.NAME"
+#~ msgid "Completed Monument"
+#~ msgstr "Monument fertiggestellt"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP"
+#~ msgid "My colony has {0} critters"
+#~ msgstr "Meine Kolonie hat {0} Tiere"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP"
+#~ msgid "My colony has {0} critters"
+#~ msgstr "Meine Kolonie hat {0} Tiere"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
+#~ msgid "There are {0} wild critters around my colony"
+#~ msgstr "Es sind {0} wilde Kreaturen um meine Kolonie herum"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
+#~ msgid "There are {0} wild critters around my colony"
+#~ msgstr "Es sind {0} wilde Kreaturen um meine Kolonie herum"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "<b>New Bugfix Patch for July 2020</b>\n"
+#~ "\n"
+#~ " • Fixed multiple simulation heat creation/destruction bugs\n"
+#~ " • Fixed Duplicants getting stuck digging forever\n"
+#~ " • Continued work on alternate color sets\n"
+#~ " • Dozens of other fixes and improvements\n"
+#~ "\n"
+#~ "Please check out the full patch notes for more details!"
+#~ msgstr ""
+#~ "<b> Neuer Bugfix Patch für Juli 2020 </ b>\n"
+#~ "\n"
+#~ "  • Mehrere Fehler bei der Erzeugung / Zerstörung von Simulationswärme wurden behoben\n"
+#~ "  • Behoben, dass Duplikanten für immer stecken bleiben\n"
+#~ "  • Fortsetzung der Arbeit an alternativen Farbsätzen\n"
+#~ "  • Dutzende anderer Korrekturen und Verbesserungen\n"
+#~ "\n"
+#~ "Bitte lesen Sie die vollständigen Patchnotizen für weitere Details!"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_LARGE.DESCRIPTION"
+#~ msgid "A number of large but hard-to-dig boulders are scattered around this world"
+#~ msgstr "Einige große, schwer zu durchdringende, Felsbrocken sind in dieser Welt verteilt"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.DESCRIPTION"
+#~ msgid "A number of moderately-sized but hard-to-dig boulders are scattered around this world"
+#~ msgstr "Einige mittelgroße, schwer zu durchdringende, Felsbrocken sind in dieser Welt verteilt"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MIXED.DESCRIPTION"
+#~ msgid "A number of hard-to-dig boulders of various sizes are scattered around this world"
+#~ msgstr "Einige schwer zu durchdringende Felsbrocken sind in dieser Welt verteilt"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.DESCRIPTION"
+#~ msgid "A number of small but hard-to-dig boulders are scattered around this world"
+#~ msgstr "Einige kleine, schwer zu durchdringende, Felsbrocken sind in dieser Welt verteilt"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.DEEP_OIL.NAME"
+#~ msgid "Buried Oil"
+#~ msgstr "Vergrabenes Öl"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
+#~ msgid "Volcanoes"
+#~ msgstr "Vulkane"
 
 #~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
 #~ msgid "AUTOMATION PACK!"
