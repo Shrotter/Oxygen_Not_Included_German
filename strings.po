@@ -10854,29 +10854,20 @@ msgid "Duplicants will fill cargo bays with any resources they find during space
 msgstr "Duplikanten füllen die Laderäume mit allen Ressourcen, die sie während ihren Weltraummissionen finden."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to store any <link=\"ELEMENTSSOLID\">Solid</link> resources found during space missions.\n"
-#| "\n"
-#| "Stored resources become available to the colony upon the rocket's return."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.EFFECT"
 msgid ""
 "Allows Duplicants to store some of the <link=\"ELEMENTSSOLID\">Solid Materials</link> found during space missions.\n"
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
-"Ermöglicht es Duplikanten, alle <link=\"ELEMENTSSOLID\">festen Ressourcen</link> zu speichern, die während Raumfahrtmissionen gefunden wurden.\n"
+"Ermöglicht es Duplikanten, einige <link=\"ELEMENTSSOLID\">feste Ressourcen</link> zu speichern, die während Raumfahrtmissionen gefunden wurden.\n"
 "\n"
 "Die gespeicherten Ressourcen werden der Kolonie nach der Rückkehr der Rakete zur Verfügung gestellt."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
-#| msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.NAME"
 msgid "<link=\"SOLIDCARGOBAYSMALL\">Cargo Bay</link>"
-msgstr "<link=\"CARGOBAY\">Frachtraum</link>"
+msgstr "<link=\"SOLIDCARGOBAYSMALL\">Frachtraum</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC"
@@ -11052,9 +11043,6 @@ msgid "All solids are sent into the building's output conveyor, except the solid
 msgstr "Alle Feststoffe werden in den Ausgangsförderer des Gebäudes geleitet, mit Ausnahme des im Filter ausgewählten Feststoffs."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT"
-#| msgid "Separates one <link=\"ELEMENTSSOLID\">Solid</link> from the conveyor, sending it into a dedicated <link=\"SOLIDCONDUIT\">Conveyor Rail</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT"
 msgid "Separates one <link=\"ELEMENTSSOLID\">Solid Material</link> from the conveyor, sending it into a dedicated <link=\"SOLIDCONDUIT\">Conveyor Rail</link>."
 msgstr "Filtert ein <link=\"ELEMENTSSOLID\">Feststoffs</link> vom Förderband und sendet es auf ein separate <link=\"SOLIDCONDUIT\">Förderschiene</link>."
@@ -11182,20 +11170,14 @@ msgid "The electrifying egg of the <link=\"STATERPILLAR\">Plug Slug</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.WARNING"
-#| msgid "Switch must be connected to a <link=\"POWER\">Power</link> grid"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT"
 msgid "Plug Slug Eggs can be connected to a <link=\"POWER\">Power</link> circuit as an energy source."
-msgstr "Schalter muss mit einem <link=\"POWER\">Stromnetz</link> verbunden sein"
+msgstr "Stöpsel Schnecken Eier können als Energiequelle an einen <link =\"POWER\">Stromkreis</link> angeschlossen werden"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACUEGG.NAME"
-#| msgid "<link=\"PACUEGG\">Pacu Egg</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME"
 msgid "<link=\"STATERPILLAREGG\">Plug Slug Egg</link>"
-msgstr "<link=\"PACUEGG\">Pacu-Ei</link>"
+msgstr "<link=\"STATERPILLAREGG\">Stöpselschnecken-Ei</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY"
@@ -11208,12 +11190,9 @@ msgid "Wild!"
 msgstr "Wild!"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEEL.NAME"
-#| msgid "<link=\"STEEL\">Steel</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Slug</link>"
-msgstr "<link=\"STEEL\">Stahl</link>"
+msgstr "<link=\"STATERPILLAR\">Stöpselschnecken</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC"
@@ -11297,28 +11276,19 @@ msgid "Surprise decor sneak attacks a Duplicant's gloomy day."
 msgstr "Diese Überraschungs-Dekoattacke vertreibt trübselige Tage jedes Duplikanten."
 
 #. STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
-#| msgid "<link=\"STEAM\">Steam</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME"
 msgid "<link=\"STICKERBOMB\">Sticker Bomb</link>"
-msgstr "<link=\"STEAM\">Dampf</link>"
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC"
-#| msgid "Resources left on the floor become \"debris\" and lower Decor when not put away."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC"
 msgid "Resources left on the floor become \"debris\" and lower decor when not put away."
-msgstr "Ressourcen auf dem Boden liegen werden zu \"Schutt\" und verringern das Dekor, wenn sie nicht aufgeräumt werden."
+msgstr "Auf dem Boden verbleibende Ressourcen werden zu \"Schutt\" und senken das Dekor, wenn sie nicht weggeräumt werden."
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC"
-#| msgid "Make solid decisions in <link=\"ELEMENTSSOLID\">Solid</link> sorting."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT"
 msgid "Stores the <link=\"ELEMENTSSOLID\">Solid Materials</link> of your choosing."
-msgstr "Trifft Solide Entscheidungen in der <link=\"ELEMENTSSOLID\">Feststoff</link>sortierung."
+msgstr "Speichert <link =\"ELEMENT SOLID\">Feststoffe</link> deiner Wahl."
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME"
@@ -11326,29 +11296,20 @@ msgid "<link=\"STORAGELOCKER\">Storage Bin</link>"
 msgstr "<link=\"STORAGELOCKER\">Lagerbehälter</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC"
-#| msgid "Smart storage bins allow for the automation of resource organization based on type and mass."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC"
 msgid "Smart storage bins can automate resource organization based on type and mass."
-msgstr "Intelligente Lagerbehälter ermöglichen die Automatisierung der Ressourcenorganisation basierend auf Typ und Masse."
+msgstr "Intelligente Lagerbehälter automatisieren die Ressourcenorganisation basierend auf Typ und Masse."
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
-#| msgid ""
-#| "Stores the Solid resources of your choosing.\n"
-#| "\n"
-#| "Sends a <b><style=\"logic_on\">Green Signal</style></b> when bin is full."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
 msgid ""
 "Stores the <link=\"ELEMENTSSOLID\">Solid Materials</link> of your choosing.\n"
 "\n"
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when bin is full."
 msgstr ""
-"Lagert die Ressourcen deiner Wahl.\n"
+"Speichert <link=\"ELEMENTSSOLID\">feste Materialien</link> deiner Wahl.\n"
 "\n"
-"Sendet ein <b><style=\"logic_on\">Grünes Signal</style></b> wenn der Behälter voll ist."
+"Sendet ein <b><style=\"logic_on\">grünes Signal</style></b>, wenn der Behälter voll ist."
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT"
@@ -11376,12 +11337,6 @@ msgid "Sublimation is the sublime process by which solids convert directly into 
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.EFFECT"
-#| msgid ""
-#| "Converts <link=\"WATER\">Water</link> into <link=\"OXYGEN\">Oxygen</link> and <link=\"HYDROGEN\">Hydrogen</link>.\n"
-#| "\n"
-#| "Becomes idle when the area reaches maximum pressure capacity."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT"
 msgid ""
 "Greatly increases the sublimation rate of <link=\"ELEMENTSSOLID\">Solid Materials</link>.\n"
@@ -11390,17 +11345,16 @@ msgid ""
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
-"Wandelt <link=\"WATER\">Wasser</link> in <link=\"OXYGEN\">Sauerstoff</link> und <link=\"ELEMENTSGAS\">Wasserstoff</link> um.\n"
+"Erhöht die Sublimationsrate von <link=\"ELEMENTSSOLID\">festen Materialien</link> erheblich.\n"
 "\n"
-"Wird untätig wenn der maximale Umgebungsdruck erreicht ist."
+"Nützlich bei der Umwandlung von <link=\"TOXICSAND\">verschmutzter Erde</link> in <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link>.\n"
+"\n"
+"Wird im Leerlauf, wenn der Bereich die maximale Druckkapazität erreicht."
 
 #. STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME"
-#| msgid "<link=\"SHEARINGSTATION\">Shearing Station</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.NAME"
 msgid "<link=\"SUBLIMATIONSTATION\">Sublimation Station</link>"
-msgstr "<link=\"SHEARINGSTATION\">Scherstation</link>"
+msgstr "<link=\"SUBLIMATIONSTATION\">Sublimationsstation</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SUGARENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUGARENGINE.DESC"
@@ -11408,29 +11362,20 @@ msgid "Not the most stylish way to travel space, but certainly the tastiest."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUGARENGINE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.EFFECT"
-#| msgid ""
-#| "Burns <link=\"PETROLEUM\">Petroleum</link> to propel rockets for space exploration.\n"
-#| "\n"
-#| "The engine of a rocket must be built first before more rocket modules may be added."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUGARENGINE.EFFECT"
 msgid ""
 "Burns <link=\"SUCROSE\">Sucrose</link> to propel rockets for space exploration.\n"
 "\n"
 "The engine of a rocket must be built first before more rocket modules can be added."
 msgstr ""
-"Verbrennt <link=\"PETROLEUM\">Petroleum</link>, um Raketen für die Weltraumforschung anzutreiben.\n"
+"Verbrennt <link=\"SUCROSE\">Saccharose</link> , um Raketen für die Weltraumforschung anzutreiben.\n"
 "\n"
 "Der Antrieb einer Rakete muss zuerst gebaut werden, bevor weitere Raketenmodule hinzugefügt werden können."
 
 #. STRINGS.BUILDINGS.PREFABS.SUGARENGINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.NAME"
-#| msgid "<link=\"STEAMENGINE\">Steam Engine</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUGARENGINE.NAME"
 msgid "<link=\"SUGARENGINE\">Sugar Engine</link>"
-msgstr "<link=\"STEAMENGINE\">Dampf-Triebwerk</link>"
+msgstr "<link=\"SUGARENGINE\">Zuckermotor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.DESC"
@@ -11459,12 +11404,6 @@ msgid "An atmo suit dock will empty atmo suits of waste, but only one suit can c
 msgstr "Ein Dock kann Anzüge von Abfällen befreien, aber nur jeweils einen Anzug gleichzeitig aufladen."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
-#| msgid ""
-#| "Stores and refuels <link=\"JETSUIT\">Jet Suits</link> with <link=\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
-#| "\n"
-#| "Build next to a <link=\"JETSUITMARKER\">Jet Suit Checkpoint</link> to make Duplicants change into suits when passing by."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
 msgid ""
 "Stores <link=\"ATMOSUIT\">Atmo Suits</link> and refuels them with <link=\"OXYGEN\">Oxygen</link>.\n"
@@ -11473,9 +11412,11 @@ msgid ""
 "\n"
 "Build next to an <link=\"SUITMARKER\">Atmo Suit Checkpoint</link> to make Duplicants change into suits when passing by."
 msgstr ""
-"Speichert und betankt <link=\"JETSUIT\">Jet-Anzüge</link> mit <link=\"OXYGEN\">Sauerstoff</link> und <link=\"PETROLEUM\">Petroleum</link>.\n"
+"Speichert und betankt <link=\"ATMOSUIT\">Atmo-Anzüge</link> mit <link=\"OXYGEN\">Sauerstoff</link>.\n"
 "\n"
-"Neben einer <link=\"JETSUITMARKER\">Jet-Anzug-Kontrollstelle</link> bauen, damit Duplikanten beim vorbeigehen in den Anzug steigen."
+"Leert Anzüge von <link =\"DIRTY WATER\">Verschmutztem Wasser</link>.\n"
+"\n"
+"Baue ihn neben einem <link =\"SUITMARKER\">Atmo-Anzug Kontrollpunkt</link>, damit Duplikanten beim Vorbeigehen Anzüge anziehen."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME"
@@ -11513,21 +11454,15 @@ msgid "An artificial ray of sunshine."
 msgstr "Eine künstliche Quelle des Sonnenlichts."
 
 #. STRINGS.BUILDINGS.PREFABS.SUNLAMP.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUNLAMP.EFFECT"
-#| msgid ""
-#| "Gives off <link=\"LIGHT\">Sunlight</link> level Lux. \n"
-#| "\n"
-#| "Can be paired with <link=\"BEACHCHAIR\">Beach Chair</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUNLAMP.EFFECT"
 msgid ""
 "Gives off <link=\"LIGHT\">Sunlight</link> level Lux.\n"
 "\n"
 "Can be paired with <link=\"BEACHCHAIR\">Beach Chairs</link>."
 msgstr ""
-"Strahl Licht mit einer Helligkeit von <link=\"LIGHT\">Sonnenlicht</link> aus.\n"
+"Gibt <link =\"LIGHT\">Sonnenlicht</link> Lux aus.\n"
 "\n"
-"Kann mit einem <link=\"BEACHAIR\">Strandliege</link> kombiniert werden."
+"Kann mit <link =\"BEACHCHAIR\">Strandstühlen</link> kombiniert werden."
 
 #. STRINGS.BUILDINGS.PREFABS.SUNLAMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUNLAMP.NAME"
@@ -11580,9 +11515,6 @@ msgid "Visco-Gel is a <link=\"ELEMENTSLIQUID\">Liquid</link> polymer with high s
 msgstr "Visco-Gel ist ein <link=\"ELEMENTSLIQUID\">flüssiges</link> Polymer mit hoher Oberflächenspannung."
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION"
-#| msgid "Yellowcake is a <link=\"ELEMENTSSOLID\">Solid</link> used in uranium enrichment."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION"
 msgid "Yellowcake is a <link=\"ELEMENTSSOLID\">Solid Material</link> used in uranium enrichment."
 msgstr "Yellowcake ist ein <link=\"ELEMENTSSOLID\">Feststoff</link> der zur Urananreicherung genutzt wird."
@@ -11593,14 +11525,6 @@ msgid "The cute little face comes pre-installed."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT"
-#| msgid ""
-#| "Stores <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSSOLID\">Solid Materials</link> debris from the Sweepy.\n"
-#| "\n"
-#| "Requires <link=\"POWER\">Power</link> to recharge the Sweepy.\n"
-#| "\n"
-#| "Duplicants that can perform Supply errands will empty the debris into available storage bins."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT"
 msgid ""
 "Deploys an automated <link=\"SWEEPBOT\">Sweepy Bot</link> to sweep up <link=\"ELEMENTSSOLID\">Solid</link> debris and <link=\"ELEMENTSLIQUID\">Liquid</link> spills.\n"
@@ -11611,19 +11535,11 @@ msgid ""
 "\n"
 "Duplicants will empty Dock storage into available storage bins."
 msgstr ""
-"Speichert <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link> und <link=\"ELEMENTSSOLID\">feste Materialien</link> von Sweepy. \n"
-"\n"
-"Benötigt <link=\"POWER\">Energie</link>, um Sweepy aufzuladen.\n"
-"\n"
-"Duplikanten, die Versorgungsaufträge ausführen können, entleeren die Trümmer in verfügbare Lagerplätze."
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
-#| msgid "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
 msgid "<link=\"SWEEPBOTSTATION\">Sweepy's Dock</link>"
-msgstr "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
+msgstr "<link=\"SWEEPBOTSTATION\">Sweepy's Dock</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION"
@@ -11712,14 +11628,6 @@ msgid "Telescopes are necessary for learning starmaps and conducting rocket miss
 msgstr "Teleskope sind notwendig, um Sternenkarten zu lernen und Raketenmissionen durchzuführen."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
-#| msgid ""
-#| "Maps Starmap destinations.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"RESEARCHER\">Geographical Analysis</link> trait.\n"
-#| "\n"
-#| "Building must be exposed to space to function."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid ""
 "Maps Starmap destinations.\n"
@@ -11730,7 +11638,7 @@ msgid ""
 msgstr ""
 "Kartografiert Ziele in der Sternenkarte.\n"
 "\n"
-"Zugewiesene Duplikanten müssen das Merkmal <link=\"RESEARCHER\">geographische Analyse</link> haben.\n"
+"Zugewiesene Duplikanten müssen das Merkmal <link=\"RESEARCHER\">Feldforschung</link> haben.\n"
 "\n"
 "Das Gebäude muss dem Weltraum zugewandt sein."
 
@@ -11774,12 +11682,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEARANALYZER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.EFFECT"
-#| msgid "A strong door with a sophisticated genetic lock."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEARANALYZER.EFFECT"
 msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
+msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEARANALYZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEARANALYZER.NAME"
@@ -11795,12 +11700,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.EFFECT"
-#| msgid "A strong door with a sophisticated genetic lock."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.EFFECT"
 msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
+msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.NAME"
@@ -11880,12 +11782,6 @@ msgid "An astronaut must accompany sight seeing Duplicants on rocket flights."
 msgstr "Ein Astronaut muss von einem Weltraumtouristen auf Raketenflügen begleiten werden."
 
 #. STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.EFFECT"
-#| msgid ""
-#| "Allows one non-Astronaut Duplicant to visit space.\n"
-#| "\n"
-#| "Sight-Seeing rocket flights decrease <link=\"STRESS\">Stress</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.EFFECT"
 msgid ""
 "Allows one non-Astronaut Duplicant to visit space.\n"
@@ -11894,7 +11790,7 @@ msgid ""
 msgstr ""
 "Ermöglicht es einem Nicht-Astronauten Duplikanten, den Weltraum zu besuchen.\n"
 "\n"
-"Raketenflüge reduzieren den <link=\"STRESS\">Stress</link>."
+"Sightseeing-Raketenflüge reduzieren den <link=\"STRESS\">Stress</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME"
@@ -12031,12 +11927,6 @@ msgid "This building will displace {amount} Gas while in use."
 msgstr "Dieses Gebäude verschiebt {amount} Gas bei Verwendung."
 
 #. STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT"
-#| msgid ""
-#| "Must be placed above an open space and be connected to a <link=\"POWER\">Power Source</link>.\n"
-#| "\n"
-#| "Increases Duplicants <link=\"MORALE\">Morale</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT"
 msgid ""
 "Must be placed above an open space and connected to a <link=\"POWER\">Power Source</link>.\n"
@@ -12061,12 +11951,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.EFFECT"
-#| msgid "A strong door with a sophisticated genetic lock."
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT"
 msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
+msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME"
@@ -12082,12 +11969,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.EFFECT"
-#| msgid "A strong door with a sophisticated genetic lock."
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT"
 msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
+msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME"
@@ -12103,12 +11987,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPPORTAL.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.EFFECT"
-#| msgid "A strong door with a sophisticated genetic lock."
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPPORTAL.EFFECT"
 msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
+msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
 
 #. STRINGS.BUILDINGS.PREFABS.WARPPORTAL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPPORTAL.NAME"
@@ -12124,12 +12005,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPRECEIVER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POIBUNKEREXTERIORDOOR.EFFECT"
-#| msgid "A strong door with a sophisticated genetic lock."
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPRECEIVER.EFFECT"
 msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
+msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
 
 #. STRINGS.BUILDINGS.PREFABS.WARPRECEIVER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPRECEIVER.NAME"
@@ -14670,17 +14548,6 @@ msgid "Gates"
 msgstr "Gatter"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_1"
-#| msgid ""
-#| "Automation is a tool for controlling the operation of buildings based on what sensors in the colony are detecting.\n"
-#| "\n"
-#| "A <link=\"CEILINGLIGHT\">Ceiling Light</link> could be configured to automatically turn on when a <link=\"DUPLICANTSENSOR\">Duplicant Motion Sensor</link>  detects a Duplicant in the room.\n"
-#| "\n"
-#| "A <link=\"LIQUIDPUMP\">Liquid Pump</link> might activate only when a <link=\"LOGICELEMENTSENSORLIQUID\">Liquid Element Sensor</link> detects water.\n"
-#| "\n"
-#| "A <link=\"AIRCONDITIONER\">Thermo Regulator</link> might activate only when the <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> detects too much heat.\n"
-#| "\n"
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_1"
 msgid ""
 "Automation is a tool for controlling the operation of buildings based on what sensors in the colony are detecting.\n"
@@ -15882,9 +15749,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.A1A_B111.SUBTITLE"
-#| msgid "ENCRYPTION LEVEL: THREE"
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE"
 msgid "ENCRYPTION LEVEL: THREE"
 msgstr "VERSCHLÜSSELUNGSEBENE: DREI"
@@ -16243,12 +16107,9 @@ msgid "Each Planetoid Cluster has its own default schedule system which the Dupl
 msgstr ""
 
 #. STRINGS.CODEX.EXOBASES.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.PLASTICS.NAME"
-#| msgid "<link=\"PLASTICS\">Plastic Manufacturing</link>"
 msgctxt "STRINGS.CODEX.EXOBASES.TITLE"
 msgid "<link=\"EXOBASES\">Planetoid Colonization</link>"
-msgstr "<link=\"PLASTICS\">Plastikfertigung</link>"
+msgstr "<link=\"EXOBASES\">Planetoiden Kolonisation</link>"
 
 #. STRINGS.CODEX.GASGRASS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GASGRASS.BODY.CONTAINER1"
