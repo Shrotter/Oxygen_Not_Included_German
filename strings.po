@@ -106,7 +106,7 @@ msgstr "Jeder Duplikant, der diesem <style=\"KKeyword\">Raum</style> zugeteilt i
 
 #. STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.NAME"
-msgid "Auto pilot engaged"
+msgid "Autopilot Engaged"
 msgstr "Autopilot Aktiv"
 
 #. STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.TOOLTIP
@@ -161,7 +161,7 @@ msgstr "Auftrag Löschen"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.TOOLTIP"
-msgid "This building has been marked for emptying and is awaiting a Duplicant to take care of it."
+msgid "This building has been marked for emptying and is awaiting a Duplicant to take care of it"
 msgstr "Dieses Gebäude wurde zum Entleeren markiert und wartet auf einen Duplikanten, der sich darum kümmert."
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME
@@ -415,35 +415,38 @@ msgstr "<style=\"KKeyword\">Ausgangsrohr</style> ist blockiert"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME"
-msgid "Missing Conduit Ports"
-msgstr "Anschlüsse fehlen"
+msgid "Missing Rocket Ports"
+msgstr "Fehlende Raketenports"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP"
 msgid ""
-"The current launchpad has no Conduit Ports attached to it.\n"
+"The current <link=\"LAUNCHPLATFORM\">Rocket Platform</link> has no <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> attached to it.\n"
 "\n"
-"Please build appropriate Solid, Gas, and Liquid Conduit Ports in order to load and unload materials from Cargo Bays."
+"Please build appropriate the Solid, Gas, or Liquid <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> in order to load and unload materials from Cargo Bays."
 msgstr ""
+"Der aktuellen <link=\"LAUNCHPLATFORM\">Raketenplattform</link> hat keinen <link =\"MODULARLAUNCHPADPORTSOLID\">Raketenport</link>.\n"
+"\n"
+"Bitte baue den festen, gasförmigen oder flüssigen <link=\"MODULARLAUNCHPADPORTSOLID\">Raketenport</ link>, um Materialien aus Frachtbuchten zu laden und entladen."
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME"
-msgid "Conduit Network Attached"
-msgstr ""
+msgid "Rocket Network Attached"
+msgstr "Raketennetzwerk angebracht"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.TOOLTIP"
-msgid "The current launchpad has a Conduit Port which can load or unload from this module."
+msgid "The current <link=\"LAUNCHPLATFORM\">Rocket Platform</link> has a <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> which can load or unload from this module."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME"
-msgid "Unserviced by Conduit Network"
-msgstr ""
+msgid "Unserviced by Port Network"
+msgstr "Nicht von Port Netzwerk gewartet"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
-msgid "The Conduit Ports attached to the current launchpad are not the correct type for this Cargo Bay."
+msgid "The <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> attached to the current <link=\"LAUNCHPLATFORM\">Rocket Platform</link> are not the correct type for this Cargo Bay."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME
@@ -660,13 +663,21 @@ msgstr "Zur Wiederaufnahme der Funktion dieses Gebäudes muss <link=\"SALT\">Sal
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.NAME"
-msgid "Out of range {Range} / {Distance}"
-msgstr ""
+msgid "Destination Out Of Range"
+msgstr "Ziel außerhalb der Reichweite"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP"
-msgid "This rocket lacks the range to reach its destination {Range} / {Distance}"
+msgid ""
+"This rocket lacks the range to reach its destination\n"
+"------------------\n"
+"Rocket Range: {Range}\n"
+"Destination Distance: {Distance}"
 msgstr ""
+"Dieser Rakete fehlt die Reichweite, um ihr Ziel zu erreichen\n"
+"------------------ ------------------.\n"
+"Raketenreichweite: {Reichweite}\n"
+"Zielentfernung: {Entfernung}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -1215,7 +1226,7 @@ msgstr "Eingehender HEP: Weiterleiten"
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_CONTROLLED_STANDBY
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_CONTROLLED_STANDBY"
 msgid "Incoming HEP: Ignore"
-msgstr ""
+msgstr "Eingehende HEP: Ignorieren"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL"
@@ -1235,7 +1246,7 @@ msgstr "Partikel-Redirector empfängt ein <b><style=\"logic_off\">rotes Signal</
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.NORMAL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.NORMAL"
 msgid "Incoming particles will be accepted and redirected"
-msgstr ""
+msgstr "Eingehende Partikel werden akzeptiert und umgeleitet"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_ACTIVE
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_ACTIVE"
@@ -1245,7 +1256,7 @@ msgstr "Start HEP: An"
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_STANDBY
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_STANDBY"
 msgid "Launch HEP: Off"
-msgstr ""
+msgstr "Start HEP: Aus"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.NORMAL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.NORMAL"
@@ -1265,7 +1276,7 @@ msgstr "Partikel-Redirector empfängt ein <b><style=\"logic_off\">rotes Signal</
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.NORMAL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.NORMAL"
 msgid "Incoming <style=\"KKeyword\">High Energy Particles</style> will be accepted and redirected"
-msgstr ""
+msgstr "Eingehende <style=\"KKeyword\">Hochenergieteilchen</style> werden akzeptiert und umgeleitet"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.NAME"
@@ -1349,13 +1360,19 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHT.NAME"
-msgid "In Flight to {Destination_Asteroid}: {ETA}"
-msgstr ""
+msgid "In Flight To {Destination_Asteroid}: {ETA}"
+msgstr "Im Flug zu {Destination_Asteroid}: {ETA}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHT.TOOLTIP"
-msgid "This rocket is currently traveling to {Destination_Pad} at {Destination_Asteroid}, and will arrive in approximately {ETA}."
+msgid ""
+"This rocket is currently traveling to {Destination_Pad} on {Destination_Asteroid}\n"
+"\n"
+"It arrive in {ETA}"
 msgstr ""
+"Diese Rakete reist derzeit von {Destination_Asteroid} zu {Destination_Pad}\n"
+"\n"
+"Es kommt in {ETA} an"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME"
@@ -1364,8 +1381,8 @@ msgstr "Im Orbit: {Destination}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP"
-msgid "This rocket is currently in orbit around {Destination}."
-msgstr ""
+msgid "This rocket is currently in orbit around {Destination}"
+msgstr "Diese Rakete befindet sich derzeit im Orbit um {Destination}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
@@ -2463,7 +2480,7 @@ msgstr "Duplikanten Interaktion erforderlich"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP"
-msgid "Without duplicant interaction auto pilot engaging in {timeRemaining}."
+msgid "Without Duplicant interaction auto pilot engaging in {timeRemaining}."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
@@ -2583,7 +2600,7 @@ msgstr "Kein Startziel"
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP"
 msgid ""
-"A launch destination has not been selected.    • {0}\n"
+"A launch destination has not been selected    • {0}\n"
 "\n"
 "Set destination for this load using the "
 msgstr ""
@@ -2607,16 +2624,19 @@ msgstr ""
 "Dieser Launcher erfordert einen eindeutigen Pfad zum Ressourcen abzufeuern"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
+#| msgid "Ready to land"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
-msgid "Ready For Emptying"
-msgstr "Bereit zum Entleeren"
+msgid "Ready To Unpack"
+msgstr "Bereit zur Landung"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.TOOLTIP"
 msgid ""
-"This payload has reached its target and is ready for emptying.\n"
+"This payload has reached its target and is ready be unloaded\n"
 "\n"
-"Either mark it for emptying directly, or build an <TODO EMPTYER STATION> to automatically empty all payloads."
+"Either mark it for unpacking directly, or build an <link=\"RAILGUNPAYLOADOPENER\">Payload Opener</link> to automatically unpack incoming payloads"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME
@@ -2670,7 +2690,7 @@ msgstr "Keine Rakete verbunden"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.TOOLTIP"
-msgid "This port is idle because there is no rocket on the connected launch pad."
+msgid "This port is idle because there is no rocket on the connected <link=\"LAUNCHPLATFORM\">Rocket Platform</link>"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME
@@ -2680,7 +2700,7 @@ msgstr "Übertragung vollständig"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.TOOLTIP"
-msgid "The rocket on the connected launch pad is either full of this type of resource or has no matching storage modules."
+msgid "The rocket on the connected <link=\"LAUNCHPLATFORM\">Rocket Platform</link> is either full of this type of resource or has no matching storage modules."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.NAME
@@ -2700,7 +2720,7 @@ msgstr "Lädt aus"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP"
-msgid "This port is currently unloading resources from the connected launch pad into the pipe network."
+msgid "This port is currently unloading resources from the connected <link=\"LAUNCHPLATFORM\">Rocket Platform</link> into the pipe network"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME
@@ -2711,7 +2731,7 @@ msgstr "Fracht entleeren"
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP"
 msgid ""
-"This launchpad is unloading available resources from the rocket to the material ports.\n"
+"This <link=\"LAUNCHPLATFORM\">Rocket Platform</link> is unloading available resources from the rocket to the material ports.\n"
 "\n"
 "Loading will proceed afterwards."
 msgstr ""
@@ -2724,15 +2744,18 @@ msgstr "Ladung laden"
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP"
 msgid ""
-"This launchpad is loading available resources from the material ports to the rocket.\n"
+"This <link=\"LAUNCHPLATFORM\">Rocket Platform</link> is loading available resources from the material ports to the rocket.\n"
 "\n"
 "Unloading has been completed."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.TITLE"
+#| msgid "Rocket Platform"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME"
-msgid "Launch Pad Ready"
-msgstr "Startbahn bereit"
+msgid "Rocket Platform Ready"
+msgstr "Raketenplattform"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP"
@@ -2740,13 +2763,16 @@ msgid "All cargo operations are complete."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME"
+#| msgid "Launch checklist incomplete"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME"
-msgid "Launch checklist incomplete"
+msgid "Launch Checklist Incomplete"
 msgstr "Start-Checkliste unvollständig"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.TOOLTIP"
-msgid "A critical launch task has not been completed yet - check the launch checklist in the status panel"
+msgid "A critical launch task has not been completed yet - check the Launch Checklist in the status panel"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME
@@ -2765,9 +2791,12 @@ msgid "Stranded"
 msgstr "Gestrandet"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.FUEL_REMAINING.TOOLTIP"
+#| msgid "This rocket has {0} fuel in its tank"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.TOOLTIP"
-msgid "This rocket lacks the fuel to move"
-msgstr ""
+msgid "This rocket has run out of fuel and cannot move"
+msgstr "Diese Rakete hat {0} Treibstoff in ihrem Tank"
 
 #. STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME"
@@ -3433,12 +3462,12 @@ msgstr "Diese Materialien müssen angeliefert werden, bevor dieses Objekt repari
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME"
-msgid "Warp Conduit Disabled ({x}/2)"
+msgid "Teleporter Disabled ({x}/2)"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.TOOLTIP"
-msgid "Both sides of this portal must be activated by a Duplicant with the <link=\"RESEARCHER\">Field Research</link> skill before it can be used."
+msgid "This teleporter cannot be used until both the transmitting and receiving sides have been activated"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME
@@ -3448,7 +3477,7 @@ msgstr "Aufladen: {charge}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP"
-msgid "The Teleportal is not ready to use yet. Current estimates predict it should be ready in {cycles} cycles."
+msgid "This teleporter will be ready for use in {cycles} cycles"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME
@@ -4162,15 +4191,17 @@ msgstr "<link=\"BED\">Feldbett</link>"
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.DESC"
 msgid ""
-"Beetafineries are used by <link=\"BEE\">Beetas</link> to enrich <link=\"URANIUMORE\">Uranium</link>.\n"
+"A nest made by <link=\"BEE\">Beetas</link>.\n"
 "\n"
-"Beetafineries emit <link=\"RADIATION\">Radiation</link>."
+"Converts <link=\"URANIUMORE\">Uranium</link> into <link=\"ENRICHEDURANIUM\">Enriched Uranium</link> when worked by a Beeta.\n"
+"\n"
+"Emits moderate <link=\"RADIATION\">Radiation</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT"
-msgid "<link=\"BEEHIVE\">Beetafineries</link> are the homes of <link=\"BEE\">Beetas</link>."
-msgstr "<link=\"BEEHIVE\">Beetafineries</link> ist das zuhause von<link=\"BEE\">Beetas</link>."
+msgid "The cozy home of a Beeta."
+msgstr "Das gemütliche Zuhause einer Beeta."
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.NAME"
@@ -6870,7 +6901,9 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.EFFECT"
 msgid ""
 "Enables Rocket construction.\n"
 "\n"
-"Enables Rockets to launch or land on a Planetoid."
+"Allows Rockets to launch from or land on the host Planetoid.\n"
+"\n"
+"Automatically links up to <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link><link=\"MODULARLAUNCHPADPORTSOLID\">s</link> built to either side of the platform."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.NAME
@@ -8975,58 +9008,81 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARGASINPUT.NAME"
 msgid "<link=\"MODULARGASINPUT\">Gas Input Hub</link>"
 msgstr "link=\"MODULARGASINPUT\">Gas Input Hub</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
+#| msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Solid Port</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME"
+msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Raketen Feststoffport</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC"
-msgid "Rockets must be landed to accept or unload resources."
+msgid "Rockets must be landed to load or unload resources."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSGAS\">Gases</link> to be loaded and unloaded from the storage of rockets.\n"
+"Allows <link=\"ELEMENTSGAS\">Gases</link> to be loaded and unloaded from the storage of a linked rocket.\n"
 "\n"
-"Uses the gas filters set on the associated <link=\"LAUNCHPLATFORM\">Rocket Platform</link>."
+"Automatically links when built to the side of a <link=\"LAUNCHPLATFORM\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>.\n"
+"\n"
+"Uses the gas filters set on the linked Rocket Platform."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
+#| msgid "<link=\"MODULARLAUNCHPADPORTGAS\">Rocket Gas Port</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
-msgid "<link=\"MODULARLAUNCHPADPORTGAS\">Rocket Gas Port</link>"
+msgid "<link=\"MODULARLAUNCHPADPORTGAS\">Gas Rocket Port</link>"
 msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">Raketen Gasport</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC"
-msgid "Rockets must be landed to accept or unload resources."
+msgid "Rockets must be landed to load or unload resources."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSLIQUID\">Liquids</link> to be loaded and unloaded from the storage of rockets.\n"
+"Allows <link=\"ELEMENTSLIQUID\">Liquids</link> to be loaded and unloaded from the storage of a linked rocket.\n"
 "\n"
-"Uses the liquid filters set on the associated <link=\"LAUNCHPLATFORM\">Rocket Platform</link>."
+"Automatically links when built to the side of a <link=\"LAUNCHPLATFORM\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>.\n"
+"\n"
+"Uses the liquid filters set on the linked Rocket Platform."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME"
+#| msgid "<link=\"MODULARLAUNCHPADPORTLIQUID\">Rocket Liquid Port</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME"
-msgid "<link=\"MODULARLAUNCHPADPORTLIQUID\">Rocket Liquid Port</link>"
+msgid "<link=\"MODULARLAUNCHPADPORTLIQUID\">Liquid Rocket Port</link>"
 msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">Raketen Flüssigkeitenport</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC"
-msgid "Rockets must be landed to accept or unload resources."
+msgid "Rockets must be landed to load or unload resources."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSSOLID\">Solids</link> to be loaded and unloaded from the storage of rockets.\n"
+"Allows <link=\"ELEMENTSSOLID\">Solids</link> to be loaded and unloaded from the storage of a linked rocket.\n"
 "\n"
-"Uses the solid material filters set on the associated <link=\"LAUNCHPLATFORM\">Rocket Platform</link>."
+"Automatically links when built to the side of a <link=\"LAUNCHPLATFORM\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>.\n"
+"\n"
+"Uses the solid material filters set on the linked Rocket Platform."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
+#| msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Solid Port</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
-msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Solid Port</link>"
+msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Solid Rocket Port</link>"
 msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Raketen Feststoffport</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC
@@ -10165,7 +10221,9 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.EFFECT"
 msgid ""
-"Launches resources from one Planetoids to another.\n"
+"Launches <link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> between Planetoids.\n"
+"\n"
+"Payloads can contain <link=\"ELEMENTSSOLID\">Solid</link>, <link=\"ELEMENTSLIQUID\">Liquid</link>, or <link=\"ELEMENTSGAS\">Gas</link> materials.\n"
 "\n"
 "Cannot transport Duplicants."
 msgstr ""
@@ -10183,7 +10241,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.EFFECT"
 msgid ""
-"Unpacks <link=\"RAILGUNPAYLOAD\">High Velocity Payloads</link> delivered by Duplicants.\n"
+"Unpacks <link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> delivered by Duplicants.\n"
 "\n"
 "Automatically separates <link=\"ELEMENTSSOLID\">Solid</link>, <link=\"ELEMENTSLIQUID\">Liquid</link>, and <link=\"ELEMENTSGAS\">Gas</link> materials and distributes them to the appropriate systems."
 msgstr ""
@@ -10373,12 +10431,15 @@ msgstr "Zerkleinert {0} zu {1}."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC"
-msgid "A single Duplicant can control a rocket full of cargo to another destination in space."
+msgid "Looks kinda fun."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.EFFECT"
-msgid "All cargo rockets must possess a Rocket Cockpit in order to function."
+msgid ""
+"Allows a Duplicant to pilot a rocket.\n"
+"\n"
+"Cargo rockets must possess a Rocket Cockpit in order to function."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.NAME
@@ -10388,15 +10449,15 @@ msgstr "<link=\"ROCKETCOMMANDCONSOLE\">Raketen-Cockpit</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.DESC"
-msgid "Rocket control stations are used by Duplicants to oversee rocket flights.  Duplicants must have the <link=\"PILOT\">Rocket Piloting</link> skill to use it."
+msgid "Someone needs to be around to jiggle the controls when the screensaver comes on."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.EFFECT"
 msgid ""
-"Some rockets require an operator in order to fly.\n"
+"Allows Duplicants to use pilot-operated rockets.\n"
 "\n"
-"These highly skilled Duplicants are tasked with the job of jiggling the controls when the screensaver comes on."
+"Assigned Duplicants must have the <link=\"PILOT\">Rocket Piloting</link> skill."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.NAME
@@ -11170,13 +11231,19 @@ msgid "The electrifying egg of the <link=\"STATERPILLAR\">Plug Slug</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT"
+#| msgid "Plug Slug Eggs can be connected to a <link=\"POWER\">Power</link> circuit as an energy source."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT"
-msgid "Plug Slug Eggs can be connected to a <link=\"POWER\">Power</link> circuit as an energy source."
+msgid "Slug Eggs can be connected to a <link=\"POWER\">Power</link> circuit as an energy source."
 msgstr "Stöpsel Schnecken Eier können als Energiequelle an einen <link =\"POWER\">Stromkreis</link> angeschlossen werden"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME"
+#| msgid "<link=\"STATERPILLAREGG\">Plug Slug Egg</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.NAME"
-msgid "<link=\"STATERPILLAREGG\">Plug Slug Egg</link>"
+msgid "<link=\"STATERPILLAREGG\">Slug Egg</link>"
 msgstr "<link=\"STATERPILLAREGG\">Stöpselschnecken-Ei</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY
@@ -11337,11 +11404,17 @@ msgid "Sublimation is the sublime process by which solids convert directly into 
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT"
+#| msgid ""
+#| "Greatly increases the sublimation rate of <link=\"ELEMENTSSOLID\">Solid Materials</link>.\n"
+#| "\n"
+#| "Useful in converting <link=\"TOXICSAND\">Polluted Dirt</link> into <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>.\n"
+#| "\n"
+#| "Becomes idle when the area reaches maximum pressure capacity."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT"
 msgid ""
-"Greatly increases the sublimation rate of <link=\"ELEMENTSSOLID\">Solid Materials</link>.\n"
-"\n"
-"Useful in converting <link=\"TOXICSAND\">Polluted Dirt</link> into <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>.\n"
+"Speeds up the conversion of <link=\"TOXICSAND\">Polluted Dirt</link> into <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>.\n"
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
@@ -11594,12 +11667,12 @@ msgstr "Einschalten {Hotkey}"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.DESC"
-msgid "Teleporter Pads move Duplicants and items from one area to another."
+msgid "Duplicants are just atoms as far as the pad's concerned."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.EFFECT"
-msgid "Teleporter Pads move Duplicants and items to other portals with the same portal code."
+msgid "Instantly transports Duplicants and items to another portal with the same portal code."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.LOGIC_PORT
@@ -11944,39 +12017,46 @@ msgstr "<link=\"VERTICALWINDTUNNEL\">Vertikalwindtunnel</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.DESC"
-msgid ""
-"A mysterious portal.\n"
-"\n"
-"It must lead somewhere. Duplicants with the <link=\"RESEARCHER\">Field Research</link> skill can activate it."
+msgid "The tubes at the back disappear into nowhere."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT"
-msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
+msgid ""
+"A machine capable of taking <link=\"ELEMENTSLIQUID\">Liquid</link>, <link=\"ELEMENTSSOLID\">Solid</link>, and <link=\"ELEMENTSGAS\">Gas</link> resources.\n"
+"\n"
+"It can be activated by a Duplicant with the <link=\"RESEARCHER\">Field Research</link> skill.\n"
+"\n"
+"This is the receiving side."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME"
-msgid "Warp Pipe Output"
-msgstr "Warp Pipe Output"
+msgid "Supply Teleporter Output"
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.DESC"
-msgid ""
-"A mysterious portal.\n"
-"\n"
-"It must lead somewhere. Duplicants with the <link=\"RESEARCHER\">Field Research</link> skill can activate it."
+msgid "The tubes at the back disappear into nowhere."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT"
-msgid "A strong door with a sophisticated genetic lock."
-msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
+msgid ""
+"A machine capable of taking <link=\"ELEMENTSLIQUID\">Liquid</link>, <link=\"ELEMENTSSOLID\">Solid</link>, and <link=\"ELEMENTSGAS\">Gas</link> resources.\n"
+"\n"
+"It can be activated by a Duplicant with the <link=\"RESEARCHER\">Field Research</link> skill.\n"
+"\n"
+"This is the transmitting side."
+msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE"
+#| msgid "Teleporter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.NAME"
-msgid "Warp Pipe Input"
-msgstr ""
+msgid "Supply Teleporter Input"
+msgstr "Teleporter"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPPORTAL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPPORTAL.DESC"
@@ -21737,11 +21817,17 @@ msgid "<link=\"FILTERPLANT\">Hydrocactus Seed</link>"
 msgstr "<link=\"FILTERPLANT\">Wasserkakteensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.DESC"
+#| msgid ""
+#| "The <link=\"PLANTS\">Seed</link> of a <link=\"GASGRASS\">Gas Grass</link> plant.\n"
+#| "\n"
+#| "Used as feed for<link=\"MOO\">Gassy Moos</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"GASGRASS\">Gas Grass</link> plant.\n"
 "\n"
-"Used as feed for<link=\"MOO\">Gassy Moos</link>."
+"Used as feed for <link=\"MOO\">Gassy Moos</link>."
 msgstr ""
 "Die <link=\"PLANTS\">Samen</link> einer <link=\"GASGRASS\">Gasgrass</link>-Pflanze.\n"
 "\n"
@@ -21959,19 +22045,28 @@ msgid "<link=\"TOEPLANT\">Tranquil Toe Seed</link>"
 msgstr "<link=\"TOEPLANT\">Ruhige Zehen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC"
+#| msgid ""
+#| "The <link=\"PLANTS\">Seed</link> of a <link=\"WINECUPS\">Mellow Mallow</link>.\n"
+#| "\n"
+#| "Digging up Buried Objects may uncover a Mellow Mallow Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"WINECUPS\">Mellow Mallow</link>.\n"
 "\n"
-"Digging up Buried Objects may uncover a Mellow Mallow Seed."
+"Digging up Buried Objects may uncover a Mallow Seed."
 msgstr ""
 "Der <link=\"PLANTS\">Samen</link> eines <link=\"WINECUPS\">Milde Malve</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Milde Malve-Samen gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME"
+#| msgid "<link=\"WINECUPS\">Mellow Mallow Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME"
-msgid "<link=\"WINECUPS\">Mellow Mallow Seed</link>"
+msgid "<link=\"WINECUPS\">Mallow Seed</link>"
 msgstr "<link=\"WINECUPS\">Milde Malve-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.DESC
@@ -21991,19 +22086,28 @@ msgid "<link=\"FORESTTREE\">Arbor Acorn</link>"
 msgstr "<link=\"FORESTTREE\">Arbor-Eichel</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC"
+#| msgid ""
+#| "The <link=\"PLANTS\">Seed</link> of a <link=\"WORMPLANT\">Spindly Grubfruit Plant</link>.\n"
+#| "\n"
+#| "Digging up Buried Objects may uncover a Spindly Grubfruit Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"WORMPLANT\">Spindly Grubfruit Plant</link>.\n"
 "\n"
-"Digging up Buried Objects may uncover a Spindly Grubfruit Seed."
+"Digging up Buried Objects may uncover a Grubfruit Seed."
 msgstr ""
 "Der <link=\"PLANTS\">Samen</link> eines <link=\"WORMPLANT\">Spindly Grubfruit Pflanze</link>.\n"
 "\n"
 "Beim Ausgraben von vergrabenen Gegenständen können Spindly Grubfruit-Samen gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME"
+#| msgid "<link=\"WORMPLANT\">Spindly Grubfruit Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME"
-msgid "<link=\"WORMPLANT\">Spindly Grubfruit Seed</link>"
+msgid "<link=\"WORMPLANT\">Grubfruit Seed</link>"
 msgstr "<link=\"WORMPLANT\">Spindly Grubfruit-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SHOCKWORM.DESC
@@ -22123,8 +22227,11 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME"
+#| msgid "<link=\"STATERPILLAR\">Plug Slug Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME"
-msgid "<link=\"STATERPILLAR\">Plug Slug Egg</link>"
+msgid "<link=\"STATERPILLAR\">Slug Egg</link>"
 msgstr "<link=\"STATERPILLAR\">Stöpselschnecken.Ei</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME
@@ -31169,8 +31276,11 @@ msgid "<link=\"POWERTECHNICIAN\">Electrical Engineering</link>"
 msgstr "<link=\"POWERTECHNICIAN\">Elektro-Technik</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
+#| msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>."
 msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
-msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>."
+msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>"
 msgstr "Ermöglicht es einem Duplikanten, mit <link=\"CREATURES\">Tieren</link> umzugehen und sie zu pflegen."
 
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.NAME
@@ -31189,8 +31299,11 @@ msgid "<link=\"RESEARCHER\">Field Research</link>"
 msgstr "<link=\"RESEARCHER\">Feldstudien</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.DESCRIPTION
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.DESCRIPTION"
+#| msgid "Allows a Duplicant to operate a <link=\"ROCKETCOMMANDCONSOLE\">Rocket Cockpit</link> to pilot a rocket ship"
 msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.DESCRIPTION"
-msgid "Allows a Duplicant to operate a <link=\"ROCKETCOMMANDCONSOLE\">Rocket Cockpit</link> to pilot a rocket ship"
+msgid "Allows a Duplicant to operate a <link=\"ROCKETCOMMANDCONSOLE\">Rocket Cockpit</link> and pilot rockets"
 msgstr "Ermöglicht einem Duplikanten, ein <link =\"ROCKETCOMMANDCONSOLE\">Raketen-Cockpit</link> zu bedienen, um ein Raketenschiff zu steuern"
 
 #. STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.NAME
@@ -31259,9 +31372,12 @@ msgid "<link=\"SENIORRESEARCHER\">Astronomy</link>"
 msgstr "<link=\"SENIORRESEARCHER\">Astronomie</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.DESCRIPTION
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION"
+#| msgid "Allows a Duplicant to command a rocket ship"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.DESCRIPTION"
-msgid "Improves the speed that Rocket's travel"
-msgstr "Verbessert die Geschwindigkeit, mit die Rakete reist"
+msgid "Allows Duplicants to pilot rockets at faster speeds"
+msgstr "Ermöglicht es einem Duplikanten, eine Raketen zu kommandieren"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.NAME"
@@ -31784,7 +31900,9 @@ msgstr "Hustet"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.COUGHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COUGHING.TOOLTIP"
-msgid "Hey! Do that into your elbow"
+msgid ""
+"Hey! Do that into your elbow\n"
+"• Coughing fit was caused by Yucky Lungs"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.DAILYRATIONLIMITREACHED.NAME
@@ -33903,9 +34021,16 @@ msgid "Fussy"
 msgstr "Pingelig"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_DESC
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_DESC"
+#| msgid ""
+#| "This Duplicant begins with a <style=\"KKeyword\">Skill</style> already learned. They will not have increased <style=\"KKeyword\">Morale Requirements</style>.\n"
+#| "\n"
+#| "{0}\n"
+#| "{1}"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_DESC"
 msgid ""
-"This Duplicant begins with a <style=\"KKeyword\">Skill</style> already learned. They will not have increased <style=\"KKeyword\">Morale Requirements</style>.\n"
+"This Duplicant begins with a pre-learned <style=\"KKeyword\">Skill</style>, but does not have increased <style=\"KKeyword\">Morale Requirements</style>.\n"
 "\n"
 "{0}\n"
 "{1}"
@@ -33921,8 +34046,11 @@ msgid "Skilled: "
 msgstr "Erfahren:"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.DESC
@@ -33941,8 +34069,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.DESC
@@ -33961,8 +34092,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.DESC
@@ -33981,8 +34115,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.DESC
@@ -34001,8 +34138,11 @@ msgid "Starts with a Tier 4 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.DESC
@@ -34021,8 +34161,11 @@ msgid "Starts with a Tier 5 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.DESC
@@ -34041,8 +34184,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.DESC
@@ -34061,8 +34207,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.DESC
@@ -34081,8 +34230,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.DESC
@@ -34101,8 +34253,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.DESC
@@ -34121,8 +34276,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.DESC
@@ -34141,8 +34299,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.DESC
@@ -34161,8 +34322,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.DESC
@@ -34181,8 +34345,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Erlernt: "
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.DESC
@@ -34201,8 +34368,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.DESC
@@ -34221,8 +34391,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Verbessert geringfügig die landwirtschaftlichen Fertigkeiten eines Duplikanten und erhöhet seine Chancen, neue <style=\"KKeyword\">Pflanzensamen</style> zu ernten"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.DESC
@@ -34241,8 +34414,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.DESC
@@ -34261,8 +34437,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.DESC
@@ -34281,8 +34460,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.DESC
@@ -34301,8 +34483,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.DESC
@@ -34321,8 +34506,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.DESC
@@ -34341,8 +34529,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.DESC
@@ -34361,8 +34552,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.DESC
@@ -34381,8 +34575,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.DESC
@@ -34401,8 +34598,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style =\"Keyword\">Fähigkeit</style>, ohne die Kosten der erhöhten <style =\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.DESC
@@ -34421,13 +34621,19 @@ msgid "Starts with a Tier 4 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC"
+#| msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>."
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC"
-msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>."
+msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>"
 msgstr "Ermöglicht es einem Duplikanten, mit <link=\"CREATURES\">Tieren</link> umzugehen und sie zu pflegen."
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.NAME
@@ -34441,8 +34647,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.DESC
@@ -34461,8 +34670,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.DESC
@@ -34481,8 +34693,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.DESC
@@ -34501,8 +34716,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.DESC
@@ -34521,8 +34739,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.DESC
@@ -34541,8 +34762,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.DESC
@@ -34561,8 +34785,11 @@ msgid "Starts with a Tier 3 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.DESC
@@ -34581,8 +34808,11 @@ msgid "Starts with a Tier 1 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.DESC
@@ -34601,8 +34831,11 @@ msgid "Starts with a Tier 2 <b>Skill</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP"
+#| msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP"
-msgid "This Duplicant will get the benefits of the <style=\"KKeyword\">Skill</style> without having to pay the cost of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr "Dieser Duplikant erhält die Vorteile der <style=\"Keyword\">Fähigkeit </style>, ohne die Kosten für erhöhte <style=\"Keyword\">Moralanforderungen</style> bezahlen zu müssen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREASEMONKEY.DESC
@@ -37276,7 +37509,10 @@ msgstr "<link=\"SUPERINSULATOR\">Isolierung</link>"
 
 #. STRINGS.ELEMENTS.SYNGAS.DESC
 msgctxt "STRINGS.ELEMENTS.SYNGAS.DESC"
-msgid "Synthesis Gas is an unbreathable artificial <link=\"ELEMENTSGAS\">Gas</link> that can be turned into fuel."
+msgid ""
+"Synthesis Gas is an artificial, unbreathable <link=\"ELEMENTSGAS\">Gas</link>.\n"
+"\n"
+"It can be converted into an efficient fuel."
 msgstr ""
 
 #. STRINGS.ELEMENTS.SYNGAS.NAME
@@ -40680,7 +40916,7 @@ msgstr "Universell einsetzbare <link=\"MEDICINE\">Medizin</link>."
 
 #. STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.DESC
 msgctxt "STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.DESC"
-msgid "A concentrated field of <link=\"HIGHENERGYPARTICLES\">particles</link> that can be largely redirected using a <link=\"PARTICLEREFLECTOR\">Particle Reflector</link>."
+msgid "A concentrated field of <link=\"HIGHENERGYPARTICLES\">High Enery Particles</link> that can be largely redirected using a <link=\"PARTICLEREFLECTOR\">Particle Reflector</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.NAME
@@ -40690,12 +40926,18 @@ msgstr "Hochenergieteilchen"
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.DESC
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.DESC"
-msgid "Contains resources launched from outer space."
+msgid ""
+"Contains resources packed for interstellar shipping.\n"
+"\n"
+"Can be launched by a <link=\"RAILGUN\">Interplanetary Launcher</link> or unpacked with a <link=\"RAILGUNPAYLOADOPENER\">Payload Opener</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.NAME
+#, fuzzy
+#| msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.NAME"
+#| msgid "<link=\"RAILGUNPAYLOAD\">High Velocity Payload</link>"
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.NAME"
-msgid "<link=\"RAILGUNPAYLOAD\">High Velocity Payload</link>"
+msgid "<link=\"RAILGUNPAYLOAD\">Interplanetary Payload</link>"
 msgstr "<link=\"RAILGUNPAYLOAD\">Hochgeschwindigkeits-Nutzlast</link>"
 
 #. STRINGS.LORE.BUILDINGS.Desk.ENTRY
@@ -43225,6 +43467,11 @@ msgstr "Edelmetall"
 msgctxt "STRINGS.MISC.TAGS.PRECIOUSROCK"
 msgid "Precious Rock"
 msgstr "Edelstein"
+
+#. STRINGS.MISC.TAGS.RAILGUNPAYLOADEMPTYABLE
+msgctxt "STRINGS.MISC.TAGS.RAILGUNPAYLOADEMPTYABLE"
+msgid "Payload"
+msgstr ""
 
 #. STRINGS.MISC.TAGS.RAREMATERIALS
 msgctxt "STRINGS.MISC.TAGS.RAREMATERIALS"
@@ -46374,7 +46621,7 @@ msgstr "<link=\"COMBUSTION\">Interne Verbrennung</link>"
 
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC"
-msgid "Now that I can get my Duplicants into space, we need the ability to get them back down."
+msgid "What goes up, must come down"
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.NAME
@@ -46924,7 +47171,7 @@ msgstr "<link=\"RENEWABLEENERGY\">Erneuerbare Energie</link>"
 
 #. STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.DESC"
-msgid "The goal of every great civilization seems to be to obsolete itself."
+msgid "The goal of every great civilization is to one day make itself obsolete."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.NAME
@@ -48407,9 +48654,22 @@ msgid ""
 msgstr ""
 
 #. STRINGS.SUBWORLDS.WASTELAND.DESC
+#, fuzzy
+#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
-msgid "The Wasteland Biome."
-msgstr "Das Ödland-Biom."
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Xandras\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.SUBWORLDS.WASTELAND.NAME
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.NAME"
@@ -49970,12 +50230,9 @@ msgid "CLEAR COMPLETED ORDERS"
 msgstr "ALLE AUFTRÄGE LÖSCHEN"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LITTLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.LEAK_REQUIREMENT"
-#| msgid "Spillage: {amount}"
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LITTLE"
 msgid "Small amount"
-msgstr "Verschüttet: {amount}"
+msgstr "Kleine Menge"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LOTS
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LOTS"
@@ -49988,9 +50245,6 @@ msgid "Significant amount"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.VERY_LITTLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT"
-#| msgid "Trace Amount"
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.VERY_LITTLE"
 msgid "Trace amount"
 msgstr "Spurenmenge"
@@ -50484,210 +50738,412 @@ msgctxt "STRINGS.UI.CODEX.TITLE"
 msgid "DATABASE"
 msgstr "DATENBANK"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.DEAD_BATTERY
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.DEAD_BATTERY"
-msgid "Dead battery"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.ALL_NAME"
+#| msgid "Errands"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.ALL_NAME"
+msgid "Errands"
+msgstr "Aufträge"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWTH_FORMAT"
+#| msgid "    • {0}"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.NORMAL"
+msgid "    • {0} total errands"
+msgstr "    • {0}"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.REFUSES_TO_DO_TASK"
+#| msgid "Cannot do<b>{0} Errands</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Errands</b>"
+msgstr "Kann <b>{0} Aufträge</b> nicht durchführen"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.ALL_NAME"
+#| msgid "Work Time"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.ALL_NAME"
+msgid "Work Time"
+msgstr "Arbeitszeit"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NORMAL"
+#| msgid "Time spent working"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL"
+msgid "    • {0} time spent working"
+msgstr "Arbeitszeit"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.ALL_NAME"
+#| msgid "Work Time"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Work Time</b>"
+msgstr "Arbeitszeit"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
+#| msgid "Battery"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME"
+msgid "Battery"
+msgstr "Batterie"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.DEAD_BATTERY
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.DEAD_BATTERY"
+#| msgid "Dead battery"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.DEAD_BATTERY"
+msgid "    • Dead battery"
 msgstr "Leere Batterie"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.LIMITED_CAPACITY
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.LIMITED_CAPACITY"
-msgid "Limited battery capacity relative to power use"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.LIMITED_CAPACITY
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.LIMITED_CAPACITY"
+msgid "    • Limited battery capacity relative to power use"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NAME"
-msgid "Battery"
-msgstr "Batterie"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NONE
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NONE"
-msgid "No Batteries"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NONE
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NONE"
+#| msgid "No Batteries"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NONE"
+msgid "    • No Batteries built"
 msgstr "Keine Batterien"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NORMAL"
-msgid "Battery"
-msgstr "Batterie"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME"
+#| msgid "    • Beached"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL"
+msgid "    • Battery"
+msgstr "    • Trockengelegt"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.MISSING_ASSIGNMENT
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.MISSING_ASSIGNMENT"
-msgid "One or more Duplicants don't have beds assigned"
-msgstr "Einem oder mehreren Duplikanten ist kein Bett zugewiesen"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
+#| msgid "<b>Name:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Battery</b>"
+msgstr "<b>Name:</b>"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.NAME"
+#| msgid "Beds"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME"
 msgid "Beds"
 msgstr "Betten"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NORMAL"
-msgid "Currently has an adequate amount of beds"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.MISSING_ASSIGNMENT"
+#| msgid "One or more Duplicants don't have beds assigned"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT"
+msgid "    • One or more Duplicants don't have beds assigned"
+msgstr "Einem oder mehreren Duplikanten ist kein Bett zugewiesen"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.NORMAL
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.NORMAL"
+msgid "    • Currently has an adequate amount of beds"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NOT_ENOUGH_BEDS
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NOT_ENOUGH_BEDS"
-msgid "One or more Duplicants are missing a bed"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.NOT_ENOUGH_BEDS
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NOT_ENOUGH_BEDS"
+#| msgid "One or more Duplicants are missing a bed"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.NOT_ENOUGH_BEDS"
+msgid "    • One or more Duplicants are missing a bed"
 msgstr "Einem oder mehreren Duplikanten fehlt ein Bett"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
+#| msgid "<b>Name:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Beds</b>"
+msgstr "<b>Name:</b>"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NAME"
+#| msgid "Breathability"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME"
 msgid "Breathability"
 msgstr "Atembar"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NORMAL"
-msgid "There is currently adequate oxygen available"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NORMAL"
+#| msgid "There is currently adequate oxygen available"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL"
+msgid "    • There is currently adequate oxygen available"
 msgstr "Derzeit ist ausreichend Sauerstoff verfügbar"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.POOR
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.POOR"
-msgid "Oxygen is becoming scarce or low pressure"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR"
+msgid "    • Oxygen is becoming scarce or low pressure"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.SUFFOCATING
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.SUFFOCATING"
-msgid "One or more Duplicants are currently suffocating"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.SUFFOCATING"
+#| msgid "One or more Duplicants are currently suffocating"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING"
+msgid "    • One or more Duplicants are currently suffocating"
 msgstr "Ein oder mehrere Duplikanten ersticken derzeit"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.LOW
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.LOW"
-msgid "Currently has very low Decor levels"
-msgstr ""
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITY.NAME"
+#| msgid "Breathability"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Breathability</b>"
+msgstr "Atembar"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.CHOREGROUPDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.ALL_NAME"
+#| msgid "Errands"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.CHOREGROUPDIAGNOSTIC.ALL_NAME"
+msgid "Errands"
+msgstr "Aufträge"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.DECORSYSTEM.HEADER_1"
+#| msgid "Decor"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME"
 msgid "Decor"
 msgstr "Dekoration"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.NORMAL"
-msgid "Currently has adequate Decor levels"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.LOW
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.LOW"
+msgid "    • Currently has very low Decor levels"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.BUILDING_ENTOMBED
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.BUILDING_ENTOMBED"
-msgid "One or more buildings are entombed"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.NORMAL
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.NORMAL"
+msgid "    • Currently has adequate Decor levels"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
+#| msgid "<b>Morale</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Decor</b>"
+msgstr "<b>Moral</b>"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
+#| msgid "Entombed"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.ALL_NAME"
+msgid "Entombed"
+msgstr "Verschüttet"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.BUILDING_ENTOMBED"
+#| msgid "One or more buildings are entombed"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED"
+msgid "    • One or more buildings are entombed"
 msgstr "Ein oder mehrere Objekte sind begraben"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NAME"
-msgid "Entombed"
-msgstr "Begraben"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NORMAL"
-msgid "No buildings are entombed"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NORMAL"
+#| msgid "No buildings are entombed"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL"
+msgid "    • No buildings are entombed"
 msgstr "Keine Objekte sind begraben"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.ALL_NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.ALL_NAME"
-msgid "Errands"
-msgstr "Aufträge"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
+#| msgid "Entombed"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Entombed</b>"
+msgstr "Verschüttet"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.NAME"
-msgid "Errands"
-msgstr "Aufträge"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.NORMAL"
-msgid "One or more errands are currently open"
-msgstr ""
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.INOPERATIONAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.INOPERATIONAL"
-msgid "One or more farm plots are inoperable"
-msgstr "Ein oder mehrere Farmen sind nicht funktionsfähig"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME"
 msgid "Crops"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE"
-msgid "There are no farm plots in the colony"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.INOPERATIONAL"
+#| msgid "One or more farm plots are inoperable"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL"
+msgid "    • One or more farm plots are inoperable"
+msgstr "Ein oder mehrere Farmen sind nicht funktionsfähig"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE"
+#| msgid "There are no farm plots in the colony"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE"
+msgid "    • There are no farm plots in the colony"
 msgstr "In der Kolonie gibt es keine Farmen"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE_PLANTED
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE_PLANTED"
-msgid "No crops planted"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NONE_PLANTED"
+#| msgid "No crops planted"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED"
+msgid "    • No crops planted"
 msgstr "Keine Pflanzen angebaut"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.NORMAL"
-msgid "Colony is growing adequate crops"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL"
+msgid "    • Colony is growing adequate crops"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.WILTING
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMS.WILTING"
-msgid "One or more crops are wilting"
-msgstr ""
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
+#| msgid "<b>Tooltip:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Crops</b>"
+msgstr "<b>Tooltip:</b>"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.IDLE"
+#| msgid "One or more Duplicants are idle"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING"
+msgid "    • One or more crops are wilting"
+msgstr "Ein oder mehrere Duplikanten sind inaktiv"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NAME"
+#| msgid "Flight Status"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.ALL_NAME"
 msgid "Flight Status"
 msgstr "Flugstatus"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_FLIGHT
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_FLIGHT"
-msgid "Rocket is on its way to destination"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT"
+msgid "    • Rocket is on its way to destination"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_LANDED
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_LANDED"
-msgid "Rocket is landed"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NORMAL_LANDED"
+#| msgid "Rocket is landed"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED"
+msgid "    • Rocket is landed"
 msgstr "Rakete ist gelandet"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.WARNING_NO_DESTINATION
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.WARNING_NO_DESTINATION"
-msgid "Rocket is floating in space with no destination"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.NAME"
+#| msgid "Flight Status"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Flight Status</b>"
+msgstr "Flugstatus"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_DESTINATION
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_DESTINATION"
+msgid "    • Rocket is floating in space with no destination"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.WARNING_NO_SPEED
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKET.WARNING_NO_SPEED"
-msgid "Rocket not progressing towards destination"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_SPEED
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_SPEED"
+msgid "    • Rocket not progressing towards destination"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.HUNGRY
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.HUNGRY"
-msgid "One or more Duplicants are very hungry"
-msgstr "Ein oder mehrere Duplikanten sind sehr hungrig"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.LOW_CALORIES
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.LOW_CALORIES"
-msgid "Duplicant to food ratio is low"
-msgstr "Das Verhältnis von Duplikanten zu Nahrung ist gering"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_FOOD"
+#| msgid "Food"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME"
 msgid "Food"
 msgstr "Nahrung"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NO_FOOD
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NO_FOOD"
-msgid "This colony has no food"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.HUNGRY
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.HUNGRY"
+#| msgid "One or more Duplicants are very hungry"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.HUNGRY"
+msgid "    • One or more Duplicants are very hungry"
+msgstr "Ein oder mehrere Duplikanten sind sehr hungrig"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.LOW_CALORIES
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.LOW_CALORIES"
+#| msgid "Duplicant to food ratio is low"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.LOW_CALORIES"
+msgid "    • Duplicant to food ratio is low"
+msgstr "Das Verhältnis von Duplikanten zu Nahrung ist gering"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NO_FOOD"
+#| msgid "This colony has no food"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD"
+msgid "    • This colony has no food"
 msgstr "Diese Kolonie hat keine Nahrung"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NORMAL"
-msgid "Adequate food supply"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NORMAL
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NORMAL"
+msgid "    • Adequate food supply"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.IDLE
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.IDLE"
-msgid "One or more Duplicants are idle"
-msgstr "Ein oder mehrere Duplikanten sind inaktiv"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
+#| msgid "<b>Zoom:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Food</b>"
+msgstr "<b>Zoom:</b>"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
+#| msgid "Battery"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME"
+msgid "Battery"
+msgstr "Batterie"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NAME"
+#| msgid "Idleness"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME"
 msgid "Idleness"
 msgstr "Faulheit"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NORMAL"
-msgid "All Duplicants currently have tasks"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.IDLE"
+#| msgid "One or more Duplicants are idle"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE"
+msgid "    • One or more Duplicants are idle"
+msgstr "Ein oder mehrere Duplikanten sind inaktiv"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NORMAL"
+#| msgid "All Duplicants currently have tasks"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.NORMAL"
+msgid "    • All Duplicants currently have tasks"
 msgstr "Alle Duplikanten haben derzeit Aufgaben"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLENESS.NAME"
+#| msgid "Idleness"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Idleness</b>"
+msgstr "Faulheit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.MUTE_TUTORIAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.MUTE_TUTORIAL"
@@ -50695,159 +51151,272 @@ msgid "Diagnostic can be muted in the <b><color=#E5B000>See All</color></b> pane
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA"
+#| msgid "Not enough data for evaluation"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA"
-msgid "Not enough data for evaluation"
+msgid "    • Not enough data for evaluation"
 msgstr "Nicht genügend Daten für die Auswertung"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA_SHORT
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.LINE_ITEM"
+#| msgid "    • Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA_SHORT"
-msgid "No data"
-msgstr ""
+msgid "    • No data"
+msgstr "    • Verschüttet"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS"
+#| msgid "There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS"
-msgid "There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
+msgid "    • There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
 msgstr "Es gibt keine Duplikanten auf diesem <style =\"KKeyword\">Planetoid</style>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED"
-msgid "This diagnostic in not concerned with rockets that don't have their crew requested"
+msgid "    • This diagnostic in not concerned with rockets that don't have their crew requested"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NAME"
+#| msgid "Avg Power"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME"
 msgid "Avg Power"
 msgstr "Durchschn. Leistung"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NORMAL"
-msgid "Currently has adequate power supply"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL"
+msgid "    • Currently has adequate power supply"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.OVERLOADED
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.OVERLOADED"
-msgid "One or more power grids are damaged"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.OVERLOADED
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.OVERLOADED"
+msgid "    • One or more power grids are damaged"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NAME"
-msgid "Fuel"
-msgstr "Treibstoff"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWER_USE.NAME"
+#| msgid "Avg Power"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Avg Power</b>"
+msgstr "Durchschn. Leistung"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NORMAL"
-msgid "Rocket has fuel"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NORMAL"
+#| msgid "Rocket has fuel"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.ALL_NAME"
+msgid "Rocket Fuel"
 msgstr "Rakete hat Treibstoff"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.WARNING
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.WARNING"
-msgid "Rocket has no fuel"
-msgstr ""
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NORMAL"
+#| msgid "Rocket has fuel"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL"
+msgid "    • Rocket has fuel"
+msgstr "Rakete hat Treibstoff"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NAME"
-msgid "Oxidizer"
-msgstr "Oxidationsmittel"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER"
+#| msgid "<b>Resource Effects:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Rocket Fuel</b>"
+msgstr "<b>Ressourceneffekte:</b>"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NORMAL"
-msgid "Oxidizer requirements met"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NORMAL"
+#| msgid "Rocket has fuel"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING"
+msgid "    • Rocket has no fuel"
+msgstr "Rakete hat Treibstoff"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.UI_FILTER_CATEGORY"
+#| msgid "Accepted Oxidizers"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME"
+msgid "Rocket Oxidizer"
+msgstr "Akzeptiert Oxidationsmittel"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NORMAL"
+#| msgid "Oxidizer requirements met"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL"
+msgid "    • Oxidizer requirements met"
 msgstr "Oxidationsmittelanforderungen erfüllt"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.WARNING
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.WARNING"
-msgid "Insufficient oxidizer"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.TOOLTIP_NAME
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Rocket Oxidizer</b>"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.WARNING"
+#| msgid "Insufficient oxidizer"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING"
+msgid "    • Insufficient oxidizer"
 msgstr "Unzureichendes Oxidationsmittel"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.HIGH_STRESS
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.HIGH_STRESS"
-msgid "One or more Duplicants is suffering from high stress"
-msgstr "Ein oder mehrere Duplikanten leiden unter hohem Stress"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NAME"
+#| msgid "Max Stress"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME"
 msgid "Max Stress"
 msgstr "Max Stress"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NORMAL"
-msgid "All Duplicants currently have manageable stress levels"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.HIGH_STRESS"
+#| msgid "One or more Duplicants is suffering from high stress"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS"
+msgid "    • One or more Duplicants is suffering from high Stress"
+msgstr "Ein oder mehrere Duplikanten leiden unter hohem Stress"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NORMAL"
+#| msgid "All Duplicants currently have manageable stress levels"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.NORMAL"
+msgid "    • All Duplicants currently have manageable stress levels"
 msgstr "Alle Duplikanten haben derzeit ein überschaubare Stressniveau"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.FEW_TOILETS
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.FEW_TOILETS"
-msgid "Low toilet to Duplicant ratio"
-msgstr "Niedriges Verhältnis von Toiletten zu Duplikant"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESS.NAME"
+#| msgid "Max Stress"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Max Stress</b>"
+msgstr "Max Stress"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.INOPERATIONAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.INOPERATIONAL"
-msgid "One or more toilets are out of order"
-msgstr "Eine oder mehrere Toiletten sind außer Betrieb"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NAME"
+#| msgid "Toilets"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME"
 msgid "Toilets"
 msgstr "Toiletten"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_TOILETS
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_TOILETS"
-msgid "Currently has no toilets"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.FEW_TOILETS"
+#| msgid "Low toilet to Duplicant ratio"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS"
+msgid "    • Low toilet to Duplicant ratio"
+msgstr "Niedriges Verhältnis von Toiletten zu Duplikant"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.INOPERATIONAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.INOPERATIONAL"
+#| msgid "One or more toilets are out of order"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.INOPERATIONAL"
+msgid "    • One or more toilets are out of order"
+msgstr "Eine oder mehrere Toiletten sind außer Betrieb"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_TOILETS
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_TOILETS"
+#| msgid "Currently has no toilets"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_TOILETS"
+msgid "    • Currently has no toilets"
 msgstr "Derzeit gibt es keine Toiletten"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_WORKING_TOILETS
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_WORKING_TOILETS"
-msgid "Currently has no working toilets"
-msgstr ""
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_WORKING_TOILETS
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_TOILETS"
+#| msgid "Currently has no toilets"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NO_WORKING_TOILETS"
+msgid "    • Currently has no working toilets"
+msgstr "Derzeit gibt es keine Toiletten"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NORMAL"
-msgid "Currently has an adequate amount of toilets"
-msgstr ""
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETS.NO_TOILETS"
+#| msgid "Currently has no toilets"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.NORMAL"
+msgid "    • Currently has an adequate amount of toilets"
+msgstr "Derzeit gibt es keine Toiletten"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NAME"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
+#| msgid "<b>Tooltip:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Toilets</b>"
+msgstr "<b>Tooltip:</b>"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.NAME"
+#| msgid "Trapped"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME"
 msgid "Trapped"
 msgstr "Gefangen"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NORMAL"
-msgid "No Duplicants are currently trapped"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NORMAL"
+#| msgid "No Duplicants are currently trapped"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL"
+msgid "    • No Duplicants are currently trapped"
 msgstr "Derzeit stecken keine Duplikanten fest"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.STUCK
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.STUCK"
-msgid "One or more Duplicants are trapped"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.STUCK"
+#| msgid "One or more Duplicants are trapped"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK"
+msgid "    • One or more Duplicants are trapped"
 msgstr "Ein oder mehrere Duplikanten stecken fest"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME"
-msgid "Travel time"
-msgstr "Reisezeit"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE"
+#| msgid "<b>Type:</b>"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.TOOLTIP_NAME"
+msgid "<b>Trapped</b>"
+msgstr "<b>Typ:</b>"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NAME"
-msgid "Travel time"
-msgstr "Reisezeit"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
+#| msgid "Travel Time:"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME"
+msgid "Travel Time"
+msgstr "Reisezeit:"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL
+#, fuzzy
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
+#| msgid "On average, my Duplicants spent {0} of their time traveling between tasks"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL"
-msgid "Time spent traveling"
-msgstr ""
+msgid "    • {0} time spent traveling between tasks"
+msgstr "Im Durchschnitt verbrachten meine Duplikanten {0} ihrer Zeit damit, zwischen den Aufgaben zu pendeln"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.ALL_NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.ALL_NAME"
-msgid "Work Time"
-msgstr "Arbeitszeit"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
+#| msgid "Travel Time:"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME"
+msgid "<b>Travel Time</b>"
+msgstr "Reisezeit:"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NAME
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NAME"
-msgid "Work Time"
-msgstr "Arbeitszeit"
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NORMAL"
-msgid "Time spent working"
-msgstr "Arbeitszeit"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.WORKTIMEDIAGNOSTIC.ALL_NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.ALL_NAME"
+#| msgid "Errands"
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORKTIMEDIAGNOSTIC.ALL_NAME"
+msgid "Errands"
+msgstr "Aufträge"
 
 #. STRINGS.UI.COLONYLOSTSCREEN.COLONYLOST
 msgctxt "STRINGS.UI.COLONYLOSTSCREEN.COLONYLOST"
@@ -52077,8 +52646,8 @@ msgstr "Anforderungen"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL_TOOLTIP"
-msgid "Requirements"
-msgstr "Anforderungen"
+msgid "These conditions must be fulfilled in order to launch a rocket mission"
+msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.NAME"
@@ -52086,34 +52655,43 @@ msgid "CHECKLIST"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.LOGIC_PORT_READY"
+#| msgid "Rocket Checklist"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD"
-msgid "Crew Preparation"
-msgstr "Vorbereitung der Besatzung"
+msgid "Crew Checklist"
+msgstr "Raketen-Checkliste"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP"
-msgid "Crew Preparation"
-msgstr "Crew Preparation"
+msgid "It is recommended that all boxes on the Crew Checklist be checked before launching"
+msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT
+#, fuzzy
+#| msgctxt "STRINGS.ROOMS.CRITERIA.LIGHT.NAME"
+#| msgid "Light source"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT"
-msgid "Flight Check"
-msgstr ""
+msgid "Flight Route"
+msgstr "Lichtquelle"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT_TOOLTIP"
-msgid "Flight Check"
+msgid "A rocket requires a clear path to a set destination to conduct a mission"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP
+#, fuzzy
+#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
+#| msgid "Launch Checklist"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP"
-msgid "Launch Preparation"
-msgstr "Vorbereitung der Besatzung"
+msgid "Launch Checklist"
+msgstr "Checkliste für den Start"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP_TOOLTIP"
-msgid "Launch Preparation"
-msgstr "Startvorbereitung"
+msgid "It is recommended that all boxes on the Launch Checklist be checked before launching"
+msgstr ""
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_BIOMES
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_BIOMES"
@@ -52358,23 +52936,32 @@ msgstr "VERSION: {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
-msgid "Click to make this diagnostic visible on <b>alert only</b>"
+msgid ""
+"\n"
+"------------------\n"
+"Click to subscribe to this diagnostic - <b>Visible On Alert Only</b>"
 msgstr ""
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS"
-msgid "Click to pin this diagnostic - making it <b>always visible</b>"
+msgid ""
+"\n"
+"------------------\n"
+"Click to pin this diagnostic to the sidebar -  <b>Always Visible</b>"
 msgstr ""
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.NEVER
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.NEVER"
-msgid "Click to <b>mute</b> this diagnostic"
+msgid ""
+"\n"
+"------------------\n"
+"Click to mute this diagnostic on the sidebar -  <b>Never Visible      </b>"
 msgstr ""
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.DIAGNOSTIC
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.DIAGNOSTIC"
 msgid "Diagnostic"
-msgstr ""
+msgstr "Diagnose"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.RESERVED
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.RESERVED"
@@ -52399,7 +52986,7 @@ msgstr "Status"
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.TITLE
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.TITLE"
 msgid "DIAGNOSTICS"
-msgstr ""
+msgstr "DIAGNOSE"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.TOTAL
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.TOTAL"
@@ -52414,7 +53001,7 @@ msgstr "Spaced Out!"
 #. STRINGS.UI.DLC1.NAME_ITAL
 msgctxt "STRINGS.UI.DLC1.NAME_ITAL"
 msgid "<i>Spaced Out!</i>"
-msgstr ""
+msgstr "<i>Spaced Out!</i>"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -52667,20 +53254,14 @@ msgid "Calorie Generation:"
 msgstr "Kalorienerzeugung:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"FOOD\">Food</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"FOOD\">Food</link> was consumed by {1} over the course of the day"
-msgstr "Meine Kolonie hat {0} <link=\"FOOD\">Nahrung</link> im Laufe des Tages verbraucht"
+msgstr "{0} <link=\"FOOD\">Nahrung</link> wurde im Laufe des Tages verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
-#| msgid "My colony produced {0} of <link=\"FOOD\">Food</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"FOOD\">Food</link> was produced by {1} over the course of the day"
-msgstr "Meine Kolonie hat {0} <link=\"FOOD\">Nahrung</link> im Laufe des Tages produziert"
+msgstr "{0} <link=\"FOOD\">Nahrung</link> wurde von {1} im Laufe des Tages produziert"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
@@ -52688,20 +53269,14 @@ msgid "Errands:"
 msgstr "Aufträge:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
-#| msgid "My Duplicants completed {0} errands over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
 msgid "{0} errands were completed over the course of the day by {1}"
-msgstr "Meine Duplikanten haben im Laufe des Tages {0} Aufgaben erledigt"
+msgstr "{0} Aufträge wurden im Laufe des Tages von {1} erledigt."
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE"
-#| msgid "{2} errands: {0} / {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP"
 msgid "{0} errands are queued for {1}"
-msgstr "{2} Aufträge: {0} / {1}"
+msgstr "{0} Aufträge in der Warteschlange für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
@@ -52709,20 +53284,14 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Flatulence</link> Generation:"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Flatulenz</link>-Produktion:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> verbraucht"
+msgstr "{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} über den Tag verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> verbraucht"
+msgstr "{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} über den Tag erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
@@ -52730,20 +53299,14 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Sublimierung</link>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> verbraucht"
+msgstr "{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} über den Tag verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> verbraucht"
+msgstr "{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} über den Tag erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
@@ -52751,20 +53314,14 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Toilet Emissions: </link>"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Toilettenabgase: </link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> verbraucht"
+msgstr "{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} über den Tag verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> verbraucht"
+msgstr "{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} über den Tag erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -52808,17 +53365,14 @@ msgid "Disease Status:"
 msgstr "Krankheitsstatus:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE"
-#| msgid "Temperature range: {0} to {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
 msgid "There are {0} covering {1}"
-msgstr "Temperaturbereich: {0} bis {1}"
+msgstr "Es gibt {0} für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
 msgid "Duplicant Details:"
-msgstr "Duplikantendaten:"
+msgstr "Duplikantendetails:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME"
@@ -52860,12 +53414,9 @@ msgid "Idle Time:"
 msgstr "Wartezeit:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
-#| msgid "On average, my Duplicants {0} of their time idling"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
 msgid "On average, {0} of {1}'s time was spent idling"
-msgstr "Im Durchschnitt sind meine Duplikanten {0} ihrer Zeit untätig"
+msgstr "Im Durchschnitt sind meine Duplikanten {0} von {1} ihrer Zeit untätig"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME"
@@ -52934,12 +53485,12 @@ msgstr "{0} verzehrt"
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.FOODFIGHT_CONTEXT
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.FOODFIGHT_CONTEXT"
 msgid "{0} ingested in food fight"
-msgstr ""
+msgstr "{0} im Lebensmittelkampf aufgenommen"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
 msgid "On {0}"
-msgstr "Auf {0}"
+msgstr "An {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED"
@@ -53016,20 +53567,14 @@ msgid "Wild Critters:"
 msgstr "Wilde Tiere:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
-#| msgid "{0} domestic critters live in {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{0} Haustiere leben in {1}"
+msgstr "{0} Wildtiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
-#| msgid "{0} domestic critters live in {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{0} Haustiere leben in {1}"
+msgstr "{0} Wildtiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
@@ -53069,7 +53614,7 @@ msgstr "Im Durchschnitt verbrachten meine Duplikanten {0} ihrer Zeit damit, sich
 #. STRINGS.UI.ENDOFDAYREPORT.PREV
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PREV"
 msgid "Prev"
-msgstr "Früher"
+msgstr "Zurück"
 
 #. STRINGS.UI.ENDOFDAYREPORT.REMOVED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.REMOVED"
@@ -53503,33 +54048,24 @@ msgid "Disabled"
 msgstr "Deaktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.TOOLTIP"
-#| msgid "Unchecked: Sandbox Mode is turned off (Default)"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP"
 msgid "Unchecked: <i>Spaced Out!</i> Content is turned off (Default)"
-msgstr "Deselektiert: Sandbox-Modus ausgeschaltet (Standard)"
+msgstr "Deaktiviert: <i>Spaced Out!</i> Inhalt ist deaktiviert (Standard)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.ENABLED.NAME"
-#| msgid "Enabled"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME"
 msgid "Enabled"
 msgstr "Aktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.TOOLTIP"
-#| msgid "Checked: Sandbox Mode is turned on"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP"
 msgid "Checked: <i>Spaced Out!</i> Content is turned on"
-msgstr "Selektiert: Sandbox-Modus eingeschaltet"
+msgstr "Aktiviert: <i>Spaced Out!</i> Inhalt ist aktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME"
 msgid "<i>Spaced Out!</i> Content Enabled"
-msgstr ""
+msgstr "<i>Spaced Out!</i> Inhalt aktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.TOOLTIP"
@@ -53789,10 +54325,9 @@ msgstr "Diese Kolonie wird im Cloud-Speicherordner gesichert und von der Spielpl
 
 # Satzbau?
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_EXTRA
-#, fuzzy
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_EXTRA"
 msgid "This can be changed later with the colony management options in the load screen, from the main menu."
-msgstr "Dies kann später mit den Optionen zur Kolonieverwaltung im Ladebildschirm vom Hauptmenü aus geändert werden."
+msgstr "Dies kann später in den Kolonieverwaltungsoptionen im Ladebildschirm vom Hauptmenü aus geändert werden."
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_LOCAL
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_LOCAL"
@@ -54031,30 +54566,24 @@ msgstr "Mehr Optionen im Spiel verfügbar"
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_ENABLED
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_ENABLED"
 msgid "<i>Spaced Out!</i> Expansion Enabled"
-msgstr ""
+msgstr "<i>Spaced Out!</i> Erweiterung aktiviert"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_ENABLED_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_ENABLED_TOOLTIP"
 msgid "If checked, content from the <i>Spaced Out!</i> Expansion will be available"
-msgstr ""
+msgstr "Wenn diese Option aktiviert ist, sind Inhalte aus der Erweiterung <i>Spaced Out!</i> verfügbar"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_RESTART_BODY
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_RESTART_BODY"
 msgid "Changing this setting requires the game to restart"
-msgstr ""
+msgstr "Um diese Einstellung zu ändern, muss das Spiel neu gestartet werden"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_RESTART_CONFIRM
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.OK"
-#| msgid "RESTART"
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_RESTART_CONFIRM"
 msgid "RESTART"
 msgstr "NEUSTART"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_RESTART_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.REQUIRES_RESTART"
-#| msgid "RESTART REQUIRED"
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_RESTART_TITLE"
 msgid "RESTART REQUIRED"
 msgstr "NEUSTART ERFORDERLICH"
@@ -54066,11 +54595,14 @@ msgid ""
 "\n"
 "For now, you can toggle the DLC on and off using the DLC settings for Oxygen Not Included in Steam."
 msgstr ""
+"Die Testversion dieser Erweiterung erlaubt derzeit keinen Wechsel zum Basisspiel.\n"
+"\n"
+"Im Moment können Sie den DLC mithilfe der DLC-Einstellungen für Oxygen Not Included in Steam ein- und ausschalten."
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_TESTING_TITLE
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.EXPANSION1_CONTENT_TESTING_TITLE"
 msgid "DISABLED FOR TESTING"
-msgstr ""
+msgstr "DEAKTIVIERT ZUM TESTEN"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.GENERAL_GAME_OPTIONS
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.GENERAL_GAME_OPTIONS"
@@ -54298,6 +54830,14 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_SIZE"
 msgid "Size: {0}"
 msgstr "Größe: '{0}'"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
+#| msgid "{0}: {1}"
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT"
+msgid "{0}: {1}"
+msgstr "{0}: {1}"
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE"
 msgid "Viewing colony '{0}'"
@@ -54431,14 +54971,13 @@ msgstr "ZU LOKALEM SPEICHERSTAND KONVERTIEREN"
 
 # Satzbau klar?
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL_DETAILS
-#, fuzzy
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL_DETAILS"
 msgid ""
 "Converting a colony to NOT use cloud saves will move all of the save files for that colony into the local saves folder.\n"
 "\n"
 "<style=\"KKeyword\">These save files will no longer be synced to the cloud.</style>"
 msgstr ""
-"Die Konvertierung einer Kolonie zur NICHT Verwendung von Cloud-Speichern verschiebt alle Speicherdateien diese Kolonie in die lokalen Speicherordner.\n"
+"Konvertieren einer Kolonie um NICHT den Cloud-Speicher zu verwenden, verschiebt alle Speicherdateien dieser Kolonie in den lokalen Speicherordner.\n"
 "\n"
 "<style=\"KKeyword\">Diese Speicherstände werden nicht mehr mit der Cloud synchronisiert.</style>"
 
@@ -54465,12 +55004,12 @@ msgstr "Lebende Duplikanten"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT"
 msgid "<i>Spaced Out!</i> Expansion FIXME"
-msgstr ""
+msgstr "<i>Spaced Out!</i> Expansion FIXME"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART"
 msgid "Loading this colony will require restarting the game with <i>Spaced Out!</i> content enabled"
-msgstr ""
+msgstr "Um diese Kolonie zu laden, muss das Spiel mit aktiviertem <i>Spaced Out!</i>-Inhalt neu gestartet werden"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
@@ -54621,6 +55160,16 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER"
 msgid "LOCAL SAVES"
 msgstr "LOKALE SPEICHERSTÄNDE"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT"
+msgid "<b><color=#ff0000>This save is from <i>Spaced Out!</i> Activate the DLC to play it! (v{2}/v{4})</color></b>"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
+msgid "This save was created in the <i>Spaced Out!</i> DLC and can't be loaded in the base game."
+msgstr ""
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
 msgid "{0} saves  {1} autosaves  {2}"
@@ -54642,12 +55191,9 @@ msgid "Access your save file locations from here."
 msgstr "Greifen Sie von hier aus auf ihre Speicherorte der Speicherstände zu."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE"
-#| msgid "<b><color=#ff0000>Could not load file {0}. Its data may be corrupted.</color></b>"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT"
 msgid "<b><color=#ff0000>Could not load file {0}. File was saved with content that is not currently installed.</color></b>"
-msgstr "<b><color=#ff0000>Datei {0} konnte nicht geladen werden. Sie ist womöglich beschädigt.</color></b>"
+msgstr "<b><color=#ff0000>Datei {0} konnte nicht geladen werden. Sie wurde mit Inhalten gespeichert, die derzeit nicht installiert sind.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
@@ -54691,22 +55237,19 @@ msgid "<b><color=#ff0000>This save file is from a previous version of the game a
 msgstr "<B> <color=# ff0000> Diese Sicherungsdatei stammt aus einer früheren Version des Spiels und wird nicht mehr unterstützt.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION"
-#| msgid "<b><color=#ff0000>This save file is from a previous version of the game and is no longer supported.</color></b>"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP"
 msgid "<b><color=#ff0000>This save file is from the base version of the game and currently cannot be loaded while <i>Spaced Out!</i> is installed.</color></b>"
-msgstr "<B> <color=# ff0000> Diese Sicherungsdatei stammt aus einer früheren Version des Spiels und wird nicht mehr unterstützt.</color></b>"
+msgstr "<B> <color=# ff0000>Diese Sicherungsdatei stammt aus der Basisversion des Spiels und kann derzeit nicht geladen werden solange <i>Spaced Out!</i> Installiert ist.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT"
 msgid "Vanilla FIXME"
-msgstr ""
+msgstr "Vanilla FIXME"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART"
 msgid "Loading this colony will require restarting the game with <i>Spaced Out!</i> content disabled"
-msgstr ""
+msgstr "Um diese Kolonie zu laden, muss das Spiel mit deaktiviertem <i>Spaced Out!</i>-Inhalt neu gestartet werden"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME"
@@ -54730,7 +55273,7 @@ msgstr "DLC AKTIVIEREN"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to download and install <i>Spaced Out!</i>"
-msgstr ""
+msgstr "Das Spiel muss neu gestartet werden, um <i>Spaced Out!</i> herunterzuladen und zu installieren"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
@@ -54740,7 +55283,7 @@ msgstr "DLC DEAKTIVIEREN"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to download and install the <i>Oxygen Not Included</i> base game."
-msgstr ""
+msgstr "Das Spiel muss neu gestartet werden, um das Basisspiel <i>Oxygen Not Included</i> herunterzuladen und zu installieren."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -55181,12 +55724,9 @@ msgid "Mod was active during a crash and may be the cause"
 msgstr "Mod war während eines Absturzes aktiv und kann dessen Ursache sein"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.DEACTIVATED"
-#| msgid "Deactivated due to errors"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS"
 msgid "Deactivated due to Early Access for Spaced Out!"
-msgstr "Deaktiviert aufgrund von Fehlern"
+msgstr "Deaktiviert wegen Early Access für Spaced Out!"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED"
@@ -55382,8 +55922,8 @@ msgstr "STEAM WORKSHOP"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "DLC ROADMAP!"
-msgstr "DLC ROADMAP!"
+msgid "DLC EARLY ACCESS!"
+msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -55407,6 +55947,14 @@ msgid ""
 "\n"
 "Check out the full patch notes for more details and instructions on how to participate!"
 msgstr ""
+"<b><i>Spaced Out!</i> DLC kommt zu Early Access Dec 2020!</b>\n"
+"\n"
+"  • Neues Multiwelten-Gameplay in Echtzeit auf brandneuen Planetoiden\n"
+"  • Neue Mid-Game-Raketentechnologie und modularer Raketenaufbau\n"
+"  • Komplett überarbeitete Sternenkarte für neue Raketenexpeditionen\n"
+"  • Neue Lebewesen, Ressourcen, Technologien, Biome und mehr\n"
+"\n"
+"Weitere Details und Anweisungen zur Teilnahme finden Sie in den vollständigen Patchnotizen!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -55663,6 +56211,11 @@ msgstr ""
 "{1} - Der Weltseed\n"
 "\n"
 "{2} - Schwierigkeitsgrad und benutzerdefinierte Einstellungen"
+
+#. STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED
+msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED"
+msgid "Spaced Out! Dlc has not yet been purchased in the Wegame store. Purchase Spaced Out! to support Oxygen Not Included and enjoy the new content!"
+msgstr ""
 
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT"
@@ -59283,8 +59836,6 @@ msgid "Radiation Overlay"
 msgstr "Strahlungs-Overlay"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.DESC
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.DESCRIPTION"
-#| msgid "No Description"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.DESC"
 msgid "{rads} ({description})"
 msgstr "{rads} ({description})"
@@ -59842,7 +60393,7 @@ msgstr ""
 #. STRINGS.UI.RESOURCESCREEN.SEE_ALL
 msgctxt "STRINGS.UI.RESOURCESCREEN.SEE_ALL"
 msgid "+ See All ({0})"
-msgstr "+ Alle anzeigen({0})"
+msgstr "+ Alle anzeigen ({0})"
 
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP"
@@ -61049,8 +61600,11 @@ msgid "Inject thermal energy into the simulation {Hotkey}"
 msgstr "Injiziert Wärmeenergie in die Weltsimulation {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
+#| msgid "Instant build mode"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
-msgid "Instant build mode"
+msgid "Instant build mode ON"
 msgstr "Sofortiger Baumodus"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP
@@ -62425,13 +62979,19 @@ msgid "Rocket"
 msgstr "Rakete"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
+#, fuzzy
+#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
+#| msgid "Destination not selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
-msgid "Destination not selected"
+msgid "Destination not set"
 msgstr "Ziel nicht ausgewählt"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE
+#, fuzzy
+#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
+#| msgid "Destination selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
-msgid "Destination selected"
+msgid "Destination set"
 msgstr "Ziel ausgewählt"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE
@@ -62616,7 +63176,7 @@ msgstr "Fehlende qualifizierte Besatzung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY"
-msgid "Qualified Crew boarded"
+msgid "Qualified crew boarded"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE
@@ -62656,8 +63216,8 @@ msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE"
-msgid "Something is blocking the path of the rocket"
-msgstr "Etwas blockiert den Weg der Rakete"
+msgid "The space above this rocket is obstructed"
+msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.READY"
@@ -62831,13 +63391,16 @@ msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.READY"
-msgid "All the cargo that can be transferred on and off this rocket has been transferred."
+msgid "All the cargo that can be transferred on and off this rocket has been transferred"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.WARNING
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.NAME"
+#| msgid "<link=\"LAUNCHPLATFORM\">Rocket Platform</link>"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.WARNING"
-msgid "The launch pad could still transfer cargo to or from this rocket."
-msgstr ""
+msgid "The <link=\"LAUNCHPLATFORM\">Rocket Platform</link> could still transfer cargo to or from this rocket"
+msgstr "<link=\"LAUNCHPLATFORM\">Raketenplattform</link>"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE"
@@ -62872,7 +63435,7 @@ msgstr "Konstruktionswarnung"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MINIMUM_MASS
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MINIMUM_MASS"
 msgid "Resources available {0}"
-msgstr "Ressource verfügbar {0}"
+msgstr "Ressourcen verfügbar {0}"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_DESTINATION
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_DESTINATION"
@@ -62880,14 +63443,20 @@ msgid "No destination selected."
 msgstr "Kein Ziel ausgewählt."
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.FAILURE
+#, fuzzy
+#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY"
+#| msgid "No extra passengers on board"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.FAILURE"
-msgid "Extra passengers on board"
-msgstr ""
+msgid "Extra passengers onboard"
+msgstr "Keine zusätzlichen Passagiere an Bord"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY
+#, fuzzy
+#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE"
+#| msgid "Extra passengers"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY"
-msgid "No extra passengers on board"
-msgstr "Keine zusätzlichen Passagiere an Bord"
+msgid "No extra passengers"
+msgstr "Zusätzliche Passagiere"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE"
@@ -62926,12 +63495,15 @@ msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
-msgid "More fuel or oxidizer must be loaded before this rocket is ready for takeoff. If the tanks are already full then this rocket can never reach that destination."
+msgid ""
+"More fuel or oxidizer must be loaded before this rocket is ready for takeoff.\n"
+"\n"
+"If the tanks are already full then this rocket can never reach that destination"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
-msgid "This rocket has sufficient fuel and oxidizer a round trip to and from its selected destination (or fully fuelled if no destination selected.)"
+msgid "This rocket has sufficient fuel and oxidizer a round trip to and from its selected destination (or fully fuelled if no destination selected)"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING
@@ -62939,7 +63511,7 @@ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING"
 msgid ""
 "This rocket has enough fuel and oxidizer to make it to its destination, but not back again.\n"
 "\n"
-"The rocket can still be launched if necessary."
+"The rocket can still be launched if necessary"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
@@ -65886,7 +66458,10 @@ msgstr "STARTEN"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON_NOT_READY_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON_NOT_READY_TOOLTIP"
-msgid "Rocket not ready to launch. Please review the launch checklist in the status panel"
+msgid ""
+"This rocket is not ready to launch\n"
+"------------------\n"
+"Review the Launch Checklist in the <link=\"LAUNCHPLATFORM\">Rocket Platform</link> status panel for more detail"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON_TOOLTIP
@@ -65895,16 +66470,19 @@ msgid "3... 2... 1... Blast off!"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.AWAITINGBUTTON"
+#| msgid "AWAITING BIOSCAN"
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON"
-msgid "LAUNCH IN PROGRESS"
-msgstr "START IM GANGE"
+msgid "AWAITING PILOT"
+msgstr "WARTE AUF BIOSCAN"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON_TOOLTIP"
 msgid ""
-"This rocket is ready to take off, as soon as a duplicant takes the controls!\n"
+"This rocket will take off as soon as a Duplicant takes the controls\n"
 "\n"
-"<i>Click again to cancel the launch.</i>"
+"<b>Click to cancel launch</b>"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON
@@ -65915,9 +66493,9 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON_TOOLTIP"
 msgid ""
-"Please review the launch checklist in the status panel as some items may require attention\n"
-"\n"
-"Press this button if the warnings are acceptable"
+"<b>Some items in the Launch Checklist require attention!</b>\n"
+"------------------\n"
+"Click to ignore warnings and proceed with launch"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NEW_ROCKET_BUTTON
@@ -65926,9 +66504,12 @@ msgid "NEW ROCKET"
 msgstr "NEUE RAKETE"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NO_ROCKETS_WAITING
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.IN_ORBIT_ABOVE_PANEL"
+#| msgid "Rockets in orbit"
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NO_ROCKETS_WAITING"
-msgid "No rockets orbiting"
-msgstr ""
+msgid "No rockets in orbit"
+msgstr "Raketen im Orbit"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.TITLE"
@@ -66332,8 +66913,8 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH"
-msgid "Both"
-msgstr "Beide"
+msgid "Load/Unload"
+msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_LOAD
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_LOAD"
@@ -66352,17 +66933,17 @@ msgstr "Pumpensteuerung"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_BOTH
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_BOTH"
-msgid "This pump will both unload and load cargo to the landed rocket."
+msgid "This pump will both <b>Load</b> and <b>Unload</b> cargo from the landed rocket"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_LOAD
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_LOAD"
-msgid "This pump will attempt to load cargo to the landed rocket without doing any unloading."
+msgid "This pump will attempt to <b>Load</b> cargo onto the landed rocket, but will not unload it"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_UNLOAD
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_UNLOAD"
-msgid "This pump will attempt to unload cargo from the landed rocket, but not fill it again."
+msgid "This pump will attempt to <b>Unload</b> cargo from the landed rocket, but not attempt to load new cargo"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.DEPLOY_BUTTON
@@ -66535,12 +67116,9 @@ msgid "<b>Life Cycle</b>:"
 msgstr "<b>Lebenszyklus</b>:"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NO_SPECIES_SELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.SELECT_DESC"
-#| msgid "Select a seed to plant."
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NO_SPECIES_SELECTED"
 msgid "Select a seed species above..."
-msgstr "Wähle Samen zum Pflanzen."
+msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS"
@@ -66689,8 +67267,11 @@ msgid "Launch Resources:"
 msgstr "Ressourcen starten:"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED"
+#| msgid "Launcher destination {0} selected."
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED"
-msgid "Launcher destination {0} selected."
+msgid "Launcher destination {0} set."
 msgstr "Startziel {0} ausgewählt."
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.MINIMUM_PAYLOAD_MASS
@@ -66699,10 +67280,15 @@ msgid "Minimum launch mass:"
 msgstr "Minimale Startmasse:"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET
+#, fuzzy
+#| msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET"
+#| msgid ""
+#| "No destination selected.\n"
+#| "Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a focus."
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET"
 msgid ""
 "No destination selected.\n"
-"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a focus."
+"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to set a course."
 msgstr ""
 "Kein Ziel ausgewählt.\n"
 "Öffnen die <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color, um einen Fokus auszuwählen."
@@ -67004,38 +67590,19 @@ msgid "Maximum number of passenger modules reached"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.RESEARCHED.COMPLETE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.RESEARCHED.COMPLETE"
 msgid "Research Completed"
 msgstr "Forschung abgeschlossen"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.RESEARCHED.FAILED
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.RESEARCHED.FAILED"
 msgid "Research Incomplete"
-msgstr "Forschung abgeschlossen"
+msgstr "Forschung unvollständig"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE.COMPLETE
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE.COMPLETE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Xandras\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE.FAILED
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE.FAILED"
@@ -67043,22 +67610,9 @@ msgid "Space above rocket is blocked"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.COMPLETE
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.COMPLETE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Xandras\n"
-"Language-Team: \n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.FAILED
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.FAILED"
@@ -67089,12 +67643,6 @@ msgid "ANALYZE"
 msgstr "ANALYSIEREN"
 
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_STATUS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_STATUS"
-#| msgid ""
-#| "Send a researcher to gather data here.\n"
-#| "\n"
-#| "Analyzing a natural feature takes time, but yields useful results."
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_STATUS"
 msgid ""
 "Send a researcher to gather data here.\n"
@@ -67590,28 +68138,19 @@ msgid "Flow Control"
 msgstr "Flusskontrolle"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
-#| msgid "Debug Teleport"
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.BUTTON"
 msgid "Teleport!"
-msgstr "Debug Teleport"
+msgstr "Teleport"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.CANCELBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
-#| msgid "Cancel"
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.CANCELBUTTON"
 msgid "Cancel"
 msgstr "Abbrechen"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.COMPLETE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS"
-#| msgid "Passengers"
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.COMPLETE"
 msgid "Passenger transmitted!"
-msgstr "Passagiere"
+msgstr "Passagier übertragen!"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.CONSUMED
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.CONSUMED"
@@ -67626,12 +68165,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
-#| msgid "Debug Teleport"
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE"
 msgid "Teleporter"
-msgstr "Debug Teleport"
+msgstr "Teleporter"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.UNDERWAY
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.UNDERWAY"
@@ -67913,52 +68449,34 @@ msgid " units"
 msgstr " Einheiten"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE"
 msgid "Activate"
-msgstr "Aktiv"
+msgstr "Aktiviere"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE_CANCEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.RELOCATE.NAME_OFF"
-#| msgid "Cancel Relocation"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE_CANCEL"
 msgid "Cancel Activation"
-msgstr "Verschieben abbrechen"
+msgstr "Aktivierung abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATED"
 msgid "Activated"
 msgstr "Aktiv"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.TOOLTIP"
-#| msgid "A stressed Duplicant is damaging this building"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATE"
 msgid "Request a Duplicant to activate this building"
-msgstr "Ein gestresster Duplikant beschädigte dieses Objekt"
+msgstr "Fordere einen Duplikanten an, um dieses Objekt zu aktivieren"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.NO_DISEASE.TOOLTIP"
-#| msgid "This building is already clean"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATED"
 msgid "This building has already been activated"
-msgstr "Dieses Gebäude ist schon sauber"
+msgstr "Dieses Objekt wurde bereits aktiviert"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.TOOLTIP_OFF"
-#| msgid "Deliver materials to this building"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL"
 msgid "Cancel activation of this building"
-msgstr "Lieferung von Material zu diesem Objekt"
+msgstr "Deaktiviere die Aktivierung dieses Objekts"
 
 #. STRINGS.UI.USERMENUACTIONS.ATTACK.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.ATTACK.NAME"
@@ -68031,20 +68549,14 @@ msgid "Cancel this dig order"
 msgstr "Graben abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME"
-#| msgid "Cancel Harvest"
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.NAME"
 msgid "Cancel Harvest"
 msgstr "Ernte abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.TOOLTIP"
-#| msgid "Cancel this harvest order"
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.TOOLTIP"
 msgid "Cancel the harvest order on this hive"
-msgstr "Ernte abbrechen"
+msgstr "Ernte für diesen Bienenstock abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME"
@@ -68252,12 +68764,9 @@ msgid "Cancel this empty order"
 msgstr "Entleerungsauftrag abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.EMPTYBEEHIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED_CONTEXT"
-#| msgid "Harvested"
 msgctxt "STRINGS.UI.USERMENUACTIONS.EMPTYBEEHIVE.NAME"
 msgid "Harvest Hive"
-msgstr "Geerntet"
+msgstr "Ernte Bienenstock"
 
 #. STRINGS.UI.USERMENUACTIONS.EMPTYBEEHIVE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.EMPTYBEEHIVE.TOOLTIP"
@@ -68388,9 +68897,6 @@ msgid "If enabled, Duplicants will deliver bottled liquids to this building dire
 msgstr "Wenn aktiviert, liefern Duplikanten abgefüllte Flüssigkeiten direkt von einer Handpumpe zu diesem Gebäude"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME"
-#| msgid "Enable Auto-Bottle"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME"
 msgid "Enable Auto-Bottle"
 msgstr "Autoabfüllung aktivieren"
@@ -68411,9 +68917,6 @@ msgid "If disabled, Duplicants will no longer deliver bottled liquids directly f
 msgstr "Wenn deaktiviert, liefern Duplikanten keine abgefüllte Flüssigkeiten direkt von einer Handpumpe zu diesem Gebäude"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
-#| msgid "Disable Auto-Bottle"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME"
 msgid "Disable Auto-Bottle"
 msgstr "Autoabfüllung deaktivieren"
@@ -68789,12 +69292,9 @@ msgid "Recover files from this structure"
 msgstr "Dateien aus diesem Objekt bergen"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP_ALREADYINSPECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
-#| msgid "This mystery of the universe has already been solved."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP_ALREADYINSPECTED"
 msgid "This structure has already been inspected"
-msgstr "Dieses Geheimnis des Universums ist bereits gelöst."
+msgstr "Diese Struktur wurde bereits inspiziert"
 
 #. STRINGS.UI.USERMENUACTIONS.RELEASEELEMENT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.RELEASEELEMENT.NAME"
@@ -68927,6 +69427,19 @@ msgstr "Setze Richtung: Rechts"
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from left to right"
 msgstr "Auswählen, damit sich Duplikanten beim Vorbeilaufen von links nach rechts waschen"
+
+#. STRINGS.UI.VANILLA.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.BASE_NAME"
+#| msgid "Base Name"
+msgctxt "STRINGS.UI.VANILLA.NAME"
+msgid "base game"
+msgstr "Basisname"
+
+#. STRINGS.UI.VANILLA.NAME_ITAL
+msgctxt "STRINGS.UI.VANILLA.NAME_ITAL"
+msgid "<i>base game</i>"
+msgstr ""
 
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
@@ -69543,12 +70056,9 @@ msgid "Building the suspense..."
 msgstr "Spannung aufbauen..."
 
 #. STRINGS.UI.WORLDGEN.PLACINGTEMPLATES
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME"
-#| msgid "Generating power"
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGTEMPLATES"
 msgid "Generating interest..."
-msgstr "Erzeugt Energie"
+msgstr "Interesse wecken ..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING"
@@ -70033,16 +70543,17 @@ msgid "Verdante"
 msgstr "Verdante"
 
 #. STRINGS.WORLDS.HELICONA.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.HELICONA.DESCRIPTION"
-#| msgid "Due to its highly eliptical orbit around its host star, this rock is cold. Oh so very cold."
 msgctxt "STRINGS.WORLDS.HELICONA.DESCRIPTION"
 msgid ""
 "Due to its highly elliptical orbit around its host star, this rock is cold. Oh so very cold.\n"
 "\n"
 "<smallcaps></smallcaps>\n"
 "\n"
-msgstr "Aufgrund seiner hochelptischen Umlaufbahn um seinen Stern ist dieses Gestein kalt. Ach, so sehr kalt."
+msgstr ""
+"Aufgrund seiner stark elliptischen Umlaufbahn um seinen Wirtsstern ist dieser Felsen kalt. Oh so sehr kalt.\n"
+"\n"
+"<smallcaps></smallcaps>\n"
+"\n"
 
 #. STRINGS.WORLDS.HELICONA.NAME
 msgctxt "STRINGS.WORLDS.HELICONA.NAME"
@@ -70050,31 +70561,20 @@ msgid "Helicona"
 msgstr "Helicona"
 
 #. STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
-#| msgid ""
-#| "A promising location with a balanced variety of resources.\n"
-#| "\n"
-#| "<smallcaps>Terra meets all the requirements for Duplicant life and holds no surprises. It's an ideal location for a first attempt at establishing a colony.</smallcaps>\n"
-#| "\n"
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION"
 msgid ""
 "An idyllic location with a balanced variety of life-sustaining resources.\n"
 "\n"
 "<smallcaps>Edenia Asteroids have everything necessary to support life and can harbor a small, self-sustaining colony.</smallcaps>"
 msgstr ""
-"Ein vielversprechender Ort mit ausgeglichener Ressourcenvielfalt.\n"
+"Ein idyllischer Ort mit einer ausgewogenen Vielfalt lebenserhaltender Ressourcen.\n"
 "\n"
-"<smallcaps>Terra erfüllt alle Ansprüche an Duplikantenleben und bringt keine Überraschungen. Hier ist der beste Ort für einen ersten Versuch mit der Etablierung einer Kolonie.</smallcaps>\n"
-"\n"
+"<smallcaps>Edenia Asteroiden haben alles Notwendige, um das Leben zu unterstützen und können eine kleine, sich selbst tragende Kolonie beherbergen.</smallcaps>"
 
 #. STRINGS.WORLDS.IDEALLANDINGSITE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.GOLDASTEROID.NAME"
-#| msgid "Gilded Asteroid"
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.NAME"
 msgid "Edenia Asteroid"
-msgstr "Vergoldeter Asteroid"
+msgstr ""
 
 #. STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION"
@@ -70085,12 +70585,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.MARSHYMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.NAME"
 msgid "Marshy Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
+msgstr ""
 
 #. STRINGS.WORLDS.MOON_BARREN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOON_BARREN.DESCRIPTION"
@@ -70102,12 +70599,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.MOON_BARREN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.NAME"
-#| msgid "Barren"
 msgctxt "STRINGS.WORLDS.MOON_BARREN.NAME"
 msgid "Barren Moon"
-msgstr "Unfruchtbar"
+msgstr "Unfruchtbarer Mond"
 
 #. STRINGS.WORLDS.NIOBIUMMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.NIOBIUMMOONLET.DESCRIPTION"
@@ -70118,12 +70612,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.NIOBIUMMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.NAME"
-#| msgid "Super Productive"
 msgctxt "STRINGS.WORLDS.NIOBIUMMOONLET.NAME"
 msgid "Superconductive Asteroid"
-msgstr "Sehr produktiv"
+msgstr "Supraleitender Asteroid"
 
 #. STRINGS.WORLDS.OASIS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OASIS.DESCRIPTION"
@@ -70170,12 +70661,22 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.OILYMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.OILYASTEROID.NAME"
-#| msgid "Oily Asteroid"
 msgctxt "STRINGS.WORLDS.OILYMOONLET.NAME"
 msgid "Viscosia Asteroid"
 msgstr "Öliger Asteroid"
+
+#. STRINGS.WORLDS.OILYSWAMP.DESCRIPTION
+msgctxt "STRINGS.WORLDS.OILYSWAMP.DESCRIPTION"
+msgid "..."
+msgstr ""
+
+#. STRINGS.WORLDS.OILYSWAMP.NAME
+#, fuzzy
+#| msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
+#| msgid "Swampy Asteroid"
+msgctxt "STRINGS.WORLDS.OILYSWAMP.NAME"
+msgid "Oily Swamp Asteroid"
+msgstr "Sumpfiger Asteroid"
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
@@ -70213,22 +70714,6 @@ msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.NAME"
 msgid "Rime"
 msgstr "Rime"
 
-#. STRINGS.WORLDS.STRANGERICH.DESCRIPTION
-msgctxt "STRINGS.WORLDS.STRANGERICH.DESCRIPTION"
-msgid ""
-"A petite forest world with salty oceans and an oily core.\n"
-"\n"
-"<smallcaps>The abundance of trees on Arboria Asteroids makes them an ideal place to source Lumber.</smallcaps>"
-msgstr ""
-
-#. STRINGS.WORLDS.STRANGERICH.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
-msgctxt "STRINGS.WORLDS.STRANGERICH.NAME"
-msgid "Arboria Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
-
 #. STRINGS.WORLDS.STRANGERICHSANDSTONE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.STRANGERICHSANDSTONE.DESCRIPTION"
 msgid ""
@@ -70238,9 +70723,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.STRANGERICHSANDSTONE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME"
-#| msgid "Rocky Asteroid"
 msgctxt "STRINGS.WORLDS.STRANGERICHSANDSTONE.NAME"
 msgid "Rocky Asteroid"
 msgstr "Felsiger Asteroid"
@@ -70248,26 +70730,20 @@ msgstr "Felsiger Asteroid"
 #. STRINGS.WORLDS.SULFURMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SULFURMOONLET.DESCRIPTION"
 msgid ""
-"A smaller landmass filled with Sulfur.\n"
+"A smaller landmass with a distinct odor.\n"
 "\n"
-"<smallcaps>Brimstonia Asteroids contain an abundant supply of Sulfur. Fortunately they are small.</smallcaps>"
+"<smallcaps>Brimstonia Asteroids contain an abundant supply of Sulfur.</smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.SULFURMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
 msgctxt "STRINGS.WORLDS.SULFURMOONLET.NAME"
 msgid "Brimstonia Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
+msgstr "Schwefelreicher Asteroid"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.CLUSTERNAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.CLUSTERNAME"
 msgid "<b>Cluster Name</b>: {0}"
-msgstr "<b>Name:</b>"
+msgstr "<b>Clustername</b>: {0}"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.HIGH
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.HIGH"
@@ -70307,14 +70783,13 @@ msgid "<b>Starting Asteroid</b>: {0}\n"
 msgstr ""
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE"
-#| msgid "Survival Chance: <color=#{1}>{0}</color></b>"
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE"
 msgid ""
 "\n"
 "Survival Chance: <b><color=#{1}>{0}</color></b>"
-msgstr "Überlebenschance: <color=#{1}>{0}</color></b>"
+msgstr ""
+"\n"
+"Überlebenschance: <color=#{1}>{0}</color></b>"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.VERYHIGH
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.VERYHIGH"
@@ -70335,12 +70810,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.OILYASTEROID.NAME"
-#| msgid "Oily Asteroid"
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
 msgid "Swampy Asteroid"
-msgstr "Öliger Asteroid"
+msgstr "Sumpfiger Asteroid"
 
 #. STRINGS.WORLDS.TERRAMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.DESCRIPTION"
@@ -70351,24 +70823,22 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.TERRAMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.NAME"
-#| msgid "Metallic Asteroid"
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.NAME"
 msgid "Terra Asteroid"
-msgstr "Metallischer Asteroid"
+msgstr "Terra Asteroid"
 
 #. STRINGS.WORLDS.THE_ROCK.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.THE_ROCK.DESCRIPTION"
-#| msgid "This place really rocks."
 msgctxt "STRINGS.WORLDS.THE_ROCK.DESCRIPTION"
 msgid ""
 "This place really rocks.\n"
 "\n"
 "<smallcaps></smallcaps>\n"
 "\n"
-msgstr "Dieser Ort rockt wirklich."
+msgstr ""
+"Dieser Ort rockt wirklich.\n"
+"\n"
+"<smallcaps></smallcaps>\n"
+"\n"
 
 #. STRINGS.WORLDS.THE_ROCK.NAME
 msgctxt "STRINGS.WORLDS.THE_ROCK.NAME"
@@ -70444,12 +70914,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.TUNDRAMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
 msgctxt "STRINGS.WORLDS.TUNDRAMOONLET.NAME"
 msgid "Tundra Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
+msgstr "Tundra-Asteroid"
 
 #. STRINGS.WORLDS.TWINMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.TWINMOONLET.DESCRIPTION"
@@ -70478,6 +70945,130 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
+#~ msgid "Ready For Emptying"
+#~ msgstr "Bereit zum Entleeren"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME"
+#~ msgid "Launch Pad Ready"
+#~ msgstr "Startbahn bereit"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT"
+#~ msgid "<link=\"BEEHIVE\">Beetafineries</link> are the homes of <link=\"BEE\">Beetas</link>."
+#~ msgstr "<link=\"BEEHIVE\">Beetafineries</link> ist das zuhause von<link=\"BEE\">Beetas</link>."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT"
+#~ msgid "A strong door with a sophisticated genetic lock."
+#~ msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.NAME"
+#~ msgid "Warp Pipe Output"
+#~ msgstr "Warp Pipe Output"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT"
+#~ msgid "A strong door with a sophisticated genetic lock."
+#~ msgstr "Eine starke Tür mit einem ausgeklügelten genetischen Schloss."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.DESCRIPTION"
+#~ msgid "Improves the speed that Rocket's travel"
+#~ msgstr "Verbessert die Geschwindigkeit, mit die Rakete reist"
+
+#~ msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
+#~ msgid "The Wasteland Biome."
+#~ msgstr "Das Ödland-Biom."
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NAME"
+#~ msgid "Battery"
+#~ msgstr "Batterie"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERY.NORMAL"
+#~ msgid "Battery"
+#~ msgstr "Batterie"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDS.NAME"
+#~ msgid "Beds"
+#~ msgstr "Betten"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECOR.NAME"
+#~ msgid "Decor"
+#~ msgstr "Dekoration"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBED.NAME"
+#~ msgid "Entombed"
+#~ msgstr "Begraben"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ERRANDS.NAME"
+#~ msgid "Errands"
+#~ msgstr "Aufträge"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOOD.NAME"
+#~ msgid "Food"
+#~ msgstr "Nahrung"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUEL.NAME"
+#~ msgid "Fuel"
+#~ msgstr "Treibstoff"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZER.NAME"
+#~ msgid "Oxidizer"
+#~ msgstr "Oxidationsmittel"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPED.NAME"
+#~ msgid "Trapped"
+#~ msgstr "Gefangen"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME"
+#~ msgid "Travel time"
+#~ msgstr "Reisezeit"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NAME"
+#~ msgid "Travel time"
+#~ msgstr "Reisezeit"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORK_TIME.NAME"
+#~ msgid "Work Time"
+#~ msgstr "Arbeitszeit"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL_TOOLTIP"
+#~ msgid "Requirements"
+#~ msgstr "Anforderungen"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD"
+#~ msgid "Crew Preparation"
+#~ msgstr "Vorbereitung der Besatzung"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP"
+#~ msgid "Crew Preparation"
+#~ msgstr "Crew Preparation"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP"
+#~ msgid "Launch Preparation"
+#~ msgstr "Vorbereitung der Besatzung"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP_TOOLTIP"
+#~ msgid "Launch Preparation"
+#~ msgstr "Startvorbereitung"
+
+#~ msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.NEVER"
+#~ msgid "Click to <b>mute</b> this diagnostic"
+#~ msgstr "Klicken Sie, um diese Diagnose <b>stummzuschalten</b>"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "DLC ROADMAP!"
+#~ msgstr "DLC ROADMAP!"
+
+#~ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE"
+#~ msgid "Something is blocking the path of the rocket"
+#~ msgstr "Etwas blockiert den Weg der Rakete"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON"
+#~ msgid "LAUNCH IN PROGRESS"
+#~ msgstr "START IM GANGE"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH"
+#~ msgid "Both"
+#~ msgstr "Beide"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME"
 #~ msgid "Auto-Canister: On"
@@ -71001,10 +71592,6 @@ msgstr "Volcanea"
 #~ msgid "Critter / Egg Count"
 #~ msgstr "Anzahl Tiere / Eierer"
 
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
-#~ msgid "Ready to land"
-#~ msgstr "Bereit zur Landung"
-
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP"
 #~ msgid "A spacecraft is ready to land"
 #~ msgstr "Ein Raumschiff ist bereit zur Landung"
@@ -71370,10 +71957,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.NAME"
 #~ msgid "<link=\"WOODTREE\">Arbor Acorn</link>"
 #~ msgstr "<link=\"IRONORE\">Eisenerz</link>"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION"
-#~ msgid "Allows a Duplicant to command a rocket ship"
-#~ msgstr "Ermöglicht es einem Duplikanten, eine Raketen zu kommandieren"
 
 #~ msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.NAME"
 #~ msgid "<link=\"COOK\">Improved Cooking I</link>"
