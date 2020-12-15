@@ -25113,6 +25113,20 @@ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
 msgid "<link=\"GEYSERGENERICLIQUIDCO2\">Carbon Dioxide Geyser</link>"
 msgstr "<link=\"GEYSERGENERICLIQUIDCO2\">Kohlenstoffdioxid-Geysir</link>"
 
+#. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC"
+msgid ""
+"A highly pressurized geyser that periodically erupts with boiling <link="
+"\"LIQUIDSULFUR\">Sulfur</link>."
+msgstr ""
+"Ein unter hohem Druck stehender Geysir, der regelmäßig mit kochendem <link="
+"\"LIQUIDSULFUR\">Schwefel</link> ausbricht."
+
+#. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME"
+msgid "<link=\"GEYSERGENERICLIQUIDSULFUR\">Liquid Sulfur Geyser</link>"
+msgstr "<link=\"GEYSERGENERICLIQUIDSULFUR\">flüssiger Schwefelgeysir</link>"
+
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
 msgid ""
@@ -59261,7 +59275,7 @@ msgstr "Arbeitszeit"
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL"
 msgid "    • {0} time spent working"
-msgstr "• {0} Arbeitszeit"
+msgstr "    • {0} Arbeitszeit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME"
@@ -61164,23 +61178,20 @@ msgstr "Danke!"
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY"
 msgid ""
-"This game is in the early stages of development which means you're likely to "
+"This DLC is currently in active development, which means you're likely to "
 "encounter strange, amusing, and occasionally just downright frustrating bugs.\n"
 "\n"
-"During this time Oxygen Not Included will be receiving regular updates to fix "
-"bugs, add features, and introduce additional content, so if you encounter "
-"issues or just have suggestions to share, please let us know on our forums: "
-"<u>http://forums.kleientertainment.com</u>\n"
+" During this time Spaced Out! will be receiving regular updates to fix bugs, "
+"add features, and introduce additional content. To stay up-to-date with our "
+"latest plans, report issues, or make suggestions, please join us on the "
+"forums: http://forums.kleientertainment.com\n"
 "\n"
-"A special thanks to those who joined us during our time in Alpha. We value "
-"your feedback and thank you for joining us in the development process. We "
-"couldn't do this without you.\n"
+" We've got lots of content old and new to add to this DLC before it's ready, "
+"and we're happy to have you along with us. Enjoy your time in deep space!\n"
 "\n"
-"Enjoy your time in deep space!\n"
-"\n"
-"- Klei"
+" - The Team at Klei"
 msgstr ""
-"Dieses Spiel befindet sich in der frühen Entwicklungsphase, was bedeutet, dass "
+"Dieser DLC befindet sich in der frühen Entwicklungsphase, was bedeutet, dass "
 "du vermutlich komische, lustige und manchmal auch ziemlich frustrierende "
 "Fehler finden wirst.\n"
 "\n"
@@ -61195,17 +61206,22 @@ msgstr ""
 "\n"
 "Viel Spaß in den Tiefen des Weltraums!\n"
 "\n"
-"- Klei"
+"- Das Team von Klei"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
 msgid "Okay, thanks for the heads up!"
 msgstr "Okay, danke für die Erinnerung!"
 
+#. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON"
+msgid "Visit Forums"
+msgstr "Besuche das Forum"
+
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE"
-msgid "<b>Welcome to Oxygen Not Included!</b>"
-msgstr "<b>Willkommen zu Oxygen Not Included!</b>"
+msgid "<b>Welcome to <i>Spaced Out!</i></b>"
+msgstr "<b> Willkommen bei <i>Spaced Out!</i></b>"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK"
@@ -61802,7 +61818,7 @@ msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was consumed by {1} over the course of the "
 "day"
-msgstr " {0} <link=\"POWER\">Strom</link> verbraucht von{1} im Laufe des Tages"
+msgstr "{0} <link=\"POWER\">Strom</link> verbraucht von{1} im Laufe des Tages"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
@@ -61823,7 +61839,7 @@ msgid ""
 "{0} of <link=\"POWER\">Power</link> was lost today due to battery runoff and "
 "overproduction in {1}"
 msgstr ""
-" {0} <link=\"POWER\">Strom</link> wurde heute aufgrund von Batterieverlust und "
+"{0} <link=\"POWER\">Strom</link> wurde heute aufgrund von Batterieverlust und "
 "Überproduktion in {1} verloren"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
@@ -62004,7 +62020,7 @@ msgid ""
 "{0} of <link=\"OXYGEN\">Oxygen</link> was consumed by {1} over the course of "
 "the day"
 msgstr ""
-" {0} <link=\"OXYGEN\">Sauerstoff</link> wurde im Laufe des Tages von {1} "
+"{0} <link=\"OXYGEN\">Sauerstoff</link> wurde im Laufe des Tages von {1} "
 "verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP
@@ -74899,6 +74915,16 @@ msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGNED"
 msgid "-"
 msgstr "-"
 
+#. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.OFFWORLD
+msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.OFFWORLD"
+msgid "Offworld"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.PILOT
+msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.PILOT"
+msgid "Pilot"
+msgstr "Pilot"
+
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TITLE"
 msgid "Duplicant Assignment"
@@ -76449,6 +76475,11 @@ msgid ""
 "A specific deploy location may need to be chosen for certain modules"
 msgstr ""
 
+#. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.PILOT_FMT
+msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.PILOT_FMT"
+msgid "{0} - Pilot"
+msgstr "{0} - Pilot"
+
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.REPEAT_BUTTON_TOOLTIP
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.REPEAT_BUTTON_TOOLTIP"
@@ -76456,6 +76487,11 @@ msgid ""
 "Automatically deploy this module's contents when a destination orbit is "
 "reached."
 msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT
+msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT"
+msgid "Select Duplicant..."
+msgstr "Duplikant auswählen ..."
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE"
@@ -80371,22 +80407,16 @@ msgstr "Helicona"
 #. STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION"
 msgid ""
-"An idyllic location with a balanced variety of life-sustaining resources.\n"
+"A mid-sized sandstone and forest world with significant radiation.\n"
 "\n"
-"<smallcaps>Edenia Asteroids have everything necessary to support life and can "
-"harbor a small, self-sustaining colony.</smallcaps>"
+"<smallcaps>Irradiated Forest Asteroids have an abundance of metal for the "
+"taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
 msgstr ""
-"Ein idyllischer Ort mit einer ausgewogenen Vielfalt lebenserhaltender "
-"Ressourcen.\n"
-"\n"
-"<smallcaps>Edenia Asteroiden haben alles Notwendige, um das Leben zu "
-"unterstützen und können eine kleine, sich selbst tragende Kolonie beherbergen."
-"</smallcaps>"
 
 #. STRINGS.WORLDS.IDEALLANDINGSITE.NAME
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.NAME"
-msgid "Edenia Asteroid"
-msgstr ""
+msgid "Irradiated Forest Asteroid"
+msgstr "Verstrahlter Waldasteroid"
 
 #. STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION"
@@ -80402,6 +80432,20 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.NAME"
 msgid "Marshy Asteroid"
 msgstr ""
+
+#. STRINGS.WORLDS.METALHEAVYLANDINGSITE.DESCRIPTION
+msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.DESCRIPTION"
+msgid ""
+"A marshy world with significant radiation.\n"
+"\n"
+"<smallcaps>Irradiated Marsh Asteroids have an abundance of metal for the "
+"taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
+msgstr ""
+
+#. STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME
+msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME"
+msgid "Irradiated Marsh Asteroid"
+msgstr "Verstrahlter Sumpfasteroid"
 
 #. STRINGS.WORLDS.MOON_BARREN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOON_BARREN.DESCRIPTION"
@@ -80480,6 +80524,20 @@ msgctxt "STRINGS.WORLDS.OCEANIA.NAME"
 msgid "Oceania"
 msgstr "Ozeanien"
 
+#. STRINGS.WORLDS.OILRICHWARPTARGET.DESCRIPTION
+msgctxt "STRINGS.WORLDS.OILRICHWARPTARGET.DESCRIPTION"
+msgid ""
+"A rusty mid-sized world with an oily core.\n"
+"\n"
+"<smallcaps>Duplicants must sift through a great deal of rust and ocean to "
+"reach the prize of this planetoid's oil.</smallcaps>"
+msgstr ""
+
+#. STRINGS.WORLDS.OILRICHWARPTARGET.NAME
+msgctxt "STRINGS.WORLDS.OILRICHWARPTARGET.NAME"
+msgid "Rusty Oil Asteroid"
+msgstr "Rostiger Öl-Asteroid"
+
 #. STRINGS.WORLDS.OILYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OILYMOONLET.DESCRIPTION"
 msgid ""
@@ -80494,16 +80552,6 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.OILYMOONLET.NAME"
 msgid "Viscosia Asteroid"
 msgstr "Öliger Asteroid"
-
-#. STRINGS.WORLDS.OILYSWAMP.DESCRIPTION
-msgctxt "STRINGS.WORLDS.OILYSWAMP.DESCRIPTION"
-msgid "..."
-msgstr ""
-
-#. STRINGS.WORLDS.OILYSWAMP.NAME
-msgctxt "STRINGS.WORLDS.OILYSWAMP.NAME"
-msgid "Oily Swamp Asteroid"
-msgstr "Öliger Sumpf-Asteroid"
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
@@ -80644,10 +80692,10 @@ msgstr "Gering"
 #. STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION"
 msgid ""
-"A pint-sized polluted planetoid.\n"
+"A huge, polluted swamp planetoid.\n"
 "\n"
-"<smallcaps>Swampy Asteroids have a wealth of raw resources, but they'll need "
-"to be refined to produce useful fuel and building materials.</smallcaps>"
+"<smallcaps>Swampy Asteroids are a great mass of frozen slush and wasteland.</"
+"smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
@@ -80793,6 +80841,38 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#. STRINGS.WORLDS.WARPOILYSWAMP.DESCRIPTION
+msgctxt "STRINGS.WORLDS.WARPOILYSWAMP.DESCRIPTION"
+msgid ""
+"A partially frozen world with an oily core.\n"
+"\n"
+"<smallcaps>While Oily Swamp Asteroids are largely swampy, they also contain a "
+"great deal of rust.</smallcaps>"
+msgstr ""
+
+#. STRINGS.WORLDS.WARPOILYSWAMP.NAME
+msgctxt "STRINGS.WORLDS.WARPOILYSWAMP.NAME"
+msgid "Oily Swamp Asteroid"
+msgstr "Öliger Sumpf-Asteroid"
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE"
+#~ msgid "<b>Welcome to Oxygen Not Included!</b>"
+#~ msgstr "<b>Willkommen zu Oxygen Not Included!</b>"
+
+#~ msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION"
+#~ msgid ""
+#~ "An idyllic location with a balanced variety of life-sustaining resources.\n"
+#~ "\n"
+#~ "<smallcaps>Edenia Asteroids have everything necessary to support life and "
+#~ "can harbor a small, self-sustaining colony.</smallcaps>"
+#~ msgstr ""
+#~ "Ein idyllischer Ort mit einer ausgewogenen Vielfalt lebenserhaltender "
+#~ "Ressourcen.\n"
+#~ "\n"
+#~ "<smallcaps>Edenia Asteroiden haben alles Notwendige, um das Leben zu "
+#~ "unterstützen und können eine kleine, sich selbst tragende Kolonie "
+#~ "beherbergen.</smallcaps>"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
 #~ msgid "Ready For Emptying"
