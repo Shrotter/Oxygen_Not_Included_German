@@ -3181,6 +3181,10 @@ msgid ""
 "\n"
 "Unloading has been completed."
 msgstr ""
+"Diese <link=\"LAUNCHPLATFORM\">Raketenplattform</link> lädt verfügbare "
+"Ressourcen von den Material Ports in die Rakete.\n"
+"\n"
+"Das Entladen wurde abgeschlossen."
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME"
@@ -3190,7 +3194,7 @@ msgstr "Raketenplattform bereit"
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP"
 msgid "All cargo operations are complete."
-msgstr ""
+msgstr "Alle Frachtvorgänge sind abgeschlossen."
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME"
@@ -3606,6 +3610,7 @@ msgstr "Sichtlinie: Blockiert"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP"
 msgid "This device needs a clear view of space to operate."
 msgstr ""
+"Dieses Gerät benötigt eine freie Sicht auf den Weltraum, um zu funktionieren."
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME"
@@ -3615,28 +3620,28 @@ msgstr "Ziel: Keins"
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.TOOLTIP"
 msgid "\"Awaiting transmission of coordinates...\""
-msgstr ""
+msgstr "\"Warten auf Koordinatenübertragung ...\""
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.NAME"
 msgid "Progress: {progress}"
-msgstr ""
+msgstr "Fortschritt: {progress}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP"
 msgid "Operation will commence once this meter fills all the way up."
-msgstr ""
+msgstr "Der Betrieb beginnt, sobald sich diese Anzeige vollständig gefüllt hat."
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION"
 msgid "Temporal Ripper fully charged"
-msgstr ""
+msgstr "Temporal Ripper voll aufgeladen"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION_TOOLTIP"
 msgid "All that's left is to push the big red button."
-msgstr ""
+msgstr "Alles, was übrig bleibt, ist den großen roten Knopf zu drücken."
 
 #. STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME"
@@ -4004,7 +4009,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME"
 msgid "Teleporter Disabled ({x}/2)"
-msgstr ""
+msgstr "Teleporter deaktiviert ({x}/2)"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.TOOLTIP"
@@ -4012,6 +4017,8 @@ msgid ""
 "This teleporter cannot be used until both the transmitting and receiving sides "
 "have been activated"
 msgstr ""
+"Dieser Teleporter kann erst verwendet werden, wenn sowohl die Sende- als auch "
+"Empfangsseite aktiviert wurden"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME"
@@ -4021,7 +4028,7 @@ msgstr "Aufladen: {charge}"
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP"
 msgid "This teleporter will be ready for use in {cycles} cycles"
-msgstr ""
+msgstr "Dieser Teleporter kann in {Zyklen} Zyklen verwendet werden"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME"
@@ -4171,7 +4178,7 @@ msgstr "Kabel nominal"
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.TOOLTIP"
 msgid "This wire is able to handle the wattage it is receiving"
-msgstr ""
+msgstr "Dieses Kabel hält die Leistung aus"
 
 #. STRINGS.BUILDING.STATUSITEMS.WORKING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WORKING.NAME"
@@ -4881,6 +4888,12 @@ msgid ""
 "\n"
 "Emits moderate <link=\"RADIATION\">Radiation</link>."
 msgstr ""
+"Ein Nest von <link=\"BEE\">Beetas</link>.\n"
+"\n"
+"Wandelt <link=\"URANIUMORE\">Uran</link> in <link=\"ENRICHEDURANIUM"
+"\">angereichertes Uran</link> um, wenn es von einem Beeta bearbeitet wird.\n"
+"\n"
+"Gibt mäßige <link=\"STRAHLUNG\">Strahlung</link> ab."
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT"
@@ -5110,7 +5123,7 @@ msgstr "Plumpes Gemälde"
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
 msgid "Holds more than a regular cargo bay."
-msgstr ""
+msgstr "Hält mehr als ein normaler Laderaum."
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT"
@@ -5304,12 +5317,12 @@ msgstr "<link=\"CLUSTERCOMMANDMODULE\">Kommando­modul</link>"
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.DESC"
 msgid "A hatch for getting in and out of the rocket."
-msgstr ""
+msgstr "Eine Luke zum Ein- und Aussteigen aus der Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.EFFECT"
 msgid "Warning: Do not open mid-flight."
-msgstr ""
+msgstr "Warnung: Nicht während des Fluges öffnen."
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.NAME"
@@ -5699,7 +5712,7 @@ msgstr "Freund auftauen"
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.DEFROSTBUTTONTOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.DEFROSTBUTTONTOOLTIP"
 msgid "A new pal is just an icebreaker away"
-msgstr ""
+msgstr "Ein neuer Kumpel ist nur einen Eisbrecher entfernt"
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.DESC"
@@ -5708,6 +5721,9 @@ msgid ""
 "\n"
 "A silhouette just barely visible through the frost of the glass."
 msgstr ""
+"Der Tank wirkt unglaublich alt, riecht aber frisch und brandneu.\n"
+"\n"
+"Durch den Frost auf dem Glas ist eine Silhouette schwach zu erkennen."
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME"
@@ -5717,7 +5733,7 @@ msgstr "<link=\"CRYOTANK\">Kryotank</link>"
 #. STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC"
 msgid "Don't forget to decontaminate behind your ears."
-msgstr ""
+msgstr "Vergiss nicht, hinter deinen Ohren zu dekontaminieren."
 
 #. STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.EFFECT"
@@ -6108,6 +6124,8 @@ msgstr "<link=\"ETHANOLDISTILLERY\">Ethanol-Destillerie</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.DESC"
 msgid "A quick and easy substitute, though it'll never live up to the original."
 msgstr ""
+"Ein schneller und einfacher Ersatz, der jedoch niemals dem Original gerecht "
+"wird."
 
 #. STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.EFFECT"
@@ -6567,7 +6585,7 @@ msgstr "<link=\"FLYINGCREATUREBAIT\">Flugtierköder</link>"
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC"
 msgid "Nuke your food"
-msgstr ""
+msgstr "Nuke deine Nahrung"
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT"
@@ -6651,7 +6669,7 @@ msgstr "<link=\"GASBOTTLER\">Kanisterfüller</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
 msgid "Holds more than a typical gas cargo canister."
-msgstr ""
+msgstr "Hält mehr als ein typischer Gasfrachtbehälter."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT"
@@ -7255,7 +7273,7 @@ msgstr "Neuraler Oszillator"
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.DESC"
 msgid "Would a mutated rose still smell as sweet?"
-msgstr ""
+msgstr "Würde eine mutierte Rose immer noch so süß riechen?"
 
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.EFFECT"
@@ -7380,6 +7398,8 @@ msgid ""
 "Duplicants can survive space travel inside this protective nosecone... "
 "Hopefully."
 msgstr ""
+"Duplikanten können die Raumfahrt in diesem schützenden Nasenkonus "
+"überleben ... Hoffentlich."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.EFFECT"
@@ -7390,6 +7410,11 @@ msgid ""
 "\n"
 "One Command Module may be installed per rocket."
 msgstr ""
+"Funktioniert als Befehlsmodul.\n"
+"\n"
+"Hält bis zu zehn Duplikanten-Reisende.\n"
+"\n"
+"Pro Rakete kann ein Befehlsmodul installiert werden."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.NAME"
@@ -7399,7 +7424,7 @@ msgstr "<link=\"HABITATMODULEMEDIUM\">Raumfahrer-Modul</link>"
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.DESC"
 msgid "One lucky Duplicant gets the best view from the whole rocket."
-msgstr ""
+msgstr "Ein glücklicher Duplikant bekommt die beste Sicht der ganzen Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.EFFECT"
@@ -7412,6 +7437,13 @@ msgid ""
 "\n"
 "Must be built at the top of a rocket."
 msgstr ""
+"Funktioniert als Befehlsmodul und Nasenkonus.\n"
+"\n"
+"Hält einen Duplikanten-Reisenden.\n"
+"\n"
+"Pro Rakete kann ein Befehlsmodul installiert werden.\n"
+"\n"
+"Muss oben auf einer Rakete gebaut werden."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.NAME"
@@ -7478,7 +7510,7 @@ msgstr "Nur ein {0} zulässig!"
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC"
 msgid "\"Room temperature\" is relative, really."
-msgstr ""
+msgstr "\"Raumtemperatur\" ist wirklich relativ."
 
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.EFFECT"
@@ -7497,7 +7529,7 @@ msgstr "<link=\"HEATCOMPRESSOR\">Flüssigkeitsärmequilizer</link>"
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC"
 msgid "It's like playing the most dangerous game of ping pong."
-msgstr ""
+msgstr "Es ist als würde man das gefährlichste Tischtennisspiel spielen."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.EFFECT"
@@ -7505,11 +7537,13 @@ msgid ""
 "Receives and redirects <style=\"KKeyword\">High Energy Particles</style> from "
 "<link=\"HIGHENERGYPARTICLESPAWNER\">Particle Generators</link>."
 msgstr ""
+"Empfängt und leitet <style=\"KKeyword\">Hochenergie-Partikel</style> von <link="
+"\"HIGHENERGYPARTICLESPAWNER\">Partikelgeneratoren</link> weiter."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT"
 msgid "Ignore incoming particles"
-msgstr ""
+msgstr "Eingehende Partikel ignorieren"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_ACTIVE
 msgctxt ""
@@ -7543,11 +7577,15 @@ msgid ""
 "\n"
 "Emits generated particles in the direction of your choosing."
 msgstr ""
+"Zieht <link=\"RADIATION\">Strahlung</link> in der Nähe an, um <style=\"KKeyword"
+"\">Hochenergieteilchen</style> zu erzeugen.\n"
+"\n"
+"Sendet erzeugte Partikel in die Richtung deiner Wahl."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
 msgid "Do not emit High Energy Particles"
-msgstr ""
+msgstr "Keine energiereichen Partikel abgeben"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE"
@@ -8113,7 +8151,7 @@ msgstr "<link=\"LADDERFAST\">Plastikleiter</link>"
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.DESC"
 msgid "Geronimo!"
-msgstr ""
+msgstr "Geronimo!"
 
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.EFFECT"
@@ -8122,6 +8160,9 @@ msgid ""
 "\n"
 "Pod will disintegrate on arrival."
 msgstr ""
+"Enthält einen Duplikanten, der aus dem Orbit bereitgestellt wird.\n"
+"\n"
+"Pod wird bei der Ankunft zerfallen."
 
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME"
@@ -8131,7 +8172,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC"
 msgid "A platform from which rockets can be launched and on which they can land."
-msgstr ""
+msgstr "Eine Plattform, von der aus Raketen starten und landen können."
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.EFFECT"
@@ -8144,6 +8185,13 @@ msgid ""
 "link><link=\"MODULARLAUNCHPADPORTSOLID\">s</link> built to either side of the "
 "platform."
 msgstr ""
+"Aktiviert den Raketenbau.\n"
+"\n"
+"Ermöglicht Raketen, vom Host Planetoid zu starten oder auf diesem zu landen.\n"
+"\n"
+"Verbindet sich automatisch mit <link=\"MODULARLAUNCHPADPORTSOLID\">Raketen-"
+"Port</link><link =\"MODULARLAUNCHPADPORTSOLID\">s</link>, die auf beiden "
+"Seiten der Plattform gebaut wurden."
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.NAME"
@@ -8216,7 +8264,7 @@ msgstr "<link=\"LEADSUITMARKER\">Bleianzug-Kontrollstelle</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
 msgid "Holds more than a regular cargo tank."
-msgstr ""
+msgstr "Hält mehr als ein normaler Frachttank."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT"
@@ -10997,7 +11045,7 @@ msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Raketen Port</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "Raketen müssen gelandet werden, um Ressourcen zu laden oder zu entladen."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT"
@@ -11011,6 +11059,14 @@ msgid ""
 "\n"
 "Uses the gas filters set on the linked Rocket Platform."
 msgstr ""
+"Ermöglicht das Laden und Entladen von <link=\"ELEMENTSGAS\">Gasen</link> aus "
+"dem Lager einer verbundenen Rakete.\n"
+"\n"
+"Wird automatisch verknüpft, wenn er an die Seite einer <link =\"LAUNCHPLATFORM"
+"\">Raketenplattform</link> oder eines anderen <link=\"MODULARLAUNCHPADPORTSOLID"
+"\">Raketen-Ports</link> gebaut wird.\n"
+"\n"
+"Verwendet die auf der verknüpften Raketenplattform eingestellten Gasfilter."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
@@ -11020,7 +11076,7 @@ msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">Raketen Gas Port</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "Raketen müssen gelandet werden, um Ressourcen zu laden oder entladen."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT"
@@ -11043,7 +11099,7 @@ msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">Raketen Flüssigkeit Port</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "Raketen müssen gelandet werden, um Ressourcen zu laden oder entladen."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT"
@@ -11199,7 +11255,7 @@ msgstr "<link=\"MOUDLINGTILE\">Verkleidungsziegel</link>"
 #. STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.DESC"
 msgid "Every rocket requires a nosecone to fly."
-msgstr ""
+msgstr "Jede Rakete benötigt einen Nasenkonus, um fliegen zu können."
 
 #. STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.EFFECT"
@@ -11208,6 +11264,10 @@ msgid ""
 "\n"
 "Must be built at the top of a rocket."
 msgstr ""
+"Schützt eine Rakete beim Start und beim Wiedereintritt und ermöglicht so die "
+"Raumfahrt.\n"
+"\n"
+"Muss oben auf einer Rakete gebaut werden."
 
 #. STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.NAME"
@@ -11220,6 +11280,8 @@ msgid ""
 "Nuclear reactors can be paired with particle generators to produce high energy "
 "particles."
 msgstr ""
+"Kernreaktoren können mit Partikelgeneratoren kombiniert werden, um "
+"energiereiche Partikel zu erzeugen."
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT"
@@ -11242,7 +11304,7 @@ msgstr "<link=\"NUCLEARREACTOR\">Kernreaktor</link>"
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.DESC"
 msgid "Comes with a few ions thrown in, free of charge."
-msgstr ""
+msgstr "Kommt mit ein paar Ionen, kostenlose Ladung."
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT"
@@ -11357,6 +11419,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.DESC"
 msgid ""
 "It's a generally good idea to pack some supplies when exploring unknown worlds."
 msgstr ""
+"Es ist im Allgemeinen eine gute Idee, einige Vorräte einzupacken, wenn man "
+"unbekannte Welten erkunden."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT"
@@ -11364,6 +11428,8 @@ msgid ""
 "Delivers cargo to the surface of Planetoids that do not yet have a <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link>."
 msgstr ""
+"Liefert Fracht an die Oberfläche von Planetoiden, die noch keine <link="
+"\"LAUNCHPLATFORM\">Raketenplattform</link> haben."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME"
@@ -11471,6 +11537,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.DESC"
 msgid ""
 "Duplicants can't pass by a station if it lacks enough oxygen to fill a mask."
 msgstr ""
+"Duplikanten können nicht an einer Station vorbei, wenn nicht genügend "
+"Sauerstoff vorhanden ist um eine Maske zu füllen."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.EFFECT"
@@ -11484,6 +11552,17 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
+"Verwendet bestimmte <link=\"METAL\">Metallerze</link> aus den "
+"Filtereinstellungen, um <link=\"OXYGENMASK\">Sauerstoffmasken</link> zu "
+"erstellen.\n"
+"\n"
+"Saugt automatisch <link=\"OXYGEN\">Umgebungssauerstoff</link> ein, um Masken "
+"zu füllen.\n"
+"\n"
+"Markiert einen Schwellenwert, an dem Duplikanten eine Maske an- oder abnehmen "
+"müssen.\n"
+"\n"
+"Kann vor dem Bau gedreht werden."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.NAME"
@@ -11530,7 +11609,7 @@ msgstr "<link=\"PARKSIGN\">Parkschild</link>"
 #. STRINGS.BUILDINGS.PREFABS.PARTYCAKE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARTYCAKE.DESC"
 msgid "Any way you slice it, that's a good looking cake."
-msgstr ""
+msgstr "Wie auch immer schneid ihn in Scheiben, Der Kuchen sieht gut aus."
 
 #. STRINGS.BUILDINGS.PREFABS.PARTYCAKE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARTYCAKE.EFFECT"
@@ -11606,6 +11685,8 @@ msgid ""
 "Lands a Duplicant on a Planetoid from an orbiting <link=\"PIONEERMODULE"
 "\">Trailblazer Module</link>."
 msgstr ""
+"Landet einen Duplikanten auf einem Planetoiden aus einem umlaufenden <link ="
+"\"PIONEERMODULE\">Wegbereiter-Modul</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERLANDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERLANDER.NAME"
@@ -11615,7 +11696,7 @@ msgstr "<link=\"PIONEERLANDER\">Wegbereiter Lander</link>"
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.DESC"
 msgid "That's one small step for Dupekind."
-msgstr ""
+msgstr "Das ist ein kleiner Schritt für Dupekind."
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.EFFECT"
@@ -11627,6 +11708,12 @@ msgid ""
 "\n"
 "Deployment is available while in a Starmap hex adjacent to a Planetoid."
 msgstr ""
+"Ermöglicht Reisen zu Planetoiden, die noch keine <link=\"LAUNCHPLATFORM"
+"\">Raketenplattform</link> haben.\n"
+"\n"
+"Kann einen Duplikant-Reisenden aufnehmen.\n"
+"\n"
+"Deployment ist in einem Sternenkarten-Feld neben einem Planetoid möglich."
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.NAME"
@@ -11841,6 +11928,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
 msgid ""
 "Limiting the power drawn by wires prevents them from incurring overload damage."
 msgstr ""
+"Durch begrenzung der von Kabeln aufgenommenen Leistung wird verhindert, dass "
+"sie Überlastschäden erhalten."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
@@ -11871,6 +11960,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
 msgid ""
 "Limiting the power drawn by wires prevents them from incurring overload damage."
 msgstr ""
+"Durch begrenzung der von Kabeln aufgenommenen Leistung wird verhindert, dass "
+"sie Überlastschäden erhalten."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
@@ -12351,6 +12442,8 @@ msgstr "Tisch"
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.DESC"
 msgid "Duplicants can become sick if exposed to radiation without protection."
 msgstr ""
+"Duplikanten können krank werden, wenn sie ohne Schutz Strahlung ausgesetzt "
+"werden."
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT"
@@ -12359,6 +12452,9 @@ msgid ""
 "that can be collected by a <link=\"HIGHENERGYPARTICLESPAWNER\">Particle "
 "Generator</link>."
 msgstr ""
+"Gibt <link=\"RADIATION\">Strahlung</link> aus, wenn <link=\"POWER\">mit Strom "
+"versorgt</link>, die von einem <link=\"HIGHENERGYPARTICLESPAWNER"
+"\">Partikelgenerator</link> gesammelt werden kann."
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME"
@@ -12368,7 +12464,7 @@ msgstr "<link=\"RADIATIONLIGHT\">Strahlungslampe</link>"
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.DESC"
 msgid "It's tempting to climb inside but trust me... don't."
-msgstr ""
+msgstr "Es ist verlockend, hineinzuklettern, aber vertrau mir ... tu es nicht."
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.EFFECT"
@@ -12382,6 +12478,14 @@ msgid ""
 "\n"
 "Cannot transport Duplicants."
 msgstr ""
+"Startet <link=\"RAILGUNPAYLOAD\" Interplanetare Nutzlasten</link> zwischen "
+"Planetoiden.\n"
+"\n"
+"Nutzlasten können <link=\"ELEMENTSSOLID\">Feststoff</link>, <link="
+"\"ELEMENTSLIQUID\">Flüssigkeiten</link> oder <link=\"ELEMENTSGAS\">Gase</link> "
+"enthalten.\n"
+"\n"
+"Duplikanten können nicht transportiert werden."
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME"
@@ -12394,6 +12498,8 @@ msgid ""
 "Payload openers can be hooked up to conveyors, plumbing and ventilation for "
 "improved sorting."
 msgstr ""
+"Nutzlastöffner können zur besseren Sortierung an Förderbänder, Rohrleitungen "
+"und Belüftungen angeschlossen werden."
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.EFFECT"
@@ -12405,6 +12511,12 @@ msgid ""
 "\"ELEMENTSLIQUID\">Liquid</link>, and <link=\"ELEMENTSGAS\">Gas</link> "
 "materials and distributes them to the appropriate systems."
 msgstr ""
+"Entpackt <link=\"RAILGUNPAYLOAD\">Interplanetare Nutzlasten</link>, die von "
+"Duplikanten bereitgestellt werden.\n"
+"\n"
+"Trennt automatisch <link=\"ELEMENTSSOLID\">Fest-</ link>, <link="
+"\"ELEMENTSLIQUID\">Flüssigkeiten</link> und <link=\"ELEMENTSGAS\">Gase</link> "
+"und verteilt sie an die entsprechenden Systeme."
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME"
@@ -12630,7 +12742,7 @@ msgstr "Zerkleinert {0} zu {1}."
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC"
 msgid "Looks kinda fun."
-msgstr ""
+msgstr "Sieht irgendwie lustig aus."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.EFFECT"
@@ -12639,6 +12751,10 @@ msgid ""
 "\n"
 "Cargo rockets must possess a Rocket Cockpit in order to function."
 msgstr ""
+"Ermöglicht einem Duplikanten, eine Rakete zu steuern.\n"
+"\n"
+"Frachtraketen müssen über ein Raketencockpit verfügen, um funktionieren zu "
+"können."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.NAME"
@@ -12651,6 +12767,8 @@ msgid ""
 "Someone needs to be around to jiggle the controls when the screensaver comes "
 "on."
 msgstr ""
+"Jemand muss da sein, um an den Hebeln zu wackeln, wenn der Bildschirmschoner "
+"eingeschaltet wird."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.EFFECT"
@@ -12659,6 +12777,10 @@ msgid ""
 "\n"
 "Assigned Duplicants must have the <link=\"PILOT\">Rocket Piloting</link> skill."
 msgstr ""
+"Ermöglicht Duplikanten die Verwendung von pilotgesteuerten Raketen.\n"
+"\n"
+"Zugewiesene Duplikanten müssen über die Fähigkeit <link=\"PILOT"
+"\">Raketenpiloten</link> verfügen."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.NAME"
@@ -12668,12 +12790,12 @@ msgstr "<link=\"ROCKETCONTROLSTATION\">Raketenkontrollstation</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.DESC"
 msgid "Keeps the space out."
-msgstr ""
+msgstr "Hält den Weltraum draußen."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.EFFECT"
 msgid "The walls of a rocket."
-msgstr ""
+msgstr "Die Wände einer Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.NAME"
@@ -12683,12 +12805,12 @@ msgstr "<link=\"ROCKETENVELOPETILE\">Rakete</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.DESC"
 msgid "I can see my asteroid from here!"
-msgstr ""
+msgstr "Ich kann meinen Asteroiden von hier aus sehen!"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.EFFECT"
 msgid "The window of a rocket."
-msgstr ""
+msgstr "Das Fenster einer Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.NAME"
@@ -12708,6 +12830,10 @@ msgid ""
 "\n"
 "Pod will disintegrate on arrival."
 msgstr ""
+"Enthält einen Duplikanten, der von einem <link=\"PIONEERMODULE\">Wegbereiter-"
+"Modul</link> aus dem Orbit bereitgestellt wird.\n"
+"\n"
+"Pod wird bei der Ankunft zerfallen."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETPOD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETPOD.NAME"
@@ -12717,12 +12843,12 @@ msgstr "<link=\"ROCKETPOD\">Trailblazer Deploy Pod</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.DESC"
 msgid "Keeps the space out."
-msgstr ""
+msgstr "Hält den Weltraum draußen."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.EFFECT"
 msgid "The walls of a rocket."
-msgstr ""
+msgstr "Die Wände einer Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.NAME"
@@ -12807,7 +12933,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.EFFECT"
 msgid "Automatically analyzes adjacent space while on a voyage."
-msgstr ""
+msgstr "Analysiert automatisch den angrenzenden Weltraum während einer Reise."
 
 #. STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.NAME"
