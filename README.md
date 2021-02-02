@@ -8,6 +8,7 @@ Abonniere im Steam Workshop [dieses Objekt](http://steamcommunity.com/sharedfile
 
 ### Manuelle Installation
 1. Lade dieses Repository herunter. Die einfachste Möglichkeit, ist über den grünen Button "Code" oben rechts eine ZIP-Datei herunterzuladen.
+![screenshot-button](img/readme1.png)
 2. Entpacke diese ZIP-Datei im Ordner `%userprofile%\Documents\Klei\OxygenNotIncluded\mods\Local`. Falls die entsprechenden Unterordner nicht existieren, lege Sie an.
 3. Verifiziere, dass jetzt die Datei `...\mods\Local\OxygenNotIncluded_German\strings\strings.po` existiert. 
 4. Starte das Spiel. Wähle im Hauptmenü Mods aus und aktiviere den nun dort befindlichen lokalen Mod "OxygenNotIncluded_German". Nach einem Neustart des Spiels sind alle übersetzten Texte auf deutsch.
