@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-04 19:57+0100\n"
-"Last-Translator: CarstenG\n"
+"PO-Revision-Date: 2021-02-05 17:00+0100\n"
+"Last-Translator: Xandras\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -4543,12 +4543,9 @@ msgstr ""
 "zur Verfügung gestellt."
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
-#| msgid "<link=\"CARGOBAY\">Large Cargo Bay</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
 msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
-msgstr "<link=\"CARGOBAY\">Großer Frachtraum</link>"
+msgstr "<link=\"CARGOBAY\">Frachtraum</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC"
@@ -5894,12 +5891,9 @@ msgstr ""
 "zur Verfügung gestellt."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAYSMALL.NAME"
-#| msgid "<link=\"GASCARGOBAYSMALL\">Gas Cargo Canister</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME"
 msgid "<link=\"GASCARGOBAY\">Gas Cargo Canister</link>"
-msgstr "<link=\"GASCARGOBAYSMALL\">Gasfrachtraum</link>"
+msgstr "<link=\"GASCARGOBAY\">Gasfrachtkanister</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC"
@@ -7039,18 +7033,13 @@ msgid "<link=\"JETSUITLOCKER\">Jet Suit Dock</link>"
 msgstr "<link=\"JETSUITLOCKER\">Jet-Anzug-Dock</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.DESC"
-#| msgid ""
-#| "A checkpoint must have an atmo suit dock built on the opposite side its "
-#| "arrow faces."
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC"
 msgid ""
 "A checkpoint must have a jet suit dock built on the opposite side its arrow "
 "faces."
 msgstr ""
-"An eine Kontrollstelle muss einen Schutzanzug-Dock entgegen der Pfeilrichtung "
-"angebaut sein."
+"Ein Kontrollpunkt muss ein Jet-Anzug-Dock haben, das auf der "
+"gegenüberliegenden Seite seiner der Pfeilrichtung angebaut ist."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT
 #, fuzzy
@@ -7234,12 +7223,9 @@ msgstr ""
 "zur Verfügung gestellt."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.NAME"
-#| msgid "<link=\"LIQUIDCARGOBAYSMALL\">Liquid Cargo Tank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
 msgid "<link=\"LIQUIDCARGOBAY\">Liquid Cargo Tank</link>"
-msgstr "<link=\"LIQUIDCARGOBAYSMALL\">Flüssigkeits­frachtraum</link>"
+msgstr "<link=\"LIQUIDCARGOBAY\">Flüssigkeits­frachtkanister</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC"
@@ -10559,29 +10545,13 @@ msgid "<link=\"POWERCONTROLSTATION\">Power Control Station</link>"
 msgstr "<link=\"POWERCONTROLSTATION\">Stromregel­station</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
-#| msgid ""
-#| "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 4 "
-#| "kW.\n"
-#| "\n"
-#| "Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a "
-#| "valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 4 kW.\n"
-#| "\n"
-#| "Can be rotated before construction."
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
 msgid ""
 "Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a valve "
 "and prevent <link=\"WIRE\">Wires</link> from drawing more than 4 kW."
 msgstr ""
-"Begrenzt die durch den Transformator fließende <link=\"POWER\">Leistung</link> "
-"auf 4 kW.\n"
-"\n"
-"Schließe die <link=\"BATTERY\">Batterien</link> an der großen Seite an, um als "
-"Ventil zu fungieren und zu verhindern, dass <link=\"WIRE\">Drähte</link> mehr "
-"als 4 kW erhalten.\n"
-"\n"
-"Kann vor dem Bau gedreht werden."
+"Schließe <link =\"BATTERY\">Batterien</link> auf der großen Seite an um zu "
+"verhindern, dass <link =\"WIRE\">Drähte</link> mehr als 4 kW übertragen."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
@@ -10596,31 +10566,15 @@ msgid "<link=\"POWERTRANSFORMER\">Large Power Transformer</link>"
 msgstr "<link=\"POWERTRANSFORMER\">großer Transformator</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
-#| msgid ""
-#| "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 1000 "
-#| "W.\n"
-#| "\n"
-#| "Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a "
-#| "valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 1000 "
-#| "W.\n"
-#| "\n"
-#| "Can be rotated before construction."
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
 msgid ""
 "Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a valve "
 "and prevent <link=\"WIRE\">Wires</link> from drawing more than 1000 W and "
 "suffering overload damage."
 msgstr ""
-"Begrenzt die durch den Transformator fließende <link=\"POWER\">Leistung</link> "
-"auf 1000 W.\n"
-"\n"
-"Schließe die <link=\"BATTERY\">Batterien</link> an der großen Seite an, um als "
-"Ventil zu fungieren und zu verhindern, dass <link=\"WIRE\">Drähte</link> mehr "
-"als 1000 W erhalten.\n"
-"\n"
-"Kann vor dem Bau gedreht werden."
+"Schließe <link =\"BATTERY\">Batterien</link> auf der großen Seite an um zu "
+"verhindern, dass <link =\"WIRE\">Drähte</link> mehr als 1000 W übertragen und "
+"Überlastschäden erleiden."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
@@ -12149,19 +12103,11 @@ msgstr ""
 "Diese Überraschungs-Dekoattacke vertreibt trübselige Tage jedes Duplikanten."
 
 #. STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME"
-#| msgid "Sticker Bomber"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME"
 msgid "Sticker Bomb"
-msgstr "Aufkleber-Attentäter"
+msgstr "Sticker Bomb"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC"
-#| msgid ""
-#| "Resources left on the floor become \"debris\" and lower decor when not put "
-#| "away."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC"
 msgid ""
 "Resources left on the floor become \"debris\" and lower Decor when not put "
@@ -12442,12 +12388,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
-#| msgid "<link=\"SWEEPBOTSTATION\">Sweepy's Dock</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
 msgid "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
-msgstr "<link=\"SWEEPBOTSTATION\">Sweepy's Dock</link>"
+msgstr "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION"
@@ -12748,17 +12691,12 @@ msgid "<link=\"TRAVELTUBEWALLBRIDGE\">Transit Tube Crossing</link>"
 msgstr "<link=\"TRAVELTUBEWALLBRIDGE\">Transitrohr-Kreuzung</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.URANIUMCENTRIFUGE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.URANIUMCENTRIFUGE.DESC"
-#| msgid ""
-#| "Enriched uranium is a specialized substance that can be used to fuel "
-#| "powerful research reactors."
 msgctxt "STRINGS.BUILDINGS.PREFABS.URANIUMCENTRIFUGE.DESC"
 msgid ""
 "Enriched uranium is a specialized substance that can be used to fuel powerful "
 "nuclear reactors."
 msgstr ""
-"Angereichertes Uran ist eine spezialisierte Substanz, mit der leistungsstarke "
+"Angereichertes Uran ist eine spezielle Substanz, mit der leistungsstarke "
 "Forschungsreaktoren betrieben werden können."
 
 #. STRINGS.BUILDINGS.PREFABS.URANIUMCENTRIFUGE.EFFECT
@@ -21829,9 +21767,6 @@ msgid "<link=\"SQUIRRELSPECIES\">Pip</link>"
 msgstr "<link=\"SQUIRRELSPECIES\">Pip</link>"
 
 #. STRINGS.CREATURES.FAMILY.SWEEPBOT
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FAMILY.SWEEPBOT"
-#| msgid "<link=\"SWEEPBOT\">Sweepies</link>"
 msgctxt "STRINGS.CREATURES.FAMILY.SWEEPBOT"
 msgid "<link=\"SWEEPBOT\">Sweepys</link>"
 msgstr "<link=\"SWEEPBOT\">Sweepies</link>"
@@ -26406,18 +26341,13 @@ msgid "Break Down Temperature"
 msgstr "Beschädigungstemperatur"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILITYDELTA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC"
-#| msgid ""
-#| "Determines the amount of time needed for a <style=\"KKeyword\">Critter</"
-#| "style> to lay new <style=\"KKeyword\">Eggs</style>."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILITYDELTA.DESC"
 msgid ""
 "Determines the amount of time needed for a <style=\"KKeyword\">Critter</style> "
 "to lay new <style=\"KKeyword\">Eggs</style>."
 msgstr ""
-"Bestimmt Zeit, die das <style=\"KKeyword\">Tier</style> benötigt, neue <style="
-"\"KKeyword\">Eier</style> zu legen."
+"Bestimmt die Zeit, die das <style=\"KKeyword\">Tier</style> benötigt, neue "
+"<style=\"KKeyword\">Eier</style> zu legen."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILITYDELTA.NAME
 #, fuzzy
@@ -26696,12 +26626,9 @@ msgid "Machinery Speed"
 msgstr "Maschinengeschwindigkeit"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MATURITYDELTA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.DESC"
-#| msgid "Determines the amount of time needed to reach maturation."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MATURITYDELTA.DESC"
 msgid "Determines the amount of time needed to reach maturation."
-msgstr "Bestimmt die Zeit, die benötigt wird, um geschlechtsreife zu erreichen."
+msgstr "Bestimmt die Zeit, die benötigt wird, um Reife zu erreichen."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MATURITYDELTA.NAME
 #, fuzzy
@@ -26899,11 +26826,6 @@ msgid "Scale Growth"
 msgstr "Schuppenwachstum"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
-#| msgid ""
-#| "Determines how long this <style=\"KKeyword\">Critter's</style> scales will "
-#| "take to grow back."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
 msgid ""
 "Determines how long this <style=\"KKeyword\">Critter</style>'s scales will "
@@ -38190,12 +38112,9 @@ msgid "<link=\"IRONGAS\">Iron</link>"
 msgstr "<link=\"IRONGAS\">Eisen</link>"
 
 #. STRINGS.ELEMENTS.IRONINGOT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.IRONORE.NAME"
-#| msgid "<link=\"IRONORE\">Iron Ore</link>"
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.DESC"
 msgid "(Fe) Iron is refined <link=\"IRONORE\">Iron Ore</link>."
-msgstr "<link=\"IRONORE\">Eisenerz</link>"
+msgstr "(Fe) Eisen ist raffiniertes<link=\"IRONORE\">Eisenerz</link>"
 
 #. STRINGS.ELEMENTS.IRONINGOT.NAME
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.NAME"
@@ -38649,12 +38568,9 @@ msgstr ""
 "Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENALUMINUM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENALUMINUM.NAME"
-#| msgid "<link=\"MOLTENALUMINUM\">Aluminum</link>"
 msgctxt "STRINGS.ELEMENTS.MOLTENALUMINUM.NAME"
 msgid "<link=\"MOLTENALUMINUM\">Molten Aluminum</link>"
-msgstr "<link=\"MOLTENALUMINUM\">Aluminium</link>"
+msgstr "<link=\"MOLTENALUMINUM\">Geschmolzenes Aluminium</link>"
 
 #. STRINGS.ELEMENTS.MOLTENCARBON.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENCARBON.DESC"
@@ -38699,12 +38615,9 @@ msgstr ""
 "\"ELEMENTSLIQUID\">Flüssigkeit</link> erhitzt wurde."
 
 #. STRINGS.ELEMENTS.MOLTENGLASS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENGLASS.NAME"
-#| msgid "<link=\"MOLTENGLASS\">Glass</link>"
 msgctxt "STRINGS.ELEMENTS.MOLTENGLASS.NAME"
 msgid "<link=\"MOLTENGLASS\">Molten Glass</link>"
-msgstr "<link=\"MOLTENGLASS\">Glas</link>"
+msgstr "<link=\"MOLTENGLASS\">Geschmolzenes Glas</link>"
 
 #. STRINGS.ELEMENTS.MOLTENGOLD.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENGOLD.DESC"
@@ -38745,12 +38658,9 @@ msgstr ""
 "Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENLEAD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENLEAD.NAME"
-#| msgid "<link=\"MOLTENLEAD\">Lead</link>"
 msgctxt "STRINGS.ELEMENTS.MOLTENLEAD.NAME"
 msgid "<link=\"MOLTENLEAD\">Molten Lead</link>"
-msgstr "<link=\"MOLTENLEAD\">Blei</link>"
+msgstr "<link=\"MOLTENLEAD\">Geschmolzenes Blei</link>"
 
 #. STRINGS.ELEMENTS.MOLTENNIOBIUM.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENNIOBIUM.DESC"
@@ -38776,12 +38686,9 @@ msgstr ""
 "<link=\"ELEMENTSLIQUID\">flüssigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.MOLTENSALT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENSALT.NAME"
-#| msgid "<link=\"MOLTENSALT\">Salt</link>"
 msgctxt "STRINGS.ELEMENTS.MOLTENSALT.NAME"
 msgid "<link=\"MOLTENSALT\">Molten Salt</link>"
-msgstr "<link=\"MOLTENSALT\">Salz</link>"
+msgstr "<link=\"MOLTENSALT\">Geschmolzenes Salz</link>"
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.DESC"
@@ -39173,12 +39080,9 @@ msgstr ""
 "zum <link=\"ELEMENTSGAS\">gasförmigen</link> Zustand."
 
 #. STRINGS.ELEMENTS.SALTGAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SALTGAS.NAME"
-#| msgid "<link=\"SALTGAS\">Salt</link>"
 msgctxt "STRINGS.ELEMENTS.SALTGAS.NAME"
 msgid "<link=\"SALTGAS\">Salt Gas</link>"
-msgstr "<link=\"SALTGAS\">Salz</link>"
+msgstr "<link=\"SALTGAS\">Salzgas</link>"
 
 #. STRINGS.ELEMENTS.SALTWATER.DESC
 #, fuzzy
@@ -41256,13 +41160,6 @@ msgid "<link=\"BEANPLANTSEED\">Nosh Bean</link>"
 msgstr "<link=\"BEANPLANTSEED\">Happsbohne</link>"
 
 #. STRINGS.ITEMS.FOOD.BURGER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
-#| msgid ""
-#| "<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a "
-#| "chilled <link=\"COLDWHEATBREAD\">Frost Bun</link>.\n"
-#| "\n"
-#| "It's the only burger best served cold."
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
 msgid ""
 "<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a chilled "
@@ -51790,12 +51687,9 @@ msgid "<link=\"JOURNALS\">Journals</link>"
 msgstr "<link=\"JOURNALS\">Protokolle</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
-#| msgid "<link=\"MISCELLANEOUSTIPS\">Tips</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
 msgid "<link=\"MISCELLANEOUSTIPS\">Miscellaneous Tips</link>"
-msgstr "<link=\"MISCELLANEOUSTIPS\">Tips</link>"
+msgstr "<link=\"MISCELLANEOUSTIPS\">Verschiedene Tipps</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG"
@@ -56163,18 +56057,13 @@ msgid "DECTIVATE DLC"
 msgstr "DLC DEAKTIVIEREN"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
-#| msgid ""
-#| "The game will need to restart in order to download and install the "
-#| "<i>Oxygen Not Included</i> base game."
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
 msgid ""
 "The game will need to restart in order to download and install the base "
 "version of the game."
 msgstr ""
-"Das Spiel muss neu gestartet werden, um das Basisspiel <i>Oxygen Not Included</"
-"i> herunterzuladen und zu installieren."
+"Das Spiel muss neu gestartet werden, um die Basisversion des Spiels "
+"herunterzuladen und zu installieren."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -60311,14 +60200,6 @@ msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgstr "Nicht mit einer <link=\"LIQUIDCONDUIT\">Rohrleitung</link> verbunden"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
-#| msgid ""
-#| "<b>Filtered Output Pipe</b>\n"
-#| "Filtered Outputs send filtered liquid into pipes\n"
-#| "------------------\n"
-#| "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</"
-#| "link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
 msgid ""
 "<b>Filtered Output Pipe</b>\n"
@@ -70860,24 +70741,13 @@ msgid "Verdante"
 msgstr "Verdante"
 
 #. STRINGS.WORLDS.HELICONA.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.HELICONA.DESCRIPTION"
-#| msgid ""
-#| "Due to its highly elliptical orbit around its host star, this rock is cold. "
-#| "Oh so very cold.\n"
-#| "\n"
-#| "<smallcaps></smallcaps>\n"
-#| "\n"
 msgctxt "STRINGS.WORLDS.HELICONA.DESCRIPTION"
 msgid ""
 "Due to its highly eliptical orbit around its host star, this rock is cold. Oh "
 "so very cold."
 msgstr ""
 "Aufgrund seiner stark elliptischen Umlaufbahn um seinen Wirtsstern ist dieser "
-"Felsen kalt. Oh so sehr kalt.\n"
-"\n"
-"<smallcaps></smallcaps>\n"
-"\n"
+"Felsen kalt. Oh so sehr kalt."
 
 #. STRINGS.WORLDS.HELICONA.NAME
 msgctxt "STRINGS.WORLDS.HELICONA.NAME"
