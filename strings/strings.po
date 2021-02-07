@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-07 16:02+0100\n"
+"PO-Revision-Date: 2021-02-07 18:16+0100\n"
 "Last-Translator: Eisberge <22561095+Eisberge@users.noreply.github.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -7139,12 +7139,6 @@ msgid "Nuke your food"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.EFFECT"
-#| msgid ""
-#| "Cooks a wide variety of quality <link=\"FOOD\">Foods</link>.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT"
 msgid ""
 "Cooks a variety of <link=\"FOOD\">Foods</link>.\n"
@@ -7156,12 +7150,9 @@ msgstr ""
 "Duplikanten werden nichts herstellen, wenn kein Rezept in der Warteliste ist."
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
-#| msgid "<link=\"GASVALVE\">Gas Valve</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.NAME"
 msgid "<link=\"GAMMARAYOVEN\">Gamma Ray Oven</link>"
-msgstr "<link=\"GASVALVE\">Gasventil</link>"
+msgstr "<link=\"GAMMARAYOVEN\">Gammastrahlenofen</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
@@ -26958,26 +26949,18 @@ msgid "<link=\"GEYSERGENERICLIQUIDCO2\">Carbon Dioxide Geyser</link>"
 msgstr "<link=\"GEYSERGENERICLIQUIDCO2\">Kohlenstoffdioxid-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
-#| msgid ""
-#| "A highly pressurized geyser that periodically erupts with hot <link=\"WATER"
-#| "\">Water</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC"
 msgid ""
 "A highly pressurized geyser that periodically erupts with boiling <link="
 "\"LIQUIDSULFUR\">Sulfur</link>."
 msgstr ""
-"Ein unter hohem Druck stehender Geysir, der periodisch heißes <link=\"WATER"
-"\">Wasser</link> ausstößt."
+"Ein unter hohem Druck stehender Geysir, der periodisch kochenden <link="
+"\"LIQUIDSULFUR\">Schwefel</link> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIQUIDSULFUR.NAME"
-#| msgid "<link=\"LIQUIDSULFUR\">Liquid Sulfur</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME"
 msgid "<link=\"GEYSERGENERICLIQUIDSULFUR\">Liquid Sulfur Geyser</link>"
-msgstr "<link=\"LIQUIDSULFUR\">flüssiger Schwefel</link>"
+msgstr "<link=\"GEYSERGENERICLIQUIDSULFUR\">Flüssigschwefelgeysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
@@ -26994,26 +26977,18 @@ msgid "<link=\"GEYSERGENERICMETHANE\">Natural Gas Geyser</link>"
 msgstr "<link=\"GEYSERGENERICMETHANE\">Erdgas-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
-#| msgid ""
-#| "A large volcano that periodically erupts with molten <link=\"MOLTENIRON"
-#| "\">Iron</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC"
 msgid ""
 "A large volcano that periodically erupts with molten <link=\"MOLTENALUMINUM"
 "\">Aluminum</link>."
 msgstr ""
-"Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENIRON"
-"\">Eisen</link> ausbricht."
+"Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENALUMINUM"
+"\">Aluminum</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME"
-#| msgid "<link=\"GEYSERGENERICMOLTENIRON\">Iron Volcano</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME"
 msgid "<link=\"GEYSERGENERICMOLTENALUMINUM\">Aluminum Volcano</link>"
-msgstr "<link=\"GEYSERGENERICMOLTENIRON\">Eisen-Vulkan</link>"
+msgstr "<link=\"GEYSERGENERICMOLTENALUMINUM\">Aluminumvulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
@@ -27058,48 +27033,32 @@ msgid "<link=\"GEYSERGENERICMOLTENIRON\">Iron Volcano</link>"
 msgstr "<link=\"GEYSERGENERICMOLTENIRON\">Eisen-Vulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
-#| msgid ""
-#| "A large volcano that periodically erupts with molten <link=\"MOLTENIRON"
-#| "\">Iron</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC"
 msgid ""
 "A large volcano that periodically erupts with molten <link=\"NIOBIUM"
 "\">Niobium</link>."
 msgstr ""
-"Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENIRON"
-"\">Eisen</link> ausbricht."
+"Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"NIOBIUM\">Niob</"
+"link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.NIOBIUMGAS.NAME"
-#| msgid "<link=\"NIOBIUMGAS\">Niobium</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME"
 msgid "<link=\"NIOBIUMGEYSER\">Niobium Volcano</link>"
-msgstr "<link=\"NIOBIUMGAS\">Niob</link>"
+msgstr "<link=\"NIOBIUMGEYSER\">Niobvulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
-#| msgid ""
-#| "A large volcano that periodically erupts with molten <link=\"MOLTENIRON"
-#| "\">Iron</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC"
 msgid ""
 "A large volcano that periodically erupts with molten <link=\"MOLTENTUNGSTEN"
 "\">Tungsten</link>."
 msgstr ""
-"Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENIRON"
-"\">Eisen</link> ausbricht."
+"Ein großer Vulkan, der periodisch mit geschmolzenem <link=\"MOLTENTUNGSTEN"
+"\">Wolfram</link> ausbricht."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME"
-#| msgid "<link=\"GEYSERGENERICMOLTENIRON\">Iron Volcano</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME"
 msgid "<link=\"GEYSERGENERICMOLTENTUNGSTEN\">Tungsten Volcano</link>"
-msgstr "<link=\"GEYSERGENERICMOLTENIRON\">Eisen-Vulkan</link>"
+msgstr "<link=\"GEYSERGENERICMOLTENIRON\">Wolframvulkan</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.NAME"
@@ -27149,40 +27108,27 @@ msgid "<link=\"GEYSERGENERICSLIMYPO2\">Infectious Polluted Oxygen Vent</link>"
 msgstr "<link=\"GEYSERGENERICSLIMYPO2\">Verseuchter-Sauerstoff-Schlot</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC"
-#| msgid ""
-#| "A highly pressurized geyser that periodically erupts with freezing <link="
-#| "\"CRUSHEDICE\">Crushed Ice</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC"
 msgid ""
 "A highly pressurized geyser that periodically erupts with freezing <link="
 "\"BRINE\">Brine</link>."
 msgstr ""
-"Ein unter hohem Druck stehender Geysir, aus dem regelmäßig <link=\"CRUSHEDICE"
-"\">zerstoßendes Eis</link> austritt."
+"Ein unter hohem Druck stehender Geysir, aus dem regelmäßig gefrorene <link="
+"\"BRINE\">Sole</link> austritt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME"
-#| msgid "<link=\"GEYSERGENERICSLUSHWATER\">Cool Slush Geyser</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME"
 msgid "<link=\"GEYSERGENERICSLUSHSALTWATER\">Cool Salt Slush Geyser</link>"
-msgstr "<link=\"GEYSERGENERICSLUSHWATER\">Kalt-Slush-Gyesir</link>"
+msgstr "<link=\"GEYSERGENERICSLUSHSALTWATER\">Kalter Salzschlamm-Geysir</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC"
-#| msgid ""
-#| "A highly pressurized geyser that periodically erupts with <link=\"SALTWATER"
-#| "\">Salt Water</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC"
 msgid ""
 "A highly pressurized geyser that periodically erupts with freezing <link="
 "\"DIRTYWATER\">Polluted Water</link>."
 msgstr ""
-"Ein unter hohem Druck stehender Geysir, der periodisch heißes <link=\"SALTWATER"
-"\">Salzwasser</link> ausstößt."
+"Ein unter hohem Druck stehender Geysir, der periodisch gefrorenes <link="
+"\"DIRTYWATER\">verschmutztes Wasser</link> ausstößt."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME"
@@ -27454,9 +27400,6 @@ msgstr ""
 "\"MORALE\">Moral</link>."
 
 #. STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC"
-#| msgid "This plant improves <link=\"DECOR\">Decor</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC"
 msgid "This plant improves ambient <link=\"DECOR\">Decor</link>."
 msgstr "Diese Pflanze erhöht die <link=\"DECOR\">Dekoration</link>."
@@ -27775,12 +27718,9 @@ msgstr ""
 "nach Gleichgesinnten für mehr Gesellschaft."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.EGG_NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Ionizing Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Strahlende-Nymphen-Ei</link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Strahlendes Nymphenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.NAME
 #, fuzzy
@@ -28019,12 +27959,9 @@ msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster</link>"
 msgstr "<link=\"OILFLOATERHIGHTEMP\">Schmelz-Slickster</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC"
-#| msgid "A rocky vent that spouts <link=\"PROPANE\">Propane</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
 msgid "A rocky vent that spouts <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "Ein felsiges Loch, das <link=\"PROPANE\">Propan</link> ausstößt."
+msgstr "Ein felsiges Loch, das <link=\"CRUDEOIL\">Rohöl</link> ausspuckt."
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.NAME"
@@ -28575,20 +28512,12 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
-#| msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME"
 msgid "<link=\"CRITTERTRAPPLANT\">Saturn Critter Trap Seed</link>"
-msgstr "<link=\"CREATURETRAP\">Tier-Falle</link>"
+msgstr "<link=\"CRITTERTRAPPLANT\">Saturn Critter Trap Seed</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"PRICKLEGRASS\">Bluff Briar</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Briar Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"CYLINDRICA\">Bliss Burst</"
@@ -28596,19 +28525,17 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Bliss Burst Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"PRICKLEGRASS\">Dornenstrauchs</"
+"Der <link=\"PLANTS\">Samen</link> eines <link=\"CYLINDRICA\">Bliss Burst</"
 "link>.\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Dornenstrauchsamen gefunden "
-"werden."
+"Beim Ausgraben von vergrabenen Gegenständen können Samen der Bliss Burst "
+"gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.NAME
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.NAME"
-#| msgid "<link=\"COLDBREATHER\">Wort Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.NAME"
 msgid "<link=\"CYLINDRICA\">Bliss Burst Seed</link>"
-msgstr "<link=\"COLDBREATHER\">Keuchwurz-Samen</link>"
+msgstr "<link=\"CYLINDRICA\">Bliss Burst Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.DESC"
@@ -28630,13 +28557,6 @@ msgid "<link=\"EVILFLOWER\">Sporechid Seed</link>"
 msgstr "<link=\"EVILFLOWER\">Sporenblütensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BULBPLANT\">Buddy Bud</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Buddy Bud Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"FILTERPLANT\">Hydrocactus</"
@@ -28644,18 +28564,16 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Hydrocactus Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"BULBPLANT\">Buddy Bud</link>.\n"
+"Der <link=\"PLANTS\">Samen</link> eines <link=\"FILTERPLANT\">Wasserkaktus</"
+"link>.\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Buddy Bud-Samen gefunden "
-"werden."
+"Beim Ausgraben von vergrabenen Gegenständen können Samen von Wasserkakteen "
+"gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME"
-#| msgid "<link=\"CACTUSPLANT\">Joya Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.NAME"
 msgid "<link=\"FILTERPLANT\">Hydrocactus Seed</link>"
-msgstr "<link=\"CACTUSPLANT\">Joya-Samen</link>"
+msgstr "<link=\"FILTERPLANT\">Wasserkaktussamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.DESC
 #, fuzzy
@@ -28823,44 +28741,32 @@ msgstr "<link=\"SEALETTUCE\">Wasserkraut-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACEDECORPLANT.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OXYFERN.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of an <link=\"OXYFERN\">Oxyfern</link> "
-#| "plant."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACEDECORPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"SPACEDECORPLANT\">Space Decor "
 "Plant</link>."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"OXYFERN\">Oxifarns</link>."
+"Der <link=\"PLANTS\">Samen</link> einer <link=\"SPACEDECORPLANT\">Space Decor "
+"Planze</link>."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACEDECORPLANT.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.NAME"
-#| msgid "<link=\"SPACEHEATER\">Space Heater</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACEDECORPLANT.NAME"
 msgid "<link=\"SPACEDECORPLANT\">Space Decor Plant Seed</link>"
-msgstr "<link=\"SPACEHEATER\">Raumheizung</link>"
+msgstr "<link=\"SPACEDECORPLANT\">Weltraumdekopflanzensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACEPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OXYFERN.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of an <link=\"OXYFERN\">Oxyfern</link> "
-#| "plant."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACEPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"SPACEPLANT\">Space Plant</link>."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"OXYFERN\">Oxifarns</link>."
+"Der <link=\"PLANTS\">Samen</link> eines <link=\"SPACEPLANT\">Weltraumpflanze</"
+"link>."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACEPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.NAME"
-#| msgid "<link=\"SPACEHEATER\">Space Heater</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACEPLANT.NAME"
 msgid "<link=\"SPACEPLANT\">Space Plant Seed</link>"
-msgstr "<link=\"SPACEHEATER\">Raumheizung</link>"
+msgstr "<link=\"SPACEHEATER\">Weltraumfplanzensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.DESC"
@@ -28882,13 +28788,6 @@ msgid "<link=\"SPICEVINE\">Pincha Pepper Seed</link>"
 msgstr "<link=\"SPICEVINE\">Pinchapfeffer-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BULBPLANT\">Buddy Bud</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Buddy Bud Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"SWAMPHARVESTPLANT\">Bog Bucket</"
@@ -28896,18 +28795,16 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Bog Bucket Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"BULBPLANT\">Buddy Bud</link>.\n"
+"Der <link=\"PLANTS\">Samen</link> eines <link=\"SWAMPHARVESTPLANT"
+"\">Mooreimers</link>.\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Buddy Bud-Samen gefunden "
+"Beim Ausgraben von vergrabenen Gegenständen können Mooreimersamen gefunden "
 "werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.NAME"
-#| msgid "<link=\"BASICSINGLEHARVESTPLANT\">Mealwood Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME"
 msgid "<link=\"SWAMPHARVESTPLANT\">Bog Bucket Seed</link>"
-msgstr "<link=\"BASICSINGLEHARVESTPLANT\">Mehlholz-Samen</link>"
+msgstr "<link=\"SWAMPHARVESTPLANT\">Mooreimersamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.DESC"
@@ -28929,12 +28826,6 @@ msgstr "<link=\"SWAMPLILY\">Balsamlilie-Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.DESC
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"CACTUSPLANT\">Jumping Joya</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Joya Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"TOEPLANT\">Tranquil Toes</"
@@ -28942,27 +28833,18 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Tranquil Toe Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> einer <link=\"CACTUSPLANT\">Jumping Joya</"
+"Der <link=\"PLANTS\">Samen</link> einer <link=\"TOEPLANT\">Tranquil Toes</"
 "link>.\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Joya-Samen gefunden werden."
+"Beim Ausgraben von vergrabenen Gegenständen können Tranquil Toes-Samen "
+"gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME"
-#| msgid "<link=\"LEAFYPLANT\">Mirth Leaf Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.NAME"
 msgid "<link=\"TOEPLANT\">Tranquil Toe Seed</link>"
-msgstr "<link=\"LEAFYPLANT\">Mirth Leaf-Samen</link>"
+msgstr "<link=\"TOEPLANT\">Tranquil Toe Samen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"SWAMPLILY\">Balm Lily</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Balm Lily Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"WINECUPS\">Mellow Mallow</"
@@ -28970,19 +28852,15 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Mallow Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> einer <link=\"SWAMPLILY\">Balsamlilie</"
+"Der <link=\"PLANTS\">Samen</link> einer <link=\"WINECUPS\">milden Malve</"
 "link>\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Balsamlilie-Samen gefunden "
-"werden."
+"Beim Ausgraben von vergrabenen Gegenständen können Malvensamen gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME"
-#| msgid "<link=\"CACTUSPLANT\">Joya Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME"
 msgid "<link=\"WINECUPS\">Mallow Seed</link>"
-msgstr "<link=\"CACTUSPLANT\">Joya-Samen</link>"
+msgstr "<link=\"WINECUPS\">Malvensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.DESC"
@@ -29004,13 +28882,6 @@ msgid "<link=\"FORESTTREE\">Arbor Acorn</link>"
 msgstr "<link=\"FORESTTREE\">Arbor-Eichel</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BULBPLANT\">Buddy Bud</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Buddy Bud Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"WORMPLANT\">Spindly Grubfruit "
@@ -29018,18 +28889,16 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Grubfruit Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"BULBPLANT\">Buddy Bud</link>.\n"
+"Der <link=\"PLANTS\">Samen</link> eines <link=\"WORMPLANT\">spindeldürren "
+"Wühlfuchtpflanze</link>.\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Buddy Bud-Samen gefunden "
+"Beim Ausgraben von vergrabenen Gegenständen können Wühlfruchtsamen gefunden "
 "werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.GRANITE.NAME"
-#| msgid "<link=\"GRANITE\">Granite</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME"
 msgid "<link=\"WORMPLANT\">Grubfruit Seed</link>"
-msgstr "<link=\"GRANITE\">Granit</link>"
+msgstr "<link=\"WORMPLANT\">Grubfruchtsamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SHOCKWORM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SHOCKWORM.DESC"
@@ -29051,28 +28920,19 @@ msgid "Space Decor Plants are super duper pretty."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.DOMESTICATEDDESC"
-#| msgid "This plant improves <link=\"DECOR\">Decor</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.DOMESTICATEDDESC"
 msgid "This plant improves <link=\"DECOR\">Decor</link>."
 msgstr "Diese Pflanze erhöht die <link=\"DECOR\">Dekoration</link>."
 
 #. STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SUPERCOOLANT.NAME"
-#| msgid "<link=\"SUPERCOOLANT\">Super Coolant</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.NAME"
 msgid "<link=\"SPACEDECORPLANT\">Space Decor Plant</link>"
-msgstr "<link=\"SUPERCOOLANT\">Superkühlmittel</link>"
+msgstr "<link=\"SPACEDECORPLANT\">Weltraumdekopflanze</link>"
 
 #. STRINGS.CREATURES.SPECIES.SPACEPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYTALLPLANT.NAME"
-#| msgid "Office Plant"
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEPLANT.DESC"
 msgid "Space Plant."
-msgstr "Büro Pflanze"
+msgstr "Weltraumpflanze."
 
 #. STRINGS.CREATURES.SPECIES.SPACEPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEPLANT.DOMESTICATEDDESC"
@@ -29080,12 +28940,9 @@ msgid "It's a plant, but in space."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SPACEPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.NAME"
-#| msgid "<link=\"SPACEHEATER\">Space Heater</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEPLANT.NAME"
 msgid "<link=\"SPACEPLANT\">Space Plant</link>"
-msgstr "<link=\"SPACEHEATER\">Raumheizung</link>"
+msgstr "<link=\"SPACEPLANT\">Weltraumpflanze</link>"
 
 #. STRINGS.CREATURES.SPECIES.SPICE_VINE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SPICE_VINE.DESC"
@@ -29149,12 +29006,6 @@ msgid "<link=\"SQUIRREL\">Pip</link>"
 msgstr "<link=\"SQUIRREL\">Pip</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SQUIRREL.BABY.DESC"
-#| msgid ""
-#| "A little purring Pipsqueak.\n"
-#| "\n"
-#| "In time it will mature into a fully grown <link=\"SQUIRREL\">Pip</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.BABY.DESC"
 msgid ""
 "A chubby little Plug Sluglet.\n"
@@ -29162,17 +29013,15 @@ msgid ""
 "In time it will mature into a fully grown <link=\"STATERPILLAR\">Plug Slug</"
 "link>."
 msgstr ""
-"Ein kleiner schnurrender Pipquietscher.\n"
+"Ein molliges kleines Steckschneckchen.\n"
 "\n"
-"Mit der Zeit wird es zu einem ausgewachsenen <link=\"SQUIRREL\">Pip</link>."
+"Mit der Zeit wird es zu einer ausgewachsenen <link=\"STATERPILLAR"
+"\">Steckschnecke</link>."
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FISHMEAT.NAME"
-#| msgid "<link=\"FISHMEAT\">Pacu Fillet</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.BABY.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Sluglet</link>"
-msgstr "<link=\"FISHMEAT\">Pacu-Filet</link>"
+msgstr "<link=\"STATERPILLAR\">Steckschneckchen</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.DESC"
@@ -29185,20 +29034,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEEL.NAME"
-#| msgid "<link=\"STEEL\">Steel</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME"
 msgid "<link=\"STATERPILLAR\">Slug Egg</link>"
-msgstr "<link=\"STEEL\">Stahl</link>"
+msgstr "<link=\"STATERPILLAR\">Schneckenei</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEEL.NAME"
-#| msgid "<link=\"STEEL\">Steel</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Slug</link>"
-msgstr "<link=\"STEEL\">Stahl</link>"
+msgstr "<link=\"STATERPILLAR\">Steckschnecke</link>"
 
 #. STRINGS.CREATURES.SPECIES.STEAMSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.STEAMSPOUT.DESC"
@@ -29220,76 +29063,48 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DOMESTICATEDDESC"
-#| msgid "This plant produces edible <link=\"MUSHROOM\">Mushrooms</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.DOMESTICATEDDESC"
 msgid "This plant produces edible <link=\"WORMSUPERFRUIT\">Grubfruit</link>."
-msgstr "Diese Pflanze produziert essbare <link=\"MUSHROOM\">Pilze</link>."
+msgstr ""
+"Diese Pflanze produziert essbare <link=\"WORMSUPERFRUIT\">Grubfrüchte</link>."
 
 #. STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
-#| msgid "<link=\"PLANTS\">Plants</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.NAME"
 msgid "<link=\"WORMPLANT\">Grubfruit Plant</link>"
-msgstr "<link=\"PLANTS\">Pflanzen</link>"
+msgstr "<link=\"WORMPLANT\">Wühlfruchtpflanze</link>"
 
 #. STRINGS.CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.FORESTFORAGEPLANTPLANTED.DESC"
-#| msgid ""
-#| "Hexalents are incapable of propagating but can be harvested for a single, "
-#| "calorie dense <link=\"FOOD\">Food</link> serving."
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.DESC"
 msgid ""
 "Swamp Chards are incapable of propagating but can be harvested for a single "
 "high quality and calorie dense <link=\"FOOD\">Food</link> serving."
 msgstr ""
-"Hexalente können sich nicht vermehren, können aber für eine einzelne Portion "
+"Sumpfmangold kann sich nicht vermehren, kann aber für eine einzelne Portion "
 "<link=\"FOOD\">Nahrung</link> geerntet werden."
 
 #. STRINGS.CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.FORESTFORAGEPLANTPLANTED.NAME"
-#| msgid "<link=\"FORESTFORAGEPLANTPLANTED\">Hexalent</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.NAME"
 msgid "<link=\"SWAMPFORAGEPLANTPLANTED\">Swamp Chard</link>"
-msgstr "<link=\"FORESTFORAGEPLANTPLANTED\">Hexalent</link>"
+msgstr "<link=\"SWAMPFORAGEPLANTPLANTED\">Sumpfmangold</link>"
 
 #. STRINGS.CREATURES.SPECIES.SWAMPHARVESTPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SPICE_VINE.DESC"
-#| msgid ""
-#| "Pincha Pepperplants produce flavorful <link=\"SPICENUT\">Pincha Peppernut</"
-#| "link> for spicing <link=\"FOOD\">Food</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPHARVESTPLANT.DESC"
 msgid ""
 "Bog Buckets produce juicy, sweet <link=\"SWAMPFRUIT\">Bog Jellies</link> for "
 "<link=\"FOOD\">Food</link>."
 msgstr ""
-"Pinchapfeffer-Pflanzen produzieren eine würzige <link=\"SPICENUT"
-"\">Pfeffernuss</link>, die zum Würzen von <link=\"FOOD\">Nahrung</link> "
-"verwendet werden kann."
+"Mooreimer produzieren ein saftiges, süßes <link=\"SWAMPFRUIT\">Moorgelee</"
+"link> für <link=\"FOOD\">Nahrung</link>."
 
 #. STRINGS.CREATURES.SPECIES.SWAMPHARVESTPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DOMESTICATEDDESC"
-#| msgid ""
-#| "This plant produces edible <link=\"BRISTLE BERRY\">Bristle Berries</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPHARVESTPLANT.DOMESTICATEDDESC"
 msgid "This plant produces edible <link=\"SWAMPFRUIT\">Bog Jellies</link>."
-msgstr ""
-"Diese Pflanze produziert essbare <link=\"BRISTLE BERRY\">Dornenblüten Beeren</"
-"link>."
+msgstr "Diese Pflanze produziert essbares <link=\"SWAMPFRUIT\">Moorgelee</link>."
 
 #. STRINGS.CREATURES.SPECIES.SWAMPHARVESTPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.NAME"
-#| msgid "<link=\"BEANPLANT\">Nosh Bean</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPHARVESTPLANT.NAME"
 msgid "<link=\"SWAMPHARVESTPLANT\">Bog Bucket</link>"
-msgstr "<link=\"BEANPLANT\">Happsbohne</link>"
+msgstr "<link=\"SWAMPHARVESTPLANT\">Mooreimer</link>"
 
 #. STRINGS.CREATURES.SPECIES.SWAMPLILY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPLILY.DESC"
@@ -29324,28 +29139,20 @@ msgstr ""
 "sich künstlerisch und emotional ausdrücken können."
 
 #. STRINGS.CREATURES.SPECIES.TOEPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.DOMESTICATEDDESC"
-#| msgid "This plant improves <link=\"DECOR\">Decor</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.TOEPLANT.DOMESTICATEDDESC"
 msgid "This plant improves ambient <link=\"DECOR\">Decor</link>."
 msgstr "Diese Pflanze erhöht die <link=\"DECOR\">Dekoration</link>."
 
 #. STRINGS.CREATURES.SPECIES.TOEPLANT.GROWTH_BONUS
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.GROWTH_BONUS"
-#| msgid "Growth Bonus"
 msgctxt "STRINGS.CREATURES.SPECIES.TOEPLANT.GROWTH_BONUS"
 msgid "Growth Bonus"
 msgstr "Wachstumsbonus"
 
 #. STRINGS.CREATURES.SPECIES.TOEPLANT.NAME
 #, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME"
-#| msgid "<link=\"TRAVELTUBES\">Transit Tubes</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.TOEPLANT.NAME"
 msgid "<link=\"TOEPLANT\">Tranquil Toes</link>"
-msgstr "<link=\"TRAVELTUBES\">Transitrohre</link>"
+msgstr "<link=\"TOEPLANT\">Tranquil Toes</link>"
 
 #. STRINGS.CREATURES.SPECIES.TOEPLANT.WILT_PENALTY
 #, fuzzy
@@ -29363,28 +29170,19 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.WINECUPS.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.DOMESTICATEDDESC"
-#| msgid "This plant improves <link=\"DECOR\">Decor</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.WINECUPS.DOMESTICATEDDESC"
 msgid "This plant improves ambient <link=\"DECOR\">Decor</link>."
 msgstr "Diese Pflanze erhöht die <link=\"DECOR\">Dekoration</link>."
 
 #. STRINGS.CREATURES.SPECIES.WINECUPS.GROWTH_BONUS
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.GROWTH_BONUS"
-#| msgid "Growth Bonus"
 msgctxt "STRINGS.CREATURES.SPECIES.WINECUPS.GROWTH_BONUS"
 msgid "Growth Bonus"
 msgstr "Wachstumsbonus"
 
 #. STRINGS.CREATURES.SPECIES.WINECUPS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OILWELLCAP.NAME"
-#| msgid "<link=\"OILWELLCAP\">Oil Well</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.WINECUPS.NAME"
 msgid "<link=\"WINECUPS\">Mellow Mallow</link>"
-msgstr "<link=\"OILWELLCAP\">Ölbrunnen</link>"
+msgstr "<link=\"WINECUPS\">Milde Malve</link>"
 
 #. STRINGS.CREATURES.SPECIES.WINECUPS.WILT_PENALTY
 #, fuzzy
@@ -29438,22 +29236,17 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.WORMPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC"
-#| msgid "This plant produces edible <link=\"BASICPLANTFOOD\">Meal Lice</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.WORMPLANT.DOMESTICATEDDESC"
 msgid ""
 "This plant produces edible <link=\"WORMBASICFRUIT\">Spindly Grubfruit</link>."
 msgstr ""
-"Diese Pflanze produziert essbare <link=\"BASICPLANTFOOD\">Mehlläuse</link>."
+"Diese Pflanze produziert essbare <link=\"WORMBASICFRUIT\">spindeldürre "
+"Wühlfrüchte</link>."
 
 #. STRINGS.CREATURES.SPECIES.WORMPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
-#| msgid "<link=\"PLANTS\">Plants</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.WORMPLANT.NAME"
 msgid "<link=\"WORMPLANT\">Spindly Grubfruit Plant</link>"
-msgstr "<link=\"PLANTS\">Pflanzen</link>"
+msgstr "<link=\"WORMPLANT\">Spindeldürre Wühlfruchtpflanze</link>"
 
 #. STRINGS.CREATURES.STATS.AGE.NAME
 msgctxt "STRINGS.CREATURES.STATS.AGE.NAME"
@@ -29946,12 +29739,9 @@ msgid "This critter's respiration is having a cooling effect on the area"
 msgstr "Der Atem dieser Kreatur kühlt die Umgebung"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_BLIGHTED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME"
-#| msgid "    • Beached"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_BLIGHTED.NAME"
 msgid "    • Blighted"
-msgstr "    • Trockengelegt"
+msgstr "    • Verdorben"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_BLIGHTED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_BLIGHTED.TOOLTIP"
@@ -30040,28 +29830,19 @@ msgid "This critter is working off a big meal"
 msgstr "Diese Kreatur verdaut eine große Mahlzeit"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIVERGENT_TENDING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.ASSIGNMENT_PENDING"
-#| msgid "(Pending)"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIVERGENT_TENDING.NAME"
 msgid "Plant Tending"
-msgstr "(Ausstehend)"
+msgstr "Pflanzenpflege"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIVERGENT_TENDING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STRUGGLING.TOOLTIP"
-#| msgid "This critter is trying to get away"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIVERGENT_TENDING.TOOLTIP"
 msgid "This critter is snuggling a plant to help it grow"
-msgstr "Diese Kreatur versucht, wegzukommen"
+msgstr "Dieses Tier kuschelt sich an eine Pflanze, damit sie wachsen kann"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIVERGENT_WILL_TEND.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.STATUS"
-#| msgid "Moving to location"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIVERGENT_WILL_TEND.NAME"
 msgid "Moving to Plant"
-msgstr "Geht an einen Ort"
+msgstr "Geht zu einer Pflanze"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIVERGENT_WILL_TEND.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIVERGENT_WILL_TEND.TOOLTIP"
@@ -30285,20 +30066,14 @@ msgid "Fish out of water!"
 msgstr "Fisch außerhalb des Wassers!"
 
 #. STRINGS.CREATURES.STATUSITEMS.FORAGINGMATERIAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
-#| msgid "Waiting For Materials"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.FORAGINGMATERIAL.NAME"
 msgid "Foraging for Materials"
-msgstr "Warten auf Materialien"
+msgstr "Suche nach Materialien"
 
 #. STRINGS.CREATURES.STATUSITEMS.FORAGINGMATERIAL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.TOOLTIP"
-#| msgid "This Duplicant is moving materials into storage for later use"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.FORAGINGMATERIAL.TOOLTIP"
 msgid "This critter is foraging materials for later use."
-msgstr "Dieser Duplikant bringt Materialien zur späteren Verwendung ins Lager"
+msgstr "Dieses Tier sucht nach Materialien für die spätere Verwendung."
 
 #. STRINGS.CREATURES.STATUSITEMS.FRESH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.FRESH.NAME"
@@ -30508,9 +30283,6 @@ msgid "This critter is taking a deep breath"
 msgstr "Diese Kreatur atmet tief durch"
 
 #. STRINGS.CREATURES.STATUSITEMS.LAYINGANEGG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.LAYINGANEGG.NAME"
-#| msgid "Laying an egg"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.LAYINGANEGG.NAME"
 msgid "Laying egg"
 msgstr "Legt ein Ei"
@@ -30621,12 +30393,9 @@ msgstr ""
 "{Effects}"
 
 #. STRINGS.CREATURES.STATUSITEMS.NOSLEEPSPOT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL"
-#| msgid "Nowhere to Mingle"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NOSLEEPSPOT.NAME"
 msgid "Nowhere To Sleep"
-msgstr "Kein Treffpunkt"
+msgstr "Kein Platz zum Schlafen"
 
 #. STRINGS.CREATURES.STATUSITEMS.NOSLEEPSPOT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NOSLEEPSPOT.TOOLTIP"
@@ -30933,17 +30702,11 @@ msgid "This critter cannot breathe"
 msgstr "Diese Kreatur kann hier nicht atmen"
 
 #. STRINGS.CREATURES.STATUSITEMS.TENDINGANEGG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.STATUS"
-#| msgid "Tending plant"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TENDINGANEGG.NAME"
 msgid "Tending egg"
-msgstr "Pflegt eine Pflanze"
+msgstr "Ei pflegen"
 
 #. STRINGS.CREATURES.STATUSITEMS.TENDINGANEGG.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.LAYINGANEGG.TOOLTIP"
-#| msgid "Witness the miracle of life!"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TENDINGANEGG.TOOLTIP"
 msgid "Nurturing the miracle of life!"
 msgstr "Erleben das Wunder des Lebens!"
@@ -50344,14 +50107,16 @@ msgid ""
 "The mixture of berries creates a fragrant, colorful filling that packs a sweet "
 "punch."
 msgstr ""
+"Ein Kuchen, der hauptsächlich aus der <link=\"WORMSUPERFRUIT\">Grubfrucht</"
+"link> und <link=\"PRICKLEFRUIT\">Knorpelbeeren</link> besteht.\n"
+"\n"
+"Die Beerenmischung ergibt eine duftende, farbenfrohe Füllung, die einen süßen "
+"Punsch enthält."
 
 #. STRINGS.ITEMS.FOOD.BERRYPIE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.BRINE.NAME"
-#| msgid "<link=\"BRINE\">Brine</link>"
 msgctxt "STRINGS.ITEMS.FOOD.BERRYPIE.NAME"
 msgid "<link=\"BERRYPIE\">Mixed Berry Pie</link>"
-msgstr "<link=\"BRINE\">Sole</link>"
+msgstr "<link=\"BERRYPIE\">Gemischter Beerenkuchen</link>"
 
 #. STRINGS.ITEMS.FOOD.BERRYPIE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.BERRYPIE.RECIPEDESC"
@@ -50359,15 +50124,10 @@ msgid ""
 "A pie made primarily of <link=\"WORMSUPERFRUIT\">Grubfruit</link> and <link="
 "\"PRICKLEFRUIT\">Gristle Berries</link>."
 msgstr ""
+"Ein Kuchen, der hauptsächlich aus der <link=\"WORMSUPERFRUIT\">Grubfrucht</"
+"link> und <link=\"PRICKLEFRUIT\">Knorpelbeeren</link> besteht."
 
 #. STRINGS.ITEMS.FOOD.BURGER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
-#| msgid ""
-#| "<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a "
-#| "chilled <link=\"COLDWHEATBREAD\">Frost Bun</link>.\n"
-#| "\n"
-#| "It's the only burger ever to be served cold."
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
 msgid ""
 "<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a chilled "
@@ -50551,11 +50311,12 @@ msgstr "<link=\"FISHMEAT\">Pacu-Filet</link>"
 msgctxt "STRINGS.ITEMS.FOOD.FOODSPLAT.DESC"
 msgid "Food smeared on the wall from a recent Food Fight"
 msgstr ""
+"Nahrungsmittel an der Wand von einer kürzlichen Essensschlacht verschmiert"
 
 #. STRINGS.ITEMS.FOOD.FOODSPLAT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FOODSPLAT.NAME"
 msgid "Food Splatter"
-msgstr ""
+msgstr "Nahrungsmittelspritzer"
 
 #. STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.DESC"
@@ -50653,15 +50414,12 @@ msgstr ""
 #. STRINGS.ITEMS.FOOD.GAMMAMUSH.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GAMMAMUSH.DESC"
 msgid "A disturbingly delicious mixture of irradiated dirt and water."
-msgstr ""
+msgstr "Eine beunruhigend leckere Mischung aus bestrahltem Schmutz und Wasser."
 
 #. STRINGS.ITEMS.FOOD.GAMMAMUSH.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.NAME"
-#| msgid "<link=\"MUSHBAR\">Mush Bar</link>"
 msgctxt "STRINGS.ITEMS.FOOD.GAMMAMUSH.NAME"
 msgid "<link=\"GAMMAMUSH\">Gamma Mush</link>"
-msgstr "<link=\"MUSHBAR\">Matschriegel</link>"
+msgstr "<link=\"GAMMAMUSH\">Gammamatsch</link>"
 
 #. STRINGS.ITEMS.FOOD.GAMMAMUSH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.GAMMAMUSH.RECIPEDESC"
@@ -50669,6 +50427,8 @@ msgid ""
 "<link=\"FRIEDMUSHBAR\">Mush Fry</link> reheated in a <link=\"GAMMARAYOVEN"
 "\">Gamma Ray Oven</link>."
 msgstr ""
+"<link=\"FRIEDMUSHBAR\">Frittierter Matsch</link>, wieder in einem <link="
+"\"GAMMARAYOVEN\">Gammastrahlenofen</link> aufgewärmt."
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
@@ -50771,14 +50531,13 @@ msgid ""
 "<link=\"LETTUCE\">Lettuce</link> scrumptiously wilted in the <link="
 "\"GAMMARAYOVEN\">Gamma Ray Oven</link>."
 msgstr ""
+"<link=\"LETTUCE\">Salat</link>, lecker im <link=\"GAMMARAYOVEN"
+"\">Gammastrahlenofen</link> getrocknet."
 
 #. STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.NAME"
-#| msgid "<link=\"LETTUCE\">Lettuce</link>"
 msgctxt "STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.NAME"
 msgid "<link=\"MICROWAVEDLETTUCE\">Microwaved Lettuce</link>"
-msgstr "<link=\"LETTUCE\">Salat</link>"
+msgstr "<link=\"MICROWAVEDLETTUCE\">Mikrowellensalat</link>"
 
 #. STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.RECIPEDESC"
@@ -50786,6 +50545,8 @@ msgid ""
 "<link=\"LETTUCE\">Lettuce</link> scrumptiously wilted in the <link="
 "\"GAMMARAYOVEN\">Gamma Ray Oven</link>."
 msgstr ""
+"<link=\"LETTUCE\">Salat</link>, lecker im <link=\"GAMMARAYOVEN"
+"\">Gammastrahlenofen</link> getrocknet."
 
 #. STRINGS.ITEMS.FOOD.MUSHBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.DESC"
@@ -50903,15 +50664,12 @@ msgstr ""
 #. STRINGS.ITEMS.FOOD.PLANTMEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PLANTMEAT.DESC"
 msgid "Planty plant meat from a plant. How nice!"
-msgstr ""
+msgstr "Pflanzliches Pflanzenfleisch von einer Pflanze. Wie schön!"
 
 #. STRINGS.ITEMS.FOOD.PLANTMEAT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
-#| msgid "<link=\"PLANTS\">Plants</link>"
 msgctxt "STRINGS.ITEMS.FOOD.PLANTMEAT.NAME"
 msgid "<link=\"PLANTMEAT\">Plant Meat</link>"
-msgstr "<link=\"PLANTS\">Pflanzen</link>"
+msgstr "<link=\"PLANTMEAT\">Pflanzenfleisch</link>"
 
 #. STRINGS.ITEMS.FOOD.POPCORN.DESC
 msgctxt "STRINGS.ITEMS.FOOD.POPCORN.DESC"
@@ -50921,22 +50679,18 @@ msgid ""
 "\n"
 "Completely devoid of any fancy flavorings."
 msgstr ""
+"<link=\"COLDWHEATSEED\">Graupelweizen-Samen</link>, aufgepoppt in einem <link="
+"\"GAMMARAYOVEN\">Gammastrahlenofen</link>."
 
 #. STRINGS.ITEMS.FOOD.POPCORN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.PROPANE.NAME"
-#| msgid "<link=\"PROPANE\">Propane</link>"
 msgctxt "STRINGS.ITEMS.FOOD.POPCORN.NAME"
 msgid "<link=\"POPCORN\">Popcorn</link>"
-msgstr "<link=\"PROPANE\">Propan</link>"
+msgstr "<link=\"POPCORN\">Popcorn</link>"
 
 #. STRINGS.ITEMS.FOOD.POPCORN.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATSEED.NAME"
-#| msgid "<link=\"COLDWHEATSEED\">Sleet Wheat Grain</link>"
 msgctxt "STRINGS.ITEMS.FOOD.POPCORN.RECIPEDESC"
 msgid "Gamma radiated <link=\"COLDWHEATSEED\">Sleet Wheat Grain</link>."
-msgstr "<link=\"COLDWHEATSEED\">Graupelweizen-Samen</link>"
+msgstr "Gammaverstrahlte <link=\"COLDWHEATSEED\">Graupelweizensamen</link>"
 
 #. STRINGS.ITEMS.FOOD.PRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PRICKLEFRUIT.DESC"
@@ -51177,17 +50931,16 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.SWAMPDELIGHTS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.NAME"
-#| msgid "<link=\"SMELTING\">Smelting</link>"
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPDELIGHTS.NAME"
 msgid "<link=\"SWAMPDELIGHTS\">Swampy Delights</link>"
-msgstr "<link=\"SMELTING\">Schmelzen</link>"
+msgstr "<link=\"SWAMPDELIGHTS\">Sumpfige Freuden</link>"
 
 #. STRINGS.ITEMS.FOOD.SWAMPDELIGHTS.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPDELIGHTS.RECIPEDESC"
 msgid "Dried gelatinous cubes from a <link=\"SWAMPFRUIT\">Bog Jelly</link>."
 msgstr ""
+"Getrocknete gallertartige Würfel von einer <link=\"SWAMPFRUIT"
+"\">Sumpfgeleepflanze</link>."
 
 #. STRINGS.ITEMS.FOOD.SWAMPFORAGEPLANT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPFORAGEPLANT.DESC"
@@ -51196,27 +50949,26 @@ msgid ""
 "\n"
 "It cannot be replanted."
 msgstr ""
+"Eine kernlose Pflanze mit einem matschigen, saftigen Zentrum und einem "
+"schrecklichen Geruch.\n"
+"\n"
+"Kann nicht neu gepflanzt werden."
 
 #. STRINGS.ITEMS.FOOD.SWAMPFORAGEPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.NAME"
-#| msgid "<link=\"FORESTFORAGEPLANT\">Hexalent Fruit</link>"
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPFORAGEPLANT.NAME"
 msgid "<link=\"SWAMPFORAGEPLANT\">Swamp Chard Heart</link>"
-msgstr "<link=\"FORESTFORAGEPLANT\">Hexalentfrucht</link>"
+msgstr "<link=\"SWAMPFORAGEPLANT\">Sumpfmangoldherz</link>"
 
 #. STRINGS.ITEMS.FOOD.SWAMPFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPFRUIT.DESC"
 msgid "A fruit with an outer film that contains chewy gelatinous cubes."
 msgstr ""
+"Eine Frucht mit einem äußeren Film, der zähe gallertartige Würfel enthält."
 
 #. STRINGS.ITEMS.FOOD.SWAMPFRUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SWAMPLILY.NAME"
-#| msgid "<link=\"SWAMPLILY\">Balm Lily</link>"
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPFRUIT.NAME"
 msgid "<link=\"SWAMPFRUIT\">Bog Jelly</link>"
-msgstr "<link=\"SWAMPLILY\">Balsamlilie</link>"
+msgstr "<link=\"SWAMPFRUIT\">Sumpfgelee</link>"
 
 #. STRINGS.ITEMS.FOOD.TOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.DESC"
@@ -51248,12 +51000,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.WORMBASICFOOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.NAME"
-#| msgid "<link=\"BASICPLANTFOOD\">Meal Lice</link>"
 msgctxt "STRINGS.ITEMS.FOOD.WORMBASICFOOD.NAME"
 msgid "<link=\"WORMBASICFOOD\">Roast Grubfruit Nut</link>"
-msgstr "<link=\"BASICPLANTFOOD\">Mehllaus</link>"
+msgstr "<link=\"WORMBASICFOOD\">Gebratene Wühlfruchtnuss</link>"
 
 #. STRINGS.ITEMS.FOOD.WORMBASICFOOD.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMBASICFOOD.RECIPEDESC"
@@ -51269,12 +51018,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.WORMBASICFRUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.NAME"
-#| msgid "<link=\"SPICYTOFU\">Spicy Tofu</link>"
 msgctxt "STRINGS.ITEMS.FOOD.WORMBASICFRUIT.NAME"
 msgid "<link=\"WORMBASICFRUIT\">Spindly Grubfruit</link>"
-msgstr "<link=\"SPICYTOFU\">Pikanter Tofu</link>"
+msgstr "<link=\"WORMBASICFRUIT\">Spindeldürre Wühlfrucht</link>"
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFOOD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFOOD.DESC"
@@ -51287,26 +51033,18 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFOOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE.NAME"
-#| msgid "<link=\"FORESTTREE\">Arbor Tree</link>"
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFOOD.NAME"
 msgid "<link=\"WORMSUPERFOOD\">Grubfruit Preserve</link>"
-msgstr "<link=\"FORESTTREE\">Arbor-Baum</link>"
+msgstr "<link=\"WORMSUPERFOOD\">Wühlfruchtkonserve</link>"
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFOOD.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.MUSHROOMWRAP.RECIPEDESC"
-#| msgid ""
-#| "Flavorful <link=\"MUSHROOM\">Mushrooms</link> wrapped in <link=\"LETTUCE"
-#| "\">Lettuce</link>."
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFOOD.RECIPEDESC"
 msgid ""
 "A long lasting <link=\"WORMSUPERFRUIT\">Grubfruit</link> jam preserved in "
 "<link=\"SUCROSE\">Sucrose</link>."
 msgstr ""
-"Leckere <link=\"MUSHROOM\">Pilze</link> die in <link=\"LETTUCE\">Salat</link> "
-"eingewickelt sind."
+"Lang haltbare Marmelade aus <link=\"WORMSUPERFRUIT\">Wühlfrucht</link>, durch "
+"<link=\"SUCROSE\">Zucker</link> konserviert."
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFRUIT.DESC"
@@ -51314,12 +51052,9 @@ msgid "A plump, healthy fruit with a honey-like taste."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFRUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.NAME"
-#| msgid "<link=\"PUFT\">Puft</link>"
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFRUIT.NAME"
 msgid "<link=\"WORMSUPERFRUIT\">Grubfruit</link>"
-msgstr "<link=\"PUFT\">Puft</link>"
+msgstr "<link=\"WORMSUPERFRUIT\">Wühlfrucht</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.DESC"
@@ -51515,16 +51250,6 @@ msgstr ""
 "durchzuführen."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.DESC"
-#| msgid ""
-#| "A seasoning that Duplicants can add to their <link=\"FOOD\">Food</link> to "
-#| "boost <link=\"MORALE\">Morale</link>.\n"
-#| "\n"
-#| "Duplicants will automatically use Table Salt while sitting at a <link="
-#| "\"DININGTABLE\">Mess Table</link> during mealtime.\n"
-#| "\n"
-#| "<i>Only the finest grains are chosen.</i>"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.DESC"
 msgid ""
 "A seasoning that Duplicants can add to their <link=\"FOOD\">Food</link> to "
@@ -51538,18 +51263,15 @@ msgstr ""
 "Ein Gewürz, das Duplikanten zu ihrem <link=\"FOOD\">Essen</link> hinzufügen "
 "können, um ihr <link=\"MORALE\">Moral</link> zu erhöhen.\n"
 "\n"
-"Duplikanten verwendet automatisch Tafelsalz, wenn sie während der Mahlzeit an "
-"einem <link=\"DININGTABLE\">Kantinen-Tisch</link> sitzen.\n"
+"Duplikanten verwendet automatisch raffinierten Zucker, wenn sie während der "
+"Mahlzeit an einem <link=\"DININGTABLE\">Kantinentisch</link> sitzen.\n"
 "\n"
 "<i>Nur die feinsten Körner wurden ausgesucht.</i>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.REFINEDMETAL"
-#| msgid "Refined Metal"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.NAME"
 msgid "Refined Sugar"
-msgstr "Veredeltes Metall"
+msgstr "Raffinierter Zucker"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.DESC"
@@ -51728,12 +51450,9 @@ msgstr ""
 "\">Lebensmittelvergiftung</link>."
 
 #. STRINGS.ITEMS.PILLS.BASICRADPILL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's construction speeds"
 msgctxt "STRINGS.ITEMS.PILLS.BASICRADPILL.DESC"
 msgid "Increases a Duplicant's natural radiation absorption rate."
-msgstr "Erhöht die Baugeschwindigkeit eines Duplikanten weiter"
+msgstr "Erhöht die natürliche Strahlungsabsorptionsrate eines Duplikanten."
 
 #. STRINGS.ITEMS.PILLS.BASICRADPILL.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICRADPILL.NAME"
@@ -51802,12 +51521,9 @@ msgstr ""
 "mit Kranken\" verabreicht werden."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's construction speeds"
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.DESC"
 msgid "Increases a Duplicant's natural radiation absorption rate."
-msgstr "Erhöht die Baugeschwindigkeit eines Duplikanten weiter"
+msgstr "Erhöht die natürliche Strahlungsabsorptionsrate eines Duplikanten."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.NAME
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.NAME"
@@ -51853,12 +51569,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.HIGHPOINT"
-#| msgid "High energy state change"
 msgctxt "STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.NAME"
 msgid "High Energy Particles"
-msgstr "Hochenergetische Zustandsänderung"
+msgstr "Hochenergiepartikel"
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.DESC
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.DESC"
@@ -51871,11 +51584,9 @@ msgstr ""
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.NAME
 #, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENLEAD.NAME"
-#| msgid "<link=\"MOLTENLEAD\">Molten Lead</link>"
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.NAME"
 msgid "<link=\"RAILGUNPAYLOAD\">Interplanetary Payload</link>"
-msgstr "<link=\"MOLTENLEAD\">Geschmolzenes Blei</link>"
+msgstr "<link=\"RAILGUNPAYLOAD\">Interplanetary Payload</link>"
 
 #. STRINGS.LORE.BUILDINGS.Desk.ENTRY
 msgctxt "STRINGS.LORE.BUILDINGS.Desk.ENTRY"
@@ -52259,9 +51970,6 @@ msgid "Colony Achievement earned"
 msgstr "Kolonie-Erfolg errungen"
 
 #. STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.TOOLTIP"
-#| msgid "Colony has earned a new achievement."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.TOOLTIP"
 msgid "The colony has earned a new achievement."
 msgstr "Die Kolonie hat einen neuen Erfolg errungen."
@@ -52400,9 +52108,6 @@ msgid "Duplicants have suffocated"
 msgstr "Duplikanten sind erstickt"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP"
-#| msgid "These Duplicants have asphyxiated in <link=\"HEAT\">cold</link> air:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP"
 msgid "These Duplicants have asphyxiated in <link=\"HEAT\">Cold</link> air:"
 msgstr "Diese Duplikanten sind in <link=\"HEAT\">kalter</link> Luft erstickt:"
@@ -52413,10 +52118,6 @@ msgid "Duplicants have suffocated"
 msgstr "Duplikanten sind erstickt"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
-#| msgid ""
-#| "These Duplicants have asphyxiated in <style=\"KKeyword\">Heat</style> air:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
 msgid "These Duplicants have asphyxiated in <style=\"KKeyword\">Hot</style> air:"
 msgstr ""
@@ -52565,11 +52266,6 @@ msgid "Notes on measuring heat energy"
 msgstr "Hinweise zur Messung der Wärmeenergie"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
-#| msgid ""
-#| "The Printing Pod is no longer available for printing.\n"
-#| "Countdown to the next production was rebooted."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
 msgid ""
 "The Printing Pod is no longer available for printing.\n"
@@ -52584,12 +52280,9 @@ msgid "Printables have been reabsorbed"
 msgstr "Druckerzeugnisse wurden resorbiert"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY1.TITLE"
-#| msgid "Printing Pod Promo"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP"
 msgid "Printing countdown rebooted"
-msgstr "Werbung für den Biodrucker"
+msgstr "Countdown für einen Druckvorgang neu gestartet"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME"
@@ -52922,16 +52615,6 @@ msgstr ""
 "verbessert:"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants have limited jumping and climbing abilities. They can only climb "
-#| "two tiles high and cannot fit into spaces shorter than two tiles or cross "
-#| "gaps wider than one tile. I should keep this in mind while placing "
-#| "errands.\n"
-#| "\n"
-#| "To check if an errand I've placed is accessible, I can select a Duplicant "
-#| "and click <b>Show Navigation</b> to view all areas within their reach."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
 msgid ""
 "Duplicants have limited jumping and climbing abilities. They can only climb "
@@ -53381,20 +53064,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME"
-#| msgid "Tutorial: Scheduling"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME"
 msgid "Tutorial: Radiation"
-msgstr "Anleitung: Zeitplanung"
+msgstr "Anleitung: Strahlung"
 
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.TOOLTIP"
-#| msgid "Notes on managing food contamination"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.TOOLTIP"
 msgid "Notes on managing radiation"
-msgstr "Notizen zur Lebensmittelkontamination"
+msgstr "Hinweise zum Umgang mit Strahlung"
 
 #. STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME"
@@ -53430,25 +53107,18 @@ msgid "{0} research complete!"
 msgstr "Forschung an {0} abgeschlossen!"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESETSKILL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME"
-#| msgid "Skill Increases:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESETSKILL.NAME"
 msgid "Skills reset"
-msgstr "Fähigkeiten erhöht:"
+msgstr "Fähigkeiten zurückgesetzt"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESETSKILL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
-#| msgid ""
-#| "These Duplicants have asphyxiated in <style=\"KKeyword\">Heat</style> air:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESETSKILL.TOOLTIP"
 msgid ""
 "These Duplicants have had their <style=\"KKeyword\">Skill Points</style> "
 "refunded:"
 msgstr ""
-"Diese Duplikanten sind wegen zu <style=\"KKeyword\">heißer</style> Luft "
-"erstickt:"
+"Die <style=\"KKeyword\">Fertigkeiten</style> dieser Duplikanten wurden "
+"zurückgesetzt:"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME"
@@ -53531,20 +53201,15 @@ msgstr ""
 "{0}"
 
 #. STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP"
-#| msgid "Duplicants can now learn new skills"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.NAME"
 msgid "{Duplicant} earned a skill point!"
-msgstr "Dieser Duplikant kann neue Fertigkeiten erlernen"
+msgstr "{Duplicant} hat einen Fertigkeitenpunkt erhalten!"
 
 #. STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP"
-#| msgid "Duplicants can now learn new skills"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP"
 msgid "{Duplicant} has been working hard and is ready to learn a new skill"
-msgstr "Dieser Duplikant kann neue Fertigkeiten erlernen"
+msgstr ""
+"{Duplicant} hat hart gearbeitet und ist bereit, eine neue Fähigkeit zu erlernen"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY"
@@ -53795,12 +53460,9 @@ msgstr ""
 "\"KKeyword\">Druckbereich</style> verlassen:"
 
 #. STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME"
-#| msgid "Duplicants have died"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.NAME"
 msgid "Duplicant warp ready"
-msgstr "Duplikanten sind gestorben"
+msgstr "Teleportation ist bereit"
 
 #. STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.TOOLTIP"
@@ -53843,20 +53505,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.VERSION_UPDATE"
-#| msgid "New version detected"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.NAME"
 msgid "New Planetoid detected"
-msgstr "Neue Version gefunden"
+msgstr "Neuen Planetoiden entdeckt"
 
 #. STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED"
-#| msgid "Undiscovered"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.TOOLTIP"
 msgid "{0} discovered"
-msgstr "Unentdeckt"
+msgstr "{0} entdeckt"
 
 #. STRINGS.MISC.NOTIFICATIONS.YELLOWALERT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.YELLOWALERT.NAME"
@@ -53938,12 +53594,9 @@ msgid "This building is currently being cleaned"
 msgstr "Dieses Gebäude wird derzeit gereinigt"
 
 #. STRINGS.MISC.STATUSITEMS.DURABILITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
-#| msgid "Scan Quality: {Quality}"
 msgctxt "STRINGS.MISC.STATUSITEMS.DURABILITY.NAME"
 msgid "Durability: {durability}"
-msgstr "Scanqualität: {Quality}"
+msgstr "Haltbarkeit: {durability}"
 
 #. STRINGS.MISC.STATUSITEMS.DURABILITY.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.DURABILITY.TOOLTIP"
@@ -54398,12 +54051,9 @@ msgid "This geyser's internal pressure is steadily building"
 msgstr "Der Innendruck des Geysirs steigt stetig"
 
 #. STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
-#| msgid "Scan Quality: {Quality}"
 msgctxt "STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.NAME"
 msgid "Suit Durability: {durability}"
-msgstr "Scanqualität: {Quality}"
+msgstr "Haltbarkeit des Anzugs: {durability}"
 
 #. STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.TOOLTIP"
@@ -54426,11 +54076,6 @@ msgid "{SubElement} emission blocked"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONBLOCKED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.TOOLTIP"
-#| msgid ""
-#| "This <link=\"OXYROCK\">Oxylite</link> deposit is not exposed to air and "
-#| "cannot emit <link=\"OXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONBLOCKED.TOOLTIP"
 msgid "This {Element} deposit is not exposed to air and cannot emit {SubElement}"
 msgstr ""
@@ -54438,45 +54083,29 @@ msgstr ""
 "und kann keinen <link=\"OXYGEN\">Sauerstoff</link> abgeben"
 
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONEMITTING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
-#| msgid "Emitting {Element}: {FlowRate}"
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONEMITTING.NAME"
 msgid "Emitting {Element}: {FlowRate}"
 msgstr "Stößt {Element} aus: {FlowRate}"
 
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONEMITTING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
-#| msgid ""
-#| "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONEMITTING.TOOLTIP"
 msgid "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
 msgstr ""
 "Produziert {Element} mit einer Rate von <style=\"produced\">{FlowRate}</style>"
 
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONOVERPRESSURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.NAME"
-#| msgid "Inert"
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONOVERPRESSURE.NAME"
 msgid "Inert"
 msgstr "Inert"
 
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONOVERPRESSURE.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.TOOLTIP"
-#| msgid ""
-#| "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
-#| "<link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN\">Oxygen</"
-#| "link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONOVERPRESSURE.TOOLTIP"
 msgid ""
 "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
 "{Element} deposit to emit {SubElement}"
 msgstr ""
-"Der Umgebungsluftdruck ist zu hoch für dieses <link=\"OXYROCK\">Oxilit</link>, "
-"um <link=\"OXYGEN\">Sauerstoff</link> abzugeben"
+"Der Umgebungsluftdruck ist zu hoch für {Element}, um {SubElement} abzugeben"
 
 #. STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME"
@@ -54789,12 +54418,9 @@ msgid "Industrial Product"
 msgstr "Industrielles Produkt"
 
 #. STRINGS.MISC.TAGS.INSULATOR
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.NAME"
-#| msgid "Insulation"
 msgctxt "STRINGS.MISC.TAGS.INSULATOR"
 msgid "Insulator"
-msgstr "Isolierung"
+msgstr "Isolator"
 
 #. STRINGS.MISC.TAGS.LIFE
 msgctxt "STRINGS.MISC.TAGS.LIFE"
@@ -56331,12 +55957,9 @@ msgid "Mike"
 msgstr ""
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MONTEREY
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.TITLE"
-#| msgid "Counter"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MONTEREY"
 msgid "Monterey"
-msgstr "Zähler"
+msgstr "Monterey"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.PEPPERJACK
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.PEPPERJACK"
@@ -56539,12 +56162,9 @@ msgid "Chan"
 msgstr ""
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CHARLIE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME"
-#| msgid "Charging"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CHARLIE"
 msgid "Charlie"
-msgstr "Lädt auf"
+msgstr "Charlie"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CROMULUS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CROMULUS"
@@ -56852,12 +56472,9 @@ msgid "Bones"
 msgstr ""
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.BUSINESS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.NAME"
-#| msgid "Cuisine"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.BUSINESS"
 msgid "Business"
-msgstr "Kochkunst"
+msgstr "Business"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.CAPTAIN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.CAPTAIN"
@@ -56905,20 +56522,14 @@ msgid "Good Ol'"
 msgstr ""
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.LIL
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.HIGH"
-#| msgid "Likely"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.LIL"
 msgid "Lil"
-msgstr "Wahrscheinlich"
+msgstr "Lil"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.LOVABLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPTABLE.NAME"
-#| msgid "Table"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.LOVABLE"
 msgid "Lovable"
-msgstr "Tisch"
+msgstr "Liebenswert"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.MX
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.MX"
@@ -56936,12 +56547,9 @@ msgid "Peppy"
 msgstr "Schwungvoll"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.POWERFUL
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_POWER"
-#| msgid "Power"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.POWERFUL"
 msgid "Powerful"
-msgstr "Strom"
+msgstr "Kraftvoll"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.PROFESSOR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.PROFESSOR"
@@ -56959,12 +56567,9 @@ msgid "Tiny"
 msgstr "Winzig"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.UNSTOPPABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.UNSTABLE"
-#| msgid "Unstable"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.UNSTOPPABLE"
 msgid "Unstoppable"
-msgstr "Instabil"
+msgstr "Nicht zu stoppen"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.WILD_OL
 #, fuzzy
@@ -57053,12 +56658,9 @@ msgid "The Ugly"
 msgstr "Der Hässliche"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_UNDEFEATED
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.NAME"
-#| msgid "Unrefrigerated"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_UNDEFEATED"
 msgid "The Undefeated"
-msgstr "Ungekühlt"
+msgstr "Der Unbesiegte"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_UNFORTUNATE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_UNFORTUNATE"
@@ -57618,20 +57220,15 @@ msgid "Nobody here..."
 msgstr ""
 
 #. STRINGS.NAMEGEN.WORLD.NO_DUPES_ON_PLANET_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.TOOLTIP"
-#| msgid "This Duplicant is cooking <style=\"KKeyword\">Food</style>"
 msgctxt "STRINGS.NAMEGEN.WORLD.NO_DUPES_ON_PLANET_TOOLTIP"
 msgid "There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
-msgstr "Dieser Duplikant kocht <style=\"KKeyword\">Nahrung</style>"
+msgstr ""
+"Es sind keine Duplikanten auf diesem <style=\"KKeyword\">Planetoiden</style>"
 
 #. STRINGS.NAMEGEN.WORLD.PLANETOID_PREFIX
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.DETAILS.PLANT_COUNT.NAME"
-#| msgid "Plants: {0}"
 msgctxt "STRINGS.NAMEGEN.WORLD.PLANETOID_PREFIX"
 msgid "Planetoid: "
-msgstr "Pflanzen: {0}"
+msgstr "Planetoid: "
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.FOREST
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.FOREST"
@@ -57802,23 +57399,20 @@ msgid ""
 msgstr ""
 
 #. STRINGS.NAMEGEN.WORLD.WORLDDIVIDER_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.TOOLTIP"
-#| msgid "This Duplicant is cooking <style=\"KKeyword\">Food</style>"
 msgctxt "STRINGS.NAMEGEN.WORLD.WORLDDIVIDER_TOOLTIP"
 msgid "Duplicants on the <style=\"KKeyword\">Planetoid</style> {0}"
-msgstr "Dieser Duplikant kocht <style=\"KKeyword\">Nahrung</style>"
+msgstr "Duplikanten auf diesem <style=\"KKeyword\">Planetoiden</style> {0}"
 
 #. STRINGS.RESEARCH.MESSAGING.DLC.EXPANSION1
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME"
-#| msgid "<style=\"KKeyword\">Jet Suit</style> Pattern"
 msgctxt "STRINGS.RESEARCH.MESSAGING.DLC.EXPANSION1"
 msgid ""
 "<style=\"KKeyword\">\n"
 "\n"
 "<i>Spaced Out!</i></style> DLC Content"
-msgstr "<style=\"KKeyword\">Jet-Anzug</style>-Muster"
+msgstr ""
+"<style=\"KKeyword\">\n"
+"\n"
+"<i>Spaced Out!</i></style> DLC Inhalt"
 
 #. STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION
 msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION"
