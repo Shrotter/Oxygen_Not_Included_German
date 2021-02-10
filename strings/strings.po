@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-07 19:04+0100\n"
+"PO-Revision-Date: 2021-02-10 19:56+0100\n"
 "Last-Translator: Eisberge <22561095+Eisberge@users.noreply.github.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -76967,12 +76967,12 @@ msgstr "Baugrube"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE"
 msgid "Construction of all modules must be completed before launch"
-msgstr ""
+msgstr "Der Bau aller Module muss vor dem Start abgeschlossen sein"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.READY"
 msgid "Construction of all modules is complete"
-msgstr ""
+msgstr "Der Bau aller Module ist abgeschlossen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
 #, fuzzy
@@ -76994,7 +76994,7 @@ msgstr "Erforderliche Eigenschaft fehlt"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY"
 msgid "Qualified crew boarded"
-msgstr ""
+msgstr "Qualifizierte Besatzung ist an Bord"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
@@ -77002,11 +77002,13 @@ msgid ""
 "Missing crew - at least one crew member aboard the rocket must have the <link="
 "\"PILOT\">Rocket Piloting</link> skill"
 msgstr ""
+"Fehlende Besatzung - mindestens ein Besatzungsmitglied an Board muss die "
+"Fertigkeit <link=\"PILOT\">Raketenpilot</link> haben"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY"
 msgid "Crew boarded"
-msgstr ""
+msgstr "Besatzung ist an Bord"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
 #, fuzzy
@@ -77027,12 +77029,12 @@ msgstr "Reinigt"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE"
 msgid "Flight path not clear"
-msgstr ""
+msgstr "Die Flugroute ist nicht frei"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.READY"
 msgid "Flight path clear"
-msgstr ""
+msgstr "Die Flugroute ist frei"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING"
@@ -77042,12 +77044,12 @@ msgstr ""
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE"
 msgid "The space above this rocket is obstructed"
-msgstr ""
+msgstr "Der Bereich über dieser Rakete ist versperrt"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.READY"
 msgid "Nothing is blocking the path of the rocket"
-msgstr ""
+msgstr "Nichts blockiert den Weg der Rakete"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING"
@@ -77073,7 +77075,7 @@ msgstr "Raketentriebwerk"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING"
 msgid "Engine warning"
-msgstr ""
+msgstr "Triebwerkswarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE
 #, fuzzy
@@ -77094,12 +77096,12 @@ msgstr "Raketentriebwerk"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING"
 msgid "Engine warning"
-msgstr ""
+msgstr "Triebwerkswarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.FAILURE"
 msgid "Needs fuel tank"
-msgstr ""
+msgstr "Benötigt einen Tank für Treibstoff"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY
 #, fuzzy
@@ -77120,7 +77122,7 @@ msgstr "Treibstofftank"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.FAILURE"
 msgid "Needs fuel tank"
-msgstr ""
+msgstr "Benötigt einen Tank für Treibstoff"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY
 #, fuzzy
@@ -77141,32 +77143,32 @@ msgstr "Treibstofftank"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE"
 msgid "Needs nosecone"
-msgstr ""
+msgstr "Benötigt Nasenkonus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.READY"
 msgid "Nosecone"
-msgstr ""
+msgstr "Nasenkonus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.WARNING"
 msgid "Nosecone warning"
-msgstr ""
+msgstr "Nasenkonuswarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.FAILURE"
 msgid "Needs nosecone"
-msgstr ""
+msgstr "Benötigt Nasenkonus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.READY"
 msgid "Rocket has Nosecone"
-msgstr ""
+msgstr "Rakete hat einen Nasenkonus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.WARNING"
 msgid "Nosecone warning"
-msgstr ""
+msgstr "Nasenkonuswarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE
 #, fuzzy
@@ -77195,12 +77197,12 @@ msgstr "Oxidatortank voll"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE"
 msgid "Rocket needs an Oxidizer tank"
-msgstr ""
+msgstr "Rakete benötigt einen Tank für Oxidationsmittel"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.READY"
 msgid "Rocket has an Oxidizer tank"
-msgstr ""
+msgstr "Rakete hat einen Oxidationsmitteltank"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING
 #, fuzzy
@@ -77258,17 +77260,19 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE
+#, fuzzy
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP."
 "FAILURE"
 msgid "Some landers still require construction"
-msgstr ""
+msgstr "Einige Lander müssen noch gebaut werden"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.READY
+#, fuzzy
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.READY"
 msgid "All requested landers are built and ready for deployment"
-msgstr ""
+msgstr "Alle angeforderten Lander sind gebaut und bereit für den Einsatz"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
 msgctxt ""
@@ -77293,7 +77297,7 @@ msgstr "Berechnungen abgeschlossen"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.WARNING"
 msgid "Cargo Loading Incomplete"
-msgstr ""
+msgstr "Frachtverladung unvollständig"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.FAILURE"
@@ -77306,6 +77310,8 @@ msgid ""
 "All the cargo that can be transferred on and off this rocket has been "
 "transferred"
 msgstr ""
+"Die gesamte Ladung, die auf und von dieser Rakete übertragen werden kann, "
+"wurde übertragen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.WARNING"
@@ -77313,6 +77319,8 @@ msgid ""
 "The <link=\"LAUNCHPLATFORM\">Rocket Platform</link> could still transfer cargo "
 "to or from this rocket"
 msgstr ""
+"Die <link=\"LAUNCHPLATFORM\">Raketenplattform</link> könnte noch Fracht zu "
+"oder von dieser Rakete übertragen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE
 #, fuzzy
@@ -77343,7 +77351,7 @@ msgstr "Trauert"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.FAILURE"
 msgid "This rocket's engine can not support this many modules"
-msgstr ""
+msgstr "Dieser Raketentriebwerk kann so viele Module nicht unterstützen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.READY
 #, fuzzy
@@ -77374,7 +77382,7 @@ msgstr "Kein Ziel ausgewählt."
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.FAILURE"
 msgid "Extra passengers onboard"
-msgstr ""
+msgstr "Zusätzliche Passagiere an Bord"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY
 #, fuzzy
@@ -77393,9 +77401,10 @@ msgid "Extra passengers"
 msgstr "Keine Passagiere"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.READY
+#, fuzzy
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.READY"
 msgid "Crew correct"
-msgstr ""
+msgstr "Besatzung ist passend"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.WARNING
 #, fuzzy
@@ -77432,7 +77441,7 @@ msgstr "Treibstoff"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.WARNING"
 msgid "Warning: partially fueled"
-msgstr ""
+msgstr "Warnung: Unvollständig getankt"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
@@ -77441,6 +77450,11 @@ msgid ""
 "\n"
 "If the tanks are already full then this rocket can never reach that destination"
 msgstr ""
+"Es muss mehr Treibstoff getankt werden, bevor diese Rakete zum Start bereit "
+"ist.\n"
+"\n"
+"Wenn die Tanks bereits voll sind, kann diese Rakete dieses Ziel niemals "
+"erreichen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
@@ -77448,6 +77462,8 @@ msgid ""
 "This rocket has sufficient fuel to make a round trip to and from its selected "
 "destination (or fully fuelled if no destination selected)"
 msgstr ""
+"Diese Rakete hat genügend Treibstoff für einen Hin- und Rückflug zum und vom "
+"ausgewählten Ziel (oder vollgetankt, wenn kein Ziel ausgewählt wurde)"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING"
@@ -77457,6 +77473,10 @@ msgid ""
 "\n"
 "The rocket can still be launched if necessary"
 msgstr ""
+"Diese Rakete hat genug Treibstoff, um zum Ziel zu gelangen, aber nicht wieder "
+"zurück.\n"
+"\n"
+"Sie kann trotzdem gestartet werden, wenn es notwendig ist"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED"
@@ -77496,12 +77516,12 @@ msgstr "Ausreichende Moral"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.WARNING"
 msgid "Warning: limited oxidizer"
-msgstr ""
+msgstr "Warnung: Limitiertes Oxidationsmittel"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.FAILURE"
 msgid "More oxidizer must be loaded before this rocket is ready for takeoff."
-msgstr ""
+msgstr "Mehr Oxidationsmittel ist notwendig, bevor diese Rakete abheben kann."
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY"
@@ -77509,6 +77529,8 @@ msgid ""
 "This rocket has sufficient oxidizer for a round trip to and from its selected "
 "destination"
 msgstr ""
+"Diese Rakete hat genügend Oxidationsmittel für eine Rundreise von und zu ihrem "
+"ausgewählten Ziel"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING"
@@ -77518,6 +77540,10 @@ msgid ""
 "\n"
 "The rocket can still be launched if necessary"
 msgstr ""
+"Diese Rakete hat genügend Oxidationsmittel für den Hinweg, aber nicht für den "
+"Rückweg.\n"
+"\n"
+"Sie kann trotzdem gestartet werden, wenn es notwendig ist."
 
 #. STRINGS.UI.STARMAP.LISTTITLES.ANALYSIS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.ANALYSIS"
