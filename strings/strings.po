@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-10 20:20+0100\n"
+"PO-Revision-Date: 2021-02-10 20:27+0100\n"
 "Last-Translator: Eisberge <22561095+Eisberge@users.noreply.github.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -64180,14 +64180,6 @@ msgid "    • <b>Dying off: {0}</b>"
 msgstr "    • <b>Stirbt an: {0}</b>"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP"
-#| msgid ""
-#| "Low germ count in this area is causing germs to die rapidly\n"
-#| "\n"
-#| "Fewer than {0} germs are on this {1} of material.\n"
-#| "({2} germs/Kg)"
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP"
 msgid ""
 "Low germ count in this area is causing germs to die rapidly\n"
@@ -64257,15 +64249,6 @@ msgid "    • <b>Overpopulated: {0}</b>"
 msgstr "    • <b>Überbevölkert: {0}</b>"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
-#| msgid ""
-#| "Too many germs are present in this area, resulting in rapid die-off until "
-#| "the population stabilizes\n"
-#| "\n"
-#| "A maximum of {0} can be on this {1} of material.\n"
-#| "({2} germs/Kg)"
 msgctxt ""
 "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
 msgid ""
@@ -64278,7 +64261,7 @@ msgstr ""
 "In diesem Bereich befinden sich zu viele Keime. Sie werden schnell absterben, "
 "bis die Population stabil ist\n"
 "\n"
-"Auf diesen {1} Material können maximal {0} Keime sein.\n"
+"Auf diesem {1} Material können maximal {0} Keime sein.\n"
 "({2} Keime/kg)"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.PRESSURE.DIE_TOOLTIP
@@ -64527,9 +64510,6 @@ msgid "POWER GENERATORS"
 msgstr "ENERGIEERZEUGER"
 
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.MAX_SAFE_WATTAGE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.MAX_SAFE_WATTAGE"
-#| msgid "Maximum Safe Wattage: {0}"
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.MAX_SAFE_WATTAGE"
 msgid "Maximum safe wattage: {0}"
 msgstr "Maximale sichere Leistung: {0}"
@@ -64802,9 +64782,6 @@ msgstr ""
 "Duplikanten an"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL"
 msgid "Requirements"
 msgstr "Anforderungen"
@@ -64820,12 +64797,9 @@ msgid "CHECKLIST"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
-#| msgid "Rocket Checklist"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD"
 msgid "Crew Checklist"
-msgstr "Raketen-Checkliste"
+msgstr "Checkliste der Besatzung"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP"
@@ -64835,12 +64809,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.LIGHT.NAME"
-#| msgid "Light source"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT"
 msgid "Flight Route"
-msgstr "Lichtquelle"
+msgstr "Flugroute"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT_TOOLTIP"
@@ -64848,9 +64819,6 @@ msgid "A rocket requires a clear path to a set destination to conduct a mission"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
-#| msgid "Launch Checklist"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP"
 msgid "Launch Checklist"
 msgstr "Checkliste für den Start"
@@ -64878,9 +64846,6 @@ msgid "INFORMATION"
 msgstr "INFORMATION"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ELEMENTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.RESOURCESCREEN.HEADER"
-#| msgid "RESOURCES"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ELEMENTS"
 msgid "RESOURCES"
 msgstr "RESSOURCEN"
@@ -64916,12 +64881,9 @@ msgid "RESEARCH"
 msgstr "FORSCHUNG"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ROCKET
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.NO_ROCKETS_TITLE"
-#| msgid "NO ROCKETS"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ROCKET"
 msgid "ROCKETRY"
-msgstr "KEINE RAKETEN"
+msgstr "RAKETENTECHNIK"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_STATUS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_STATUS"
@@ -65019,25 +64981,6 @@ msgstr ""
 "- Das Team von Klei"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY"
-#| msgid ""
-#| "This game is in the early stages of development which means you're likely "
-#| "to encounter strange, amusing, and occasionally just downright frustrating "
-#| "bugs.\n"
-#| "\n"
-#| "During this time Oxygen Not Included will be receiving regular updates to "
-#| "fix bugs, add features, and introduce additional content, so if you "
-#| "encounter issues or just have suggestions to share, please let us know on "
-#| "our forums: <u>http://forums.kleientertainment.com</u>\n"
-#| "\n"
-#| "A special thanks to those who joined us during our time in Alpha. We value "
-#| "your feedback and thank you for joining us in the development process. We "
-#| "couldn't do this without you.\n"
-#| "\n"
-#| "Enjoy your time in deep space!\n"
-#| "\n"
-#| "- Klei"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS"
 msgid ""
 "This DLC is currently in active development, which means you're likely to "
@@ -65051,22 +64994,18 @@ msgid ""
 "\n"
 " - The Team at Klei"
 msgstr ""
-"Dieser DLC befindet sich in der frühen Entwicklungsphase, was bedeutet, dass "
-"du vermutlich komische, lustige und manchmal auch ziemlich frustrierende "
-"Fehler finden wirst.\n"
+"Dieser DLC befindet sich derzeit in aktiver Entwicklung, was bedeutet, dass "
+"Sie wahrscheinlich auf seltsame, amüsante und gelegentlich einfach nur "
+"frustrierende Bugs stoßen werden.\n"
 "\n"
-"Während dieser Zeit wird Oxygen Not Included regelmäßig aktualisiert, um "
-"Fehler zu beheben und Features hinzuzufügen. Wenn du also einen Fehler "
-"bemerkst oder Vorschläge mit uns teilen möchtest, besuche unser Forum: "
-"<u>http://forums.kleientertainment.com</u>\n"
+" Während dieser Zeit wird Spaced Out! regelmäßige Updates erhalten, um Fehler "
+"zu beheben, Funktionen hinzuzufügen und zusätzliche Inhalte einzuführen.\n"
 "\n"
-"Vielen Dank an alle, die uns während der Alpha begleitet haben. Euer Feedback "
-"ist uns viel Wert, und danke, dass ihr uns im Entwicklungsprozess begleitet. "
-"Ohne euch könnten wir das nicht.\n"
+" Wir haben eine Menge alter und neuer Inhalte, die wir zu diesem DLC "
+"hinzufügen wollen, bevor er fertig ist, und wir freuen uns, wenn Sie uns dabei "
+"begleiten. Genießen Sie Ihre Zeit im tiefen Weltraum!\n"
 "\n"
-"Viel Spaß in den Tiefen des Weltraums!\n"
-"\n"
-"- Das Team von Klei"
+" - Das Team von Klei"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -65074,12 +65013,9 @@ msgid "Okay, thanks for the heads up!"
 msgstr "Okay, danke für die Erinnerung!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.GETDOCTORED.NAME"
-#| msgid "Visit Doctor"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON"
 msgid "Visit Forums"
-msgstr "Besucht Arzt"
+msgstr "Besuche das Forum"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE"
@@ -65221,20 +65157,14 @@ msgid "Diagnostic"
 msgstr ""
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.RESERVED
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.ARCHETYPE_NAME"
-#| msgid "Researcher"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.RESERVED"
 msgid "Reserved"
-msgstr "Forscher"
+msgstr "Reserviert"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.SEARCH
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.RESEARCH.HEADER_1"
-#| msgid "Research"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.SEARCH"
 msgid "Search"
-msgstr "Forschung"
+msgstr "Suche"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.SEE_ALL
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.SEE_ALL"
@@ -65242,9 +65172,6 @@ msgid "+ See All ({0})"
 msgstr ""
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
-#| msgid "Status"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.STATUS"
 msgid "Status"
 msgstr "Status"
@@ -65255,9 +65182,6 @@ msgid "DIAGNOSTICS"
 msgstr ""
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.TOTAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL"
-#| msgid "Total"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.TOTAL"
 msgid "Total"
 msgstr "Total"
@@ -65536,32 +65460,19 @@ msgid "Calorie Generation:"
 msgstr "Kalorienerzeugung:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"FOOD\">Food</link> over the course of the "
-#| "day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"FOOD\">Food</link> was consumed by {1} over the course of the "
 "day"
-msgstr ""
-"Meine Kolonie hat {0} <link=\"FOOD\">Nahrungsmittel</link> im Laufe des Tages "
-"verbraucht"
+msgstr "{0} <link=\"FOOD\">Nahrung</link> wurde im Laufe des Tages verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "My colony produced {0} of <link=\"FOOD\">Food</link> over the course of the "
-#| "day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"FOOD\">Food</link> was produced by {1} over the course of the "
 "day"
 msgstr ""
-"Meine Kolonie hat {0} <link=\"FOOD\">Nahrungsmittel</link> im Laufe des Tages "
-"erzeugt"
+"{0} <link=\"FOOD\">Nahrung</link> wurde von {1} im Laufe des Tages produziert"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
@@ -65569,20 +65480,14 @@ msgid "Errands:"
 msgstr "Aufträge:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
-#| msgid "My Duplicants completed {0} errands over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
 msgid "{0} errands were completed over the course of the day by {1}"
-msgstr "Meine Duplikanten erledigten im Laufe des Tages {0} Besorgungen"
+msgstr "{0} Besorgungen wurden im Laufe des Tages von {1} erledigt."
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE"
-#| msgid "{2} errands: {0} / {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP"
 msgid "{0} errands are queued for {1}"
-msgstr "{2} Aufträge: {0} / {1}"
+msgstr "{0} Besorgungen in der Warteschlange für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
@@ -65590,36 +65495,24 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Flatulence</link> Generation:"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Flatulenz</link>-Produktion:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} "
 "over the course of the day"
 msgstr ""
-"Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten "
-"Sauerstoff</link> verbraucht"
+"{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} "
+"über den Tag verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
 "{1} over the course of the day"
 msgstr ""
-"Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten "
-"Sauerstoff</link> verbraucht"
+"{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} "
+"über den Tag erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
@@ -65627,36 +65520,24 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Sublimierung</link>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} "
 "over the course of the day"
 msgstr ""
-"Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten "
-"Sauerstoff</link> verbraucht"
+"{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} "
+"über den Tag verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
 "{1} over the course of the day"
 msgstr ""
-"Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten "
-"Sauerstoff</link> verbraucht"
+"{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} "
+"über den Tag erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
@@ -65664,34 +65545,22 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Toilet Emissions: </link>"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Toilettenabgase: </link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} "
 "over the course of the day"
 msgstr ""
-"Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten "
-"Sauerstoff</link> verbraucht"
+"{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} "
+"über den Tag verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
 "{1} over the course of the day"
 msgstr ""
-"Meine Kolonie hat heute {0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten "
-"Sauerstoff</link> verbraucht"
+"{0} <link=\"CONTAMINATEDOXYGEN\">verschmutzten Sauerstoff</link> wurde von {1} "
+"über den Tag erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -65714,20 +65583,15 @@ msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgstr "An <link=\"DISEASE\">Krankheiten</link> erkrankt:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME"
-#| msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP"
 msgid "{0} <link=\"DISEASE\">Disease</link> were cured by {1}"
-msgstr "An <link=\"DISEASE\">Krankheiten</link> erkrankt:"
+msgstr "{0} <link=\"DISEASE\">Krankheit</link> geheilt von {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME"
-#| msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP"
 msgid "{0} <link=\"DISEASE\">Disease</link> were contracted by {1}"
-msgstr "An <link=\"DISEASE\">Krankheiten</link> erkrankt:"
+msgstr "{0} <link=\"DISEASE\">Krankheit</link> wurden von {1} zugezogen"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME"
@@ -65735,12 +65599,9 @@ msgid "Disease Status:"
 msgstr "Krankheitsstatus:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE"
-#| msgid "Temperature range: {0} to {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
 msgid "There are {0} covering {1}"
-msgstr "Temperaturbereich: {0} bis {1}"
+msgstr "Es gibt {0} für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
@@ -65753,30 +65614,19 @@ msgid "<link=\"POWER\">Power</link> Usage:"
 msgstr "<link=\"POWER\">Stromverbrauch</link>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "My colony created {0} of <link=\"POWER\">Power</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was consumed by {1} over the course of the "
 "day"
-msgstr ""
-"Meine Kolonie hat {0} <link=\"POWER\">Strom</link> im Laufe des Tages erzeugt"
+msgstr "{0} <link=\"POWER\">Strom</link> verbraucht von{1} im Laufe des Tages"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "My colony created {0} of <link=\"POWER\">Power</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was created by {1} over the course of the "
 "day"
 msgstr ""
-"Meine Kolonie hat {0} <link=\"POWER\">Strom</link> im Laufe des Tages erzeugt"
+"{0} <link=\"POWER\">Strom</link> erzeugt von {1} im Laufe des Tages erzeugt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME"
@@ -65784,18 +65634,13 @@ msgid "<link=\"POWER\">Power</link> Wasted:"
 msgstr "<link=\"POWER\">Strom</link> verschwendet:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony lost {0} of <link=\"POWER\">Power</link> today due to "
-#| "overproduction and battery runoff"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was lost today due to battery runoff and "
 "overproduction in {1}"
 msgstr ""
-"Meine Kolonie hat {0} <link=\"POWER\">Strom</link> im Laufe des Tages wegen "
-"Überproduktion verloren"
+"{0} <link=\"POWER\">Strom</link> wurde heute aufgrund von Batterieverlust und "
+"Überproduktion in {1} verloren"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME"
@@ -65813,12 +65658,9 @@ msgid "Skill Increases:"
 msgstr "Fähigkeiten erhöht:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
-#| msgid "My Duplicants gained a total of {0} skill levels today"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
 msgid "Today {1} gained a total of {0} skill levels"
-msgstr "Meine Duplikanten haben heute insgesamt {0} Fertigkeitsstufen erhalten."
+msgstr "Heute {1} gewann insgesamt {0} Fertigkeitsstufen"
 
 #. STRINGS.UI.ENDOFDAYREPORT.MY_COLONY
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.MY_COLONY"
@@ -65958,20 +65800,14 @@ msgid "Wild Critters:"
 msgstr "Wilde Tiere:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
-#| msgid "{0} domestic critters live in {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{0} Haustiere leben in {1}"
+msgstr "{0} Wildtiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
-#| msgid "{0} domestic critters live in {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{0} Haustiere leben in {1}"
+msgstr "{0} Wildtiere leben in {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
@@ -65979,32 +65815,22 @@ msgid "<link=\"OXYGEN\">Oxygen</link> Generation:"
 msgstr "<link=\"OXYGEN\">Sauerstoff</link>-Produktion:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"OXYGEN\">Oxygen</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"OXYGEN\">Oxygen</link> was consumed by {1} over the course of "
 "the day"
 msgstr ""
-"Meine Kolonie hat heute im Laufe des Tages {0} <link=\"OXYGEN\">Sauerstoff</"
-"link> verbraucht"
+"{0} <link=\"OXYGEN\">Sauerstoff</link> wurde im Laufe des Tages von {1} "
+"verbraucht"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"OXYGEN\">Oxygen</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"OXYGEN\">Oxygen</link> was produced by {1} over the course of "
 "the day"
 msgstr ""
-"Meine Kolonie hat heute im Laufe des Tages {0} <link=\"OXYGEN\">Sauerstoff</"
-"link> verbraucht"
+"{0} <link=\"OXYGEN\">Sauerstoff</link> wurde von {1} im Laufe des Tages "
+"produziert"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME"
@@ -66012,15 +65838,11 @@ msgid "Personal Time:"
 msgstr "Persönliche Zeit:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "On average, my Duplicants spent {0} of their time tending to personal needs"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP"
 msgid "On average, {0} of {1}'s time was spent tending to personal needs"
 msgstr ""
-"Im Durchschnitt verbrachten meine Duplikanten {0} ihrer Zeit für ihre "
-"persönlichen Bedürfnisse"
+"Im Durchschnitt wurde {0} der Zeit von {1} für persönliche Bedürfnisse "
+"aufgewendet"
 
 # "Vorherige" ist zu lang und wird umgebrochen
 #. STRINGS.UI.ENDOFDAYREPORT.PREV
@@ -66059,25 +65881,16 @@ msgid "<link=\"STRESS\">Stress</link> Change:"
 msgstr "<link=\"STRESS\">Stressveränderung</link>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.STRESS_CREATORS"
-#| msgid "<link=\"STRESS\">Stress</link> Creators"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP"
 msgid "<link=\"STRESS\">Stress</link> decreased by a total of {0} for {1}"
-msgstr "<link=\"STRESS\">Stress</link>-Verursacher"
+msgstr "<link=\"STRESS\">Stress</link> für {1} um insgesamt {0} verringert"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.STRESS_CREATORS"
-#| msgid "<link=\"STRESS\">Stress</link> Creators"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP"
 msgid "<link=\"STRESS\">Stress</link> increased by a total of {0} for {1}"
-msgstr "<link=\"STRESS\">Stress</link>-Verursacher"
+msgstr "<link=\"STRESS\">Stress</link> erhöht um {0} für {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER"
-#| msgid "Time Details:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER"
 msgid "Total Time Details:"
 msgstr "Zeitdetails:"
@@ -66098,15 +65911,10 @@ msgid "Travel Time:"
 msgstr "Reisezeit:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "On average, my Duplicants spent {0} of their time traveling between tasks"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
 msgid "On average, {1} spent {0} of their time traveling between tasks"
 msgstr ""
-"Im Durchschnitt verbrachten meine Duplikanten {0} ihrer Zeit damit, zwischen "
-"Aufgaben zu reisen"
+"Im Durchschnitt verbrachte {1} {0} seiner Zeit mit dem Reisen zwischen Auftr"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE"
@@ -66128,12 +65936,9 @@ msgid "Work Time:"
 msgstr "Arbeitszeit:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP"
-#| msgid "On average, my Duplicants spent {0} of their time working"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP"
 msgid "On average, {0} of {1}'s time was spent working"
-msgstr "Im Durchschnitt verbrachten meine Duplikanten {0} ihrer Zeit mit Arbeit"
+msgstr "Im Durchschnitt wurde {0} der Zeit von {1} mit der Arbeit verbracht"
 
 #. STRINGS.UI.EQUIPMENTTAB_HELD
 msgctxt "STRINGS.UI.EQUIPMENTTAB_HELD"
