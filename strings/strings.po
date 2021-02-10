@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-10 20:27+0100\n"
+"PO-Revision-Date: 2021-02-10 20:31+0100\n"
 "Last-Translator: Eisberge <22561095+Eisberge@users.noreply.github.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -62334,12 +62334,9 @@ msgid "CLEAR COMPLETED ORDERS"
 msgstr "ALLE AUFTRÄGE LÖSCHEN"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LITTLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.LEAK_REQUIREMENT"
-#| msgid "Spillage: {amount}"
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LITTLE"
 msgid "Small amount"
-msgstr "Verschüttet: {amount}"
+msgstr "Kleine Menge"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LOTS
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.LOTS"
@@ -62352,36 +62349,24 @@ msgid "Significant amount"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.VERY_LITTLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT"
-#| msgid "Trace Amount"
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.ELEMENT_AMOUNTS.VERY_LITTLE"
 msgid "Trace amount"
 msgstr "Spurenmenge"
 
 #. STRINGS.UI.CLUSTERMAP.CHANGE_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TOGGLE.STATUS"
-#| msgid "Going to change setting"
 msgctxt "STRINGS.UI.CLUSTERMAP.CHANGE_DESTINATION"
 msgid "Click to change destination"
-msgstr "Geht Einstellungen ändern"
+msgstr "Klicke hier, um das Ziel zu ändern"
 
 #. STRINGS.UI.CLUSTERMAP.DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.TITLE"
-#| msgid "CHOOSE A DESTINATION"
 msgctxt "STRINGS.UI.CLUSTERMAP.DESTINATION"
 msgid "DESTINATION"
-msgstr "WÄHLE EIN ZIEL"
+msgstr "ZIEL"
 
 #. STRINGS.UI.CLUSTERMAP.ELEMENTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS"
-#| msgid "REQUIREMENTS"
 msgctxt "STRINGS.UI.CLUSTERMAP.ELEMENTS"
 msgid "ELEMENTS"
-msgstr "ANFORDERUNGEN"
+msgstr "ELEMENTE"
 
 #. STRINGS.UI.CLUSTERMAP.LANDING_SITES
 msgctxt "STRINGS.UI.CLUSTERMAP.LANDING_SITES"
@@ -62394,20 +62379,14 @@ msgid "CREW"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.PLANETOID
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
-#| msgid "Plant"
 msgctxt "STRINGS.UI.CLUSTERMAP.PLANETOID"
 msgid "Planetoid"
-msgstr "Pflanze"
+msgstr "Planetoid"
 
 #. STRINGS.UI.CLUSTERMAP.PLANETOID_KEYWORD
-#, fuzzy
-#| msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
-#| msgid "<style=\"KKeyword\">Morale</style>: {0}"
 msgctxt "STRINGS.UI.CLUSTERMAP.PLANETOID_KEYWORD"
 msgid "<style=\"KKeyword\">Planetoid</style>"
-msgstr "<style=\"KKeyword\">Moral</style>: {0}"
+msgstr "<style=\"KKeyword\">Planetoid</style>"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.NAME"
@@ -62415,20 +62394,14 @@ msgid "Module Burden: "
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.AGE.TOOLTIP"
-#| msgid "The selected object is {0} cycles old"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.TOOLTIP"
 msgid "The selected module adds {0} to the rocket's total Burden"
-msgstr "Der ausgewählte Objekt ist {0} Zyklen alt"
+msgstr "Das ausgewählte Modul erhöht die Gesamtbelastung der Rakete um {0}"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_TOTAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_ROCKETS"
-#| msgid "Rocketry"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_TOTAL.NAME"
 msgid "Rocket burden: "
-msgstr "Raketentechnik"
+msgstr "Raketenlast: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_TOTAL.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_TOTAL.TOOLTIP"
@@ -62446,28 +62419,19 @@ msgid "This rocket can travel one tile per {0} of fuel"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.FUEL_REMAINING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING"
-#| msgid "Time Remaining"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.FUEL_REMAINING.NAME"
 msgid "Fuel Remaining: "
-msgstr "Verbleibende Zeit"
+msgstr "Verbleibender Treibstoff: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.FUEL_REMAINING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.DESC"
-#| msgid "This robot is unloading its storage"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.FUEL_REMAINING.TOOLTIP"
 msgid "This rocket has {0} fuel in its tank"
-msgstr "Dieser Roboter entlädt sein Lager"
+msgstr "Diese Rakete hat {0} Treibstoff in ihrem Tank"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
-#| msgid "Modules"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.NAME"
 msgid "Max Modules: "
-msgstr "Module"
+msgstr "Max Module: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP"
@@ -62475,32 +62439,19 @@ msgid "The {0} can support a maximum of {1} modules (including itself)"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
-#| msgid "Modules"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME"
 msgid "Module Stats: "
-msgstr "Module"
+msgstr "Modulstatistik: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.DISEASE.TOOLTIP"
-#| msgid "There are {0} on the selected object"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.TOOLTIP"
 msgid "Properties of the selected module"
-msgstr "Es sind {0} Objekte ausgewählt"
+msgstr "Eigenschaften des ausgewählten Moduls"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
-#| msgid ""
-#| "\n"
-#| "Time Remaining: {0}"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.NAME"
 msgid "Oxidizer Power Remaining: "
-msgstr ""
-"\n"
-"Verbleibende Zeit: {0}"
+msgstr "Verbleibende Oxidationskraft: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.TOOLTIP"
@@ -62518,12 +62469,9 @@ msgid "The selected module adds {0} to the rocket's total Engine Power"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.POWER_TOTAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
-#| msgid "rocket engine"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.POWER_TOTAL.NAME"
 msgid "Rocket engine power: "
-msgstr "Raketentriebwerk"
+msgstr "Raketentriebwerksleistung: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.POWER_TOTAL.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.POWER_TOTAL.TOOLTIP"
@@ -62531,12 +62479,9 @@ msgid "The total engine power added by all the modules in this rocket"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING"
-#| msgid "Time Remaining"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.NAME"
 msgid "Range Remaining: "
-msgstr "Verbleibende Zeit"
+msgstr "Verbleibende Reichweite: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.TOOLTIP"
@@ -62547,12 +62492,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED"
-#| msgid "Cycle Speed"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.NAME"
 msgid "Rocket Speed: "
-msgstr "Geschwindigkeit des Zyklus"
+msgstr "Raketengeschwindigkeit: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.TOOLTIP"
@@ -62562,33 +62504,21 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
-#| msgid "Select a destination from the Starmap"
 msgctxt "STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION"
 msgid "Select a new destination on the map"
-msgstr "Wähle ein Ziel in der Sternenkarte"
+msgstr "Wähle ein neues Ziel auf der Karte"
 
 #. STRINGS.UI.CLUSTERMAP.TILES
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.BUILDMENUTITLE"
-#| msgid "Tiles"
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES"
 msgid "Tiles"
-msgstr "Ziegel"
+msgstr "Kachel"
 
 #. STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.UPTIME.THIS_CYCLE"
-#| msgid "This Cycle"
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE"
 msgid "Tiles per cycle"
-msgstr "Dieser Zyklus"
+msgstr "Kachel pro Zyklus"
 
 #. STRINGS.UI.CLUSTERMAP.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MANAGEMENT_BUTTON"
-#| msgid "STARMAP"
 msgctxt "STRINGS.UI.CLUSTERMAP.TITLE"
 msgid "STARMAP"
 msgstr "STERNENKARTE"
@@ -62623,18 +62553,11 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_REQUIRE_ASTEROID
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH"
-#| msgid "Accelerates <style=\"KKeyword\">Plant</style> growth and maturation"
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_REQUIRE_ASTEROID"
 msgid "Must select a <style=\"KKeyword\">Planetoid</style> destination"
-msgstr ""
-"Beschleunigt Wachstum und Reifezeit von <style=\"KKeyword\">Pflanzen</style>"
+msgstr "Muss ein <style =\"KKeyword\">Planetoid</style> als Ziel auswählen"
 
 #. STRINGS.UI.CLUSTERMAP.UNKNOWN_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.AGE.UNKNOWN"
-#| msgid "Unknown"
 msgctxt "STRINGS.UI.CLUSTERMAP.UNKNOWN_DESTINATION"
 msgid "Unknown"
 msgstr "Unbekannt"
@@ -62663,12 +62586,9 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.BIOMES
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIME.NAME"
-#| msgid "<link=\"LIME\">Lime</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BIOMES"
 msgid "<link=\"BIOMES\">Biomes</link>"
-msgstr "<link=\"LIME\">Kalk</link>"
+msgstr "<link=\"BIOMES\">Biome</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS"
@@ -62741,20 +62661,14 @@ msgid "<link=\"JOURNALS\">Journals</link>"
 msgstr "<link=\"JOURNALS\">Protokolle</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSITEMS
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.SYSTEMS"
-#| msgid "<link=\"SYSTEMS\">Systems</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSITEMS"
 msgid "<link=\"MISCELLANEOUSITEMS\">Items</link>"
-msgstr "<link=\"SYSTEMS\">Systeme</link>"
+msgstr "<link=\"MISCELLANEOUSITEMS\">Gegenstände</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
-#| msgid "<link=\"MISCELLANEOUSTIPS\">Miscellaneous Tips</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
 msgid "<link=\"MISCELLANEOUSTIPS\">Tips</link>"
-msgstr "<link=\"MISCELLANEOUSTIPS\">Verschiedene Tipps</link>"
+msgstr "<link=\"MISCELLANEOUSTIPS\">Tips</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG"
@@ -62879,20 +62793,6 @@ msgid "Systems"
 msgstr "Systeme"
 
 #. STRINGS.UI.CODEX.GEYSERS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.GEYSERS.DESC"
-#| msgid ""
-#| "Geysers and Fumaroles emit elements at variable intervals. They provide a "
-#| "sustainable source of material, albeit in typically low volumes.\n"
-#| "\n"
-#| "The variable factors of a geyser are:\n"
-#| "\n"
-#| "    • Emission element \n"
-#| "    • Emission temperature \n"
-#| "    • Emission mass \n"
-#| "    • Cycle length \n"
-#| "    • Dormancy duration \n"
-#| "    • Disease emitted"
 msgctxt "STRINGS.UI.CODEX.GEYSERS.DESC"
 msgid ""
 "Geysers and Fumaroles emit elements at variable intervals. They provide a "
@@ -62907,7 +62807,7 @@ msgid ""
 "    • Dormancy duration \n"
 "    • Disease emitted"
 msgstr ""
-"Geysire und Fumarolen stoßen in variablen Abständen Elemente aus, die eine "
+"Geysire und Fumarole stoßen in variablen Abständen Elemente aus, die eine "
 "nachhaltige, wenn auch meist geringe Menge an Material liefern.\n"
 "\n"
 "Die variablen Faktoren eines Geysirs sind:\n"
