@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-10 20:11+0100\n"
+"PO-Revision-Date: 2021-02-10 20:20+0100\n"
 "Last-Translator: Eisberge <22561095+Eisberge@users.noreply.github.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -62955,12 +62955,9 @@ msgid "DATABASE"
 msgstr "DATENBANK"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
-#| msgid "Errands"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.ALL_NAME"
 msgid "Errands"
-msgstr "Aufträge"
+msgstr "Besorgungen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.NORMAL"
@@ -62968,20 +62965,14 @@ msgid "    • {0} errands pending or in progress"
 msgstr "    • {0} der Besorgungen sind geplant oder werden durchgeführt"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.REFUSES_TO_DO_TASK"
-#| msgid "Cannot do<b>{0} Errands</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Errands</b>"
-msgstr "Kann <b>{0} Aufträge</b> nicht durchführen"
+msgstr "<b>Besorgungen</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.NAME"
-#| msgid "Work Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.ALL_NAME"
 msgid "Work Time"
-msgstr "Arbeitszeit:"
+msgstr "Arbeitszeit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL"
@@ -62989,17 +62980,11 @@ msgid "    • {0} of Duplicant time spent working"
 msgstr "    • {0} der Zeit von Duplikanten wurde mit Arbeit verbracht"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.NAME"
-#| msgid "Work Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Work Time</b>"
-msgstr "Arbeitszeit:"
+msgstr "<b>Arbeitszeit</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
-#| msgid "Battery"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME"
 msgid "Battery"
 msgstr "Batterie"
@@ -63032,25 +63017,16 @@ msgid "    • No batteries are connected to a power grid"
 msgstr "    • Es sind keine Batterien an das Stromnetz angeschlossen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.NAME"
-#| msgid "    • Illumination"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL"
 msgid "    • All batteries functional"
-msgstr "    • Beleuchtung"
+msgstr "    • Alle Batterien funktionieren"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Battery</b>"
-msgstr "<b>Name:</b>"
+msgstr "<b>Batterie</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.NAME"
-#| msgid "Beds"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME"
 msgid "Beds"
 msgstr "Betten"
@@ -63071,20 +63047,14 @@ msgid "    • One or more Duplicants are missing a bed"
 msgstr "    • Ein oder mehreren Duplikanten haben kein Bett"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Beds</b>"
-msgstr "<b>Name:</b>"
+msgstr "<b>Betten</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND2"
-#| msgid "Breathable"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME"
 msgid "Breathability"
-msgstr "Atembar"
+msgstr "Atmungsfähigkeit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL"
@@ -63097,33 +63067,21 @@ msgid "    • Oxygen is becoming scarce or low pressure"
 msgstr "    • Der Sauerstoffgehalt wird knapp"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.NAME"
-#| msgid "Duplicants have suffocated"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING"
 msgid "    • One or more Duplicants are suffocating"
-msgstr "Duplikanten sind erstickt"
+msgstr "    • Ein oder mehrere Duplikanten ersticken derzeit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Breathability</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Atmungsfähigkeit</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.CHOREGROUPDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
-#| msgid "Errands"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.CHOREGROUPDIAGNOSTIC.ALL_NAME"
 msgid "Errands"
-msgstr "Aufträge"
+msgstr "Besorgungen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DECORSYSTEM.HEADER_1"
-#| msgid "Decor"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME"
 msgid "Decor"
 msgstr "Dekoration"
@@ -63139,17 +63097,11 @@ msgid "    • Decor levels are satisfactory"
 msgstr "    • Die Dekoration ist zufriedenstellend"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Decor</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Dekoration</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
-#| msgid "Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.ALL_NAME"
 msgid "Entombed"
 msgstr "Verschüttet"
@@ -63160,20 +63112,14 @@ msgid "    • One or more buildings are entombed"
 msgstr "    • Ein oder mehrere Gebäude sind verschüttet"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.LINE_ITEM"
-#| msgid "    • Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL"
 msgid "    • No buildings are entombed"
-msgstr "    • Verschüttet"
+msgstr "    • Keine Gebäude sind verschüttet"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
-#| msgid "Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Entombed</b>"
-msgstr "Verschüttet"
+msgstr "<b>Verschüttet</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME"
@@ -63181,12 +63127,9 @@ msgid "Crops"
 msgstr "Pflanzen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.NAME"
-#| msgid "    • Farm plot inoperable"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL"
 msgid "    • One or more farm plots are inoperable"
-msgstr "    • Farm nicht funktionstüchtig"
+msgstr "    • Ein oder mehrere Farmen sind nicht funktionsfähig"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE"
@@ -63194,13 +63137,9 @@ msgid "    • Colony has no farm plots"
 msgstr "    • Die Kolonie betreibt keine Landwirtschaft"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.SUBSTRATE.NEUTRAL"
-#| msgid "    • No change on {0}"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED"
 msgid "    • No crops planted"
-msgstr "    • Keine Veränderung auf {0}"
+msgstr "    •Keine Pflanzen angebaut"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL"
@@ -63208,12 +63147,9 @@ msgid "    • Crops are being grown in sufficient quantity"
 msgstr "    • Pflanzen werden ausreichend häufig angebaut"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
-#| msgid "<b>Tooltip:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Crops</b>"
-msgstr "<b>Tooltip:</b>"
+msgstr "<b>Pflanzen</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING"
@@ -63221,12 +63157,9 @@ msgid "    • One or more crops are wilting"
 msgstr "    • Ein oder mehrere Pflanzen verwelken"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
-#| msgid "Status"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.ALL_NAME"
 msgid "Flight Status"
-msgstr "Status"
+msgstr "Flugstatus"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT"
@@ -63234,24 +63167,18 @@ msgid "    • This rocket is in flight towards its destination"
 msgstr "    • Diese Rakete fliegt zu ihrem Ziel"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.LOOKINGFORFOOD.TOOLTIP"
-#| msgid ""
-#| "This critter is hungry and looking for <style=\"KKeyword\">Food</style>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED"
 msgid ""
 "    • This rocket is currently landed on a <style=\"KKeyword\">Rocket "
 "Platform</style>"
 msgstr ""
-"Diese Kreatur ist hungrig und sucht nach <style=\"KKeyword\">Nahrung</style>"
+"    • Diese Rakete ist derzeit auf einer <style=\"KKeyword\">Raketenplattform</"
+"style> gelandet"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER"
-#| msgid "<b>Highest Expectations</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Flight Status</b>"
-msgstr "<b>Höchste Erwartungen</b>"
+msgstr "<b>Flugstatus</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_DESTINATION
 msgctxt ""
@@ -63265,28 +63192,19 @@ msgid "    • This rocket's flight has been halted"
 msgstr "    • Der Flug dieser Rakete wurde pausiert"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_FOOD"
-#| msgid "Food"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME"
 msgid "Food"
 msgstr "Nahrung"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.FAIL
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.NAME"
-#| msgid "Duplicants have frozen"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.FAIL"
 msgid "    • Duplicants have no food"
-msgstr "Duplikanten sind erfroren"
+msgstr "    • Duplikanten haben nichts zu essen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.PASS
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.NAME"
-#| msgid "Duplicants have frozen"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.PASS"
 msgid "    • Duplicants have food"
-msgstr "Duplikanten sind erfroren"
+msgstr "    • Duplikanten haben etwas zu essen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.HUNGRY
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.HUNGRY"
@@ -63299,12 +63217,9 @@ msgid "    • Food-to-Duplicant ratio is low"
 msgstr "    • Das Verhältnis von Essen zu Duplikanten ist niedrig"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.NAME"
-#| msgid "Duplicants have frozen"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD"
 msgid "    • Duplicants have no food"
-msgstr "Duplikanten sind erfroren"
+msgstr "    • Duplikanten haben nichts zu essen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NORMAL"
@@ -63312,28 +63227,19 @@ msgid "    • Food supply is currently adequate"
 msgstr "    • Die Versorgung mit Nahrungsmitteln ist ausgewogen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
-#| msgid "<b>Zoom:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Food</b>"
-msgstr "<b>Zoom:</b>"
+msgstr "<b>Nahrung</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_FAIL
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT"
-#| msgid "Critter Count"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_FAIL"
 msgid "Criteria not met"
-msgstr "Anzahl der Tiere"
+msgstr "Kriterien nicht erfüllt"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_PASS
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT"
-#| msgid "Critter Count"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_PASS"
 msgid "Criteria met"
-msgstr "Anzahl der Tiere"
+msgstr "Kriterien erfüllt"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_STATUS_NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_STATUS_NORMAL"
@@ -63341,20 +63247,14 @@ msgid "All values nominal"
 msgstr "All values nominal"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
-#| msgid "Battery"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME"
 msgid "Battery"
 msgstr "Batterie"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.TYPE.PATHOGEN"
-#| msgid "Illness"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME"
 msgid "Idleness"
-msgstr "Krankheit"
+msgstr "Untätigkeit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE"
@@ -63367,12 +63267,9 @@ msgid "    • All Duplicants currently have tasks"
 msgstr "    • Alle Duplikanten sind beschäftigt"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.COST"
-#| msgid "<b>Ingredients:</b>\n"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Idleness</b>"
-msgstr "<b>Zutaten:</b>\n"
+msgstr "<b>Untätigkeit</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.MUTE_TUTORIAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.MUTE_TUTORIAL"
@@ -63388,12 +63285,9 @@ msgid "    • Not enough data for evaluation"
 msgstr "    • Nicht genügend Daten für die Auswertung"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA_SHORT
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.LINE_ITEM"
-#| msgid "    • Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA_SHORT"
 msgid "    • No data"
-msgstr "    • Verschüttet"
+msgstr "    • Keine Daten"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS"
@@ -63407,12 +63301,9 @@ msgstr ""
 "    • Die Besatzung muss aufgefordert werden, diese Diagnose zu aktualisieren"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_POWER"
-#| msgid "Power"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME"
 msgid "Avg Power"
-msgstr "Strom"
+msgstr "Durchschn. Leistung"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL"
@@ -63425,28 +63316,19 @@ msgid "    • One or more power grids are damaged"
 msgstr "    • Ein oder mehrere Stromnetze sind beschädigt"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Avg Power</b>"
-msgstr "<b>Moral</b>"
+msgstr "<b>Durchschn. Leistung</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKET
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
-#| msgid "Rocket"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKET"
 msgid "rocket"
 msgstr "Rakete"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
-#| msgid "Rocket"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.ALL_NAME"
 msgid "Rocket Fuel"
-msgstr "Rakete"
+msgstr "Raketentreibstoff"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL"
@@ -63454,12 +63336,9 @@ msgid "    • This rocket has sufficient fuel"
 msgstr "    • Diese Rakete hat ausreichend Treibstoff"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER"
-#| msgid "<b>Resource Effects:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Rocket Fuel</b>"
-msgstr "<b>Ressourceneffekte:</b>"
+msgstr "<b>Raketentreibstoff</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING"
@@ -63467,12 +63346,9 @@ msgid "    • This rocket has no fuel"
 msgstr "    • Diese Rakete hat keinen Treibstoff"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
-#| msgid "Oxidizer"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME"
 msgid "Rocket Oxidizer"
-msgstr "Oxidator"
+msgstr "Raketenoxidationsmittel"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL"
@@ -63490,12 +63366,9 @@ msgid "    • This rocket has insufficient oxidizer"
 msgstr "    • Diese Rakete hat zu wenig Oxidationsmittel"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.STRESS.HEADER_1"
-#| msgid "Stress"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME"
 msgid "Max Stress"
-msgstr "Stress"
+msgstr "Max Stress"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS"
@@ -63508,20 +63381,14 @@ msgid "    • Duplicants have acceptable stress levels"
 msgstr "    • Alle Duplikanten haben derzeit ein überschaubares Stressniveau"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_STRESS"
-#| msgid "Sort by <b>Stress</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Max Stress</b>"
-msgstr "Sortiere nach <b>Stresslevel</b>"
+msgstr "<b>Max Stress</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.TOILET"
-#| msgid "Toilet"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME"
 msgid "Toilets"
-msgstr "Toilette"
+msgstr "Toiletten"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS"
@@ -63549,52 +63416,34 @@ msgid "    • Colony has adequate working toilets"
 msgstr "    • Es gibt genug funktionierende Toiletten"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
-#| msgid "<b>Tooltip:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Toilets</b>"
-msgstr "<b>Tooltip:</b>"
+msgstr "<b>Toiletten</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.NAME"
-#| msgid "Trapped"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME"
 msgid "Trapped"
-msgstr "Gefangen"
+msgstr "Eingeklemmt"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants are trapped:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL"
 msgid "    • No Duplicants are trapped"
-msgstr "Diese Duplikanten stecken fest:"
+msgstr "    • Derzeit stecken keine Duplikanten fest"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants are trapped:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK"
 msgid "    • One or more Duplicants are trapped"
-msgstr "Diese Duplikanten stecken fest:"
+msgstr "    • Ein oder mehrere Duplikanten stecken fest"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE"
-#| msgid "<b>Type:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Trapped</b>"
-msgstr "<b>Typ:</b>"
+msgstr "<b>Eingeklemmt</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
-#| msgid "Travel Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME"
 msgid "Travel Time"
-msgstr "Reisezeit:"
+msgstr "Reisezeit"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL"
@@ -63603,20 +63452,14 @@ msgstr ""
 "    • Duplikanten verbrachten {0} ihrer Zeit damit, zwischen Aufgaben zu reisen"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
-#| msgid "Travel Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME"
 msgid "<b>Travel Time</b>"
-msgstr "Reisezeit:"
+msgstr "<b>Reisezeit</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.WORKTIMEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
-#| msgid "Errands"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORKTIMEDIAGNOSTIC.ALL_NAME"
 msgid "Errands"
-msgstr "Aufträge"
+msgstr "Besorgungen"
 
 #. STRINGS.UI.COLONYLOSTSCREEN.COLONYLOST
 msgctxt "STRINGS.UI.COLONYLOSTSCREEN.COLONYLOST"
