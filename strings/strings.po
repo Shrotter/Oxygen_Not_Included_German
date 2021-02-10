@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-10 20:31+0100\n"
+"PO-Revision-Date: 2021-02-10 20:35+0100\n"
 "Last-Translator: Eisberge <22561095+Eisberge@users.noreply.github.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -73072,17 +73072,11 @@ msgid "Required resources:"
 msgstr "Benötigte Ressourcen:"
 
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC"
-#| msgid "{0} has yet to be discovered."
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC"
 msgid "{0} has yet to be discovered"
-msgstr "{0} wurde noch nicht entdeckt."
+msgstr "{0} muss noch entdeckt werden"
 
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER
-#, fuzzy
-#| msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER"
-#| msgid "Missing resource(s)"
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER"
 msgid "Missing resources"
 msgstr "Fehlende Ressource(n)"
@@ -73104,19 +73098,14 @@ msgstr "Forschung benötigt..."
 
 #. STRINGS.UI.PRODUCTINFO_ROCKET_INTERIOR
 #, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.PRODUCTINFO_ROCKET_INTERIOR"
 msgid "Rocket interior only"
-msgstr "Raketentriebwerk"
+msgstr "Nur in einer Rakete verfügbar"
 
 #. STRINGS.UI.PRODUCTINFO_ROCKET_NOT_INTERIOR
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
-#| msgid "Cannot be built inside tile"
 msgctxt "STRINGS.UI.PRODUCTINFO_ROCKET_NOT_INTERIOR"
 msgid "Cannot build inside rocket"
-msgstr "Kann nicht in eine Kachel eingebaut werden"
+msgstr "Kann nicht in einer Rakete gebaut werden"
 
 #. STRINGS.UI.PRODUCTINFO_SELECTMATERIAL
 msgctxt "STRINGS.UI.PRODUCTINFO_SELECTMATERIAL"
@@ -73124,12 +73113,9 @@ msgid "Select {0}:"
 msgstr "Wähle {0}:"
 
 #. STRINGS.UI.PRODUCTINFO_UNIQUE_PER_WORLD
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.RUSTPLANET.NAME"
-#| msgid "Oxidized Planetoid"
 msgctxt "STRINGS.UI.PRODUCTINFO_UNIQUE_PER_WORLD"
 msgid "Limit one per Planetoid"
-msgstr "Oxidierter Planetoid"
+msgstr "Nur eins pro Planetoid"
 
 #. STRINGS.UI.QUEUE
 msgctxt "STRINGS.UI.QUEUE"
@@ -73162,143 +73148,90 @@ msgid "Research points"
 msgstr "Forschungspunkte"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ALL
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS."
-#| "NORMAL.NAME"
-#| msgid "All"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ALL"
 msgid "All"
 msgstr "Alle"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AUTOMATION
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AUTOMATION.HEADER_1"
-#| msgid "Automation"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AUTOMATION"
 msgid "Automation"
 msgstr "Automatisierung"
 
 # "Nächster" ist zu lang und wird umgebrochen
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AVAILABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NEXT"
-#| msgid "Next"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AVAILABLE"
 msgid "Next"
-msgstr "Neuer"
+msgstr "Nächster"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.COMPLETED
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.NAME"
-#| msgid "Composted"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.COMPLETED"
 msgid "Completed"
-msgstr "Kompostiert"
+msgstr "Abgeschlossen"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FILTER
-#, fuzzy
-#| msgctxt "STRINGS.UI.FILTER"
-#| msgid "Filter"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FILTER"
 msgid "Filters"
 msgstr "Filter"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FOOD
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_FOOD"
-#| msgid "Food"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FOOD"
 msgid "Food"
 msgstr "Nahrung"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.HEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE"
-#| msgid "Element Filter"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.HEADER"
 msgid "Preset Filters"
-msgstr "Elementfilter"
+msgstr "Voreingestellte Filter"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MEDICINE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME"
-#| msgid "Medicine"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MEDICINE"
 msgid "Medicine"
 msgstr "Medizin"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MORALE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MORALE.HEADER_1"
-#| msgid "Morale"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MORALE"
 msgid "Morale"
 msgstr "Moral"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.OXYGEN
-#, fuzzy
-#| msgctxt "STRINGS.UI.METERS.BREATH.TOOLTIP"
-#| msgid "Oxygen"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.OXYGEN"
 msgid "Oxygen"
 msgstr "Sauerstoff"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.POWER
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_POWER"
-#| msgid "Power"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.POWER"
 msgid "Power"
 msgstr "Strom"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RADIATION
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.NAME"
-#| msgid "Navigation"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RADIATION"
 msgid "Radiation"
-msgstr "Navigation"
+msgstr "Strahlung"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RANCHING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME"
-#| msgid "Ranching"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RANCHING"
 msgid "Ranching"
 msgstr "Viehzucht"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ROCKET
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
-#| msgid "Rocket"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ROCKET"
 msgid "Rockets"
-msgstr "Rakete"
+msgstr "Raketen"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TILE
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.BUILDMENUTITLE"
-#| msgid "Tiles"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TILE"
 msgid "Tiles"
-msgstr "Ziegel"
+msgstr "Kachel"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TRANSPORT
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.BUILDMENUTITLE"
-#| msgid "Ore Transport"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TRANSPORT"
 msgid "Transport"
-msgstr "Erz Tansport"
+msgstr "Tansport"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.WATER
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.WATERWEED.TITLE"
-#| msgid "Waterweed"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.WATER"
 msgid "Water"
-msgstr "Wasserkraut"
+msgstr "Wasser"
 
 #. STRINGS.UI.RESEARCHSCREEN_FILTER
 msgctxt "STRINGS.UI.RESEARCHSCREEN_FILTER"
@@ -73331,28 +73264,19 @@ msgstr ""
 "Klicken, um zu erweitern"
 
 #. STRINGS.UI.RESOURCESCREEN.CLEAR_NEW_RESOURCES
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CLEAR"
-#| msgid "Clear"
 msgctxt "STRINGS.UI.RESOURCESCREEN.CLEAR_NEW_RESOURCES"
 msgid "Clear New"
-msgstr "Löschen"
+msgstr "Neue löschen"
 
 #. STRINGS.UI.RESOURCESCREEN.DECREASING_STR
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.DROPDOWN.NAME_AND_ROLE"
-#| msgid "{0} <color=#F44A47FF>({1})</color>"
 msgctxt "STRINGS.UI.RESOURCESCREEN.DECREASING_STR"
 msgid "<color=#F44A47FF>DECREASED</color>"
-msgstr "{0} <color=#F44A47FF>({1})</color>"
+msgstr "<color=#F44A47FF>VERRINGERT</color>"
 
 #. STRINGS.UI.RESOURCESCREEN.FLAT_STR
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.SELECT_HAT"
-#| msgid "<b>SELECT HAT</b>"
 msgctxt "STRINGS.UI.RESOURCESCREEN.FLAT_STR"
 msgid "<b>NOT CHANGED</b>"
-msgstr "<b>WÄHLE HUT AUS</b>"
+msgstr "<b>NICHT GEÄNDERT</b>"
 
 #. STRINGS.UI.RESOURCESCREEN.HEADER
 msgctxt "STRINGS.UI.RESOURCESCREEN.HEADER"
@@ -73360,12 +73284,9 @@ msgid "RESOURCES"
 msgstr "RESSOURCEN"
 
 #. STRINGS.UI.RESOURCESCREEN.INCREASING_STR
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.BREATHABLEDESC"
-#| msgid "<color=#{0}>({1})</color>"
 msgctxt "STRINGS.UI.RESOURCESCREEN.INCREASING_STR"
 msgid "<color=#52C079FF>INCREASED</color>"
-msgstr "<color=#{0}>({1})</color>"
+msgstr "<color=#52C079FF>IST GESTIEGEN</color>"
 
 #. STRINGS.UI.RESOURCESCREEN.NEW_TAG
 msgctxt "STRINGS.UI.RESOURCESCREEN.NEW_TAG"
@@ -73378,12 +73299,9 @@ msgid "+ See All ({0})"
 msgstr ""
 
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN_EATENTODAY_TOOLTIP"
-#| msgid "The amount of food this Duplicant has eaten this cycle"
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP"
 msgid "The available amount of this resource has {0} {1} in the last cycle"
-msgstr "Die Nahrungsmenge, die der Duplikant in diesem Zyklus konsumiert hat"
+msgstr "Die verfügbare Menge dieser Ressource hat im letzten Zyklus {0} {1}"
 
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP_NO_CHANGE
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP_NO_CHANGE"
