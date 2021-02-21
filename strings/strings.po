@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-14 16:46+0100\n"
+"PO-Revision-Date: 2021-02-21 12:01+0100\n"
 "Last-Translator: CarstenG\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -129,6 +129,11 @@ msgid ""
 "\n"
 "It can resume full speed once a Duplicant pilot takes over"
 msgstr ""
+"Diese Rakete ist im Autopilot-Modus und fliegt mit reduzierter "
+"Geschwindigkeit\n"
+"\n"
+"Sie kann ihre Höchstgeschwindigkeit wieder aufnehmen, sobald ein Duplikant als "
+"Pilot die Steuerung übernimmt"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.NAME"
@@ -174,20 +179,14 @@ msgid "Awaiting delivery of selected <style=\"KKeyword\">Egg</style>"
 msgstr "Warte auf Lieferung des ausgewählten <style=\"KKeyword\">Eis</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME"
-#| msgid "Compost Errand"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.NAME"
 msgid "Empty Errand"
-msgstr "Kompostierauftrag"
+msgstr "Entleerungsauftrag"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
-#| msgid "Building will be operated once a Duplicant is available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.TOOLTIP"
 msgid "Building will be emptied once a Duplicant is available"
-msgstr "Das Gebäude wird bedient, sobald ein Duplikant zur Verfügung steht"
+msgstr "Das Gebäude wird entleert, sobald ein Duplikant zur Verfügung steht"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.NAME"
@@ -444,26 +443,18 @@ msgstr ""
 "style>, um deine Duplikanten besser unter Quarantäne stellen zu können"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME"
 msgid "Area Complete"
-msgstr "Forschung abgeschlossen"
+msgstr "Bereich vollständig"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
-#| msgid ""
-#| "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
-#| "functioning:"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Telescope</style> has analyzed all the space visible "
 "from its current location"
 msgstr ""
-"Blockierte <style=\"KKeyword\">Rohre</style> haben diese Systeme am Betrieb "
-"gehindert:"
+"Dieses <style=\"KKeyword\">Teleskop</style> hat den gesamten von seinem "
+"aktuellen Standort aus sichtbaren Weltraum analysiert"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME
 #, fuzzy
@@ -770,12 +761,9 @@ msgstr ""
 "link> entleert werden"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
-#| msgid "Destination Status"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.NAME"
 msgid "Destination Out Of Range"
-msgstr "Status des Ziels"
+msgstr "Ziel außerhalb der Reichweite"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP"
@@ -785,6 +773,10 @@ msgid ""
 "Rocket Range: {Range}\n"
 "Destination Distance: {Distance}"
 msgstr ""
+"Dieser Rakete fehlt die Reichweite, um ihr Ziel zu erreichen\n"
+"------------------\n"
+"Raketenreichweite: {Range}\n"
+"Zielentfernung: {Distance}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -864,19 +856,15 @@ msgid "Use Direction: {Direction}"
 msgstr "Verwendungsrichtung: {Direction}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
-#| msgid ""
-#| "Duplicants will only use this building when walking by it. Currently "
-#| "allowed direction: <b>{Direction}</b>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
 msgid ""
 "Duplicants will only use this building when walking by it\n"
 "\n"
 "Currently allowed direction: <b>{Direction}</b>"
 msgstr ""
-"Duplikanten werden dieses Gebäude nur beim Vorbeilaufen verwenden. Derzeit "
-"erlaubte Richtung: <b>{Direction}</b>"
+"Duplikanten werden dieses Gebäude nur beim Vorbeilaufen verwenden\n"
+"\n"
+"Derzeit erlaubte Richtung: <b>{Direction}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME"
@@ -898,12 +886,9 @@ msgid "Activation Required"
 msgstr "Aktivierung erforderlich"
 
 #. STRINGS.BUILDING.STATUSITEMS.DUPLICANTACTIVATIONREQUIRED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESMANUALOPERATION"
-#| msgid "A Duplicant must be present to run this building"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DUPLICANTACTIVATIONREQUIRED.TOOLTIP"
 msgid "A Duplicant is required to bring this building online"
-msgstr "Ein Duplikant muss dieses Gebäude bedienen"
+msgstr "Ein Duplikant ist erforderlich, um dieses Gebäude in Betrieb zu nehmen"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME"
@@ -1253,18 +1238,13 @@ msgid "Gas Vent Obstructed"
 msgstr "Lüftung versperrt"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP"
-#| msgid ""
-#| "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
-#| "gas flow to this vent"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOBSTRUCTED.TOOLTIP"
 msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
 "<style=\"KKeyword\">Gas</style> flow to this vent"
 msgstr ""
-"Ein <style=\"KKeyword\">Rohr</style> wurde blockiert und verhindert den "
-"Gasfluss zu dieser Entlüftung"
+"Ein <style=\"KKeyword\">Rohr</style> wurde blockiert und verhindert den <style="
+"\"KKeyword\">Gasfluss</style> zu dieser Entlüftung"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME"
@@ -1426,9 +1406,6 @@ msgid "Incoming HEP: Ignore"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
-#| msgid "Normal"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL"
 msgid "Normal"
 msgstr "Normal"
@@ -1530,12 +1507,6 @@ msgid "Filling Up: ({fullness})"
 msgstr "Auffüllen: ({fullness})"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.TOOLTIP"
-#| msgid ""
-#| "This Hot Tub is currently filling with water.\n"
-#| "\n"
-#| "It will be available to use when water level reaches <b>100%</b>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.TOOLTIP"
 msgid ""
 "This tub is currently filling with <style=\"KKeyword\">Water</style>\n"
@@ -1543,9 +1514,10 @@ msgid ""
 "It will be available to use when the <style=\"KKeyword\">Water</style> level "
 "reaches <b>100%</b>"
 msgstr ""
-"Dieser Whirlpool wird derzeit mit Wasser gefüllt.\n"
+"Dieser Whirlpool wird derzeit mit <style=\"KKeyword\">Wasser</style> gefüllt\n"
 "\n"
-"Er wird benutzbar sein, wenn der Wasserstand <b>100%</b> erreicht"
+"Er wird benutzbar sein, wenn der <style=\"KKeyword\">Wasserstand</style> "
+"<b>100%</b> erreicht"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBTOOHOT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBTOOHOT.NAME"
@@ -1553,12 +1525,6 @@ msgid "Building Too Hot"
 msgstr "Gebäude zu heiß"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBTOOHOT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBTOOHOT.TOOLTIP"
-#| msgid ""
-#| "This Hot Tub's temperature is above <b>{temperature}</b>.\n"
-#| "\n"
-#| "It needs to cool down before it can be safely used."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBTOOHOT.TOOLTIP"
 msgid ""
 "This tub's <style=\"KKeyword\">Temperature</style> is above <b>{temperature}</"
@@ -1566,9 +1532,10 @@ msgid ""
 "\n"
 "It needs to cool before it can safely be used"
 msgstr ""
-"Die Temperatur dieses Whirlpools liegt über <b>{temperature}</b>.\n"
+"Die <style=\"KKeyword\">Temperatur</style> dieses Whirlpools liegt über "
+"<b>{temperature}</b>\n"
 "\n"
-"Ee muss abkühlen, bevor er sicher verwendet werden kann."
+"Er muss abkühlen, bevor er sicher verwendet werden kann"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBWATERTOOCOLD.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBWATERTOOCOLD.NAME"
@@ -1576,12 +1543,6 @@ msgid "Water Too Cold"
 msgstr "Wasser zu kalt"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBWATERTOOCOLD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBWATERTOOCOLD.TOOLTIP"
-#| msgid ""
-#| "This Hot Tub's water is below <b>{temperature}</b>.\n"
-#| "\n"
-#| "The water is being drained so that it can be replaced with warmer water."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBWATERTOOCOLD.TOOLTIP"
 msgid ""
 "This tub's <style=\"KKeyword\">Water</style> is below <b>{temperature}</b>\n"
@@ -1589,10 +1550,11 @@ msgid ""
 "It is draining so it can be refilled with warmer <style=\"KKeyword\">Water</"
 "style>"
 msgstr ""
-"Das Wasser dieses Whirlpools ist unten <b>{temperature}</b>.\n"
+"Das <style=\"KKeyword\">Wasser</style> dieses Whirlpools ist unten "
+"<b>{temperature}</b>.\n"
 "\n"
-"Das Wasser wird abgelassen, so dass es durch wärmeres Wasser ersetzt werden "
-"kann."
+"Das Wasser wird abgelassen, so dass es durch warmes <style=\"KKeyword"
+"\">Wasser</style> ersetzt werden kann"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME"
@@ -1630,7 +1592,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHT.NAME"
 msgid "In Flight To {Destination_Asteroid}: {ETA}"
-msgstr ""
+msgstr "Auf dem Flug zu {Destination_Asteroid}: {ETA}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHT.TOOLTIP"
@@ -1640,22 +1602,19 @@ msgid ""
 "\n"
 "It arrive in {ETA}"
 msgstr ""
+"Diese Rakete reist derzeit von {Destination_Pad} zu {Destination_Asteroid}\n"
+"\n"
+"Sie kommt in {ETA} an"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME"
-#| msgid "No Sweep Destination"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME"
 msgid "In Orbit: {Destination}"
-msgstr "Kein Ablageort zum Aufräumen"
+msgstr "Im Orbit von: {Destination}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
-#| msgid "This plant is currently in the dark"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP"
 msgid "This rocket is currently in orbit around {Destination}"
-msgstr "Diese Pflanze befindet sich im Dunkeln"
+msgstr "Diese Rakete befindet sich derzeit im Orbit um {Destination}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
@@ -1679,14 +1638,12 @@ msgid "Station Not In Oxygen"
 msgstr "Nicht genug Sauerstoff"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDMASKSTATIONCONSUMPTIONSTATE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP"
-#| msgid "This pump must be submerged in <style=\"KKeyword\">Gas</style> to work"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDMASKSTATIONCONSUMPTIONSTATE.TOOLTIP"
 msgid ""
 "This station must be submerged in <style=\"KKeyword\">Oxygen</style> to work"
 msgstr ""
-"Die Pumpe muss sich in <style=\"KKeyword\">Gas</style> befinden, um zu arbeiten"
+"Diese Station muss von <style=\"KKeyword\">Sauerstoff</style> umgeben sein, um "
+"zu arbeiten"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME"
@@ -1732,12 +1689,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.LANDEDROCKETLACKSPASSENGERMODULE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LANDEDROCKETLACKSPASSENGERMODULE.NAME"
 msgid "Rocket lacks spacefarer module"
-msgstr ""
+msgstr "Rakete hat kein Raumfahrermodul"
 
 #. STRINGS.BUILDING.STATUSITEMS.LANDEDROCKETLACKSPASSENGERMODULE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LANDEDROCKETLACKSPASSENGERMODULE.TOOLTIP"
 msgid "A rocket must have a spacefarer module"
-msgstr ""
+msgstr "Eine Rakete muss ein Raumfahrtmodul haben"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME"
@@ -1765,18 +1722,13 @@ msgid "Liquid Vent Obstructed"
 msgstr "Auslauf blockiert"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP"
-#| msgid ""
-#| "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
-#| "liquid flow to this vent"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP"
 msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
 "<style=\"KKeyword\">Liquid</style> flow to this vent"
 msgstr ""
-"Ein <style=\"KKeyword\">Rohr</style> wurde blockiert und verhindert den Fluss "
-"zu diesem Auslauf"
+"Ein <style=\"KKeyword\">Rohr</style> wurde blockiert und verhindert den <style="
+"\"KKeyword\">Flüssigkeitsfluss</style> zu diesem Auslauf"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME"
@@ -2076,12 +2028,6 @@ msgid "Missing Gantry"
 msgstr "Abschussrampe fehlt"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
-#| msgid ""
-#| "A <link=\"GANTRY\">Gantry</link> must be built below <link=\"COMMANDMODULE"
-#| "\">Command Capsules</link> and <link=\"TOURISTMODULE\">Sight-Seeing "
-#| "Modules</link> for Duplicants access"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
 msgid ""
 "A <link=\"GANTRY\">Gantry</link> must be built below <link=\"COMMANDMODULE"
@@ -2089,7 +2035,7 @@ msgid ""
 "link> for Duplicant access"
 msgstr ""
 "Eine <link=\"GANTRY\">Abschussrampe</link> muss unter einer <link="
-"\"COMMANDMODULE\">Befehlskapsel</link> und einem <link=\"TOURISTMODULE"
+"\"COMMANDMODULE\">Kommando­kapsel</link> und einem <link=\"TOURISTMODULE"
 "\">Touristmodul</link> gebaut sein, damit Duplikanten diese betreten können"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGREQUIREMENTS.NAME
@@ -2104,7 +2050,7 @@ msgid ""
 "operational"
 msgstr ""
 "Bevor dieses Gebäude in Betrieb genommen werden kann, müssen einige Probleme "
-"behoben werden."
+"behoben werden"
 
 #. STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
@@ -2470,20 +2416,14 @@ msgid "The selected <style=\"KKeyword\">Seed</style> is not available"
 msgstr "Der ausgewählte <style=\"KKeyword\">Samen</style> ist nicht verfügbar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
-#| msgid "No Cots"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.NAME"
 msgid "No Coolant"
-msgstr "Keine Feldbetten"
+msgstr "Kein Kühlmittel"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP"
-#| msgid "This building is clean"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.TOOLTIP"
 msgid "This building needs coolant"
-msgstr "Dieses Objekt ist sauber"
+msgstr "Dieses Gebäude benötigt Kühlmittel"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME"
@@ -2739,24 +2679,18 @@ msgstr ""
 "<style=\"KKeyword\">Raumstatus</style> anzuzeigen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
-#| msgid "Not Specified"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.NAME"
 msgid "Not Linked"
-msgstr "Nicht definiert"
+msgstr "Nicht verbunden"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT_TOOLTIP"
-#| msgid ""
-#| "This building must be filled with {amount} {element} in order to function."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.TOOLTIP"
 msgid ""
 "This building must be built adjacent to a {headBuilding} or another "
 "{linkBuilding} in order to function"
 msgstr ""
-"Dieses Objekt muss mit {amount} {element} gefüllt werden, um zu funktionieren."
+"Dieses Gebäude muss neben einem {headBuilding} oder einem anderen "
+"{linkBuilding} gebaut werden, um zu funktionieren"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
@@ -2902,20 +2836,14 @@ msgstr ""
 "Überlastung zu vermeiden"
 
 #. STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
-#| msgid "Unreachable Mop"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.NAME"
 msgid "Unreachable Module"
-msgstr "Unerreichbarer Wischauftrag"
+msgstr "Unerreichbares Modul"
 
 #. STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.PICKUPABLEUNREACHABLE.TOOLTIP"
-#| msgid "Duplicants cannot reach this object"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this rocket module"
-msgstr "Duplikanten können diesen Gegenstand nicht erreichen"
+msgstr "Duplikanten können dieses Modul nicht erreichen"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME"
@@ -2928,13 +2856,6 @@ msgid "Solid {0}"
 msgstr "Fest {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
-#| msgid ""
-#| "There are solid obstructions in this rocket's launch trajectory:\n"
-#| "    • {0}\n"
-#| "\n"
-#| "This rocket requires a clear flight path for launch"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
 msgid ""
 "There are obstructions in the launch trajectory of this rocket:\n"
@@ -2942,7 +2863,7 @@ msgid ""
 "\n"
 "This rocket requires a clear flight path for launch"
 msgstr ""
-"In der Starttrajektorie dieser Rakete gibt es feste Hindernisse:\n"
+"In der Starttrajektorie dieser Rakete gibt es Hindernisse:\n"
 "    • {0}\n"
 "\n"
 "Diese Rakete erfordert eine freie Flugbahn für den Start"
@@ -3022,12 +2943,9 @@ msgid "Building will be operated once a Duplicant is available"
 msgstr "Das Gebäude wird bedient, sobald ein Duplikant zur Verfügung steht"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.STATUS"
-#| msgid "Going to use toilet"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.NAME"
 msgid "Switching to Autopilot"
-msgstr "Geht die Toilette benutzen"
+msgstr "Umschalten auf Autopilot"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP"
@@ -3035,6 +2953,8 @@ msgid ""
 "Autopilot will engage in {timeRemaining} if a Duplicant pilot does not assume "
 "control"
 msgstr ""
+"Der Autopilot schaltet sich in {timeRemaining} ein, wenn ein Duplikat als "
+"Pilot nicht die Kontrolle übernimmt"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.NAME"
@@ -3191,9 +3111,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME"
-#| msgid "Launch Path Blocked"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME"
 msgid "Launch Path Blocked"
 msgstr "Startbahn blockiert"
@@ -4110,7 +4027,7 @@ msgid ""
 "resulting in reduced throughput"
 msgstr ""
 "<b>{Blocked}</b> von <b>{Total}</b> Eingänge dieser Turbine sind blockiert, "
-"dies führt zu einem reduzierten Durchsatz."
+"dies führt zu einem reduzierten Durchsatz"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME"
@@ -13943,12 +13860,9 @@ msgid "<link=\"SHOWER\">Shower</link>"
 msgstr "<link=\"SHOWER\">Dusche</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.TOOLTIP"
-#| msgid "Eep! This Duplicant doesn't like being in the dark!"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.DESC"
 msgid "What Duplicant doesn't love playing with mud?"
-msgstr "Huch! Dieser Duplikant mag es nicht, im Dunkeln zu sein!"
+msgstr "Welcher Duplikant spielt nicht gerne mit Schlamm?"
 
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT
 #, fuzzy
@@ -14668,20 +14582,14 @@ msgid "<link=\"STATERPILLAREGG\">Slug Egg</link>"
 msgstr "<link=\"STATERPILLAREGG\">Schneckenei</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.HUNGRY.NAME"
-#| msgid "Hungry"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.HUNGRY"
 msgid "Hungry!"
-msgstr "Hungrig"
+msgstr "Hungrig!"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.WILD
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.NAME"
-#| msgid "Wild"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.MODIFIERS.WILD"
 msgid "Wild!"
-msgstr "Wild"
+msgstr "Wild!"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLARGENERATOR.NAME"
@@ -15461,8 +15369,8 @@ msgstr "<link=\"THERMALBLOCK\">Wärmetausch­platte</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILE.DESC"
 msgid "Tile can be used to bridge gaps and get to unreachable areas."
 msgstr ""
-"Ziegel können verwendet werden, um Räume, Böden oder Brücken zu neuen "
-"Gebieten zu bauen."
+"Ziegel können verwendet werden, um Räume, Böden oder Brücken zu neuen Gebieten "
+"zu bauen."
 
 #. STRINGS.BUILDINGS.PREFABS.TILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILE.EFFECT"
@@ -15763,12 +15671,9 @@ msgstr ""
 "Eine stabile Tür mit einem ausgeklügelten genetischen Verriegelungsmechanismus."
 
 #. STRINGS.BUILDINGS.PREFABS.WARPPORTAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCREATURE.NAME"
-#| msgid "Relocate Critter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPPORTAL.NAME"
 msgid "Teleporter Transmitter"
-msgstr "Tier umsiedeln"
+msgstr "Teleportsender"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPRECEIVER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPRECEIVER.DESC"
@@ -16136,12 +16041,9 @@ msgid "One location with everything you need on it."
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.DEFAULT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.BED_SINGLE.NAME"
-#| msgid "Single bed"
 msgctxt "STRINGS.CLUSTER_NAMES.DEFAULT.NAME"
 msgid "Single World"
-msgstr "Feldbett"
+msgstr "Einzelne Welt"
 
 #. STRINGS.CLUSTER_NAMES.MILKYWAY.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.MILKYWAY.DESCRIPTION"
@@ -16149,12 +16051,9 @@ msgid "Large locations with resources shared between worlds."
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.MILKYWAY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.PLANETARYECHOES.TITLE"
-#| msgid "Planetary Echoes"
 msgctxt "STRINGS.CLUSTER_NAMES.MILKYWAY.NAME"
 msgid "Planetary System"
-msgstr "Planetarische Echos"
+msgstr "Planetensystem"
 
 #. STRINGS.CLUSTER_NAMES.SANDSTONE_START_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.SANDSTONE_START_CLUSTER.DESCRIPTION"
@@ -16184,12 +16083,9 @@ msgid "Two cozy locations with limited resources shared between them."
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.TWO_SMALL_WORLDS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME"
-#| msgid "Small Boulders"
 msgctxt "STRINGS.CLUSTER_NAMES.TWO_SMALL_WORLDS.NAME"
 msgid "Two Small Worlds"
-msgstr "Kleine Felsbrocken"
+msgstr "Zwei kleine Welten"
 
 #. STRINGS.CODEX.A0_PRELIMINARYCALCULATIONS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A0_PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
@@ -20503,11 +20399,36 @@ msgid ""
 "\n"
 "[LOG ENDS]"
 msgstr ""
+"<smallcaps>[SPRACHERKENNUNG INITIALISIERT]\n"
+"[PERSONEN IDENTIFIZIERT: A001]</smallcaps>\n"
+"\n"
+"\n"
+"[LOG START]\n"
+"\n"
+"Dr. Technas neueste Aufzeichnungen über die Erinnerungen von Duplikanten haben "
+"einige interessante Entdeckungen offenbart. Es scheint, dass Erinnerungen auf "
+"das geklonte Subjekt übertragen werden <i>können</i>, aber dazu muss sich der "
+"Wirt einer Maschine unterwerfen, die eine extrem detaillierte Mikroanalyse "
+"durchführt. Diese tiefgehende Sezierung des Subjekts würde die Ergebnisse "
+"liefern, die wir brauchen, aber auf Kosten der Tötung des Wirts.\n"
+"\n"
+"Das ist natürlich nicht ideal für unsere aktuelle Situation. Die Zeit und "
+"Energie, die es gekostet hat, das hochqualifizierte Personal von Gravitas zu "
+"rekrutieren, wäre verschwendet, wenn wir diese Menschen für unsere Experimente "
+"auslöschen würden. Aber vielleicht können wir unsere Duplikanten als "
+"Versuchspersonen benutzen, bis wir den Prozess perfektioniert haben, und für "
+"die Zukunft nach Freiwilligen suchen, um ein ideales Individuum zu finden. Ich "
+"werde das mit Dr. Techna besprechen müssen, aber ich bin sicher, dass er von "
+"einer solchen Möglichkeit, seine Arbeit fortzusetzen, begeistert wäre.\n"
+"\n"
+"Ich bin auch sehr interessiert an den kommerziellen Möglichkeiten, die sich "
+"daraus ergeben. Mir fallen da spontan Anwendungen in der Genetik, der KI-"
+"Entwicklung und der Teleportationstechnologie ein. Dies könnte ein bedeutender "
+"finanzieller Glücksfall für das Unternehmen sein.\n"
+"\n"
+"[LOG ENDE]"
 
 #. STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.A1A_B111.SUBTITLE"
-#| msgid "ENCRYPTION LEVEL: THREE"
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE"
 msgid "ENCRYPTION LEVEL: THREE"
 msgstr "VERSCHLÜSSELUNGSEBENE: DREI"
@@ -20925,17 +20846,14 @@ msgid "! EVACUATION NOTICE !"
 msgstr "! EVAKUIERUNGSHINWEIS !"
 
 #. STRINGS.CODEX.EXOBASES.HEADER_1
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.FORESTPLANET.NAME"
-#| msgid "Living Planet"
 msgctxt "STRINGS.CODEX.EXOBASES.HEADER_1"
 msgid "Discovering New Planetoids"
-msgstr "Lebendiger Planet"
+msgstr "Neue Planetoiden entdecken"
 
 #. STRINGS.CODEX.EXOBASES.HEADER_2
 msgctxt "STRINGS.CODEX.EXOBASES.HEADER_2"
 msgid "Transportation Between Planetoids"
-msgstr ""
+msgstr "Transport zwischen Planetoiden"
 
 #. STRINGS.CODEX.EXOBASES.HEADER_3
 msgctxt "STRINGS.CODEX.EXOBASES.HEADER_3"
@@ -21066,12 +20984,9 @@ msgid "Gassy Moo"
 msgstr "Gassy Moo"
 
 #. STRINGS.CODEX.GENETICS.HEADER_1
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.BUILDMENUTITLE"
-#| msgid "Stations"
 msgctxt "STRINGS.CODEX.GENETICS.HEADER_1"
 msgid "Plant Mutations"
-msgstr "Stationen"
+msgstr "Pflanzenmutationen"
 
 #. STRINGS.CODEX.GENETICS.HEADER_2
 msgctxt "STRINGS.CODEX.GENETICS.HEADER_2"
@@ -21079,12 +20994,9 @@ msgid "Breeding"
 msgstr "Zucht"
 
 #. STRINGS.CODEX.GENETICS.HEADER_3
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS"
-#| msgid "Passengers"
 msgctxt "STRINGS.CODEX.GENETICS.HEADER_3"
 msgid "Dangers"
-msgstr "Passagiere"
+msgstr "Gefahren"
 
 #. STRINGS.CODEX.GENETICS.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_1"
@@ -35856,12 +35768,11 @@ msgid "Motivated By Friend"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WELLFED.TOOLTIP"
-#| msgid "This Duplicant feels satisfied after having a big meal"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.TOOLTIP"
 msgid "This Duplicant feels motivated after meeting a long lost friend"
-msgstr "Dieser Duplikant fühlt sich nach einer großen Mahlzeit zufrieden"
+msgstr ""
+"Dieser Duplikant fühlt sich motiviert, nachdem er einen lange verlorenen "
+"Freund getroffen hat"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME"
@@ -36635,12 +36546,9 @@ msgstr ""
 "gebastelt damit er kurzfristig schneller läuft"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.MINION_TOOLTIP"
-#| msgid "More information"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME"
 msgid "Major Skin Irritation"
-msgstr "Mehr Informationen"
+msgstr "Starke Hautreizung"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP"
@@ -36649,6 +36557,10 @@ msgid ""
 "\n"
 "Caused by exposure to a harsh liquid or gas"
 msgstr ""
+"Woah, etwas hat das Gesicht dieses Duplikanten wirklich durcheinander "
+"gebracht!\n"
+"\n"
+"Verursacht durch Kontakt mit einer starken Flüssigkeit oder einem Gas"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME"
@@ -36729,15 +36641,12 @@ msgstr "Reduziert geringfügig die Wahrscheinlichkeit, krank zu werden."
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.NAME"
 msgid "Basic Rad Pill"
-msgstr ""
+msgstr "Primitive Strahlungstablette"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's construction speeds"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.TOOLTIP"
 msgid "Increases a Duplicant's natural radiation absorption rate."
-msgstr "Erhöht die Baugeschwindigkeit eines Duplikanten weiter"
+msgstr "Erhöht die natürliche Strahlungsabsorptionsrate eines Duplikanten."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_GENERICPILL.EFFECT_DESC
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_GENERICPILL.EFFECT_DESC"
@@ -36773,15 +36682,12 @@ msgstr "Reduziert die Chance, krank zu werden."
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.NAME"
 msgid "Intermediate Rad Pill"
-msgstr ""
+msgstr "Mittlere Strahlungstablette"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's construction speeds"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.TOOLTIP"
 msgid "Increases a Duplicant's natural radiation absorption rate."
-msgstr "Erhöht die Baugeschwindigkeit eines Duplikanten weiter"
+msgstr "Erhöht die natürliche Strahlungsabsorptionsrate eines Duplikanten."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MESSTABLESALT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MESSTABLESALT.NAME"
@@ -36813,17 +36719,16 @@ msgstr ""
 "Tier <style=\"KKeyword\">Kalorien</style> verbrennt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MINORIRRITATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.MINION_TOOLTIP"
-#| msgid "More information"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MINORIRRITATION.NAME"
 msgid "Minor Skin Irritation"
-msgstr "Mehr Informationen"
+msgstr "Leichte Hautreizung"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MINORIRRITATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MINORIRRITATION.TOOLTIP"
 msgid "A gas or liquid caused this Duplicant bit of redness and itching"
 msgstr ""
+"Ein Gas oder eine Flüssigkeit verursachte bei diesem Duplikanten eine Rötung "
+"mit Juckreiz"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.NAME"
@@ -36884,20 +36789,14 @@ msgid "This Duplicant was visited by something in the night"
 msgstr "Dieser Duplikant wurde von etwas in der Nacht besucht"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.NOFUNALLOWED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_DO_RECREATION"
-#| msgid "Not Interested"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NOFUNALLOWED.NAME"
 msgid "Fun Interrupted"
-msgstr "Nicht interessiert"
+msgstr "Spaß unterbrochen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.NOFUNALLOWED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DIGGING.TOOLTIP"
-#| msgid "This Duplicant is excavating raw resources"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NOFUNALLOWED.TOOLTIP"
 msgid "This Duplicant is upset a party was rejected"
-msgstr "Dieser Duplikant gräbt Rohmaterialien aus"
+msgstr "Dieser Duplikant ist verärgert, dass eine Party abgesagt wurde"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.NOISEMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NOISEMAJOR.NAME"
@@ -37072,54 +36971,46 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.NAME"
 msgid "Extreme Radiation Sickness"
-msgstr ""
+msgstr "Extreme Strahlenkrankheit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURNSICKNESS.DESCRIPTION"
-#| msgid "Extreme sun exposure has given this Duplicant a nasty burn"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.TOOLTIP"
 msgid "Extreme Radiation exposure is hurting this Duplicant"
-msgstr ""
-"Extreme Sonneneinstrahlung hat diesem Duplikant eine böse Verbrennung beschert."
+msgstr "Eine extreme Strahlenbelastung schadet diesem Duplikanten"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.NAME"
 msgid "Major Radiation Sickness"
-msgstr ""
+msgstr "Schwere Strahlenkrankheit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.TOOLTIP"
 msgid ""
 "Previous large-scale Radiation exposure is making this Duplicant very tired"
 msgstr ""
+"Eine frühere umfangreiche Strahlenbelastung macht diesen Duplikanten sehr müde"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.THERMALCONDUCTIVITYBARRIER.NAME"
-#| msgid "Insulation Thickness"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.NAME"
 msgid "Minor Radiation Sickness"
-msgstr "Isolierungsdicke"
+msgstr "Geringe Strahlenkrankheit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.TOOLTIP"
 msgid ""
 "Previous small-scale Radiation exposure is making this Duplicant slightly tired"
 msgstr ""
+"Eine frühere geringe Strahlenbelastung macht diesen Duplikanten etwas müde"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.NAME"
 msgid "Partied Hard"
-msgstr ""
+msgstr "Hart gefeiert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYFACE.TOOLTIP"
-#| msgid "This Duplicant recently had a crying fit and it shows"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.TOOLTIP"
 msgid "This Duplicant recently attended a great party!"
-msgstr "Dieser Duplikant hatte kürzlich einen Heulkrampf, und das sieht man"
+msgstr "Dieser Duplikant hat vor kurzem eine tolle Party mitgemacht!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME"
@@ -37362,40 +37253,28 @@ msgid ""
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.CAUSE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE"
-#| msgid "Obtained by eating a hearty home cooked meal"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.CAUSE"
 msgid "Obtained by eating seafoods like fish or lettuce"
-msgstr "Erhalten durch Konsum eines ausgiebigen, hausgemachten Mahls"
+msgstr "Erhalten durch den Verzehr von Meeresfrüchten wie Fisch oder Salat"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
-#| msgid "Refining this material produces <style=\"KKeyword\">{0}</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.DESCRIPTION"
 msgid "Eating this improves <style=\"KKeyword\">Radiation</style> resistance"
-msgstr ""
-"Dieses Material zu verarbeiten produziert <style=\"KKeyword\">{0}</style>"
+msgstr "Der Verzehr verbessert die <style=\"KKeyword\">Strahlenresistenz</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.NAME"
 msgid "Radiation Resistant: Seafood"
-msgstr ""
+msgstr "Strahlenbeständig: Meeresfrüchte"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYLIGHT.TOOLTIP"
-#| msgid ""
-#| "This Duplicant can't sleep because the <style=\"KKeyword\">Lights</style> "
-#| "are still on"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.TOOLTIP"
 msgid ""
 "This Duplicant ate seafood and is now more <style=\"KKeyword\">Radiation</"
 "style> resistant"
 msgstr ""
-"Dieser Duplikant kann nicht schlafen, weil die <style=\"KKeyword\">Lichter</"
-"style> noch eingeschaltet sind"
+"Dieser Duplikant aß Meeresfrüchte und ist jetzt <style=\"KKeyword"
+"\">strahlenresistenter</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEVEREWOUNDS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEVEREWOUNDS.NAME"
@@ -37737,12 +37616,9 @@ msgid "Environmental Exchange"
 msgstr "Umgebungsaustausch"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYNOISE.NAME"
-#| msgid "Interrupted Sleep: Snoring Friend"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.NAME"
 msgid "Dead Tired: Snoring Friend"
-msgstr "Unterbrochener Schlaf: Schnarchender Freund"
+msgstr "Totmüde: Schnarchender Freund"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP"
@@ -37756,20 +37632,15 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.THRIVER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.THRIVER.NAME"
 msgid "Duress to Impress"
-msgstr ""
+msgstr "Zwang zu beeindrucken"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.THRIVER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.STRESSVOMITER.DESC"
-#| msgid ""
-#| "This Duplicant is liable to puke everywhere when <style=\"KKeyword"
-#| "\">Stressed</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.THRIVER.TOOLTIP"
 msgid ""
 "This Duplicant kicks into hyperdrive when <style=\"KKeyword\">Stressed</style>"
 msgstr ""
-"Dieser Duplikant übergibt sich jederzeit und überall wenn er <style=\"KKeyword"
-"\">gestresst</style> ist"
+"Dieser Duplikant schaltet auf Turbo, wenn er <style=\"KKeyword\">gestresst</"
+"style> ist"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
@@ -39232,12 +39103,10 @@ msgid "<link=\"SENIORRESEARCHER\">Astronomy</link>"
 msgstr "<link=\"SENIORRESEARCHER\">Astronomie</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC"
-#| msgid "Allows my Duplicants to take to the skies, for a time."
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.DESCRIPTION"
 msgid "Allows Duplicants to pilot rockets at faster speeds"
-msgstr "Erlaubt meinen Duplikanten, eine Zeit lang in den Himmel zu schweben."
+msgstr ""
+"Ermöglicht es Duplikanten das Steuern von Raketen mit Höchstgeschwindigkeit"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_ROCKETPILOT.NAME"
@@ -39525,16 +39394,11 @@ msgstr ""
 "Duplikanten ist <b>{1}</b>"
 
 #. STRINGS.DUPLICANTS.STATS.TEMPERATURE.TOOLTIP_DOMESTICATEDCRITTER
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.TEMPERATURE.TOOLTIP"
-#| msgid ""
-#| "A healthy Duplicant's <style=\"KKeyword\">Body Temperature</style> is <b>{1}"
-#| "</b>"
 msgctxt "STRINGS.DUPLICANTS.STATS.TEMPERATURE.TOOLTIP_DOMESTICATEDCRITTER"
 msgid "This critter's <style=\"KKeyword\">Body Temperature</style> is <b>{1}</b>"
 msgstr ""
-"Eine gesunde <style=\"KKeyword\">Körpertemperatur</style> für einen "
-"Duplikanten ist <b>{1}</b>"
+"Eine gesunde <style=\"KKeyword\">Körpertemperatur</style> für dieses Tier ist "
+"<b>{1}</b>"
 
 #. STRINGS.DUPLICANTS.STATS.TRUNKHEALTH.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.TRUNKHEALTH.NAME"
@@ -40150,12 +40014,9 @@ msgstr ""
 "oder eine <link=\"FLUSHTOILET\">Toilette</link> freuen"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.NAME_MAJOR
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.MINION_TOOLTIP"
-#| msgid "More information"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.NAME_MAJOR"
 msgid "Major Eye Irritation"
-msgstr "Mehr Informationen"
+msgstr "Starke Augenreizung"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.NAME_MINOR
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.NAME_MINOR"
@@ -40169,6 +40030,9 @@ msgid ""
 "\n"
 "This poor Duplicant got a faceful of an irritating gas or liquid"
 msgstr ""
+"Ah, es sticht!\n"
+"\n"
+"Dieser arme Duplikant bekam ein reizendes Gas oder Flüssigkeit ins Gesicht"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
@@ -40181,28 +40045,19 @@ msgid "Time Remaining: {time}"
 msgstr "Verbleibende Zeit: {0}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_RATE_DECREASE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MORALE.HEADER_2"
-#| msgid "Recreation"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_RATE_DECREASE"
 msgid "decreasing"
-msgstr "Erholung"
+msgstr "abnehmend"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_RATE_INCREASE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.NAME"
-#| msgid "Happiness Increasing"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_RATE_INCREASE"
 msgid "increasing"
-msgstr "Steigende Zufriedenheit"
+msgstr "steigend"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_RATE_STAYS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TRAIN.STATUS"
-#| msgid "Training"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_RATE_STAYS"
 msgid "maintaining"
-msgstr "Training"
+msgstr "beibehaltend"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME"
@@ -45213,7 +45068,9 @@ msgctxt "STRINGS.ELEMENTS.IRONINGOT.DESC"
 msgid ""
 "(Fe) Iron is a <link=\"REFINEDMETAL\">Refined Metal</link> made from <link="
 "\"IRONORE\">Iron Ore</link>."
-msgstr "(Fe) Eisen ist raffiniertes Metall aus <link=\"IRONORE\">Eisenerz</link>"
+msgstr ""
+"(Fe) Eisen ist <link=\"REFINEDMETAL\">raffiniertes Metall</link> aus <link="
+"\"IRONORE\">Eisenerz</link>."
 
 #. STRINGS.ELEMENTS.IRONINGOT.NAME
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.NAME"
@@ -58847,12 +58704,9 @@ msgid "Requires two or more wild plants"
 msgstr "Benötigt zwei oder mehr Wildpflanzen"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANT.DESCRIPTION"
-#| msgid "At least two wild plants."
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANT.NAME"
 msgid "Two wild plants"
-msgstr "Mindestens zwei wilde Pflanzen."
+msgstr "Zwei wilde Pflanzen"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION"
@@ -58860,12 +58714,9 @@ msgid "Requires four or more wild plants"
 msgstr "Benötigt vier oder mehr Wildpflanzen"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME"
-#| msgid "At least four Wild Plants"
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME"
 msgid "Four wild plants"
-msgstr "Mindestens vier wilde Pflanzen"
+msgstr "Vier wilde Pflanzen"
 
 #. STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME"
@@ -71785,77 +71636,59 @@ msgid "Priority 2"
 msgstr "Priorität 2"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.BUTTON"
-#| msgid "Ventilation Overlay"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.BUTTON"
 msgid "Radiation Overlay"
-msgstr "Lüftungs-Overlay"
+msgstr "Strahlungs-Overlay"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.DESC
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.DESC"
 msgid "{rads} ({description})"
-msgstr "{rads} ({description})"
+msgstr "{rad} ({description})"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.HOVERTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.TRANSLATIONS"
-#| msgid "TRANSLATIONS"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.HOVERTITLE"
 msgid "RADIATION"
-msgstr "ÜBERSETZUNGEN"
+msgstr "STRAHLUNG"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.TRANSLATIONS"
-#| msgid "TRANSLATIONS"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.NAME"
 msgid "RADIATION"
-msgstr "ÜBERSETZUNGEN"
+msgstr "STRAHLUNG"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.HIGH
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.HIGH"
 msgid "Significant Hazard"
-msgstr ""
+msgstr "Signifikante Gefährdung"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.LOW
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND3"
-#| msgid "Barely Breathable"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.LOW"
 msgid "Barely Safe"
-msgstr "Kaum atembar"
+msgstr "Gerade noch sicher"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.MAX
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MAXIMUM_MASS"
-#| msgid "Maximum Mass"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.MAX"
 msgid "Maximum Hazard"
-msgstr "Maximale Masse"
+msgstr "Maximale MasseMaximale Gefährdung"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.MEDIUM
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.MEDIUM"
 msgid "Slight Hazard"
-msgstr ""
+msgstr "Leichte Gefährdung"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.NONE
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.NONE"
 msgid "Completely Safe"
-msgstr ""
+msgstr "Vollkommen sicher"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_HIGH
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE"
-#| msgid "Extreme Heat Danger"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_HIGH"
 msgid "Extreme Hazard"
-msgstr "Extreme Hitzegefahr"
+msgstr "Extreme Gefährdung"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_LOW
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_LOW"
 msgid "Mostly Safe"
-msgstr ""
+msgstr "Weitgehend sicher"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.BUTTON"
@@ -72044,12 +71877,12 @@ msgstr "Pflanzen"
 #. STRINGS.UI.PLATFORMS.EPIC
 msgctxt "STRINGS.UI.PLATFORMS.EPIC"
 msgid "Epic Games Store"
-msgstr ""
+msgstr "Epic Games Store"
 
 #. STRINGS.UI.PLATFORMS.STEAM
 msgctxt "STRINGS.UI.PLATFORMS.STEAM"
 msgid "Steam"
-msgstr ""
+msgstr "Steam"
 
 #. STRINGS.UI.PLATFORMS.UNKNOWN
 msgctxt "STRINGS.UI.PLATFORMS.UNKNOWN"
@@ -72059,7 +71892,7 @@ msgstr "Dein Spieleklient"
 #. STRINGS.UI.PLATFORMS.WEGAME
 msgctxt "STRINGS.UI.PLATFORMS.WEGAME"
 msgid "Wegame"
-msgstr ""
+msgstr "Wegame"
 
 #. STRINGS.UI.POS_INFINITY
 msgctxt "STRINGS.UI.POS_INFINITY"
@@ -73469,12 +73302,9 @@ msgid "Common Substances"
 msgstr "Übliche Stoffe"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME"
-#| msgid "Dust Comet"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS"
 msgid "Comets"
-msgstr "Staubkomet"
+msgstr "Kometen"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE"
@@ -73733,12 +73563,9 @@ msgid "Adjust additive radiation"
 msgstr "Zusatztemperatur einstellen"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
-#| msgid "Recreation Room"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.NAME"
 msgid "Radiation Tool"
-msgstr "Erholungsraum"
+msgstr "Strahlungswerkzeug"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.TOOLTIP
 #, fuzzy
@@ -74900,7 +74727,7 @@ msgstr "Leerer Raum"
 #. STRINGS.UI.SPACEDESTINATIONS.FOG_OF_WAR_SPACE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.FOG_OF_WAR_SPACE.NAME"
 msgid "Unexplored Space"
-msgstr ""
+msgstr "Unerforschter Weltraum"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.DESCRIPTION"
@@ -75503,20 +75330,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
-#| msgid "rocket engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE"
 msgid "Needs engine"
-msgstr "Raketentriebwerk"
+msgstr "Benötigt Triebwerk"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.READY"
 msgid "Engine"
-msgstr "Raketentriebwerk"
+msgstr "Triebwerk"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING"
@@ -75524,20 +75345,14 @@ msgid "Engine warning"
 msgstr "Triebwerkswarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
-#| msgid "rocket engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE"
 msgid "Needs engine"
-msgstr "Raketentriebwerk"
+msgstr "Benötigt Triebwerk"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.READY"
 msgid "Rocket has Engine"
-msgstr "Raketentriebwerk"
+msgstr "Rakete hat Triebwerk"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING"
@@ -75550,20 +75365,14 @@ msgid "Needs fuel tank"
 msgstr "Benötigt einen Tank für Treibstoff"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY"
 msgid "Fuel tank"
 msgstr "Treibstofftank"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING"
 msgid "Fuel tank warning"
-msgstr "Treibstofftank"
+msgstr "Treibstofftank-Warnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.FAILURE"
@@ -75571,20 +75380,14 @@ msgid "Needs fuel tank"
 msgstr "Benötigt einen Tank für Treibstoff"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
-#| msgid "Rocket Checklist"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY"
 msgid "Rocket has Fuel tank"
-msgstr "Raketen-Checkliste"
+msgstr "Rakete hat Kraftstofftank"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING"
 msgid "Fuel tank warning"
-msgstr "Treibstofftank"
+msgstr "Treibstofftank-Warnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE"
@@ -75617,28 +75420,19 @@ msgid "Nosecone warning"
 msgstr "Nasenkonuswarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE"
 msgid "Needs oxidizer tank"
-msgstr "Oxidatortank voll"
+msgstr "Benötigt Oxidatortank"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.READY"
 msgid "Oxidizer tank"
-msgstr "Oxidatortank voll"
+msgstr "Oxidatortank"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.WARNING"
 msgid "Oxidizer tank warning"
-msgstr "Oxidatortank voll"
+msgstr "Oxidatortank-Warnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE"
@@ -75651,12 +75445,9 @@ msgid "Rocket has an Oxidizer tank"
 msgstr "Rakete hat einen Oxidationsmitteltank"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING"
 msgid "Oxidizer tank warning"
-msgstr "Oxidatortank voll"
+msgstr "Oxidatortank-Warnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
@@ -75765,30 +75556,19 @@ msgstr ""
 "oder von dieser Rakete übertragen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.COMMAND_MODULE"
-#| msgid "Command Module"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE"
 msgid "Too many modules"
-msgstr ""
-"Kommando-\n"
-"modul"
+msgstr "Zu viele Module"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
-#| msgid "Modules"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.READY"
 msgid "Module count"
-msgstr "Module"
+msgstr "Modulanzahl"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.STATUS"
-#| msgid "Mourning"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.WARNING"
 msgid "Module warning"
-msgstr "Trauert"
+msgstr "Modulwarnung"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.FAILURE"
@@ -75796,12 +75576,9 @@ msgid "This rocket's engine can not support this many modules"
 msgstr "Dieser Raketentriebwerk kann so viele Module nicht unterstützen"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
-#| msgid "Modules"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.READY"
 msgid "Module count"
-msgstr "Module"
+msgstr "Modulanzahl"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.WARNING"
@@ -76221,9 +75998,6 @@ msgid "Replenished/Cycle:"
 msgstr "Wiederauffüllung/Zyklus:"
 
 #. STRINGS.UI.STARMAP.REPLENISH_RATE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.REPLENISH_RATE_TOOLTIP"
-#| msgid "The rate at which this destination regenerates its resources."
 msgctxt "STRINGS.UI.STARMAP.REPLENISH_RATE_TOOLTIP"
 msgid "The rate at which this destination regenerates resources"
 msgstr "Die Rate mit der dieses Ziel seine Ressourcen regeneriert"
@@ -76986,20 +76760,14 @@ msgid "Clear Floor"
 msgstr "Boden leeren"
 
 #. STRINGS.UI.TOOLS.SANDBOX.CRITTER.HOVERACTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.SANDBOX.CLEAR_FLOOR.HOVERACTION"
-#| msgid "DELETE DEBRIS"
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.CRITTER.HOVERACTION"
 msgid "DELETE CRITTERS"
-msgstr "SCHUTT LÖSCHEN"
+msgstr "TIERE LÖSCHEN"
 
 #. STRINGS.UI.TOOLS.SANDBOX.CRITTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_RELOCATOR.NAME"
-#| msgid "Critter Relocator"
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.CRITTER.NAME"
 msgid "Critter Removal"
-msgstr "Tier-Repositionierer"
+msgstr "Tiere entfernen"
 
 #. STRINGS.UI.TOOLS.SANDBOX.DESTROY.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.DESTROY.HOVERACTION"
@@ -77047,20 +76815,14 @@ msgid "Marquee"
 msgstr "Marquee"
 
 #. STRINGS.UI.TOOLS.SANDBOX.RADSTOOL.HOVERACTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.SANDBOX.HEATGUN.HOVERACTION"
-#| msgid "PAINT HEAT"
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.RADSTOOL.HOVERACTION"
 msgid "PAINT RADS"
-msgstr "HITZE MALEN"
+msgstr "STRAHLUNG MALEN"
 
 #. STRINGS.UI.TOOLS.SANDBOX.RADSTOOL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
-#| msgid "Recreation Room"
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.RADSTOOL.NAME"
 msgid "Radiation Tool"
-msgstr "Erholungsraum"
+msgstr "Strahlungswerkzeug"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SAMPLE.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SAMPLE.HOVERACTION"
@@ -77211,12 +76973,9 @@ msgid "Give this Duplicant a new name"
 msgstr "Gib diesem Duplikanten einen Namen"
 
 #. STRINGS.UI.TOOLTIPS.EDITNAMEGENERIC
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.PLANETNAME"
-#| msgid "Name: {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.EDITNAMEGENERIC"
 msgid "Rename {0}"
-msgstr "Name: {0}"
+msgstr "Umbenenne {0}"
 
 #. STRINGS.UI.TOOLTIPS.ENERGYGENERATED
 msgctxt "STRINGS.UI.TOOLTIPS.ENERGYGENERATED"
@@ -77254,12 +77013,9 @@ msgid "Obstructed by back wall"
 msgstr "Durch Rückwand blockiert"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_BELOWROCKETCEILING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE"
-#| msgid "Must be built on the surface in space"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_BELOWROCKETCEILING"
 msgid "Must be placed further from the edge of space"
-msgstr "Muss auf der Oberfläche im Weltraum gebaut werden"
+msgstr "Muss näher an den Rand des Weltraums platziert werden"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING"
@@ -77318,6 +77074,8 @@ msgid ""
 "World has no <link=\"HEADQUARTERS\">Printing Pod</link> or <link="
 "\"EXOBASEHEADQUARTERS\">Mini-Pod</link>"
 msgstr ""
+"Diese Welt hat keinen <link=\"HEADQUARTERS\">Biodrucker</link> oder <link="
+"\"EXOBASEHEADQUARTERS\">Mini-Pod</link>"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
@@ -77668,12 +77426,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.RADIATIONOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING"
-#| msgid "Displays ambient noise levels {Hotkey}"
 msgctxt "STRINGS.UI.TOOLTIPS.RADIATIONOVERLAYSTRING"
 msgid "Displays radiation levels {Hotkey}"
-msgstr "Zeigt die Umgebungsgeräusche an {Hotkey}"
+msgstr "Zeigt Strahlungswerte an {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.RANDOMIZENAME
 msgctxt "STRINGS.UI.TOOLTIPS.RANDOMIZENAME"
@@ -77885,28 +77640,19 @@ msgid "Breathability"
 msgstr "Atembar"
 
 #. STRINGS.UI.TRACKERS.FOOD
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_FOOD"
-#| msgid "Food"
 msgctxt "STRINGS.UI.TRACKERS.FOOD"
 msgid "Food"
 msgstr "Nahrung"
 
 #. STRINGS.UI.TRACKERS.IDLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_DEFAULT"
-#| msgid "New Duplicants"
 msgctxt "STRINGS.UI.TRACKERS.IDLE"
 msgid "Idle Duplicants"
-msgstr "Neue Duplikanten"
+msgstr "Untätige Duplikanten"
 
 #. STRINGS.UI.TRACKERS.STRESS
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.STRESS.HEADER_1"
-#| msgid "Stress"
 msgctxt "STRINGS.UI.TRACKERS.STRESS"
 msgid "Max Stress"
-msgstr "Stress"
+msgstr "Maximaler Stress"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.DOOR_DEFAULT
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.DOOR_DEFAULT"
@@ -78104,7 +77850,7 @@ msgstr "Außerweltlich"
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.PILOT
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.PILOT"
 msgid "Pilot"
-msgstr ""
+msgstr "Pilot"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TITLE"
@@ -78125,7 +77871,7 @@ msgstr "Dieser Duplikant befindet sich auf einem anderen Planetoid"
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TOOLTIPS.UNASSIGN
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TOOLTIPS.UNASSIGN"
 msgid "<b>Remove</b> this Duplicant from rocket crew"
-msgstr ""
+msgstr "<b>Entferne</b> diesen Duplikanten aus der Raketenbesatzung"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTON"
@@ -78349,16 +78095,16 @@ msgid "Planetoid"
 msgstr "Planetoid"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD
-#, fuzzy
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD"
 msgid "Oversee Planetoid"
-msgstr "Planetoid anschauen"
+msgstr "Planetoid untersuchen"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD_DISABLE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD_DISABLE_TOOLTIP"
 msgid "Enter the planetoid orbit to inspect the surface."
 msgstr ""
+"In den Orbit des Planetoiden eintreten, um die Oberfläche zu untersuchen."
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ASSIGN_TO_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ASSIGN_TO_TOOLTIP"
@@ -78777,7 +78523,7 @@ msgstr "Treibstofftank ({0})"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.LEADSUIT_BATTERY
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.LEADSUIT_BATTERY"
 msgid "Suit Battery ({0})"
-msgstr ""
+msgstr "Anzugsbatterie ({0})"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK"
@@ -79052,7 +78798,7 @@ msgstr "Neural-Oszillation läuft."
 #. STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.TITLE"
 msgid "Spacefarer Module"
-msgstr ""
+msgstr "Raumfahrer-Modul"
 
 #. STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.VIEW_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.VIEW_BUTTON"
@@ -79095,7 +78841,7 @@ msgstr "Raketen im Orbit"
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAND_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAND_BUTTON"
 msgid "LAND HERE"
-msgstr ""
+msgstr "HIER LANDEN"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON"
@@ -79115,7 +78861,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON_TOOLTIP"
 msgid "Blast off!"
-msgstr ""
+msgstr "Los geht's!"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON"
@@ -79130,11 +78876,14 @@ msgid ""
 "------------------\n"
 "<b>Click to cancel launch</b>"
 msgstr ""
+"Diese Rakete hebt ab, sobald ein Duplikant die Steuerung übernimmt\n"
+"------------------\n"
+"<b>Klick zum Abbrechen des Starts</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON"
 msgid "ACKNOWLEDGE WARNINGS"
-msgstr ""
+msgstr "WARNUNGEN BESTÄTIGEN"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON_TOOLTIP
 msgctxt ""
@@ -79144,6 +78893,9 @@ msgid ""
 "------------------\n"
 "<b>Click to ignore warnings and proceed with launch</b>"
 msgstr ""
+"Einige Punkte in der Launch-Checkliste erfordern Aufmerksamkeit!\n"
+"------------------\n"
+"<b>Klicke, um Warnungen zu ignorieren und mit dem Start fortzufahren</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NEW_ROCKET_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NEW_ROCKET_BUTTON"
@@ -79153,7 +78905,7 @@ msgstr "NEUE RAKETE"
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NO_ROCKETS_WAITING
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NO_ROCKETS_WAITING"
 msgid "No rockets in orbit"
-msgstr ""
+msgstr "Keine Raketen im Orbit"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.TITLE"
@@ -79609,20 +79361,17 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH"
 msgid "Load/Unload"
-msgstr ""
+msgstr "Be-/Entladen"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_LOAD
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_LOAD"
 msgid "Load Only"
-msgstr "Nur laden"
+msgstr "Nur beladen"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_UNLOAD
-#, fuzzy
-#| msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME"
-#| msgid "Unloading"
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_UNLOAD"
 msgid "Unload Only"
-msgstr "Lädt aus"
+msgstr "Nur entladen"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TITLE"
@@ -79634,6 +79383,8 @@ msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_BOTH"
 msgid ""
 "This pump will both <b>Load</b> and <b>Unload</b> cargo from the landed rocket"
 msgstr ""
+"Diese Pumpe wird die gelandete Rakete sowohl <b>beladen</b> als auch "
+"<b>entladen</b>"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_LOAD
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_LOAD"
@@ -79641,6 +79392,8 @@ msgid ""
 "This pump will attempt to <b>Load</b> cargo onto the landed rocket, but will "
 "not unload it"
 msgstr ""
+"Diese Pumpe versucht, <b>Fracht</b> in die gelandete Rakete zu pumpen, entlädt "
+"sie aber nicht"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_UNLOAD
 msgctxt ""
@@ -79649,6 +79402,8 @@ msgid ""
 "This pump will attempt to <b>Unload</b> cargo from the landed rocket, but not "
 "attempt to load new cargo"
 msgstr ""
+"Diese Pumpe versucht, <b>Fracht</b> aus der gelandeten Rakete zu pumpen, "
+"belädt sie aber nicht"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.DEPLOY_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.DEPLOY_BUTTON"
@@ -79744,6 +79499,10 @@ msgid ""
 "\n"
 "Before launch the crew will automatically be requested"
 msgstr ""
+"Alle Duplikanten können das Modul frei betreten und verlassen, bis die Rakete "
+"zum Start bereit ist\n"
+"\n"
+"Vor dem Start wird die Besatzung automatisch angefordert"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.CHANGE_CREW_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.CHANGE_CREW_BUTTON"
@@ -79771,12 +79530,14 @@ msgstr "Alle Duplikanten können das Modul frei betreten und verlassen"
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW"
 msgid "Crew"
-msgstr ""
+msgstr "Besatzung"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW_TOOLTIP"
 msgid "Crew may not leave the module, non crew-must exit"
 msgstr ""
+"Die Besatzung darf das Modul nicht verlassen, das Bodenpersonal muss das Modul "
+"verlassen"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUIRE_SUIT_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUIRE_SUIT_LABEL"
@@ -79790,6 +79551,8 @@ msgid ""
 "If checked, Duplicants will be required to wear an Atmo Suit when entering "
 "this rocket"
 msgstr ""
+"Wenn aktiviert, müssen Duplikanten beim Betreten dieser Rakete einen "
+"Atemschutzanzug tragen"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.UNASSIGNED
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.UNASSIGNED"
@@ -80000,10 +79763,9 @@ msgid "{0} {1} per harvest"
 msgstr "{0} {1} pro Ernte"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_RESOURCES_HEADER
-#, fuzzy
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_RESOURCES_HEADER"
 msgid "Launch Resources:"
-msgstr "Ressourcen starten:"
+msgstr "Start-Ressourcen:"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED"
@@ -80144,24 +79906,24 @@ msgstr "Dieses Modul kann nicht entfernt werden"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.DESC"
 msgid "Swap this rocket module with the one below"
-msgstr ""
+msgstr "Tauschen dieses Raketenmodul gegen das darunterliegende aus"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.INVALID
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.INVALID"
 msgid "No module below may be swapped"
-msgstr ""
+msgstr "Das darunterliegende Modul kann nicht getauscht werden"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEUP.DESC
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEUP.DESC"
 msgid "Swap this rocket module with the one above"
-msgstr ""
+msgstr "Tausche dieses Raketenmodul gegen das darüberliegenden aus"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEUP.INVALID
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEUP.INVALID"
 msgid "No module above may be swapped"
-msgstr ""
+msgstr "Das darüberliegenden Modul kann nicht getauscht werden"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWEXTERIOR.DESC
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWEXTERIOR.DESC"
@@ -80183,7 +79945,7 @@ msgstr "Außenansicht"
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWINTERIOR.DESC
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWINTERIOR.DESC"
 msgid "What's goin' on in there?"
-msgstr ""
+msgstr "Was geht da drinnen vor?"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWINTERIOR.INVALID
 msgctxt ""
@@ -80228,7 +79990,7 @@ msgstr "<b>{0}</b>"
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.RANGE
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.RANGE"
 msgid "    • Potential Range: {0}/1 Kg Fuel ({1})"
-msgstr ""
+msgstr "    • Potentielle Reichweite: {0}/1 kg Kraftstoff ({1})"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.SPEED
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.SPEED"
@@ -80292,7 +80054,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ENGINE_AT_BOTTOM."
 "FAILED"
 msgid "    • Must install at bottom of rocket"
-msgstr ""
+msgstr "    • Muss am unteren Ende der Rakete gebaut werden"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MATERIALS_AVAILABLE.COMPLETE
 msgctxt ""
@@ -80319,7 +80081,7 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_MODULES.FAILED"
 msgid "    • Max module limit of engine reached"
-msgstr ""
+msgstr "    • Maximale Modulanzahl des Triebwerks erreicht"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ONE_COMMAND_PER_ROCKET.COMPLETE
 msgctxt ""
@@ -80333,7 +80095,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "ONE_COMMAND_PER_ROCKET.FAILED"
 msgid "    • Command module already installed"
-msgstr ""
+msgstr "    • Kommandomodul bereits installiert"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ONE_ENGINE_PER_ROCKET.COMPLETE
 msgctxt ""
@@ -80347,7 +80109,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "ONE_ENGINE_PER_ROCKET.FAILED"
 msgid "    • Engine module already installed"
-msgstr ""
+msgstr "    • Raketentriebwerk bereits installiert"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.PASSENGER_MODULE_AVAILABLE.COMPLETE
 msgctxt ""
@@ -80361,7 +80123,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "PASSENGER_MODULE_AVAILABLE.FAILED"
 msgid "    • Max number of passenger modules installed"
-msgstr ""
+msgstr "    • Maximale Anzahl der verbauten Fahrgastmodule"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.RESEARCHED.COMPLETE
 msgctxt ""
@@ -80387,7 +80149,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE."
 "FAILED"
 msgid "    • Space above rocket blocked"
-msgstr ""
+msgstr "    • Bereich über Rakete blockiert"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.COMPLETE
 msgctxt ""
@@ -80399,7 +80161,7 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.FAILED"
 msgid "    • Must install at top of rocket"
-msgstr ""
+msgstr "    • Muss an der Raketenspitze gebaut werden"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.TITLE"
@@ -81012,7 +80774,7 @@ msgstr "Passagier übertragen!"
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.CONSUMED
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.CONSUMED"
 msgid "Teleporter recharging:"
-msgstr ""
+msgstr "Teleporter lädt auf:"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.IDLE
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.IDLE"
@@ -81020,6 +80782,8 @@ msgid ""
 "Teleporter online.\n"
 "Please select a passenger:"
 msgstr ""
+"Teleporter bereit.\n"
+"Bitte wählen einen Passagier aus:"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE"
@@ -81029,12 +80793,12 @@ msgstr "Teleporter"
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.UNDERWAY
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.UNDERWAY"
 msgid "Transmitting passenger..."
-msgstr ""
+msgstr "Sende Passagier..."
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.WAITING
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.WAITING"
 msgid "Ready to transmit passenger."
-msgstr ""
+msgstr "Bereit einen Passagier zu senden."
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF"
@@ -81083,7 +80847,7 @@ msgstr " Tiere"
 #. STRINGS.UI.UNITSUFFIXES.DEGREES
 msgctxt "STRINGS.UI.UNITSUFFIXES.DEGREES"
 msgid " degrees"
-msgstr ""
+msgstr " Grad"
 
 #. STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS
 msgctxt "STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS"
@@ -81163,12 +80927,12 @@ msgstr " kDTU/s"
 #. STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE
 msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE"
 msgid " particle"
-msgstr ""
+msgstr " Partikel"
 
 #. STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLES
 msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLES"
 msgid " particles"
-msgstr ""
+msgstr " Partikel"
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE"
@@ -81198,7 +80962,7 @@ msgstr "TB"
 #. STRINGS.UI.UNITSUFFIXES.LIGHT.LUX
 msgctxt "STRINGS.UI.UNITSUFFIXES.LIGHT.LUX"
 msgid " lux"
-msgstr ""
+msgstr " lux"
 
 #. STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA
 msgctxt "STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA"
@@ -81263,7 +81027,7 @@ msgstr "/s"
 #. STRINGS.UI.UNITSUFFIXES.RADIATION.RADS
 msgctxt "STRINGS.UI.UNITSUFFIXES.RADIATION.RADS"
 msgid " rads"
-msgstr ""
+msgstr " rad"
 
 #. STRINGS.UI.UNITSUFFIXES.ROCKET_MISSIONS
 msgctxt "STRINGS.UI.UNITSUFFIXES.ROCKET_MISSIONS"
@@ -81308,44 +81072,32 @@ msgstr " Einheiten"
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE"
 msgid "Activate"
-msgstr "aktivieren"
+msgstr "Aktivieren"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE_CANCEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.RELOCATE.NAME_OFF"
-#| msgid "Cancel Relocation"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE_CANCEL"
 msgid "Cancel Activation"
-msgstr "Verschieben abbrechen"
+msgstr "Aktivierung abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATED
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATED"
 msgid "Activated"
-msgstr "aktiviert"
+msgstr "Aktiviert"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.TOOLTIP"
-#| msgid "A stressed Duplicant is damaging this building"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATE"
 msgid "Request a Duplicant to activate this building"
-msgstr "Ein gestresster Duplikant beschädigte dieses Objekt"
+msgstr "Benötigt einen Duplikanten, um das Gebäude zu aktivieren"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.NO_DISEASE.TOOLTIP"
-#| msgid "This building is already clean"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATED"
 msgid "This building has already been activated"
-msgstr "Dieses Gebäude ist schon sauber"
+msgstr "Das Gebäude wurde bereits aktiviert"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.TOOLTIP_OFF"
-#| msgid "Deliver materials to this building"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL"
 msgid "Cancel activation of this building"
-msgstr "Lieferung von Material zu diesem Objekt"
+msgstr "Aktivierung dieses Gebäudes abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.ATTACK.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.ATTACK.NAME"
@@ -81418,9 +81170,6 @@ msgid "Cancel this dig order"
 msgstr "Graben abbrechen"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME"
-#| msgid "Cancel Harvest"
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.NAME"
 msgid "Cancel Harvest"
 msgstr "Ernte abbrechen"
@@ -81900,7 +81649,7 @@ msgstr "Der Schreibtisch ist innen unheimlich leer."
 #. STRINGS.UI.USERMENUACTIONS.READLORE.ALREADYINSPECTED
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.ALREADYINSPECTED"
 msgid "Already inspected"
-msgstr ""
+msgstr "Bereits untersucht"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE"
@@ -82249,12 +81998,9 @@ msgid "Recover files from this structure"
 msgstr "Dateien aus diesem Objekt bergen"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP_ALREADYINSPECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
-#| msgid "This mystery of the universe has already been solved."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP_ALREADYINSPECTED"
 msgid "This structure has already been inspected"
-msgstr "Dieses Geheimnis des Universums ist bereits gelöst."
+msgstr "Diese Struktur wurde bereits untersucht"
 
 #. STRINGS.UI.USERMENUACTIONS.RELEASEELEMENT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.RELEASEELEMENT.NAME"
@@ -83050,12 +82796,9 @@ msgid "Building the suspense..."
 msgstr "Spannung aufbauen..."
 
 #. STRINGS.UI.WORLDGEN.PLACINGTEMPLATES
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME"
-#| msgid "Generating power"
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGTEMPLATES"
 msgid "Generating interest..."
-msgstr "Erzeugt Energie"
+msgstr "Interesse wecken ..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING"
@@ -83851,9 +83594,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.STRANGERICHSANDSTONE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME"
-#| msgid "Rocky Asteroid"
 msgctxt "STRINGS.WORLDS.STRANGERICHSANDSTONE.NAME"
 msgid "Rocky Asteroid"
 msgstr "Felsiger Asteroid"
@@ -83866,14 +83606,15 @@ msgid ""
 "<smallcaps>Brimstonia Asteroids contain an abundant supply of Sulfur.</"
 "smallcaps>"
 msgstr ""
+"Eine kleinere Landmasse mit einem ausgeprägten Geruch.\n"
+"\n"
+"<smallcaps>Diese Asteroiden enthalten einen reichlichen Vorrat an Schwefel.</"
+"smallcaps>"
 
 #. STRINGS.WORLDS.SULFURMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
 msgctxt "STRINGS.WORLDS.SULFURMOONLET.NAME"
 msgid "Brimstonia Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
+msgstr "Schwefelreicher Asteroid"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.CLUSTERNAME
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.CLUSTERNAME"
@@ -83901,6 +83642,8 @@ msgid ""
 "\n"
 "<b>Surrounding Planetoids</b>:"
 msgstr ""
+"\n"
+"<b>Umliegende Planetoiden</b>:"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.MOSTHOSPITABLE
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.MOSTHOSPITABLE"
@@ -83915,17 +83658,16 @@ msgstr "Moderat"
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.PLANETNAME
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.PLANETNAME"
 msgid "<b>Starting Asteroid</b>: {0}\n"
-msgstr ""
+msgstr "<b>Startasteroid</b>: {0}\n"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE"
-#| msgid "Survival Chance: <color=#{1}>{0}</color></b>"
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.TITLE"
 msgid ""
 "\n"
 "Survival Chance: <b><color=#{1}>{0}</color></b>"
-msgstr "Überlebenschance: <color=#{1}>{0}</color></b>"
+msgstr ""
+"\n"
+"Überlebenschance: <b><color=#{1}>{0}</color></b>"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.VERYHIGH
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.VERYHIGH"
@@ -83966,12 +83708,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.TERRAMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.NAME"
 msgid "Sandstone Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
+msgstr "Sandstein Asteroid"
 
 #. STRINGS.WORLDS.THE_ROCK.DESCRIPTION
 #, fuzzy
@@ -84060,12 +83799,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.WORLDS.TUNDRAMOONLET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
-#| msgid "Carbon Asteroid"
 msgctxt "STRINGS.WORLDS.TUNDRAMOONLET.NAME"
 msgid "Tundra Asteroid"
-msgstr "Kohlenstoffreicher Asteroid"
+msgstr "Tundra-Asteroid"
 
 #. STRINGS.WORLDS.TWINMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.TWINMOONLET.DESCRIPTION"
