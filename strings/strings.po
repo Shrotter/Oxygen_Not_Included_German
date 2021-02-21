@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-21 12:01+0100\n"
+"PO-Revision-Date: 2021-02-21 16:18+0100\n"
 "Last-Translator: CarstenG\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -485,12 +485,9 @@ msgid "Output <style=\"KKeyword\">Pipe</style> is blocked"
 msgstr "<style=\"KKeyword\">Ausgangsrohr</style> ist blockiert"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS_TITLE"
-#| msgid "Rocket Status"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME"
 msgid "No Rocket Ports"
-msgstr "Raketenstatus"
+msgstr "Kein Raketenanschluss"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP"
@@ -503,11 +500,18 @@ msgid ""
 "link> are required to load and unload materials from a landed rocket's <style="
 "\"KKeyword\">Cargo Bays</style>"
 msgstr ""
+"Die aktuelle <style=\"KKeyword\">Raketenplattform</style> hat keinen "
+"angeschlossenen <link=\"MODULARLAUNCHPADPORTSOLID\">Raketenanschluss</link>\n"
+"\n"
+"<style=\"KKeyword\">Feststoff-</style>, <style=\"KKeyword\">Gas</style> und "
+"<style=\"KKeyword\">Flüssigkeits-</style> <link=\"MODULARLAUNCHPADPORTSOLID"
+"\">Raketenanschlüsse</link> werden benötigt, um Materialien aus den <style="
+"\"KKeyword\">Laderäumen</style> einer gelandeten Rakete ein- und auszuladen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME"
 msgid "Rocket Network Attached"
-msgstr ""
+msgstr "Raketennetzwerk angeschlossen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.TOOLTIP"
@@ -516,14 +520,14 @@ msgid ""
 "\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> which can load or unload from "
 "this module"
 msgstr ""
+"Die aktuelle <style=\"KKeyword\">Raketenplattform</style> hat einen <link="
+"\"MODULARLAUNCHPADPORTSOLID\">Raketenschanluss</link>, der von diese beladen "
+"oder entladen kann"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.NAME"
-#| msgid "Incomplete Artwork"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME"
 msgid "Unconnected Port Network"
-msgstr "Unvollständiges Kunstwerk"
+msgstr "Raketennetzwerk nicht angeschlossen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
@@ -532,6 +536,9 @@ msgid ""
 "current <style=\"KKeyword\">Rocket Platform</style> are not the correct type "
 "for this <style=\"KKeyword\">Cargo Bay</style>"
 msgstr ""
+"Der <link=\"MODULARLAUNCHPADPORTSOLID\">Raketenanschluss</link>, der mit der "
+"aktuellen <style=\"KKeyword\">Raketenplattform</style> verbunden ist, ist "
+"nicht der richtige Typ für diesen <style=\"KKeyword\">Laderaum</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME"
@@ -7672,15 +7679,12 @@ msgstr "Neuraler Oszillator"
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.DESC"
 msgid "Would a mutated rose still smell as sweet?"
-msgstr ""
+msgstr "Würde eine mutierte Rose immer noch so lieblich duften?"
 
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY"
-#| msgid "Consumes 1 <link=\"PLANTS\">Seed</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.EFFECT"
 msgid "Identifies new <link=\"PLANTS\">Seed</link> subspecies."
-msgstr "Verbraucht 1 <link=\"PLANTS\">Samen</link>"
+msgstr "Identifiziert neue <link=\"PLANTS\">Samen-Unterarten</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.NAME"
@@ -7800,6 +7804,8 @@ msgid ""
 "Duplicants can survive space travel inside this protective nosecone... "
 "Hopefully."
 msgstr ""
+"Duplikanten können die Weltraumreise in dieser schützenden Raketenspitze "
+"überleben... Hoffentlich."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.EFFECT"
@@ -7810,6 +7816,11 @@ msgid ""
 "\n"
 "One Command Module may be installed per rocket."
 msgstr ""
+"Funktioniert wie ein Kommandomodul.\n"
+"\n"
+"Nimmt bis zu zehn Duplikanten-Reisende auf.\n"
+"\n"
+"Pro Rakete kann ein Kommandomodul installiert werden."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.NAME"
@@ -7819,7 +7830,7 @@ msgstr "<link=\"HABITATMODULEMEDIUM\">Raumfahrer-Modul</link>"
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.DESC"
 msgid "One lucky Duplicant gets the best view from the whole rocket."
-msgstr ""
+msgstr "Ein glücklicher Duplikant bekommt die beste Sicht der ganzen Rakete."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.EFFECT"
@@ -7832,11 +7843,18 @@ msgid ""
 "\n"
 "Must be built at the top of a rocket."
 msgstr ""
+"Funktioniert als Kommandomodul und Raketenspitze.\n"
+"\n"
+"Hält einen Duplikanten-Reisenden.\n"
+"\n"
+"Pro Rakete kann ein Kommandomodul installiert werden.\n"
+"\n"
+"Muss oben auf einer Rakete gebaut werden."
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.NAME"
 msgid "<link=\"HABITATMODULESMALL\">Solo Spacefarer Nosecone</link>"
-msgstr ""
+msgstr "<link=\"HABITATMODULESMALL\">Solo Raumfahrer-Raketenspitze</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.DESC"
@@ -7897,25 +7915,23 @@ msgid ""
 "\n"
 "Alas, it won't work."
 msgstr ""
+"Ein Klon der Klonmaschine? Was für ein neuer Gedanke.\n"
+"\n"
+"Leider wird das nicht funktionieren."
 
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC"
 msgid "\"Room temperature\" is relative, really."
-msgstr ""
+msgstr "\"Raumtemperatur\" ist wirklich relativ."
 
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT"
-#| msgid ""
-#| "Internal <link=\"ELEMENTSLIQUID\">Liquid</link> <link=\"HEAT\">Temperature</"
-#| "link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.EFFECT"
 msgid ""
 "Heats or cools <link=\"ELEMENTSLIQUID\">Liquid</link> to match ambient <link="
 "\"HEAT\">Air Temperature</link>."
 msgstr ""
-"Interne <link=\"ELEMENTSLIQUID\">Flüssigkeits</link>-<link=\"HEAT"
-"\">Temperatur</link>"
+"Heizt oder kühlt <link=\"ELEMENTSLIQUID\">Flüssigkeiten</link> auf die <link="
+"\"HEAT\">Lufttemperatur</link> der Umgebung."
 
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.NAME"
@@ -7925,7 +7941,7 @@ msgstr "<link=\"HEATCOMPRESSOR\">Flüssigkeits­wärmer</link>"
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC"
 msgid "It's like playing the most dangerous game of ping pong."
-msgstr ""
+msgstr "Es ist, als würde man das gefährlichste Tischtennisspiel spielen."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.EFFECT"
@@ -7933,11 +7949,13 @@ msgid ""
 "Receives and redirects <style=\"KKeyword\">High Energy Particles</style> from "
 "<link=\"HIGHENERGYPARTICLESPAWNER\">Particle Generators</link>."
 msgstr ""
+"Empfängt und leitet <style=\"KKeyword\">Hochenergieteilchen</style> von <link="
+"\"HIGHENERGYPARTICLESPAWNER\">Partikelgenerator</link> um."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT"
 msgid "Ignore incoming particles"
-msgstr ""
+msgstr "Eingehende Partikel ignorieren"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_ACTIVE
 msgctxt ""
@@ -7960,13 +7978,9 @@ msgid "<link=\"HIGHENERGYPARTICLEREDIRECTOR\">Particle Redirector</link>"
 msgstr "<link=\"HIGHENERGYPARTICLEREDIRECTOR\">Partikel-Redirector</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.DESC"
-#| msgid "Research stations are necessary for unlocking all research tiers."
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.DESC"
 msgid "High energy particles are necessary for producing atomic research."
-msgstr ""
-"Forschungsstationen sind notwendig, um alle Forschungsstufen freizuschalten."
+msgstr "Hochenergieteilchen sind notwendig, um Atomforschung zu betreiben."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT"
@@ -7976,11 +7990,15 @@ msgid ""
 "\n"
 "Emits generated particles in the direction of your choosing."
 msgstr ""
+"Zieht die nahegelegene <link=\"RADIATION\">Strahlung</link> an und erzeugt "
+"<style=\"KKeyword\">Hochenergieteilchen</style>.\n"
+"\n"
+"Sendet erzeugte Partikel in die gewählte Richtung aus."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
 msgid "Do not emit High Energy Particles"
-msgstr ""
+msgstr "Keine Hochenergieteilchen emittieren"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE"
@@ -8093,7 +8111,7 @@ msgid ""
 "Hydrogen engines can propel rockets further than steam or petroleum engines."
 msgstr ""
 "Wasserstofftriebwerke können Raketen mehr antreiben als Dampf- oder "
-"Benzintriebwerke."
+"Petroleumtriebwerke."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT
 #, fuzzy
@@ -8124,15 +8142,11 @@ msgid "<link=\"HYDROGENENGINE\">Hydrogen Engine</link>"
 msgstr "<link=\"HYDROGENENGINE\">Wasserstoff-Triebwerk</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINECLUSTER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.DESC"
-#| msgid ""
-#| "Hydrogen engines can propel rockets further than steam or petroleum engines."
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINECLUSTER.DESC"
 msgid ""
 "Hydrogen engines can propel rockets further than steam or petroleum engines."
 msgstr ""
-"Wasserstofftriebwerke können Raketen mehr antreiben als Dampf- oder "
+"Wasserstofftriebwerke können Raketen schneller antreiben als Dampf- oder "
 "Benzintriebwerke."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINECLUSTER.EFFECT
@@ -8838,7 +8852,7 @@ msgstr "<link=\"LEADSUITMARKER\">Jet-Anzug-Kontrollstelle</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
 msgid "Holds more than a regular cargo tank."
-msgstr ""
+msgstr "Nimmt mehr auf als ein normaler Frachttank."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT
 #, fuzzy
@@ -8869,7 +8883,7 @@ msgstr "<link=\"LIQUIDCARGOBAY\">Großer Flüssigkeits­frachtkanister</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.DESC"
 msgid "Holds more than a regular cargo tank."
-msgstr ""
+msgstr "Nimmt mehr auf als ein normaler Frachttank."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.EFFECT
 #, fuzzy
@@ -11712,12 +11726,12 @@ msgstr "<link=\"MODULARGASINPUT\">Gas Input Hub</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORT.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Raketen Port</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Raketenanschluss</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "Zum Be- und Entladen von Ressourcen müssen Raketen landen."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT"
@@ -11731,16 +11745,24 @@ msgid ""
 "\n"
 "Uses the gas filters set on the linked Rocket Platform."
 msgstr ""
+"Ermöglicht das Be- und Entladen von <link=\"ELEMENTSGAS\">Gasen</link> aus dem "
+"Speicher einer angekoppelten Rakete.\n"
+"\n"
+"Verbindet sich automatisch, wenn sie an der Seite einer <link=\"LAUNCHPLATFORM"
+"\">Raketenplattform</link> oder einem <link=\"MODULARLAUNCHPADPORTSOLID"
+"\">Raketenanschluss</link> gebaut wird.\n"
+"\n"
+"Verwendet die auf der verlinkten Raketenplattform eingestellten Gasfilter."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTGAS\">Gas Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">Ges Raketen Port</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">Gas-Raketenanschluss</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "Zum Be- und Entladen von Ressourcen müssen Raketen landen."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT"
@@ -11754,16 +11776,26 @@ msgid ""
 "\n"
 "Uses the liquid filters set on the linked Rocket Platform."
 msgstr ""
+"Ermöglicht das Be- und Entladen von <link=\"ELEMENTSLIQUID\">Flüssigkeiten</"
+"link> aus dem Speicher einer angekoppelten Rakete.\n"
+"\n"
+"Verbindet sich automatisch, wenn sie an der Seite einer <link=\"LAUNCHPLATFORM"
+"\">Raketenplattform</link> oder einem <link=\"MODULARLAUNCHPADPORTSOLID"
+"\">Raketenanschluss</link> gebaut wird.\n"
+"\n"
+"Verwendet die auf der verlinkten Raketenplattform eingestellten "
+"Flüssigkeitsfilter."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTLIQUID\">Liquid Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">Liquid Rocket Port</link>"
+msgstr ""
+"<link=\"MODULARLAUNCHPADPORTLIQUID\">Flüssigkeits-Raketenanschluss</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "Zum Be- und Entladen von Ressourcen müssen Raketen landen."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT"
@@ -11777,11 +11809,20 @@ msgid ""
 "\n"
 "Uses the solid material filters set on the linked Rocket Platform."
 msgstr ""
+"Ermöglicht das Be- und Entladen von <link=\"ELEMENTSLIQUID\">Feststoffen</"
+"link> aus dem Speicher einer angekoppelten Rakete.\n"
+"\n"
+"Verbindet sich automatisch, wenn sie an der Seite einer <link=\"LAUNCHPLATFORM"
+"\">Raketenplattform</link> oder einem <link=\"MODULARLAUNCHPADPORTSOLID"
+"\">Raketenanschluss</link> gebaut wird.\n"
+"\n"
+"Verwendet die auf der verlinkten Raketenplattform eingestellten "
+"Materialfiltern."
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Solid Rocket Port</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Feststoffraketenanschluss</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">Feststoff-Raketenanschluss</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC"
@@ -12088,6 +12129,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.DESC"
 msgid ""
 "It's a generally good idea to pack some supplies when exploring unknown worlds."
 msgstr ""
+"Es ist generell eine gute Idee, einige Vorräte einzupacken, wenn man "
+"unbekannte Welten erkundet."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT"
@@ -12095,6 +12138,8 @@ msgid ""
 "Delivers cargo to the surface of Planetoids that do not yet have a <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link>."
 msgstr ""
+"Bringt Fracht auf die Oberfläche von Planetoiden, die noch keine <link="
+"\"LAUNCHPLATFORM\">Raketenplattform</link> besitzen."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME"
@@ -12159,16 +12204,13 @@ msgstr ""
 "des Weltraums zu verbrennen."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
-#| msgid "Stores <link=\"OXYROCK\">Oxylite</link> for burning rocket fuels."
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
 msgid ""
 "Stores <link=\"OXYROCK\">Oxylite</link> and other oxidizers for burning rocket "
 "fuels."
 msgstr ""
-"Speichert <link=\"OXYROCK\">Oxilit</link> zum Verbrennen von "
-"Raketentreibstoffen."
+"Speichert <link=\"OXYROCK\">Oxilit</link> und andere Oxidationsmittel zum "
+"Verbrennen von Raketentreibstoffen."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
@@ -25974,14 +26016,16 @@ msgid ""
 "Critter Traps are carnivorous plants that snatch up unsuspecting critters and "
 "consume them, releasing <link=\"HYDROGEN\">Hydrogen</link> as waste."
 msgstr ""
+"Tierfallen sind fleischfressende Pflanzen, die sich ahnungslose Tiere "
+"schnappen und sie verzehren, wobei sie <link=\"HYDROGEN\">Wasserstoff</link> "
+"als Abfall freisetzen."
 
 #. STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.BEAN_PLANT.DOMESTICATEDDESC"
-#| msgid "This plant produces <link=\"BEAN\">Nosh Beans</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.DOMESTICATEDDESC"
 msgid "This plant eat critters and produces <link=\"HYDROGEN\">Hydrogen</link>."
-msgstr "Diese Pflanze produziert <link=\"BEAN\">Happsbohnen</link>."
+msgstr ""
+"Diese Pflanze frisst Tiere und produziert <link=\"HYDROGEN\">Wasserstoff</"
+"link>."
 
 #. STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.NAME"
@@ -27162,12 +27206,6 @@ msgid "<link=\"LIGHTBUGPURPLE\">Royal Bug</link>"
 msgstr "<link=\"LIGHTBUGPURPLE\">Königskäfer</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGORANGE\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is a Sun morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGRADIOACTIVE\">Shine Bug</link>.\n"
@@ -27176,7 +27214,7 @@ msgid ""
 msgstr ""
 "Ein molliges <link=\"LIGHTBUGORANGE\">Leuchtkäferbaby</link>.\n"
 "\n"
-"Dieses hier hat die Sonnen-Gestalt."
+"Dieses hier hat die Ionen-Gestalt."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.NAME"
@@ -27184,18 +27222,13 @@ msgid "<link=\"LIGHTBUGRADIOACTIVE\">Ionizing Nymph</link>"
 msgstr "<link=\"LIGHTBUGRADIOACTIVE\">Ionisierende Nymphe</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC"
-#| msgid ""
-#| "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting "
-#| "more of their kind for company."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.DESC"
 msgid ""
 "Shine Bugs emit a dangerously radioactive <link=\"LIGHT\">Light</link> in "
 "hopes of attracting more of their kind for company."
 msgstr ""
-"Leuchtkäfer geben ein weiches <link=\"LIGHT\">Licht</link> ab, auf der Suche "
-"nach Gleichgesinnten für mehr Gesellschaft."
+"Leuchtkäfer emittieren ein gefährlich radioaktives <link=\"LIGHT\">Licht</"
+"link> in der Hoffnung, mehr ihrer Art als Gesellschaft anzulocken."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.EGG_NAME"
@@ -27967,13 +28000,6 @@ msgid "<link=\"COLDWHEAT\">Sleet Wheat Grain</link>"
 msgstr "<link=\"COLDWHEAT\">Graupelweizenkorn</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"LEAFYPLANT\">Mirth Leaf</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Mirth Leaf Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"CRITTERTRAPPLANT\">Saturn "
@@ -27981,11 +28007,11 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Saturn Critter Trap Seed."
 msgstr ""
-"Der <link=\"PLANTS\">Samen</link> eines <link=\"LEAFYPLANT\">Mirth Leaf</"
-"link>.\n"
+"Der <link=\"PLANTS\">Samen</link> einer <link=\"CRITTERTRAPPLANT\">Saturn Tier-"
+"Falle</link>.\n"
 "\n"
-"Beim Ausgraben von vergrabenen Gegenständen können Mirth Leaf-Samen gefunden "
-"werden."
+"Beim Ausgraben von vergrabenen Gegenständen können Saturn Tier-Fallen-Samen "
+"gefunden werden."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME"
@@ -28391,7 +28417,7 @@ msgstr "<link=\"SHOCKWORM\">Schockwurm</link>"
 #. STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.DESC"
 msgid "Space Decor Plants are super duper pretty."
-msgstr ""
+msgstr "Weltraumdekopflanzen sind super duper schön."
 
 #. STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEDECORPLANT.DOMESTICATEDDESC"
@@ -28411,7 +28437,7 @@ msgstr "Weltraumpflanze."
 #. STRINGS.CREATURES.SPECIES.SPACEPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEPLANT.DOMESTICATEDDESC"
 msgid "It's a plant, but in space."
-msgstr ""
+msgstr "Es ist eine Pflanze, aber im Weltraum."
 
 #. STRINGS.CREATURES.SPECIES.SPACEPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SPACEPLANT.NAME"
@@ -29321,6 +29347,8 @@ msgstr "Geht zu einer Pflanze"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIVERGENT_WILL_TEND.TOOLTIP"
 msgid "This critter is off to tend a plant that's caught its attention"
 msgstr ""
+"Dieses Tier ist unterwegs, um eine Pflanze zu pflegen, die seine "
+"Aufmerksamkeit erregt hat"
 
 #. STRINGS.CREATURES.STATUSITEMS.DOMESTICATION.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DOMESTICATION.NAME"
@@ -29873,7 +29901,7 @@ msgstr "Kein Platz zum Schlafen"
 #. STRINGS.CREATURES.STATUSITEMS.NOSLEEPSPOT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NOSLEEPSPOT.TOOLTIP"
 msgid "This critter wants to sleep but can't find a good spot to snuggle up!"
-msgstr ""
+msgstr "Dieses Tier will schlafen, findet aber keinen guten Platz zum Kuscheln!"
 
 #. STRINGS.CREATURES.STATUSITEMS.OLD.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.NAME"
@@ -30704,12 +30732,9 @@ msgid "Food Morale Bonus"
 msgstr "Nahrungs-Moralbonus"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FUELRANGEPERKILOGRAM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MAXRANGE"
-#| msgid "Max Range"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FUELRANGEPERKILOGRAM.NAME"
 msgid "Range"
-msgstr "Maximale Reichweite"
+msgstr "Reichweite"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME"
@@ -31098,7 +31123,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.NAME"
 msgid "Radiation Absorption"
-msgstr ""
+msgstr "Strahlungsabsorption"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.DESC"
@@ -31110,12 +31135,9 @@ msgstr ""
 "style> abwehrt."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.GERMRESISTANCE.NAME"
-#| msgid "Germ Resistance"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.NAME"
 msgid "Radiation Resistance"
-msgstr "Keimresistenz"
+msgstr "Strahlungsresistenz"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC"
@@ -31138,15 +31160,12 @@ msgstr "Tierzucht"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROCKETBURDEN.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROCKETBURDEN.NAME"
 msgid "Burden"
-msgstr ""
+msgstr "Last"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROCKETENGINEPOWER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT"
-#| msgid "Kill Power"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROCKETENGINEPOWER.NAME"
 msgid "Engine Power"
-msgstr "Strom abschalten"
+msgstr "Triebwerksleistung"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC"
@@ -31192,12 +31211,9 @@ msgid "Determines how long it takes a Duplicant to complete a space mission."
 msgstr "Beeinflusst wie lang ein Duplikant für eine Weltraummission braucht."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SPACENAVIGATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.MOLTING.NAME"
-#| msgid "Molting"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SPACENAVIGATION.NAME"
 msgid "Piloting"
-msgstr "Häutung"
+msgstr "Pilotieren"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STAMINADELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STAMINADELTA.DESC"
@@ -31599,12 +31615,12 @@ msgstr "Forschung"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.ARCHETYPE_NAME"
 msgid "Pilot"
-msgstr ""
+msgstr "Pilot"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.DESC"
 msgid "Pilot rockets"
-msgstr ""
+msgstr "Steuert Raketen"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.NAME
 #, fuzzy
@@ -32659,28 +32675,19 @@ msgstr ""
 "benötigt werden"
 
 #. STRINGS.DUPLICANTS.CHORES.MIGRATE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
-#| msgid "Debug Teleport"
 msgctxt "STRINGS.DUPLICANTS.CHORES.MIGRATE.NAME"
 msgid "Use Teleportal"
-msgstr "Debug Teleport"
+msgstr "Teleportal benutzen"
 
 #. STRINGS.DUPLICANTS.CHORES.MIGRATE.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
-#| msgid "Debug Teleport"
 msgctxt "STRINGS.DUPLICANTS.CHORES.MIGRATE.STATUS"
 msgid "Using Teleportal"
-msgstr "Debug Teleport"
+msgstr "Verwende Teleporter"
 
 #. STRINGS.DUPLICANTS.CHORES.MIGRATE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RELAXING.TOOLTIP"
-#| msgid "This Duplicant's just taking it easy"
 msgctxt "STRINGS.DUPLICANTS.CHORES.MIGRATE.TOOLTIP"
 msgid "This Duplicant's molecules are hurtling through the air!"
-msgstr "Dieser Duplikant lässt es ruhig angehen"
+msgstr "Die Moleküle dieses Duplikanten sausen durch die Luft!"
 
 #. STRINGS.DUPLICANTS.CHORES.MOP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOP.NAME"
@@ -32809,23 +32816,17 @@ msgstr "Nicht vorhanden"
 #. STRINGS.DUPLICANTS.CHORES.PARTY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PARTY.NAME"
 msgid "Party"
-msgstr ""
+msgstr "Party"
 
 #. STRINGS.DUPLICANTS.CHORES.PARTY.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BEINCAPACITATED.STATUS"
-#| msgid "Dying"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PARTY.STATUS"
 msgid "Partying"
-msgstr "Stirbt"
+msgstr "Feiert"
 
 #. STRINGS.DUPLICANTS.CHORES.PARTY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SLEEPY.TOOLTIP"
-#| msgid "This Duplicant is getting tired"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PARTY.TOOLTIP"
 msgid "This Duplicant is partying hard"
-msgstr "Dieser Duplikant wird müde"
+msgstr "Dieser Duplikant feiert hart"
 
 #. STRINGS.DUPLICANTS.CHORES.PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.NAME"
@@ -33031,7 +33032,7 @@ msgstr "{Selected} schläft"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_CELL_NOT_IN_MY_WORLD
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_CELL_NOT_IN_MY_WORLD"
 msgid "Already there"
-msgstr ""
+msgstr "Schon da"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_CONSUMPTION_PERMITTED
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_CONSUMPTION_PERMITTED"
@@ -33086,12 +33087,9 @@ msgid "Building Disabled"
 msgstr "Gebäude deaktiviert"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MINION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.TOOLTIP"
-#| msgid "Must be dug out by a Duplicant"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MINION"
 msgid "Must be a Duplicant"
-msgstr "Muss von einem Duplikanten ausgegraben werden"
+msgstr "Muss ein Duplikant sein"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MORE_SATISFYING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MORE_SATISFYING"
@@ -33197,12 +33195,9 @@ msgid "Unburied Duplicant"
 msgstr "Nicht begrabener Duplikant"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_A_ROBOT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NOT_RED_ALERT"
-#| msgid "Unavailable in Red Alert"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_A_ROBOT"
 msgid "Unavailable to Robots"
-msgstr "Während der Alarmstufe Rot nicht verfügbar"
+msgstr "Für Roboter nicht verfügbar"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR"
@@ -33440,36 +33435,24 @@ msgstr ""
 "Auffüllen an"
 
 #. STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.VALVESIDESCREEN.TITLE"
-#| msgid "Flow Control"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.NAME"
 msgid "Rocket Control"
-msgstr "Flusskontrolle"
+msgstr "Raketensteuerung"
 
 #. STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.REPORT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.VALVESIDESCREEN.TITLE"
-#| msgid "Flow Control"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.REPORT_NAME"
 msgid "Rocket Control"
-msgstr "Flusskontrolle"
+msgstr "Raketensteuerung"
 
 #. STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.CONTROL_INPUT"
-#| msgid "Control Port"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.STATUS"
 msgid "Controlling rocket"
-msgstr "Steueranschluss"
+msgstr "Steuert eine Rakete"
 
 #. STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.TOOLTIP"
-#| msgid "This Duplicant is feeling the pressure"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.TOOLTIP"
 msgid "This Duplicant is keeping their spacecraft on course"
-msgstr "Dieser Duplikant fühlt den Druck"
+msgstr "Dieser Duplikant hält ihr Raumschiff auf Kurs"
 
 #. STRINGS.DUPLICANTS.CHORES.SCRUBORE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.NAME"
@@ -34038,7 +34021,7 @@ msgstr "Hitzeschlag"
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.DESCRIPTION"
 msgid "{Target} perished from excessive radiation exposure."
-msgstr ""
+msgstr "{Ziel} ist an übermäßiger Strahlenbelastung gestorben."
 
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME"
@@ -35078,12 +35061,9 @@ msgstr ""
 "Es sieht nach Spaß aus!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_SLEEPING.REASON_TOO_BRIGHT"
-#| msgid "Too Bright"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEP.NAME"
 msgid "Unrested: Too Bright"
-msgstr "Zu hell"
+msgstr "Unausgeruht: Zu hell"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEP.TOOLTIP"
@@ -35097,21 +35077,16 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.NAME"
 msgid "Unrested: Afraid of Dark"
-msgstr ""
+msgstr "Unausgeruht: Angst vor der Dunkelheit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYLIGHT.TOOLTIP"
-#| msgid ""
-#| "This Duplicant can't sleep because the <style=\"KKeyword\">Lights</style> "
-#| "are still on"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.TOOLTIP"
 msgid ""
 "This Duplicant didn't get much sleep because they were too anxious about the "
 "lack of <style=\"KKeyword\">Light</style> to relax"
 msgstr ""
-"Dieser Duplikant kann nicht schlafen, weil die <style=\"KKeyword\">Lichter</"
-"style> noch eingeschaltet sind"
+"Dieser Duplikant hat nicht viel Schlaf bekommen, weil er zu beunruhigt über "
+"den Mangel an <style=\"KKeyword\">Licht</style> war, um sich zu entspannen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME"
@@ -43428,12 +43403,9 @@ msgid "This Duplicant regards every plant as a potential friend"
 msgstr "Dieser Duplikant hat sich vor kurzem mit einem Freund unterhalten"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.FARM.NAME"
-#| msgid "Greenhouse"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME"
 msgid "Green Thumb"
-msgstr "Gewächshaus"
+msgstr "Grüner Daumen"
 
 #. STRINGS.DUPLICANTS.TRAITS.HEMOPHOBIA.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HEMOPHOBIA.DESC"
@@ -43519,7 +43491,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.NAME"
 msgid "Luddite"
-msgstr ""
+msgstr "Technikfeind"
 
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC"
@@ -43676,14 +43648,13 @@ msgid ""
 "This Duplicant will imagine scary shapes in the dark all night if no one "
 "leaves a light on"
 msgstr ""
+"Dieser Duplikant stellt sich die ganze Nacht gruselige Gestalten im Dunkeln "
+"vor, wenn niemand ein Licht anlässt"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.NAME"
-#| msgid "Claustrophobic"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.NAME"
 msgid "Nyctophobic"
-msgstr "Klaustrophobie"
+msgstr "Nyktophob"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.SHORT_DESC"
@@ -43691,12 +43662,9 @@ msgid "Requires light to sleep"
 msgstr "Benötigt Licht zum Schlafen"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_DARKNESS"
-#| msgid "This plant requires complete darkness"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.SHORT_DESC_TOOLTIP"
 msgid "This Duplicant can't sleep in complete darkness"
-msgstr "Diese Pflanze erfordert vollständige Dunkelheit"
+msgstr "Dieser Duplikant kann nicht in völliger Dunkelheit schlafen"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTOWL.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NIGHTOWL.DESC"
@@ -43776,15 +43744,9 @@ msgid "Cannot do<b>{0} Errands</b>"
 msgstr "Kann <b>{0} Aufträge</b> nicht durchführen"
 
 #. STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC"
-#| msgid ""
-#| "This Duplicant is constantly regenerating <style=\"KKeyword\">Health</"
-#| "style>."
 msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC"
 msgid "This robust Duplicant is constantly regenerating health"
-msgstr ""
-"Dieser Duplikant regeneriert ständig <style = \"KKeyword\">Gesundheit</ style>."
+msgstr "Dieser Duplikant regeneriert ständig Gesundheit"
 
 #. STRINGS.DUPLICANTS.TRAITS.REGENERATION.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.NAME"
@@ -74097,8 +74059,8 @@ msgid ""
 "{0} has been granted {1} by a Trait, but does not have increased <style="
 "\"KKeyword\">Morale Requirements</style> from learning it"
 msgstr ""
-"{0} wurde von einem Merkmal {1} erhöht, hat jedoch die <style=\"KKeyword\"> "
-"Moralanforderungen</style> durch das Erlernen nicht erhöht"
+"{0} wurde von einem Merkmal {1} erhöht, hat jedoch die <style=\"KKeyword"
+"\">Moralanforderungen</style> durch das Erlernen nicht erhöht"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.STRESS_WARNING_MESSAGE
 msgctxt ""
