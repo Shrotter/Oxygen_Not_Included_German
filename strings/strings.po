@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-23 19:50+0100\n"
+"PO-Revision-Date: 2021-02-23 20:29+0100\n"
 "Last-Translator: Shrotter\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -470,6 +470,12 @@ msgid ""
 "local Duplicant {Skills}, or bring in a Duplicant with the appropriate skill "
 "from another <style=\"KKeyword\">Planetoid</style>"
 msgstr ""
+"{Skills} Erforderliche Fertigkeiten zur Bedienung\n"
+"------------------\n"
+"Öffnen das <b>Fertigkeiten-Panel</b> <b><color=#F44A4A>[L]</b></color> um "
+"einem lokalen Duplikanten {Skills} zu lehren, oder befördere einen Duplikanten "
+"mit der entsprechenden Fähigkeit von einem anderen <style=\"KKeyword"
+"\">Planetoid</style> hier her"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -1963,9 +1969,6 @@ msgid "Breaking Down"
 msgstr "Zerfällt"
 
 #. STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_NAME"
-#| msgid "Building break down"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.NOTIFICATION_NAME"
 msgid "Building breakdown"
 msgstr "Gebäude zerfällt"
@@ -6774,7 +6777,7 @@ msgstr "<link=\"FLYINGCREATUREBAIT\">Flugtierköder</link>"
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC"
 msgid "Nuke your food"
-msgstr "Atomisiere deine Nahrung."
+msgstr "Atomisiere deine Nahrung"
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT"
@@ -56322,18 +56325,13 @@ msgid "{0} required"
 msgstr "{0} benötigt"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.DESC"
-#| msgid ""
-#| "Enables fabrication of <style=\"KKeyword\">Jet Suits</style> at the <link="
-#| "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.DESC"
 msgid ""
 "Enables fabrication of <style=\"KKeyword\">Atmo Suits</style> at the <link="
 "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgstr ""
-"Ermöglicht die Herstellung von <style=\"KKeyword\">Jet-Anzügen</style> an der "
-"<link=\"SUITFABRICATOR\">Schutzanzug-Schmiede</link>"
+"Ermöglicht die Herstellung von <style=\"KKeyword\">Atemschutzanzug</style> an "
+"der <link=\"SUITFABRICATOR\">Schutzanzug-Schmiede</link>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.NAME"
@@ -56375,18 +56373,13 @@ msgid "<b>Conveyor Overlay</b>"
 msgstr "<b>Fördersystem-Overlay</b>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.DESC"
-#| msgid ""
-#| "Allows <style=\"KKeyword\">Advanced Research</style> points to be "
-#| "accumulated, unlocking higher technology tiers."
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.DESC"
 msgid ""
 "Allows <style=\"KKeyword\">Atomic Research</style> points to be accumulated, "
 "unlocking higher technology tiers."
 msgstr ""
-"Ermöglicht das Ansammeln von <style=\"KKeyword\">fortschrittlichen "
-"Forschungspunkten</style>, um höhere Technologiestufen freizuschalten."
+"Ermöglicht das Ansammeln von <style=\"KKeyword\">Atomforschung</style>, um "
+"höhere Technologiestufen freizuschalten."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.NAME"
@@ -56422,17 +56415,12 @@ msgid "<style=\"KKeyword\">Jet Suit</style> Pattern"
 msgstr "<style=\"KKeyword\">Jet-Anzug</style>-Muster"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.LEAD_SUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.DESC"
-#| msgid ""
-#| "Enables fabrication of <style=\"KKeyword\">Jet Suits</style> at the <link="
-#| "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.LEAD_SUIT.DESC"
 msgid ""
 "Enables fabrication of <style=\"KKeyword\">Lead Suits</style> at the <link="
 "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgstr ""
-"Ermöglicht die Herstellung von <style=\"KKeyword\">Jet-Anzügen</style> an der "
+"Ermöglicht die Herstellung von <style=\"KKeyword\">Bleianzügen</style> an der "
 "<link=\"SUITFABRICATOR\">Schutzanzug-Schmiede</link>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.LEAD_SUIT.NAME
@@ -56441,18 +56429,13 @@ msgid "<style=\"KKeyword\">Lead Suit</style> Pattern"
 msgstr "<style=\"KKeyword\">Blei-Anzug</style>-Muster"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.OXYGEN_MASK.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.DESC"
-#| msgid ""
-#| "Enables fabrication of <style=\"KKeyword\">Jet Suits</style> at the <link="
-#| "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.OXYGEN_MASK.DESC"
 msgid ""
 "Enables fabrication of <style=\"KKeyword\">Oxygen Masks</style> at the <link="
 "\"CRAFTINGTABLE\">Crafting Table</link>"
 msgstr ""
-"Ermöglicht die Herstellung von <style=\"KKeyword\">Jet-Anzügen</style> an der "
-"<link=\"SUITFABRICATOR\">Schutzanzug-Schmiede</link>"
+"Ermöglicht die Herstellung von <style=\"KKeyword\">Sauerstoffmasken</style> am "
+"<link=\"CRAFTINGTABLE\">Basteltisch</link>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.OXYGEN_MASK.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.OXYGEN_MASK.NAME"
@@ -56690,13 +56673,10 @@ msgid "<link=\"CRASHPLAN\">Crash Plan</link>"
 msgstr "<link=\"CRASHPLAN\">Absturzplan</link>"
 
 #. STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.DESC"
-#| msgid "With this technology, the sky is your oyster. Go exploring!"
 msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC"
 msgid "With this technology, the sky is your oyster. Go exploring!"
 msgstr ""
-"Mit dieser Technologie liegt dir der Himmel zu Füßen. Geh auf Entdeckungsreise!"
+"Mit dieser Technologie liegt uns der Himmel zu Füßen. Geh auf Entdeckungsreise!"
 
 #. STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.NAME"
@@ -56740,7 +56720,7 @@ msgstr "<link=\"DUPETRAFFICCONTROL\">Datenverarbeitung</link>"
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC"
 msgid "Improved construction will allow extended missions into space."
-msgstr ""
+msgstr "Die optimierte Konstruktion ermöglicht längere Missionen im Weltraum."
 
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME"
@@ -56938,7 +56918,7 @@ msgstr "<link=\"HVAC\">Heizung, Lüftung und Klimatisierung</link>"
 #. STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.DESC"
 msgid "Big rocket engines with smoke"
-msgstr ""
+msgstr "Große Raketentriebwerke mit Rauch"
 
 #. STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME"
@@ -57199,7 +57179,7 @@ msgstr "<link=\"NOTIFICATIONSYSTEMS\">Benachrichtigungssysteme</link>"
 #. STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.DESC"
 msgid "Refine uranium and generate radiation."
-msgstr ""
+msgstr "Veredeln von Uran und Strahlung erzeugen."
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.NAME"
@@ -57241,14 +57221,11 @@ msgid "<link=\"PLASTICS\">Plastic Manufacturing</link>"
 msgstr "<link=\"PLASTICS\">Plastikfertigung</link>"
 
 #. STRINGS.RESEARCH.TECHS.PORTABLEGASSES.DESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.PRESSUREMANAGEMENT.DESC"
-#| msgid "Unlock technologies to manage colony pressure and atmosphere."
 msgctxt "STRINGS.RESEARCH.TECHS.PORTABLEGASSES.DESC"
 msgid "Unlock technologies to easily move gasses around your colony."
 msgstr ""
-"Schalte Technologien frei, die den Druck und die Atmosphäre deiner Kolonie "
-"regulieren können."
+"Schaltet Technologien frei, mit denen Gase leicht in Ihrer Kolonie "
+"transportiert werden können."
 
 #. STRINGS.RESEARCH.TECHS.PORTABLEGASSES.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.PORTABLEGASSES.NAME"
@@ -57380,6 +57357,8 @@ msgstr "<link=\"RENEWABLEENERGY\">Erneuerbare Energie</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.DESC"
 msgid "The goal of every great civilization is to one day make itself obsolete."
 msgstr ""
+"Das Ziel jeder großen Zivilisation ist es, sich eines Tages selbst überflüssig "
+"zu machen."
 
 #. STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.NAME"
@@ -57476,6 +57455,8 @@ msgid ""
 "Basic facilities for allowing the first Duplicant to reach space with minimal "
 "harm."
 msgstr ""
+"Grundlegende Einrichtungen, die es dem ersten Duplikanten ermöglichen, den "
+"Weltraum mit minimalen Schäden zu erreichen."
 
 #. STRINGS.RESEARCH.TECHS.SPACEPROGRAM.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPROGRAM.NAME"
@@ -57646,12 +57627,9 @@ msgid "Atomic Research"
 msgstr "Atomforschung"
 
 #. STRINGS.RESEARCH.TYPES.DELTA.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC"
-#| msgid "Unlocks improved technologies."
 msgctxt "STRINGS.RESEARCH.TYPES.DELTA.RECIPEDESC"
 msgid "Unlocks next wave technologies."
-msgstr "Schaltet verbesserte Technologien frei."
+msgstr "Schaltet die Technologien der nächsten Generation frei."
 
 #. STRINGS.RESEARCH.TYPES.GAMMA.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.GAMMA.DESC"
@@ -74659,12 +74637,9 @@ msgid "Fuel Tank"
 msgstr "Treibstofftank"
 
 #. STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK"
 msgid "Oxidizer Tank"
-msgstr "Oxidatortank voll"
+msgstr "Oxidatortank"
 
 #. STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
