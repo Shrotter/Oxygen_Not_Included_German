@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-23 21:12+0100\n"
+"PO-Revision-Date: 2021-02-24 21:38+0100\n"
 "Last-Translator: Shrotter\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -31323,14 +31323,13 @@ msgstr "Erholer"
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RECREATION.DESC"
 msgid "Use leisure facilities, chat with other Duplicants, and relieve Stress."
 msgstr ""
+"Nutze Freizeiteinrichtungen, plaudere mit anderen Duplikanten und baue Stress "
+"ab."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RECREATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.NAME"
-#| msgid "Relaxing"
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RECREATION.NAME"
 msgid "Relaxing"
-msgstr "Erholt"
+msgstr "Erholt sich"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.ARCHETYPE_NAME"
@@ -31376,9 +31375,6 @@ msgid "Pilot rockets"
 msgstr "Steuert Raketen"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_ROCKETS"
-#| msgid "Rocketry"
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ROCKETRY.NAME"
 msgid "Rocketry"
 msgstr "Raketentechnik"
@@ -33759,7 +33755,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.NAME"
 msgid "Struck by HEP"
-msgstr ""
+msgstr "Von einenm HEP getroffen"
 
 #. STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION"
@@ -34344,7 +34340,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_BOOSTER
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_BOOSTER"
 msgid "Doctor Administered: Anytime"
-msgstr ""
+msgstr "Von einem Arzt verabreicht: Jederzeit"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_BOOSTER_TOOLTIP
 msgctxt ""
@@ -34356,11 +34352,16 @@ msgid ""
 "They cannot give it to themselves and must receive it from a friend with "
 "<style=\"KKeyword\">Doctoring Skills</style>"
 msgstr ""
+"Duplikanten können dieses Medikament an einer {Station} erhalten, egal ob sie "
+"gerade krank sind oder nicht\n"
+"------------------\n"
+"Sie können sich das Medikament nicht selbst verabreichen und müssen es von "
+"einem Freund mit <style=\"KKeyword\">Behandlungs-Fertigkeit</style> erhalten"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE"
 msgid "Doctor Administered: Sick Only"
-msgstr ""
+msgstr "Von einem Arzt verabreicht: Nur bei Krankheit"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE_TOOLTIP"
@@ -34371,11 +34372,16 @@ msgid ""
 "They cannot give it to themselves and must receive it from a friend with "
 "<style=\"KKeyword\">Doctoring Skills</style>"
 msgstr ""
+"Duplikanten können dieses Medikament an einer {Station} erhalten, aber nur "
+"wenn sie krank sind\n"
+"------------------\n"
+"Sie können sich das Medikament nicht selbst verabreichen und müssen es von "
+"einem Freund mit <style=\"KKeyword\">Behandlungs-Fertigkeit</style> erhalten"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_BOOSTER
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_BOOSTER"
 msgid "Self-Administered: Anytime"
-msgstr ""
+msgstr "Selbst verabreicht: Jederzeit"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_BOOSTER_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_BOOSTER_TOOLTIP"
@@ -34383,17 +34389,21 @@ msgid ""
 "Duplicants can give themselves this medicine, whether they are currently sick "
 "or not"
 msgstr ""
+"Duplikanten können sich dieses Medikament selbst verabreichen, egal ob sie "
+"gerade krank sind oder nicht"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_CURE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_CURE"
 msgid "Self-Administered: Sick Only"
-msgstr ""
+msgstr "Selbst verabreicht: Nur bei Krankheit"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_CURE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.SELF_ADMINISTERED_CURE_TOOLTIP"
 msgid ""
 "Duplicants can give themselves this medicine, but only while they are sick"
 msgstr ""
+"Duplikanten können sich dieses Medikament selbst verabreichen, aber nur wenn "
+"sie krank sind"
 
 #. STRINGS.DUPLICANTS.DISEASES.NODISEASES.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.NODISEASES.NAME"
@@ -34445,7 +34455,7 @@ msgstr "<link=\"PUTRIDODOUR\">Schrittfisch</link>"
 #. STRINGS.DUPLICANTS.DISEASES.RADIATIONPOISONING.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RADIATIONPOISONING.LEGEND_HOVERTEXT"
 msgid "Radioactive contamination present\n"
-msgstr ""
+msgstr "Radioaktive Kontamination vorhanden\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.RADIATIONPOISONING.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RADIATIONPOISONING.NAME"
@@ -34453,23 +34463,19 @@ msgid "<link=\"RADIATIONPOISONING\">Radioactive Contamination</link>"
 msgstr "<link=\"RADIATIONPOISONING\">Radioaktive Kontamination</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.RADIATIONSICKNESS.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is leaving an area where a <style=\"KKeyword\">Suit</style> "
-#| "was required"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RADIATIONSICKNESS.DESCRIPTION"
 msgid ""
 "This Duplicant is leaving a trail of <style=\"KKeyword\">Radiation</style> "
 "behind them."
 msgstr ""
-"Dieser Duplikant verlässt einen Bereich, in dem ein <style=\"KKeyword"
-"\">Schutzanzug</style> erforderlich war"
+"Dieser Duplikant hinterlässt eine Spur aus <style=\"KKeyword\">Strahlung</"
+"style>."
 
 #. STRINGS.DUPLICANTS.DISEASES.RADIATIONSICKNESS.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RADIATIONSICKNESS.DESCRIPTIVE_SYMPTOMS"
 msgid "Extremely lethal. This Duplicant is not expected to survive."
 msgstr ""
+"Extrem tödlich. Es ist nicht zu erwarten, dass dieser Duplikant überlebt."
 
 #. STRINGS.DUPLICANTS.DISEASES.RADIATIONSICKNESS.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.RADIATIONSICKNESS.LEGEND_HOVERTEXT"
@@ -34968,16 +34974,15 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.NAME"
 msgid "Accomplished Builder"
-msgstr ""
+msgstr "Versierter Bauarbeiter"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RELOCATE.TOOLTIP"
-#| msgid "This Duplicant is moving a building to a new location"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.TOOLTIP"
 msgid ""
 "This Duplicant has built many buildings and has a sense of accomplishment!"
-msgstr "Dieser Duplikant verlegt ein Gebäude an einen neuen Ort"
+msgstr ""
+"Dieser Duplikant hat viele Gebäude gebaut und fühlt sich als Meister seines "
+"Fachs!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.NAME"
@@ -34986,64 +34991,45 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC"
-#| msgid ""
-#| "This Duplicant was a talented opera singer and a snorkeling instructor."
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.TOOLTIP"
 msgid "This Duplicant did a lot of excavating and is really digging digging"
-msgstr "Dieser Duplikant war ein talentierter Opernsänger und Schnorchellehrer."
+msgstr "Dieser Duplikant hat viel gegraben und wühlt wirklich"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.NAME"
 msgid "Open and Shut"
-msgstr ""
+msgstr "Öffnen und Schließen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.UNCULTURED.DESC"
-#| msgid "This Duplicant has simply no appreciation for the arts"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.TOOLTIP"
 msgid "This Duplicant closed a door and appreciates the privacy"
-msgstr "Dieser Duplikant hat einfach kein Gespür für Kunst"
+msgstr "Dieser Duplikant hat eine Tür geschlossen und schätzt die Privatsphäre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
-#| msgid "Good Meal"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.NAME"
 msgid "Good Dream"
-msgstr "Gute Mahlzeit"
+msgstr "Guter Traum"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.BEDSIDEMANNER.DESC"
-#| msgid "This Duplicant has good bedside manner and a healing touch"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.TOOLTIP"
 msgid "This Duplicant had a good dream and is feeling psyched!"
-msgstr ""
-"Dieser Duplikant hat einen guten Umgang mit Kranken und eine heilende Wirkung"
+msgstr "Dieser Duplikant hatte einen guten Traum und ist aufgedreht!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.NAME"
 msgid "Really Good Dream"
-msgstr ""
+msgstr "Richtig guter Traum"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.TOOLTIP"
-#| msgid "This Duplicant had a yummy home cooked meal and is totally stuffed"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.TOOLTIP"
 msgid "This Duplicant had a really good dream and is full of possibilities!"
 msgstr ""
-"Dieser Duplikant hatte ein leckeres selbstgemachtes Essen und ist absolut satt"
+"Dieser Duplikant hatte einen wirklich guten Traum und ist voller Möglichkeiten!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME"
-#| msgid "Great Meal"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM3.NAME"
 msgid "Great Dream"
-msgstr "Großartige Mahlzeit"
+msgstr "Großer Traum"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM3.TOOLTIP"
@@ -35051,103 +35037,80 @@ msgid ""
 "This Duplicant had a great dream last night and periodically remembers another "
 "great moment they previously forgot"
 msgstr ""
+"Dieser Duplikant hatte letzte Nacht einen großartigen Traum und erinnert sich "
+"in regelmäßigen Abständen an einen anderen großartigen Moment, den er zuvor "
+"vergessen hatte"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.INSPIRED.NAME"
-#| msgid "Inspired"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM4.NAME"
 msgid "Dream Inspired"
-msgstr "Inspiriert"
+msgstr "Traum inspiriert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.HEAL.TOOLTIP"
-#| msgid "This Duplicant is taking some time to recover from their wounds"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM4.TOOLTIP"
 msgid "This Duplicant is inspired from all the unforgettable dreams they had"
 msgstr ""
-"Dieser Duplikant braucht einige Zeit, um sich von seinen Wunden zu erholen"
+"Dieser Duplikant ist inspiriert von all den unvergesslichen Träumen, die er "
+"hatte"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.NAME"
 msgid "Exercised"
-msgstr ""
+msgstr "Trainiert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
-#| msgid "This Duplicant has been isolated from the colony"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.TOOLTIP"
 msgid "This Duplicant ran in a Generator and has benefited from the exercise"
-msgstr "Dieser Duplikant wurde von der Kolonie isoliert"
+msgstr ""
+"Dieser Duplikant lief in einem Generator und hat von der Übung profitiert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.NAME"
 msgid "Hit the Books"
-msgstr ""
+msgstr "Ran an die Bücher"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP"
-#| msgid "This Duplicant cannot reach any pending errands"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.TOOLTIP"
 msgid "This Duplicant did some research and is feeling smarter"
-msgstr "Dieser Duplikant kann keine ausstehenden Aufträge erreichen"
+msgstr "Dieser Duplikant hat etwas geforscht und fühlt sich schlauer"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.LIGHT.HEADER_1"
-#| msgid "Light"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.NAME"
 msgid "Lit"
-msgstr "Licht"
+msgstr "Erleuchtet"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.TOOLTIP"
-#| msgid "This Duplicant isn't feeling well and is taking a rest"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.TOOLTIP"
 msgid "This Duplicant was in a well lit environment and is feeling lit"
-msgstr "Dieser Duplikant fühlt sich nicht wohl und ruht sich aus"
+msgstr ""
+"Dieser Duplikant befand sich in einer gut beleuchteten Umgebung und fühlt sich "
+"erleuchtet"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.NAME"
 msgid "Fresh Air"
-msgstr ""
+msgstr "Frische Luft"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DOCTOR.STATUS"
-#| msgid "This Duplicant is going to administer medical care to an ailing friend"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.TOOLTIP"
 msgid "This Duplicant breathed in some fresh air and is feeling refreshed"
-msgstr ""
-"Dieser Duplikant wird einem kranken Freund ärztliche Hilfe zukommen lassen"
+msgstr "Dieser Duplikant hat frische Luft getankt und fühlt sich erfrischt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.INSPIRED.NAME"
-#| msgid "Inspired"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.NAME"
 msgid "Inspired Learner"
-msgstr "Inspiriert"
+msgstr "Inspirierter Lerner"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.ART.TOOLTIP"
-#| msgid "This Duplicant is going to work on their art"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.TOOLTIP"
 msgid "This Duplicant is looking forward to some learning"
-msgstr "Dieser Duplikant wird an seinem Kunstwerk arbeiten"
+msgstr "Dieser Duplikant freut sich darauf, etwas zu lernen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
-#| msgid "Storing: {Stored}"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.NAME"
 msgid "Something in Store"
-msgstr "Gelagert: {Stored}"
+msgstr "Etwas auf Vorrat"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.TOOLTIP"
@@ -35155,79 +35118,60 @@ msgid ""
 "This Duplicant stored something in a <link=\"STORAGELOCKER\">Storage Bin</"
 "link> and is feeling organized"
 msgstr ""
+"Dieser Duplikant hat etwas in einem <link=\"STORAGELOCKER\">Lagerbehälter</"
+"link> verstaut und fühlt sich organisiert"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTALKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTALKER.NAME"
 msgid "Talker"
-msgstr ""
+msgstr "Schwätzer"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTALKER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SHOWERED.TOOLTIP"
-#| msgid "This Duplicant recently had a shower and feels squeaky clean!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTALKER.TOOLTIP"
 msgid ""
 "This Duplicant engaged in small talk with a coworker and is feeling connected"
 msgstr ""
-"Dieser Duplikant war vor kurzem unter der Dusche und fühlt sich blitzsauber an!"
+"Dieser Duplikant hat Smalltalk mit einem Kollegen geführt und fühlt sich "
+"verbunden"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME"
-#| msgid "Small Boulders"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.NAME"
 msgid "Small Comforts"
-msgstr "Kleine Felsbrocken"
+msgstr "Kleiner Komfort"
 
+# Passt hier "das"?
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.UNCULTURED.DESC"
-#| msgid "This Duplicant has simply no appreciation for the arts"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.TOOLTIP"
 msgid "This Duplicant visited the {building} and appreciated the small comforts"
-msgstr "Dieser Duplikant hat einfach kein Gespür für Kunst"
+msgstr ""
+"Dieser Duplikant besuchte das {building} und schätzte den kleinen Komfort"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME"
-#| msgid "Great Food"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.NAME"
 msgid "Greater Comforts"
-msgstr "Großartige Nahrung"
+msgstr "Größerer Komfort"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP"
-#| msgid ""
-#| "This Duplicant used an <link=\"OUTHOUSE\">Outhouse</link> in a <style="
-#| "\"KKeyword\">Latrine</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.TOOLTIP"
 msgid ""
 "This Duplicant used a <link=\"OUTHOUSE\">Outhouse</link>and liked how "
 "comfortable it felt"
 msgstr ""
-"Dieser Duplikant hat ein <link=\"OUTHOUSE\">Plumpsklo</link> in einer <style="
-"\"KKeyword\">Latrine</style> genutzt"
+"Dieser Duplikant hat ein <link=\"OUTHOUSE\">Plumpsklo</link> und mochte, wie "
+"bequem es sich anfühlte"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME"
-#| msgid "Small Boulders"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME"
 msgid "Small Luxury"
-msgstr "Kleine Felsbrocken"
+msgstr "Kleiner Luxus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SPACETOURIST.TOOLTIP"
-#| msgid ""
-#| "This Duplicant went on a trip to space and saw the wonders of the universe"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.TOOLTIP"
 msgid ""
 "This Duplicant visited a Latrine and feels they could get used to this luxury"
 msgstr ""
-"Dieser Duplikant begab sich auf eine Reise ins Weltall und sah die Wunder des "
-"Universums"
+"Dieser Duplikant besuchte eine Latrine und meint, er könnte sich an diesen "
+"Luxus gewöhnen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.NAME"
@@ -35235,12 +35179,10 @@ msgid "Luxurious"
 msgstr "Luxuriös"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP"
-#| msgid "This Duplicant feels like someone's watching over them..."
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.TOOLTIP"
 msgid "This Duplicant feels endless luxury from the Private Bathroom"
-msgstr "Dieser Duplikant fühlt sich beobachtet..."
+msgstr ""
+"Dieses Duplikant fühlt sich unendlich luxuriös durch das private Badezimmer"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTMOPPING.NAME
 #, fuzzy
@@ -35259,17 +35201,14 @@ msgid "This lil bot is clearing liquids from the ground"
 msgstr "Dieser kleine Bot lädt seinen internen Akku auf"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.NAME"
-#| msgid "Sleeping"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.NAME"
 msgid "Sweeping"
-msgstr "Schläft"
+msgstr "Aufräumen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.TOOLTIP"
 msgid "This lil bot is picking up debris from the floor"
-msgstr ""
+msgstr "Dieser kleine Bot sammelt Schutt vom Boden auf"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME"
@@ -35406,9 +35345,6 @@ msgid "Charging"
 msgstr "Lädt auf"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CHARGING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.TOOLTIP"
-#| msgid "This Robot is charging its internal battery"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.TOOLTIP"
 msgid "This lil bot is charging its internal battery"
 msgstr "Dieser kleine Bot lädt seinen internen Akku auf"
@@ -35452,7 +35388,7 @@ msgstr "Kalte Luft"
 #. STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.NAME"
 msgid "Yucky Lungs"
-msgstr ""
+msgstr "Gereizte Lungen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CONTAMINATEDLUNGS.TOOLTIP"
@@ -35493,7 +35429,7 @@ msgstr "Dieser Duplikant hatte kürzlich einen Heulkrampf, und das sieht man"
 #. STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.NAME"
 msgid "Motivated By Friend"
-msgstr ""
+msgstr "Motiviert durch einen Freund"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.TOOLTIP"
@@ -36967,9 +36903,6 @@ msgstr ""
 "Dieser Duplikant ist jetzt voller Elan!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SCOUTBOTCHARGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME"
-#| msgid "Charging"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SCOUTBOTCHARGING.NAME"
 msgid "Charging"
 msgstr "Lädt auf"
@@ -36979,6 +36912,7 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SCOUTBOTCHARGING.TOOLTIP"
 msgid ""
 "Rover is happily charging inside <link=\"SCOUTMODULE\">Rover's Module</link>"
 msgstr ""
+"Der Rover lädt sich fröhlich im <link=\"SCOUTMODULE\">Rover-Modul</link> auf"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEAFOODRADIATIONRESISTANCE.CAUSE"
@@ -38508,18 +38442,13 @@ msgid "<link=\"MEDIC\">Medicine Compounding</link>"
 msgstr "<link=\"MEDIC\">Medizinische Präparation</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows excavation of very firm materials such as <link=\"GRANITE\">Granite</"
-#| "link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
 msgid ""
 "Allows the excavation of <style=\"KKeyword\">Very Firm</style> materials such "
 "as <link=\"GRANITE\">Granite</link>"
 msgstr ""
-"Ermöglicht den Abbau von sehr festen Materialien wie <link=\"GRANITE\">Granit</"
-"link>"
+"Ermöglicht den Abbau von <style=\"KKeyword\">sehr harten</style> Materialien "
+"wie <link=\"GRANITE\">Granit</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
@@ -38561,18 +38490,13 @@ msgid "<link=\"MASTERARTIST\">Masterworks</link>"
 msgstr "<link=\"MASTERARTIST\">Meisterwerke</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MASTER_MINER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows excavation of very firm materials such as <link=\"GRANITE\">Granite</"
-#| "link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_MINER.DESCRIPTION"
 msgid ""
 "Allows the excavation of dangerous materials like <link=\"SOLIDNUCLEARWASTE"
 "\">Corium</link>"
 msgstr ""
-"Ermöglicht den Abbau von sehr festen Materialien wie <link=\"GRANITE\">Granit</"
-"link>"
+"Ermöglicht den Abbau von gefährlichen Materialien wie <link=\"SOLIDNUCLEARWASTE"
+"\">Corium</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MASTER_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_MINER.NAME"
@@ -38622,10 +38546,6 @@ msgid "<link=\"MEDIC\">Bedside Manner</link>"
 msgstr "<link=\"MEDIC\">Umgang mit Kranken</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows the excavation of the element <link=\"KATAIRITE\">Abyssalite</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
 msgid ""
 "Allows the excavation of the element <link=\"KATAIRITE\">Abyssalite</link>"
@@ -38698,11 +38618,6 @@ msgid "<link=\"POWERTECHNICIAN\">Electrical Engineering</link>"
 msgstr "<link=\"POWERTECHNICIAN\">Elektro-Technik</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
-#| msgid ""
-#| "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</"
-#| "link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
 msgid ""
 "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>"
@@ -38716,17 +38631,12 @@ msgid "<link=\"RANCHER\">Critter Ranching I</link>"
 msgstr "<link=\"RANCHING\">Viehzucht I</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.RESEARCHER.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.DESCRIPTION"
-#| msgid ""
-#| "Duplicants can perform studies on <style=\"KKeyword\">Geysers</style>, "
-#| "<style=\"KKeyword\">Planetoid</style>, and other geographical phenomena"
 msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.DESCRIPTION"
 msgid ""
 "Duplicants can perform studies on <style=\"KKeyword\">Geysers</style>, <style="
 "\"KKeyword\">Planetoid</style>, and other geographical phenomena"
 msgstr ""
-"Duplikanten können Untersuchungen an <style=\"KKeyword\">Geysiren</style>,"
+"Duplikanten können Untersuchungen an <style=\"KKeyword\">Geysiren</style>, "
 "<style=\"KKeyword\">Planetoiden</style> und anderen geografischen Phänomenen "
 "durchführen"
 
@@ -38736,18 +38646,13 @@ msgid "<link=\"RESEARCHER\">Field Research</link>"
 msgstr "<link=\"RESEARCHER\">Feldstudien</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION"
-#| msgid ""
-#| "Allows a Duplicant to operate a <link=\"COMMANDMODULE\">Command Capsule</"
-#| "link> to pilot a rocket ship"
 msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.DESCRIPTION"
 msgid ""
 "Allows a Duplicant to operate a <link=\"ROCKETCOMMANDCONSOLE\">Rocket Cockpit</"
 "link> and pilot rockets"
 msgstr ""
-"Erlaubt einem Duplikanten die Verwendung eines <link=\"COMMANDMODULE"
-"\">Kommandomoduls</link> zur Steuerung eines Raketenschiffs"
+"Ermöglicht es einem Duplikanten, ein <link=\"ROCKETCOMMANDCONSOLE\">Raketen-"
+"Cockpit</link> zu bedienen und Raketen zu steuern"
 
 #. STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.NAME"
@@ -38924,7 +38829,7 @@ msgstr "Forscher"
 #. STRINGS.DUPLICANTS.SKILLGROUPS.ROCKETRY.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.ROCKETRY.NAME"
 msgid "Pilot"
-msgstr ""
+msgstr "Pilot"
 
 #. STRINGS.DUPLICANTS.SKILLGROUPS.SUITS.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.SUITS.NAME"
@@ -39407,6 +39312,8 @@ msgid ""
 "Hey! Do that into your elbow\n"
 "• Coughing fit was caused by Yucky Lungs"
 msgstr ""
+"Hey! Mach das in deinen Ellbogen\n"
+"• Hustenanfall wurde durch gereizte Lungen verursacht"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.DAILYRATIONLIMITREACHED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DAILYRATIONLIMITREACHED.NAME"
@@ -39765,7 +39672,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
-msgstr ""
+msgstr "Aktuelle Exposition gegenüber {element} mit {rate} Augenreizung"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL"
@@ -40437,20 +40344,14 @@ msgid "This Duplicant has been isolated from the colony"
 msgstr "Dieser Duplikant wurde von der Kolonie isoliert"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.STATUS"
-#| msgid "Stress vomiting"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NAME"
 msgid "Radiation vomiting"
-msgstr "Erbricht sich aus Stress"
+msgstr "Erbrechen durch Strahlung"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NOTIFICATION_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.STATUS"
-#| msgid "Stress vomiting"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NOTIFICATION_NAME"
 msgid "Radiation vomiting"
-msgstr "Erbricht sich aus Stress"
+msgstr "Erbrechen durch Strahlung"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NOTIFICATION_TOOLTIP"
@@ -40466,23 +40367,13 @@ msgstr ""
 "Durch die Strahlenkrankheit mussten sich diese Duplikanten übergeben:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is relieving their <style=\"KKeyword\">Stress</style> all "
-#| "over the floor\n"
-#| "------------------\n"
-#| "Duplicant-related \"spills\" can be cleaned up using the <style=\"KKeyword"
-#| "\">Mop Tool</style> <b><color=#F44A4A>[M]</b></color>"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.TOOLTIP"
 msgid ""
 "This Duplicant is sick due to Radiation poisoning. Duplicant-related \"spills"
 "\" can be cleaned up using the <style=\"KKeyword\">Mop Tool</style> "
 "<b><color=#F44A4A>[M]</b></color>"
 msgstr ""
-"Dieser Duplikant erleichtert seinen <style=\"KKeyword\">Stress</style> überall "
-"auf dem Boden\n"
-"------------------\n"
+"Dieser Duplikant ist aufgrund einer Strahlenvergiftung krank. "
 "Duplikantbezogene \"Leckagen\" können mit dem <style=\"KKeyword\">Wisch-"
 "Werkzeug</style> <b><color=#F44A4A>[M]</b></color> gereinigt werden"
 
@@ -40743,22 +40634,16 @@ msgstr ""
 "Morgen früh wird sein Gefühl eher <link=\"SLEEP\">unausgeschlafen</link> sein"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYFEAROFDARK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYNOISE.NAME"
-#| msgid "Interrupted Sleep: Snoring Friend"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYFEAROFDARK.NAME"
 msgid "Interrupted Sleep: Afraid of Dark"
-msgstr "Unterbrochener Schlaf: Schnarchender Freund"
+msgstr "Unterbrochener Schlaf: Angst vor der Dunkelheit"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYFEAROFDARK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYNOISE.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is having trouble sleeping thanks to a certain noisy someone"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYFEAROFDARK.TOOLTIP"
 msgid ""
 "This Duplicant is having trouble sleeping because of their fear of the dark"
-msgstr "Dieser Duplikant hat Schlafprobleme wegen einer gewissen lauten Person"
+msgstr ""
+"Dieser Duplikant hat aufgrund seiner Angst vor der Dunkelheit Schlafprobleme"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYLIGHT.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYLIGHT.NAME"
@@ -41473,11 +41358,13 @@ msgstr "Reliktjäger"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ARTDOWN.DESC"
 msgid "This Duplicant proudly proclaims they \"can't even draw a stick figure\""
 msgstr ""
+"Dieser Duplikant verkündet stolz, dass er \"nicht einmal ein Strichmännchen "
+"zeichnen kann\""
 
 #. STRINGS.DUPLICANTS.TRAITS.ARTDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ARTDOWN.NAME"
 msgid "Unpracticed Artist"
-msgstr ""
+msgstr "Ungeübter Künstler"
 
 #. STRINGS.DUPLICANTS.TRAITS.ATTRIBUTE_MODIFIERS
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ATTRIBUTE_MODIFIERS"
@@ -41525,11 +41412,13 @@ msgstr "Fressattacken"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.DESC"
 msgid "Never ask this Duplicant to watch your ferns when you go on vacation"
 msgstr ""
+"Bitten diesen Duplikanten niemals, auf deine Farne aufzupassen, wenn du in den "
+"Urlaub fährst"
 
 #. STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.NAME"
 msgid "Plant Murderer"
-msgstr ""
+msgstr "Pflanzenmörder"
 
 #. STRINGS.DUPLICANTS.TRAITS.CALORIEBURNER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CALORIEBURNER.DESC"
@@ -41597,73 +41486,58 @@ msgid "Yokel"
 msgstr "Bauerntölpel"
 
 #. STRINGS.DUPLICANTS.TRAITS.CARINGDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DESCRIPTION"
-#| msgid "This Duplicant's chest congestion is making it difficult to breathe"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CARINGDOWN.DESC"
 msgid ""
 "This Duplicant's lack of bedside manner makes it difficult for them to nurse "
 "peers back to health"
-msgstr "Der festsitzende Schleim dieses Duplikanten macht es ihm schwer zu atmen"
+msgstr ""
+"Der Mangel an Umgangsformen am Krankenbett macht es diesem Duplikanten schwer, "
+"Kollegen wieder gesund zu pflegen"
 
 #. STRINGS.DUPLICANTS.TRAITS.CARINGDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CARINGDOWN.NAME"
 msgid "Unempathetic"
-msgstr ""
+msgstr "Empathielos"
 
 #. STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.TOOLTIP"
-#| msgid "This Duplicant is constructing a new building"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONDOWN.DESC"
 msgid ""
 "This Duplicant has trouble constructing anything besides meaningful friendships"
-msgstr "Dieser Duplikant baut ein neues Gebäude"
+msgstr ""
+"Dieser Duplikant hat Schwierigkeiten, irgendetwas anderes als sinnvolle "
+"Freundschaften aufzubauen"
 
 #. STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONDOWN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.PRODUCER"
-#| msgid "Building Intake"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONDOWN.NAME"
 msgid "Building Impaired"
-msgstr "Gebäudeeingang"
+msgstr "Bauen beeinträchtigt"
 
 #. STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONUP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.REPAIR.TOOLTIP"
-#| msgid "This Duplicant is fixing a broken building"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONUP.DESC"
 msgid "This Duplicant is a swift and skilled builder"
-msgstr "Dieser Duplikant repariert ein kaputtes Gebäude"
+msgstr "Dieser Duplikant ist ein schneller und geschickter Baumeister"
 
 #. STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONUP.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CONSTRUCTIONUP.NAME"
 msgid "Handy"
-msgstr ""
+msgstr "Geschickt"
 
 #. STRINGS.DUPLICANTS.TRAITS.COOKINGDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TIRED.TOOLTIP"
-#| msgid "This Duplicant could use a nice nap"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.COOKINGDOWN.DESC"
 msgid "This Duplicant could probably figure out a way to burn ice cream"
-msgstr "Dieser Duplikant könnte ein schönes Nickerchen gebrauchen"
+msgstr ""
+"Dieser Duplikant könnte wahrscheinlich einen Weg finden, Eiscreme anbrennen zu "
+"lassen"
 
 #. STRINGS.DUPLICANTS.TRAITS.COOKINGDOWN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.STATUS_INACTIVE"
-#| msgid "Switch Inactive"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.COOKINGDOWN.NAME"
 msgid "Kitchen Menace"
-msgstr "Schalter inaktiv"
+msgstr "Küchenplage"
 
 #. STRINGS.DUPLICANTS.TRAITS.DECORDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TRAIN.TOOLTIP"
-#| msgid "This Duplicant is busy training"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DECORDOWN.DESC"
 msgid "This Duplicant's clearly never heard of ironing"
-msgstr "Dieser Duplikant ist mit Training beschäftigt"
+msgstr "Dieser Duplikant hat offensichtlich noch nie etwas von Bügeln gehört"
 
 #. STRINGS.DUPLICANTS.TRAITS.DECORDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DECORDOWN.NAME"
@@ -41676,19 +41550,20 @@ msgid ""
 "This Duplicant's radiant self-confidence makes even the rattiest outfits look "
 "trendy on them"
 msgstr ""
+"Das strahlende Selbstbewusstsein dieses Duplikanten lässt selbst die "
+"schäbigsten Outfits an ihm trendy aussehen"
 
 #. STRINGS.DUPLICANTS.TRAITS.DECORUP.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DECORUP.NAME"
 msgid "Innately Stylish"
-msgstr ""
+msgstr "Von Natur aus stilvoll"
 
 #. STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.SUNNYDISPOSITION.DESC"
-#| msgid "This Duplicant has an unwaveringly positive outlook on life"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC"
 msgid "This Duplicant has a frankly impressive ability to hold this breath"
-msgstr "Dieser Duplikant hat eine unerschütterlich positive Lebenseinstellung"
+msgstr ""
+"Dieser Duplikant hat eine offen gesagt beeindruckende Fähigkeit, den Atem "
+"anzuhalten"
 
 #. STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.NAME"
@@ -41696,20 +41571,14 @@ msgid "Deep Diver's Lungs"
 msgstr "Tiefseetaucherlunge"
 
 #. STRINGS.DUPLICANTS.TRAITS.DIGGINGDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.EMPTYSTORAGE.TOOLTIP"
-#| msgid "This Duplicant is taking items out of storage"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DIGGINGDOWN.DESC"
 msgid "This Duplicant couldn't dig themselves out of a paper bag"
-msgstr "Dieser Duplikant nimmt Gegenstände aus dem Lager"
+msgstr "Dieser Duplikant könnte sich nicht einmal aus einer Papiertüte ausgraben"
 
 #. STRINGS.DUPLICANTS.TRAITS.DIGGINGDOWN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME"
-#| msgid "Digging"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DIGGINGDOWN.NAME"
 msgid "Undigging"
-msgstr "Graben"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.DIVERSLUNG.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DIVERSLUNG.DESC"
@@ -41815,12 +41684,6 @@ msgid "Fussy"
 msgstr "Pingelig"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_DESC"
 msgid ""
 "This Duplicant begins with a pre-learned <style=\"KKeyword\">Skill</style>, "
@@ -41829,9 +41692,12 @@ msgid ""
 "{0}\n"
 "{1}"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant beginnt mit einer vorgelernten <style=\"KKeyword\" "
+">Fertigkeit</style>, hat aber keine erhöhten <style=\"KKeyword\" "
+">Moralanforderungen</style>.\n"
+"\n"
+"{0}\n"
+"{1}"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_NAME"
@@ -41839,25 +41705,15 @@ msgid "Skilled: "
 msgstr "Erfahren: "
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTED_SKILL_SHARED_SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.DESCRIPTION"
-#| msgid "Teaches the most basic level of art skill"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.DESC"
 msgid "Teaches the most basic level of art skill"
 msgstr "Gewährt die grundlegendste Stufe der Kunstfertigkeit"
@@ -41870,28 +41726,18 @@ msgstr "Erfahren: <link=\"JUNIORARTIST\">Kunstgrundlagen</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.DESCRIPTION"
-#| msgid "Allows moderately attractive art to be created"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.DESC"
 msgid "Allows moderately attractive art to be created"
 msgstr "Ermöglicht die Schaffung von mäßig attraktiver Kunst"
@@ -41904,28 +41750,18 @@ msgstr "Erfahren: Ästhetisches Design"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_ARTIST.DESCRIPTION"
-#| msgid "Enables the painting and sculpting of masterpieces"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.DESC"
 msgid "Enables the painting and sculpting of masterpieces"
 msgstr "Ermöglicht das Malen und Modellieren von Meisterwerken"
@@ -41938,30 +41774,18 @@ msgstr "Erfahren: <link=\"MASTERARTIST\">Meisterwerke</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION"
-#| msgid ""
-#| "Allows a Duplicant to operate a <link=\"COMMANDMODULE\">Command Capsule</"
-#| "link> to pilot a rocket ship"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.DESC"
 msgid ""
 "Allows a Duplicant to operate a <link=\"COMMANDMODULE\">Command Capsule</link> "
@@ -41978,28 +41802,18 @@ msgstr "<link=\"ASTRONAUTTRAINEE\">Raketensteuerung</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC"
 msgid "Starts with a Tier 4 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 4 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUT.DESCRIPTION"
-#| msgid "Improves the speed that space missions are completed"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.DESC"
 msgid "Improves the speed that space missions are completed"
 msgstr ""
@@ -42013,28 +41827,18 @@ msgstr "<link=\"ASTRONAUT\">Raketennavigation</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC"
 msgid "Starts with a Tier 5 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 5 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
-#| msgid "Minorly improves a Duplicant's physical strength"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.DESC"
 msgid "Minorly improves a Duplicant's physical strength"
 msgstr "Verbessert die physische Stärke eines Duplikanten geringfügig"
@@ -42047,30 +41851,18 @@ msgstr "Erfahren: <link=\"HANDYMAN\">Verbesserte Stärke</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.DESCRIPTION"
-#| msgid ""
-#| "Allows a Duplicant to empty <style=\"KKeyword\">Pipes</style> without "
-#| "making a mess"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.DESC"
 msgid ""
 "Allows a Duplicant to empty <style=\"KKeyword\">Pipes</style> without making a "
@@ -42087,28 +41879,18 @@ msgstr "Erfahren: <link=\"PLUMBER\">Klempnerei</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
-#| msgid "Marginally improves a Duplicant's construction speeds"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.DESC"
 msgid "Marginally improves a Duplicant's construction speeds"
 msgstr ""
@@ -42122,28 +41904,18 @@ msgstr "Erfahren: <link=\"JUNIORBUILDER\">Verbesserter Bau I</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's construction speeds"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.DESC"
 msgid "Further increases a Duplicant's construction speeds"
 msgstr "Erhöht die Baugeschwindigkeit eines Duplikanten weiter"
@@ -42156,28 +41928,18 @@ msgstr "Erfahren: <link=\"BUILDER\">Verbesserter Bau II</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's construction speeds"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.DESC"
 msgid "Further increases a Duplicant's construction speeds"
 msgstr "Erhöht die Baugeschwindigkeit eines Duplikanten weiter"
@@ -42190,37 +41952,25 @@ msgstr "Erfahren: <link=\"SENIORBUILDER\">Verbesserter Bau III</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.DESCRIPTION"
-#| msgid ""
-#| "Allows Duplicants to cook using the <link=\"COOKINGSTATION\">Electric "
-#| "Grill</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.DESC"
 msgid ""
 "Allows Duplicants to cook using the <link=\"COOKINGSTATION\">Electric Grill</"
 "link>"
 msgstr ""
-"Erlaubt Duplikanten das Kochen mit <link=\"COOKINGSTATION\">Elektrogrill</"
-"link>s"
+"Erlaubt Duplikanten das Kochen mit <link=\"COOKINGSTATION\">Elektrogrills</"
+"link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.NAME"
@@ -42230,28 +41980,18 @@ msgstr "Erfahren: <link=\"JUNIORCOOK\">Grillen</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.DESCRIPTION"
-#| msgid "Improves a Duplicant's cooking speed"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.DESC"
 msgid "Improves a Duplicant's cooking speed"
 msgstr "Verbessert die Kochgeschwindigkeit eines Duplikanten"
@@ -42264,30 +42004,18 @@ msgstr "Geschickt: <link=\"COOK\">Grillen II</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MECHATRONIC_ENGINEER.DESCRIPTION"
-#| msgid ""
-#| "Allows the construction and maintenance of <link=\"SOLIDCONDUIT\">Conveyor "
-#| "Rail</link> systems"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.DESC"
 msgid ""
 "Allows the construction and maintenance of <link=\"SOLIDCONDUIT\">Conveyor "
@@ -42304,37 +42032,25 @@ msgstr "Erfahren: <link=\"MECHATRONICENGINEER\">Mechatronik-Technik</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.DESCRIPTION"
-#| msgid ""
-#| "Minorly increase a Duplicant's farming skills, increasing their chances of "
-#| "harvesting new plant <style=\"KKeyword\">Seeds</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.DESC"
 msgid ""
 "Minorly increase a Duplicant's farming skills, increasing their chances of "
 "harvesting new plant <style=\"KKeyword\">Seeds</style>"
 msgstr ""
 "Verbessert geringfügig die landwirtschaftlichen Fertigkeiten eines Duplikanten "
-"und erhöhet seine Chancen, neue <style=\"KKeyword\">Pflanzensamen</style> zu "
+"und erhöht seine Chancen, neue <style=\"KKeyword\">Pflanzensamen</style> zu "
 "ernten"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.NAME
@@ -42345,30 +42061,18 @@ msgstr "Erfahren: <link=\"JUNIORFARMER\">Verbesserte Landwirtschaft I</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION"
-#| msgid ""
-#| "Enables tending <style=\"KKeyword\">Plants</style>, which will increase "
-#| "their growth speed"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.DESC"
 msgid ""
 "Enables tending <style=\"KKeyword\">Plants</style>, which will increase their "
@@ -42385,28 +42089,18 @@ msgstr "Geschickt: <link=\"FARMER\">Pflanzenpflege</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION"
-#| msgid "Further increases a Duplicant's farming skills"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.DESC"
 msgid "Further increases a Duplicant's farming skills"
 msgstr "Erhöht die landwirtschaftlichen Fertigkeiten eines Duplikanten weiter"
@@ -42419,28 +42113,18 @@ msgstr "Erfahren: <link=\"SENIORFARMER\">Verbesserte Landwirtschaft II</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.HAULER.DESCRIPTION"
-#| msgid "Minorly increase a Duplicant's strength and carrying capacity"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.DESC"
 msgid "Minorly increase a Duplicant's strength and carrying capacity"
 msgstr "Erhöht geringfügig die Stärke und Tragfähigkeit eines Duplikanten"
@@ -42453,30 +42137,18 @@ msgstr "Erfahren: <link=\"HAULER\">Verbesserte Tragfähigkeit I</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION"
-#| msgid ""
-#| "Further increases a Duplicant's strength and carrying capacity for even "
-#| "swifter deliveries"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.DESC"
 msgid ""
 "Further increases a Duplicant's strength and carrying capacity for even "
@@ -42493,30 +42165,18 @@ msgstr "Erfahren: <link=\"MATERIALSMANAGER\">Verbesserte Tragfähigkeit II</link
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MEDIC.DESCRIPTION"
-#| msgid ""
-#| "Allows Duplicants to produce medicines at the <link=\"APOTHECARY"
-#| "\">Apothecary</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.DESC"
 msgid ""
 "Allows Duplicants to produce medicines at the <link=\"APOTHECARY\">Apothecary</"
@@ -42533,30 +42193,18 @@ msgstr "Erfahren: <link=\"MEDIC\">Medizinische Präparation</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MEDIC.DESCRIPTION"
-#| msgid ""
-#| "Trains Duplicants to administer medicine at the <link=\"DOCTORSTATION"
-#| "\">Sick Bay</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.DESC"
 msgid ""
 "Trains Duplicants to administer medicine at the <link=\"DOCTORSTATION\">Sick "
@@ -42573,30 +42221,18 @@ msgstr "Erfahren: <link=\"MEDIC\">Umgang mit Kranken</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.DESCRIPTION"
-#| msgid ""
-#| "Trains Duplicants to operate the <link=\"ADVANCEDDOCTORSTATION\">Disease "
-#| "Clinic</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.DESC"
 msgid ""
 "Trains Duplicants to operate the <link=\"ADVANCEDDOCTORSTATION\">Disease "
@@ -42614,37 +42250,25 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows excavation of very firm materials such as <link=\"GRANITE\">Granite</"
-#| "link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.DESC"
 msgid ""
 "Allows the excavation of <style=\"KKeyword\">Very Firm</style> materials such "
 "as <link=\"GRANITE\">Granite</link>"
 msgstr ""
-"Ermöglicht den Abbau von sehr festen Materialien wie <link=\"GRANITE\">Granit</"
-"link>"
+"Ermöglicht den Abbau von <style=\"KKeyword\">sehr harten</style> Materialien "
+"wie <link=\"GRANITE\">Granit</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME"
@@ -42654,29 +42278,18 @@ msgstr "Erfahren: <link=\"JUNIORMINER\">Schweres Graben</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows the excavation of the element <link=\"KATAIRITE\">Abyssalite</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.DESC"
 msgid ""
 "Allows the excavation of the element <link=\"KATAIRITE\">Abyssalite</link>"
@@ -42691,31 +42304,18 @@ msgstr "Erfahren: <link=\"MINER\">Superschweres Graben</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows the excavation of <style=\"KKeyword\">Nearly Impenetrable</style> "
-#| "elements, including <link=\"DIAMOND\">Diamond</link> and <link=\"OBSIDIAN"
-#| "\">Obsidian</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.DESC"
 msgid ""
 "Allows the excavation of <style=\"KKeyword\">Nearly Impenetrable</style> "
@@ -42734,37 +42334,25 @@ msgstr "Erfahren: <link=\"SENIORMINER\">Superduperschweres Graben</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
-#| msgid ""
-#| "Allows excavation of very firm materials such as <link=\"GRANITE\">Granite</"
-#| "link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.DESC"
 msgid ""
 "Allows the excavation of dangerous materials like <link=\"SOLIDNUCLEARWASTE"
 "\">Corium</link>"
 msgstr ""
-"Ermöglicht den Abbau von sehr festen Materialien wie <link=\"GRANITE\">Granit</"
-"link>"
+"Ermöglicht den Abbau von gefährlichen Materialien wie <link=\"SOLIDNUCLEARWASTE"
+"\">Corium</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME"
@@ -42774,30 +42362,18 @@ msgstr "Erfahren: <link=\"JUNIORMINER\">Hazmat Graben</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC"
 msgid "Starts with a Tier 4 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 4 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
-#| msgid ""
-#| "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</"
-#| "link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC"
 msgid ""
 "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>"
@@ -42813,28 +42389,18 @@ msgstr "Erfahren: <link=\"RANCHING\">Viehzucht I</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.DESCRIPTION"
-#| msgid "Improves a Duplicant's <style=\"KKeyword\">Ranching</style> skills"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.DESC"
 msgid "Improves a Duplicant's <style=\"KKeyword\">Ranching</style> skills"
 msgstr ""
@@ -42849,30 +42415,18 @@ msgstr "Erfahren: <link=\"SENIORRANCHER\">Viehzucht II</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION"
-#| msgid ""
-#| "Allows Duplicants to perform research using a <link=\"ADVANCEDRESEARCHCENTER"
-#| "\">Super Computer</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.DESC"
 msgid ""
 "Allows Duplicants to perform research using a <link=\"ADVANCEDRESEARCHCENTER"
@@ -42889,30 +42443,18 @@ msgstr "Erfahren: <link=\"JUNIORRESEARCHER\">Fortschrittliche Forschung</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.DESCRIPTION"
-#| msgid ""
-#| "Duplicants can perform studies on <style=\"KKeyword\">Geysers</style>, "
-#| "<style=\"KKeyword\">Planetoid</style>, and other geographical phenomena"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.DESC"
 msgid ""
 "Duplicants can perform studies on <style=\"KKeyword\">Geysers</style>, <style="
@@ -42930,30 +42472,18 @@ msgstr "Erfahren: <link=\"RESEARCHER\">Feldstudien</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION"
-#| msgid ""
-#| "Enables Duplicants to study outer space using the <link="
-#| "\"COSMICRESEARCHCENTER\">Virtual Planetarium</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.DESC"
 msgid ""
 "Enables Duplicants to study outer space using the <link=\"COSMICRESEARCHCENTER"
@@ -42970,23 +42500,16 @@ msgstr "Erfahren: <link=\"SENIORRESEARCHER\">Astronomie</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.DESC"
@@ -42994,33 +42517,23 @@ msgid "W.I.P. Skill"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILD_REQUIRES_SKILL"
-#| msgid "Skill: {Skill}"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME"
 msgid "Skilled: W.I.P. Skill"
-msgstr "Fertigkeit: {Skill}"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.DESC"
@@ -43035,28 +42548,18 @@ msgstr "<link=\"SUITEXPERT\">Exosuit Training</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 3 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION"
-#| msgid "Marginally improves a Duplicant's tinkering speeds"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.DESC"
 msgid "Marginally improves a Duplicant's tinkering speeds"
 msgstr "Verbessert die Bastelgeschwindigkeiten eines Duplikanten geringfügig"
@@ -43069,30 +42572,18 @@ msgstr "Erfahren: <link=\"MACHINETECHNICIAN\">Verbessertes Basteln</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 1 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.DESCRIPTION"
-#| msgid ""
-#| "Enables generator <style=\"KKeyword\">Tune-Up</style>, which will "
-#| "temporarily provide improved <style=\"KKeyword\">Power</style> output"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.DESC"
 msgid ""
 "Enables generator <style=\"KKeyword\">Tune-Up</style>, which will temporarily "
@@ -43114,23 +42605,16 @@ msgstr "Fertigkeit: <link=\"POWERTECHNICIAN\">Elektro-Technik</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Beginnt mit einer Stufe 2 <b>Fertigkeit</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
-#| msgid ""
-#| "This Duplicant will receive a temporary <style=\"KKeyword\">Morale</style> "
-#| "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
-#| "introduction"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP"
 msgid ""
 "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
 "drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
 msgstr ""
-"Dieser Duplikant erhält einen temporären <style=\"KKeyword\">Moralbonus</"
-"style>, um die Einführung des neuen <style=\"KKeyword\">Moralsystems</style> "
-"abzufedern"
+"Dieser Duplikant erhält eine kostenlose <style=\"Keyword\">Fertigkeit</style>, "
+"ohne den Nachteil der erhöhten <style=\"Keyword\">Moralanforderungen</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREASEMONKEY.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREASEMONKEY.DESC"
@@ -43146,12 +42630,9 @@ msgid "Grease Monkey"
 msgstr "Schraubenkasper"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP"
-#| msgid "This Duplicant recently had a chance to chat with a friend"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.DESC"
 msgid "This Duplicant regards every plant as a potential friend"
-msgstr "Dieser Duplikant hat sich vor kurzem mit einem Freund unterhalten"
+msgstr "Dieser Duplikant betrachtet jede Pflanze als potenziellen Freund"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME"
@@ -43228,16 +42709,13 @@ msgid "Irritable Bowel"
 msgstr "Reizdarm"
 
 #. STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.TOOLTIP"
-#| msgid "This Duplicant is trying to make one of their peers feel better"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.DESC"
 msgid ""
 "This Duplicant always invites friends over just to make them hook up their "
 "electronics"
 msgstr ""
-"Dieser Duplikant versucht, einen Kollegen dazu zu bringen, sich besser zu "
-"fühlen"
+"Dieser Duplikant lädt Freunde nur ein, damit sie seine elektronischen Geräte "
+"anschließen"
 
 #. STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.NAME"
@@ -43462,20 +42940,14 @@ msgid "Noodle Arms"
 msgstr "Nudelarme"
 
 #. STRINGS.DUPLICANTS.TRAITS.RANCHINGDOWN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.TOOLTIP"
-#| msgid "This Duplicant just needs to rest their eyes for a second"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.RANCHINGDOWN.DESC"
 msgid "This Duplicant just doesn't trust those beady little eyes"
-msgstr "Dieser Duplikant muss sich nur noch einen Moment ausruhen"
+msgstr "Dieser Duplikant traut diesen kleinen Knopfaugen einfach nicht"
 
 #. STRINGS.DUPLICANTS.TRAITS.RANCHINGDOWN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.SIDESCREEN_TITLE"
-#| msgid "Critter Sensor"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.RANCHINGDOWN.NAME"
 msgid "Critter Aversion"
-msgstr "Tier-Sensor"
+msgstr "Tier-Abneigung"
 
 #. STRINGS.DUPLICANTS.TRAITS.RANCHINGUP.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.RANCHINGUP.DESC"
@@ -43483,6 +42955,8 @@ msgid ""
 "The fuzzy snoots! The little claws! The chitinous exoskeletons! This "
 "Duplicant's never met a critter they didn't like"
 msgstr ""
+"Die flauschigen Stupsnasen! Die kleinen Krallen! Die chitinösen Exoskelette! "
+"Dieser Duplikant hat noch nie ein Tier getroffen, das er nicht mochte"
 
 #. STRINGS.DUPLICANTS.TRAITS.RANCHINGUP.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.RANCHINGUP.NAME"
@@ -43525,17 +42999,15 @@ msgid "Pacifist"
 msgstr "Pazifist"
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TIRED.TOOLTIP"
-#| msgid "This Duplicant could use a nice nap"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
 msgid "This Duplicant could lick a Puft's backside and taste nothing"
-msgstr "Dieser Duplikant könnte ein schönes Nickerchen gebrauchen"
+msgstr ""
+"Dieser Duplikant könnte einem Puft den Hintern lecken und nichts schmecken"
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME"
 msgid "Shrivelled Tastebuds"
-msgstr ""
+msgstr "Geschrumpfte Geschmacksnerven"
 
 #. STRINGS.DUPLICANTS.TRAITS.SLOWLEARNER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SLOWLEARNER.DESC"
