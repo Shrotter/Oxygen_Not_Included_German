@@ -518,7 +518,7 @@ msgid ""
 "this module"
 msgstr ""
 "Die aktuelle <style=\"KKeyword\">Raketenplattform</style> hat einen <link="
-"\"MODULARLAUNCHPADPORTSOLID\">Raketenschanluss</link>, der von diese beladen "
+"\"MODULARLAUNCHPADPORTSOLID\">Raketenschanluss</link>, der von dieser beladen "
 "oder entladen kann"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME
@@ -527,7 +527,7 @@ msgid "Unconnected Port Network"
 msgstr "Raketennetzwerk nicht angeschlossen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP
-msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
+msgctxt "STRINGS.BUILDING.STATUSITEMFS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
 msgid ""
 "The <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> attached to the "
 "current <style=\"KKeyword\">Rocket Platform</style> are not the correct type "
@@ -2678,7 +2678,7 @@ msgid ""
 "Duplicants can only exit a tube when there is somewhere for them to land "
 "within <b>two tiles</b>"
 msgstr ""
-"Duplikante können eine Transitröhre nur dann verlassen, wenn sie irgendwo "
+"Duplikanten können eine Transitröhre nur dann verlassen, wenn sie irgendwo "
 "innerhalb von <b>zwei Kacheln</b> landen können"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
@@ -7652,7 +7652,7 @@ msgid ""
 msgstr ""
 "Funktioniert als Kommandomodul und Nasenkonus.\n"
 "\n"
-"Hält einen Duplikanten-Reisenden.\n"
+"Nimmt einen Duplikanten-Reisenden auf.\n"
 "\n"
 "Pro Rakete kann ein Kommandomodul installiert werden.\n"
 "\n"
@@ -7946,7 +7946,7 @@ msgid ""
 "Hydrogen engines can propel rockets further than steam or petroleum engines."
 msgstr ""
 "Wasserstofftriebwerke können Raketen schneller antreiben als Dampf- oder "
-"Benzintriebwerke."
+"Petroleumtriebwerke."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINECLUSTER.EFFECT
 #, fuzzy
@@ -11015,7 +11015,7 @@ msgid ""
 "Duplicants will only improve the efficiency of buildings in the same room as "
 "this station."
 msgstr ""
-"Duplikante verbessern nur die Effizienz von Gebäuden, die sich im selben Raum "
+"Duplikanten verbessern nur die Effizienz von Gebäuden, die sich im selben Raum "
 "wie diese Station befinden."
 
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.EFFECT
@@ -14364,7 +14364,7 @@ msgid ""
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
 "Ermöglicht es Duplikanten, ungewöhnliche oder organische Ressourcen zu "
-"speichern, die bei Weltraummissionen gefunden wurden.\n"
+"lagern, die bei Weltraummissionen gefunden wurden.\n"
 "\n"
 "Die gespeicherten Ressourcen werden der Kolonie nach der Rückkehr der Rakete "
 "zur Verfügung gestellt."
@@ -15266,7 +15266,7 @@ msgstr "<link=\"TRAVELTUBE\">Transportrohr</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC"
 msgid "Duplicants require access points to enter tubes, but not to exit them."
 msgstr ""
-"Zugangspunkte sind erforderlich, damit Duplikanten in die Rohre betreten "
+"Zugangspunkte sind erforderlich, damit Duplikanten die Rohre betreten "
 "können, aber nicht, um sie zu verlassen."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
@@ -28015,7 +28015,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACEDECORPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACEDECORPLANT.NAME"
 msgid "<link=\"SPACEDECORPLANT\">Space Decor Plant Seed</link>"
-msgstr "<link=\"SPACEDECORPLANT\">Weltraumdekopflanzensamen</link>"
+msgstr "<link=\"SPACEDECORPLANT\">Weltraumdekorpflanzensamen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACEPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACEPLANT.DESC"
@@ -28844,7 +28844,7 @@ msgstr "Gefesselt"
 #. STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP"
 msgid "Tied up and ready for relocation"
-msgstr "Eingeschnürt und bereit für die Lieferung"
+msgstr "Eingeschnürt und bereit für die Umsiedlung"
 
 #. STRINGS.CREATURES.STATUSITEMS.BARREN.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.NAME"
@@ -33783,7 +33783,7 @@ msgstr "Hitzeschlag"
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.DESCRIPTION"
 msgid "{Target} perished from excessive radiation exposure."
-msgstr "{Ziel} ist an übermäßiger Strahlenbelastung gestorben."
+msgstr "{Target} ist an übermäßiger Strahlenbelastung gestorben."
 
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME"
@@ -75531,7 +75531,7 @@ msgstr "Typ"
 #. STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION"
 msgid "World Composition"
-msgstr "Welt Zusammensetzung"
+msgstr "Weltzusammensetzung"
 
 #. STRINGS.UI.STARMAP.MANAGEMENT_BUTTON
 msgctxt "STRINGS.UI.STARMAP.MANAGEMENT_BUTTON"
@@ -76732,7 +76732,7 @@ msgstr "Gasanschlüsse dürfen nicht überlappen"
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE"
 msgid "Heavi-Watt connectors cannot be built inside tile"
-msgstr "Starkstromanschlüsse können nicht in einer Kachel gebaut werden"
+msgstr "Starkstromanschlüsse können nicht in einem Ziegel gebaut werden"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND"
@@ -79470,8 +79470,8 @@ msgid ""
 "Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to set a course."
 msgstr ""
 "Kein Ziel ausgewählt.\n"
-"Öffnen die <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color, um einen Kurs "
-"zu Setzen."
+"Öffne die <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color>, um einen Kurs "
+"zu setzen."
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.OPENSTARMAPBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.OPENSTARMAPBUTTON"
@@ -79592,7 +79592,7 @@ msgstr "Dieses Modul kann nicht entfernt werden"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.DESC"
 msgid "Swap this rocket module with the one below"
-msgstr "Tauschen dieses Raketenmodul gegen das darunterliegende aus"
+msgstr "Tausche dieses Raketenmodul gegen das darunterliegende aus"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.INVALID
 msgctxt ""
@@ -79609,7 +79609,7 @@ msgstr "Tausche dieses Raketenmodul gegen das darüberliegenden aus"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEUP.INVALID"
 msgid "No module above may be swapped"
-msgstr "Das darüberliegenden Modul kann nicht getauscht werden"
+msgstr "Das darüberliegende Modul kann nicht getauscht werden"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWEXTERIOR.DESC
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWEXTERIOR.DESC"
@@ -80010,7 +80010,7 @@ msgid ""
 "Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a focus."
 msgstr ""
 "Kein Analysefokus ausgewählt.\n"
-"Öffnen die <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color, um einen "
+"Öffne die <b>Sternenkarte</b> <b><color=#F44A4A>[Z]</b></color>, um einen "
 "Fokus auszuwählen."
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON
@@ -80469,7 +80469,7 @@ msgid ""
 "Please select a passenger:"
 msgstr ""
 "Teleporter bereit.\n"
-"Bitte wählen einen Passagier aus:"
+"Bitte wähle einen Passagier aus:"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE"
@@ -80673,7 +80673,7 @@ msgstr " kg"
 #. STRINGS.UI.UNITSUFFIXES.MASS.MICROGRAM
 msgctxt "STRINGS.UI.UNITSUFFIXES.MASS.MICROGRAM"
 msgid " mcg"
-msgstr " mcg"
+msgstr " µg"
 
 #. STRINGS.UI.UNITSUFFIXES.MASS.MILLIGRAM
 msgctxt "STRINGS.UI.UNITSUFFIXES.MASS.MILLIGRAM"
