@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-25 15:50+0100\n"
-"Last-Translator: Shrotter\n"
+"PO-Revision-Date: 2021-02-25 22:58+0100\n"
+"Last-Translator: CarstenG\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -533,7 +533,7 @@ msgid "Unconnected Port Network"
 msgstr "Raketennetzwerk nicht angeschlossen"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP
-msgctxt "STRINGS.BUILDING.STATUSITEMFS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
 msgid ""
 "The <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> attached to the "
 "current <style=\"KKeyword\">Rocket Platform</style> are not the correct type "
@@ -14166,8 +14166,8 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
-"Ermöglicht es Duplikanten, ungewöhnliche oder organische Ressourcen zu "
-"lagern, die bei Weltraummissionen gefunden wurden.\n"
+"Ermöglicht es Duplikanten, ungewöhnliche oder organische Ressourcen zu lagern, "
+"die bei Weltraummissionen gefunden wurden.\n"
 "\n"
 "Die gespeicherten Ressourcen werden der Kolonie nach der Rückkehr der Rakete "
 "zur Verfügung gestellt."
@@ -15013,8 +15013,8 @@ msgstr "<link=\"TRAVELTUBE\">Transportrohr</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC"
 msgid "Duplicants require access points to enter tubes, but not to exit them."
 msgstr ""
-"Zugangspunkte sind erforderlich, damit Duplikanten die Rohre betreten "
-"können, aber nicht, um sie zu verlassen."
+"Zugangspunkte sind erforderlich, damit Duplikanten die Rohre betreten können, "
+"aber nicht, um sie zu verlassen."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
@@ -34859,8 +34859,8 @@ msgid ""
 "This Duplicant used a <link=\"OUTHOUSE\">Outhouse</link>and liked how "
 "comfortable it felt"
 msgstr ""
-"Dieser Duplikant hat ein <link=\"OUTHOUSE\">Plumpsklo</link> und mochte, wie "
-"bequem es sich anfühlte"
+"Dieser Duplikant hat ein <link=\"OUTHOUSE\">Plumpsklo</link> benutzt und "
+"mochte, wie bequem es sich anfühlte"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME"
@@ -41111,7 +41111,7 @@ msgstr "Fressattacken"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.DESC"
 msgid "Never ask this Duplicant to watch your ferns when you go on vacation"
 msgstr ""
-"Bitten diesen Duplikanten niemals, auf deine Farne aufzupassen, wenn du in den "
+"Bitte diesen Duplikanten niemals, auf deine Farne aufzupassen, wenn du in den "
 "Urlaub fährst"
 
 #. STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.NAME
@@ -41162,7 +41162,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.CANTCOOK.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTCOOK.NAME"
 msgid "Gastrophobia"
-msgstr "Gastrosophie"
+msgstr "Gastrophobie"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTDIG.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTDIG.DESC"
@@ -64108,22 +64108,14 @@ msgid "Asteroid Belt"
 msgstr "Asteroidengürtel"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CLUSTER_CHOICE.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.TOOLTIP"
-#| msgid "New worlds added by mods can be selected here"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CLUSTER_CHOICE.TOOLTIP"
 msgid "New asteroid belts added by mods can be selected here"
 msgstr ""
-"Neue Welten, die von Mods hinzugefügt wurden, können hier ausgewählt werden"
+"Neue Asteroidengürtel, die durch Mods hinzugefügt wurden, können hier "
+"ausgewählt werden"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN."
-#| "TIMELAPSE_DISABLED_DESCRIPTION"
-#| msgid "Disabled"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS."
 "DISABLED.NAME"
@@ -64131,16 +64123,11 @@ msgid "Disabled"
 msgstr "Deaktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS."
-#| "DISABLED.TOOLTIP"
-#| msgid "Unchecked: Sandbox Mode is turned off (Default)"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS."
 "DISABLED.TOOLTIP"
 msgid "Unchecked: <i>Spaced Out!</i> Content is turned off (Default)"
-msgstr "Deselektiert: Sandbox-Modus ausgeschaltet (Standard)"
+msgstr "Deaktiviert: <i>Spaced Out!</i>-Inhalt ist deaktiviert (Standard)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME
 msgctxt ""
@@ -64150,16 +64137,11 @@ msgid "Enabled"
 msgstr "Aktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS."
-#| "ENABLED.TOOLTIP"
-#| msgid "Checked: Sandbox Mode is turned on"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS."
 "ENABLED.TOOLTIP"
 msgid "Checked: <i>Spaced Out!</i> Content is turned on"
-msgstr "Selektiert: Sandbox-Modus eingeschaltet"
+msgstr "Aktiviert: <i>Spaced Out!</i>-Inhalt ist aktiviert"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME
 msgctxt ""
@@ -64173,6 +64155,8 @@ msgctxt ""
 msgid ""
 "If checked, content from the <i>Spaced Out!</i> Expansion will be available"
 msgstr ""
+"Wenn diese Option aktiviert ist, sind Inhalte aus der Erweiterung <i>Spaced "
+"Out!</i> verfügbar"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME
 msgctxt ""
